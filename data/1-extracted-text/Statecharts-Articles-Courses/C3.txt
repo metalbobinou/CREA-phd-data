@@ -1,0 +1,499 @@
+An Introduction to
+Statecharts Modelling and
+Simulation
+Simon Van Mierlo
+simon.vanmierlo@uantwerpen.be
+
+Hans Vangheluwe
+hans.vangheluwe@uantwerpen.be
+
+Complex Systems
+
+• Complexity: timed, autonomous, reactive (to events) behaviour.
+• In contrast to transformational systems, which take input and,
+eventually, produce output.
+
+Modelling Reactive Systems
+• Interaction with the environment: reactive to events.
+l
+e
+v
+e
+l
+w
+• Autonomous behaviour: timeouts.
+o
+”
+l
+w
+o
+o
+o
+h
+t
+“
+s
+i
+.
+s
+)
+vconcurrent units.
+S
+• Describe system with modes (hierarchical)
+”
+and
+O
+t
+a
+d
+h
+n
+a
+w
+(
+“
+e
+:
+g
+m
+a
+s
+u
+i
+• Use programming language
++
+threads
+and
+timeouts
+(OS)?
+l
+g
+a
+n
+a
+m
+l
+r
+o
+g
+f
+n
+i
+e
+t
+m
+a
+i
+m
+r
+a
+psoftware written with threads, semaphores, and
+r“Nontrivial
+o
+g
+r
+o
+p
+r
+p
+P
+a
+t
+s
+1
+o
+mutexes
+are
+incomprehensible
+to
+humans”
+m
+->
+
+1
+
+E. A. Lee, "The problem with threads," in Computer, vol. 39, no. 5, pp. 33-42, May 2006.
+
+Discrete-Event Abstraction
+
+Statecharts
+• Visual (topological, not geometric) formalism.
+• Precisely defined syntax and semantics.
+• Many uses:
+•
+•
+•
+•
+•
+
+Documentation (for human communication)
+Analysis (of behavioural properties)
+Simulation
+Code synthesis
+… and derived, such as testing, optimization, …
+
+Statecharts History
+• Introduced by David Harel in 19871
+• Notation based on higraphs = graphs combined with Venn diagrams
+• Semantics extend deterministic finite state automata with:
+•
+•
+•
+•
+•
+•
+
+2
+
+Depth (Hierarchy)
+Orthogonality
+Broadcast Communication
+Time
+History
+Syntactic sugar, such as enter/exit actions
+
+David Harel, Statecharts: a visual formalism for complex systems, Science of Computer Programming, Volume 8, Issue 3, 1987, Pages 231-274
+
+Running Example
+Controller
+
+input
+
+(Physical) Plant
+
+<<observe>>
+
+output
+
+<<act>>
+
+Environment
+
+Deployment
+(Simulated)
+Plant
+(Physical) Plant
+
+Controller
+system
+input
+
+system
+output
+
+1
+
+Environment
+
+<<observe>>
+
+<<act>>
+
+2
+
+Workflow
+
+Hans Vangheluwe and Ghislain C. Vansteenkiste. A multi-paradigm modeling and simulation methodology: Formalisms and languages. In European
+Simulation Symposium (ESS), pages 168-172. Society for Computer Simulation International (SCS), October 1996. Genoa, Italy.
+4
+FTG+PM: An Integrated Framework for Investigating Model Transformation Chains, Levi Lúcio, Sadaf Mustafiz, Joachim Denil, Hans
+Vangheluwe, Maris Jukss. System Design Languages Forum (SDL) 2013, Montreal, Quebec. LNCS Volume 7916, pp 182-202, 2013.
+3
+
+Requirements
+• R1: Three differently colored lights: red, green, yellow.
+• R2: At most one light is on at any point in time.
+• R3: Initially, the red light is on.
+• R4: Cycles through red on, green on, and yellow on.
+5s
+3s
+2s
+• R5: Duration: Red -> 60s, Green -> 50s, Yellow -> 10s
+• R6: Police can interrupt autonomous operation.
+• Result = blinking yellow light (on -> 1s, off -> 1s).
+
+• R7: Police can resume an interrupted traffic light.
+• Result = light which was on at time of interrupt is turned on again.
+
+Workflow
+
+States
+• R1: Three differently colored lights: red, green, yellow.
+• R2: At most one light is on at any point in time.
+
+o
+{R:
+:
+n, Y
+}
+
+{R
+
+ff,
+Y:
+o
+
+: off
+
+:o
+
+,G
+off
+
+{R
+
+ff,
+G
+
+:o
+n}
+
+,G
+: on
+Y
+,
+: off
+
+}
+: off
+
+(Simulated) Plant
+<<observe>>
+
+Environment
+
+Default State
+• R1: Three differently colored lights: red, green, yellow.
+• R2: At most one light is on at any point in time.
+• R3: Initially, the red light is on.
+o
+{R:
+:
+n, Y
+{R: o
+
+}
+
+ff,
+Y:
+o
+
+: off
+
+:o
+
+,G
+off
+
+{R
+
+ff,
+G
+
+: on
+ff, Y
+
+:o
+n}
+
+, G:
+
+off}
+
+(Simulated) Plant
+<<observe>>
+
+Environment
+
+Transitions
+•
+•
+•
+•
+•
+
+R1: Three differently colored lights: red, green, yellow.
+R2: At most one light is on at any point in time.
+R3: Initially, the red light is on.
+R4: Cycles through red on, green on, and yellow on.
+R5: Duration: Red -> 5s, Green -> 3s, Yellow -> 2s
+
+o
+{R:
+:
+n, Y
+{R: o
+
+event(params) [guard] / output_action(params)
+
+}
+
+ff,
+Y:
+o
+
+: off
+
+:o
+
+,G
+off
+
+{R
+
+ff,
+G
+
+: on
+ff, Y
+
+:o
+n}
+
+, G:
+
+off}
+
+(Simulated) Plant
+<<observe>>
+
+Environment
+
+Yakindu1: Modelling
+
+5
+
+https://www.itemis.com/en/yakindu/state-machine/
+
+Workflow
+
+Yakindu: Simulation
+
+Workflow
+
+Hierarchy
+• R6: Police can interrupt autonomous operation.
+• Result = blinking yellow light (on -> 1s, off -> 1s).
+• R7: Police can resume an interrupted traffic light.
+Semantics/Meaning?
+
+FLATTEN
+
+Statemate, Yakindu, …
+
+Hierarchy: Modified Example
+Semantics/Meaning?
+
+(unwanted) non-determinism!
+FLATTEN
+determinism!
+
+Rhapsody, …
+
+Yakindu: Hierarchy
+
+History
+• R7: Police can resume an interrupted traffic light.
+• Result = light which was on at time of interrupt is turned on again.
+
+H shallow history
+H* deep history
+
+Yakindu: History
+
+Concurrency
+Semantics/Meaning?
+
+FLATTEN
+
+Workflow
+
+Yakindu: Simulation
+
+Workflow
+
+Statecharts Testing
+
+Generator
+
+System Under Study
+
+Acceptor
+
+Zeigler BP. Theory of modelling and simulation. New York: Wiley-Interscience, 1976.
+Mamadou K. Traoré, Alexandre Muzy, Capturing the dual relationship between simulation models and their context,
+Simulation Modelling Practice and Theory, Volume 14, Issue 2, February 2006, Pages 126-142
+6
+7
+
+Orthogonal Components (White-Box)
+
+Workflow
+
+Yakindu: Testing
+
+Yakindu: Testing
+Interface
+Callback
+
+Synchronization
+
+Yakindu: Testing
+
+Workflow
+
+Code Generation
+interrupts
+
+events
+
+Interface:
+• setRed(boolean)
+• setGreen(boolean)
+• setYellow(boolean)
+
+Interface:
+• in event police
+
+Sample
+
+Generated Code
+Files
+
+ 8 files
+ 1311 lines of code
+ 302 manual (UI) code
+
+Interface
+
+Setup Code
+
+Generator
+
+Runner
+
+Deployed Application
+
+Recap
+• Model the behaviour of complex, timed, reactive, autonomous systems.
+• “What” instead of “How” (= implemented by Statecharts compiler)
+
+• Abstractions:
+•
+•
+•
+•
+
+States (composite, orthogonal)
+Transitions
+Timeouts
+Events
+
+• Tool support:
+• Yakindu
+• SCCD8
+Simon Van Mierlo, Yentl Van Tendeloo, Bart Meyers, Joeri Exelmans, and Hans Vangheluwe. SCCD: SCXML extended with class diagrams. In 3rd
+Workshop on Engineering Interactive Systems with SCXML, part of EICS 2016, 2016.
+8
+
+

@@ -1,0 +1,903 @@
+PDO
+ PDO : PHP Data Objects
+ Extension PHP fournissant une interface pour accéder
+
+à une base de données
+ Fournit une interface d'abstraction pour l'accès aux
+données
+ Ne fournit PAS une abstraction de base de données
+ SQL spécifique au moteur
+ Fonctionnalités présentes / absentes
+
+ Interface orientée objet
+20:39:03
+
+Programmation Web 2013-2014
+
+1
+
+Nom du driver
+Bases de données supportées
+Bases
+de
+données
+supportées
+PDO_DBLIB
+FreeTDS / Microsoft SQL Server / Sybase
+PDO_FIREBIRD
+
+Firebird/Interbase 6
+
+PDO_IBM
+
+IBM DB2
+
+PDO_INFORMIX
+
+IBM Informix Dynamic Server
+
+PDO_MYSQL
+
+MySQL 3.x/4.x/5.x
+
+PDO_OCI
+
+Oracle Call Interface
+
+PDO_ODBC
+
+ODBC v3 (IBM DB2, unixODBC et win32 ODBC)
+
+PDO_PGSQL
+
+PostgreSQL
+
+PDO_SQLITE
+
+SQLite 3 et SQLite 2
+
+PDO_4D
+
+4D
+
+20:39:03
+
+Programmation Web 2013-2014
+
+2
+
+20:39:03
+
+Programmation Web 2013-2014
+
+3
+
+Classes prédéfinies
+ PDO :
+
+connexion PHP / base de données
+ __construct()
+ exec(), prepare(), query()
+ errorCode(), errorInfo()
+ getAttributes(), setAttribute()
+ lastInsertId(), quote()
+ beginTransaction()
+ commit(), rollBack()
+ getAvailableDrivers()
+
+20:39:03
+
+Programmation Web 2013-2014
+
+4
+
+Classes prédéfinies
+ PDOStatement :
+
+requête préparée, jeu de résultats
+ bindColumn(), bindParam(), bindValue(), closeCursor()
+ errorCode(), errorInfo()
+ fetch(), fetchAll(), fetchColumn(), fetchObject(),
+
+
+
+
+
+setFetchMode(), nextRowset()
+rowCount(), columnCount(), getColumnMeta()
+getAttribute(), setAttribute()
+execute()
+debugDumpParams()
+
+20:39:03
+
+Programmation Web 2013-2014
+
+5
+
+20:39:03
+
+Programmation Web 2013-2014
+
+6
+
+Connexions et gestionnaire de
+connexion
+ Instanciation d'un objet PDO
+ $dbh=new PDO(DSN [, user [, pass [, options]]]);
+ DSN : Data Source Name
+ nom_du_driver:syntaxe_spécifique_au_driver
+ Ex : mysql:host=localhost;dbname=ma_base
+ user : nom d'utilisateur, pass : mot de passe
+ options : tableau associatif
+ spécifiques au driver
+ Ex : array(PDO::ATTR_PERSISTENT => true)) ;
+ Fin de connexion : $dbh=null ; ou unset($dbh) ;
+20:39:03
+
+Programmation Web 2013-2014
+
+7
+
+20:39:03
+
+Programmation Web 2013-2014
+
+8
+
+Gestion des erreurs de connexion
+ Connexion par construction d'un objet
+ Gestion envisageable des erreurs
+ Aucune
+ Fin brutale (exit, die)
+ État
+ Exception
+ En cas d'erreur de connexion
+ Objet PDOException lancé
+ PDOException hérite de Exception
+20:39:03
+
+Programmation Web 2013-2014
+
+9
+
+Gestion des erreurs de connexion
+<?php
+try {
+$dbh = new PDO('mysql:host=h;dbname=db',
+$user, $pass) ;
+…
+$dbh = null ;
+}
+catch (PDOException $e) {
+echo "Erreur: ".$e->getMessage()."<br/>" ;
+die() ;
+}
+?>
+20:39:03
+
+Programmation Web 2013-2014
+
+10
+
+Gestion des erreurs (hormis
+connexion)
+ PDO::ERRMODE_SILENT (par défaut)
+ Mode silencieux, mise en place d'un code d'erreur
+ PDO : errorCode() / errorInfo()
+ PDOStatement : errorCode() / errorInfo()
+ PDO::ERRMODE_WARNING
+ Mise en place du code d'erreur
+ Émission d'une erreur de type E_WARNING
+ PDO::ERRMODE_EXCEPTION
+ Mise en place du code d'erreur
+ Objet PDOException lancé
+20:39:03
+
+Programmation Web 2013-2014
+
+11
+
+Gestion des erreurs (hormis
+connexion)
+<?php
+try {
+$dbh = new PDO('mysql:host=h;dbname=db',
+$user, $pass) ;
+$dbh->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+…
+$dbh = null ;
+}
+catch (PDOException $e) {
+echo "Erreur: ".$e->getMessage()."<br/>" ;
+die() ;
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+12
+
+Gestion des erreurs : code d'erreur
+<?php
+$pdo = new PDO("mysql:host=localhost") ;
+$pdostat = $pdo->query("COUCOU") ; Code SQLSTATE
+if ($pdo->errorCode()) {
+echo "ERREUR !!\n" ;
+echo "<pre>\n" ;
+Code erreur spécifique
+var_dump($pdo->errorInfo()) ;
+du driver
+echo "</pre>\n" ;
+ERREUR !!
+}
+array(3)
+{
+Chaîne erreur spécifique
+[0]=> string(5) "42000"
+au driver
+[1]=> int(1064)
+[2]=> string(47) "Erreur de syntaxe près de 'COUCOU' à la ligne 1"
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+13
+
+Gestion des erreurs : exceptions
+<?php
+try {
+$pdo = new PDO("mysql:host=localhost") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION)
+Code erreur ;
+spécifique
+du driver
+$pdostat = $pdo->query("COUCOU") ;
+}
+catch Code
+(Exception
+$e) {
+Chaîne erreur spécifique
+SQLSTATE
+au driver
+echo "ERREUR : ".$e->getMessage()
+;
+}
+ERREUR : SQLSTATE[42000]: Syntax error or access violation: 1064
+Erreur de syntaxe près de 'COUCOU' à la ligne 1
+
+20:39:03
+
+Programmation Web 2013-2014
+
+14
+
+20:39:03
+
+Programmation Web 2013-2014
+
+15
+
+Exécution d'une requête
+ PDOStatement PDO::query ( string statement )
+Résultat de requête
+
+Requête
+
+<?php
+try {
+$pdo = new PDO("mysql:host=localhost") ;
+$pdostat = $pdo->query("SELECT * FROM clients") ;
+}
+catch (Exception $e) {
+echo "ERREUR : ".$e->getMessage() ;
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+16
+
+Exploitation des résultats d'une
+requête
+ Récupération des données ligne à ligne
+ Une ligne peut être :
+ un tableau indexé
+ un tableau associatif
+ un tableau mixte (par défaut)
+ un objet anonyme
+ un objet d'une classe définie par l'utilisateur
+ Récupération des données d'une colonne
+
+20:39:03
+
+Programmation Web 2013-2014
+
+17
+
+ Parcourir le résultat de la requête
+
+Parcours
+du
+résultat
+d'une
+requête
+SELECT *
+
+Résultat de requête
+
+FROM morceau
+ORDER BY mor_id
+
+Curseur interne
+
++--------+------------------------------------+
+| mor_id | mor_nom
+|
++--------+------------------------------------+
+|
+872 | With A Little Help From My Friends |
+|
+873 | The Letter
+|
+|
+874 | Marjorine
+|
+|
+875 | Midnight Rider
+|
+|
+876 | You Are So Beautiful
+|
+|
+877 | Feelin' Allright
+|
+|
+878 | Cry Me A River
+|
+...
+20:39:03
+
+Programmation Web 2012-2013
+
+18
+
+Exploitation des résultats d'une
+requête (1)
+try {
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->query("SELECT name FROM user") ;
+$pdostat->setFetchMode(PDO::FETCH_ASSOC) ;
+foreach ($pdostat as $ligne) {
+echo "<p>" . $ligne['name'] . "\n" ;
+}
+}
+catch (Exception $e) {
+echo "ERREUR : ".$e->getMessage() ;
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+19
+
+Exploitation des résultats d'une
+requête (2)
+try {
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->query("SELECT name FROM user") ;
+foreach ($pdostat->fetchAll(PDO::FETCH_ASSOC)
+as $ligne) {
+echo "<p>" . $ligne['name'] . "\n" ;
+}
+}
+catch (Exception $e) {
+echo "ERREUR : ".$e->getMessage() ;
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+20
+
+Exploitation des résultats d'une
+requête (3)
+try {
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->query("SELECT name FROM user") ;
+while ($ligne
+= $pdostat->fetch(PDO::FETCH_ASSOC)) {
+echo "<p>" . $ligne['name'] . "\n" ;
+}
+}
+catch (Exception $e) {
+echo "ERREUR : ".$e->getMessage() ;
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+21
+
+Modes de récupération des
+données (1)
+ PDO::FETCH_ASSOC
+ retourner chaque ligne dans un tableau indexé par les
+noms des colonnes comme elles sont retournées dans le
+jeu de résultats correspondant. Si le jeu de résultats
+contient de multiples colonnes avec le même nom,
+PDO::FETCH_ASSOC retourne une seule valeur par
+nom de colonne.
+ PDO::FETCH_NUM
+ retourner chaque ligne dans un tableau indexé par le
+numéro des colonnes comme elles sont retournées dans
+le jeu de résultats correspondant, en commençant à 0.
+20:39:03
+
+Programmation Web 2013-2014
+
+22
+
+Modes de récupération des
+données (2)
+ PDO::FETCH_BOTH (par défaut)
+ retourner chaque ligne dans un tableau indexé par les
+noms des colonnes ainsi que leurs numéros, comme
+elles sont retournées dans le jeu de résultats
+correspondant, en commençant à 0.
+ PDO::FETCH_OBJ
+ retourner chaque ligne dans un objet avec les noms de
+propriétés correspondant aux noms des colonnes
+comme elles sont retournées dans le jeu de résultats.
+
+20:39:03
+
+Programmation Web 2013-2014
+
+23
+
+Modes de récupération des
+données (3)
+ PDO::FETCH_BOUND
+ retourner true et assigner les valeurs des colonnes du
+jeu de résultats dans les variables PHP auxquelles elles
+sont liées avec la méthode
+PDOStatement::bindParam() ou la méthode
+PDOStatement::bindColumn().
+ PDO::FETCH_CLASS | PDO::FETCH_CLASSTYPE
+ retourner une nouvelle instance de la classe demandée,
+liant les colonnes aux propriétés nommées dans la
+classe.
+Nom de la classe = 1ère colonne.
+20:39:03
+
+Programmation Web 2013-2014
+
+24
+
+Modes de récupération des
+données (4)
+ PDO::FETCH_INTO
+ met à jour une instance existante de la classe demandée,
+liant les colonnes du jeu de résultats aux noms des
+propriétés de la classe.
+ PDO::FETCH_LAZY
+ retourner chaque ligne en tant qu'objet avec les noms
+des attributs correspondant aux noms des colonnes
+retournées dans le jeu de résultats.
+ PDO::FETCH_LAZY crée les noms des attributs de
+l'objet comme ils sont rencontrés.
+20:39:03
+
+Programmation Web 2013-2014
+
+25
+
+Exemple avec PDO::FETCH_CLASS
+$stmt = $pdo->query(<<<SQL
+SELECT id, name
+FROM artist
+WHERE id = 12
+SQL
+) ;
+$stmt->setFetchMode(PDO::FETCH_CLASS, 'Artist') ;
+if (($object = $stmt->fetch()) !== false) {
+return $object ;
+Instancie un objet de la classe Artist
+}
+
+dont les attributs sont supposés être id et name
+
+20:39:03
+
+Programmation Web 2013-2014
+
+26
+
+Préparation d'une requête
+
+
+Déroulement d'une requête SQL
+1.
+2.
+3.
+4.
+
+
+
+
+
+
+Analyse
+Compilation
+Optimisation
+Exécution
+
+Exécution répétée d'une requête : 1+2+3+4
+Préparation d'une requête : 1+2+3
+Exécution répétée d'une requête préparée : 4
+Préparation en fonction de paramètres :
+
+
+
+20:39:03
+
+Anonymes
+Nommés
+Programmation Web 2013-2014
+
+27
+
+20:39:03
+
+Programmation Web 2013-2014
+
+28
+
+Préparation d'une requête
+ PDOStatement PDO::prepare(string statement [, array
+
+driver_options])
+
+ statement : la requête à préparer. Peut contenir des
+
+paramètres anonymes (?) ou nommés (:nom)
+ driver_options : tableau d'options du driver
+ retourne un objet PDOStatement qui effectuera
+l'association des paramètres et exécutera la requête
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdostat = $pdo->prepare(
+"SELECT * FROM user WHERE User= ?") ;
+
+20:39:03
+
+Programmation Web 2013-2014
+
+29
+
+Association des paramètres d'une
+requête
+ bool PDOStatement::bindValue(mixed parameter, mixed
+
+value [, int data_type])
+
+ parameter : le paramètre (nom ou position [1…n])
+ value : sa valeur
+ data_type : le type de la valeur
+ PDO::PARAM_BOOL booléen.
+ PDO::PARAM_NULL NULL SQL.
+ PDO::PARAM_INT
+INTEGER SQL.
+ PDO::PARAM_STR
+CHAR, VARCHAR ou autre chaîne.
+ PDO::PARAM_LOB
+"objet large" SQL.
+
+ bool PDOStatement::execute([array parameters])
+ parameters : tableau associatif ou indexé des valeurs
+20:39:03
+
+Programmation Web 2013-2014
+
+30
+
+Préparation puis exécution d'une
+requête (1)
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->prepare(
+"SELECT * FROM user WHERE
+User=
+?") ;
+paramètre
+anonyme
+$pdostat->bindValue(1, 'root') ;
+$pdostat->execute() ;
+// Utilisation du résultat
+$pdostat->bindValue(1, 'cutrona') ;
+$pdostat->execute() ;
+// Utilisation
+du
+résultat
+Association
+Préparation
+d'une valeur
+valeur
+delalarequête
+au
+requête
+1er paramètre
+Association
+Exécution
+d'une
+de
+au
+1er
+paramètre
+20:39:03
+
+Programmation Web 2013-2014
+
+31
+
+Préparation puis exécution d'une
+requête (2)
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->prepare(
+"SELECT * FROM user WHERE User= :utilisateur") ;
+paramètre nommé
+$pdostat->bindValue(':utilisateur', 'root') ;
+$pdostat->execute() ;
+// Utilisation du résultat
+$pdostat->bindValue(':utilisateur', 'cutrona') ;
+$pdostat->execute() ;
+// Utilisation
+du
+résultat
+Association
+Préparation
+Exécution
+d'une
+valeur
+de
+dela
+au
+larequête
+requête
+paramètre nommé
+20:39:03
+
+Programmation Web 2013-2014
+
+32
+
+Préparation puis exécution d'une
+requête (3)
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->prepare(
+"SELECT * FROM user paramètre
+WHERE User=
+?") ;
+anonyme
+$pdostat->execute(array('root')) ;
+// Utilisation du résultat
+$pdostat->execute(array('cutrona')) ;
+// Utilisation du résultat
+
+Association
+Association
+Préparation
+Exécution
+d'une
+d'une valeur
+valeur
+de
+delalarequête
+au
+au
+requête
+1er
+1er paramètre
+paramètre
+20:39:03
+
+Programmation Web 2013-2014
+
+33
+
+Préparation puis exécution d'une
+requête (4)
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->prepare(
+"SELECT * FROM user WHERE User= :utilisateur")
+paramètre nommé ;
+$pdostat->execute(
+array(':utilisateur' => 'root')) ;
+// Utilisation du résultat
+$pdostat->execute(
+array(':utilisateur' => 'cutrona')) ;
+// Utilisation
+du
+résultat
+Association
+Préparation
+Exécution
+d'une
+valeur
+de
+dela
+au
+larequête
+requête
+paramètre nommé
+20:39:03
+
+Programmation Web 2013-2014
+
+34
+
+Intérêt des requêtes préparées
+ Amélioration des performances en cas d'exécutions
+
+répétées
+
+ Émulation faite par PDO si le driver ne les supporte
+
+pas nativement
+
+ Protection automatique des valeurs des paramètres
+
+pour interdire les attaques par injection de code SQL
+
+20:39:03
+
+Programmation Web 2013-2014
+
+35
+
+20:39:03
+
+Programmation Web 2013-2014
+
+36
+
+Attaque par injection SQL ?
+ Ex : validation d'un login/pass sur un site
+ Requête consistant à trouver un enregistrement
+
+correspondant au couple login/pass fourni par
+l'utilisateur
+ SELECT *
+FROM membre
+WHERE login='{$_GET['login']}'
+AND passwd='{$_GET['passwd']}'
+ Et si on essayait de fournir un mot de passe un peu
+particulier…
+20:39:03
+
+Programmation Web 2013-2014
+
+37
+
+Exemple concret d'injection SQL (1)
+$pdo = new PDO('mysql:host=localhost;dbname=test') ;
+$pdostat = $pdo->query($req = <<<SQL
+SELECT *
+FROM membre
+WHERE login='{$_GET['login']}'
+AND passwd='{$_GET['passwd']}'
+SQL
+) ;
+echo "Requête:\n$req\n" ;
+if ($utilisateur = $pdostat->fetch())
+echo "Bienvenue {$utilisateur['nom']}" ;
+else
+echo "Désolé..." ;
+20:39:03
+
+Programmation Web 2013-2014
+
+38
+
+Exemple concret d'injection SQL (2)
+Saisie de l'utilisateur par formulaire :
+ mail : whatever
+ pass : who_cares?
+
+URL :
+?mail=whatever&passwd=who_cares?
+Requête:
+SELECT *
+FROM membre
+WHERE login='whatever'
+AND passwd='who_cares?'
+Désolé...
+20:39:03
+
+Programmation Web 2013-2014
+
+39
+
+Exemple concret d'injection
+SQL (3)
+Saisie de l'utilisateur :
+ mail : whatever
+ pass : who_cares?' OR true!='
+
+URL :
+?mail=whatever&passwd=who_cares?'%20OR%20true!='
+Requête:
+SELECT *
+FROM membre
+WHERE login='whatever'
+AND passwd='who_cares?' OR true!=''
+Bienvenue John
+20:39:03
+
+Programmation Web 2013-2014
+
+40
+
+Protection contre les injections
+SQL (1)
+$pdo = new PDO('mysql:host=localhost;dbname=test') ;
+$pdostat = $pdo->prepare($req = <<<SQL
+SELECT *
+FROM membre
+WHERE login=?
+AND passwd=?
+SQL
+) ;
+$pdostat->execute(array($_GET['login'],
+$_GET['passwd'])) ;
+if ($utilisateur = $pdostat->fetch())
+{ echo "Bienvenue {$utilisateur['nom']}\n" ; }
+else { echo "Désole...\n"
+; }
+20:39:03
+Programmation Web 2013-2014
+41
+
+Protection contre les injections
+SQL (2)
+$pdo = new PDO('mysql:host=localhost;dbname=test') ;
+$login = $pdo->quote($_GET['login']) ;
+$passwd = $pdo->quote($_GET['passwd']) ;
+$pdostat = $pdo->query($req = <<<SQL
+SELECT *
+FROM membre
+Requête:
+WHERE login=$login
+SELECT
+*
+AND passwd=$passwd
+FROM membre
+SQL
+WHERE login='whatever'
+) ;
+AND passwd='who_cares?\' OR true!=\''
+echo "Requête:\n$req\n" ;
+Désolé...
+if ($utilisateur = $pdostat->fetch())
+{ echo "Bienvenue
+{$utilisateur['nom']}\n" ; } 42
+20:39:03
+Programmation Web 2013-2014
+
+

@@ -1,0 +1,1052 @@
+M2105 : Web Dynamique
+M2105
+Généralités
+Le Langage PHP, Variables
+Ou comment concevoir Condit°/Boucles
+des sites dynamiques Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+Cathy.Escazut@unice.fr
+
+
+Généralités (1)
+●
+PHP : Hypertext Processor
+– Langage créé en 1994 par R. Lerdorf puis repris en 1997
+M2105
+par 2 étudiants (A. Gutmanz & Z. Suraski)
+– Logiciel libre et multi-plateforme
+Généralités
+– Principalement utilisé pour la conception de sites Web
+Variables
+dynamiques :
+Condit°/Boucles
+●
+Traitement des formulaires
+Tableaux
+●
+Accès aux bases de données
+Fonctions
+●
+…
+Formulaires
+– Langage orienté objet et peu typé
+Super Globales
+Sessions
+– Syntaxe proche du C, de Java, …
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+2 / 37
+
+
+Généralités (2)
+●
+Code PHP dans les sites WEB :
+– Intégré au code HTML
+fichier
+M2105
+.php
+<?php
+…
+?>
+– Exécuté sur le serveur
+Généralités
+– Objectif : générer du code HTML qui sera lu par les
+Variables
+navigateurs
+Condit°/Boucles
+Requête du client (.php demandé)
+Tableaux
+http://www … .php
+Serveur
+Fonctions
+WEB
+Client
+Formulaires
+WEB
+Super Globales
+Sessions
+Réponse du serveur (.html envoyé)
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+3 / 37
+
+
+Généralités (3)
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex1.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+4 / 37
+
+
+Variables (1)
+●
+Durée de vie : le temps de la production du HTML
+M2105
+●
+Nom : commence toujours par $
+●
+Distinction entre minuscules et majuscules
+Généralités
+Variables
+●
+Déclaration inutile
+Condit°/Boucles
+●
+Fonctions très utiles :
+Tableaux
+– isset (<nomVar>) : retourne TRUE si <nomVar> est
+Fonctions
+définie, FALSE sinon
+Formulaires
+– empty (<nomVar>) : retourne TRUE si <nomVar> est
+Super Globales
+nulle, vide ou non définie, FALSE sinon
+Sessions
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+5 / 37
+
+
+Variables (2)
+●
+Affectation : =
+– Numérique :
+M2105
+$age=20+$x;
+– Chaîne : $nom="Monsieur".$y;
+– Booléen : $marie=TRUE;
+Généralités
+●
+Variables
+Comparaison :
+==
+!=
+<
+<=
+>
+>=
+Condit°/Boucles
+Tableaux
+●
+Afficher le contenu d'une variable :
+Fonctions
+echo $nom ;
+echo "Je suis {$nom} et j'ai {$age} ans";
+Formulaires
+echo 'Je suis '.$nom.' et j'ai '.$age.'ans';
+Super Globales
+●
+Caractères de dé-spécialisation : \
+Sessions
+echo " \$ \" \\ " ;
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+6 / 37
+
+
+Variables (5)
+●
+2 façons de passer des valeurs d'une page à l'autre :
+– Utiliser l'URL de la page :
+M2105
+http://www.truc.fr/page.php ? nom=Moi& age=20
+Le fichier page.php récupèrera :
+Généralités
+$_GET[' nom'] qui aura la valeur « Moi »
+Variables
+$_GET[' age'] qui aura la valeur 20
+Condit°/Boucles
+Tableaux
+●
+Les valeurs sont passées par la méthode GET.
+
+Fonctions
+●
+Ne pas passer de valeurs sensibles avec la méthode
+Formulaires
+GET car elles sont visibles dans l'URL
+Super Globales
+Sessions
+– Utiliser un formulaire (cf. partie sur les formulaires)
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+7 / 37
+
+
+Structures conditionnelles
+●
+Structure de base :
+M2105
+if (<condition>) {
+<instructions_if> ;
+}
+Opérateurs logiques
+else { // Facultatif
+! && ||
+Généralités
+<instructions_else> ;
+}
+Variables
+Condit°/Boucles
+●
+Structure à choix multiple :
+Tableaux
+switch (<nomVar>) {
+Fonctions
+case <val1> :
+Formulaires
+<instructions1> ;
+case <val2> :
+Penser au break
+Super Globales
+<instructions2> ;
+pour sortir d'un block
+…
+Sessions
+default: // Facultatif
+<instructions> ;
+Cookies
+}
+Web dynamique – Le Langage Php
+Cathy Escazut
+8 / 37
+
+
+Structures itératives
+●
+Structure while :
+M2105
+while (<condition>) {
+<instructions> ;
+}
+Généralités
+Variables
+Condit°/Boucles
+●
+Structure for :
+Tableaux
+for (<init>; <condition> ; <incr>) {
+Fonctions
+<instructions> ;
+Formulaires
+}
+Super Globales
+Sessions
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+9 / 37
+
+
+Tableaux (1)
+●
+Tableaux « séquentiels » :
+M2105
+– Indices : entiers ( indice 1ère case = 0 )
+– Exemples :
+$t[0]="france"; $t[1]="italie"; $t=array("france", "italie");
+Généralités
+– Ajout d'une valeur dans la dernière case du tableau :
+Variables
+<nomTab>[] = <val>;
+Condit°/Boucles
+– Taille d'un tableau : count(<nomTab>)
+Tableaux
+– Parcours d'un tableau :
+Fonctions
+●
+Utilisation d'un for …
+●
+Formulaires
+Utilisation d'un foreach
+Super Globales
+foreach (<nomTableau> as <nomVar>) {
+<instructions> ;
+Sessions
+}
+Cookies
+<nomVar> va prendre toutes les valeurs de
+<nomTableau> et exécuter <instructions> Web dynamique – Le Langage Php
+Cathy Escazut
+10 / 37
+
+
+Tableaux (2)
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex2.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+11 / 37
+
+
+Tableaux (3)
+●
+Tableaux « associatifs » :
+M2105
+– Indices : chaînes de caractères
+– Couples : clé => valeur
+Généralités
+– Clés = valeurs uniques
+Variables
+– Exemples :
+$t['fr']="france"; $t['it']="italie";
+Condit°/Boucles
+$t=array('fr'=>"france", 'it'=>"italie");
+Tableaux
+– Taille d'un tableau : count(<nomTab>)
+Fonctions
+– Parcours d'un tableau :
+Formulaires
+foreach (<nomTableau> as <cle> => <val>) {
+Super Globales
+<instructions> ;
+Sessions
+}
+Cookies
+– Autres tableaux associatifs : $_GET, $_POST, …
+Web dynamique – Le Langage Php
+Cathy Escazut
+12 / 37
+
+
+Tableaux (4)
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex3.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+13 / 37
+
+
+Tableaux (5)
+●
+Affichage des informations concernant un tableau
+(pour le déboggage) :
+M2105
+print_r(<nomTableau>);
+– À mettre en des balises <pre> et </pre>
+Généralités
+– Peut-être utilisé pour n'importe quelle variable
+Variables
+●
+Tri d'un tableau séquentiel
+Condit°/Boucles
+sort(<nomTableau>); // croissant
+Tableaux
+rsort(<nomTableau>); // décroissant
+Fonctions
+●
+Tri d'un tableau associatif
+Formulaires
+ksort(<nomTableau>); // croissant sur la clé
+Super Globales
+krsort(<nomTableau>); // décroissant sur la clé
+Sessions
+asort(<nomTableau>); // croissant sur la valeur
+Cookies
+arsort(<nomTableau>); // décroissant sur la valeur Web dynamique – Le Langage Php
+Cathy Escazut
+14 / 37
+
+
+Tableaux (4)
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex4.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+15 / 37
+
+
+Fonctions (1)
+●
+Écriture d'une fonction :
+M2105
+function <nomFct> (<listeParam>){
+
+<instructions>;
+
+return <varResultat>; // Facultatif
+}
+Généralités
+Variables
+●
+Appel d'une fonction qui ne retourne rien :
+Condit°/Boucles
+<nomFct> (<listeParam>);
+Tableaux
+Fonctions
+●
+Appel d'une fonction qui retourne un résultat :
+Formulaires
+Super Globales
+<nomVar> = <nomFct> (<listeParam>);
+Sessions
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+16 / 37
+
+
+Fonctions (2)
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex5.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+17 / 37
+
+
+Fonctions (3)
+●
+Variables locales :
+– Variables qui apparaissent pour la 1ère fois dans une
+M2105
+fonction
+– Connues et utilisables uniquement dans la fonction
+Généralités
+●
+Variables globales :
+Variables
+– Variables initialisées hors de toute fonction
+Condit°/Boucles
+– Connues et utilisables dans toutes les fonctions
+Tableaux
+– Valeurs stockées dans un tableau associatif : $GLOBALS
+Fonctions
+(cf. partie sur les variables super globales)
+Formulaires
+●
+Clé = nom de la variable globale
+Super Globales
+●
+Valeur = valeur de la variable globale
+Sessions
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+18 / 37
+
+
+Fonctions (4)
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex6.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+19 / 37
+
+
+Fonctions (5)
+●
+La fonction include :
+– Permet d'inclure le contenu d'un fichier
+M2105
+.php
+– Très utile pour :
+●
+Structuration de toutes les pages d'un site
+Généralités
+●
+Déclaration des fonctions, des variables globales, …
+Variables
+– Syntaxe :
+Condit°/Boucles
+include (<nomFic.php>);
+Tableaux
+Fonctions
+●
+Le nom du fichier est une chaîne de caractères, il doit donc être entre guillemets
+Formulaires
+●
+Le contenu de <nomFic.php> sera inséré à la place
+Super Globales
+de l'instruction include
+Sessions
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+20 / 37
+
+
+Fonctions (6)
+●
+La fonction header :
+– Permet de rediriger vers une autre page
+M2105
+– Utilise les en-têtes HTTP
+la fonction doit être appelée au tout début
+Généralités
+– Syntaxe :
+Variables
+header ('Location: <nomFic.php>');
+Condit°/Boucles
+exit();
+Tableaux
+– Ne pas oublier de mettre le exit
+Fonctions
+– Le nom du fichier, <nomFic.php>, peut-être :
+●
+Formulaires
+Un chemin relatif
+●
+Super Globales
+Un chemin absolu
+●
+Une URL (avec éventuellement passage de
+Sessions
+paramètres)
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+21 / 37
+
+
+Fonctions (7)
+●
+Quelques fonctions utiles sur les chaînes :
+–
+strlen (<uneCh>)
+M2105
+retourne la longueur de la chaîne passée en paramètre
+–
+str_replace (
+<quoi>
+,
+<par>
+,
+<uneCh>
+)
+retourne une chaîne où toutes les occurrences de <quoi>
+Généralités
+dans <uneCh> auront été remplacées par <par>
+Variables
+–
+strtolower(
+
+<uneCh>
+)/strtoupper(
+<uneCh>)
+retourne une chaîne où toutes les caractère de <uneCh>
+Condit°/Boucles
+auront été mis en minuscules/majuscules
+Tableaux
+– explode (<sep>, <uneCh>)
+explose
+Fonctions
+<uneCh> en fonction de <sep> et range chaque
+« morceau » dans le tableau qui sera retourné
+Formulaires
+–
+htmlent
+
+ities(
+
+<uneCh>)
+Super Globales
+retourne une chaîne dans laquelle certains caractères de
+<uneCh> seront transformés en HTML (ex : & => &amp; )
+Sessions
+– Et toutes les autres fonctions sur les chaînes référencées sur
+Cookies
+http://fr2.php.net/manual/fr/ref.strings.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+22 / 37
+
+
+Fonctions (8)
+●
+Manipulation des dates :
+– Dates manipulées sous la forme de leur timestamp ( = nombre
+M2105
+de secondes écoulées depuis le 01/01/1970)
+– Fonction
+time ()
+retourne le timestamp correspondant à la date/heure
+Généralités
+courante
+Variables
+– Fonction
+mkt
+ime (
+<h>
+,
+<min>
+,
+<s>
+,
+<d
+>
+,
+<m
+>
+,
+<y>
+)
+retourne le timestamp correspondant à la date spécifiée
+Condit°/Boucles
+en paramètre
+Tableaux
+– Fonction
+date
+(<format>,
+
+<timestamp>
+)
+Fonctions
+retourne une chaîne correspondant au <timestamp> mis en forme suivant <format> qui utilise (entre autres) :
+Formulaires
+s : secondes
+i : minutes
+H : heure
+Super Globales
+d: jour
+m : mois
+y ou Y : année
+Sessions
+– Et toutes les autres fonctions sur les dates référencées sur
+http://fr2.php.net/manual/fr/ref.datetime.php
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+23 / 37
+
+
+Fonctions (9)
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex7.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+24 / 37
+
+
+Formulaires (1)
+RAPPELS
+●
+Informations saisies dans le formulaire HTML seront
+« envoyées » à un script Php. Il y aura donc 2 fichiers :
+M2105
+
+Un fichier .html (ou . php) contenant au moins le code HTML du formulaire
+Généralités
+
+Un fichier .php pour le traitement des
+
+informations en provenance du formulaire
+Variables
+●
+Condit°/Boucles
+Code HTML :
+Tableaux
+<form method='post' action='script.php'>
+<p>
+Fonctions
+<!-- Ici les champs du formulaire -->
+</p>
+Formulaires
+</form>
+Super Globales
+Il faut obligatoirement un champ button de type submit
+Sessions
+●
+Le script script.php récupèrera les données dans
+Cookies
+un tableau ( $_POST )
+Web dynamique – Le Langage Php
+Cathy Escazut
+25 / 37
+
+
+Formulaires (2)
+Fichier HTML contenant le formulaire
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+26 / 37
+
+
+Formulaires (3)
+Fichier PHP pour traiter les données du formulaire
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex8.html
+Web dynamique – Le Langage Php
+Cathy Escazut
+27 / 37
+
+
+Variables Super-Globales (1)
+●
+Variables super-globales :
+– Variables créées automatiquement par PHP au
+M2105
+chargement d'une page .php
+– Connues et accessibles dans toutes les pages du site
+– Leur nom commence toujours par
+Généralités
+$_ et est écrit en
+majuscules ($_GET, $_POST, … )
+Variables
+– Ce sont des tableaux associatifs :
+Condit°/Boucles
+$GLOBALS : toutes les variables globales
+Tableaux
+$_GET : pour passer les variables par l'URL
+Fonctions
+$_POST : pour passer les variables sans passer par l'URL
+Formulaires
+$_SERVER : récupère des informations du serveur
+$_ENV : toutes les variables d'environnement
+Super Globales
+$_FILES : pour envoyer des fichiers sur le serveur
+Sessions
+$_SESSION : partager des variables sur tout le site
+Cookies
+$_COOKIE : pour stocker les cookies enregistrés
+Web dynamique – Le Langage Php
+Cathy Escazut
+28 / 37
+
+
+Variables Super-Globales (2)
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex9.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+29 / 37
+
+
+Variables Super-Globales (3)
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex10.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+30 / 37
+
+
+Variables de session (1)
+●
+Objectif :
+Faire « passer des variables » entre certaines pages du
+M2105
+site ( ≈ variables globales )
+●
+Fonctionnement :
+Généralités
+– À la connexion du client : création d'une session
+Variables
+●
+Attribution d'un identifiant de session
+●
+Condit°/Boucles
+Création du tableau associatif $_SESSION
+Tableaux
+– Les différentes pages pourront stocker (et y accéder) des couples (clé, valeur) dans $_SESSION
+Fonctions
+ex : $_SESSION['prenom']= "Cathy" ;
+Formulaires
+Super Globales
+– À la déconnexion du client : fermeture de la session
+●
+$_SESSION détruit
+Sessions
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+31 / 37
+
+
+Variables de session (2)
+●
+Création d'une session : session_start()
+– Indique que le tableau
+M2105
+$_SESSION peut être utilisé
+dans le script
+– À mettre au tout début su script (avant tout code HTML)
+Généralités
+●
+Fermeture de la session : session_destroy()
+Variables
+– Destruction de $_SESSION
+Condit°/Boucles
+Tableaux
+Si le session_destroy est manquant : destruction
+automatique de $_SESSION après un certain temps
+Fonctions
+d'inactivité ou à la fermeture du navigateur.
+
+Formulaires
+Super Globales
+Sessions
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+32 / 37
+
+
+Variables de session (3)
+Fichier n°1
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex11-1.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+33 / 37
+
+
+Variables de session (4)
+Fichier n°2
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex11-2.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+34 / 37
+
+
+Cookies (1)
+●
+Cookie :
+Un fichier texte laissé par le serveur sur le disque dur
+M2105
+du client dans lequel sont enregistrées des informations sur la visite du site
+Généralités
+●
+Fonctionnement :
+–
+Variables
+Durée de vie limitée
+– Pendant sa durée de vie, les valeurs restent entre 2
+Condit°/Boucles
+visites du site (contrairement aux sessions)
+Tableaux
+●
+Fonctions
+Mise en œuvre : setcookie(<nom>,<val>,<mort>)
+<nom>, <val> : nom et valeur du cookie
+Formulaires
+<mort> : nombre de secondes avant expiration du
+Super Globales
+– Création d'une entrée (<nom>, <val>) dans le tableau
+Sessions
+associatif $_COOKIE
+Cookies
+– À mettre avant tout code HTML (comme les sessions) Web dynamique – Le Langage Php
+Cathy Escazut
+35 / 37
+
+
+Cookies (2)
+●
+Accéder à un cookie :
+Accéder au tableau $_COOKIE en utilisant le nom du
+M2105
+cookie comme clé
+●
+Exemple
+Généralités
+– Création du cookie « id » :
+Variables
+setcookie("id", "Moi", time()+365*24*3600)
+●
+Condit°/Boucles
+Son nom : id
+●
+Tableaux
+Sa valeur : Moi
+●
+Sa durée de vie : 365*24*3600 secondes (= 1an)
+Fonctions
+– Accès à la valeur du cookie «id» : $_COOKIE['id']
+Formulaires
+●
+Super Globales
+Attention : les cookies sont récupérés (màj de $_COOKIE) qu'au chargement de l'en-tête HTTP
+Sessions
+Décalage entre l'écriture d'un cookie et son utilisation
+Cookies
+Web dynamique – Le Langage Php
+Cathy Escazut
+36 / 37
+
+
+Cookies (3)
+M2105
+Généralités
+Variables
+Condit°/Boucles
+Tableaux
+Fonctions
+Formulaires
+Super Globales
+Sessions
+Cookies
+http://iutsa.unice.fr/~escazut/ext/M2105/Cours/Exemples/php_ex12.php
+Web dynamique – Le Langage Php
+Cathy Escazut
+37 / 37
+
+
+Document Outline
+
+Diapo 1
+Diapo 2
+Diapo 3
+Diapo 4
+Diapo 5
+Diapo 6
+Diapo 7
+Diapo 8
+Diapo 9
+Diapo 10
+Diapo 11
+Diapo 12
+Diapo 13
+Diapo 14
+Diapo 15
+Diapo 16
+Diapo 17
+Diapo 18
+Diapo 19
+Diapo 20
+Diapo 21
+Diapo 22
+Diapo 23
+Diapo 24
+Diapo 25
+Diapo 26
+Diapo 27
+Diapo 28
+Diapo 29
+Diapo 30
+Diapo 31
+Diapo 32
+Diapo 33
+Diapo 34
+Diapo 35
+Diapo 36
+Diapo 37
+
+

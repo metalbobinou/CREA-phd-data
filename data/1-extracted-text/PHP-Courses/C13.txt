@@ -1,0 +1,1334 @@
+Projets Web - L3STEP
+
+Laurent Pouilloux : pouillou@ipgp.jussieu.fr
+
+Forum en place
+Projets disponible sur le serveur de cours
+
+Plan du cours
+●
+
+Rappels
+
+●
+
+Le HTML
+
+●
+
+Le CSS
+
+●
+
+PHP/MySQL
+
+Rappels
+●
+
+Fonctionnement d'un ordinateur
+
+●
+
+Les réseaux et Internet
+
+L'ordinateur
+●
+
+●
+
+●
+
+Les fichiers :
+–
+
+Type : ASCII, Binary, ...
+
+–
+
+Extension : .pdf, .exe, .zip
+
+Les types de programmes :
+–
+
+BIOS
+
+–
+
+Système d'exploitation
+
+–
+
+Taches de fonds
+
+–
+
+Applications utilisateurs
+
+Le matériel
+
+Les types de programmes
+APPLICATIONS
+
+Serveur ftp
+Serveur ssh
+
+Firefox
+
+Matlab
+
+Serveur Web
+Applications utilisateurs
+
+Système d'exploitation (Linux, Mac OS, Windows ...)
+
+BIOS
+
+Le matériel
+
+Rappels
+●
+
+Fonctionnement d'un ordinateur
+
+●
+
+Les réseaux et Internet
+
+Les réseaux
+●
+
+●
+
+Communication entre les machines
+Mise en commun de nombreuses
+informations
+
+●
+
+Protocoles
+
+●
+
+Internet
+
+Internet
+●
+
+Le web (Internet Explorer, Firefox, ...)
+
+●
+
+Le mail (Outlook Express, Thunderbird, ...)
+
+●
+
+Les clients de communications instantanés
+(MSN, Gaim, Skype, ...)
+
+●
+
+Les clients peer-to-peer (μ torrent, Emule)
+
+Le serveur web
+Ordinateur Client
+
+Envoi d'une
+requète
+
+SERVEUR HTML
+
+Envoi
+d'une page
+page1
+
+●
+
+page2
+
+page3
+
+page4
+
+Informations stockées sur un serveur : pages HTML, pages
+dynamiques, bases de données
+
+●
+
+Répertorié par une adresse ou URL = Uniform Resource Locator
+
+●
+
+Envoi d'une requête par le client
+
+●
+
+Envoi d'une page au format HTML (+ autres composantes) en réponse
+
+Les Langages
+que nous allons voir
+●
+
+HTML (HyperText Markup Language)
+–
+
+Langage interprétatif
+
+–
+
+Principe : Utilisation de balises pour mettre en forme les
+informations
+
+●
+
+CSS (Cascading Style Sheet)
+
+●
+
+PHP : langage de programmation
+
+●
+
+MySQL : système de gestion open source de bases de
+données
+
+Votre page web
+●
+
+Ouvrir un terminal
+
+●
+
+mkdir public_html
+
+●
+
+cd public_html
+
+●
+
+touch mapage.html
+
+●
+
+nedit mapage.html &
+
+●
+
+Ouvrir le fichier avec le navigateur
+
+Plan du cours
+●
+
+Rappels
+
+●
+
+Le HTML
+
+●
+
+Le CSS
+
+●
+
+PHP/MySQL
+
+Le HTML
+●
+
+●
+
+Principe d'une balise
+–
+
+Inline : <balise/>
+
+–
+
+Block : <balise> ... </balise>
+
+Attributs de balise
+–
+
+●
+
+<balise attribut1=toto ...> information à mettre en
+forme </balise>
+
+Utilisation de langage externe (Flash, Java
+Script, CSS, ...)
+
+Structure d'une page web
+
+Limite de la page
+
+En tête de la page
+
+Corps de la page
+
+Mise en forme du texte
+●
+
+Sauter une ligne :
+
+<br/>
+
+●
+
+Créer des parapraphes
+
+<p></p>
+
+●
+
+Créer des titres
+
+<h1></h1> <h2></h2>
+
+●
+
+Gras, italique
+
+<strong></strong>, <em></em>
+
+●
+
+Indice, exposant
+
+<sub> </sub>, <sup></sup>
+
+●
+
+Expliquer un sigle
+
+<acronym title='Science de la Terre,
+de l'Univers et des Planètes'>
+STEP </acronym>
+
+Les liens
+●
+
+Sert à sauter d'une page à une autre
+
+●
+
+Lien absolu
+–
+
+●
+
+Lien relatif
+–
+
+●
+
+<a href="http://www.site.fr"> site </a>
+
+<a href="accueil.html>Retour à l'accueil</a>
+
+Envoyer un mail
+–
+
+<a href="mailto:toto@toto.fr> Ecrire à toto </a>
+
+Les ancres
+●
+
+Sert de point d'ancrage au sein d'une page
+
+●
+
+Créer une ancre
+–
+
+●
+
+<a name="ancre2"> ... </a>
+
+Lien vers l'ancre
+–
+
+<a href="page.html#ancre2"> Descendre dans la page </a>
+
+Les images
+●
+
+Insertion d'image de trois types :
+–
+
+jpg : photo
+
+–
+
+png : dessin
+
+–
+
+gif : animation
+
+●
+
+mkdir images
+
+●
+
+Récupérer une image sur internet
+
+●
+
+Insérer
+–
+
+<img src='image/image.png' />
+
+Les listes
+●
+
+Entrée dans une liste
+–
+
+●
+
+Liste ordonnée
+–
+
+●
+
+<ol> </ol>
+
+Liste non-ordonnée
+–
+
+●
+
+<li> toto </li>
+
+<ul> </ul>
+
+Jouer sur les attributs
+
+Bilan du 1er cours
+●
+
+Principe du HTML
+
+●
+
+Balises de Bases
+
+●
+
+Habillage du texte
+
+Création de votre site
+●
+
+Structure du site
+
+●
+
+Création d'un design
+–
+
+Balises
+
+–
+
+CSS
+
+Structure du site web
+mapage.html
+
+cv.html
+
+monprojet.html
+
+liens.html
+
+Nécessité d'un menu et d'un
+design commun pour toutes les
+pages.
+
+...
+
+Créer un tableau
+<table width="100%" height="100%" border="1"
+cellpadding="0" cellspacing="5">
+<tr><td colspan="2" height="120px"
+align="center">Bienvenue sur mon site</td>
+</tr>
+<tr><td width="120px" rowspan="2">Menu</td>
+<td align="justify" valign="top"
+
+height="200px">Ceci va servir pour mettre du texte variable.
+
+</td>
+</tr>
+<tr>
+<td align="center">Page pour apprendre
+à faire un tableau</td>
+</tr>
+</table>
+
+Et le résultat
+
+Création du menu
+●
+
+Ajouter le texte suivant dans la colonne
+menu
+
+<h3> Menu</h3>
+<ul><li><a href="mapage.html">Accueil</a></li>
+<li><a href="CV.html">Curiculum Vitae</a></li>
+<li><a href="monprojet.html">Mon projet</a></li>
+<li><a href="liens.html">Liens</a></li>
+</ul>
+
+Et le résultat ...
+
+Le CSS
+●
+
+●
+
+Ajout d'attributs spéciaux :
+–
+
+id : identifiant unique de la balise.
+
+–
+
+class : création d'une nouvelle classe de balise
+
+Ajouter dans le fichier html :
+
+<link rel="stylesheet" media="screen"
+type="text/css" title="Design PC"
+href="monstyle.css"/>
+entre les balises <meta></meta>
+●
+
+touch monstyle.css
+
+Modification de balises
+●
+
+Changeons le style du
+corps de la page
+
+●
+
+h1{
+
+body{
+
+font-family:Arial;
+
+margin:0px;
+
+font-color:#FF1693;
+
+backgroundcolor:#0d1693;
+
+font-size:20px;
+
+}
+●
+
+Texte mis en valeur
+
+strong{
+
+}
+●
+
+Les paragraphes
+
+p{
+text-align:justify;
+
+text-decoration:underline
+}
+
+Les grands titres
+
+text-indent:20px;
+}
+
+Les pseudo-formats
+●
+
+Changer la première lettre
+
+p:first-letter {
+font-weight: bold;
+font-size: 1.2em;
+color: blue;}
+●
+
+Faire des liens qui changent de couleur
+
+a:hover {
+text-decoration: underline;
+color: green;
+}
+
+Création des classes et id
+●
+
+Remplacer les attributs de cellules par :
+<table class="table_struct">
+<tr>
+<td id="header" colspan="2">Bienvenue sur mon site</td>
+</tr>
+<tr>
+<td id="menu" rowspan="2">
+....
+
+●
+
+Faire la même chose pour le contenu et le
+footer
+
+Changer l'apparence de nos
+nouvelles balises
+●
+
+Modifier monstyle.css
+
+●
+
+Pour les class :
+.table_struc{
+width="100%";
+height="100%"}
+
+●
+
+Pour les id :
+#header{
+height: 120px;
+background-color:#ffde00}
+
+Mettre une image en fond
+●
+
+Téléchargez une image en fond
+
+●
+
+On utilise l'attribut CSS suivant :
+background-image:url("images/monimage.png");
+
+●
+
+Si on ne veut pas la répéter :
+background-image:url("images/monimage.png") no-repeat;
+
+●
+
+Ou encore :
+background-image:url("images/monimage.png") repeat-x;
+
+Créons des images
+●
+
+GIMP : GNU image manipulation program
+
+●
+
+Ouvrir un terminal
+
+●
+
+gimp
+
+L'interface
+●
+
+Les outils
+
+●
+
+La couleur
+
+●
+
+●
+
+Les attributs de
+couleur
+CREATION DE
+VOTRE BANNIERE
+
+Etape 1 : créer un texte
+●
+
+Fichier > Nouveau Fichier
+
+●
+
+Taille : 1024x120, fond: Blanc
+
+●
+
+Dialogues > Calques
+
+●
+
+Cliquez sur l'outil texte :
+
+●
+
+–
+
+Sélectionnez une police
+
+–
+
+Sélectionnez une taille : 34px
+
+Tapez le titre de votre projet ou autre
+
+Résultat
+
+Etape 2 :
+●
+●
+
+Sauvegardez le fichier
+Cliquez droit sur le calque de texte et
+fusionner le vers le bas
+
+●
+
+Calque>Couleurs>inverser
+
+●
+
+Sauvegardez
+
+Etape 3 : appliquer des filtres
+●
+
+Filtres>Flou>Flou gaussien
+
+●
+
+Calque>Nouveau Calque
+
+●
+
+Au choix :
+
+●
+
+–
+
+Filtres>Rendu>Nuages>Plasma
+
+–
+
+Filtres>Rendu>Motifs>Motifs de diffraction
+
+Sauvegardez
+
+Etape 4 : Filtres et masque
+●
+
+Filtres>Artistiques>GIMPressionnist
+
+●
+
+Filtres>Carte>Repousser d'après une carte
+
+●
+
+Cliquez droit sur le calque et ajouter un
+masque blanc
+
+Etape 5 : dupliquer une zone de
+texte et appliquer le masque
+●
+
+Cliquez sur le calque de texte
+
+●
+
+Copier le calque (Ctrl-C)
+
+●
+
+Cliquez le masque du calque de fond
+
+●
+
+Coller (Ctrl-V)
+
+●
+
+Ancrer le calque
+
+Etape 6 : Mettre une couleur de
+fond
+●
+●
+
+●
+
+Cliquez à nouveau sur le cadre de texte
+Créer un nouveau calque nommé couleur de
+fond
+Remplir avec la couleur de votre choix
+–
+
+Sélection>Tout
+
+–
+
+Choisir une couleur
+
+–
+
+Remplir
+
+Etape 7 : régler les niveaux de
+couleur
+●
+
+●
+
+●
+
+Cliquez sur le masque du
+calque supérieur
+Calque>Couleurs>niveaux
+Réglez les triangles de
+manière à faire ressortir le titre
+
+Etape 8 : Création d'une ombre
+portée
+●
+
+Cliquez sur le calque supérieur
+
+●
+
+Calque>Dupliquez le calque
+
+●
+
+●
+
+●
+●
+
+Sur le nouveau calque, Calque>appliquer le
+calque
+Cliquez que la case pour préserver la
+transparence
+Coloriez en noir le nouveau calque
+Décochez la case et déplacer avec les
+flèches le calque
+
+Et vous avez le résultat final
+suivant !
+
+●
+
+Télécharger the GIMP :
+–
+
+●
+
+http://www.gimp-fr.org/news.php
+
+Touver des tutoriaux
+–
+
+http://www.gimp.org/tutorials/
+
+Les pages Web dynamiques
+●
+
+●
+
+Gestion de contenu stockés dans des bases
+de données
+Génération de pages HTML par un langage
+
+Le PHP
+●
+
+Un langage dédié au web
+
+●
+
+Toutes les composantes classiques
+
+●
+
+–
+
+Variables
+
+–
+
+Boucles
+
+–
+
+Conditions
+
+–
+
+Fonctions
+
+Interfacé avec MySQL
+
+Premier cours
+●
+
+Variables
+
+●
+
+Fonctions
+
+●
+
+Boucles
+
+●
+
+Conditions
+
+Insérer du PHP
+<html>
+<head>...</head>
+<body>
+<? echo "PHP fonctionne !"; ?>
+</body>
+</html>
+
+Les variables
+●
+
+Une variable est un nom auquel est associé
+une valeur.
+–
+
+●
+
+●
+
+Ex : $prenom, $nombre, $test.
+
+Affectation :
+–
+
+Texte : $prenom="Laurent";
+
+–
+
+Nombre : $nombre=3.5;
+
+–
+
+Booléen : $test = true;
+
+Affichage :
+–
+
+echo $prenom;
+
+Pratique pour faire du calcul
+<?
+$a=1;
+$b=3;
+$c=$a+$b;
+echo $c.'='.$a.'+'.$b;
+?>
+
++
+*
+/
+
+Addition
+Soustraction
+Multiplication
+Division
+
+Transmettre une variable
+●
+
+Dans un lien
+–
+
+●
+
+<a href="mapage.php?a=1&b=2">Aller vers la
+page mapage.php en lui envoyant la variable
+nom ayant pour valeur Lolo</a>
+
+Dans un formulaire, on verra cela plus tard
+
+Les fonctions
+●
+
+Déclaration :
+function DireBonjour($nom)
+{
+echo "Bonjour $nom !<br />";
+}
+
+●
+
+Utilisation :
+–
+
+DireBonjour("Gérard Majax");
+
+Les boucles
+●
+
+Pour faire une action répétée
+●
+
+While ($condition == true)
+{
+// instructions à répéter
+}
+
+●
+
+For ($i = 1; $i < 100; $i = $i + 1)
+{
+echo "Ceci est la ligne ".$i;
+}
+
+Les conditions
+●
+
+Structure if ... then ... else
+–
+
+$test = 15;
+if ($test >= 10)
+{ echo "Bravo !<br />"; }
+else
+{ echo "Echec au test <br />"; }
+
+●
+
+Structure if ... then ... else
+–
+
+switch($variable){
+
+case "value1": ... break;
+case "value2": ... break;
+case "value3": ... break;}
+
+Résumé des cours précédents
+●
+
+HTML : structure de la page
+
+●
+
+CSS : habillage de la page
+
+●
+
+Gimp : création d'images
+
+●
+
+Introduction de PHP : génération de pages.
+
+Rendre votre site accessible
+●
+
+Ouvrir terminal
+
+●
+
+Laisser accessible à la lecture
+–
+
+●
+
+Autoriser l'execution
+–
+
+●
+
+chmod a+r public_html
+chmod a+x .
+
+Rendez vous sur votre page
+–
+
+http://pams.script.univ-paris7.fr/~login/
+
+Les bases de données
+●
+
+Données stockées dans des tables
+
+Créer votre base MySQL
+●
+
+Aller sur le site :
+–
+
+●
+
+●
+
+Remplissez le formulaire
+
+On va maintenant apprendre à remplir votre
+base
+
+Connexion, Sélection,
+Déconnexion
+●
+
+Pour se connecter, on a besoin :
+–
+
+Du nom de l'hôte
+
+–
+
+D'un login
+
+–
+
+D'un mot de passe
+
+<?
+mysql_connect("hote", "login", "password");
+mysql_select_db("login");
+// Travail sur la base, création de la page, ....
+mysql_close(); ?>
+
+Faire une requète
+●
+
+Déclarer la requète
+–
+
+●
+
+Récupérer le résultat de la requète
+–
+
+●
+
+$query='...';
+$resultat=mysql_query($query);
+
+Stocker le résultats de la requète dans un
+tableau
+–
+
+$donnees=mysql_fetch_array($resultat);
+
+Création d'une table
+●
+
+Sur une nouvelle page appellée creation_table_news.php :
+
+mysql_select_db("login");
+$query='CREATE TABLE `news` (
+`id` MEDIUMINT NOT NULL AUTO_INCREMENT ,
+`date_in` DATE NOT NULL ,
+`login` TEXT NOT NULL,
+`titre` TEXT NOT NULL ,
+`contenu` TEXT NOT NULL ,
+INDEX ( `id` )
+);'
+mysql_query($query);
+
+Retour à PHP : les tableaux
+●
+
+Tableaux simples
+$prenoms = array ("François", "Michel", "Nicole", "Véronique",
+"Benoît");
+echo $prenoms[2];
+
+●
+
+Tableaux associatifs
+$coordonnees = array (
+"Prénom" => "François",
+"Nom" => "Dupont",
+"Adresse" => "3, rue du Paradis",
+"Ville" => "Marseille");
+echo $coordonnees['Ville'];
+
+Création d'une page de news
+●
+
+touch news.php
+
+●
+
+Connexion et déconnexion
+
+echo '<h1>Bienvenue sur ma page de news</h1>';
+$query='SELECT * FROM news ORDER BY date_in';
+$result=mysql_query($query);
+while($donnees=mysql_fetch_array($result))
+{echo '<h3>'.$donnees['titre'].'</h3>';
+echo '<p>'.$donnees['contenu'].'</p>';
+echo '<div align=''right''>'.$donnees['login'].' - '.$donnees['date_in'].'</div>';
+}
+●
+
+Pour l'instant la page doit être quasiment vide
+
+Insérez des éléments
+●
+
+Création d'une nouvelle page news.php
+
+●
+
+On va entrer deux nouvelles news dans la table
+
+$date = date('Y/m/d');
+$query= 'INSERT INTO news VALUES(\' \',\''.$date.'\',\'pouillou\',
+\'Nouvelle news\',\'Le principe de MySQL est relativement
+simple\')';
+mysql_query($query);
+
+●
+
+Et si on ne connait pas le contenu des nouvelles
+news ?
+
+Modification, suppression de
+données
+●
+
+Mise à jour
+–
+
+●
+
+UPDATE news SET login='Moi', ' WHERE id='1'
+
+Suppression
+–
+
+DELETE FROM news WHERE titre='Nouvelle
+news'
+
+Les formulaires
+●
+
+Supprimer les lignes d'insertion et ajouter après l'affichage
+le code HTML suivant :
+<h4>Poster une news</h4>
+<form action="news.php" method="post">
+Pseudo : <input name="login"/><br/>
+Titre : <input name="titre"/><br/>
+Contenu :<textarea name="contenu" cols="30"
+rows="8">Entrez le contenu de votre news
+ici.</textarea><br/>
+<input type="submit"/>
+</form>
+
+Créer une requète à exécuter
+●
+
+En haut de la page, après mysql_select_db.
+
+if (isset($_POST['login']))
+{
+$login=$_POST['login'];
+$titre=$_POST['titre'];
+$contenu=$_POST['contenu'];
+$query="INSERT INTO news VALUES('
+','".date('Y/m/d')."','".$login."','".$titre."','".$contenu."')";
+echo $query;
+mysql_query($query);
+}
+
+Un site de news simple !
+
+Bilan
+●
+
+Principe du HTML et du CSS
+
+●
+
+Principe du PHP et de MySQL
+
+●
+
+Il reste beaucoup de choses à apprendre ...
+
+Conseils divers
+●
+
+Définir la structure de votre projet
+
+●
+
+Définir la structure du site
+
+●
+
+Codez proprement
+
+●
+
+Aller cherchez des informations sur Internet
+
+Des sites utiles
+●
+
+Des cours bien faits
+–
+
+●
+
+Des tutoriaux Gimp
+–
+
+●
+
+●
+
+http://www.siteduzero.com/
+http://www.gimp.org/tutorials/
+
+Des contenus complets
+–
+
+http://www.phpdebutant.org/
+
+–
+
+http://www-fr.mysql.com/
+
+–
+
+http://www.allhtml.com/
+
+Des codes sources
+–
+
+http://www.phpcs.com/
+
+A vous de jouer
+
+

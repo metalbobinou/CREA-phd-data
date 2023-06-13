@@ -1,0 +1,4373 @@
+Programmation Web :
+PHP
+
+Avec l'aimable autorisation de
+Jérôme CUTRONA
+
+PHP: Langage de script pour le Web
+ Qu’est-ce que PHP ?
+
+
+
+
+
+
+
+
+Langage de script. Utilisé coté serveur
+Acronyme récursif : PHP: Hypertext Preprocessor
+Créé en 1994-1995 par Rasmus Lerdorf
+Extension utilisée sur certains serveurs Web (33%)
+Langage multi plate-forme (UNIX / Windows…)
+Open Source
+Versions actuelles (source nexen.net) :
+ PHP4 (52% en octobre 2008)
+ PHP5 (48% en octobre 2008)
+
+10:11:04
+
+Programmation Web 2012-2013
+
+2
+
+Utilité et utilisation de PHP
+ Création de pages HTML « dynamiques »,
+fabriquées à la volée, construite à la demande
+ Interface entre un serveur Web et des bases de
+données
+ Création d’applications Web
+
+10:11:04
+
+Programmation Web 2012-2013
+
+3
+
+Principales fonctionnalités de PHP
+
+
+
+
+
+
+
+
+
+
+Manipulation de chaînes et tableaux
+Calendrier / dates / heures
+Fonctions mathématiques
+Accès au système de fichiers
+Manipulation d’images
+HTTP / FTP / IMAP
+Bases de données (Oracle, MySQL, …)
+XML
+…
+
+10:11:05
+
+Programmation Web 2012-2013
+
+4
+
+Fonctionnement de PHP
+Requête
+HTTP
+du
+client
+(((port
+hello.php
+))
+Rendu
+Localisation
+Connexion
+Exécution
+Fermeture
+graphique
+du
+de
+sur
+de
+du
+code
+la
+le
+la
+code
+connexion
+serveur
+des
+ressource
+PHP
+PHP
+données
+dans
+le
+Envoi
+résultat
+au
+client
+Localisation
+Rendu
+Exécution
+Fermeture
+Connexion
+Requête
+graphique
+HTTP
+du
+de
+sur
+de
+du
+code
+la
+le
+la
+code
+du
+connexion
+serveur
+des
+ressource
+client
+PHP
+PHP
+données
+(port
+hello.php
+dans80)
+80)
+le fichier
+fichier
+Envoi du
+du
+résultat
+au
+client
+== réponse
+réponse HTTP
+HTTP
+
+Client
+Client
+GET
+Navigateur
+GET /hello.php
+/hello.php HTTP/1.0
+HTTP/1.0
+Réseau
+•HTML
+Réseau
+•JavaScript
+•CSS
+Protocole
+Protocole HTTP
+HTTP
+
+Exécution
+Exécution d’un
+d’un programme
+programme sur
+sur le
+le serveur
+serveur
+Construction
+de
+la
+réponse
+Construction
+de
+la
+réponse
+<<html
+>
+html>
+
+<<head
+head>>
+Serveur
+Serveur
+<<title
+title>>Hello
+Hello</
+</title
+title>>
+
+</
+</head
+head>>
+Serveur
+Web
+.html
+<<body
+body>>Hello
+Hello world
+world</
+</body
+body>>
+.php
+</
+</html
+html>>
+.jpg
+
+Module PHP
+MySQL
+10:11:05
+
+<?php
+<?php
+echo
+hello.php
+echo <<<
+<<<HTML
+HTML
+hello.php
+<<html
+>
+html>
+<<head
+head>>
+<<title
+title>>Hello
+Hello</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>Hello
+Hello world
+world</
+</body
+body>>
+</
+</html
+html>>
+HTML;
+HTML;
+
+Programmation Web 2012-2013
+
+5
+
+Fonctionnement de PHP
+Client  Serveur
+1.
+2.
+3.
+4.
+5.
+
+Connexion TCP sur le serveur (port 80)
+Requête HTTP du client (mon_fichier.php)
+Localisation de la ressource
+Exécution du code PHP
+Envoi du résultat de l’exécution au client
+= réponse HTTP
+6. Fermeture de la connexion
+7. Rendu graphique des données (HTML, image, …)
+10:11:05
+
+Programmation Web 2012-2013
+
+6
+
+Programme en PHP
+Délimitation du code PHP dans le fichier .php :
+ <?php Code PHP ?> Fermeture
+Fermeture optionnelle
+optionnelle
+ <script language="PHP">
+
+Confusion
+Confusion avec
+avec JavaScript
+JavaScript
+
+ àà bannir
+bannir !!!!
+
+Code PHP
+</script>
+
+
+
+
+<? Code PHP ?>
+<% Code PHP %>
+
+10:11:06
+
+Dépend
+Dépend de
+de la
+la configuration
+configuration
+short_open_tag
+short_open_tag
+du
+du serveur
+serveur
+asp_tags
+asp_tags
+
+ àà bannir
+bannir !!!!
+
+Programmation Web 2012-2013
+
+7
+
+Eléments de syntaxe PHP
+ La syntaxe de PHP ressemble à celle de famille
+"C" (C, C++, Java, …)
+ Chaque instruction se termine par ";"
+ Commentaires:
+/* jusqu’au prochain */
+// jusqu’à la fin de la ligne
+# jusqu’à la fin de la ligne
+
+10:11:06
+
+Programmation Web 2012-2013
+
+8
+
+Les variables et les types de données
+ Tout identificateur commence par "$"
+ Les affectations sont réalisées grâce à "="
+ Numérique entier: 12 ou réel: 1.54
+ Chaîne: "Hello" ou ’Bonjour’
+ Booléen: true, false (PHP 4)
+ Tableau: $tab[2]=12
+ Objet (PHP4, PHP5)
+ Ressource
+ NULL
+ Le type d’une variable est dynamique et est
+déterminé par la valeur qui lui est affectée
+10:11:06
+
+Programmation Web 2012-2013
+
+9
+
+Typage faible. Exemple
+// Pas de déclaration de variable
+$test = 1.5 ;
+
+// Réel
+
+$test = 12 ;
+
+// Entier
+
+$test = array() ; // Tableau
+$test = "10" ;
+
+// Chaîne
+
+echo $test ; // 10
+10:11:07
+
+Programmation Web 2012-2013
+
+10
+
+Typage automatique. Exemple
+$nombre1
+$nombre2
+$chaine1
+$chaine2
+
+=
+=
+=
+=
+
+1.5 ;
+12 ;
+"10" ;
+'coucou' ;
+
+//
+//
+//
+//
+
+Réel
+Entier
+Chaîne
+Chaîne
+
+$total =
+$nombre1 + $nombre2 + $chaine1 + $chaine2 ;
+1.5
+1.5
+
+12
+12
+
+"10"
+"10"
+
+13.5
+13.5
+
+10
+10
+23.5
+23.5
+
+echo $total ; // 23.5 Réel
+10:11:07
+
+'coucou'
+'coucou'
+
+Programmation Web 2012-2013
+
+00
+23.5
+23.5
+11
+
+Les chaînes de caractères
+Substitution de variables dans les chaînes
+ Guillemets simples
+
+
+
+$a='chaîne' ;
+$b='voici une $a';
+
+ Guillemets doubles
+
+
+
+$a="chaîne" ;
+$b="voici une $a";
+
+ Syntaxe HereDoc
+
+
+
+10:11:07
+
+$a="chaîne" ;
+$b=<<<MARQUE_DE_FIN
+voici une $a
+sur deux lignes ;-)
+MARQUE_DE_FIN;
+
+chaîne
+chaîne
+voici
+voici une
+une $a
+$a
+chaîne
+chaîne
+voici
+voici une
+une chaîne
+chaîne
+chaîne
+chaîne
+voici
+voici une
+une chaîne
+chaîne
+sur
+sur deux
+deux lignes
+lignes ;-)
+;-)
+
+Programmation Web 2012-2013
+
+12
+
+Concaténation de chaînes
+
+
+
+Permet d’assembler plusieurs chaînes
+Réalisé grâce à l’opérateur point : .
+"Bonjour " . "Marcel"
+ vaut "Bonjour Marcel"
+$nb = 6*2 ;
+"Acheter " . $nb
+ vaut
+
+10:11:08
+
+. " oeufs"
+"Acheter 12 oeufs"
+
+Programmation Web 2012-2013
+
+13
+
+La commande echo
+ Permet d’envoyer du texte au navigateur du
+client (« écrire » la page au format HTML
+résultant de l’interprétation de PHP)
+
+
+
+echo "Bonjour" ;
+$nom="Marcel" ; echo "Bonjour $nom" ;
+
+ Plus généralement, permet d’envoyer des octets
+au navigateur du client
+
+
+
+
+10:11:08
+
+Ficher HTML, XML, CSS, JavaScript, …
+Données d'une image
+Contenu d'un ficher PDF, Flash, etc.
+Programmation Web 2012-2013
+
+14
+
+Hello world !
+Interprétation
+Interprétation du
+du code
+code PHP
+PHP sur
+sur le
+le serveur
+serveur
+<?php
+Serveur du
+Navigateur
+<?php
+et
+transmission
+résultat
+au
+client
+et
+transmission
+du
+résultat
+au
+client
+$$debut
+debut == <<<
+<<<HTML
+HTML
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>hello
+hello</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>\n
+\n
+HTML
+HTML;;
+$$corps
+corps == ""Hello
+Hello world!
+world!\n
+\n";
+";
+$$fin
+== <<<
+fin
+<<<HTML
+HTML
+</
+</body
+body>>
+</
+</html
+html>>
+HTML
+HTML;;
+/*
+/* Envoi
+Envoi au
+au client
+client */
+*/
+echo
+echo $$debut
+debut.$
+.$corps
+corps.$
+.$fin
+fin ;;
+
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>hello
+hello</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+Hello
+Hello world!
+world!
+</
+</body
+body>>
+</
+</html
+html>>
+
+Impossible
+Impossible de
+de voir
+voir le
+le code
+code PHP
+PHP depuis
+depuis le
+le navigateur
+navigateur !!
+!!
+10:11:08
+
+Programmation Web 2012-2013
+
+15
+
+Les opérateurs arithmétiques
+
+$b
+
+Somme
+
+$b
+
+Différence
+
+$b
+
+Multiplication
+
+$a
+
++
+*
+/
+
+$b
+
+Division
+
+$a
+
+%
+
+$b
+
+Modulo (Reste de la division entière)
+
+$a
+$a
+$a
+
+10:11:09
+
+Programmation Web 2012-2013
+
+16
+
+Les opérateurs d’in- et de
+dé-crémentation pré- et post-fixés
+$a++
+
+++$a
+$a--
+
+--$a
+
+10:11:09
+
+Retourne la valeur de $a puis augmente la
+valeur de $a de 1
+Augmente la valeur de $a de 1 puis
+retourne la nouvelle valeur de $a
+Retourne la valeur de $a puis diminue la
+valeur de $a de 1
+Diminue la valeur de $a de 1 puis retourne
+la nouvelle valeur de $a
+
+Programmation Web 2012-2013
+
+17
+
+Les opérateurs de comparaison
+== $b
+$a != $b
+$a < $b
+$a > $b
+$a <= $b
+$a >= $b
+$a === $b
+$a !== $b
+$a
+
+10:11:09
+
+Vrai si égalité entre les valeurs de $a et $b
+Vrai si différence entre les valeurs de $a et $b
+Vrai si $a inférieur à $b
+Vrai si $a supérieur à $b
+Vrai si $a inférieur ou égal à $b
+Vrai si $a supérieur ou égal à $b
+Vrai si $a et $b identiques (valeur et type)
+Vrai si $a et $b différents (valeur ou type)
+Programmation Web 2012-2013
+
+18
+
+Les opérateurs logiques
+and [Expr2]
+[Expr1] && [Expr2]
+[Expr1] or [Expr2]
+[Expr1] || [Expr2]
+
+[Expr1]
+
+[Expr1]
+
+!
+
+10:11:10
+
+xor
+
+Vrai si [Expr1] et [Expr2] sont vraies
+idem
+Vrai si [Expr1] ou [Expr2] sont vraies
+idem
+
+Vrai si [Expr1] ou [Expr2] sont vraies
+[Expr2]
+mais pas les deux
+
+[Expr1]
+
+Vrai si [Expr1] est non vraie
+
+Programmation Web 2012-2013
+
+19
+
+Les opérateurs sur bits
+$a
+$a
+$a
+
+&
+|
+^
+
+$b
+
+ET binaire
+
+$b
+
+OU binaire
+
+$b
+
+XOR binaire
+
+~ $a
+$a << $b
+$a >> $b
+
+10:11:10
+
+Inversion bit à bit
+
+$a décalé à gauche de $b rangs
+$a décalé à droite de $b rangs
+
+Programmation Web 2012-2013
+
+20
+
+Précédence des opérateurs
+
+10:11:10
+
+Programmation Web 2012-2013
+
+21
+
+Précédence des opérateurs
+
+En
+En cas
+cas de
+de doute,
+doute,
+utilisez
+utilisez les
+les parenthèses
+parenthèses ;-)
+;-)
+
+10:11:11
+
+Programmation Web 2012-2013
+
+22
+
+Structure de contrôle Si…Alors…Sinon…
+if (condition)
+{
+/* Bloc d’instructions exécuté si la
+condition est vraie */
+
+}
+[else
+{
+/* Bloc d’instructions exécuté si la
+condition est fausse */
+}]
+
+10:11:11
+
+Programmation Web 2012-2013
+
+23
+
+Structure de contrôle Tant que… faire…
+while (condition)
+{
+/* Bloc d’instructions répété tant que la
+condition est vraie */
+
+}
+do {
+/* Bloc d’instructions exécuté une fois
+puis répété tant que la condition est
+vraie */
+} while (condition) ;
+10:11:11
+
+Programmation Web 2012-2013
+
+24
+
+Structure de contrôle Tant que… faire…
+for(avant; condition; fin_chaque_itération)
+{ /* Bloc d’instructions répété tant que la
+condition est vraie */
+}
+Équivalent à:
+avant ;
+while (condition)
+{ /* Bloc d’instructions répété tant que la
+condition est vraie */
+fin_chaque_itération ;
+}
+10:11:12
+
+Programmation Web 2012-2013
+
+25
+
+Structure de contrôle switch…
+switch (val)
+{
+case v1:
+instructions
+case v2:
+instructions
+
+}
+
+exécutées si val==v1
+exécutées si val==v2
+ou si val==v1
+
+…
+default:
+instructions dans tous les cas
+
+10:11:12
+
+Programmation Web 2012-2013
+
+26
+
+L’instruction break
+Permet de sortir d’une structure de contrôle
+switch (val)
+{
+case v1:
+instructions exécutées si val==v1
+break ; /* On sort du switch si val==v1 */
+case v2:
+instructions exécutées si val==v2
+ou si val==v1
+break ; /* On sort du switch si val==v2 */
+…
+default:
+instructions exécutées dans tous les cas
+si val!=v1 et val!=v2
+}
+10:11:12
+
+Programmation Web 2012-2013
+
+27
+
+Les tableaux
+ Création / initialisation:
+$tab1=array(12, "fraise", 2.5) ;
+$tab2[]
+$tab2[]
+$tab2[]
+
+=
+=
+=
+
+12 ;
+"fraise" ;
+2.5 ;
+
+$tab3[0] = 12 ;
+$tab3[1] = "fraise" ;
+$tab3[2] = 2.5 ;
+10:11:13
+
+Programmation Web 2012-2013
+
+Clé Valeur
+0
+
+12
+
+1
+
+"fraise"
+
+2
+
+2.5
+
+28
+
+Les tableaux « à trous »
+ Les éléments du tableaux ne sont pas forcement
+d’indices consécutifs :
+$tab4[0]
+$tab4[1]
+$tab4[2]
+$tab4[5]
+
+=
+=
+=
+=
+
+12 ;
+"fraise" ;
+2.5 ;
+"el5" ;
+
+Clé Valeur
+0 12
+1 "fraise"
+2
+3
+4
+5
+
+2.5
+
+"el5"
+
+ Comment parcourir de tels tableaux ?
+10:11:13
+
+Programmation Web 2012-2013
+
+29
+
+Les tableaux « à trous » (suite)
+4
+Parcours classique :
+for ($i=0; $i < sizeof($tab4); $i++)
+{ echo "tab4[$i]: "
+. $tab4[$i] . "<BR>\n";
+}
+Clé Valeur
+
+?
+10:11:13
+
+Programmation Web 2012-2013
+
+0
+1
+
+12
+"fraise"
+
+2
+3
+
+2.5
+
+4
+5
+
+"el5"
+30
+
+Structure de contrôle Pour chaque…
+foreach ($tableau as $element)
+{
+/* Bloc d’instructions répété pour
+chaque élément de $tableau */
+/* Chaque élément de $tableau est
+accessible grâce à $element */
+}
+
+10:11:14
+
+Programmation Web 2012-2013
+
+31
+
+Parcours de tableau : foreach
+PHP
+
+…
+$tab4[0] = 12 ;
+$tab4[1] = "fraise" ;
+$tab4[2] = 2.5 ;
+$tab4[5] = "el5" ;
+foreach($tab4 as $v)
+{
+echo "Val: $v<br>\n";
+}
+…
+
+10:11:14
+
+HTML
+…
+Val:12<br>\n
+Val:fraise<br>\n
+Val:2.5<br>\n
+Val:el5<br>\n
+…
+
+Programmation Web 2012-2013
+
+Navigateur
+
+32
+
+Tableaux associatifs
+ Tableaux dont l’accès aux éléments n’est plus
+réalisé grâce à un index (0,1,…) mais grâce à une
+clé de type entier ou chaîne.
+ Exemples de clés:
+$tab['un']
+
+= 12 ;
+
+$tab[205]
+
+= "bonjour" ;
+
+$tab["la
+
+ Création
+
+valeur"]
+
+$tab = array(cle1
+
+=>
+cle2 =>
+
+= 3.0 ;
+val1,
+val2,
+
+…);
+10:11:14
+
+Programmation Web 2012-2013
+
+33
+
+Tableaux associatifs - Exemples
+$tab5['un']
+$tab5['trois']
+$tab5["deux"]
+$tab5[42]
+
+=
+=
+=
+=
+
+12 ;
+"fraise" ;
+2.5 ;
+"el5" ;
+
+Clé
+"un"
+
+10:11:15
+
+=>
+=>
+=>
+=>
+
+12
+
+"trois"
+
+"fraise"
+
+"deux"
+
+2.5
+
+42
+
+$tab6 = array('un'
+'trois'
+"deux"
+42
+
+Valeur
+
+"el5"
+
+12,
+"fraise",
+2.5,
+"el5") ;
+
+Programmation Web 2012-2013
+
+34
+
+Structure de contrôle Pour chaque…
+foreach($tableau as $cle => $element)
+{
+/* Bloc d’instructions répété pour
+chaque élément de $tableau */
+/* Chaque élément de $tableau est
+accessible grâce à $element */
+/* La clé d’accès à chaque élément est
+donnée par $cle */
+
+}
+
+10:11:15
+
+Programmation Web 2012-2013
+
+35
+
+Parcours de tableau
+<?php
+<?php
+$$html
+html == <<<
+<<<HTML
+HTML
+<<html
+html>>
+<<head
+head><
+><title
+title>>foreach
+foreach clé
+clé</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+HTML
+HTML;;
+$$tab6
+=>
+tab6 == array
+array((''un
+un''
+=> 12
+12,,
+''deux
+=>
+deux''
+=> ""fraise
+fraise",
+",
+""trois
+trois"" =>
+=> 2.5
+2.5,,
+""quatre
+quatre"" =>
+=> ""el5
+el5"")) ;;
+foreach
+foreach (($$tab6
+tab6 as
+as $$cle
+cle =>
+=> $$val
+val))
+{{
+$$html
+html .=
+.= ""tab[
+tab[$$cle
+cle]:
+]: $$val
+val<br>
+<br>\n
+\n"" ;;
+}}
+echo
+echo $$html
+html .. ""</
+</body
+body>\n</
+>\n</html
+html>>"" ;;
+
+10:11:15
+
+Programmation Web 2012-2013
+
+36
+
+Exemple de génération de code HTML
+<?php
+<?php
+$$html
+html == <<<
+<<<HTML
+HTML
+<!DOCTYPE
+<!DOCTYPE html
+html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01
+Transitional//EN">
+Transitional//EN">
+<<html
+html>>
+<<head
+head>>
+<<meta
+meta http-equiv
+http-equiv=="Content-Type"
+"Content-Type"
+content
+content=="text/html;
+"text/html; charset=iso-8859-1"
+charset=iso-8859-1">>
+<<title
+title>Boucle</
+>Boucle</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+HTML;
+HTML;
+for
+for (($$ii==1;
+1; $$ii<<20;
+20; $$ii++
+++)) {{
+$$html
+html .=
+.= ""Le
+Le serveur
+serveur compte...
+compte... ""
+.. $$ii .. ""<br>
+<br>\n"
+\n" ;;
+}}
+$$html
+html .=
+.= <<<
+<<<HTML
+HTML
+</
+body
+>
+</body>
+</
+</html
+html>>
+HTML;
+HTML;
+echo
+echo $$html
+html ;;
+10:11:16
+
+Programmation Web 2012-2013
+
+37
+
+Traitement des données de formulaires
+ PHP permet de traiter les données saisies grâce
+à un formulaire HTML si le champ ACTION du
+formulaire désigne une page PHP du serveur.
+ Après récupération par le serveur Web, les
+données sont contenues dans l'une des variables
+superglobales de type tableau associatif $_GET
+ou $_POST (ou $_REQUEST).
+ La valeur peut être trouvée grâce à une clé qui
+porte le même nom que le champs du formulaire
+de la page HTML de saisie.
+10:11:16
+
+Programmation Web 2012-2013
+
+38
+
+Traitement des données de formulaires
+Réseau
+Réseau
+
+Client
+Client
+Navigateur
+•HTML
+nomPers=robert
+nomPers=robert
+•JavaScript
+•CSS
+
+<<html
+html>>
+<<head
+head>>
+Serveur
+Serveur
+nomPers
+<<title
+nomPers
+title>>bonjour
+bonjour</
+</title
+title>>
+</
+</head
+head>>
+Serveur
+Web
+<?php
+<?php
+<<body
+body>>
+$
+$html
+html == <<<
+<<<HTML
+HTML
+Bonjour
+Bonjour robert
+robert !!
+<
+html
+>
+<html>
+</
+</body
+body>>
+<
+<head
+head><
+><title
+title>>bonjour
+bonjour</
+</title
+title></
+></head
+head>>
+</
+html
+</
+html>> PHP
+Module
+<<body
+body>>
+HTML
+HTML;;
+$$html
+html .=
+.= ""Bonjour
+Bonjour "".$
+.$_GET
+_GET[[''nomPers
+nomPers'']].."" !!\n
+\n"" ;;
+echo
+echo $$html
+html .. ""</
+</body
+body>>\n
+\n</
+</html
+html>>"" ;;
+
+robert
+robert
+
+10:11:17
+
+Programmation Web 2012-2013
+
+39
+
+Exemple – Formulaire HTML
+<!DOCTYPE
+<!DOCTYPE html
+html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01 Transitional//EN">
+Transitional//EN">
+
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>formulaire
+formulaire</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+<<form
+form action
+action==""valide1.php
+valide1.php"" method
+method==""get
+get"">>
+Nom:
+Nom: <<input
+input type
+type==""text
+text"" name
+name==""nomPers
+nomPers"">>
+<<input
+input type
+type==""submit
+submit"" value
+value==""Envoyer
+Envoyer"">>
+</
+</form
+form>>
+</
+</body
+body>>
+</
+</html
+html>>
+
+10:11:17
+
+Programmation Web 2012-2013
+
+40
+
+Exemple – Traitement en PHP
+<?php
+<?php
+$$html
+html == <<<
+<<<HTML
+HTML
+<!DOCTYPE
+html
+<!DOCTYPE html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01 Transitional//EN">
+Transitional//EN">
+<<html
+>
+html>
+<<head
+head>>
+$$_GET
+<<title
+_GET[[''nomPers
+nomPers'']]
+title>>Validation
+Validation</
+</title
+title>>
+</
+</head
+head>>
+est-il
+défini
+??
+est-il
+défini
+<<body
+>
+body>
+HTML
+HTML;;
+
+if
+if ((isset
+isset(($$_GET
+_GET[[''nomPers
+nomPers'']]))
+))
+$$_GET
+_GET[[''nomPers
+nomPers'']]
+{{
+est-il
+est-il vide
+vide ??
+if
+if ((!!empty
+empty(($$_GET
+_GET[[''nomPers
+nomPers'']]))
+))
+{{
+$$html
+html .=
+.= ""Vous
+Vous avez
+avez saisi
+saisi ''""
+.$
+.$_GET
+_GET[[''nomPers
+nomPers'']]..""''\n
+\n"" ;;
+}}
+else
+else
+$$html
+html .=
+.= ""Aucune
+Aucune valeur
+valeur saisie
+saisie\n
+\n";
+";
+}}
+else
+else
+$$html
+html .=
+.= ""Utilisation
+Utilisation incorrecte
+incorrecte\n
+\n"" ;;
+
+echo
+echo $$html
+html .. ""</
+</body
+body>>\n
+\n</
+</html
+html>>"" ;;
+10:11:17
+
+Programmation Web 2012-2013
+
+41
+
+Formulaires contenant des champs
+« SELECT »
+
+10:11:18
+
+Programmation Web 2012-2013
+
+42
+
+Formulaires contenant des champs
+« SELECT unique»
+<!DOCTYPE
+<!DOCTYPE html
+html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01 Transitional//EN">
+Transitional//EN">
+
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>Formulaire
+Formulaire de
+de saisie
+saisie des
+des fruits
+fruits</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+<<form
+form action
+action==""valide3.php
+valide3.php"" method
+method==""get
+get"">>
+Choisissez
+Choisissez des
+des fruits:
+fruits:&nbsp;
+&nbsp;
+<<select
+select name
+name==""sel
+sel"">>
+<<option
+option>>Fraise
+Fraise
+<<option
+option>>Pomme
+Pomme
+<<option
+option>>Poire
+Poire
+Envoyer
+Envoyer
+<<option
+option>>Banane
+Banane
+<<option
+option>>Cerise
+Cerise
+</
+</select
+select>>
+<<input
+input type
+type==""submit
+submit"" value
+value==""envoyer
+envoyer"">>
+</
+</form
+form>>
+</
+</body
+body>>
+valide3.php?
+valide3.php?sel=Pomme
+sel=Pomme
+</
+html
+>
+</html>
+10:11:18
+
+Programmation Web 2012-2013
+
+43
+
+Formulaires contenant des champs
+« SELECT multiple»
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Formulaire de saisie des fruits</title>
+</head>
+<body>
+<form action="valide3.php" method="get">
+Choisissez des fruits:&nbsp;
+<select name="sel" multiple>
+<option>Fraise
+<option>Pomme
+<option>Poire
+Envoyer
+<
+option>Banane
+Envoyer
+<option>Cerise
+</select>
+<input type="submit" value="envoyer">
+</form>
+valide3.php?
+</body>
+valide3.php?sel=Pomme&sel=Poire
+sel=Pomme&sel=Poire
+</html>
+10:11:18
+
+Programmation Web 2012-2013
+
+???
+???
+44
+
+Formulaires contenant des champs
+« SELECT multiple»
+<html>
+<head>
+<title>Formulaire de saisie des fruits</title>
+</head>
+<body>
+<form action="valide3.php" method="get">
+Choisissez des fruits:&nbsp;
+<select name="sel[]" multiple>
+<option>Fraise
+<option>Pomme
+<option>Poire
+Envoyer
+Envoyer
+<option>Banane
+<option>Cerise
+</select>
+<input type="submit" value="envoyer">
+</form>
+valide3.php?
+valide3.php?sel%5B%5D=Pomme&sel%5B%5D=Poire
+sel%5B%5D=Pomme&sel%5B%5D=Poire
+</body>
+valide3.php?
+</html>
+valide3.php?sel[]=Pomme&sel[]=Poire
+sel[]=Pomme&sel[]=Poire
+10:11:19
+
+Programmation Web 2012-2013
+
+45
+
+Traitement des données des champs
+« SELECT »
+<?php
+<?php
+$$html
+html == <<<
+<<<HTML
+HTML
+
+<!DOCTYPE
+<!DOCTYPE html
+html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01 Transitional//EN">
+Transitional//EN">
+
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>Liste
+Liste de
+de fruits
+fruits</
+</title
+title>>
+$$_GET
+_GET[[‘‘sel
+sel'']]
+</
+head
+>
+</head>
+est
+est un
+un tableau
+tableau
+<<body
+body>>
+HTML
+HTML;;
+if
+if ((isset
+isset(($$_GET
+_GET[[''sel
+sel''])
+]) &&
+&& !!empty
+empty(($$_GET
+_GET[[''sel
+sel'']))
+]))
+{{/*
+La
+variable
+$_GET['sel']
+est
+définie
+/* La variable $_GET['sel'] est définie
+et
+et elle
+elle n'est
+n'est pas
+pas vide
+vide */
+*/
+foreach
+foreach(($$_GET
+_GET[[''sel
+sel'']] as
+as $$fruit
+fruit))
+$$html
+html .=
+.= ""Vous
+Vous avez
+avez choisi
+choisi $$fruit
+fruit<br>
+<br>\n
+\n"" ;;
+}}
+else
+else
+$$html
+html .=
+.= ""Vous
+Vous n'avez
+n'avez pas
+pas choisi
+choisi de
+de fruit
+fruit\n
+\n"" ;;
+echo
+echo $$html
+html .. ""</
+</body
+body>>\n
+\n</
+</html
+html>>"" ;;
+10:11:19
+
+Programmation Web 2012-2013
+
+46
+
+Résultat
+
+10:11:19
+
+Programmation Web 2012-2013
+
+47
+
+Formulaires contenant des champs
+« CHECKBOX »
+
+10:11:20
+
+Programmation Web 2012-2013
+
+48
+
+Formulaires contenant des champs
+« CHECKBOX »
+<!DOCTYPE
+<!DOCTYPE html
+html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01 Transitional//EN">
+Transitional//EN">
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>Formulaire
+Formulaire de
+de saisie
+saisie des
+des fruits
+fruits</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+<<form
+form name
+name==""formu
+formu"" action
+action==""valide3.php
+valide3.php"" method
+method==""get
+get"">>
+Choisissez
+Choisissez des
+des fruits
+fruits&nbsp;
+&nbsp;:<
+:<br
+br>>
+<<input
+input type
+type==""checkbox
+checkbox"" name
+name==""sel[]
+sel[]"" value
+value==""Fraise
+Fraise"">Fraise<
+>Fraise<br
+br>>
+<<input
+input type
+type==""checkbox
+checkbox"" name
+name==""sel[]
+sel[]"" value
+value==""Pomme
+Pomme"" >Pomme
+>Pomme <<br
+br>>
+<<input
+input type
+type==""checkbox
+checkbox"" name
+name==""sel[]
+sel[]"" value
+value==""Poire
+Poire"" >Poire
+>Poire <<br
+br>>
+<<input
+input type
+type==""checkbox
+checkbox"" name
+name==""sel[]
+sel[]"" value
+value==""Banane
+Banane"">Banane<
+>Banane<br
+br>>
+<<input
+input type
+type==""checkbox
+checkbox"" name
+name==""sel[]
+sel[]"" value
+value==""Cerise
+Cerise"">Cerise<
+>Cerise<br
+br>>
+<<input
+input type
+type==""submit
+submit"" value
+value==""Envoyer
+Envoyer"">>
+</
+</form
+form>>
+</
+</body
+body>>
+</
+</html
+html>>
+
+10:11:20
+
+Programmation Web 2012-2013
+
+49
+
+Résultat
+
+10:11:20
+
+Programmation Web 2012-2013
+
+50
+
+Références
+$a = 12 ;
+$b = $a ;
+$c = &$a ;
+$b = "coucou" ;
+$c = 84 ;
+echo
+"\$a : $a\n"
+$a
+$a :: 84
+84
+echo
+"\$b : $b\n"
+$b
+$b :: coucou
+coucou
+echo
+"\$c : $c\n"
+$c
+$c :: 84
+84
+unset($c) ;
+$c = "hello" ;
+10:11:21
+
+$$aa
+
+84
+12
+12
+84
+
+$$bb
+
+""coucou
+12
+coucou""
+
+$$cc
+
+""hello
+hello""
+
+;
+;
+;
+
+Programmation Web 2012-2013
+
+51
+
+Fonctions utilisateur
+ Description d’une fonctionnalité dépendant
+éventuellement de paramètres et retournant
+éventuellement un résultat
+ Définition
+function moyenne($a,$b)
+{
+return ($a+$b)/2. ;
+}
+ Utilisation
+$resultat = moyenne(2,4) ;
+echo $resultat ; // vaut 3
+10:11:21
+
+Programmation Web 2012-2013
+
+52
+
+Fonctions utilisateur
+ Valeur de retour
+function moyenne($a,$b)
+{ … }
+Typage
+Typage faible
+faible de
+de PHP
+PHP ::
+Aucune
+Aucune information
+information
+
+ Arguments
+function moyenne(
+{ … }
+
+$a,
+
+$b)
+
+Typage
+Typage faible
+faible de
+de PHP
+PHP ::
+Aucune
+Aucune information
+information
+10:11:22
+
+Programmation Web 2012-2013
+
+53
+
+Mode de passage des arguments (types natifs)
+<?php
+function permutation($x, $y) {
+echo "permutation..." ;
+$t = $x ;
+Permutation
+Permutation impossible
+impossible ::
+$x = $y ;
+Passage
+Passage des
+des arguments
+arguments
+$y = $t ;
+des
+des fonctions
+fonctions par
+par valeur
+valeur
+}
+$a = 12 ;
+$b = 210 ;
+$a
+echo "\$a = $a" ;
+$a == 12
+12
+$b
+echo "\$b = $b" ;
+$b == 210
+210
+permutation...
+permutation($a, $b) ;
+permutation...
+$a
+echo "\$a = $a" ;
+$a == 12
+12
+$b
+echo "\$b = $b" ;
+$b == 210
+210
+?>
+10:11:22
+
+Programmation Web 2012-2013
+
+54
+
+Mode de passage des arguments (types natifs)
+<?php
+function permutation(&$x, &$y) {
+echo "permutation..." ;
+$t = $x ;
+$x = $y ;
+$y = $t ;
+}
+$a = 12 ;
+$b = 210 ;
+$a
+echo "\$a = $a" ;
+$a == 12
+12
+$b
+echo "\$b = $b" ;
+$b == 210
+210
+permutation...
+permutation($a, $b) ;
+permutation...
+$a
+echo "\$a = $a" ;
+$a == 210
+210
+$b
+echo "\$b = $b" ;
+$b == 12
+12
+?>
+10:11:22
+
+Programmation Web 2012-2013
+
+Permutation
+Permutation
+réussie
+réussie
+
+55
+
+Arguments par défaut des fonctions
+ Valeur par défaut d’un argument s’il n’a pas été
+défini lors de l’appel de la fonction
+function bonjour($nom="inconnu")
+{ echo "Bonjour cher $nom" ; }
+ Utilisation
+bonjour() ;
+Bonjour
+Bonjour cher
+cher inconnu
+inconnu
+bonjour("Marcel") ;
+Bonjour
+Bonjour cher
+cher Marcel
+Marcel
+10:11:23
+
+Programmation Web 2012-2013
+
+56
+
+Définition de fonctions fréquemment utilisées
+ Certaines fonctions sont utilisées dans plusieurs
+scripts PHP
+ Comment faire pour ne pas les définir dans
+chacune des pages ?
+ Utilisation de :
+
+
+
+
+
+include("fichier") ;
+require("fichier") ;
+include_once("fichier") ;
+require_once("fichier") ;
+
+ Permet d’inclure le contenu de fichier dans
+le script courant
+10:11:23
+
+Programmation Web 2012-2013
+
+57
+
+include et require
+Fichier
+Fichier mafonction.php
+mafonction.php
+<?
+function mafonction($arg)
+{
+if (isset($arg))
+{
+echo ("Vrai") ;
+}
+else
+{
+echo ("Faux") ;
+}
+}
+?>
+
+10:11:23
+
+Fichier
+Fichier utilisation1.php
+utilisation1.php
+…
+require("mafonction.php")
+mafonction(true) ;
+…
+Fichier
+Fichier utilisation2.php
+utilisation2.php
+…
+include("mafonction.php")
+…
+$var=false ;
+mafonction($var) ;
+…
+Fichier
+Fichier utilisation3.php
+utilisation3.php
+…
+require("mafonction.php")
+…
+
+Programmation Web 2012-2013
+
+58
+
+Définition de constantes
+<?php
+define("ma_constante", "Bonjour à tous") ;
+
+nom
+nom
+
+valeur
+valeur
+
+Définition
+Définition d'une
+d'une constante
+constante
+echo ma_constante ;
+?>
+
+Utilisation
+Utilisation de
+de la
+la constante
+constante
+10:11:24
+
+Programmation Web 2012-2013
+
+59
+
+Gestion des erreurs
+ Dans certains cas, il n’est ni possible ni utile de
+poursuivre l’exécution du code PHP (variables
+non définies, valeurs erronées, échec de
+connexion, …)
+ Arrêt brutal de l’exécution du code:
+
+
+
+die(message)
+exit(message)
+
+Envoie message au navigateur et termine
+l’exécution du script courant
+
+10:11:24
+
+Programmation Web 2012-2013
+
+60
+
+Gestion des erreurs – (Mauvais) Exemple
+<?php
+PHP
+$html = <<<HTML
+<html>
+<head>
+<title>die-exit</title>
+</head>
+<body>
+HTML;
+if (!isset($val)) {
+HTML
+non
+non
+die($html."problèmeHTML
+val") ;
+/* Au delà de ce point,
+fin du script */
+}
+$html .= <<<HTML
+Choix: $val
+</body>
+</html>
+10:11:24
+
+<html>
+HTML
+<head>
+<title>die-exit</title>
+</head>
+<body>
+problème val
+
+valide
+valide…
+…
+Navigateur
+problème val
+
+Programmation Web 2012-2013
+
+61
+
+Gestion de l'affichage des erreurs
+ int error_reporting ( [int level] )
+
+Débogage
+
+Constante
+Ancien
+Ancien niveau
+niveau d'erreur
+d'erreur
+E_ERROR
+E_WARNING
+Sur
+Sur un
+un serveur
+serveur en
+en
+E_PARSE
+production,
+production, toute
+toute
+E_NOTICE
+erreur
+erreur affichée
+affichée
+E_CORE_ERROR
+donne
+donne des
+des indices
+indices sur
+sur
+les
+E_CORE_WARNIN
+les scripts
+scripts et
+et rend
+rend le
+le
+site
+G
+site vulnérable
+vulnérable
+E_COMPILE_ERR
+php.ini
+php.ini
+OR
+display_errors
+display_errors boolean
+boolean
+E_COMPILE_WAR
+NING
+Programmation Web 2012-2013
+10:11:24
+
+62
+
+Opérateur de contrôle d'erreur
+$v = file("dummy.txt")
+or die("Problème de
+
+Fichier
+Fichier absent
+absent
+
+lecture") ;
+
+Warning
+Warning:: file(dummy.txt):
+file(dummy.txt): failed
+failed to
+to open
+open
+stream:
+stream: No
+No such
+such file
+file or
+or directory
+directory in
+in
+dummy.php
+dummy.php on
+on line
+line 68
+68
+Problème
+Problème de
+de lecture
+lecture
+
+$v = @file("dummy.txt")
+or die("Problème de lecture") ;
+Problème
+Problème de
+de lecture
+lecture
+10:11:25
+
+Programmation Web 2012-2013
+
+63
+
+Développement objet
+ Définition de briques logicielles représentant un
+
+concept, une idée ou une entité ainsi que leurs
+interactions : les objets
+ Un objet est une structure de données comprenant
+également les fonctionnalités de traitement des
+données
+ L’objet est vu au travers de ses spécifications
+ Les concepts associés sont :
+ Encapsulation
+ Héritage
+ Polymorphisme
+10:11:29
+
+Programmation Web 2011-2012
+
+1
+
+Classe
+ Une classe définit un modèle, un moule, à partir
+
+
+
+
+
+
+duquel tous les objets de classe seront créés
+La classe décrit les données internes ainsi que les
+fonctionnalités des objets
+La classe est une vision « inerte », une recette de
+cuisine, visant à décrire la structure et le
+comportement des objets qui seront créés
+La construction d’un objet à partir de la classe
+génératrice s’appelle instanciation
+Les objets, entités « vivantes » en mémoire, sont des
+instances de la classe
+
+10:11:29
+
+Programmation Web 2011-2012
+
+2
+
+Instanciation
+ La classe est une description « inerte »
+ Les objets doivent être instanciés à partir de la classe
+
+génératrice pour exister et devenir fonctionnels
+
+ Exemple : la classe Animal
+
+$bambi = new Animal() ;
+$scrat = new Animal() ;
+$melman = new Animal() ;
+
+10:11:29
+
+Programmation Web 2011-2012
+
+3
+
+Encapsulation
+ Procédé consistant à rassembler les données et les
+
+traitements au sein des objets
+ L’implémentation interne des objets est cachée
+ Les objets sont vu à travers leurs spécifications
+ Les données internes et les fonctionnalités possèdent
+un niveau de visibilité et peuvent éventuellement être
+masquées :
+ Public
+ Privé
+ Protégé
+
+10:11:29
+
+Programmation Web 2011-2012
+
+4
+
+Encapsulation
+ Les données internes des objets sont appelées attributs
+ Les fonctionnalités des objets sont appelées méthodes
+ Méthodes habituelles :
+ Constructeur / destructeur
+ Accesseurs / modificateurs (getters / setters)
+ Référence à l’objet courant dans la description de la
+
+classe : $this
+
+10:11:29
+
+Programmation Web 2011-2012
+
+5
+
+Visibilité
+ Publique :
+
+Les données internes et les méthodes sont accessibles
+par tous
+
+ Protégé :
+
+Les données internes et les méthodes sont accessibles
+aux objets dérivés
+
+ Privé :
+
+Les données internes et les méthodes ne sont
+accessibles qu’aux objets de la classe
+
+10:11:29
+
+Programmation Web 2011-2012
+
+6
+
+Héritage ou dérivation ou
+extension
+ Création de nouvelles classes à partir du modèle d’une
+
+classe existante
+ La nouvelle classe possède tous les attributs et
+méthodes de la classe mère
+ La nouvelle classe peut proposer de nouveaux attributs
+et de nouvelles méthodes ou spécialiser des méthodes
+Mammifère
+de la classe mère
+Herbivore
+
+Impala
+10:11:29
+
+Caribou
+
+Carnivore
+
+Guépard
+
+Programmation Web 2011-2012
+
+Léopard
+7
+
+Polymorphisme
+Mammifère
+nourriture
+
+ Choix dynamique de la méthode qui correspond au
+
+type réel de l’objet
+ Méthode mange()
+
+Herbivore
+plantes
+
+Impala
+herbe
+
+Caribou
+mousse
+
+Carnivore
+viande
+
+Guépard
+impala
+
+Léopard
+impala
+
+ function nourriture(Mammifere $m) {
+
+return $m->mange() ;
+
+}
+ $i = new Impala() ; nourriture($i) ;
+ $c = new Carnivore() ; nourriture($c) ;
+10:11:29
+
+Programmation Web 2011-2012
+
+herbe
+viande
+8
+
+Développement objet en PHP
+ PHP 4
+ Classes (tout est public)
+ Constructeur
+ Héritage
+ Méthodes statiques implicites
+ Outils pour la linéarisation (sauvegarde sur disque)
+ PHP 5
+ Classes (choix public, protected, private)
+ Constructeur et destructeur
+ Membres et méthodes statiques
+ Classes et méthodes abstraites
+ …
+10:11:29
+
+Programmation Web 2011-2012
+
+9
+
+Déclaration
+Définition d'une classe en
+PHPde4classe
+<?php
+class MaClasse {
+var $madonnee ; // Attribut
+
+Attribut public
+Constructeur public
+
+Référence à
+// Constructeur
+l'objet courant
+function MaClasse($param) {
+$this->madonnee = $param ;
+}
+Accès à un attribut
+function affiche() { // Méthode
+echo get_class($this)
+Méthode publique
+." contient ".$this->madonnee ;
+}
+Donne le nom de la
+classe de l'objet
+courant
+
+}
+?>
+
+10:11:29
+
+Programmation Web 2011-2012
+
+10
+
+Utilisation d'une classe en PHP 4
+
+Inclusion de la
+définition de la classe
+
+<?php
+require "maclasse.php" ;
+Création d'un objet
+// Nouvel objet
+$o
+= new MaClasse(12)
+maclasse
+contient 12 ;
+// Utilisation d'une méthode
+$o->affiche() ;
+$o->madonnee = "coucou" ;
+
+Méthode affiche de
+l'objet $o
+Impossible de
+restreindre l'accès
+aux attributs
+
+?>
+
+10:11:29
+
+Programmation Web 2011-2012
+
+11
+
+Héritage en PHP 4
+
+Héritage de
+MaClasse
+
+<?php
+class MaClasseHeritee extends MaClasse {
+var $autredonnee ;
+function MaClasseHeritee($param1, $param2)
+{
+Opérateur
+de
+parent::MaClasse($param1) ;
+résolution de portée
+$this->autredonnee = $param2 ;
+(Paamayim
+}
+Nekudotayim)
+function affiche() {
+MaClasse::affiche() ;
+Méthode MaClasse
+echo " et ".get_class($this)
+du parent
+." contient ".$this->autredonnee ;
+}
+}
+Méthode affiche de
+?>
+la classe
+
+MaClasse
+10:11:29
+
+Programmation Web 2011-2012
+
+12
+
+Méthodes de classe implicites
+<?php
+class MaClasse {
+var $madonnee ; // Attribut
+// Constructeur
+function MaClasse($param) {
+$this->madonnee = $param ;
+}
+function affiche() { // Méthode
+echo $this->madonnee ;
+}
+function statique() { // Méthode
+echo "Statique !!!" ;
+}
+} ?>
+
+10:11:29
+
+Programmation Web 2011-2012
+
+Méthode publique
+
+Ne fait pas référence à
+$this
+ Méthode statique
+(méthode de classe)
+13
+
+Méthodes de classe implicites
+
+Inclusion de la
+définition de la classe
+
+<?php
+require "maclasse.php" ;
+Création d'un objet
+// Création d'un objet
+$o = new MaClasse(12) ;
+
+Méthode affiche de
+l'objet $o
+
+// Utilisation d'une méthode
+12
+$o->affiche()
+;
+
+Impossible de
+restreindre l'accès
+// Utilisation d'une méthode implicitement
+auxstatique
+attributs
+MaClasse::statique()
+;
+Statique !!!
+?>
+
+10:11:29
+
+Programmation Web 2011-2012
+
+14
+
+Développement objet en PHP 5
+A partir de maintenant,
+développement en PHP 5
+
+10:11:29
+
+Programmation Web 2011-2012
+
+15
+
+Définition d'une classeDéclaration de classe
+<?php
+class MaClasse {
+private $madonnee ;
+
+Attribut privé
+Constructeur public
+
+public function __construct($param) {
+$this->madonnee = $param ;
+Référence à l'objet
+}
+courant
+function __destruct() {
+echo "Destruction..." ; }
+Destructeur public
+function affiche() {
+echo "madonnee : "
+Méthode publique
+.$this->madonnee ;
+par défaut
+}
+} ?>
+
+Accès à un attribut
+
+10:11:29
+
+Programmation Web 2011-2012
+
+16
+
+Utilisation d'une classe
+
+Inclusion de la
+définition de la classe
+
+<?php
+require "maclasse.php" ;
+Création d'un objet
+// Nouvel objet
+$o
+= new MaClasse(12)
+maclasse
+contient 12 ;
+// Utilisation d'une méthode
+$o->affiche()
+;{
+class
+Fatal MaClasse
+error: Cannot
+access private
+private
+$madonnee ;
+property
+MaClasse::$madonnee
+in
+...
+dummy.php on =line
+25
+$o->madonnee
+"coucou"
+;
+function __destruct() {
+Destruction...
+echo "Destruction..." ; }
+unset($o) ;
+?>
+10:11:29
+
+Programmation Web 2011-2012
+
+Méthode affiche de
+l'objet $o
+L'attribut est privé
+Destruction de
+l'objet $o
+
+17
+
+Valeur par défaut des attributs
+Attribut avec valeur
+par défaut
+<?php
+class MaClasse {
+private $madonnee = "Défaut" ;
+function affecte($val) {
+$this->madonnee = $val ; }
+function affiche() {
+Nouvel objet
+echo "madonnee : ".$this->madonnee ; }
+}
+Affichage
+madonnee : Défaut
+$o = new MaClasse() ;
+Affectation
+$o->affiche()
+;
+madonnee : Nouvelle
+$o->affecte("Nouvelle") ;
+Affichage
+$o->affiche() ;
+?>
+10:11:29
+Programmation Web 2011-2012
+
+18
+
+Attributs et méthodes de classe
+ Mot clé static
+ Attributs et méthodes utilisables sans instance de la
+
+classe (=attributs et méthode de classe)
+ Attributs NE peuvent PAS être accédés depuis une
+instance ($objet->attribut)
+ Attributs partagés par toutes les instances de la classe
+ Méthodes peuvent être accédés depuis une instance
+($objet->methode())
+ Dans les méthodes, $this n'est pas disponible
+10:11:29
+
+Programmation Web 2011-2012
+
+19
+
+Attributs statiques
+
+Attribut privé statique :
+ne peut être accédé
+que par des méthodes
+de la classe
+
+class MaClasse {
+private static $n = 0 ;
+function __construct() {
+Accès à l'attribut
+statique
+echo ++MaClasse::$n
+." instance(s)" ; }
+function __destruct() {
+echo "destruction" ; self::$n-- ; }
+1 instance(s)
+} instance(s)
+2
+$s = new MaClasse() ;
+destruction
+$tinstance(s)
+= new MaClasse() ;
+2
+unset($t)
+; Cannot access private property
+3
+instance(s)
+Fatal
+error:
+$u
+= new MaClasse()
+;
+MaClasse::$n
+in dummy.php
+on line 37
+$v = new MaClasse()
+;
+10:11:29
+Programmation Web 2011-2012
+
+20
+
+Méthodes statiques
+class MaClasse {
+private static $n = 0 ;
+function __construct() {
+echo ++MaClasse::$n." instance(s)<br>\n"
+; }
+Méthode publique
+statique
+function __destruct() {
+MaClasse::$n-- ; }
+static function f($i) {
+echo "Dans f() : ".($i*$i)Appel
+; } à partir d'une instance
+} instance(s)
+Toléré
+1
+Dans f() : 4
+$s = f()
+new :
+MaClasse()
+;
+Dans
+9
+$s->f(2) ;
+MaClasse::f(3)Programmation
+;
+10:11:29
+Web 2011-2012
+
+Appel sans instance
+21
+
+Constantes de classe
+class MaClasse {
+const constante = "Valeur" ;
+public function montre() {
+echo self::constante ;
+}
+}
+Valeur
+$c = new MaClasse() ;
+Valeur
+$c->montre() ;
+echo MaClasse::constante ;
+
+10:11:29
+
+Programmation Web 2011-2012
+
+Constante publique de
+classe
+Accès à la constante
+de classe depuis la
+classe
+
+Accès à la constante
+de classe à l'extérieur
+de la classe
+
+22
+
+Héritage
+
+class Simple {
+function affiche() {
+echo "Je suis Simple" ; }
+}
+class Etendue extends Simple {
+function affiche() {
+parent::affiche() ;
+echo " mais aussi Etendue" ;
+}
+}
+$s = new Simple() ;
+$e = new Etendue() ;
+Je suis Simple;
+$s->affiche()
+$e->affiche()
+Je
+suis Simple;mais aussi Etendue
+
+10:11:29
+
+Programmation Web 2011-2012
+
+Classe simple
+Une méthode
+publique
+Classe étendue
+héritant de la classe
+simple
+Surcharge de la
+méthode
+Appel de la méthode
+du parent
+
+23
+
+Assignation d'objets
+class Point {
+private $_x ;
+private $_y ;
+public function __construct($x=0, $y=0) {
+$this->_x = $x ;
+$this->_y = $y ; }
+public function set($x, $y) {
+$this->_x = $x ;
+$this->_y = $y ; }
+public function toString() {
+return "({$this->_x}, {$this->_y})" ; }
+10:11:29
+
+Programmation Web 2011-2012
+
+24
+
+Assignation d'objets
+$segment = array() ;
+$point = new Point() ;
+for ($i=10; $i<20; $i++)
+{
+$point->set($i, $i) ;
+$segment[] = $point ;
+}
+foreach ($segment as $k => $p)
+echo "$k: {$p->toString()}<br>\n" ;
+
+10:11:29
+
+Programmation Web 2011-2012
+
+$point
+$segment
+0: (19, 19)
+0
+1: (19, 19)
+1 19)
+2: (19,
+2 19)
+3: (19,
+4: (19,
+3 19)
+5: (19,
+4 19)
+6: (19,
+5 19)
+7: (19, 19)
+6
+8: (19, 19)
+7 19)
+9: (19,
+8
+9
+
+19,19
+18,18
+17,17
+16,16
+15,15
+14,14
+13,13
+12,12
+11,11
+10,10
+0,0
+
+25
+
+19,19
+18,18
+17,17
+16,16
+15,15
+14,14
+13,13
+12,12
+11,11
+10,10
+0,0
+
+Clonage d'objets
+$segment = array() ;
+$point = new Point() ;
+for ($i=10; $i<20; $i++)
+{
+$point->set($i, $i) ;
+$segment[] = clone $point ;
+}
+foreach ($segment as $k => $p)
+echo "$k: {$p->toString()}<br>\n" ;
+
+$point
+$segment
+0: (10, 10)
+0
+1: (11, 11)
+1 12)
+2: (12,
+2 13)
+3: (13,
+4: (14,
+3 14)
+5: (15,
+4 15)
+6: (16,
+5 16)
+7: (17, 17)
+6
+8: (18, 18)
+7 19)
+9: (19,
+8
+9
+
+10,10
+11,11
+12,12
+13,13
+14,14
+15,15
+16,16
+17,17
+18,18
+19,19
+
+10:11:29
+
+Programmation Web 2011-2012
+
+26
+
+Objets comme arguments de
+fonctions
+function origine($p) {
+$p->set(0, 0) ; }
+$point = new Point(10, 10) ;
+echo "avant: {$point->toString()}<br>\n" ;
+origine($point) ;
+echo "apres: {$point->toString()}<br>\n"
+;
+Passage
+de
+l'objet
+avant: (10, 10)
+Point par référence
+apres: (0, 0)
+10:11:29
+
+Programmation Web 2011-2012
+
+27
+
+Objets dans les chaînes de
+caractères
+ Problème :
+ ambiguïté
+ non évaluable
+ Chaîne contenant :
+ un attribut d'un objet dans une chaîne
+"a : $a->attribut"
+ le résultat d'une méthode d'un objet dans une chaîne
+"résultat : $a->calcule()"
+ une entrée de tableau associatif
+ "valeur : $tab['cle']"
+ une variableProgrammation
+suivie de
+texte (sans espace)
+10:11:29
+Web 2011-2012
+
+28
+
+Objets dans les chaînes de
+caractères
+ Solution :
+ effectuer des concaténations (pénible)
+ délimiter par { }
+ Chaîne contenant :
+ un attribut d'un objet dans une chaîne
+"a : {$a->attribut}"
+ le résultat d'une méthode d'un objet dans une chaîne
+"résultat : {$a->calcule()}"
+ une entrée de tableau associatif
+ "valeur : {$tab['cle']}"
+ une variableProgrammation
+suivie de
+texte (sans espace)
+10:11:29
+Web 2011-2012
+
+29
+
+Gestion des erreurs :
+exceptions
+ Gestion des exception identiques à C++/Java
+ Exception peut être :
+ Jetée
+: throw
+ Essayée : try
+ Capturée
+: catch
+ Exception jetée : code après throw non exécuté
+ Capture : 1 ou plusieurs blocs (selon type)
+ Exception non capturée : erreur fatale
+
+10:11:29
+
+Programmation Web 2011-2012
+
+30
+
+Utilisation des exceptions
+try {
+$error = 'Toujours lancer cette erreur';
+Déroutement
+throw new Exception($error);
+/* Le code après une exception n'est
+Capturer
+Essayer
+Lancer
+jamais exécuté. */
+echo 'Jamais exécuté'; }
+Capture Exception: Toujours lancer cette erreur
+catch (Exception $e) {
+echo "Capture Exception: "
+.$e->getMessage()." \n"; }
+Bonjour le monde
+// Poursuite de l'exécution
+echo 'Bonjour
+le monde';
+10:11:29
+Programmation
+Web 2011-2012
+
+31
+
+Classe Exception PHP 5
+<?php
+class Exception {
+protected $message = ''; // message de l'exception
+protected $code = 0;
+// code de l'exception
+protected $file;
+// fichier source de l'exception
+protected $line;
+// ligne de la source de l'exception
+function __construct(string $message=NULL, int code=0);
+final
+final
+final
+final
+final
+final
+
+function
+function
+function
+function
+function
+function
+function
+
+getMessage();
+// message de l'exception
+getCode();
+// code de l'exception
+getFile();
+// nom du fichier source
+getLine();
+// ligne du fichier source
+getTrace();
+// un tableau de backtrace()
+getTraceAsString(); // chaîne de trace
+_toString();
+// chaîne pour l'affichage
+
+} ?>
+10:11:29
+
+Programmation Web 2011-2012
+
+32
+
+PDO
+ PDO : PHP Data Objects
+ Extension PHP fournissant une interface pour accéder
+
+à une base de données
+ Fournit une interface d'abstraction pour l'accès aux
+données
+ Ne fournit PAS une abstraction de base de données
+ SQL spécifique au moteur
+ Fonctionnalités présentes / absentes
+
+ Interface orientée objet
+20:39:03
+
+Programmation Web 2013-2014
+
+1
+
+Nom du driver
+Bases de données supportées
+Bases
+de
+données
+supportées
+PDO_DBLIB
+FreeTDS / Microsoft SQL Server / Sybase
+PDO_FIREBIRD
+
+Firebird/Interbase 6
+
+PDO_IBM
+
+IBM DB2
+
+PDO_INFORMIX
+
+IBM Informix Dynamic Server
+
+PDO_MYSQL
+
+MySQL 3.x/4.x/5.x
+
+PDO_OCI
+
+Oracle Call Interface
+
+PDO_ODBC
+
+ODBC v3 (IBM DB2, unixODBC et win32 ODBC)
+
+PDO_PGSQL
+
+PostgreSQL
+
+PDO_SQLITE
+
+SQLite 3 et SQLite 2
+
+PDO_4D
+
+4D
+
+20:39:03
+
+Programmation Web 2013-2014
+
+2
+
+20:39:03
+
+Programmation Web 2013-2014
+
+3
+
+Classes prédéfinies
+ PDO :
+
+connexion PHP / base de données
+ __construct()
+ exec(), prepare(), query()
+ errorCode(), errorInfo()
+ getAttributes(), setAttribute()
+ lastInsertId(), quote()
+ beginTransaction()
+ commit(), rollBack()
+ getAvailableDrivers()
+
+20:39:03
+
+Programmation Web 2013-2014
+
+4
+
+Classes prédéfinies
+ PDOStatement :
+
+requête préparée, jeu de résultats
+ bindColumn(), bindParam(), bindValue(), closeCursor()
+ errorCode(), errorInfo()
+ fetch(), fetchAll(), fetchColumn(), fetchObject(),
+
+
+
+
+
+setFetchMode(), nextRowset()
+rowCount(), columnCount(), getColumnMeta()
+getAttribute(), setAttribute()
+execute()
+debugDumpParams()
+
+20:39:03
+
+Programmation Web 2013-2014
+
+5
+
+20:39:03
+
+Programmation Web 2013-2014
+
+6
+
+Connexions et gestionnaire de
+connexion
+ Instanciation d'un objet PDO
+ $dbh=new PDO(DSN [, user [, pass [, options]]]);
+ DSN : Data Source Name
+ nom_du_driver:syntaxe_spécifique_au_driver
+ Ex : mysql:host=localhost;dbname=ma_base
+ user : nom d'utilisateur, pass : mot de passe
+ options : tableau associatif
+ spécifiques au driver
+ Ex : array(PDO::ATTR_PERSISTENT => true)) ;
+ Fin de connexion : $dbh=null ; ou unset($dbh) ;
+20:39:03
+
+Programmation Web 2013-2014
+
+7
+
+20:39:03
+
+Programmation Web 2013-2014
+
+8
+
+Gestion des erreurs de connexion
+ Connexion par construction d'un objet
+ Gestion envisageable des erreurs
+ Aucune
+ Fin brutale (exit, die)
+ État
+ Exception
+ En cas d'erreur de connexion
+ Objet PDOException lancé
+ PDOException hérite de Exception
+20:39:03
+
+Programmation Web 2013-2014
+
+9
+
+Gestion des erreurs de connexion
+<?php
+try {
+$dbh = new PDO('mysql:host=h;dbname=db',
+$user, $pass) ;
+…
+$dbh = null ;
+}
+catch (PDOException $e) {
+echo "Erreur: ".$e->getMessage()."<br/>" ;
+die() ;
+}
+?>
+20:39:03
+
+Programmation Web 2013-2014
+
+10
+
+Gestion des erreurs (hormis
+connexion)
+ PDO::ERRMODE_SILENT (par défaut)
+ Mode silencieux, mise en place d'un code d'erreur
+ PDO : errorCode() / errorInfo()
+ PDOStatement : errorCode() / errorInfo()
+ PDO::ERRMODE_WARNING
+ Mise en place du code d'erreur
+ Émission d'une erreur de type E_WARNING
+ PDO::ERRMODE_EXCEPTION
+ Mise en place du code d'erreur
+ Objet PDOException lancé
+20:39:03
+
+Programmation Web 2013-2014
+
+11
+
+Gestion des erreurs (hormis
+connexion)
+<?php
+try {
+$dbh = new PDO('mysql:host=h;dbname=db',
+$user, $pass) ;
+$dbh->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+…
+$dbh = null ;
+}
+catch (PDOException $e) {
+echo "Erreur: ".$e->getMessage()."<br/>" ;
+die() ;
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+12
+
+Gestion des erreurs : code d'erreur
+<?php
+$pdo = new PDO("mysql:host=localhost") ;
+$pdostat = $pdo->query("COUCOU") ; Code SQLSTATE
+if ($pdo->errorCode()) {
+echo "ERREUR !!\n" ;
+echo "<pre>\n" ;
+Code erreur spécifique
+var_dump($pdo->errorInfo()) ;
+du driver
+echo "</pre>\n" ;
+ERREUR !!
+}
+array(3)
+{
+Chaîne erreur spécifique
+[0]=> string(5) "42000"
+au driver
+[1]=> int(1064)
+[2]=> string(47) "Erreur de syntaxe près de 'COUCOU' à la ligne 1"
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+13
+
+Gestion des erreurs : exceptions
+<?php
+try {
+$pdo = new PDO("mysql:host=localhost") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION)
+Code erreur ;
+spécifique
+du driver
+$pdostat = $pdo->query("COUCOU") ;
+}
+catch Code
+(Exception
+$e) {
+Chaîne erreur spécifique
+SQLSTATE
+au driver
+echo "ERREUR : ".$e->getMessage()
+;
+}
+ERREUR : SQLSTATE[42000]: Syntax error or access violation: 1064
+Erreur de syntaxe près de 'COUCOU' à la ligne 1
+
+20:39:03
+
+Programmation Web 2013-2014
+
+14
+
+20:39:03
+
+Programmation Web 2013-2014
+
+15
+
+Exécution d'une requête
+ PDOStatement PDO::query ( string statement )
+Résultat de requête
+
+Requête
+
+<?php
+try {
+$pdo = new PDO("mysql:host=localhost") ;
+$pdostat = $pdo->query("SELECT * FROM clients") ;
+}
+catch (Exception $e) {
+echo "ERREUR : ".$e->getMessage() ;
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+16
+
+Exploitation des résultats d'une
+requête
+ Récupération des données ligne à ligne
+ Une ligne peut être :
+ un tableau indexé
+ un tableau associatif
+ un tableau mixte (par défaut)
+ un objet anonyme
+ un objet d'une classe définie par l'utilisateur
+ Récupération des données d'une colonne
+
+20:39:03
+
+Programmation Web 2013-2014
+
+17
+
+ Parcourir le résultat de la requête
+
+Parcours
+du
+résultat
+d'une
+requête
+SELECT *
+
+Résultat de requête
+
+FROM morceau
+ORDER BY mor_id
+
+Curseur interne
+
++--------+------------------------------------+
+| mor_id | mor_nom
+|
++--------+------------------------------------+
+|
+872 | With A Little Help From My Friends |
+|
+873 | The Letter
+|
+|
+874 | Marjorine
+|
+|
+875 | Midnight Rider
+|
+|
+876 | You Are So Beautiful
+|
+|
+877 | Feelin' Allright
+|
+|
+878 | Cry Me A River
+|
+...
+20:39:03
+
+Programmation Web 2012-2013
+
+18
+
+Exploitation des résultats d'une
+requête (1)
+try {
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->query("SELECT name FROM user") ;
+$pdostat->setFetchMode(PDO::FETCH_ASSOC) ;
+foreach ($pdostat as $ligne) {
+echo "<p>" . $ligne['name'] . "\n" ;
+}
+}
+catch (Exception $e) {
+echo "ERREUR : ".$e->getMessage() ;
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+19
+
+Exploitation des résultats d'une
+requête (2)
+try {
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->query("SELECT name FROM user") ;
+foreach ($pdostat->fetchAll(PDO::FETCH_ASSOC)
+as $ligne) {
+echo "<p>" . $ligne['name'] . "\n" ;
+}
+}
+catch (Exception $e) {
+echo "ERREUR : ".$e->getMessage() ;
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+20
+
+Exploitation des résultats d'une
+requête (3)
+try {
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->query("SELECT name FROM user") ;
+while ($ligne
+= $pdostat->fetch(PDO::FETCH_ASSOC)) {
+echo "<p>" . $ligne['name'] . "\n" ;
+}
+}
+catch (Exception $e) {
+echo "ERREUR : ".$e->getMessage() ;
+}
+20:39:03
+
+Programmation Web 2013-2014
+
+21
+
+Modes de récupération des
+données (1)
+ PDO::FETCH_ASSOC
+ retourner chaque ligne dans un tableau indexé par les
+noms des colonnes comme elles sont retournées dans le
+jeu de résultats correspondant. Si le jeu de résultats
+contient de multiples colonnes avec le même nom,
+PDO::FETCH_ASSOC retourne une seule valeur par
+nom de colonne.
+ PDO::FETCH_NUM
+ retourner chaque ligne dans un tableau indexé par le
+numéro des colonnes comme elles sont retournées dans
+le jeu de résultats correspondant, en commençant à 0.
+20:39:03
+
+Programmation Web 2013-2014
+
+22
+
+Modes de récupération des
+données (2)
+ PDO::FETCH_BOTH (par défaut)
+ retourner chaque ligne dans un tableau indexé par les
+noms des colonnes ainsi que leurs numéros, comme
+elles sont retournées dans le jeu de résultats
+correspondant, en commençant à 0.
+ PDO::FETCH_OBJ
+ retourner chaque ligne dans un objet avec les noms de
+propriétés correspondant aux noms des colonnes
+comme elles sont retournées dans le jeu de résultats.
+
+20:39:03
+
+Programmation Web 2013-2014
+
+23
+
+Modes de récupération des
+données (3)
+ PDO::FETCH_BOUND
+ retourner true et assigner les valeurs des colonnes du
+jeu de résultats dans les variables PHP auxquelles elles
+sont liées avec la méthode
+PDOStatement::bindParam() ou la méthode
+PDOStatement::bindColumn().
+ PDO::FETCH_CLASS | PDO::FETCH_CLASSTYPE
+ retourner une nouvelle instance de la classe demandée,
+liant les colonnes aux propriétés nommées dans la
+classe.
+Nom de la classe = 1ère colonne.
+20:39:03
+
+Programmation Web 2013-2014
+
+24
+
+Modes de récupération des
+données (4)
+ PDO::FETCH_INTO
+ met à jour une instance existante de la classe demandée,
+liant les colonnes du jeu de résultats aux noms des
+propriétés de la classe.
+ PDO::FETCH_LAZY
+ retourner chaque ligne en tant qu'objet avec les noms
+des attributs correspondant aux noms des colonnes
+retournées dans le jeu de résultats.
+ PDO::FETCH_LAZY crée les noms des attributs de
+l'objet comme ils sont rencontrés.
+20:39:03
+
+Programmation Web 2013-2014
+
+25
+
+Exemple avec PDO::FETCH_CLASS
+$stmt = $pdo->query(<<<SQL
+SELECT id, name
+FROM artist
+WHERE id = 12
+SQL
+) ;
+$stmt->setFetchMode(PDO::FETCH_CLASS, 'Artist') ;
+if (($object = $stmt->fetch()) !== false) {
+return $object ;
+Instancie un objet de la classe Artist
+}
+
+dont les attributs sont supposés être id et name
+
+20:39:03
+
+Programmation Web 2013-2014
+
+26
+
+Préparation d'une requête
+
+
+Déroulement d'une requête SQL
+1.
+2.
+3.
+4.
+
+
+
+
+
+
+Analyse
+Compilation
+Optimisation
+Exécution
+
+Exécution répétée d'une requête : 1+2+3+4
+Préparation d'une requête : 1+2+3
+Exécution répétée d'une requête préparée : 4
+Préparation en fonction de paramètres :
+
+
+
+20:39:03
+
+Anonymes
+Nommés
+Programmation Web 2013-2014
+
+27
+
+20:39:03
+
+Programmation Web 2013-2014
+
+28
+
+Préparation d'une requête
+ PDOStatement PDO::prepare(string statement [, array
+
+driver_options])
+
+ statement : la requête à préparer. Peut contenir des
+
+paramètres anonymes (?) ou nommés (:nom)
+ driver_options : tableau d'options du driver
+ retourne un objet PDOStatement qui effectuera
+l'association des paramètres et exécutera la requête
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdostat = $pdo->prepare(
+"SELECT * FROM user WHERE User= ?") ;
+
+20:39:03
+
+Programmation Web 2013-2014
+
+29
+
+Association des paramètres d'une
+requête
+ bool PDOStatement::bindValue(mixed parameter, mixed
+
+value [, int data_type])
+
+ parameter : le paramètre (nom ou position [1…n])
+ value : sa valeur
+ data_type : le type de la valeur
+ PDO::PARAM_BOOL booléen.
+ PDO::PARAM_NULL NULL SQL.
+ PDO::PARAM_INT
+INTEGER SQL.
+ PDO::PARAM_STR
+CHAR, VARCHAR ou autre chaîne.
+ PDO::PARAM_LOB
+"objet large" SQL.
+
+ bool PDOStatement::execute([array parameters])
+ parameters : tableau associatif ou indexé des valeurs
+20:39:03
+
+Programmation Web 2013-2014
+
+30
+
+Préparation puis exécution d'une
+requête (1)
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->prepare(
+"SELECT * FROM user WHERE
+User=
+?") ;
+paramètre
+anonyme
+$pdostat->bindValue(1, 'root') ;
+$pdostat->execute() ;
+// Utilisation du résultat
+$pdostat->bindValue(1, 'cutrona') ;
+$pdostat->execute() ;
+// Utilisation
+du
+résultat
+Association
+Préparation
+d'une valeur
+valeur
+delalarequête
+au
+requête
+1er paramètre
+Association
+Exécution
+d'une
+de
+au
+1er
+paramètre
+20:39:03
+
+Programmation Web 2013-2014
+
+31
+
+Préparation puis exécution d'une
+requête (2)
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->prepare(
+"SELECT * FROM user WHERE User= :utilisateur") ;
+paramètre nommé
+$pdostat->bindValue(':utilisateur', 'root') ;
+$pdostat->execute() ;
+// Utilisation du résultat
+$pdostat->bindValue(':utilisateur', 'cutrona') ;
+$pdostat->execute() ;
+// Utilisation
+du
+résultat
+Association
+Préparation
+Exécution
+d'une
+valeur
+de
+dela
+au
+larequête
+requête
+paramètre nommé
+20:39:03
+
+Programmation Web 2013-2014
+
+32
+
+Préparation puis exécution d'une
+requête (3)
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->prepare(
+"SELECT * FROM user paramètre
+WHERE User=
+?") ;
+anonyme
+$pdostat->execute(array('root')) ;
+// Utilisation du résultat
+$pdostat->execute(array('cutrona')) ;
+// Utilisation du résultat
+
+Association
+Association
+Préparation
+Exécution
+d'une
+d'une valeur
+valeur
+de
+delalarequête
+au
+au
+requête
+1er
+1er paramètre
+paramètre
+20:39:03
+
+Programmation Web 2013-2014
+
+33
+
+Préparation puis exécution d'une
+requête (4)
+$pdo=new PDO("mysql:host=localhost;dbname=mysql") ;
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+$pdostat = $pdo->prepare(
+"SELECT * FROM user WHERE User= :utilisateur")
+paramètre nommé ;
+$pdostat->execute(
+array(':utilisateur' => 'root')) ;
+// Utilisation du résultat
+$pdostat->execute(
+array(':utilisateur' => 'cutrona')) ;
+// Utilisation
+du
+résultat
+Association
+Préparation
+Exécution
+d'une
+valeur
+de
+dela
+au
+larequête
+requête
+paramètre nommé
+20:39:03
+
+Programmation Web 2013-2014
+
+34
+
+Intérêt des requêtes préparées
+ Amélioration des performances en cas d'exécutions
+
+répétées
+
+ Émulation faite par PDO si le driver ne les supporte
+
+pas nativement
+
+ Protection automatique des valeurs des paramètres
+
+pour interdire les attaques par injection de code SQL
+
+20:39:03
+
+Programmation Web 2013-2014
+
+35
+
+20:39:03
+
+Programmation Web 2013-2014
+
+36
+
+Attaque par injection SQL ?
+ Ex : validation d'un login/pass sur un site
+ Requête consistant à trouver un enregistrement
+
+correspondant au couple login/pass fourni par
+l'utilisateur
+ SELECT *
+FROM membre
+WHERE login='{$_GET['login']}'
+AND passwd='{$_GET['passwd']}'
+ Et si on essayait de fournir un mot de passe un peu
+particulier…
+20:39:03
+
+Programmation Web 2013-2014
+
+37
+
+Exemple concret d'injection SQL (1)
+$pdo = new PDO('mysql:host=localhost;dbname=test') ;
+$pdostat = $pdo->query($req = <<<SQL
+SELECT *
+FROM membre
+WHERE login='{$_GET['login']}'
+AND passwd='{$_GET['passwd']}'
+SQL
+) ;
+echo "Requête:\n$req\n" ;
+if ($utilisateur = $pdostat->fetch())
+echo "Bienvenue {$utilisateur['nom']}" ;
+else
+echo "Désolé..." ;
+20:39:03
+
+Programmation Web 2013-2014
+
+38
+
+Exemple concret d'injection SQL (2)
+Saisie de l'utilisateur par formulaire :
+ mail : whatever
+ pass : who_cares?
+
+URL :
+?mail=whatever&passwd=who_cares?
+Requête:
+SELECT *
+FROM membre
+WHERE login='whatever'
+AND passwd='who_cares?'
+Désolé...
+20:39:03
+
+Programmation Web 2013-2014
+
+39
+
+Exemple concret d'injection
+SQL (3)
+Saisie de l'utilisateur :
+ mail : whatever
+ pass : who_cares?' OR true!='
+
+URL :
+?mail=whatever&passwd=who_cares?'%20OR%20true!='
+Requête:
+SELECT *
+FROM membre
+WHERE login='whatever'
+AND passwd='who_cares?' OR true!=''
+Bienvenue John
+20:39:03
+
+Programmation Web 2013-2014
+
+40
+
+Protection contre les injections
+SQL (1)
+$pdo = new PDO('mysql:host=localhost;dbname=test') ;
+$pdostat = $pdo->prepare($req = <<<SQL
+SELECT *
+FROM membre
+WHERE login=?
+AND passwd=?
+SQL
+) ;
+$pdostat->execute(array($_GET['login'],
+$_GET['passwd'])) ;
+if ($utilisateur = $pdostat->fetch())
+{ echo "Bienvenue {$utilisateur['nom']}\n" ; }
+else { echo "Désole...\n"
+; }
+20:39:03
+Programmation Web 2013-2014
+41
+
+Protection contre les injections
+SQL (2)
+$pdo = new PDO('mysql:host=localhost;dbname=test') ;
+$login = $pdo->quote($_GET['login']) ;
+$passwd = $pdo->quote($_GET['passwd']) ;
+$pdostat = $pdo->query($req = <<<SQL
+SELECT *
+FROM membre
+Requête:
+WHERE login=$login
+SELECT
+*
+AND passwd=$passwd
+FROM membre
+SQL
+WHERE login='whatever'
+) ;
+AND passwd='who_cares?\' OR true!=\''
+echo "Requête:\n$req\n" ;
+Désolé...
+if ($utilisateur = $pdostat->fetch())
+{ echo "Bienvenue
+{$utilisateur['nom']}\n" ; } 42
+20:39:03
+Programmation Web 2013-2014
+
+

@@ -1,0 +1,2537 @@
+Programmation Web :
+PHP
+
+Avec l'aimable autorisation de
+Jérôme CUTRONA
+
+PHP: Langage de script pour le Web
+ Qu’est-ce que PHP ?
+
+
+
+
+
+
+
+
+Langage de script. Utilisé coté serveur
+Acronyme récursif : PHP: Hypertext Preprocessor
+Créé en 1994-1995 par Rasmus Lerdorf
+Extension utilisée sur certains serveurs Web (33%)
+Langage multi plate-forme (UNIX / Windows…)
+Open Source
+Versions actuelles (source nexen.net) :
+ PHP4 (52% en octobre 2008)
+ PHP5 (48% en octobre 2008)
+
+10:11:04
+
+Programmation Web 2012-2013
+
+2
+
+Utilité et utilisation de PHP
+ Création de pages HTML « dynamiques »,
+fabriquées à la volée, construite à la demande
+ Interface entre un serveur Web et des bases de
+données
+ Création d’applications Web
+
+10:11:04
+
+Programmation Web 2012-2013
+
+3
+
+Principales fonctionnalités de PHP
+
+
+
+
+
+
+
+
+
+
+Manipulation de chaînes et tableaux
+Calendrier / dates / heures
+Fonctions mathématiques
+Accès au système de fichiers
+Manipulation d’images
+HTTP / FTP / IMAP
+Bases de données (Oracle, MySQL, …)
+XML
+…
+
+10:11:05
+
+Programmation Web 2012-2013
+
+4
+
+Fonctionnement de PHP
+Requête
+HTTP
+du
+client
+(((port
+hello.php
+))
+Rendu
+Localisation
+Connexion
+Exécution
+Fermeture
+graphique
+du
+de
+sur
+de
+du
+code
+la
+le
+la
+code
+connexion
+serveur
+des
+ressource
+PHP
+PHP
+données
+dans
+le
+Envoi
+résultat
+au
+client
+Localisation
+Rendu
+Exécution
+Fermeture
+Connexion
+Requête
+graphique
+HTTP
+du
+de
+sur
+de
+du
+code
+la
+le
+la
+code
+du
+connexion
+serveur
+des
+ressource
+client
+PHP
+PHP
+données
+(port
+hello.php
+dans80)
+80)
+le fichier
+fichier
+Envoi du
+du
+résultat
+au
+client
+== réponse
+réponse HTTP
+HTTP
+
+Client
+Client
+GET
+Navigateur
+GET /hello.php
+/hello.php HTTP/1.0
+HTTP/1.0
+Réseau
+•HTML
+Réseau
+•JavaScript
+•CSS
+Protocole
+Protocole HTTP
+HTTP
+
+Exécution
+Exécution d’un
+d’un programme
+programme sur
+sur le
+le serveur
+serveur
+Construction
+de
+la
+réponse
+Construction
+de
+la
+réponse
+<<html
+>
+html>
+
+<<head
+head>>
+Serveur
+Serveur
+<<title
+title>>Hello
+Hello</
+</title
+title>>
+
+</
+</head
+head>>
+Serveur
+Web
+.html
+<<body
+body>>Hello
+Hello world
+world</
+</body
+body>>
+.php
+</
+</html
+html>>
+.jpg
+
+Module PHP
+MySQL
+10:11:05
+
+<?php
+<?php
+echo
+hello.php
+echo <<<
+<<<HTML
+HTML
+hello.php
+<<html
+>
+html>
+<<head
+head>>
+<<title
+title>>Hello
+Hello</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>Hello
+Hello world
+world</
+</body
+body>>
+</
+</html
+html>>
+HTML;
+HTML;
+
+Programmation Web 2012-2013
+
+5
+
+Fonctionnement de PHP
+Client  Serveur
+1.
+2.
+3.
+4.
+5.
+
+Connexion TCP sur le serveur (port 80)
+Requête HTTP du client (mon_fichier.php)
+Localisation de la ressource
+Exécution du code PHP
+Envoi du résultat de l’exécution au client
+= réponse HTTP
+6. Fermeture de la connexion
+7. Rendu graphique des données (HTML, image, …)
+10:11:05
+
+Programmation Web 2012-2013
+
+6
+
+Programme en PHP
+Délimitation du code PHP dans le fichier .php :
+ <?php Code PHP ?> Fermeture
+Fermeture optionnelle
+optionnelle
+ <script language="PHP">
+
+Confusion
+Confusion avec
+avec JavaScript
+JavaScript
+
+ àà bannir
+bannir !!!!
+
+Code PHP
+</script>
+
+
+
+
+<? Code PHP ?>
+<% Code PHP %>
+
+10:11:06
+
+Dépend
+Dépend de
+de la
+la configuration
+configuration
+short_open_tag
+short_open_tag
+du
+du serveur
+serveur
+asp_tags
+asp_tags
+
+ àà bannir
+bannir !!!!
+
+Programmation Web 2012-2013
+
+7
+
+Eléments de syntaxe PHP
+ La syntaxe de PHP ressemble à celle de famille
+"C" (C, C++, Java, …)
+ Chaque instruction se termine par ";"
+ Commentaires:
+/* jusqu’au prochain */
+// jusqu’à la fin de la ligne
+# jusqu’à la fin de la ligne
+
+10:11:06
+
+Programmation Web 2012-2013
+
+8
+
+Les variables et les types de données
+ Tout identificateur commence par "$"
+ Les affectations sont réalisées grâce à "="
+ Numérique entier: 12 ou réel: 1.54
+ Chaîne: "Hello" ou ’Bonjour’
+ Booléen: true, false (PHP 4)
+ Tableau: $tab[2]=12
+ Objet (PHP4, PHP5)
+ Ressource
+ NULL
+ Le type d’une variable est dynamique et est
+déterminé par la valeur qui lui est affectée
+10:11:06
+
+Programmation Web 2012-2013
+
+9
+
+Typage faible. Exemple
+// Pas de déclaration de variable
+$test = 1.5 ;
+
+// Réel
+
+$test = 12 ;
+
+// Entier
+
+$test = array() ; // Tableau
+$test = "10" ;
+
+// Chaîne
+
+echo $test ; // 10
+10:11:07
+
+Programmation Web 2012-2013
+
+10
+
+Typage automatique. Exemple
+$nombre1
+$nombre2
+$chaine1
+$chaine2
+
+=
+=
+=
+=
+
+1.5 ;
+12 ;
+"10" ;
+'coucou' ;
+
+//
+//
+//
+//
+
+Réel
+Entier
+Chaîne
+Chaîne
+
+$total =
+$nombre1 + $nombre2 + $chaine1 + $chaine2 ;
+1.5
+1.5
+
+12
+12
+
+"10"
+"10"
+
+13.5
+13.5
+
+10
+10
+23.5
+23.5
+
+echo $total ; // 23.5 Réel
+10:11:07
+
+'coucou'
+'coucou'
+
+Programmation Web 2012-2013
+
+00
+23.5
+23.5
+11
+
+Les chaînes de caractères
+Substitution de variables dans les chaînes
+ Guillemets simples
+
+
+
+$a='chaîne' ;
+$b='voici une $a';
+
+ Guillemets doubles
+
+
+
+$a="chaîne" ;
+$b="voici une $a";
+
+ Syntaxe HereDoc
+
+
+
+10:11:07
+
+$a="chaîne" ;
+$b=<<<MARQUE_DE_FIN
+voici une $a
+sur deux lignes ;-)
+MARQUE_DE_FIN;
+
+chaîne
+chaîne
+voici
+voici une
+une $a
+$a
+chaîne
+chaîne
+voici
+voici une
+une chaîne
+chaîne
+chaîne
+chaîne
+voici
+voici une
+une chaîne
+chaîne
+sur
+sur deux
+deux lignes
+lignes ;-)
+;-)
+
+Programmation Web 2012-2013
+
+12
+
+Concaténation de chaînes
+
+
+
+Permet d’assembler plusieurs chaînes
+Réalisé grâce à l’opérateur point : .
+"Bonjour " . "Marcel"
+ vaut "Bonjour Marcel"
+$nb = 6*2 ;
+"Acheter " . $nb
+ vaut
+
+10:11:08
+
+. " oeufs"
+"Acheter 12 oeufs"
+
+Programmation Web 2012-2013
+
+13
+
+La commande echo
+ Permet d’envoyer du texte au navigateur du
+client (« écrire » la page au format HTML
+résultant de l’interprétation de PHP)
+
+
+
+echo "Bonjour" ;
+$nom="Marcel" ; echo "Bonjour $nom" ;
+
+ Plus généralement, permet d’envoyer des octets
+au navigateur du client
+
+
+
+
+10:11:08
+
+Ficher HTML, XML, CSS, JavaScript, …
+Données d'une image
+Contenu d'un ficher PDF, Flash, etc.
+Programmation Web 2012-2013
+
+14
+
+Hello world !
+Interprétation
+Interprétation du
+du code
+code PHP
+PHP sur
+sur le
+le serveur
+serveur
+<?php
+Serveur du
+Navigateur
+<?php
+et
+transmission
+résultat
+au
+client
+et
+transmission
+du
+résultat
+au
+client
+$$debut
+debut == <<<
+<<<HTML
+HTML
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>hello
+hello</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>\n
+\n
+HTML
+HTML;;
+$$corps
+corps == ""Hello
+Hello world!
+world!\n
+\n";
+";
+$$fin
+== <<<
+fin
+<<<HTML
+HTML
+</
+</body
+body>>
+</
+</html
+html>>
+HTML
+HTML;;
+/*
+/* Envoi
+Envoi au
+au client
+client */
+*/
+echo
+echo $$debut
+debut.$
+.$corps
+corps.$
+.$fin
+fin ;;
+
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>hello
+hello</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+Hello
+Hello world!
+world!
+</
+</body
+body>>
+</
+</html
+html>>
+
+Impossible
+Impossible de
+de voir
+voir le
+le code
+code PHP
+PHP depuis
+depuis le
+le navigateur
+navigateur !!
+!!
+10:11:08
+
+Programmation Web 2012-2013
+
+15
+
+Les opérateurs arithmétiques
+
+$b
+
+Somme
+
+$b
+
+Différence
+
+$b
+
+Multiplication
+
+$a
+
++
+*
+/
+
+$b
+
+Division
+
+$a
+
+%
+
+$b
+
+Modulo (Reste de la division entière)
+
+$a
+$a
+$a
+
+10:11:09
+
+Programmation Web 2012-2013
+
+16
+
+Les opérateurs d’in- et de
+dé-crémentation pré- et post-fixés
+$a++
+
+++$a
+$a--
+
+--$a
+
+10:11:09
+
+Retourne la valeur de $a puis augmente la
+valeur de $a de 1
+Augmente la valeur de $a de 1 puis
+retourne la nouvelle valeur de $a
+Retourne la valeur de $a puis diminue la
+valeur de $a de 1
+Diminue la valeur de $a de 1 puis retourne
+la nouvelle valeur de $a
+
+Programmation Web 2012-2013
+
+17
+
+Les opérateurs de comparaison
+== $b
+$a != $b
+$a < $b
+$a > $b
+$a <= $b
+$a >= $b
+$a === $b
+$a !== $b
+$a
+
+10:11:09
+
+Vrai si égalité entre les valeurs de $a et $b
+Vrai si différence entre les valeurs de $a et $b
+Vrai si $a inférieur à $b
+Vrai si $a supérieur à $b
+Vrai si $a inférieur ou égal à $b
+Vrai si $a supérieur ou égal à $b
+Vrai si $a et $b identiques (valeur et type)
+Vrai si $a et $b différents (valeur ou type)
+Programmation Web 2012-2013
+
+18
+
+Les opérateurs logiques
+and [Expr2]
+[Expr1] && [Expr2]
+[Expr1] or [Expr2]
+[Expr1] || [Expr2]
+
+[Expr1]
+
+[Expr1]
+
+!
+
+10:11:10
+
+xor
+
+Vrai si [Expr1] et [Expr2] sont vraies
+idem
+Vrai si [Expr1] ou [Expr2] sont vraies
+idem
+
+Vrai si [Expr1] ou [Expr2] sont vraies
+[Expr2]
+mais pas les deux
+
+[Expr1]
+
+Vrai si [Expr1] est non vraie
+
+Programmation Web 2012-2013
+
+19
+
+Les opérateurs sur bits
+$a
+$a
+$a
+
+&
+|
+^
+
+$b
+
+ET binaire
+
+$b
+
+OU binaire
+
+$b
+
+XOR binaire
+
+~ $a
+$a << $b
+$a >> $b
+
+10:11:10
+
+Inversion bit à bit
+
+$a décalé à gauche de $b rangs
+$a décalé à droite de $b rangs
+
+Programmation Web 2012-2013
+
+20
+
+Précédence des opérateurs
+
+10:11:10
+
+Programmation Web 2012-2013
+
+21
+
+Précédence des opérateurs
+
+En
+En cas
+cas de
+de doute,
+doute,
+utilisez
+utilisez les
+les parenthèses
+parenthèses ;-)
+;-)
+
+10:11:11
+
+Programmation Web 2012-2013
+
+22
+
+Structure de contrôle Si…Alors…Sinon…
+if (condition)
+{
+/* Bloc d’instructions exécuté si la
+condition est vraie */
+
+}
+[else
+{
+/* Bloc d’instructions exécuté si la
+condition est fausse */
+}]
+
+10:11:11
+
+Programmation Web 2012-2013
+
+23
+
+Structure de contrôle Tant que… faire…
+while (condition)
+{
+/* Bloc d’instructions répété tant que la
+condition est vraie */
+
+}
+do {
+/* Bloc d’instructions exécuté une fois
+puis répété tant que la condition est
+vraie */
+} while (condition) ;
+10:11:11
+
+Programmation Web 2012-2013
+
+24
+
+Structure de contrôle Tant que… faire…
+for(avant; condition; fin_chaque_itération)
+{ /* Bloc d’instructions répété tant que la
+condition est vraie */
+}
+Équivalent à:
+avant ;
+while (condition)
+{ /* Bloc d’instructions répété tant que la
+condition est vraie */
+fin_chaque_itération ;
+}
+10:11:12
+
+Programmation Web 2012-2013
+
+25
+
+Structure de contrôle switch…
+switch (val)
+{
+case v1:
+instructions
+case v2:
+instructions
+
+}
+
+exécutées si val==v1
+exécutées si val==v2
+ou si val==v1
+
+…
+default:
+instructions dans tous les cas
+
+10:11:12
+
+Programmation Web 2012-2013
+
+26
+
+L’instruction break
+Permet de sortir d’une structure de contrôle
+switch (val)
+{
+case v1:
+instructions exécutées si val==v1
+break ; /* On sort du switch si val==v1 */
+case v2:
+instructions exécutées si val==v2
+ou si val==v1
+break ; /* On sort du switch si val==v2 */
+…
+default:
+instructions exécutées dans tous les cas
+si val!=v1 et val!=v2
+}
+10:11:12
+
+Programmation Web 2012-2013
+
+27
+
+Les tableaux
+ Création / initialisation:
+$tab1=array(12, "fraise", 2.5) ;
+$tab2[]
+$tab2[]
+$tab2[]
+
+=
+=
+=
+
+12 ;
+"fraise" ;
+2.5 ;
+
+$tab3[0] = 12 ;
+$tab3[1] = "fraise" ;
+$tab3[2] = 2.5 ;
+10:11:13
+
+Programmation Web 2012-2013
+
+Clé Valeur
+0
+
+12
+
+1
+
+"fraise"
+
+2
+
+2.5
+
+28
+
+Les tableaux « à trous »
+ Les éléments du tableaux ne sont pas forcement
+d’indices consécutifs :
+$tab4[0]
+$tab4[1]
+$tab4[2]
+$tab4[5]
+
+=
+=
+=
+=
+
+12 ;
+"fraise" ;
+2.5 ;
+"el5" ;
+
+Clé Valeur
+0 12
+1 "fraise"
+2
+3
+4
+5
+
+2.5
+
+"el5"
+
+ Comment parcourir de tels tableaux ?
+10:11:13
+
+Programmation Web 2012-2013
+
+29
+
+Les tableaux « à trous » (suite)
+4
+Parcours classique :
+for ($i=0; $i < sizeof($tab4); $i++)
+{ echo "tab4[$i]: "
+. $tab4[$i] . "<BR>\n";
+}
+Clé Valeur
+
+?
+10:11:13
+
+Programmation Web 2012-2013
+
+0
+1
+
+12
+"fraise"
+
+2
+3
+
+2.5
+
+4
+5
+
+"el5"
+30
+
+Structure de contrôle Pour chaque…
+foreach ($tableau as $element)
+{
+/* Bloc d’instructions répété pour
+chaque élément de $tableau */
+/* Chaque élément de $tableau est
+accessible grâce à $element */
+}
+
+10:11:14
+
+Programmation Web 2012-2013
+
+31
+
+Parcours de tableau : foreach
+PHP
+
+…
+$tab4[0] = 12 ;
+$tab4[1] = "fraise" ;
+$tab4[2] = 2.5 ;
+$tab4[5] = "el5" ;
+foreach($tab4 as $v)
+{
+echo "Val: $v<br>\n";
+}
+…
+
+10:11:14
+
+HTML
+…
+Val:12<br>\n
+Val:fraise<br>\n
+Val:2.5<br>\n
+Val:el5<br>\n
+…
+
+Programmation Web 2012-2013
+
+Navigateur
+
+32
+
+Tableaux associatifs
+ Tableaux dont l’accès aux éléments n’est plus
+réalisé grâce à un index (0,1,…) mais grâce à une
+clé de type entier ou chaîne.
+ Exemples de clés:
+$tab['un']
+
+= 12 ;
+
+$tab[205]
+
+= "bonjour" ;
+
+$tab["la
+
+ Création
+
+valeur"]
+
+$tab = array(cle1
+
+=>
+cle2 =>
+
+= 3.0 ;
+val1,
+val2,
+
+…);
+10:11:14
+
+Programmation Web 2012-2013
+
+33
+
+Tableaux associatifs - Exemples
+$tab5['un']
+$tab5['trois']
+$tab5["deux"]
+$tab5[42]
+
+=
+=
+=
+=
+
+12 ;
+"fraise" ;
+2.5 ;
+"el5" ;
+
+Clé
+"un"
+
+10:11:15
+
+=>
+=>
+=>
+=>
+
+12
+
+"trois"
+
+"fraise"
+
+"deux"
+
+2.5
+
+42
+
+$tab6 = array('un'
+'trois'
+"deux"
+42
+
+Valeur
+
+"el5"
+
+12,
+"fraise",
+2.5,
+"el5") ;
+
+Programmation Web 2012-2013
+
+34
+
+Structure de contrôle Pour chaque…
+foreach($tableau as $cle => $element)
+{
+/* Bloc d’instructions répété pour
+chaque élément de $tableau */
+/* Chaque élément de $tableau est
+accessible grâce à $element */
+/* La clé d’accès à chaque élément est
+donnée par $cle */
+
+}
+
+10:11:15
+
+Programmation Web 2012-2013
+
+35
+
+Parcours de tableau
+<?php
+<?php
+$$html
+html == <<<
+<<<HTML
+HTML
+<<html
+html>>
+<<head
+head><
+><title
+title>>foreach
+foreach clé
+clé</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+HTML
+HTML;;
+$$tab6
+=>
+tab6 == array
+array((''un
+un''
+=> 12
+12,,
+''deux
+=>
+deux''
+=> ""fraise
+fraise",
+",
+""trois
+trois"" =>
+=> 2.5
+2.5,,
+""quatre
+quatre"" =>
+=> ""el5
+el5"")) ;;
+foreach
+foreach (($$tab6
+tab6 as
+as $$cle
+cle =>
+=> $$val
+val))
+{{
+$$html
+html .=
+.= ""tab[
+tab[$$cle
+cle]:
+]: $$val
+val<br>
+<br>\n
+\n"" ;;
+}}
+echo
+echo $$html
+html .. ""</
+</body
+body>\n</
+>\n</html
+html>>"" ;;
+
+10:11:15
+
+Programmation Web 2012-2013
+
+36
+
+Exemple de génération de code HTML
+<?php
+<?php
+$$html
+html == <<<
+<<<HTML
+HTML
+<!DOCTYPE
+<!DOCTYPE html
+html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01
+Transitional//EN">
+Transitional//EN">
+<<html
+html>>
+<<head
+head>>
+<<meta
+meta http-equiv
+http-equiv=="Content-Type"
+"Content-Type"
+content
+content=="text/html;
+"text/html; charset=iso-8859-1"
+charset=iso-8859-1">>
+<<title
+title>Boucle</
+>Boucle</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+HTML;
+HTML;
+for
+for (($$ii==1;
+1; $$ii<<20;
+20; $$ii++
+++)) {{
+$$html
+html .=
+.= ""Le
+Le serveur
+serveur compte...
+compte... ""
+.. $$ii .. ""<br>
+<br>\n"
+\n" ;;
+}}
+$$html
+html .=
+.= <<<
+<<<HTML
+HTML
+</
+body
+>
+</body>
+</
+</html
+html>>
+HTML;
+HTML;
+echo
+echo $$html
+html ;;
+10:11:16
+
+Programmation Web 2012-2013
+
+37
+
+Traitement des données de formulaires
+ PHP permet de traiter les données saisies grâce
+à un formulaire HTML si le champ ACTION du
+formulaire désigne une page PHP du serveur.
+ Après récupération par le serveur Web, les
+données sont contenues dans l'une des variables
+superglobales de type tableau associatif $_GET
+ou $_POST (ou $_REQUEST).
+ La valeur peut être trouvée grâce à une clé qui
+porte le même nom que le champs du formulaire
+de la page HTML de saisie.
+10:11:16
+
+Programmation Web 2012-2013
+
+38
+
+Traitement des données de formulaires
+Réseau
+Réseau
+
+Client
+Client
+Navigateur
+•HTML
+nomPers=robert
+nomPers=robert
+•JavaScript
+•CSS
+
+<<html
+html>>
+<<head
+head>>
+Serveur
+Serveur
+nomPers
+<<title
+nomPers
+title>>bonjour
+bonjour</
+</title
+title>>
+</
+</head
+head>>
+Serveur
+Web
+<?php
+<?php
+<<body
+body>>
+$
+$html
+html == <<<
+<<<HTML
+HTML
+Bonjour
+Bonjour robert
+robert !!
+<
+html
+>
+<html>
+</
+</body
+body>>
+<
+<head
+head><
+><title
+title>>bonjour
+bonjour</
+</title
+title></
+></head
+head>>
+</
+html
+</
+html>> PHP
+Module
+<<body
+body>>
+HTML
+HTML;;
+$$html
+html .=
+.= ""Bonjour
+Bonjour "".$
+.$_GET
+_GET[[''nomPers
+nomPers'']].."" !!\n
+\n"" ;;
+echo
+echo $$html
+html .. ""</
+</body
+body>>\n
+\n</
+</html
+html>>"" ;;
+
+robert
+robert
+
+10:11:17
+
+Programmation Web 2012-2013
+
+39
+
+Exemple – Formulaire HTML
+<!DOCTYPE
+<!DOCTYPE html
+html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01 Transitional//EN">
+Transitional//EN">
+
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>formulaire
+formulaire</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+<<form
+form action
+action==""valide1.php
+valide1.php"" method
+method==""get
+get"">>
+Nom:
+Nom: <<input
+input type
+type==""text
+text"" name
+name==""nomPers
+nomPers"">>
+<<input
+input type
+type==""submit
+submit"" value
+value==""Envoyer
+Envoyer"">>
+</
+</form
+form>>
+</
+</body
+body>>
+</
+</html
+html>>
+
+10:11:17
+
+Programmation Web 2012-2013
+
+40
+
+Exemple – Traitement en PHP
+<?php
+<?php
+$$html
+html == <<<
+<<<HTML
+HTML
+<!DOCTYPE
+html
+<!DOCTYPE html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01 Transitional//EN">
+Transitional//EN">
+<<html
+>
+html>
+<<head
+head>>
+$$_GET
+<<title
+_GET[[''nomPers
+nomPers'']]
+title>>Validation
+Validation</
+</title
+title>>
+</
+</head
+head>>
+est-il
+défini
+??
+est-il
+défini
+<<body
+>
+body>
+HTML
+HTML;;
+
+if
+if ((isset
+isset(($$_GET
+_GET[[''nomPers
+nomPers'']]))
+))
+$$_GET
+_GET[[''nomPers
+nomPers'']]
+{{
+est-il
+est-il vide
+vide ??
+if
+if ((!!empty
+empty(($$_GET
+_GET[[''nomPers
+nomPers'']]))
+))
+{{
+$$html
+html .=
+.= ""Vous
+Vous avez
+avez saisi
+saisi ''""
+.$
+.$_GET
+_GET[[''nomPers
+nomPers'']]..""''\n
+\n"" ;;
+}}
+else
+else
+$$html
+html .=
+.= ""Aucune
+Aucune valeur
+valeur saisie
+saisie\n
+\n";
+";
+}}
+else
+else
+$$html
+html .=
+.= ""Utilisation
+Utilisation incorrecte
+incorrecte\n
+\n"" ;;
+
+echo
+echo $$html
+html .. ""</
+</body
+body>>\n
+\n</
+</html
+html>>"" ;;
+10:11:17
+
+Programmation Web 2012-2013
+
+41
+
+Formulaires contenant des champs
+« SELECT »
+
+10:11:18
+
+Programmation Web 2012-2013
+
+42
+
+Formulaires contenant des champs
+« SELECT unique»
+<!DOCTYPE
+<!DOCTYPE html
+html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01 Transitional//EN">
+Transitional//EN">
+
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>Formulaire
+Formulaire de
+de saisie
+saisie des
+des fruits
+fruits</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+<<form
+form action
+action==""valide3.php
+valide3.php"" method
+method==""get
+get"">>
+Choisissez
+Choisissez des
+des fruits:
+fruits:&nbsp;
+&nbsp;
+<<select
+select name
+name==""sel
+sel"">>
+<<option
+option>>Fraise
+Fraise
+<<option
+option>>Pomme
+Pomme
+<<option
+option>>Poire
+Poire
+Envoyer
+Envoyer
+<<option
+option>>Banane
+Banane
+<<option
+option>>Cerise
+Cerise
+</
+</select
+select>>
+<<input
+input type
+type==""submit
+submit"" value
+value==""envoyer
+envoyer"">>
+</
+</form
+form>>
+</
+</body
+body>>
+valide3.php?
+valide3.php?sel=Pomme
+sel=Pomme
+</
+html
+>
+</html>
+10:11:18
+
+Programmation Web 2012-2013
+
+43
+
+Formulaires contenant des champs
+« SELECT multiple»
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Formulaire de saisie des fruits</title>
+</head>
+<body>
+<form action="valide3.php" method="get">
+Choisissez des fruits:&nbsp;
+<select name="sel" multiple>
+<option>Fraise
+<option>Pomme
+<option>Poire
+Envoyer
+<
+option>Banane
+Envoyer
+<option>Cerise
+</select>
+<input type="submit" value="envoyer">
+</form>
+valide3.php?
+</body>
+valide3.php?sel=Pomme&sel=Poire
+sel=Pomme&sel=Poire
+</html>
+10:11:18
+
+Programmation Web 2012-2013
+
+???
+???
+44
+
+Formulaires contenant des champs
+« SELECT multiple»
+<html>
+<head>
+<title>Formulaire de saisie des fruits</title>
+</head>
+<body>
+<form action="valide3.php" method="get">
+Choisissez des fruits:&nbsp;
+<select name="sel[]" multiple>
+<option>Fraise
+<option>Pomme
+<option>Poire
+Envoyer
+Envoyer
+<option>Banane
+<option>Cerise
+</select>
+<input type="submit" value="envoyer">
+</form>
+valide3.php?
+valide3.php?sel%5B%5D=Pomme&sel%5B%5D=Poire
+sel%5B%5D=Pomme&sel%5B%5D=Poire
+</body>
+valide3.php?
+</html>
+valide3.php?sel[]=Pomme&sel[]=Poire
+sel[]=Pomme&sel[]=Poire
+10:11:19
+
+Programmation Web 2012-2013
+
+45
+
+Traitement des données des champs
+« SELECT »
+<?php
+<?php
+$$html
+html == <<<
+<<<HTML
+HTML
+
+<!DOCTYPE
+<!DOCTYPE html
+html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01 Transitional//EN">
+Transitional//EN">
+
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>Liste
+Liste de
+de fruits
+fruits</
+</title
+title>>
+$$_GET
+_GET[[‘‘sel
+sel'']]
+</
+head
+>
+</head>
+est
+est un
+un tableau
+tableau
+<<body
+body>>
+HTML
+HTML;;
+if
+if ((isset
+isset(($$_GET
+_GET[[''sel
+sel''])
+]) &&
+&& !!empty
+empty(($$_GET
+_GET[[''sel
+sel'']))
+]))
+{{/*
+La
+variable
+$_GET['sel']
+est
+définie
+/* La variable $_GET['sel'] est définie
+et
+et elle
+elle n'est
+n'est pas
+pas vide
+vide */
+*/
+foreach
+foreach(($$_GET
+_GET[[''sel
+sel'']] as
+as $$fruit
+fruit))
+$$html
+html .=
+.= ""Vous
+Vous avez
+avez choisi
+choisi $$fruit
+fruit<br>
+<br>\n
+\n"" ;;
+}}
+else
+else
+$$html
+html .=
+.= ""Vous
+Vous n'avez
+n'avez pas
+pas choisi
+choisi de
+de fruit
+fruit\n
+\n"" ;;
+echo
+echo $$html
+html .. ""</
+</body
+body>>\n
+\n</
+</html
+html>>"" ;;
+10:11:19
+
+Programmation Web 2012-2013
+
+46
+
+Résultat
+
+10:11:19
+
+Programmation Web 2012-2013
+
+47
+
+Formulaires contenant des champs
+« CHECKBOX »
+
+10:11:20
+
+Programmation Web 2012-2013
+
+48
+
+Formulaires contenant des champs
+« CHECKBOX »
+<!DOCTYPE
+<!DOCTYPE html
+html PUBLIC
+PUBLIC "-//W3C//DTD
+"-//W3C//DTD HTML
+HTML 4.01
+4.01 Transitional//EN">
+Transitional//EN">
+<<html
+html>>
+<<head
+head>>
+<<title
+title>>Formulaire
+Formulaire de
+de saisie
+saisie des
+des fruits
+fruits</
+</title
+title>>
+</
+</head
+head>>
+<<body
+body>>
+<<form
+form name
+name==""formu
+formu"" action
+action==""valide3.php
+valide3.php"" method
+method==""get
+get"">>
+Choisissez
+Choisissez des
+des fruits
+fruits&nbsp;
+&nbsp;:<
+:<br
+br>>
+<<input
+input type
+type==""checkbox
+checkbox"" name
+name==""sel[]
+sel[]"" value
+value==""Fraise
+Fraise"">Fraise<
+>Fraise<br
+br>>
+<<input
+input type
+type==""checkbox
+checkbox"" name
+name==""sel[]
+sel[]"" value
+value==""Pomme
+Pomme"" >Pomme
+>Pomme <<br
+br>>
+<<input
+input type
+type==""checkbox
+checkbox"" name
+name==""sel[]
+sel[]"" value
+value==""Poire
+Poire"" >Poire
+>Poire <<br
+br>>
+<<input
+input type
+type==""checkbox
+checkbox"" name
+name==""sel[]
+sel[]"" value
+value==""Banane
+Banane"">Banane<
+>Banane<br
+br>>
+<<input
+input type
+type==""checkbox
+checkbox"" name
+name==""sel[]
+sel[]"" value
+value==""Cerise
+Cerise"">Cerise<
+>Cerise<br
+br>>
+<<input
+input type
+type==""submit
+submit"" value
+value==""Envoyer
+Envoyer"">>
+</
+</form
+form>>
+</
+</body
+body>>
+</
+</html
+html>>
+
+10:11:20
+
+Programmation Web 2012-2013
+
+49
+
+Résultat
+
+10:11:20
+
+Programmation Web 2012-2013
+
+50
+
+Références
+$a = 12 ;
+$b = $a ;
+$c = &$a ;
+$b = "coucou" ;
+$c = 84 ;
+echo
+"\$a : $a\n"
+$a
+$a :: 84
+84
+echo
+"\$b : $b\n"
+$b
+$b :: coucou
+coucou
+echo
+"\$c : $c\n"
+$c
+$c :: 84
+84
+unset($c) ;
+$c = "hello" ;
+10:11:21
+
+$$aa
+
+84
+12
+12
+84
+
+$$bb
+
+""coucou
+12
+coucou""
+
+$$cc
+
+""hello
+hello""
+
+;
+;
+;
+
+Programmation Web 2012-2013
+
+51
+
+Fonctions utilisateur
+ Description d’une fonctionnalité dépendant
+éventuellement de paramètres et retournant
+éventuellement un résultat
+ Définition
+function moyenne($a,$b)
+{
+return ($a+$b)/2. ;
+}
+ Utilisation
+$resultat = moyenne(2,4) ;
+echo $resultat ; // vaut 3
+10:11:21
+
+Programmation Web 2012-2013
+
+52
+
+Fonctions utilisateur
+ Valeur de retour
+function moyenne($a,$b)
+{ … }
+Typage
+Typage faible
+faible de
+de PHP
+PHP ::
+Aucune
+Aucune information
+information
+
+ Arguments
+function moyenne(
+{ … }
+
+$a,
+
+$b)
+
+Typage
+Typage faible
+faible de
+de PHP
+PHP ::
+Aucune
+Aucune information
+information
+10:11:22
+
+Programmation Web 2012-2013
+
+53
+
+Mode de passage des arguments (types natifs)
+<?php
+function permutation($x, $y) {
+echo "permutation..." ;
+$t = $x ;
+Permutation
+Permutation impossible
+impossible ::
+$x = $y ;
+Passage
+Passage des
+des arguments
+arguments
+$y = $t ;
+des
+des fonctions
+fonctions par
+par valeur
+valeur
+}
+$a = 12 ;
+$b = 210 ;
+$a
+echo "\$a = $a" ;
+$a == 12
+12
+$b
+echo "\$b = $b" ;
+$b == 210
+210
+permutation...
+permutation($a, $b) ;
+permutation...
+$a
+echo "\$a = $a" ;
+$a == 12
+12
+$b
+echo "\$b = $b" ;
+$b == 210
+210
+?>
+10:11:22
+
+Programmation Web 2012-2013
+
+54
+
+Mode de passage des arguments (types natifs)
+<?php
+function permutation(&$x, &$y) {
+echo "permutation..." ;
+$t = $x ;
+$x = $y ;
+$y = $t ;
+}
+$a = 12 ;
+$b = 210 ;
+$a
+echo "\$a = $a" ;
+$a == 12
+12
+$b
+echo "\$b = $b" ;
+$b == 210
+210
+permutation...
+permutation($a, $b) ;
+permutation...
+$a
+echo "\$a = $a" ;
+$a == 210
+210
+$b
+echo "\$b = $b" ;
+$b == 12
+12
+?>
+10:11:22
+
+Programmation Web 2012-2013
+
+Permutation
+Permutation
+réussie
+réussie
+
+55
+
+Arguments par défaut des fonctions
+ Valeur par défaut d’un argument s’il n’a pas été
+défini lors de l’appel de la fonction
+function bonjour($nom="inconnu")
+{ echo "Bonjour cher $nom" ; }
+ Utilisation
+bonjour() ;
+Bonjour
+Bonjour cher
+cher inconnu
+inconnu
+bonjour("Marcel") ;
+Bonjour
+Bonjour cher
+cher Marcel
+Marcel
+10:11:23
+
+Programmation Web 2012-2013
+
+56
+
+Définition de fonctions fréquemment utilisées
+ Certaines fonctions sont utilisées dans plusieurs
+scripts PHP
+ Comment faire pour ne pas les définir dans
+chacune des pages ?
+ Utilisation de :
+
+
+
+
+
+include("fichier") ;
+require("fichier") ;
+include_once("fichier") ;
+require_once("fichier") ;
+
+ Permet d’inclure le contenu de fichier dans
+le script courant
+10:11:23
+
+Programmation Web 2012-2013
+
+57
+
+include et require
+Fichier
+Fichier mafonction.php
+mafonction.php
+<?
+function mafonction($arg)
+{
+if (isset($arg))
+{
+echo ("Vrai") ;
+}
+else
+{
+echo ("Faux") ;
+}
+}
+?>
+
+10:11:23
+
+Fichier
+Fichier utilisation1.php
+utilisation1.php
+…
+require("mafonction.php")
+mafonction(true) ;
+…
+Fichier
+Fichier utilisation2.php
+utilisation2.php
+…
+include("mafonction.php")
+…
+$var=false ;
+mafonction($var) ;
+…
+Fichier
+Fichier utilisation3.php
+utilisation3.php
+…
+require("mafonction.php")
+…
+
+Programmation Web 2012-2013
+
+58
+
+Définition de constantes
+<?php
+define("ma_constante", "Bonjour à tous") ;
+
+nom
+nom
+
+valeur
+valeur
+
+Définition
+Définition d'une
+d'une constante
+constante
+echo ma_constante ;
+?>
+
+Utilisation
+Utilisation de
+de la
+la constante
+constante
+10:11:24
+
+Programmation Web 2012-2013
+
+59
+
+Gestion des erreurs
+ Dans certains cas, il n’est ni possible ni utile de
+poursuivre l’exécution du code PHP (variables
+non définies, valeurs erronées, échec de
+connexion, …)
+ Arrêt brutal de l’exécution du code:
+
+
+
+die(message)
+exit(message)
+
+Envoie message au navigateur et termine
+l’exécution du script courant
+
+10:11:24
+
+Programmation Web 2012-2013
+
+60
+
+Gestion des erreurs – (Mauvais) Exemple
+<?php
+PHP
+$html = <<<HTML
+<html>
+<head>
+<title>die-exit</title>
+</head>
+<body>
+HTML;
+if (!isset($val)) {
+HTML
+non
+non
+die($html."problèmeHTML
+val") ;
+/* Au delà de ce point,
+fin du script */
+}
+$html .= <<<HTML
+Choix: $val
+</body>
+</html>
+10:11:24
+
+<html>
+HTML
+<head>
+<title>die-exit</title>
+</head>
+<body>
+problème val
+
+valide
+valide…
+…
+Navigateur
+problème val
+
+Programmation Web 2012-2013
+
+61
+
+Gestion de l'affichage des erreurs
+ int error_reporting ( [int level] )
+
+Débogage
+
+Constante
+Ancien
+Ancien niveau
+niveau d'erreur
+d'erreur
+E_ERROR
+E_WARNING
+Sur
+Sur un
+un serveur
+serveur en
+en
+E_PARSE
+production,
+production, toute
+toute
+E_NOTICE
+erreur
+erreur affichée
+affichée
+E_CORE_ERROR
+donne
+donne des
+des indices
+indices sur
+sur
+les
+E_CORE_WARNIN
+les scripts
+scripts et
+et rend
+rend le
+le
+site
+G
+site vulnérable
+vulnérable
+E_COMPILE_ERR
+php.ini
+php.ini
+OR
+display_errors
+display_errors boolean
+boolean
+E_COMPILE_WAR
+NING
+Programmation Web 2012-2013
+10:11:24
+
+62
+
+Opérateur de contrôle d'erreur
+$v = file("dummy.txt")
+or die("Problème de
+
+Fichier
+Fichier absent
+absent
+
+lecture") ;
+
+Warning
+Warning:: file(dummy.txt):
+file(dummy.txt): failed
+failed to
+to open
+open
+stream:
+stream: No
+No such
+such file
+file or
+or directory
+directory in
+in
+dummy.php
+dummy.php on
+on line
+line 68
+68
+Problème
+Problème de
+de lecture
+lecture
+
+$v = @file("dummy.txt")
+or die("Problème de lecture") ;
+Problème
+Problème de
+de lecture
+lecture
+10:11:25
+
+Programmation Web 2012-2013
+
+63
+
+

@@ -1,0 +1,1910 @@
+Informa=que
+Modélisa=on	UML
+Objec-fs	de	la	séance	:
+Créa-on	d’un	site	Web	dynamique
+PHP
+
+
+PHP
+•  PHP	est	un	langage	de	programma-on	u=lisé	pour	la construc=on	de	sites	Web	dynamiques
+–  Pages	PHP	:	pages	Web	qui	con=ennent	de	PHP
+•  On	va	mélanger	le	PHP	au	code	HTML	/	CSS
+•  Le	code	PHP	va	être	analysé	par	le	serveur
+•  Le	résultat	va	être	une	nouvelle	page	Web	mise	à	jour automa=quement	par	le	code	PHP
+coursPHP-1.php
+<html>	…
+Le	code	PHP	est	à
+	 <?php
+l’intérieur	de	la	balise
+date_default_-mezone_set("Europe/Paris");
+<?php	 	 …	 	 ?>
+ou	entouré	par	la	balise
+echo	"<p	style='font-style:	italic;'>	Paris,	le	"
+<script	language="php">
+.date('d	/	m	/	Y'). "</p>" ;
+…	</script>
+	?>
+…	</html>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+57
+
+
+PHP
+•  Cycle	de	vie	d’une	page	PHP
+1)  Le	client	envoie	la	requête	au	serveur
+2)  Les	pages	PHP	sont	analysées	par	le	serveur,	le	code	PHP	est	interprété 3)  Le	contenu	de	la	page	est	mise	à	jour	automa-quement	et	envoyé	au client
+(1)	Requête
+Fichiers	sta=ques
+hUp://serveur/page.php
+HTML	/	CSS
+(3)	Envoie	par	le	serveur
+(contenu
+du	contenu	mis	à	jour
+HTML	calculé)
+Interpréteur	PHP
+Pages
+PHP
+(2)	Interpréta-on	par	le
+serveur	du	code	PHP
+19/01/17
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+58
+
+
+PHP
+…
+<h1>	Bienvenue	sur	le	site	PHP	</h1>
+<p	style='font-style:	italic;'>	Paris,	le
+28	/	02	/	2012</p>
+hUp://serveur/courPHP-1.php
+<p>	Il	est	18:45:12	.</p>
+…
+Contenu	HTML/CSS
+coursPHP-1.php
+calculé
+…
+<h1>	Bienvenue	sur	le	site	PHP	</h1>
+	<?php
+date_default_-mezone_set("Europe/Paris");
+Interpréteur	PHP
+echo	" <p	style='font-style:	italic;'>	Paris,	le	"
+
+. date('d	/	m	/	Y'). "</p>" ;
+Page	PHP	originelle
+			?>
+(	PHP	&	HTML	/	CSS	)
+	 	<script	language="php">
+echo	" <p>	Il	est	" .date("H:i:s"). "	.</p>" ;
+</script>
+…
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+59
+
+
+PHP
+•  Exemple	code	PHP	 coursPHP-2.php
+Toute	instruc=on	PHP	se
+<!DOCTYPE	html>
+termine	par	un	«	;	»
+<?php
+date_default_=mezone_set("Europe/Paris")	;
+Por=on	de	code	PHP						$today	=	date("d-m-Y	H:i:s")	;
+<?php	 	 	….	 	?>	 	 	 	$variable	=	"PHP5"	;
+?>
+<html>		<head>	…	</head>
+La	séquence	/*…	*/
+<body>
+délimite	un	commentaire,
+	 <h1>	Exemple	PHP	</h1>
+visible	pour	l’auteur,
+	 <p>Contenu	staBque	:	ça	ne	change	pas	</p> invisible	pour	le	client
+			<?php
+								/*	ce	contenu	va	être	interprété	par	le	serveur	*/
+Por=on	de	code	P
+HP	 echo	"<p>Contenu	en	$variable	</p>"	; 								echo	"<p>	Aujourd'hui	c'est	le	$today	</p>"	;
+	 	?>
+L’instruc=on	«	echo	»	permet
+	</body>		 	</html>
+d’écrire	dans	le	document	final
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+60
+
+
+PHP
+•  Code	une	fois	interprété	par	le	serveur…
+<!DOCTYPE	html>
+<html>
+<head>	…	 </head>
+<body>
+<h1>	Exemple	PHP	</h1>
+<p>Contenu	sta=que	:	ça	ne	change	pas	</p>
+	<p>Contenu	en	PHP5	</p>	<p>	Aujourd'hui c'est	le	28-02-2012	19:38:54	</p>
+</body>
+</html>
+Résultat	des
+instruc-ons	«	echo	»
+Ce	qui	le	client	voit…
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+61
+
+
+PHP
+•  La	no-on	de	variable
+– Une	variable	est	un	conteneur	de	valeur
+– On	peut	lui	affecter	une	valeur,	qu’on	va	u=liser
+plus	tard
+$variable	 	 =	 	 "PHP5"	;
+Le	«	$	»	indique
+une	variable
+
+Le	«	=	»	est	une	affecta-on
+
+On	asribut	une	valeur	à	la
+Le	nom	de	variable
+variable
+commence	toujours	par
+
+une	leere	ou	un	«	_	», sans
+echo	"…	$variable		…"	;
+espace
+
+On	récupère	la	valeur
+gardée	dans	la	variable	par
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+son	nom
+UFR06	Ges=on
+62
+
+
+PHP
+•  La	no-on	de	variable	:	les	types	des	données
+–  Les	variables	peuvent	garder	de	valeurs	de	différents	types
+•  Nombres	en-ers	(integer)	:	25
+•  Nombres	décimaux	(double	ou	float)	:	2.25
+•  Chaînes	de	caractères	(string)	:	«	1	super	chaîne	!	»
+•  Logique	(boolean)	:	«	true	»	(1)	ou	«	false	»
+–  La	fonc=on	geeype($variable)	permet	de	savoir	quel e	type de	valeur	con=ent	la	variable
+•  $en=er	=	25;
+
+gesype($en=er)	è	integer
+•  $decimal	=	2.25;
+
+gesype($decimal)	è	double
+•  $chaine	=	"1	super	chaîne	!";
+gesype($chaine)	è	string
+•  $bool	=	true;
+
+gesype($bool)	è	boolean
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+63
+
+
+PHP
+•  Exemple	:
+<?php
+Défini-on	d’une
+	$enGer	=	25;
+variable
+							$decimal	=	2.25;
+	 	 	 	$chaine	=	"1	super	chaîne	!";
+							$boolean	=	true;
+
+echo	"<li>"	. geeype($en-er)	.	":	$en-er	</li>" ; echo	"<li>"	. geeype($decimal)	.	":	$decimal	</li>" ; echo	"<li>"	. geeype($chaine)	.	":	$chaine	</li>" ; echo	"<li>"	. geeype($boolean)	.	":	$boolean	</li>" ;
+	 ?>
+Valeur	de	chaque
+On	récupère	la
+geeype()
+variable
+valeur	de	la	variable
+informe	le	type
+$boolean
+de	la	variable
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+64
+
+
+PHP
+•  Opérateurs
+–  Différents	opérateurs	permesent	de	manipuler	des
+valeurs,	qu’ils	soient	dans	les	variables	ou	pas
+Opérateurs
+Opérateurs
+Opérateurs	de
+Opérateurs	logiques
+mathéma-ques
+String
+comparaison
++		 	 -	 	*		 /	 	 	 %
+.
+
+==		 	 	 	!=
+||	 (OR)
+(concaténaBon)	 <=		 	 	<		 	 	 	 >=		 	 	 	>		 	 	 	 &&	(AND)
+!	( not)
+	<?php
+	$a	=	2 	3	;
+
+
+	$b	=	4	-	$a	;
+$nom	=	"Toto”;
+echo	"Salut	"	.	$nom;
+echo	"<p>	4	-	 $a	vaut	 $b	 </p>";
+	 ?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+65
+
+
+PHP
+•  Tableaux
+–  Variables	capables	d’enregistrer	plusieurs	valeurs	d’un	type
+•  Tableaux	à	indice	:
+Aeen-on	a	définir	toutes
+–  Chaque	posi=on	est	iden=fiée	par
+les	posi=ons	avant	de	les
+un	numéro	(commençant	par	0)
+u=liser	ou	il	y	aura	une
+•
+message	d’erreur.
+
+  $tableau	[0]	=	"A";
+•  $tableau	[1]	=	"B";
+•  $tableau	[3]	=	"Fin";
+•
+A	 B
+Fin	 Suite
+  $tableau	[	]	=	"Suite";
+•  Tableaux	associa-fs	:
+0	 1	 2
+3
+4
+–  Chaque	posi=on	reçoit	un	iden=fiant	(un	label)	 Jean	 Dupont
+•  $tableauAssoc	[" Prenom"]	=	"Jean";
+•
+Prenom	 Nom
+  $tableauAssoc	[" Nom"]	=	"Dupont"	; Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+66
+
+
+PHP	 Message	d’erreur	car	le
+<head>		…
+contenu	de	la	posi=on	2
+<style>…	</style>
+(	$tableau[2]	)	n’a	pas
+</head>
+été	défini	auparavant.
+
+<body>		…
+<h2>Tableaux	à	indice	</h2>
+<table>
+<?php
+							$tableau	[0]	=	"A";
+							$tableau	[1]	=	"B";
+							$tableau	[3]	=	"Fin";
+Contenu	de	la
+							$tableau	[]	=	"Suite";
+posi=on	4
+
+(	$tableau[4]	)
+							echo	" <tr>	<td> ".	$tableau[0]	.	" </td>	<td> ".		$tableau[1]
+												.	" </td>	<td> "	.	$tableau[2]	.	" </td><td> "	.	$tableau[3]
+												.	" </td><td> "	.	$tableau[4]		.	" </td></tr> "	;
+		?>
+</table>
+…
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+67
+
+
+PHP
+…
+<h2>Tableau	associa=f	</h2>
+<table>
+<tr>	<th>	Nom	</th>	<th>Prénom	</th>	</tr>
+
+	<?php
+							$tableauAssoc	["Prenom"]	=	"Jean"; 							$tableauAssoc	["Nom"]	=	"Dupont"	;
+
+							echo	"<tr>	<td>"	.	 $tableauAssoc	["Nom"]	.	"</td>"	; 							echo	"<td>"	.	$tableauAssoc	["Prenom"]	.	"	</td></tr>"	;
+	 	 ?>
+
+</table>
+</body>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+68
+
+Informa=que
+Modélisa=on	UML
+Objec-fs	de	la	séance	:
+Classes	&	Objets
+
+
+PHP	orienté	objets
+•  PHP	5	est	un	langage	«	orienté	objets	»
+– Manipula=on	de	classes	et	d’objets
+Défini=on	de	classe
+Visibilité	:
+<?php
+				class	Personne
+private	 $nom	 	class	Personne	{
+					private	$nom;
+Défini=on	d’un	asribut
+
+public	func-on	 setNom	(	$nouvNom	) Opéra=on	:
+{		$this->nom	=	$nouvNom; }
+
+public	func-on 	…
+Accès	à	un	asribut
+public	func-on	 getNom	()	{
+			$this->aeribut
+										return	$this->nom;
+}
+}
+Retourner	une	valeur
+				return	valeur	;
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+70
+
+
+PHP	orienté	objets
+•  Classes	&	Objets
+– Créa=on	d’un	objet	:	$obj	=	new	classe()	;
+…
+Créa=on	d’un	objet
+<?php
+$toto	=	new	Personne	()
+			$toto	=	new	Personne();
+
+Accès	aux	opéra=ons
+				$toto->setNom("Toto");
+
+publiques
+echo	"<p>	…	 " .		$toto->getNom()		. 	"</p>"; $toto->setNom("Toto")
+
+$toto	->	getNom	()
+	$toto->nom	=	"blablabla";
+				 echo	"	<p>	" 	.	$toto->nom		.	"	</p>	";
+?>
+Impossible	d’accéder	aux
+asributs	privés
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+71
+
+
+PHP	orienté	objets
+<html>	<head>	…
+<?php
+												class	Personne	{
+
+	private	$nom;
+.	.	.
+
+
+
+}	//fin	classe	Personne
+?>
+</head>
+<body>	…
+<?php
+	$toto	=	new	Personne();
+$toto->setNom("Toto");
+echo	"<p>	Objet	<i>Personne</i>	:	 "	 .	$toto->getNom()	.	"</p>	";
+.	.	.
+
+echo	"	<p>	"	.	$toto->nom	 .	"	</p>	"; Erreur	car	l’asribut
+?>
+«	nom	»	est	privé	!!
+
+</body>	</htlml>
+
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+72
+
+
+PHP	orienté	objets
+•  Classes	&	objets	:
+–  Héritage	:		class	 SousClasse	extends	 SuperClasse class	 Employe	extends	 Personne	{
+					private	$salaire	 =	1000;
+La	classe	 Employe	hérite	de	la
+
+classe	 Personne
+					public	func-on	 augmentaGon	 ($perc)	{
+class	Employe	extends	Personne
+if	($perc	>	0)	 	 {
+$this->salaire	=		$this->salaire
+$this->salaire*$perc;
+On	rajoute	un	nouvel	asribut
+}
+private	$salaire
+}
+Et	des	nouvel es	opéra=ons
+					public	func-on	getSalaire()
+public	func-on	 augmentaGon
+{					return	$this->salaire; }
+public	func-on	 getSalaire
+}
+Fichier	Employe.php
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+73
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+On	importe	la	défini=on	des	classes
+<?php
+Employe	et	Personne
+				include	"Employe.php"	;
+
+Toto	est	un	Employé,	il	est	donc
+				$toto	=	new	Employe();
+une	Personne
+
+	$toto->setNom("Toto");
+Toto	possède	un	salaire	(Employe),
+				$toto->augmenta-on(0.10);
+mais	aussi	un	nom	(Personne)
+
+echo	"<i>	nom	</i>	:	" .	$toto->getNom()	; echo	"	<i>	salaire	</i>	:	" .	$toto->getSalaire()	. "	€	</p>";
+?>
+La	classe	Employe	hérite	tous	les
+aeributs	et	opéra-ons	de	Personne
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+74
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+<html>		<head>	.	.	.	</head>
+<body>	<h1>Objets	en	PHP</h1>
+<?php
+include	"Employe.php"	;
+
+$toto	=	new	Employe();
+
+$toto->setNom("Toto");
+$toto->augmenta=on(0.10);
+
+echo	"<p>Objet	Employe	:	</p>	<ul>"	; 	 	 echo	"<li>	<i>	nom	</i>	:	".	$toto->getNom()	.	"</li>"; 	 	 echo	"<li>	<i>	salaire	</i>	:	"	.	$toto->getSalaire()	.	"	€	</li>"; echo	"</ul>"	;
+?>
+</body>	</html>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+75
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+– Méthode	constructeur	:	__construct
+– Redéfini-on	d’une	opéra=on
+class	Manager	extends	Employe	{
+private	$bonus	;
+func-on	__construct	($bon)
+Le	constructeur	est	appelé	chaque
+	 	 	 	 {	 	$this->bonus	=	$bon;	 	 }
+fois	qu’un	objet	est	créé	(new)
+
+						public	func-on	getSalaire()		 {
+return	parent::getSalaire() 	$this->bonus;
+}
+public	func=on	setBonus	($nouvBon)	{		…	}	 Redéfini=on	de	l’opéra=on	getSalaire public	func=on	getBonus	()			{	…	}
+parent::getSalaire		correspond	à
+}
+l’opéra=on	getSalaire	définie	par	la
+super-classe	(Employe)
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+76
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+Appel	au	constructeur	:
+<?php
+			funcBon	__construct	($bon)
+				require	"Manager.php"	;
+	 	 	 	 {	 	$this->bonus	=	$bon;	 	 }
+
+$toto	=	new	Manager(400);
+
+Appel	à	l’opéra=on	getSalaire
+$toto->setNom("Toto");
+de	la	classe	Manager
+$toto->augmenta=on(0.10);
+
+echo	"<p><i>Manager</i>	:	".	$toto->getNom()
+.	",	salaire		" .	$toto->getSalaire()	.	" €		"
+.	",	bonus	"	. $toto->getBonus()	. 	"</p>";
+?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+77
+
+Informa=que
+Modélisa=on	UML
+Objec-fs	de	la	séance	:
+Formulaires	HTML	&	PHP
+
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+78
+
+
+PHP	est	un	langage	pour	le	Web
+•  Communica-on	entre	le	client	(navigateur)	et	le
+serveur	(php)
+– Les	formulaires	en	HTML	permesent	de	recueil ir	des données	auprès	de	l’u=lisateur
+•  Les	données	sont	ensuite	communiquées	à	un	programme
+– Le	navigateur	envoie	les	données	récoltées	par	les formulaires	au	serveur
+•  Le	programme	(page	PHP)	récupère	les
+données	grâce	à	des	variables
+Page
+PHP
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+79
+
+
+Formulaires	HTML
+•  Un	formulaire	HTML	est	défini	par	la	balise
+	<form	…>	…	</form>
+–  Tous	les	éléments	sont	à	l’intérieur	de	la	balise
+<form		name=" nomFormulaire"
+														ac-on=" page.php"			method="get	|	post"	>		….	</form> ac-on	:	à	qui	on	envoie	les	données
+	method:	comment	on	envoie	les	données
+–  Les	champs	du	formulaire	sont	introduits	par	différents balises	:
+•  < input	type="…" name="…" value="…	"	id="…"	/>
+•  < textarea	name="…"	 id="…" cols="…" rows="…"	>	…	 </textarea>
+•  < select	name="…"	 id="…"	size="…	"	>
+< op-on	value="…	"	>	…	</op-on>		 </select> Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+80
+
+
+Formulaires	HTML
+<input	type="text"	name="nomClient"
+	 	 	 	 	 	 	value="votre	nom"
+	 	 	 	 	 	 	size="40"	maxlength="150"	/>
+	<select	name="produit">
+	 	 	 	<op-on	value="SuperKdo">
+	Super	Kdo					</op-on>
+							…
+</select>
+<textarea	name="opinionClient"
+	 	 	 	 	 	 	 	 	 	cols="40"	rows="5"	>
+										 Votre	opinion	sur	nos	produits
+	<input	type="reset"	 value="Neeoyer"	/>
+	</textarea>
+<input	type="submit"	value="Envoyer" /> input	type="submit"
+se	charge	d’envoyer	les	données	du
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+formulaire
+UFR06	Ges=on
+81
+
+
+Formulaires	HTML
+<form	name="formClient"	ac-on="coursPHP-7.php"	method="POST"	>
+<label	for="nom"> Nom</label> À	qui	les
+<input	type="text"	id="nom"	name="nomClient"
+données	sont
+	 	 	 	 	 	 	 	 	 value="votre	nom"	size="40"	maxlength="150"	/> 	<br/> envoyées
+
+	<label> Produit</label>
+input	type="text"
+	 	 	 	<select	name="produit">
+Zone	de	saisie
+	 	 	 	 	 	 <op-on	value="SuperKdo"> Super	Kdo</op-on>
+<op-on	value="MegaTruc"> Mega	Truc</op-on> select	…	op-on
+	 	 	 	 	 	 	<op-on	value="BabyFun"> Baby	Fun</op-on> Liste	de	sélec=on
+</select> <br/>
+
+d’op=ons
+	<label> Opinion</label>
+textarea
+<textarea	name="opinionClient"	cols="40"	rows="5"	> Votre	opinion	sur	nos	produits	</textarea> Zone	de	texte
+<br/>
+
+input	type="submit"
+<input	type="submit"	value="Envoyer" class="bouton" /> Input	type="reset"
+<input	type="reset"	 value="Neeoyer" class="bouton" /> Boutons	d’envoi	et	de
+	 </form>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+reset	du	formulaire
+UFR06	Ges=on
+82
+
+Formulaires	HTML	&	PHP
+•  Les	données	recueil ies	dans	le	formulaire	sont
+transmises	au	programme	indiqué	dans	ac-on=…
+•  Dans	PHP,	on	récupère	ces	données	grâce	à	deux
+tableaux	associa-fs	spéciaux
+– $_GET
+è			 <form	acBon="…" method="get" >
+•  $_GET["nom"]
+
+<input	…	name="nom"	/>
+– $_POST
+	è			 <form	acBon="…" method="post" >
+•  $_POST["nom"]
+
+<input	…	name="nom"	/>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+83
+
+
+Formulaires	HTML	&	PHP
+<form	name="formClient"	ac-on="coursPHP-7.php"
+
+															method="POST"	>
+<label	for="nom">Nom</label>
+<input	type="text" id="nom"
+																name="nomClient"	 value="votre	nom"
+																size="40"	maxlength="150" /> 	<br/>
+…
+<?php
+			$nom	=	$_POST["nomClient"];
+	 	$op	=		$_POST["opinionClient"];
+			$prod	=	$_POST["produit"];
+echo	"<p>Merci	de	votre	parBcipaBon, $nom	!	</p>"; 		echo	"<p>Votre	produit	est	:	<i> $prod	</i>	</p>"; 		echo	"<p>	Votre	opinion	est	:	<i> $op	</i>	</p>";
+?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+84
+
+
+Formulaires	HTML	&	PHP
+•  Méthode	GET
+–  Les	données	sont	envoyées	dans	l’URL	du	programme
+–  Limitée	à	256	octets	 	<form	name="formGet"
+–  Déconseillé
+
+	ac-on="coursPHP-8.php"
+
+	method="GET">
+<label>Nom</label>
+<input	type="text"	name="client"	size="20"	/> 	<br/>
+<label>Mot	de	passe	</label>
+	 	 <input	type="password"	name="mdp"	size="10"/>
+<br/>
+<input	type="submit"	value="Envoyer"	/>
+	</form>
+<?php
+echo	"<p>Bienvenue,	<i>". $_GET["client"]	.	"</i>	!	</p>"; Man
+?> uele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+85
+
+
+Formulaires	HTML	&	PHP
+<form	name="…"	ac-on="coursPHP-9.php"	method="POST">
+<fieldset>
+•  Exemple	 			<legend> Vos	données	</legend>
+<label	>…</label>		< input	type="text"	name="nom" …	 />	<br/>
+<label	>…</label>		< input	type="email"	name="email"…	/><br/>
+	 <input	type="radio"	name="sexe"	value="Homme"	/> Homme
+<input	type="radio"	name="sexe"	value="Femme"	/> Femme<br/>
+	</fieldset>
+<fieldset>		<legend> Vos	produits	</legend>
+<label>…</label>
+	 	<select	name="produit">
+	 	 	 	<op-on	value="SuperKdo">…</op-on>
+<op-on	value="MegaTruc">	Mega	Truc</op-on>
+	 	 	 	<op-on	value="BabyFun">	…	</op-on>
+</select> <br/>
+<label>…</label>
+		<textarea	name="opinion"	…	 >	…	</textarea> Manuele	Kirsch	P
+</ inhe
+fieliro
+d 	-	UP
+set 1
+> /	CRI	/
+UFR06	Ges=on
+86
+
+
+Formulaires	HTML	&	PHP
+<body>
+•  Exemple
+<h1>Récapitula=f	</h1>
+<ul>
+<?php
+						echo	"<li>	Nom	:	"	.	$_POST["nom"]	.	"</li>"	; 						echo	"<li>	Email	:	"	.	$_POST["email"]	.	"</li>"	; 						echo	"<li>	Sexe	:	"	.	$_POST["sexe"]	.	"</li>"	; 						echo	"<li>	Produit	préféré	:	"	.	$_POST["produit"]	.	"</li>"	; 						echo	"<li>	Sugges-on	:	"	.	$_POST["opinion"]	.	"</li>"	;
+?>
+</ul>
+</body>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+87
+
+Informa=que
+Modélisa=on	UML
+Objec-fs	de	la	séance	:
+Instruc-ons	de	contrôle	en	PHP
+Fonc-ons
+
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+88
+
+PHP
+•  Instruc-ons	de	contrôle
+– Instruc=ons	pour	gérer	le	flot	d’exécu=on
+– Instruc-ons	condi-onnelles
+•  El es	condi=onnent	l’exécu=on
+•  Semblables	à	un	nœud	de	Décision	(diagramme	ac=vités)
+•  if…	else	…,	switch	…	case	…
+– Instruc-ons	de	boucle
+•  El es	permesent	la	répé--on	d’un	bloc	d’instruc=ons
+•  for	…		,	foreach	…	,	while	…	,	do…	while
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+89
+
+
+PHP
+•  Instruc-ons	condi-onnelles		if	…	else…
+if	(	 condiGon	)
+[	condi=on	VRAI	]
+{				 bloc	d’instrucGons	si	vrai	; }
+Bloc
+else
+d’instruc-ons
+opGonnel
+si	vrai
+{			 bloc	d’instrucGons	si	faux	;		}
+[	sinon	]
+Bloc
+if	(	$qte	>=	100)
+d’instruc-ons
+	{			$remise	=	0.10;	/*	remise	de	10	%	offerte	*/
+si	faux
+echo	"<p>Vous	avez	une	remise	de	10%	!	</p>";
+		}
+else	{
+…
+$remise	=	0.05;
+	echo	"<p>Vous	avez	une	remise	de	5%	</p>";
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+}
+UFR06	Ges=on
+90
+
+
+PHP
+•  Instruc-ons	condi-onnelles		if	…	else…
+–  Les	données	pour	la	condi=on	peuvent	venir	d’un	formulaire formExemple11.html
+<?php
+coursPHP-11.php
+<form	name="…"	method="POST"
+$qte	=	$_POST["qte"];
+ac-on="coursPHP-11.php" >
+			$prixunit	=	$_POST["prix"];
+…
+	$remise	=	0;
+<select	name="prix">
+
+<op-on	value="10">
+	if	(	$qte	>=	100)
+					Super	Kdo	-	10€		</op-on>	 			{			$remise	=	0.10; /*	remise	de	10	%	offerte	*/
+…
+echo	"<p>Vous	avez	une	remise	de	10%	!	</p>";
+</select>
+			}
+…
+<input	type="number"	size="10"
+$prix	=		$prixunit	*	$qte
+														name="qte"	/>
+												-	($prixunit	*	$qte	*	$remise);
+…
+echo	" <p>	Pour	un	prix	de	<i> $prixunit	</i>
+<input	type="submit"	value="Devis"	/> 	 	 	 	 	 	 l'unité	 et		<i> $qte	</i>	unités,	vous	avez	à
+</form>
+	 	 	 	 	 	 régler	<i> 	$prix	</i></p>";
+?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+91
+
+
+PHP
+<form	name="…"	method="POST"
+ac-on="coursPHP-11.php" >
+<label>Produit	:	</label>
+<?php
+<select	name="prix">
+$qte	=	$_POST["qte"];
+<op-on	value="10"	> Super	…	</op-on> 			$prixunit	=	$_POST["prix"];
+…		</select> 					<br/>
+				$remise	=	0;
+<label	>Quan=té	:	</label>
+….
+
+<input	name="qte"	type="number"
+	if	(	$qte	>=	100)
+	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	size="10"	/> 		<br/>
+{			$remise	=	0.10;
+echo	"<p>Vous	avez	….	</p>";
+			<input	type="submit"	value="Devis"	/>
+}
+</form>
+	 …	?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+92
+
+PHP
+•  Instruc-ons	condi-onnelles		if	…	else…
+–  Les	blocs	if…	else	…	peuvent	contenir	n’importe	quel e instruc=on,	y	compris	d’autres	blocs	if…	else	…
+if	(	 condiGon1	)
+{				 bloc	d’instrucGons	si	condiGon1	vraie	; }
+elseif	(condi-on2)
+{			 bloc	d’instrucGons	si	condiGon2	vraie	;		}
+else
+{			 bloc	d’instrucGons	si	les	condiGons	sont	fausses	;		}
+
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+93
+
+
+PHP
+<?php
+$qte	=	$_POST["qte"];
+			$prixunit	=	$_POST["prix"];
+
+	if	(	$qte	>=	100)
+
+	 {	 	 $remise	=	0.10	;	 }
+<form	name="…"	method="POST"
+			elseif	(	$qte	>=	50	)
+ac-on="coursPHP-12.php" >
+
+	{	 	 $remise	=	0.05	;	 }
+…
+<select	name="prix"> 	…		</select> 			else
+…
+
+	{	 	 $remise	=	0	;	 	 	 	}
+<input	type="number"	…	name="qte"/>
+…
+	$prix	=		$prixunit	*	$qte
+<input	type="submit"	value="Devis"	/> 																		-	($prixunit	*	$qte	*	$remise)	;
+</form>
+
+echo	" <p>	Prix	unitaire	:	<i> $prixunit	</i>, 	 	 	 	 	 	 	QuanBté	:	<i> $qte	</i>, 	 	 	 	 	 	 	Remise	:	<i>"	. $remise*100	.	"</i>	%	</p>"	; echo	 "<p><i>Total	à	régler	:	</i>
+	 	 	 	 	 	 	 	<b> $prix	</b></p>"; Manuele	Kirsch
+? 	Pi
+> n	heiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+94
+
+
+PHP
+•  Instruc-ons	de	boucle	:	for
+–  La	boucle	for	permet	de	répéter	(un	certain	nombre	de	fois) l’exécu=on	d’un	bloc	d’instruc=ons
+for	(	 iniGalisaGon	; condiGon	; incrémentaGon	)
+						{		 bloc	d’instrucGons	à	répéter	;		}
+
+
+[	i	<=	6	]
+$i	=	1
+echo	…
+i++
+
+[	else	]
+
+la	suite…
+for	(	$i	=	1	; $i	<=	6	; $i++)
+{
+echo	"<h$i>	Titre	niveau	$i	</h$i>"; $i++		è	$i	=	$i 	1
+}
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+95
+
+
+PHP
+•  Instruc-ons	de	boucle	:	for
+<?php
+				for	(	$i	=	1	;	$i	<=	6	;	$i++)
+{
+											echo	"<h$i>	Titre	niveau	$i	</h$i>";
+}
+?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+96
+
+
+PHP
+•  Instruc-ons	de	boucle	:	while
+– La	boucle	while	permet	de	con=nuer	à	réaliser	un bloc	d’opéra=ons	tant	qu’une	condi-on	soit	vraie
+[	i	<=	6	]
+$i	=	1
+echo	…
+$i	=	$i 	1	;
+[	else	]
+la	suite…
+		$i	=	1	;
+			while	(	$i	<=	6	)	{
+								echo	"<h$i>	Titre	niveau	$i	</h$i>"; 								$i	=	$i 	1;
+			}
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+97
+
+
+PHP
+•  Instruc-ons	de	boucle	:	while
+On	donne	une	valeur
+ini-ale	à	la	variable	$i
+<?php
+			$i	=	1	;
+Tant	que	$i	ne	dépasse
+			while	(	$i	<=	6	)	{
+pas	la	valeur	6
+								echo	"<h$i>	Titre	niveau	$i	</h$i>"; 								$i	=	$i 	1;
+			}
+?>
+On	met	à	jour	la	valeur
+de	la	variable	$i
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+98
+
+
+PHP
+•  Instruc-ons	de	boucle	:	foreach
+– La	boucle	foreach	permet	de	répéter	un	bloc d’instruc=ons	pour	chaque	valeur	dans	un	tableau
+[	reste-t-il	une
+$-tre	reçoit	la
+$tableau
+valeur	?	]
+prochaine	valeur
+echo	…
+[	plus	de	valeur
+dans	le	tableau	]
+la	suite…
+	foreach	($tableau	as	$-tre	)	{
+											echo	"<$-tre>	Titre	$-tre
+	 	 	 	 	 	 	 	 	 	 	 	</$-tre>";
+					}
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+99
+
+
+PHP
+•  Instruc-ons	de	boucle	:	foreach
+<?php
+On	définit	un	tableau
+				$tableau	=	array("h1",	"h2",	"h3",
+																																										"h4",	"h5",	"h6"); 					foreach	($tableau	as	$-tre	)	{
+											echo	"<$-tre>	Titre	$-tre	 Pour	chaque	valeur
+	 	 	 	 	 	 	 	 	 	 	 	</$-tre>";
+dans	le	tableau
+					}
+?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+100
+
+
+PHP
+•  Instruc-ons	de	boucle	:	foreach
+– 	ça	fonc=onne	aussi	pour	les	tableaux	associa=fs
+On	définit	un	tableau
+associa=f	:	clé	=>	valeur
+<?php
+$tableau	=	array	("nom"	=>	"Dupont"	,
+"prenom"	=>	"Jean"	,
+"adresse"	=>	"qq	part	à	Paris"	)	; Pour	chaque	pair
+	foreach	($tableau	as	$cle=>$valeur)	{
+$clé	=>	$valeur
+echo	"<li> $cle	:		$valeur	</li>"	; dans	$tableau
+}
+?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+101
+
+
+PHP
+•  Instruc-ons	de	boucle	:	boucles	imbriquées
+– Il	est	possible	d’imbriquer	des	boucles	les	unes	dans
+les	autres
+<table>
+<?php
+					for	(	$lin	=	1	;	$lin	<=	9	;	$lin++)	 {
+echo	"<tr>	”;
+											for	(	$col	=	1	;	$col	<=	9	;	$col++)	 {
+echo	"<td>	"
+	.	($col	*	$lin)	.	" </td>"	;
+}
+echo	"</tr>";
+					}
+?>
+</table>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+102
+
+
+PHP
+•  Fonc-ons
+– PHP	offre	une	large	panoplie	de	fonc=ons
+•  Exemple	:	isset($var)		 	à	TRUE	si	$var	est	connue
+•  Exemple	:	empty($var)	à	TRUE	si	$var	est	vide	(ou	vaut	0)
+– On	peut	aussi	écrire	les	nôtres
+(même	en	dehors	des	classes)
+•  func-on	nomFonc-on	($paramètre	,	…	)	{		instruc-ons	}
+	func-on	saluta-on	(	$nom	)	{
+echo	"<h1>Bienvenue,	$nom	!	</h1>"; echo	"<p	class=droite>Aujourd'hui,	nous	sommes	le	"	.date('d	/	m	/	Y').	"</p>"	;
+		}
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+103
+
+
+<?php		 PHP
+…
+	func-on	saluta-on	(	$nom	)	{
+	<form	name="…"	method="POST"
+							date_default_-mezone_set("Europe/Paris"); 	ac-on="coursPHP-15.php"	>
+<label	>Nom	:	</label>
+echo	"<h1>Bienvenue,	$nom	!	</h1>";
+	<input	type="text"	name="client"
+echo	"<p	class=droite>Aujourd'hui…"
+														size="25"/>
+	.	date('d	/	m	/	Y'). 	"</p>"	;
+…
+				}
+	 	<input	type="submit"	value="OK"	/>
+</form>
+	if	(	isset	($_POST["client"])	 	 	AND
+						!	empty	($_POST["client"])	)	 	 {
+saluta-on	(	$_POST["client"]	)	;
+			}
+	else	{				saluta-on	("cher	client")	;			}
+?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+104
+
+PHP
+•  Importa-on	des	fichiers
+•  Incorporer	le	contenu	d’un	fichier	dans	une	page	PHP
+•  But	:	réu=lisa=on	des	fichiers,	uniformisa=on	du	site
+– include	"fichier"	et		include_once		"fichier"
+•  include	remplace	la	ligne	par	le	contenu	du	fichier
+•  include_once	fait	ça	une	seule	fois	(même	dans	une boucle)
+– require	"fichier" et	require_once	"fichier"
+•  idem	include,	mais	si	le	fichier	n’existe	pas,	on	a	une erreur
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+105
+
+
+PHP
+<meta	charset="UTF-8"	/>
+<head> <?php
+…
+																											include_once	"head.html";
+<=tle>Mon	site</=tle>
+																											require	"mesfonc-ons.php"	;	?>
+<link	rel="stylesheet"
+</head>	<body>
+							href="css/blocs.css"	/>
+
+		<?php	include_once	"headerNav.html";			?>
+…
+<header>
+
+	<h1>Mon	site</h1>
+	 	<?php
+</header>
+<nav>
+											saluta-on	("cher	client")	;
+<h2>Exemples	</h2>
+				?>
+<ul>
+<ar=cle>
+<?php
+<li>…</li>
+<h2>	News	</h2> 					func-on	saluta-on	(	$nom	)	{
+…
+<p>	…	 </p>
+echo	"<p	class=droite><b>Bienvenue,
+</ul>
+</ar=cle>
+$nom	!	</b></p>";
+</nav>
+…
+echo	"<p	class=droite>Aujourd'hui,
+nous	sommes	le	"
+	.date('d	/	m	/	Y'). "</p>"	;
+				}
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+?>
+UFR06	Ges=on
+106
+
+
+PHP
+include_once	"head.html"
+<head> …
+				<-tle>Mon	site</-tle>
+				<link	rel="stylesheet"
+														href="css/blocs.css"	/>
+</head>
+<body>
+<header>		<h1>Mon	site</h1>	</header>
+<nav>
+<h2>Exemples	</h2>
+include_once	"headerNav.html";
+<ul>
+	 <li>…</li>
+		…
+	 </ul>
+require	"mesfonc-ons.php"	;
+</nav>
+saluta-on	("cher	client")	;
+<sec=on>
+<p	class=droite><b>Bienvenue,	cher	client	!	</b></p><p class=droite>Aujourd'hui,	nous	sommes	le	22/	03	/	2014	</p>
+…
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+107
+
+Informa=que
+Modélisa=on	UML
+Objec-fs	de	la	séance	:
+PHP	&	les	bases	de	données
+
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+108
+
+PHP
+•  Accès	aux	bases	de	données	à	par-r	de	PHP
+– PHP-MySQL	sont	très	u=lisés	pour	les	sites	Web
+– Différents	«	bibliothèques	»	disponibles
+•  mysqli	et	PDO
+•  Etapes	pour	l’u-liser	une	base	des	données
+1)  connexion	au	serveur	MySQL
+2)  envoi	des	requêtes	SQL	(select,	insert	into…)
+3)  récupéra=on	des	résultats
+4)  fermeture	de	la	connexion
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+109
+
+
+PHP
+•  Connexion	à	un	serveur	MySQL	à	travers	mysqli
+–  Toute	la	communica=on	avec	la	BdD	passe	par	un	objet	de	la classe	«	mysqli	»
+–  La	connexion	s’effectue	à	la	créa-on	de	cet	objet	(new) $idcon	=	new	mysqli	(	$ host,	$user,	$mdp, $bdd	);
+
+obj
+nom	du	serveur
+base	de	données
+et	idenBfiant
+de	la	connexion
+mot	de	passe
+
+uBlisateur	autorisé	à	accéder	à	la	base
+
+•  Toute	connexion	ouverte	doit	être	fermée
+	$bool	=	$idcon->close	()	;
+on	demande	à	l’objet
+
+mysqli	de	fermer	la
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+connexion
+UFR06	Ges=on
+110
+
+
+PHP
+<?php
+$host	=	"localhost";
+	 	 	 $user	=	"root";
+Astuce	:	 placer	ces	informa=ons	dans	un	fichier
+						$mdp	=	"root";
+et		faire	require	(ou	include)	"fichier"
+						$bdd	=	"clientsBD";
+
+Créa=on	de	l’objet
+$mysqli	=	new	mysqli	( $host,	$user,	$mdp,	$bdd	)	; connexion
+
+						if		(	$mysqli->connect_errno	)	{
+L’asribut	connect_errno
+die	("<p>	Impossible	de	connecter	à	$bdd	:	"
+de	indique	si	la	connexion
+. $mysqli->connect_error	.	"	</p>"	)	; a	bien	été	établie
+}
+else	{
+En	cas	de	problème,
+echo	"<p>	Connecté	au	serveur	$host,
+on	arrête	avec	la
+à	la	base	$bdd	</p>";
+fonc=on	die.
+
+$mysqli->close();
+}
+Fermeture	de	la	connexion
+?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+111
+
+
+PHP
+•  Envoie	de	requêtes	à	une	base	de	données
+$result	=	$mysqli->query	($sql)	;
+Résultat	de	la	requête
+exécuBon	de	la	requête
+Requête	SQL	à
+sur	l’objet	connexion
+exécuter
+– Requête	SQL	:
+•  S’il	s’agit	d’un	SELECT,	le	résultat	correspond	aux données	fournies	par	la	requête	(objet	mysqli_result)
+•  Sinon	(INSERT,	UPDATE,	DELETE…),	le	résultat	sera	TRUE
+si	la	requête	est	bien	exécutée, FALSE	sinon Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+112
+
+
+<form	name="formNouveauClient"
+PHP
+	 	 	 	 	 	 ac-on="coursPHP-18.php"
+												method="POST">
+.	.	.
+
+<input	type="text"	name="nom"	 .	.	.	/>
+.		.		.
+
+<input	type="text"	name="email"	.	.	.	/>
+.	.	.
+
+<input	type="submit"	value="Envoyer"	/>
+</form>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+113
+
+
+coursPHP-18.php
+<?php
+if	(	!	empty($_POST["nom"])	AND	!	empty($_POST[P
+"e HP
+mail"])
+)	 {
+require	"connexion.php";
+				$mysqli	=	connexion()	;
+connexion.php
+
+<?php
+$nom	=	$_POST["nom"];
+			func-on	connexion()	{
+$email	=	$_POST["email"];
+$host	=	"localhost";
+$adr	=	$_POST["adresse"];
+$user	=	"uml";
+$id	=	'\N';	 /*	auto-increment	*/
+$mdp	=	"uml";
+
+$bdd	=	"clientsBD";
+			$sql	=	"INSERT	INTO	client	(id,	nom,	email,	adresse) 	 	 	 	 	 	 	 	 	 	 VALUES	(	'$id',	'$nom',	'$email',	'$adr')	"; 	$mysqli	=	new	mysqli	( $host,
+
+																										$user,	$mdp,	$bdd)	; 					$result	=		$mysqli->query	($sql)	;
+
+
+	if		(	$mysqli->connect_errno	)	{
+	if	(	!	$result	)	{			echo	"<p>Désolée,	…	</p>";	 	 	 }
+die	("<p>	Impossible	…"
+else	{
+.	$mysqli->connect_error	. "	</p>"	)	; echo	"<p>	Vous	êtes	le	client	numéro	<i>	"
+}
+	.	$mysqli->insert_id		. "</i></p>"; return	$mysqli	;
+}
+}	?>
+					$mysqli->close()	;
+}
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+…	?>
+UFR06	Ges=on
+114
+
+
+PHP
+•  Récupéra-on	des	données
+$result	=	$mysqli->query	("SELECT	 *	FROM	table")	;
+– Les	requêtes	SELECT	fournissent	des	données
+– On	récupère	le	résultat	(ligne	à	ligne)	à	l’aide	des
+opéra=ons	fetch_*
+– Chaque	appel	à	fetch_*	retourne	la	prochaine	ligne
+•  Ligne	dans	un	tableau	à	indice	:	$result->fetch_row	()	;
+•  Ligne	dans	un	tableau	associa=f	 :	$result->fetch_assoc	()	;
+•  Ligne	dans	un	objet	:	$result->fetch_object	()	; Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+115
+
+
+connexion.php
+	<?php
+coursPHP-19.php
+PHP
+<?php
+			func-on	connexion()	{
+				require	"connexion.php"	;
+.	.	.
+
+				$mysqli	=	connexion();
+	$mysqli	=	new	mysqli	( $host,
+
+																						$user,	$mdp,	$bdd)	;
+				$sql	=	"SELECT	id,	nom,	email,	adresse
+						.	.	.
+
+return	$mysqli	;
+	 	 	 	 	 	 	 	 	 FROM	 client	ORDER	BY	 nom	"	;
+}	?>
+	 	$result	=	$mysqli->query	($sql)	;
+
+On	exécute	la	requête	avec
+				if	(	!	$result	)	{	echo	"<p>	Desolée	…	</p>"	;	}
+l’opéra=on	$mysqli->query
+	else	{			.	.	.
+
+while	(	$ligne	=	$result->fetch_object()	)	{		 L’opéra=on	$result->fetch_object
+.	.	.
+
+récupère	la	prochaine	ligne,
+echo	"<td>"	. $ligne->id	.	"</td>"; FAUX	s’il	n’y	reste	plus	de	lignes.
+
+echo	"<td>"	. $ligne->nom	.	"</td>"; echo	"<td>"	. $ligne->email	.	"</td>"; Chaque	aeribut	de	la	requête
+echo	"<td>"	. $ligne->adresse	.	"</td>"; devient	un	aeribut	de	l’objet
+.	.	.
+
+$ligne
+}	.	.	.
+
+}	?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+116
+
+
+PHP
+La	même	requête	avec	récupéra-on	des	informa-ons
+•  …	par	tableau	à	indice
+•  …	par	tableau	associa=f
+.	.	.
+
+.	.	.
+
+		$sql	=	"SELECT	id,	nom,	email,	adresse
+		$sql	=	"SELECT	id,	nom,	email,	adresse
+	 	 	 	 	 	 	 	 	 FROM	 client	ORDER	BY	 nom	"	; 	 	 	 	 	 	 	 	 	 FROM	 client	ORDER	BY	 nom	"	;
+
+
+	 $result	=	$mysqli->query	($sql)	;
+	 $result	=	$mysqli->query	($sql)	;
+.	.	.
+
+.	.	.
+
+while	(	$ligne	=	$result->fetch_row()	)	{		 					while	(	$ligne	=	$result->fetch_assoc	()	)	{
+.	.	.
+
+.	.	.
+
+echo	"<td>"	. $ligne[0]	.	"</td>"; echo	"<td>"	. $ligne['id']	. "</td>"; echo	"<td>"	. $ligne[1]	.	"</td>"; echo	"<td>"	. $ligne['nom']	. "</td>"; echo	"<td>"	. $ligne[2]	.	"</td>"; echo	"<td>"	. $ligne['email']	.	"</td>"; echo	"<td>"	. $ligne[3]	. 	"</td>"; echo	"<td>"	. $ligne['adresse']	."<td>";
+.	.	.
+
+.	.	.
+
+}	.	.	.
+
+}	.	.	.
+
+ça	commence	toujours	par	0
+chaque	asribut	est	accessible
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+par	son	nom
+UFR06	Ges=on
+117
+
+PHP
+•  Autres	informa=ons	peuvent	être	récupérées	d’un	objet
+mysqli_result	(	$result	=	$mysqli->query	(…)		)
+– Combien	de	lignes	et	colonnes	on	peut	récupérer
+•  $nblignes	=	$result->num_rows	;
+•  $nbcol	=	$result->field_count	;
+– Les	noms	des	colonnes	(aeributs)	dans	le	résultat
+•  $colonnes	=	$result->fetch_fields()	;
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+118
+
+
+PHP
+.	.	.
+
+A	par=r	de	l’objet	$result,	on	peut
+		$sql	=	" SELECT	id,	nom,	email,	adresse récupérer	le	nombre	de	lignes
+	 	 	 	 	 	 	 	 	 FROM	client	ORDER	BY	nom	"	; (asribut	num_rows)	et	de	colonnes
+	 $result	=	$mysqli->query	($sql)	;
+par	ligne	(asribut	field_count).
+
+.	.	.
+
+echo	"<p>	Nous	avons	" .	$result->num_rows	. "	clients.	</p>"; echo	"<p>	Il	y	a	"	. $result->field_count	.	"	asributs	par	client.	</p>	"	;
+.	.	.
+
+.	.	.
+
+On	peut	aussi	récupérer	les
+		$-tres	=	$result->fetch_fields()	;
+colonnes.	Chaque	colonne	est	un	 			foreach	($-tres	as	$colonne)	{
+objet	et	l’asribut	name	donne	 								echo	"<th>	"	.	$colonne->name	.	"	</th>"	; son	nom.
+
+				}
+				while	(	$ligne	=	$result->fetch_object()	)	{
+La	ligne	aussi	est	un	objet	dont	les	 								echo	"<tr>"	; aeributs	correspondent	aux
+foreach	(	$ligne	as	$colonne=>$val	)	{
+colonnes.	On	peut	u=liser	un
+echo	"<td>	" .	$val	. "	</td>"	; foreach	pour	accéder	à	la	valeur	 								}
+echo	"</tr>"	;
+des	aeributs.
+
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR0
+		}	.	.	. 6	Ges=on
+119
+
+Informa=que
+Modélisa=on	UML
+Objec-fs	de	la	séance	:
+Mécanismes	de	sessions
+
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+120
+
+PHP
+•  Mécanisme	de	sessions
+–  Chaque	visite	à	un	site	/	page	est	indépendante
+–  Les	sessions	permesent	de	conserver	les	informa=ons	des visiteurs	entre	les	pages
+–  Les	informa=ons	sur	les	sessions	sont	stockées	sur	le	serveur
+•  Fonc=onnement	général
+1)  Ouverture	de	session	:	session_start	()
+•
+Chaque	u=lisateur	reçoit	un	iden=fiant	transmis	entre	les	pages 2)  Défini=on	des	variables	de	sessions	(données)
+•
+Les	variables	de	session	sont	transmises	de	page	à	page
+•
+$_SESSION["variable"]	=	valeur	;
+3)  Fermeture	de	session	:	session_destroy()
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+121
+
+
+PHP
+Login	&	mdp
+différents	de	uml
+Login	&	mdp	corrects
+(uml	/uml	)
+< form	name="…"
+ac-on="coursPHP-23.php"
+method="POST" >
+<label	>Login	:	</label>
+<input	type="text"	name="login"	maxlength="15"	/> 	<br/>
+<label	>Mot	de	passe	:	</label>
+	 	 	<input	type="password"	name="mdp"	maxlength="15"	/>
+<br/>
+	 	 	<input	type="submit"	value="OK"	/>
+</form>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+122
+
+
+PHP
+<?php			session_start();	 ?>
+Ouverture	d’une	session
+<html>
+(au	début	de	chaque	page)
+<head>	…	</head>
+<body>
+<?php
+.	.	.
+
+$login	=	$_POST["login"]	;
+Défini=on	des	variables	de	session
+										$mdp	=	$_POST["mdp"];
+$_SESSION["var"]
+
+if	(	$login	==	"uml"	AND	$mdp	==	"uml" )	{
+	 $_SESSION["login"]	=	$login	;
+…
+echo	"<h1>Bienvenue,	cher	$login	</h1>"	; Les	variables	de
+}
+session	con=ennent
+else	{			echo	"<h1>Desolé	!	</h1>"; les	informa=ons	qui
+echo	"<p>	Page	accessible	uniquement	aux	membres.	</p>"; passeront	de	page	en
+}
+page.
+
+?>
+</body>	</html>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+123
+
+
+PHP
+<?php	session_start();	?>
+<html>		<head>…	 </head>
+<body>
+<?php
+if		(	isset(	$_SESSION["login"]	)	 AND	 !	empty(	$_SESSION["login"]	)	)	{
+$login	=		$_SESSION["login"]	;
+…
+Usage	des	variables	de	session
+echo	"<p>Client	<b>	$login	</b>	:	 Ceci	est	une	page	pour $ 	le
+_Ss	Eab
+SSoIn
+Oné
+N[s	" </
+v p
+ar>"
+"] 	;
+}
+else	{						echo	"<h1>Desolé	!	</h1>"; echo	"<p>	Il	s'agit	d'une	page	privée	!!	Il	faut	être	membre.	</p>";
+}
+?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+…
+UFR06	Ges=on
+124
+
+
+PHP
+<?php	session_start();	?>
+<html>		<head>…	 </head>
+<body>
+<?php
+if		(	isset(	$_SESSION["login"]	)	 AND	 !	empty(	$_SESSION["login"]	)	)	{
+…
+	unset($_SESSION["login"]);
+Fermeture	de	la	session
+											session_destroy();
+session_destroy()
+}
+else	{						echo	"<h1>Desolé	!	</h1>"; echo	"<p>	Pas	de	connexion	ac=ve.	</p>"; Ne	pas	oublier	de	vider	les
+}
+?>
+variables	de	session
+…
+unset(	$_SESSION[	"var"	]	)
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+125
+
+
+PHP
+•  Mécanisme	de	sessions
+–  Base	pour	la	ges=on	de	panier	dans	les	sites	de	e-commerce
+–  Les	produits	choisis	par	le	client	sont	enregistrés	en	tant	que variables	de	session
+–  On	peut	y	garder	des	objets	SIMPLES
+class	LigneProduit	{
+public	$nom	;
+public	$qte	;
+Contenu	du	panier	est	gardé
+
+dans	les	variables	de	session.
+
+/*	constructeur	*/
+Tableau	contenant	des	objets
+					func-on	__construct(	$nom	)	{
+LigneProduit.
+
+$this->nom	=	$nom;
+Chaque	$_SESSION[$produit]
+$this->qte	=	1;
+con=ent	un	objet.
+
+}
+}
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+126
+
+
+PHP
+Chaque	produit	choisi	est	iden=fié
+func-on	ajouterProduit($produit)	{
+par	un	«	id	»	(ici	le	nom).
+
+$qte	=	0;
+$_SESSION[$produit]
+
+va	contenir	un	objet	LigneProduit
+if	(	!	isset	(	$_SESSION[$produit]	)	 )	{
+	 	 	 	 	 $_SESSION[$produit]	=	new	LigneProduit($produit); $qte	=	$_SESSION[$produit]->qte
+}
+S’il	n’y	a	aucun
+
+$_SESSION[$produit]	,
+				else	{	//	produit	déjà	là,	augmenter	alors	sa	quan=té	 on	va	créer	un	nouveau	objet 	 	 	 	 	 $objet	=	$_SESSION[$produit]	;
+LigneProduit
+										$objet->qte	=	$objet->qte 	1;
+$qte	=	$objet->qte	;
+S’il	y	a	déjà	un
+}
+$_SESSION[$produit]	,
+return	$qte;
+on	va	juste	augmenter	la	valeur	de
+}
+l’asribut	«	qte	»	dans	l’objet
+LigneProduit
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+127
+
+
+PHP
+Lorsqu’on	veut	supprimer	un
+func-on	supprimerProduit($produit)	{
+produit,	on	va	réduire	sa	quan=té
+				$qte	=	0	;
+dans	l’objet	LigneProduit
+
+				if	(	isset(	$_SESSION[$produit]	)	)	{
+On	récupère	l’objet
+	 	 	 	 	 $objet	=	$_SESSION[$produit]	;
+LigneProduit	gardé	dans
+$objet->qte	=	$objet->qte	-	1;
+$_SESSION[$produit]
+$qte	=	$objet->qte;
+
+On	réduit	sa	quan=té	d’une	unité
+	if	(	$qte	<=	0)	{	//on	supprime	le	produit
+													unset($_SESSION[$produit]);
+}
+}
+S’il	n’en	reste	plus	(la	quan-té	a
+
+aseint	0	unités),	on	supprime	le
+return	$qte;
+produit	de	la	session
+}
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+128
+
+
+PHP
+On	peut	récupérer	le	contenu	du
+panier	en	récupérant	le	contenu
+de	la	variable	de	session
+$_SESSION
+Pour	chaque	objet
+LigneProduit	gardé	dans
+	func-on	afficherPanier()	{
+$_SESSION
+						echo	"<table>"	;
+						foreach($_SESSION	as	$objet)	{
+echo	"<tr><td>	" .	$objet->nom	. "	</td>	<td>	"
+. $objet->qte	.	"	</td>	</tr>	";
+}
+echo	"</table>"	;
+}
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+129
+
+
+PHP
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+130
+
+PHP	:	Panier	avancé
+•  Voici	un	exemple	avancé	de	Panier	qui	u=lise	les
+classes	en	PHP	et	la	no=on	de	session
+•  Le	panier	est	modélisé	par	une	classe	Panier
+Panier
++ nbProduits : int
+Produit
+lignes
++ ajouterProduit (code, nom, prix)
++ code : String
++ supprimerProduit (code)
+*
++ nom : String
++ calculerTotal () : float
++ prix : float
++ getNbProduits () : int
+LignePanier
+<?php
+<?php
++ qte : int
+		class	Produit	{
+		class	LignePanier	{
+public	$code	;
+public	$prod	;
+public	$nom	;
+public	$qte	;
+public	$prix	;
+.	.	.
+
+.	.	.
+
+}		?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+}		?>
+UFR06	Ges=on
+131
+
+
+PHP	:	Panier	avancé
+class	Panier	{
+Chaque	Ligne	de	Panier	est	gardée	dans
+			public	$lignes	;
+un	tableau	associa=f
+			public	$nbProduits	;
+	$this->lignes[$code]	 =>	$LignePanier
+
+func=on	__construct()	{
+On	commence	avec	zéro	produits
+$this->nbProduits	=	0	;
+dans	le	panier
+}
+On	va	créer	le	tableau
+
+func-on	ajouterProduit($code,	$nom,	$prix)	{
+lors	de	l’ajout	du
+…		 							if	(	$this->nbProduits	==	0)	{
+premier	produit	au
+
+												$prod	=	new	Produit($code,	$nom,	$prix); panier
+												$lp	=	new	LignePanier($prod);
+												$this->lignes[$code]	=	$lp;
+$this->nbProduits	=	1;
+}
+		.	.	.
+
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+132
+
+
+PHP	:	Panier	avancé
+func-on	ajouterProduit($code,	$nom,	$prix)	{
+							if	(	$this->nbProduits	==	0)	{	.	.	.	}
+Pour	ajouter,	on	vérifie	si	le
+else	{
+produit	est	déjà	dans	le	panier
+if	(	isset	(	$this->lignes[$code]	)	)	{
+													$lp	=		$this->lignes[$code]	;
+$qte	=	$lp->qte;
+S’il	y	est,	on	le	récupère	et	on
+													$lp->qte	=	$qte 	1;
+met	à	jours	la	quan-té
+}
+							else	{
+$prod	=	new	Produit($code,	$nom,	$prix);
+												$lp	=	new	LignePanier($prod);
+S’il	n’y	est	pas,	on	va	y	ajouter
+
+une	nouvelle	ligne	de	panier
+	$this->lignes[$code]	=	$lp;
+$this->nbProduits	=	$this->nbProduits 	1;
+}
+}
+
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+133
+
+
+PHP	:	Panier	avancé
+func-on	ajouterProduit($code,	$nom,	$prix)	{
+
+On	ne	supprime	que	si	le
+					if	(	isset	(	$this->lignes[$code]	)	)	{
+produit	est	dans	le	panier
+											$lp	=	$this->lignes[$code]	; 	 S’il	y	est,	on	met	à	jour	la	quan=té, 	$lp->qte	=	$lp->qte	-	1	;
+en	supprimant	1	unité
+										if	(		$lp->qte	<	1)	{
+Par	contre,	s’il	ne	reste	plus	rien
+	unset($this->lignes[$code]);
+(qte	<	1),	on	 supprime	la	ligne
+$this->nbProduits	=	$this->nbProduits	-	1;
+de	panier	du	tableau
+}
+}
+
+}
+
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+134
+
+PHP	:	Panier	avancé
+•  C’est	un	objet	Panier	que	notre	site	va	manipuler
+•  Une	page	«	ctlPanier.php	»	va	ainsi	gérer	le	panier
+•  Pour	cela,	el e	va	devoir	garder	un	objet	Panier	dans $_SESSION
+ctlPanier
+Panier
++ $_SESSION
++ nbProduits : int
++ ajouterProduit (code, nom, prix) : int
++ ajouterProduit (code, nom, prix)
++ supprimerProduit (code) : int
++ supprimerProduit (code)
++ afficherPanier ()
++ calculerTotal () : float
++ terminerSession ()
++ getNbProduits () : int
+<?php
+		session_start();
+		include	"Panier.php";
+.	.	.
+
+	?>
+<html>	.	. Man
+	. u
+</ele	Kir
+htmslch
+> 		Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+135
+
+
+PHP	:	Panier	avancé
+•  Or	un	objet	Panier	est	un	objet	complexe
+•  Pour	le	garder	dans	$_SESSION,	il	va	falloir	le
+«	compacter	»	:	c’est	la	sérialisa-on
+–  $_SESSION["panier"]	=	serialize($panier)
+–  unserialize	(	$_SESSION["panier"]	) func-on	ajouterProduit($produit,	$nom,	$prix)	{
+Pour	ajouter	ou	supprimer	un
+.	.	.
+
+produit	au	panier,	on	va	le
+			$panier	=	unserialize($_SESSION["panier"]); récupérer,	le	modifier	puis	le
+			$panier->ajouterProduit($produit,	$nom,	$prix);
+remeere	dans	la	session
+	 	$_SESSION["panier"]	=	serialize($panier);
+.	.	.
+
+func-on	supprimerProduit($produit)	{
+.	.	.
+
+			$panier	=	unserialize($_SESSION["panier"]); 			$panier->supprimerProduit($produit);
+	 	$_SESSION["panier"]	=	serialize($panier); Manuele	Kirsch
+.	.	.		Pinheiro	-	UP1	/	CRI	/
+UFR06	Ges=on
+136
+
+

@@ -1,0 +1,633 @@
+Embedded Systems
+Lecture 4: Statecharts
+Björn Franke
+University of Edinburgh
+
+Overview
+• Statecharts
+• Definition
+• Depth
+• History, Default
+• Concurrency
+• Broadcast
+• Example
+
+Statecharts
+• Statecharts were introduced by David Harel in 1987
+• D. Harel, “Statecharts: A visual formalism for complex systems”, Science
+of Computer Programming 8, 1987, pp. 231-274.
+• Statecharts are useful for describing large, complex, reactive systems
+• a reactive system is one which must continuously react to external and
+internal stimuli
+• They are a graphic notation (“visual”)
+• Lecture based on Kendra Cooper’s notes
+
+D. Harel, “Statecharts: A visual formalism for complex systems”, Sci
+of Computer Programming 8, 1987, pp. 231-274.
+
+Definition• based
+onareFSM
+Statecharts
+useful for describing large, complex, reactive system
+•
+
+a reactive system is one which must continuously re
+external and internal stimuli
+
+• They are a graphic notation (“visual”)
+Statechart = state-diagrams
++ depth (also known as abstraction)
++ orthogonality (also known as concurrency)
++ broadcast communication
+
+The Statechart notation is a kind of extended FSM with abstraction, concur
+and communication
+
+State Diagrams
+The Statechart notation is a kind of extended FSM with abstraction,
+Composed
+of states, transitions
+concurrency,• and
+communication.
+• transitions from one state to another happen when the event that
+labeled on the arc (if any) occurs and the condition (if any) is true
+• an output can be associated with the transition
+o In the diagram below, the state changes from A to B when
+
+State Diagrams
+• Composed of states, transitions
+• Transitions from one state to another happen when the event that is labeled
+on the arc (if any) occurs and the condition (if any) is true
+• An output can be associated with the transition
+
+Example
+• State changes from A to B when event b occurs and the condition P is true;
+the output is c
+• c is global (can be seen everywhere in the Statechart model)
+• c can be used as an input on a transition
+in communication
+the model
+• this supports communication
+! this supports
+in the model
+
+b(P)/c
+A
+a
+
+B
+
+Depth (Hierarchie)
+• Statecharts extend this with:
+• Refinement, clustering
+• AND, OR decomposition of states (actually XOR, not OR)
+
+statecharts extend this with:
+o refinement, clustering
+o AND, OR decomposition of states
+(actually XOR, not OR)
+
+e(P)
+
+b
+
+D
+
+A
+B
+
+d
+C
+
+b
+
+b
+
+• The semantics
+(aka meaning) of superstate
+a
+
+d
+
+•
+•
+
+D is called a superstate.
+The semantics (aka meaning) of superstate D
+o A xor C
+D• is:
+The arc labeled b is a common property to the
+
+A
+
+• A xor C
+
+e(P)
+
+d
+C
+
+b
+
+B
+
+C
+
+b
+
+clustered like this:
+
+a
+
+A
+
+e(P)
+
+• D is called a superstate.
+
+D
+
+d
+
+Can be clustered like this:
+
+e (clustering, bottom up approach)
+
+e(P)
+
+B
+
+C
+
+Example (Bottom-Up Clustering)
+
+a
+
+a
+
+B
+
+• The arc labeled b is a common property to the superstate D
+
+a
+
+D
+
+b
+b
+
+C
+
+B
+
+Example (Top-Down Refinement)
+d
+
+B
+
+d
+
+ple (refinement, top-down approach)
+•
+
+The events a,d are underspecified (which one goes where
+- needs to be fixed
+in this example, we start with states
+D is
+and
+B
+State D
+refined
+to include states A and CThe transition from A to C also needs to be specified for th
+a
+
+D
+
+A
+
+A
+b
+
+b
+
+B
+C
+
+d
+
+d
+
+a
+
+D
+
+a
+
+D
+
+B
+
+b
+
+e(P)
+C
+
+d
+
+D is refined to include states A andThe
+C events a,d are underspecified (which one goes where?)
+- needs to be fixed
+• The
+events
+a,d
+are
+underspecified
+•
+State
+D
+is
+refined
+to
+The
+transition
+from
+A
+to
+C
+also
+needs
+to
+be
+specified
+for
+the
+example
+a
+D
+(which one goes where?)
+include
+states A and C D
+A
+a
+b
+A
+B
+b
+e(P)
+B
+C
+• needs
+to be fixed
+d
+C
+d
+
+vents a,d are underspecified (which one goes where?)
+- needs to be fixed
+ansition from A to C also needs to be specified for the example
+D
+
+a
+
+• The transition from A to C also
+needs to be specified for the
+example
+
+B
+
+Default state
+• If we have substates A, B, and C and we want to enter state A by default
+Default state
+
+• We specify this using a small arrow:
+If we have substates A, B, and C and we want to enter state A by default, we
+specify this using a small arrow:
+
+D
+
+D
+
+A
+B
+C
+
+A
+or
+
+B
+C
+
+History State
+Can use a history entrance (H). The state entered is the last state the level was
+in when it existed.
+• The H entrance overrides a default state
+• The scope of the H entrance is the current level of the diagram
+
+History State
+• Can use a history entrance (H).
+• The state entered is the last state the level was in when it existed.
+• The H entrance overrides a default state
+• The scope of the H entrance is the current level of the diagram
+• The scope of the H* entrance is to the lowest level of the diagram.
+
+or
+
+B
+
+Example
+
+B
+
+C
+
+C
+
+History State
+• A timer that continues to count down as the state is entered and exited
+Can use a history entrance (H). The state entered is the last state the level was
+in when it existed.
+entrance
+default
+state
+• The timer does •notThe
+getHreset
+whenoverrides
+the statea is
+entered
+• The scope of the H entrance is the current level of the diagram
+• The scope of the H* entrance is to the lowest level of the diagram.
+D
+A
+
+H
+
+B
+C
+
+Example:
+a timer that continues to count down as the state is entered and exit
+(the timer does not get reset when the state is entered)
+
+Orthogonality (Concurrency)
+
+nality (concurrency)
+
+D
+
+ple
+
+• AND
+• Y is the orthogonal product of A and D
+
+e orthogonal product of A and D
+Y
+
+• From the default states:
+D
+
+A
+A
+a
+
+E
+b
+
+C
+
+u
+
+g
+
+d
+G
+
+• If event ‘a’ occurs, then the diagram
+moves from states A,F into state C,G at
+the same time (A is synchronised with D)
+
+F
+a
+
+• If event ‘u’ occurs, then only D is aﬀected
+and the diagram moves from A,F into
+state A, E (A is independent from D)
+
+default states:
+’ occurs, then the diagram moves from states A,F into state C,G at the
+e (A is synchronized with D)
+
+Broadcast Communication
+
+• An event is seen everywhere in the diagram at the same time.
+
+Example
+• Specify the behaviour of an alarm clock using statecharts.
+• Assumptions: The alarm clock has 2 buttons.
+
+Example
+• We can start with setting the current time.
+• Need to set hours, minutes, seconds
+• Need to decide which buttons (one, both together) do what
+Set Current Time
+
+Button 1&2
+
+Blink
+Hours
+
+Button 1
+Increment
+Button 2 Hours
+
+Button 2
+Button 1
+Button 1&2 Blink
+Minutes
+Button 2
+Button 2
+Button 1
+Button 1&2 Blink
+Seconds
+Button 2
+CurrentTime
+Set
+
+Button 1
+
+Increment
+Minutes
+
+Button 1
+
+Increment
+Seconds
+
+Button 1
+
+Example (continued)
+Now, consider setting the alarm time.
+Set Alarm Time
+
+Button 1&2
+
+Blink
+Hours
+
+Button 1
+Button 2
+
+Button 2
+Button 1
+Button 1&2 Blink
+Minutes
+Button 2
+Button 2
+Button 1
+Button 1&2 Blink
+Seconds
+Button 2
+
+Increment
+Hours
+
+Button 1
+
+Increment
+Minutes
+
+Button 1
+
+Increment
+Seconds
+
+Button 1
+
+Alarm Time
+Set
+
+Now, consider how these superstates relate to one another?
+
+Seconds
+
+Button 2
+
+Seconds
+
+Alarm Time
+Set
+
+Example (continued)
+Now, consider how these superstates relate to one another?
+•
+
+xor
+
+Clock
+Display Time
+Button 1
+
+Set Current
+Time
+
+Display
+Alarm Time
+Button 2
+
+Set Alarm Time
+
+Now, extend the statechart to describe the alarm going off.
+
+Button 1
+
+Button 2
+
+Example (continued)
+
+Set Current
+Time
+
+Set Alarm Time
+
+Now, extend the statechart to describe the alarm going off.
+
+Clock
+Display Time
+
+Alarm
+Time
+Alarm On
+Button 1
+
+Button 1
+
+Set Current
+Time
+
+Button 2
+
+Set
+Alarm
+
+Now, validate the behavior of the statechart (i.e., does the statechart specify the
+system the way we want it to work)
+Question: What happens if the alarm goes off for 5 minutes?
+
+Button 1
+
+Set Current
+Time
+
+Button 2
+
+Set
+Alarm
+
+Example (Validation)
+
+Now, validate the behavior of the statechart (i.e., does the statechart specify the
+system the way we want it to work)
+Question: What happens if the alarm goes off for 5 minutes?
+Display vs. Maintain the time?
+Maintaining the time needs to occur concurrently with:
+• the alarm going off
+• setting the alarm time
+Question: Is it possible to display and maintain the current time concurrently?
+Next step is to fix the statechart.
+After it is fixed, need to re-validate the statechart.
+Other things to consider:
+Is there a radio?
+
+Example (Other Things to Consider)
+• Is there a radio?
+• Is there a snooze button?
+• Is there a battery backup?
+• ....
+
+5.1 Examples for Statecharts
+
+One-shot State Diagram for Chess Game
+
+184
+
+5.1 Examples for Statecharts
+
+Vending Machine Model
+
+187
+
+5.1 Examples for Statecharts
+
+An Aggregation and its Concurrent State
+Diagrams (1)
+
+190
+
+Summary
+• Statecharts
+• State-Diagrams, Depth, Orthogonality, Broadcast Communication
+
+Preview
+• Imperative Programming Languages
+• C, ADA, Real-Time Java, ...
+
+

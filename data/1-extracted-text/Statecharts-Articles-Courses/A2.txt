@@ -1,0 +1,2062 @@
+51‘
+
+ARTICLES
+
+ON VISUAL FORMALISMS
+
+The higraph, a general kind of diagramming object, forms a visual formalism
+of topological nature. Higraphs are suited for a wide array of applications to
+databases, knowledge representation, and, most notably, the behavioral
+specification of complex concurrent systems using the higraph-based
+
+language of statecharts.
+
+DAVID HAREL
+
+Visualizing information. especially information of com-
+plex and intricate nature. has for many years been the
+subject of considerable work by many peoples The in-
+formation that interests us here is nonquantitative, but
+rather. of a structural, set-theoretieal, and relational na-
+ture. This should be contrasted with the kinds of quan-
+titative information discussed at length in [43] and [46].
+Consequently. we shall be interested in diagrammatic
+paradigms that are essentially topological in nature, not
+geometric. terming them topovisual in the sequel.
+
+Two of the best known topo-visual formalisms have
+their roots in the work of the famous Swiss mathemati-
+cian Leonhard Euler (1707—1783). The ﬁrst. of course‘ is
+the formalism of graphs. and the second is the notion of
+Euler circles. which later evolved into Venn diagrams.
+Graphs are implicit in Euler’s celebrated 1736 paper, in
+
+_t~hich he solved the problem of the bridges of Kénigs-
+
+berg [12]. (An English translation appears in [3].) Euler
+circles ﬁrst appear in letters written by Euler in the
+early 17605 [13]. and were modiﬁed to improve their
+ability to represent logical propositions by John Venn in
+1880 [48, 49] [See [19. chap 2] for more information.')
+A graph, in its most basic form. is simply a set of
+points, or nodes, connected by edges or arcs. Its role is
+
+‘ Interestingly both these topo-visunl achievements of Euler were carried out
+during the period in which he could see with one eye only. (Euler lost sight in
+his right eye in 1735. and in the left around 1765.) It is tempting to attribute
+this in pan to the ilct that the lack of steteoscopic vision reduces nne's ability
+to estimate size and distance, possibly causing a sharper awareness of tupnlag-
+ical features.
+
+Pai-I of this work was carried nut while the author was at thtI Computer
+Science Department OICamegie-Mellun University. Pittsburgh. Pennsylvania,
+
+ 
+
+@‘ 1988 AC.“ (ml-OTBZ/BB/ﬂSDD-OSM 5150
+
+Communications of the ACM
+
+to represent a (single) set of elements 5 and some binary
+relation R on them. The precise meaning of the relation
+R is part of the application and has little to do with the
+mathematical properties of the graph itself Certain re-
+strictions on the relation R yield special classes of
+graphs that are of particular interest, such as ones that
+are connected, directed. acyclic. planar. or bipartite.
+There is no need to elaborate on the use of graphs in
+computer science—they are used extensively in vir-
+tually all branches of the ﬁeld. The elements repre-
+sented by the nodes in these applications range from
+the most concrete (e.g.. physical gates in a circuit dia-
+gram) to the most abstract (8.3.. complexity classes in a
+classiﬁcation schema), and the edges have been used to
+represent almost any conceivable kind of relation. in-
+cluding ones of temporal. causal. functional, or episte-
+mological nature. Obviousiy, graphs can be modified to
+support a number of different kinds of nodes and edges.
+representing different kinds of elements and relation-
+ships.
+
+A somewhat less widely used extension of graphs is
+the formalism of hypergraphs (see. e.g.. [1]). though
+these are also finding applications in computer science.
+mainly in database theory [see [14]. [15], and [31]). A
+hypergraph is a graph in which the relation being spec—
+iﬁed is not necessarily binary; in fact. it need not even
+be of fixed arity. Formally. an edge no longer connects
+a pair of nodes, but rather a subset thereof. This makes
+hypergraphs somewhat less amenable to visual repre-
+sentation. but various ways of overcoming this diffi—
+culty can be conceived [see Figure 1). In analogy with
+graphs. several special kinds of hypergraphs are of par-
+ticular interest. such as directed or acyclic.
+
+It is important to emphasize that the information
+
+May 1988 Volume 3] Number 5
+
+conveyed by a graph or a hypergraph is nonmetric and
+captured by the purely topological notion of sonnected—
+ness (3 term taken from [18]); shapes, locations, dis-
+tances. and sizes. for example. have no signiﬁcance.
+
+Although not quite as widely used as graphs, Euler
+circles. or Venn diagrams. are often used to represent
+logical propositions. color charts, etc. [see Figure 2], The
+basic idea is to appeal to the two-dimensional case of
+the )ordan curve theorem [e.g.. [11. 30]). which estab-
+lishes that simple closed curves partition the plane into
+disjoint inside and outside regions. A set is then repre-
+sented by the inside of such a curve.2 giving the topo-
+logical notions of enclosure. exclusion. and intersection of
+the curves their obvious set-theoretic meanings: being a
+
+‘ subset of. being disjoint from, and having a nonempty
+intersection with, respectively.3
+
+The bottom line is that. whereas graphs and hyper-
+graphs are a nice way of representing a set of elements
+together with some special relation(s) on them, Euler/
+Venn diagrams are a nice way of representing a collec-
+tion of sets. together with some structural (i.e.. set-
+theoretical) relationships between them. The difference
+between the two types of relationships is obvious. The
+structural ones are uniformly interpreted in the
+obvious set~theoretic fashion, in much the same way as
+the = symbol in logical formalisms is uniformly inter-
+preted as the equality predicate, whereas the edge rela
+tions of graphs and hypergraphs attain different mean-
+ings in different applications.
+
+The main observation motivating the present work is
+that in numerous computer-related applications the
+complexity of the objects, systems, or situations under
+consideration is due in large part to the fact that both
+capabilities are needed, We have a (usually large) num-
+ber of sets that are interrelated in nontrivial set-
+
+_.___..._———
+’ Venn himself was not always consistent in this respect: see [49. p. 117] or
+[19. p. 43] for a description of his flve-set diagram.
+
+’The topological paradigm used here is termed insideness in [13].
+
+ 
+
+Articles
+
+theoretic ways, but they are also related via one or
+more additional relationships of special nature. depend-
+ing on the application at hand. Furthermore. among the
+structural, set-theoretic relationships it is often desira-
+ble to identify the Cartesian product of some of the
+sets—an action that can be crucial in preventing cer-
+tain kinds of representations from growing exponen-
+tially in size. In line with these observations, which
+will be supported by examples in the sequel, the pur-
+pose of this article is to extend and combine Euler‘s two
+topo-visual formalisms into a tool suitable for dealing
+with such cases.
+
+In the next section. we introduce higraphs.‘ first mod-
+ifying Euler/Venn diagrams somewhat. then extending
+them to represent the Cartesian product, and finally
+connecting the resulting curves by edges or hyperedges.
+(The appendix contains the formal syntax and seman-
+tics of simple higraphs.) We will then illustrate the
+power of the formalism by brieﬂy discussing higraph-
+based versions of such graphical languages as entity-
+relationship diagrams. semantic and associative net-
+works, and dataflow diagrams. Later we will detail
+a less obvious application called stalccharts [21] which
+are essentially a higraph-based version of ﬁnite-state
+machines and their transition diagrams.
+
+HIGRAPHS
+
+Let us start with a simple example of Euler circles (Fig-
+ure 3). As can be seen. we prefer to use rounded rectan-
+gles, or rounded rectilinear shapes (rountangles?), rather
+than circles or unrestricted curves. and shall call the
+areas. or zones. they enclose blobs in the sequel. Sec—
+ond, as the formal definition supplied in the appendix
+shows, we regard each blob as denoting a certain kind
+
+_____.__.
+
+‘Thts is not a particularly successful chnice of term, but was chosen never-
+theless to be reminiscent of high graphs or humrchmnlgmphs. though DUI
+diagrams are not limited to being stratified in the way the word hirrnycmml
+might imply.
+
+FIGURE 1. Graphical Representation of Hypergraphs
+
+May 1988 Volume 31 Number 5
+
+Communications of the ACM 515
+
+Articles
+
+516
+
+08R
+PaoaR
+P&Q '
+
+FIGURE 2. Applications of Euler Circles, or Venn Diagrams
+
+of set. with the nesting of curves denoting set inclusion.
+not set membership. Thus. Figure 3 can be seen to
+contain several cases of in'clusion, disjointness. and
+intersection of sets.
+
+For our ﬁrst real departure from Euler and Venn’s
+treatment. we now require that every set of interest be
+represented by a unique blob, complete with its own
+full contour. One of the reasons for this is the desire to
+provide every set with its own area (e.g., for naming or
+labeling purposes). For example. does the A in Figure 3
+represent the difference between the sets represented
+by the two large blobs, or the entire set on the upper
+left? The answer, following Venn's notational conven—
+tions. would appear to be the former; but then how do
+we label the upper set itself?
+
+Our solution is illustrated in Figure 4, where the two
+large intersecting blobs are clearly labeled A and D.
+the intersection A D D is labeled C. and the difference
+A - D is called B. In fact. had we left out B and its
+contour we could not refer to A — D at all. More pre-
+
+0 o-
+[:1
+
+FIGURE 3. Simple Blobs
+
+ 
+
+ 
+
+ 
+
+Communications of the ACM
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE 4. Adding Unique Contours for All Identiﬁable Sets
+
+cisely. with this “unique—contour" convention. the only
+real, identifiable sets are the atomic sets. that is. those
+represented by blobs residing on the bottom levels of
+the diagram, containing no wholly enclosed blobs
+within. Any other blob merely denotes the compound
+set consisting of the union of all sets represented by
+blobs that are totally enclosed within it. The atomic
+blobs of Figure 4 are thus B. C. E. G. H, I. K. L. M. N, O.
+Q. S. and, significantly. also T. The fact that T. as a
+Iordan curve. intersects R in Figure 4 does not necessar—
+ily mean that the sets represented by5 T and R really
+intersect or that T - R is nonempty. In fact. in our
+formalism, the intersection of two curves does not. in
+itself, mean anything since unless internal blobs appear
+in the appropriate places neither the difference nor the
+intersection of the sets they represent is itself identifia—
+ble. Thus. as far as the information present in Figure 4.
+T could just as well have been drawn completely dis-
+
+‘ln the sequel, we shall cften blur the distinction between a curve. its Issoci-
+ated blob. and the set it depicts.
+
+Mny1988 'Volum: 31 NumberS
+
+joint from R, since R is deﬁned by the ﬁgure to be the
+
+union of Q and 5, whether T's curve intersects it or not.’
+
+Of course. if T had been entirely enclosed within R. .
+things would have been quite different. with R then
+being the union of Q. S, and T. All this might sound a
+little strange. but it is not really restrictive, since one
+can always let T and R intersect and simply add extra
+blobs representing T n R and T - R. as is done in
+Figure 5.
+
+Thus. one might say that empty space in our dia-
+grams always represents nothing at all. except if it is
+the area of an atomic blob, which is one that contains
+no enclosed blobs. An atomic blob always represents
+some identiﬁable set. though clearly such a set might
+just happen to be an empty one.
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE 5. Adding Cartesian Products
+
+We now add the ability to represent the Cartesian
+product. Figure 5 shows the notation used—a partition-
+ing by dashed lines. In it I. for example, is no longer the
+union of K, N, 1, L. and M, but. rather, the product of
+the union of the first two with the union of the last
+three. Symbolically.
+
+1=Wxx=(KUN)><(IUL_UM].
+
+We shall call the operands of the productLW ahd X in
+this case‘ the orthogonal components of blob ]. Actually,
+the Cartesian product is unordered. in the sense that
+
+A X B is always the same as B X A, so that I is really
+
+a set of unordered pairs of elements. Thus. our
+
+X operator is symmetric, and in fact, in the appendix
+we use the symbol ®, instead of X. to denote it. An-
+other consequence of this. and of our previous conven-
+tion regarding set inclusion versus set membership. is
+that the product is also associative. In this way. if c E C.
+k E K. and m E M, then the unordered triple to k, ml
+would be a legal element of the set D of Figure 5,
+without the need to distinguish it from 1c. lk, ml]. To
+make this idea work. it helps to assume that all atomic
+sets are pairwise disjoint (i.e.. no element appears in
+any two of these sets].
+
+Mny1988 Volume 31 Number-S
+
+Articles
+
+Decomposing a blob into its orthogonal components
+by topologically partitioning the inner area of a )ordan
+curve yields a unique unambiguous area for each such
+component. Thus, the labels Y. W. and X in Figure 5
+label the appropriate components unambiguously. On
+the other hand, as we shall see, there is another reason
+for wanting sets to have their own blob contours, and if
+so desired an orthogonal component can be enclosed in
+one of its own. as is Z in Figure 5. Notice the somewhat
+awkward location for the labels D and I. There are a
+couple of other possibilities for locating the label of a
+product blob. among which is the one illustrated in
+Figure 6, but we shall remain with that of Figure 5. '
+
+ 
+
+FIGURE 6. An Alternative tor Labeling Partitioned Blobs
+
+Now that we have a formalism for representing the
+sets we are interested in and their structural. set-theo-
+retic relationships. it is time to add edges. A higraph is
+obtained by simply allowing edges. or more generally.
+hyperedges, to be attached to the contour of any blobs.
+As in graphs, edges can be directed or undirected. la-
+beled or unlabeled, of one type or of several. etc. In
+Figure 7 we have allowed for a single kind of unlabeled
+directed hyperedge of arity between 2 and 3. Most of
+the arrows in the ﬁgure are simple binary edges, such
+
+3?)
+
+‘
+'2
+.@
+~1-
+UE'EEQ
+'
+
+ 
+
+ 
+
+ 
+
+6.
+(3C9
+
+ 
+
+FIGURE 7. Adding Edgesﬁesutting in I Higraph
+
+Communications of the ACM 517
+
+Articles
+
+51!
+
+es the very bigh-level one connecting E to A, the very
+low-level one connecting N to K. and the interlevel
+
+one connecting U to E. Others are directed three-wey .t
+hyperedges. such as the one connecting E to both I and
+T, and the one connecting both R and M to D. Clearly,
+there is nothing to prohibit self—directed or partially
+self-directed edges, such as the one connecting A to its
+subblob B. The formal meaning of such edges (see the
+appendix) in the graph-theoretic spirit simply associates
+the target blobs with the source blobs via the particular
+relationship the edges represent. Here. then, is the
+other reason for wanting each set of interest to have its
+own contour: to enable it to be connected to others via
+the edges.
+
+In the sequel the term higraph will be used in a very
+liberal sense, making no real distinction between the
+various possibilities. for example, the edge-based or
+hyperedge-based cases.
+
+ 
+
+we are free to attach any meaning at all to the relation-
+ship itself and to the way (if any) that it extends down-
+wards to the elements of those sets. Thus. if we take
+the relationship R represented by ordinary arrows in a
+higraph to mean “each element in the source set is
+related to some element in the target set by relationship
+'1‘." then the information conveyed by Figure 9. for ex-
+ample, cannot really by captured by an ordinary graph
+with T-edges, since one would be forced to decide
+which element in the target set is meant. thus causing
+an overspeciﬁcetion.
+
+The computer science literature is full of uses of
+graphs. and it appears that many of these can beneﬁt
+from‘the extensions offered by higraphs. Consider the
+entity-relationship (E-R) diagrams used in the conceptual
+specification of databases [7]. These are really hyper-
+graphs with a single type of node that is depicted by a
+rectangle and denotes an entity in the described pool of
+
+ 
+
+FIGURE 8. Two Representations of e 5-Clique
+
+SOME IMMEDIATE APPLICATIONS
+
+The ﬁrst thing to notice when attempting to apply hi-
+graphs is that edges connect sets to sets. not elements to
+elements as in graphs. The most common way of inter-
+preting a higraph edge is as a collection of regular
+edges, connecting each element in one set with each
+element in the other. In this way. for example, it is
+possible to represent a 5-c1ique. as in Figure 8. This all-
+to-all semantics is not mandatory, however. since the
+bare meaning of a higraph edge is that the relationship
+it represents holds between the sets it connects. Hence.
+
+BC]
+DD
+
+FIGURE 9. A Simple Higraph
+
+Communications of the ACM
+
+data. The hyperedges. whose labels are written in small
+diamond-shaped boxes [that should not be regarded as
+nodes). capture the intended relationships between en-
+tities, Figure ‘10 shows a simple example of such a dia»
+gram, representing a small part of the data used by an
+airline company? Its information content is clear:
+piiots can ﬂy aircraft, secretaries work for
+employees. and employees are paid salaries on
+certain dates (the latter being a three-way relation-
+ship). Notice. however. the is - a edges. informing
+
+us that pilots and secretaries are really
+employees too. These are conveying information of a
+totally different kind. Indeed, they capture precisely
+the kind of structural, set-theoretic relations discussed
+earlier. Using the very same “ﬂat" diagrammatic repre-
+sentation for both kinds of relationships can cause a lot
+of confusion, especially in large and intricate cases. as a
+glance at some of the examples in the literature shows.
+
+____.___
+
+'Actually, FigUre to does some injustice to the E—R formalism. as it is some-
+times called. by ignoring the additional features that the formalism supports,
+such IS attributes for both entities, and relationships end the classification 0!
+relationships as one—one. mnny—one. etc. Throughout. we shall have to be
+satisﬁed with describing only those Ieatures at a formalism that are directly
+relevant to our discussion.
+
+Mny1988 Volume 31 Number 5
+
+Articles
+
+ 
+
+dates
+
+ 
+
+employees on
+
+ 
+
+ 
+
+paid
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+secretaries
+
+ 
+
+ 
+
+ 
+
+ 
+
+pilots
+
+ 
+
+ 
+
+ 
+
+ 
+
+salaries
+
+ 
+
+ 
+
+ 
+
+ 
+
+aircraft
+
+ 
+
+ 
+
+ 
+
+FIGURE 10. A Simple E-R Diagram
+
+Figure 11 shows the way such information can be
+represented in a higraph—based extension of ER dia-
+grams. The set of employees is divided into the sub~
+sets of interest, secretaries and pilots (with an
+additional blob for all others, if so desired). The
+paid —on edge emanates from the employees blob.
+while the can - fly edge emanates from the pilots
+blob only—exactly what one would expect. The work -
+for edge rightly connects the secretaries blob with
+its parent blob—employees. The new information has
+been quite easily added: aircraft are now just part
+of the overall equipment. which is related to years
+by the relationship received — on. while the dates
+on which salaries are received have been specified
+as consisting of pairs from the orthogonal components
+month and year. Moreover, independent divisions can
+be represented by overlapping blobs, as illustrated in
+Figure 12. which shows how a new breakup of the
+employees by sex can be added to the previous ﬁgure
+
+ 
+
+FIGURE 11. A HIgraph-Based Version (and extension) at Figure 10
+
+May1988 Valium 31 Number 5
+
+    
+    
+   
+ 
+     
+
+employee 5
+men
+
+0? hers
+
+pi lots
+
+married
+to
+
+FIGURE 12. Two Breakups oi Employees
+
+with a couple of additional details. In it we might have
+reason to relate the female pilots or the male
+secretaries to other entities. In practice, overlaps
+should probably be used somewhat sparingly, as overly
+overlapping blobs might detract from the clarity of the
+total diagram. an observation that is in line with the
+often-made claim that a hierarchy is by far the way
+humans prefer to structure things (see [45. chap. 1].
+This opinion is not universally accepted. however. so
+the human-factors aspects of formalisms like higraphs
+would appear to require careful experimental research.
+such as those carried out in [18] and [20],
+Occasionally, authors have used other labels to cap-
+ture is - a relationships, typically ones that try to de—
+scribe the special nature of the breakup into subsets. As
+
+Communications of the ACM 519
+
+Articles
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+department
+
+ 
+
+ 
+
+t0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+vehicle ‘———.— employee 0 project
+type @tus
+car truck
+secretory engineer trucker
+kind
+electrical constrtiction
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE 13. Another E-Ft Diagram (taken from [42])
+
+an example consider Figure 13, which is Figure 9 of
+
+[42] almost verbatim, and our higraph-based Figure 14.
+
+which contains the same information.
+
+A formalism that is very similar to that of E—R dia»
+grams, and actually predated it by a number of years
+[see [40]). is that of semantic. or associative, networks.
+
+These graph-based structures are used widely in artifi-
+
+cial intelligence for natural language processing and
+
+knowledge representation, and are discussed in numer-
+
+ 
+ 
+  
+
+ 
+
+depurtment V
+
+      
+   
+   
+     
+ 
+
+ 
+
+vehicle
+
+employee
+
+engineer
+
+   
+
+ 
+ 
+
+FIGURE 14. A Higreph-Based Version of Figure 13
+
+520 Communications of H1: ACM
+
+ous books and papers. (A good survey and history ap»
+pears in [4]. and more examples can be found in [6].
+[37], [44], and [50] and in the collection of papers in
+[17].) Semantic networks can actually be thought of as
+cancept-relatianship diagrams. with much of the research
+in the area concerned with the association of rich se-
+mantic meaning with the various types of nodes and
+edges. Here, too, is we edges are used in abundance
+resulting in large. and at times incomprehensible. diav
+grams. Often. semantic networks contain more than
+one distinct type of is - a edges, corresponding to set
+inclusion. set membership, a physical "being-part—of"
+relationship, etc.’ The way higraphs can be used here is
+exactly as in E-R diagrams. and the advantages become
+all the more signiﬁcant if such different shades of struc-
+tural is - a relationships can be made visually distinct
+(see the section called “Possible Variations on the
+Theme"). Clearly, it would be naive to claim that the
+profound problematics of knowledge representation can
+be overcome by diagrammatic considerations alone.
+Nevertheless. every little improvement helps.
+
+In both E-R diagrams and semantic networks. people
+have observed that often the relationships. not only the
+entities and concepts. have to be stratiﬁed by levels of
+
+’ A variety of names have been attached to these. such I! )Si and inst in
+[6]. SS and EL in [37] [standing [at IS a. instance, subset. and drum”. respec-
+tively). and many others elsewhere. such IS a - kind-ot. group-oi.
+is~pan-of.etc.
+
+May 1988 Voiu’mt 31 Number 5
+
+detail. This is typically done by considering the dia-
+mond-shaped relationship labels to be nodes of a sec-
+ond kind. and involving them also in structural is - a
+relationships with others. Although some people are
+opposed to this visual blurring of the distinction be-
+tween entities and relationships. there is nothing to
+prevent those who are not from transferring this idea to
+the higraph tramework. This would yield a blob struc-
+ture also for the relationships, with the edges now serv-
+ing to connect the entities and concepts to their rele-
+vant real. nonstructural relationships.
+
+It is noteworthy that the area of the blobs in 3 hi-
+graph can be further exploited in these applications.
+Full E—R diagrams and semantic networks are typically
+laden with attributes, or properties. that are attached as
+additional “stump" nodes to the various entities. These
+attributes are often of the kind that are "inherited
+down" the is -a hierarchy. as the phrase goes. [In fact.
+there are many interesting issues associated with the
+very notion of inheritance; see [5], [45].) In a higraph-
+based representation. the area inside a blob would ap-
+pear to be an ideal place to list. attach. or otherwise
+identify any properties. attributes, or explanations that
+are relevant to that blob and anything enclosed therein.
+Thus. simple inheritance is made possible quite natu-
+rally by the insideness approach to representing the
+subset relationship.
+
+We should remark that some papers on semantic net-
+works and the E-R model have indeed suggested the
+use of insideness and interblob edges to represent high-
+level entities and relationships. though the ideas do not
+seem to have been pursued to their full potential (see
+[10]. [16]. [25], [34], and [36]). Also. the idea of basing
+the decomposition of sets on Cartesian products and
+OR's is consistent with much of the literature on types.
+(For example. see [5] where these two features are cap-
+tured by the notions of a record and a variant, respec-
+tively.)
+
+Among the other graph-based formalisms for which
+higraphs appear to be useful are data-ﬂow diagrams. A
+higraph-based version of such diagrams, called activity-
+charts. is one of the graphical languages supported by
+the STATEMATE system of i-Logix and is described in
+[24] and [28]. In activity-charts the blobs denote func-
+tions, or activities. with the subset relation representing
+the subfunction relationship. The edges denote the pos-
+sible ﬂow of data. [Cartesian product is not used.) Con-
+sider the activity-chart of Figure 15, which is a simple
+part of the functional decomposition of an automatic
+teller machine. One of the edges therein means that
+the customer's account - number might possibly ﬂow
+(following. perhaps, a read or write instruction] from
+the identify activity to the update-account ac-
+tivity. or to anywhere in the serve —customer activ-
+ity. that is, to either (or all) of the deposit, with -
+draw, or balance ~query subactivities. Another of
+the edges in Figure 15 means that the new amount:
+with which the customer's balance should be adjusted
+might ﬂow from any one of the deposit or withdraw
+activities to the update - account; activity.
+
+May 1988 Volume 31 Number 5
+
+Articles
+
+ 
+ 
+  
+
+  
+  
+
+upoote
+DCCOUM
+
+ 
+
+FIGURE 15. A SimpleActivity-Char‘t
+
+Higraphs also form the basis of a recent paper [47]. in
+which a visual language for specifying security con-
+straints in operating systems is presented. The formal-
+ism represents access rights and exceptions thereof as
+distinct kinds of edges in a higraph. the blobs of which
+represent groups of users. ﬁles. and other entities.
+Cartesian product is used to represent the breakup of
+ﬁles into their components, Reference [47] also contains
+a number of interesting special-purpose extensions to
+the basic higraph formalism. Another use of higraph-
+like ideas appears in [32] and [38] in the form of proof
+diagrams for verifying concurrent programs, and there
+is a simple way of using higraphs as the basis of a
+hypertext system rather than conventional graph. In
+part. many issues that arise in the context of hypertext
+systems. such as multiple hierarchies, superconcepts.
+and composite nodes are treated naturally in the
+higraph formalism. (See [8].] One can also conceive of
+additional applications in visualizing interrupt-driven
+flowcharts and certain kinds of model-collapsing con-
+structions in model theory.
+
+STATECHARTS: A LESS OBVIOUS APPLICATION
+The previous section notwithstanding. it would appear
+that the most beneficial application of higraphs lies in
+extending state-transition diagrams to obtain the state-
+charts of [21]. It was actually in the process of trying to
+formulate the underlying graphical concepts embodied
+in (the earlier) statecharts that higraphs emerged. This
+section contains a brief description of the statechart
+formalism; the reader is referred to [21] for further
+details.
+
+To motivate the discussion. there appears to be agree-
+ment in the literature on software and systems engi-
+neering as to the existence of a major problem in the
+speciﬁcation and design oilarge and complex reactive
+systems. A reactive system (see [22] and [39]], in con-
+trast with a transformational system, is characterized by
+being event driven. continuously having to react to
+external and internal stimuli. Examples include tele-
+phones. communication networks. computer operating
+systems. avionics systems. VLSI circuits, and the man-
+machine interface of many kinds of ordinary software.
+The problem is rooted in the difﬁculty of describing
+reactive behavior in ways that are clear and realistic.
+
+Communications a! the ACM 521
+
+nrnctca
+
+ 
+
+FIGURE 16. Depth in Statecharts
+
+and at the same time formal and rigorous, in order to
+be amenable to precise computerized analysis The be-
+havior of a reactive system is really the set of allowed
+sequences of input and oiitput events, conditions. and
+actions. perhaps with some additional information such
+as timing constraints.
+
+Most notable among the solutions proposed for this
+problem are Petri nets [41]. communicating sequential
+processing (CSP) [26], the calculus of communicating
+systems (CCS) [35]. the sequence diagrams of [51], ES-
+TEREL [2]. and temporal logic [39] Statecharts consti-
+tute yet another attempt at solving this problem. but
+one that is aimed at reviving the classical formalism of
+finite-state machines [FSMs] and their visual counter-
+part. state-transition diagrams, trying to make them
+suitable for use in large and complex applications. In-
+deed. people working on the design of really complex
+systems have all but given up on the use of conven-
+tional FSMs and their state diagrams for several rea-
+sons:
+
+[1) State diagrams are “ﬂat." They provide no natu-
+ral notion of depth, hierarchy. tor modularity, and
+therefore do not support stepwise. top-down, or bottom—
+up development.
+
+(2) State diagrams are uneconomical when it comes
+to transitions. An event that causes the very same tran~
+sition from a large number of states, such as a high-
+level interrupt, must be attached to each of them sepa-
+rately resulting in an unnecessary multitude of arrows.
+
+(3) State diagrams are extremely uneconomical. in-
+deed quite infeasible. when it comes to states (at least
+when states are interpreted in the usual way as “snap-
+shots" of the situation at a given point in time]. As the
+system under description grows linearly. the number of
+states grows exponentially, and the conventional FSM
+formalism forces one to explicitly represent them all.
+
+(4] Finally. state diagrams are inherently sequential
+in nature and do not cater for concurrency in a natural
+way.‘
+
+'Here. modding a highly concurrent system by its global states only is
+considered unnatural.
+
+Communications of the ACM
+
+There have been attempts to remove some of these
+drawbacks. mostly by using various kinds of hierarchi-
+cal or communicating state machines. Typically, how-
+ever. these hierarchies provide little help in reducing
+the size of the resulting description, as they do not
+condense any information. Moreover, the communica-
+tion between FSMs is usually one-to—one. being channel
+or processor based. and allows for only a single set of
+communicating machines on the highest level of the
+description. Furthermore. for the most part such exten-
+sions are not particularly diagrammatic in spirit. and
+hence one loses the advantages 8 visual medium might
+offer.
+
+Statecharts are a higraph—based extension of standard
+state-transition diagrams, where the blobs represent
+states and arrows represent transitions. (For additional
+statechart features, the reader is again referred to
+[21].)” As to the basics. we might say that
+
+statecharts = state diagrams + depth
++ orthogonality + broadcast communication.
+
+Depth is represented by the insideness of blobs, as
+illustrated in Figure 16. where 16b may replace 16a.
+The symbols e, f, g, and h stand for eveiits that trigger
+thetransitions, and the bracketed c is a condition.
+Thus, g[c] triggers the transition from A to C if and
+when g occurs, but only if c is true at that time. The
+fact that A and C do not overlap and are completely
+inside D means that the latter is the echusive—or [XOR]
+of the former. so that being in D is tantamount to being
+in either A or C. but not in both. The main point here is
+that the [—arrow, which leaves the contour of D, applies
+to both A and C. as in 16a. This simple higraph-based
+principle. when applied to large collections of states
+with many levels. helps overcome points (1] and [2]
+above (ﬂatness and multilevel events]. The idea of ex—
+ploiting this kind of insideness in describing levels in a
+state—transition diagram appears also in [20] It should
+be noted that the small default arrows depend on their
+
+' Some encouraging experimenlal evidence es lo the Ippmprillenes of slate-
+charts for system description is discussed in [21. sect. 9].
+
+May 1988, Volume 31 Number 5
+
+encompassing blobs. in Figure 16a state A is singled out
+as being the default. or start state, of the three, a fact
+represented in tab by the top default arrow. The bot-
+tom one. however. states that C is default among A and
+C if we are already in D and hence alleviates the need
+for continuing the h-arrow beyond D's boundary.
+Orthogonality'is the dual of the XOR decomposition
+of states. in essence an AND decomposition, and is cap-
+tured by the partitioning feature of higraphs, that is, by
+the unordered Cartesian product. In Figure 17b state Y
+consists of two orthogonal components. A and D. related
+by AND: To be in Y is tantamount to being in both A
+and D. and hence the two default arrows. The intended
+semantics of 17b is given by its equivalent "ﬂat" version
+.178, which represents a sort of automata product. No-
+tice the simultaneity of transitions that takes place
+when event 6 occurs in state conﬁguration (B, F). and
+the merging and splitting transitions that lead to and
+from Y. Note also the special condition [in(G)] attached
+to the f-transition from C. and the way it is reﬂected in
+Figure 17a. Figure 17 illustrates the heart of the expo-
+nential blowup problem. the number of states in the
+explicit version on being the product of the numbers
+
+ 
+
+(o)
+
+Anicles
+
+pearing along a transition in a statechart is not merely
+sent to the “outside world” as an output. Rather, it can
+affect the behavior of the state chart itself in orthogonal
+components. This is achieved by a simple broadcast
+mechanism: Just as the occurrence of an external event
+causes transitions in all components to which itis rele»
+vant (see Figure 17), if event 5 occurs and a transition
+labeled e/fis taken. the action I is immediately acti-
+vated. and 'is regarded as a new event. possibly causing
+further transitions in other components.
+
+Figure '18 shows-a simple example of this. If we are in
+(B. F, I) and along comes the external event m, the next
+conﬁguration will be (C, G, I ). by virtue of e being
+generated in H and triggering the two transitions in
+components A and D. This is a chain reaction of length 2.
+If no external event n occurs. the new conﬁguration
+will be (B. E, I). by virtue of a similar chain reaction of
+length 3. ’
+
+This concludes our brief account of the basic features
+of statecharts, and we now illustrate the formalism
+with a rather simpliﬁed version of the digital watch
+described in [21]. The watch has four external control
+buttons, as well as a main display that can be used to
+
+ 
+
+ 
+
+ 
+
+(bl
+
+FIGURE 17. Orthogonality in Smeclnrts
+
+of states in the orthogonal components of its higraph
+version. If orthogonality is used often and on many
+levels. the state explosion and sequentiality difficulties
+(points [3) and (4)) are also overcome in a reasonable
+way. This can be further observed by studying the ex-
+amples and references in [21]).
+
+Figures 16 and 17 do not contain any outputs, and
+hence. orthogonal components can synchronize so far
+only through common events [like 2 in Figure ‘17) and
+can affect each other only through [inlstuteﬂ condi-
+tions. A certain amount of subtlety is added to the way
+statecharts model concurrency by allowing output
+events. Here, statecharts can be viewed as an extension
+of Mealy machines [see [27]). since output events.
+which are called actions. can be attached optionally to
+the triggering event along a transition. In contrast with
+conventional Mealy machines. hOWever. an action ap-
+
+Mny 1988 Volume 3] NumbnS
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE 18. Broadcasting in 3mm
+
+Communications of th: ACM 523
+
+Articles
+
+525
+
+show the time (hour. minutes. and seconds) or the
+date (weekday. day of month, and month). It has a
+chime that can be enabled or disabled. beeping on the
+hour if enabled. It has an alarm that can also be en-
+abled or disabled. and beeps for 2 minutes when the
+time in the alarm setting is reached unless any one of
+the buttons is pressed earlier. It has a stopwatch with
+two display modes (regular and lap). a light for illu-
+mination. and a weak - battery blinking indication.
+Some of the external events relevant to the watch are
+a. b. c. and d, which signify the pressing of the four
+buttons. respectively. and b- up. for example. which
+signiﬁes the release of button 13. Another event we shall
+be using. 2 -min. signiﬁes that 2 minutes have elapsed
+since the last time a button was pressed. (We choose
+not to get involved here in a syntax for the event
+expressions themselves. In a language of compound
+events that includes a time-out construct, such as
+that of [24] and [28]. this last event can be expressed
+easily.)
+
+ 
+
+displays ]
+
+2-mm
+[mu m (stouvo'chll
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+t #
+
+FIGURE 19. Part oi the di sp 1 ays State in a Digital Watch
+
+Statecharts can be used to describe the behavior of
+the watch in terms of its human interface; namely. how
+the user's operations. such as pressing buttons, influ-
+ence things. It should be noted, however, that the de-
+scriptions that follow do not specify the activities car-
+ried out internally by the watch. only their control.
+Thus. nothing is said here about the time elapsing ac-
+tivity itself. or the technicalities oi the beeping, the
+blinking. or the displays. These aspects of a system can
+be described using other means. and should be incorpo-
+rated into the overall specification together with the
+statecharts. (See [24] for one approach to this incorpora-
+tion.)
+
+Figure 19 shows the basic displays state of the
+watch. Notice that time is the default state. and there
+is a cycle of pressings of a leading from time through
+the alarm. chime. and stopwatch states back to
+time. There is a general update state. and a special
+state for updating the alarm's internal setting. The 2 -
+min event signifies return to time if 2 minutes have
+elapsed in any state other than stopwatch and no
+button has been pressed.
+
+Communications of Hit ACM
+
+stopwatch
+
+ 
+
+FIGURE 20. The stopwatch State
+
+The speciﬁcation’of the watch contains examples of
+orthogonal states on various levels. We should ﬁrst con—
+sider the stopwatch state. detailed in Figure 20. It has
+two substates, zero and ldisp, run], the ﬁrst being
+the default. Pressing )3 takes the stopwatch from the
+former to the latter causing it to start running with a
+regular display. Repeatedly pressing b causes it to stop
+and start alternately. Pressing d can be seen to cause
+the display to switch to lap and back to reg. or to
+leave the orthogonal state and return to zero depend-
+ing. as illustrated. on the present state conﬁguration.
+The encircled and starred H is one of the additional
+notations described in [21]. and prescribes that. upon
+entering stopwatch from chime by pressing a. the
+state actually entered will be the one in which the
+system was in most recently. Thus. we are entering the
+stopwatch state by "history"—hence, the H. The de-
+fault will be used if this is the ﬁrst time stopwatch.
+is entered, or if the history has been cleared,
+
+The description of the high levels of the watch also
+uses orthogonality. In Figure 21 the watch is speciﬁed
+as being either dead or alive. with the latter consist-
+ing of five orthogonal components. (Notice where the
+
+b1- dy
+
+bt-rm/clh
+
+ 
+
+ 
+
+t in (eno-bn
+
+ntarT-Et— '— — "FREEe-Tt
+ob
+
+diintolormll ] c_en
+. t~hits-hr
+
+l
+d [ intulormu l
+l
+
+     
+ 
+  
+
+ 
+
+   
+
+— i
+M” ' dtmtchimel)
+
+FIGURE 21. A High-Level Description oi the Watch
+
+May 1938 Volume 31 Nymbzr 5
+
+ 
+
+' ' bt-in
+l'olive l
+rmain
+
+@- M-dv T
+
+bt-rm/clh
+
+ 
+
+(displays
+
+ 
+
+ 
+
+ 
+
+2-min
+[not intstopwotchtl
+
+ 
+
+      
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE 22. A Shtectnl‘l tor the Digital Watch
+
+displays state ﬁts in.) In this ﬁgure the events bt - in.
+bt — rm. bt - ﬂy and bt-wk signify. respectively. the in-
+sertion, removal. expiration. and weakening (below a
+certain level) of the battery. We use t v hits - tm to
+signify that the internal time of the watch has reached
+the internal time setting of the alarm, and t - hits - hr
+to signify that it has reached a whole hour. Also.
+beep- rt occurs when either any button is pressed or 2
+minutes have elapsed since entering beep, and beep—
+st occurs 2 seconds after entering c — beep. (As men-
+tioned. these events should also be written formally as
+compound event expressions in a language involving
+time-outs, disjunctions. and so on; see [28].]
+
+The ﬁrst of the ﬁve components in Figure 21. main.
+speciﬁes the transitions between displaying and beep-
+ing. where displays is simply the state described ear—
+lier (see Figure 19). (In actuality. the displaying activi—
+ties themselves do not shut off when the watch is beep-
+ing, but cannot be changed until control returns to the
+
+Mny1988 Volume 31 Number 5
+
+displays state.) The alarm- st component describes
+the status of the alarm. specifying that it can be
+changed using :1 when control is in the alarm display
+state. The chime - st state is similar. with the addi-
+tional provision for beeping on the hour given within.
+The power state is seli—explanatory. where the activity
+that would take place in the weak state would involve
+the displays blinking frantically.
+
+In considering the innocent-looking light state. the
+default is off, and depressing and releasing b cause
+the light to switch alternately between on and off.
+What is interesting is the effect these actions might
+have elsewhere. If the entire statechart for the parts of
+the watch described so far is contemplated (see Figure
+22). one realizes that pressing b for illumination has
+signiﬁcant side effects: It will cause a return from an
+update state if we happen to be in one. the stopping of
+the alarm if it happens to be beeping. and a change in
+the stopwatch's behavior if we happen to be working
+
+Communications of the ACM
+
+Articles
+
+525
+
+Articles
+
+with it. Conversely. if we use b in displays for any
+one of these things the light will go on, whether we like
+it or not. These seeming anomalies are all a result of
+the fact that the light component is orthogonal to the
+me in component, meaning that its scope is very broad.
+One can imagine a far more humble light compo-
+nent, applicable only in the time and date states.
+which would not cause any of these problems. Its speci-
+ﬁcation could be carried out by attaching it orthogo-
+nally. not to main, but to a new state surrounding
+time and date. as in Figure 23.
+
+ 
+
+ 
+
+FIGURE 23. A Smaller Scope for the Light
+
+As mentioned earlier, this section has only described
+the "no-frills" version of the statecharts. A more com-
+plete treatment appears in [21]. and a formal syntax
+and semantics appear in [23]. The reader may have
+noticed that we have not used intersecting states in the
+statecharts. While intersecting blobs in higraphs do not
+cause any serious semantic problems [see the appen-
+dix}. intersecting states in state charts do. In fact, since
+not all syntactically legal higraphs make sense as state-
+charts. it is not even clear how to define an appropriate
+syntax for statecharts with intersecting states [see [21.
+sect. 62]). A preliminary approach to these problems
+appears in [29].
+
+POSSIBLE VARIATIONS ON THE THEME
+
+The higraph formalism can be enriched and extended
+in various ways. We shall point to a few of these possi-
+bilities brieﬂy and informally.
+
+At times it becomes useful‘to base a formalism on a
+three-valued. rather than a two-valued, underlying
+model. For example. in certain uses of graphs in data-
+bases and artificial intelligence there arises a need to
+state not only that a certain relationship R holds or does
+not hold between two objects, but also to capture the
+situation whereby we do not know which of these is
+the case. One possibility is to reinterpret the absence of
+an R arrow as denoting the don’t-known situation, and
+have a new kind of arrow representing the negative
+information that R definitely does not hold. This simple
+idea can be adopted in higraphs too. as in Figure 24,
+which is suppose to indicate that R holds between A
+and B and does not hold between B and C. and that all
+
+Communications of th: ACM
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE 24. Negative Arrows
+
+other possibilities (including whether or not R holds
+between C and B)‘° are left open.
+
+Often a don't-know option is needed not only for
+arrows, but for blobs as well. That is, we might want to
+represent uncertainty as to the presence or absence of
+identiﬁable sets, rather than relationships. Accordingly.
+we can use a new blob notation (e.g.. one with a dashed
+contour) to denote a set that we are not sure actually
+exists (here one assumes that all regular blobs stand for
+nonempty sets]. Figure'25 asserts our uncertainty as to
+whether A — B is empty or not. and also states that if it
+is not empty then the difference is called E and is re-
+lated to F via relationship R.
+
+ 
+
+ 
+
+“Not-Ouite-Sure” Blobs
+
+FIGURE 25.
+
+When higraphs are used in practice (see [21], [24].
+[28]. and [47]], it is useful to be able to "zoom out" of a
+particular view. suppressing low-level details. A good
+example would be going from Figure 22. the detailed
+state-chart description of the watch, to the less detailed
+Figure 21. In such cases there arises a problem with
+edges connected to subblobs that are omitted from the
+new, less detailed view. If we decide to zoom out of the
+likes of Figure 26 by suppressing blobs B and C, it might
+
+> be a mistake to consider Figure 27a as the correct new
+
+version. since the two are clearly inconsistent. Figure
+27b is better, with its stubs that represent relationships
+to unspecified subblobs. For example, since a state-
+chart arrow whose target is a high-level state A pre-
+scribes entrance to none other than the default substate
+
+"‘ This is not determined by Ihe arrow from A to 3. since. as discussed earlier.
+the fact that R holds between A and B says nothing about what the use is
+for A 's subsets.
+
+May1988- Volume 31 NumberS
+
+FIGURE 26. Another Simple Higraph
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE 28. Skipping and Muttiple Crossovers
+
+ofA. Figure 21 is somewhat inconsistent with Figure
+22. In the present context, a better version would have
+shown the beep- rt arrow crossing the contour of the
+displays state and ending with a stub indicating en-
+trance to a substate (as of now unspeciﬁed) that is pos-
+sibly different from the default substate. time.
+
+One weakness of the higraph formalism is its inabil-
+ity to specify both set inclusion and set membership
+We have chosen to adopt the former as the meaning of
+blob enclosure. although we could probably have cho»
+
+ 
+
+Articles
+
+sen the latter too without causing too many problems.
+This weakness is all the more apparent when higraphs
+are contrasted with their graph-based equivalents. in
+which set inclusion is depicted by is -a edges (see Fig-
+ure 10). In the latter, one need only use an additional
+type of edge. labeled elmnt - of, for instance. to be
+able to represent set membership. We would like to
+claim that this is not much more than a notational
+problem that requires a topowisual way of distinguish»
+ing between two different kinds of insideness. Most of
+the solutions to this notational problem that come to
+mind are somewhat unsatisfactory. with the exception
+of the one that calls for a three-dimensional basis for
+higraphs, in which the third dimension is responsible
+for such distinctions (e.g.. by having set inclusion take
+place in the same plane and set membership be re-
+ﬂected by different levels of planes).“
+
+An additional possible extension to higraphs is to
+make arrows mean more than a simple connection be»
+tween source and target. (We are assuming ordinary
+directed binary edges here, not, say, hyperedges.) Since
+higraph arrows in general cut across blob contours. we
+might want to say something more about the sequence of
+crossovers that the edge takes on its way from the
+source to the target. This can be achieved trivially by
+drawing the arrow through the appropriate contours in
+the desired order (assuming this order is indeed possi-
+ble. given the basic topology of the blobs]. The interest-
+ing case occurs when we want to omit from such a
+sequence one or more of the contours that. topologi-
+cally speaking. must be crossed by any line from the
+source to the target. We would like the D-to-B arrow in
+Figure 26, for example, to enter E. but not to enter A in
+the process. State charts with intersections give rise to
+one interesting motivation for such cases. whereby one
+wants the system to enter only one of two intersecting
+
+" Visual formalisms that are predominantly two-dimensional in nature. but
+make some use of a third dimension. are far from being out of the question.
+even it we are not willing to wait for quality holographic workstations to
+show up. If all we need. as in this case. is the ability to tell when two nested
+blobs are on the same plane or not. then a simple graphical simulation of a
+dynamic left-righl shifl in point of view would do the jobs
+
+(b)
+
+FIGURE 27. Two Possible Zoom Outs for Figure 26
+
+May 1988 Volume 31 Number 5
+
+Communichtians of the ACM 521
+
+states; again. the reader is referred to [21. sec. 6.2] for
+details. This richer notion of an edge can be repre-
+sented visually by simply allowing arrows to skip edges
+as in Figure 28. Multiple crossovers. if desired. can also
+be represented as illustrated in the ﬁgure. Clearly. the
+formal semantics would be more elaborate. since a
+ﬁnite sequence of blobs, rather than an ordered pair, is
+the interpretation of a directed edge. and a ﬁnite set
+thereof. rather than an unordered pair, is the interpre-
+tation of an undirected edge.
+
+CONCLUSION AND FUTURE WORK
+
+Higraphs seem to give rise to several interesting mathe-
+matical notions adapted to a large extent from graphs
+and hypergraphs. For example. one can provide reason-
+able deﬁnitions of connectivity. transitive closure. plan-
+arity. and acyclicity in higraphs. as well as a couple of
+different notions of “hitrees.” For each of these, we may
+ask for upper and lower bounds on the computational
+complexity of the corresponding algorithmic problems.
+In some cases algorithms and bounds can be carried
+over from the work on graphs and hypergraphs. but one
+gets the feeling that in other cases these bounds can be
+improved by utilizing the special structure of higraphs.
+Some of these algorithmic problems have indeed arisen
+during the implementation of the STATEMATE system
+[24. 28], which supports three higraph—based formal-
+isms. lt'would appear that the algorithmics of higraphs
+forms a fruitful avenue for further research.
+
+The main thesis underlying this paper is that the
+intricate nature of a variety of computer—related sys-
+tems and situations can, and in our opinion should. be
+represented by visual formalisms: visual. because they
+are to be generated. comprehended. and communicated
+by humans; and formal. because they are to be manipu—
+lated. maintained. and analyzed by computers. (This
+thesis is consistent with the study in [9]. which argues
+
+for a more visual. nonverbal approach toward mathe-
+matics.) '
+
+Part of our motivation in stressing this point, despite
+the fact that it might appear to be so obvious. is the
+rather different approach that one occasionally ﬁnds
+elsewhere. For example. [33] is a compendium of many
+computer—related diagrammatic methods [virtually all
+of which are based on graphs]. In our opinion, [33] is
+quite inadequate, since it accepts the visual, but appar-
+ently rejects the formal. For the most part, the methods
+and languages appearing in [33] are described in a man-
+ner that is devoid of semantics. and can therefore be
+used at best as informal aids when working with some
+other, hopefully more rigorous, nonvisual medium.
+
+One of the implicit points we have tried to make in
+this article is that a considerable amount of mileage can
+be gotten out of basing such formalisms on a small
+number of simple diagrammatic notions. ﬁrst and fore-
+most among which are those that are topological in
+nature. not geometric. A lot can be gained by using
+topo-visual formalisms based on insideness. connectedv
+ness. and partitioning. with the semantics as given
+here, before one attempts to attach special signiﬁcance
+to. for example, shapes. colors. and sizes.
+
+We are entirely convinced the future is "visual." We
+believe that in the next few years many more of our
+daily technical and scientific chores will be carried out
+visually, and graphical facilities will be far better and
+cheaper than today’s. The languages and approaches
+we shall be using in doing so will not be merely iconic
+in nature (e.g.. using the picture of a trash can to de—
+note garbage collection), but inherently diagrammatic
+in a conceptual way. perhaps also three-dimensional
+and/or animated. They will be designed to encourage
+visual modes of thinking when tackling systems of
+ever-increasing complexity. and will exploit and ex-
+tend the use of our own wonderful visual system in
+many of our intellectual activities.
+
+APPENDIX. Formal Definition of Higraphs
+
+, In what follows we present a formal {nongraphical) . —- --
+
+syntax and semantics for higraphs with simple bi-
+nary directed edges. The reader should have no dif-
+ﬁculty in extending the edge set E to represent. say.
+hyperedges.
+
+A higmph is a quadruple
+
+H = (B, a, 1r. E),
+
+where B is a finite set of elements, called blobs, and
+E, the set of edges. is a binary relation on B:
+
+E Q B X B.
+The subblob function a is deﬁned as
+a‘. B —-> 2’.
+
+It assigns to each blob x E B its set a(x) of subblobs
+and is restricted to being cycle free. Thus. if we
+
+Communications of the ACM
+
+define
+UMM = U vlyt
+
+EIE"(X)
+
+0°{xl = {IL
+
+and 0*(1) = U a‘(x).
+i-i
+then a is restricted so that x E 01):).
+The partitioning function 1r is deﬁned as
+
+7r: B —’ 23"”.
+
+associating with each blob x E B some equivalence
+relation 1(1) on the set of subblobs. a(z). This is
+really just a rigorous way of specifying the breakup
+of x into its orthogonal components. which are now
+defined simply to be the equivalence classes induced
+by the relation x(x). Indeed, for: E B let us denote
+these classes by 1r,[x), . . . . «.11). For the orthogonal
+
+May 1988 Volume 31 Number 5
+
+. '55:“. _ BL. 1.. 1,—2.1. ‘A'lAr'ZJ': ‘L
+
+ants to be representablelgraphi—sa
+
+'aa'at‘eaua‘s'm‘ "fntiéé’cleaneﬂ?
+-. diﬁe ent orthogbnalgi’
+
+'1'!—
+
+ 
+ 
+        
+
+":~‘.¢7.- .— W.‘ _,'?"'
+’eornponents of
+
+_ . ‘ _ p y _ _ . lFldifmallyi‘t'Oi- each
+[ we require~ that no two elements 37 End 2 of «(:0 can
+
+ 
+
+intei'sect—that i’s.‘ oan satisfy «*(y) n lr’lz) :2 e— L
+i unless they are in the same orthogonal component’e '
+E that is; unless the relation x(x) renders them equiya
+1’ lent. Clearly, k; = :1 means I is not partitioned into
+F components a't'aIL . 1:": . -"
+
+This conbludes the syntax of higraphs, now for"-
+the semantics. Two notations are useful. Given a hi-
+5 graph H, deﬁne the set of atomic blobs to be
+
+A=[x€B]a(z)=@].
+
+(Obviously. the ﬁniteness of B and the cycle-freeness
+7 restriction on 0 imply A is nonempty.) The unordered
+Cartesian product of two sets 5 and T is deﬁned as
+
+S®T=l[s.t]|sES.tET}.
+
+  
+ 
+  
+
+ 
+
+Given a higraph H. a model for H is a pair
+M = (D. u).
+
+where D is a set of unstructured elements12 called
+
+_.__—__———
+“ We want to avoid situations in which. say. 2 and [r] are both elements of D.
+
+Acknowledgments. Thanks are due to Ton Kalker.
+Doug Tygar. and Ieanette Wing for comments on the
+appendix. and to an anonymous referee for a very de-
+tailed and thoughtful report.
+
+REFERENCES
+1. Barge. C. Graphs and Hypergrnphs. North-Holland. Amsterdam. 1973.
+2. Berry. 5.. and Cosserat. I. The ESTEREL synchronous programming
+language and its mathematical semantics. ln Seminar on Concurrency.
+S. Brookes and G. Winskel. Eds. Lecture Notes in Computer Science.
+vol. 197. Springer-Verlag. New York. 1985. pp. 389—448.
+:1. Riggs. N.L.. Lloyd. E.K.. and Wilson. RJ. Gilph Theory: 1736—1936.
+Clarendon Press. Oxford. 1976.
+1. Erachman. K]. On the epistemological status of semantic networks.
+In Assurintivt Networks: Representation and Use of Knowledge by Com-
+puter. NV. Findler. Ed. Academic Press. New York. 1979. pp. 3—50.
+5. Cardelli. LA. Semantics of multiple inheritance in semantics of data
+types. Kahn. G. et a1. Lecture Notes in Computer Science. vol. 173.
+Springer-Verlag. 1984. pp. 51-67.
+
+. Charniak. E. and McDermott. D. Introduction to Artificm Intelligence,
+Addison-Wesley, Reading. Mass. 1935.
+
+7. Chen. P.P.-S. The entity-relationship model—toward a unified view
+of data. ACM Trans. Database Syst. 1. 1 (Mar. 1976). 9—36.
+
+8. Conklin. l. Hypertext: An introduction and survey. IEEE Commit"
+20. 9 (Sept. 1987), 17—41.
+
+9. Davis. Pi. Anderson. LA. Nonanalytic aspects on mathematics and
+their implication on research and education. SIAM Review 21. 1 (Ian.
+1979]. 112-127.
+
+10. dos Santos. (2.5.. Neuhold. 12.1.. and Furtado, AL A data type ap-
+proach to the entity-relationship model. In Entity-Rzlntionship Ap-
+proud: in Systems Analysis and Design. P.P. Chen. Ed. North-Holland.
+Amsterdam. 1980. pp. 103-119.
+
+11. Dugundji. I. Topology. Allyn and Bacon. Boston. Mass. 1966.
+
+12. Euler. L. Solutio problematis ad geometriam situs pertinentis. Comm.
+Acad. Sci. Imp. Pttwpbl. l [1736). 128—140.
+
+13. Euler. L Lemts {I Ilflt Princess: d'Allemagm. Vol. 2. 1772 [letters
+102—108).
+
+14. Fagin. R. Degrees of acyclicity tor hypergraphs and relational data-
+base schemes. I. ACM 30. 3 lluly 1983). 514—550.
+
+01
+
+May1988 Volume 31 NumberS
+
+'wher iii ¥ 3/ then'uhii n h(y]; 0.1Ne‘nowhavé to
+
+- .‘ more'corribleat'obiects over DL‘Aocordingly;
+‘ .‘ by deﬁning. inductively. for each s E B,“ '
+
+ 
+  
+  
+  
+  
+
+  
+ 
+
+  
+
+showhow to extend the association of atomic blobs ..
+with [sets'over D to an assooiat‘ignof all blobs with
+extend ll
+
+    
+
+ 
+
+   
+
+. . k1 . .--»:’~.-r,i
+51(1) - ® U u(y)).‘ -
+m nix) _
+
+- the intuition being that to calculate the semantics of
+
+a blob x we form the unordered Cartesian product of
+the meanings of its orthogonal components, each of
+which, in turn, is simply the union of the meanings
+of its constituent blobs. In particular. of course. if
+
+k1 = 1, no product is taken. and We really have
+
+:41) = U #[yl-
+year)
+
+as expected.
+
+To complete the semantics. note that the edge set
+E induces a semantic relation EM on the u(x)s, de-
+ﬁned by
+
+' (u(xiutyn GEM m [x_yjez.
+
+15. Fagin. R.. Mendelzon. A.. and Ullman. ). A simplified universal
+relation assumption and its properties. ACM Trans. Database Syst. 7.
+a (Sept. 1982). 343-360.
+
+16. al-Fedaghi. 8.5. An entity-relationship approach to modelling petro-
+leum engineering database. In Enlny—Rzlationship Appraarh to Soft—
+war: Engineering. CG. Davis et al.. Eds. Elsevier Science Publishers.
+Amsterdam. 1983. pp. 761—779.
+
+17. Findler. N.\’.. Ed. Associahw Networks: Representation and Us: 0/
+Knuwledgr by Computer. Academic Press. New York. 1979.
+
+18. Fitter. M.. and Green. T.R.G. When do diagrams make good com-
+puter languages? Int. J. Man-Mnrh. Stud. 11. 2 (March 1979).
+235—261.
+
+19. Gardner. M. Legit Machines and Diagrams. 2nd ed. University of
+Chicago Press. Chicago. Ill.. 1932.
+
+20. Green. T.R. Pictures of programs and other processes. or how to do
+things with lines. Behav. Inf. Technol. 1. 1 (1982]. 3—36.
+
+21. Hare]. D. Statecharts: A visual formalism for complex systems. Sci.
+Comput. Program. 8. 3 [lune 1957). 231—274.
+
+22. Harel. D., and Pnueli. A.'On the development oi reactive systems. In
+
+Logics and Models of Concurrent Systems. NATO. ASI Series. vol. 13.
+
+KR. Apt. Ed. Springer-Verlag. New York. 1985. pp. 477—498.
+
+Harel. D.. Pnueli. A.. Schmidt. I.P.. and Sherman. R. On the formal
+
+semantics of statecharts. In Proceedings of the 2nd iEEE Symposium on
+
+Legit in Computer Science (Ithaca. N.Y.. lune 22—24). IEEE Press. New
+
+York, 1987. pp. 54-6-1.
+
+24. Harel. D.. Lachover. 11.. Naamad. IL. Pnueli. A.. Politi. M.. Sherman.
+R.. and Shlul~Trauring. A. STATEMATE' A working environment
+for the development of complex reactive systems. In Pmrudings of
+the Tenth IEEE International Conference on Software Enginun'ng (Singa-
+pore. April 13-15]. IEEE Press. New York. 1988.
+
+25. Hendrix. G.G. Expanding the utility of semantic networks through
+partitioning. In Proctrdings of the 4”: International Con/zmue an Arti-
+ficial Intelligent: (Tbilisi. Georgia. USSR. Sept. 3—8). International
+Joint Council on Artiﬁcial Intelligence. Cambridge. Mass. 1975.
+pp. 115-121.
+
+26. Hoare. C.A.R. Communicating sequential processes. Commun. ACM
+21.81Aug. 1978). 656—677.
+
+27. Hopcroft. ].E.. and Ullman. LD. Introduction to Automate Theory. Un-
+guages. and Computation. Addisoanesley. Reading. Mass. 1979.
+
+28. i-Logix The languages of STATEMATE. Tech. Rep. i-Logix. Burling-
+ton. Mm.. 1987.
+
+w
+
+2 .
+
+Communiéations o! the ACM
+
+Articles
+
+Articles
+
+19.
+
+31.
+
+32.
+
+33.
+
+35.
+
+36.
+
+37.
+
+38.
+
+39.
+
+41.
+42.
+
+43.
+
+Kahuna. CA. Statechans with overlapping states. M.S. thesis. Dept.
+01' Mnlhemntit: and Computer Science. Bar-Ilan University. Ramll
+Gan. Israel. 1986 (in Hebrew).
+
+. chschetz. S. Introductian tn Topology. Princeton University Press.
+
+Princeton. N.|.. 1949.
+Meier. D.. Ind UIImnn, ).D. Connections in acyclic hypergraphs. In
+
+- Pmczedings cf the ACM Symposium on Dntnbast Systems [Los Angeles.
+
+Cnlif.. Much 29-31). ACM. New York. 1992. pp. 34-39.
+
+Manna. Z, and Pnueli. A. Speciﬁcation and veriﬁcation of concur-
+rent programs by V-automata. In Prorndings of the 14th ACM Sympo-
+sium an PrincipIzs of Programming Language: [Munich]. ACM. New
+York. 1987. pp. 1-12.
+
+Martin. 1.. and McClure. C. Diagramming Techniques forAnnIysts and
+Programmers. Prentice-Hall. Englewood Cliffs. N.).. 1995.
+
+. McSkimin. I.R.. and Minker. I. A predicate calculus based semantic
+
+network for deductive searching. In Associative Networks: Rtpresmta-
+lion and Use a] Knawlrdgr by Computer. N.V. Findler. Ed. Academic
+Press. New York. 1979. pp. 205-238.
+
+Milner. R. A Calculus of Communimting Systems. Lecture Notes in
+Computer Science. vol. 92. Springer-Veriag. New York. 1980.
+Nakano. R. Integrity checking in a logic-oriented ER model. In
+Entity—Rtlationship Approach to Sa/rwnr: Engineering. (3.6. Davis et al..
+Eds. Elsevier Science Publishers. Amsterdam. 1983. pp. 551—564.
+Nilsson. NJ. Principles o/Artx’ﬁcia! Intelligence. Tioga, Palo Alto.
+CaIiI.. 1980.
+
+Owicki. S.. and Lamport. L. Proving liveness properties of concur-
+rent programs. ACM Trans. Program. Lang. Syst. 4. 3 (July 1982).
+455—495.
+
+Pnueli. A. Applications of temporal logic to the speciﬁcation and
+verification of reactive systehis: A survey of current trends. In
+Cunznl Trtnds m Concurrency. I. W. de Eakker et al.. Eds. Lecture
+Notes in Computer Science. vol. 224. Springer-Verlag. New York.
+1986. pp. 510-584.
+
+. QuiIlian. M.R. Semantic memory. In Semantic Infnmmtion Processing.
+
+M. Minsky. Ed. MIT Press. Cambridge. Mass.. 1958, pp. 227—270.
+Reisig. W. Petri Nets: An Introduction. Springer-Verlag. Berlin. 1985.
+Schiffner. 0.. and Schuermann. P. Multiple views and abstractions
+with an extended-entity-relationship model. Camput. Lang. 4. 3/4
+(1979). 139—154,
+
+Schmid. CF. Slnlistical Graphics: D:sign Principles and Practices.
+Wiley. New York. 1983.
+
+. Shapiro. 5.C. A net structure for SEmanhC information storage. de-
+
+duction. and retrieval. ln Procecdmgs oftht 2nd1ntemationallnml
+Confermre on Artificial Intelligenu, 1971, pp. 512—523.
+
+45. Tourelzky. D.S. Th: Mathematics of Inheritance Systems. Pitmnn. Lon-
+don Ind Morgan Kauimnnn. Lus Altos. Calif. 1986. ‘
+
+4S. Tufte. ER. Th: Visual Displny of Quantitativr Infomumon Graphics
+Press. Cheshire. Cnnn.. 1983.
+
+47. Tygu. ).D.. ond Wing, LM. Visual speciﬁcation of security eon-
+ltraints. In The IEEE Workshop on Visual Languages [Linképing Swe-
+den. Aug 19—21). IEEE Press. New York. 1987. _
+
+4B. Venn. }- 0n the diagrammltic and mechanical representation of
+propositions and reasonings. Phil. Mag. (13301- 121
+
+49. Venn. ). Symbolic Logic. 2nd ed. London. 1894. (Reprinted by Chel—
+sea. Bronx. N.Y.. 1971.) _
+
+50. Woods. W.A. What‘s in a link? Foundations for semantic netWorks.
+In Rzpnsentatian and Understanding. D.S. Bobrow and A.M. Collins.
+Eds. Academic Press. New York. 1975. pp. 35-82.
+
+51. Zave. P. A distributed alternative. to ﬁnite-state-machine speciﬁca-
+tions. ACM Trans. Program. Lang. Syst. 7, 1 ()an. 1985). 10-36.
+
+CR Categories Ind Subject Descriptors: (2.0 [Computer Systems 0r-
+glnizution]: General—systtms specification methodology: C.3 [Computer
+Systems Organization]: SpeciaI-Purpose and Applicatinn-Based Sys-
+tems—ruI-tlme systems: DJ) [Software]: General: D.2.1 [Software Engiv
+nearing]: Requirements/Speciﬁcations: D.2.2]: Tools and Techniques:
+D.2.10 [Softwnre Engineering]; Design: 5.0 [Data]: General: E.1 [Data]:
+Data Structures—graphsi'F.1.1 [Computation by Abstract Devices]:
+Models of Cumputation—nutomnta: H.1.o [Models and Principles]: Gen-
+eral: 1.2.4 [Artiﬁcial Intelligence]: Knowledge Representation Formal-
+isms and Methods—semnntic nrtwoyks
+
+General Terms: Design. Languages. Theory
+
+Additional Key Words and Phrases: Higraph. reactive systems. stale
+charts. visual formalisms
+
+Author's Present Address: DaVld Hare]. Department of Applied Mathe-
+matics and Computer Science. The Weizmann Institute of Science.
+Rehnvot. Israel 76100.
+
+Permission to copy without fee all or part of this material is granted
+provided that the copies are not made or distributed for direct commer-
+cial advantage. the ACM copyright notice and the title of the publication
+and its date appear. and notice is given that copying is by permission of
+the Association for Computing Machinery. To copy otherwise. or to
+republish. requires a fee and/or specific permission.
+

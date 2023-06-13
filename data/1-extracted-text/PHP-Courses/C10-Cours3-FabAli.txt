@@ -1,0 +1,1484 @@
+Développement	Web	–	PHP
+Cours	3
+
+Fabrice	BOISSIER
+Fabrice.Boissier@univ-paris1.fr
+
+Ali	JAFFAL
+Ali.Jaffal@univ-paris1.fr
+
+Bureau	C.14.05
+2018-2019
+
+
+Rappels	:	Architecture	Générale
+Base	de	Données
+Navigateur
+Serveur	Web
+Serveur	d’Application
+Front	Office
+Back	Office
+
+
+Rappels	:	Architecture	Générale
+Navigateur
+Serveur	Web	&
+Base	de	Données
+Apache
+Front	Office
+Back	Office
+
+
+Rappels	:	Serveur	Web
+•  Communications	entre	«	navigateur	web	»	et
+«	serveur	web	»	se	font	avec	protocole	HTTP
+GET	page.htm
+<html>
+http://monsite.fr/page.htm
+Coucou
+(GET	page.htm)
+</html>
+Coucou
+page.htm
+Navigateur
+Serveur	Web
+Protocole	pour
+transmettre	les
+Apache
+informations	:
+HTTP
+Rappels	:	Serveur	Web
+•  Communications	entre	client	et	serveur	se
+font	avec	les	méthodes	GET	et	POST
+•  GET	:	passage	d’informations	par	l’URL,	donc par	la	requête	el e-même
+•  POST	:	passage	d’information	par	le	contenu
+de	la	requête
+Rappels	:	Serveur	Web
+•  Une	requête	envoyée	=	une	réponse	reçue
+•  Réponses	HTTP	de	5	types	(officiels)	:
+– 1xx	:	informationnel e
+– 2xx	:	succès
+– 3xx	:	redirection
+– 4xx	:	erreur	côté	client
+– 5xx	:	erreur	côté	serveur
+–  [autres	erreurs	sont	liées	au	serveur	web	utilisé]
+Rappels	:	Serveur	Web
+•  Header	HTTP	permet	de	déclarer	le	type	de
+données	transmises
+–  Content-Type:	text/html
+–  Content-Type:	application/pdf
+–  Content-Type:	application/octet-stream
+–  Content-Type:	video/mp4
+•  Le	navigateur	web	a	des	paramètres
+personnalisables	pour	choisir	un	programme
+externe	(ou	pas)	selon	le	type	de	données
+
+
+Rappels	:	PHP
+•  PHP	est	une	extension	à	côté	de	Apache
+<html>
+–  Apache	configuré	pour	appeler	PHP	lorsqu’il
+<?php
+voit	passer	une	requête	terminant	par	«	.php	»
+echo	"B";
+?>
+–  PHP	traite	le	fichier	en	question,	et	produit
+</html>
+une	réponse	renvoyée	par	Apache
+page.php
+GET	page.php
+GET	page.php
+B
+<html>
+Navigateur
+Serveur	Web
+<html>
+B
+B
+</html>
+</html>
+Apache
+page.php
+page.php
+Rappels	:	PHP
+•  Langage	faiblement	typé
+– Beaucoup	plus	flexible…
+– …mais	possibilité	de	faire	n’importe	quoi
+•  Langage	interprété
+– CLI	disponible	pour	scripts
+•  Usage	dans	ce	cours	:	extension	apache
+SGBD	&	BDD
+•  SGBD	:	Système	de	Gestion	de	Base	de	Données
+[DBMS	:	DataBase	Management	System]
+•  BDD	:	Base	de	Données
+[DB	:	DataBase]
+
+
+SGBD	&	BDD
+Personne
+Cours
+•  BDD	:	les	données
+ID	 Nom
+Prenom
+organisées	dans	un
+1	 Jaffal
+Ali
+conteneur
+2	 Boissier	 Fabrice
+Table	:	Personne
+•  SGBD	:	le	système	ou	le
+SELECT	*	FROM
+Personne
+logiciel	qui	gère	les	bases
+de	données
+1:Jaffal:Ali	;
+2:Boissier:Fabrice	;
+SGBD	&	BDD
+•	Qu’est	ce	qu’un	SGBD	?
+
+«	C’est	un	logiciel	système	destiné	à	stocker	et	à	partager des	informations	dans	une	base	de	données,	en	garantissant la	qualité,	la	pérennité	et	la	confidentialité	des	informations, tout	en	cachant	la	complexité	des	opérations.»	 WIKIPEDIA
+
+Parmi	les	logiciels	les	plus	connus,	on	trouve	:
+MySQL, PostgreSQL,	SQLite,	Oracle	et	MariaDB.
+
+
+Pour	une	liste	détail ée	des	SGBD,	consulter	ce	lien http://fadace.developpez.com/sgbdcmp/#LI
+
+
+SGBD	&	BDD
+•  «	Avant	»	:	on	organisait	soi-même	un	disque ou	un	fichier,	et	on	codait	un	bout	de
+programme	spécifique	pour	naviguer	dedans
+(et	effectuer	des	lectures/écritures)
+BDD
+(Search	for	«	handle	»	description)
+Get	/car/door/handle/description
+[Seek	Disc	1,	Track	4,	Block	2
+&	Extract	2	blocks]
+Application
+
+
+SGBD	&	BDD
+•  Aujourd’hui	:	usage	d’un	pilote	logiciel
+effectuant	les	transactions	avec	le	SGBD
+– API,	bibliothèque,	…	extension	permettant	de
+mettre	du	SQL	dans	un	langage	de	programmation, et	de	récupérer	un	tableau	réponse
+SELECT	*	FROM
+Personne
+Connecteur
+1:Jaffal:Ali	;
+Serveur	Web
+SGBD
+(API,	extension,	…)	 2:Boissier:Fabrice	;
+
+
+PHP	&	SGBD	:	Connecteurs
+$sql	=	"SELECT	*	FROM	Personne";
+$res	=	mysqli->query($sql);
+$line	=	$res->fetch_object();
+echo	$line->nom;
+
+page.php
+SELECT	*	FROM
+GET	page.php
+MySQLi
+Personne
+Jaffal
+Jaffal
+1:Jaffal:Ali	;
+Navigateur
+Base	de	Données
+Serveur	Web
+2:Boissier:Fabrice	;
+PHP	&	SGBD	:	Connecteurs
+•  Plusieurs	extensions	à	PHP	existent	pour
+interroger	des	SGBD	:
+– MySQL	:	 obsolète	–	ne	pas	l’utiliser	!
+
+
+	(attention	:	anciens	tutos	l’utilisent)
+– MySQLi	:	MySQL	«	improved	»
+
+mise	à	jour	de	l’extension	MySQL
+– PDO	:	PHP	Data	Object
+
+pilote	générique	multi-SGBD
+•  (Hors	PHP	:	ODBC	(middleware),	connecteur	quasi-universel)
+–  Open	DataBase	Connectivity
+
+MySQL	avec	PHP
+Manipulation	des	bases	de	données	MySQL	se	fait	soit	via
+une	interface	graphique	comme	‘PhpMyAdmin’	soit	en
+exécutant	un	script	PHP.
+
+1.	PhpMyAdmin
+•	Un	programme	permettant	d'avoir	une	vue	rapide	de l’ensemble	des	données.
+
+•	C’est	un	des	outils	les	plus	connus	permettant	de manipuler	une	base	de	données	MySQL.
+
+•	PhpMyAdmin	est	livré	avec	WAMP,	et	presque	tous	les hébergeurs	permettent	d'utiliser	phpMyAdmin.
+
+(chemin	d’accès:	 http://localhost:8888/phpMyAdmin)
+MySQL	avec	PHP
+2.	Script	PHP
+
+•  Etapes	pour	utiliser	une	base	des	données 1)  Connexion	au	serveur	MySQL
+2)  Envoi	des	requêtes	SQL	(select,	insert	into…) 3)  Récupération	des	résultats
+4)  Fermeture	de	la	connexion
+
+
+MySQLi
+•  Connexion	à	un	serveur	MySQL	à	travers	mysqli
+–  Toute	la	communication	avec	la	BdD	passe	par	un	objet	de	la classe	«	mysqli	»
+–  La	connexion	s’effectue	à	la	création	de	cet	objet	(new) $idcon	=	new	mysqli	(	$ host,	$user,	$mdp, $bdd	);
+
+obj
+nom	du	serveur
+base	de	données
+et	identifiant
+de	la	connexion
+mot	de	passe
+
+utilisateur	autorisé	à	accéder	à	la	base
+
+•  Toute	connexion	ouverte	doit	être	fermée
+	$bool	=	$idcon->close	()	;
+on	demande	à	l’objet
+
+mysqli	de	fermer	la
+connexion
+
+
+MySQLi
+<?php
+$host	=	"localhost";
+	 	 	 $user	=	"root";
+Astuce	:	 placer	ces	informations	dans	un	fichier 						$mdp	=	"root";
+et		faire	require	(ou	include)	"fichier"
+						$bdd	=	"clientsBD";
+
+Création	de	l’objet
+$mysqli	=	new	mysqli	( $host,	$user,	$mdp,	$bdd	)	; connexion
+
+						if		(	$mysqli->connect_errno	)	{
+L’attribut	connect_errno
+die	("<p>	Impossible	de	connecter	à	$bdd	:	"
+de	indique	si	la	connexion
+. $mysqli->connect_error	.	"	</p>"	)	; a	bien	été	établie
+}
+else	{
+En	cas	de	problème,
+echo	"<p>	Connecté	au	serveur	$host, on	arrête	avec	la
+à	la	base	$bdd	</p>";
+fonction	die.
+
+$mysqli->close();
+}
+Fermeture	de	la	connexion
+?>
+
+
+MySQLi
+•  Envoie	de	requêtes	à	une	base	de	données
+$result	=	$mysqli->query	($sql)	;
+Résultat	de	la	requête
+exécution	de	la	requête
+Requête	SQL	à
+sur	l’objet	connexion
+exécuter
+– Requête	SQL	:
+•  S’il	s’agit	d’un	SELECT,	le	résultat	correspond	aux données	fournies	par	la	requête	(objet	mysqli_result)
+•  Sinon	(INSERT,	UPDATE,	DELETE…),	le	résultat	sera TRUE	si	la	requête	est	bien	exécutée, FALSE	sinon
+
+
+<form	name="formNouveauClient"
+	 	 	 	 	 	 action="coursPHP-18.php"
+												method="POST">
+.	.	.
+
+<input	type="text"	name="nom"	 .	.	.	/>
+.		.		.
+
+<input	type="text"	name="email"	.	.	.	/>
+.	.	.
+
+<input	type="submit"	value="Envoyer"	/>
+</form>
+22
+
+
+coursPHP-18.php
+<?php
+if	(	!	empty($_POST["nom"])	AND	!	empty( P
+$_PHP
+OST["e	mail"])	)	{
+require	"connexion.php";
+				$mysqli	=	connexion()	;
+connexion.php
+
+<?php
+$nom	=	$_POST["nom"];
+			function	connexion()	{
+$email	=	$_POST["email"];
+$host	=	"localhost";
+$adr	=	$_POST["adresse"];
+$user	=	"uml";
+$id	=	'\N';	 /*	auto-increment	*/
+$mdp	=	"uml";
+
+$bdd	=	"clientsBD";
+			$sql	=	"INSERT	INTO	client	(id,	nom,	email,	adresse) 	 	 	 	 	 	 	 	 	 	 VALUES	(	'$id',	'$nom',	'$email',	'$adr')	"; 	$mysqli	=	new	mysqli	( $host,
+
+																										$user,	$mdp,	$bdd)	; 					$result	=		$mysqli->query	($sql)	;
+
+
+	if		(	$mysqli->connect_errno	)	{
+	if	(	!	$result	)	{			echo	"<p>Désolée,	…	</p>";	 	 	 }
+die	("<p>	Impossible	…"
+else	{
+.	$mysqli->connect_error	. "	</p>"	)	; echo	"<p>	Vous	êtes	le	client	numéro	<i>	"
+}
+	.	$mysqli->insert_id		. "</i></p>"; return	$mysqli	;
+}
+}	?>
+					$mysqli->close()	;
+}
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+…	?>
+UFR06	Gestion
+
+
+MySQLi
+•  Récupération	des	données
+$result	=	$mysqli->query	("SELECT	 *	FROM	table")	;
+– Les	requêtes	SELECT	fournissent	des	données
+– On	récupère	le	résultat	(ligne	à	ligne)	à	l’aide	des opérations	fetch_*
+– Chaque	appel	à	fetch_*	retourne	la	prochaine	ligne
+•  Ligne	dans	un	tableau	à	indice	:	$result->fetch_row	()	;
+•  Ligne	dans	un	tableau	associatif	 :	$result->fetch_assoc	()	;
+•  Ligne	dans	un	objet	:	$result->fetch_object	()	;
+
+
+connexion.php
+	<?php
+coursPHP-19.php
+<?php
+			function	connexion()	{
+				require	"connexion.php"	;
+.	.	.
+
+				$mysqli	=	connexion();
+	$mysqli	=	new	mysqli	( $host,
+
+																						$user,	$mdp,	$bdd)	; 				$sql	=	"SELECT	id,	nom,	email,	adresse
+						.	.	.
+
+return	$mysqli	;
+	 	 	 	 	 	 	 	 	 FROM	 client	ORDER	BY	 nom	"	;
+}	?>
+	 	$result	=	$mysqli->query	($sql)	;
+
+On	exécute	la	requête	avec
+				if	(	!	$result	)	{	echo	"<p>	Desolée	…	</p>"	;	}
+l’opération	$mysqli->query
+	else	{			.	.	.
+
+while	(	$ligne	=	$result->fetch_object()	)	{		 L’opération	$result->fetch_object
+.	.	.
+
+récupère	la	prochaine	ligne,
+echo	"<td>"	. $ligne->id	.	"</td>"; FAUX	s’il	n’y	reste	plus	de	lignes.
+
+echo	"<td>"	. $ligne->nom	.	"</td>"; echo	"<td>"	. $ligne->email	.	"</td>"; Chaque	attribut	de	la	requête
+echo	"<td>"	. $ligne->adresse	.	"</td>"; devient	un	attribut	de	l’objet
+.	.	.
+
+$ligne
+}	.	.	.
+
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+}	?>
+UFR06	Gestion
+25
+
+
+MySQLi
+La	même	requête	avec	récupération	des	informations
+•  …	par	tableau	à	indice
+•  …	par	tableau	associatif
+.	.	.
+
+.	.	.
+
+		$sql	=	"SELECT	id,	nom,	email,	adresse 		$sql	=	"SELECT	id,	nom,	email,	adresse 	 	 	 	 	 	 	 	 	 FROM	 client	ORDER	BY	 nom	"	; 	 	 	 	 	 	 	 	 	 FROM	 client	ORDER	BY	 nom	"	;
+
+
+	 $result	=	$mysqli->query	($sql)	;
+	 $result	=	$mysqli->query	($sql)	;
+.	.	.
+
+.	.	.
+
+while	(	$ligne	=	$result->fetch_row()	)	{		 					while	(	$ligne	=	$result->fetch_assoc	()	)	{
+.	.	.
+
+.	.	.
+
+echo	"<td>"	. $ligne[0]	.	"</td>"; echo	"<td>"	. $ligne['id']	. "</td>"; echo	"<td>"	. $ligne[1]	.	"</td>"; echo	"<td>"	. $ligne['nom']	. "</td>"; echo	"<td>"	. $ligne[2]	.	"</td>"; echo	"<td>"	. $ligne['email']	.	"</td>"; echo	"<td>"	. $ligne[3]	. 	"</td>"; echo	"<td>"	. $ligne['adresse']	."<td>";
+.	.	.
+
+.	.	.
+
+}	.	.	.
+
+}	.	.	.
+
+ça	commence	toujours	par	0
+chaque	attribut	est
+accessible	par	son
+26
+nom
+MySQLi
+•  Autres	informations	peuvent	être	récupérées	d’un	objet mysqli_result	(	$result	=	$mysqli->query	(…)		)
+– Combien	de	lignes	et	colonnes	on	peut	récupérer
+•  $nblignes	=	$result->num_rows	;
+•  $nbcol	=	$result->field_count	;
+– Les	noms	des	colonnes	(attributs)	dans	le	résultat
+•  $colonnes	=	$result->fetch_fields()	;
+
+
+MySQLi
+.	.	.
+
+A	partir	de	l’objet	$result,	on	peut
+		$sql	=	" SELECT	id,	nom,	email,	adresse récupérer	le	nombre	de	lignes
+	 	 	 	 	 	 	 	 	 FROM	client	ORDER	BY	nom	"	; (attribut	num_rows)	et	de	colonnes
+	 $result	=	$mysqli->query	($sql)	;
+par	ligne	(attribut	field_count).
+
+.	.	.
+
+echo	"<p>	Nous	avons	" .	$result->num_rows	. "	clients.	</p>"; echo	"<p>	Il	y	a	"	. $result->field_count	.	"	attributs	par	client.	</p>	"	;
+.	.	.
+
+.	.	.
+
+On	peut	aussi	récupérer	les
+		$titres	=	$result->fetch_fields()	;
+colonnes.	Chaque	colonne	est	un	 			foreach	($titres	as	$colonne)	{
+objet	et	l’attribut	name	donne	 								echo	"<th>	"	.	$colonne->name	.	"	</th>"	; son	nom.
+
+				}
+				while	(	$ligne	=	$result->fetch_object()	)	{
+La	ligne	aussi	est	un	objet	dont	les	 								echo	"<tr>"	; attributs	correspondent	aux
+foreach	(	$ligne	as	$colonne=>$val	)	{
+colonnes.	On	peut	utiliser	un
+echo	"<td>	" .	$val	. "	</td>"	; foreach	pour	accéder	à	la	valeur	 								}
+echo	"</tr>"	;
+des	attributs.
+
+28
+		}	.	.	.
+
+MySQLi
+$mysql	=	new	mysqli	(	$host,	$user,	$mdp,	$bdd	);
+
+$mysql->connect_errno();
+
+$sql	=	"INSERT	INTO	client	(id,	nom,	email,	adresse) 	VALUES	(	'$id',	'$nom',	'$email',	'$adr')	";
+
+$result	=		$mysql->query($sql)	;
+
+while	(	$ligne	=	$result->fetch_object()	)
+{
+						$ligne->id;	 	$ligne->nom;
+}
+
+$mysql->close();
+MySQLi
+•  Pour	debugger	:	(sauf	en	production)
+/*	Test	d’erreur	a	la	connexion	*/
+$mysqli	=	new	mysqli("localhost",	"nobody",	""); if	(mysqli_connect_errno())	{
+printf("La	connexion	a	échoué	:	%s\n",	mysqli_connect_error()); exit();
+}		 /*	Test	d’erreur	lors	de	la	requête	*/
+if	(!$mysqli->query("SET	a=1"))	{
+print_r($mysqli->error_list);
+}
+PDO
+•  PDO	:	PHP	Data	Object
+•  Pilote	générique	multi-SGBD
+– MySQL,	PostGreSQL,	Oracle,	DB2,	SQL	Server,	…
+•  Similaire	à	MySQLi
+– Quelques	variations	dans	la	syntaxe…
+– …et	dans	le	comportement
+PDO	:	Connexion
+•  Connexion	se	fait	avec	une	«	connection	string	»
+contenant	les	informations	de	la	BDD	:
+–  Host	:	Localhost	(ou	127.0.0.1)
+–  Port	:	9306
+
+$connexion	=	new	PDO(
+"mysql:host=mon_serveur;port=mon_port;dbname=ma_bdd",
+"mon_login",
+"mon_pass");
+PDO	:	Ecriture	/	EXEC
+•  Requête	d’écriture	:	INSERT,	UPDATE,	DELETE
+–  Se	fait	avec	méthode	PDO::exec()
+–  PAS	AVEC	QUERY	!
+
+–  Renvoie	le	nombre	de	modifications	effectuées	(integer) $requete	=	"DELETE	FROM	ma_table
+
+WHERE	mon_champ	=	ma_valeur";
+$compteur	=	$connexion->exec($requete);
+PDO	:	Lecture	/	QUERY
+•  Requête	de	lecture	:	SELECT
+–  Se	fait	avec	méthode	PDO::query()
+–  PAS	AVEC	EXEC	!
+
+–  Renvoie	les	résultats	(PDOStatement)
+$requete	=	"SELECT	*	FROM	ma_table
+
+WHERE	mon_champ	=	ma_valeur";
+$resultats	=	$connexion->query($requete);
+PDO	:	Résultats	/	FETCH
+•  Lecture	de	la	réponse	d’une	requête	de	lecture	:	fetch
+•  fetch()	:	renvoie	la	ligne	suivante	des	résultats
+•  fetchObject()	:	renvoie	la	ligne	suivante	en	tant	qu’objet
+•  fetchAl ()	:	renvoie	un	tableau	de	toutes	les	réponses $ligne	=	$resultats->fetch(PDO::FETCH_ASSOC);	 <-	tableau	associatif $ligne	=	$resultats->fetch(PDO::FETCH_NUM);	 	 <-	tableau	simple $ligne	=	$resultats->fetch(PDO::FETCH_BOTH);	 	<-	les	2	(par	défaut) $ligne	=	$resultats->fetch(PDO::FETCH_OBJ);	 	 	 	<-	objet
+PDO	:	Fermeture	connexion
+•  Avant	de	refaire	une	requête,	il	faut	libérer	le curseur	en	place
+$resultats->closeCursor();
+PDO
+$connexion	=	new	PDO(
+"mysql:host=mon_serveur;port=mon_port;dbname=ma_bdd",
+"mon_login",
+"mon_pass");
+
+$requete	=	"SELECT	*	FROM	ma_table
+	 	 	 	 	 WHERE	mon_champ	=	ma_valeur"; 	$resultats	=	$connexion->query($requete); 	while	(	$ligne	=	$resultats->fetch(PDO::FETCH_OBJ)	)
+{
+	$ligne->id;	 	$ligne->nom;
+}		$resultats->closeCursor();
+PDO	:	…or	die()
+•  Pour	débugger	sa	requête,	ne	pas	oublier	de
+demander	à	PHP	d’afficher	l’erreur	s’il	y	en	a	!
+
+–  Sauf	en	production	!	Une	fois	le	site	en	ligne,	il	ne	faut jamais	afficher	les	erreurs…
+–  Risque	qu’un	pirate	récupère	les	informations	de	debug $resultats	=	$connexion->query($requete);
+if	(!$resultats)
+{					print_r($connexion-	>errorInfo());
+}
+Programmation	Orienté	Objet	(POO)
+«	Classe	et	Objet	»
+•  Une	classe	permet	la	définition	d’un	nouveau type	de	variable	qui	rassemble	plusieurs
+attributs.
+
+– El e	permet	également	la	définition	de	fonctions manipulant	ces	attributs,	en	POO,	ces	fonctions s’appel ent	des	‘ méthodes’.
+
+•  Un	objet	est	une	instance	d’une	classe.	Un objet	est	alors	assimilé	à	une	variable	et	sa
+classe	au	type	de	cet	objet.
+
+Programmation	Orienté	Objet	(POO)
+«	concepts	de	base	»
+
+La	POO	a	deux	buts	:
+
+•  Faciliter	la	réutilisation	du	code	déjà	écrit grâce	à	l'héritage
+•  Encapsulation	des	données	et	les	traitements correspondants
+Programmation	Orienté	Objet	(POO)
+«	concepts	de	base	»
+•  Faciliter	la	réutilisation	du	code	déjà	écrit	grâce	à	l'héritage	:
+–  L’héritage	permet,	à	partir	d'une	classe	déjà	existante,	d'en	créer une	nouvel e	qui	reprendra	ses	caractéristiques	et	de	les	adapter aux	besoins	sans	modifier	la	classe	de	base.
+
+–  Il	est	possible	alors	de	redéfinir	une	méthode	dans	des	classes héritant	d'une	classe	de	base	sauf	si	cette	méthode	a	été	définie comme	 final.	L’appel	de	la	méthode	d'un	objet	est	possible	sans	se soucier	de	son	type	intrinsèque	:	il	s'agit	du	polymorphisme.
+
+•  Le	polymorphisme	traite	de	la	capacité	de	l'objet	à	posséder plusieurs	formes.
+
+ex	:		 ma_fonction(int	i)							ma_fonction(string	str)
+Programmation	Orienté	Objet	(POO)
+«	concepts	de	base	»
+•  Encapsulation	des	données	et	les	traitements correspondants.
+
+– L’encapsulation	permet	de	regrouper	un
+ensemble	d’attributs	avec	un	ensemble	de
+méthodes	en	une	classe	permettant	de	les
+manipuler.
+
+
+
+PHP	orienté	objets
+•  PHP	5	est	un	langage	«	orienté	objets	»
+– Manipulation	de	classes	et	d’objets
+Définition	de	classe
+Visibilité	:
+<?php
+				class	Personne
+private	 $nom	 	class	Personne	{
+					private	$nom;
+Définition	d’un	attribut
+
+public	function	 setNom	(	$nouvNom	) Opération	:
+{		$this->nom	=	$nouvNom; }
+
+public	function 	…
+Accès	à	un	attribut
+public	function	 getNom	()	{
+			$this->attribut
+										return	$this->nom;
+}
+}
+Retourner	une	valeur
+				return	valeur	;
+POO	en	PHP
+«	Visibilité	d'un	attribut	ou	d'une	méthode	»
+•  «	public	»	:	si	un	attribut	ou	une	méthode	est public,	alors	on	pourra	y	avoir	accès	depuis n'importe	où.
+
+•  «	private	»:	impose	quelques	restrictions.	L’accès aux	attributs	et	méthodes	est	seulement	possible depuis	l'intérieur	de	la	classe.
+
+–  Ne	mettez	jamais	le	constructeur	avec	le	type	de visibilité	 private	sinon,	el e	ne	pourra	jamais	être appelée,	vous	ne	pourrez	donc	pas	instancier	votre classe
+•  «	protected	»	a	le	même	effet	que	 private,	à l’exception	que	toutes	les	classes	fil es	auront accès	aux	attributs	protégés.
+
+
+
+PHP	orienté	objets
+•  Classes	&	Objets
+– Création	d’un	objet	:	$obj	=	new	classe()	;
+…
+Création	d’un	objet
+<?php
+$toto	=	new	Personne	()
+			$toto	=	new	Personne();
+
+Accès	aux	opérations
+				$toto->setNom("Toto");
+
+publiques
+echo	"<p>	…	 " .		$toto->getNom()		. 	"</p>"; $toto->setNom("Toto")
+
+$toto	->	getNom	()
+	$toto->nom	=	"blablabla";
+				 echo	"	<p>	" 	.	$toto->nom		.	"	</p>	";
+?>
+Impossible	d’accéder	aux
+attributs	privés
+
+
+PHP	orienté	objets
+<html>	<head>	…
+<?php
+												class	Personne	{
+
+	private	$nom;
+.	.	.
+
+
+
+}	//fin	classe	Personne
+?>
+</head>
+<body>	…
+<?php
+	$toto	=	new	Personne();
+$toto->setNom("Toto");
+echo	"<p>	Objet	<i>Personne</i>	:	 "	 .	$toto->getNom()	.	"</p>	";
+.	.	.
+
+echo	"	<p>	"	.	$toto->nom	 .	"	</p>	"; Erreur	car	l’attribut
+?>
+«	nom	»	est	privé	!!
+
+</body>	</htlml>
+
+
+PHP	orienté	objets
+•  Classes	&	objets	:
+–  Héritage	:		class	 SousClasse	extends	 SuperClasse class	 Employe	extends	 Personne	{
+					private	$salaire	 =	1000; La	classe	 Employe	hérite	de	la classe	 Personne
+					public	function	 augmentation	 ($perc)	{
+class	Employe	extends	Personne
+if	($perc	>	0)	 	 {
+$this->salaire	=		$this->salaire
+$this->salaire*$perc;
+On	rajoute	un	nouvel	attribut
+}
+private	$salaire
+}
+Et	des	nouvel es	opérations
+					public	function	getSalaire()
+public	function	 augmentation
+{					return	$this->salaire; }
+public	function	 getSalaire
+}
+Fichier	Employe.php
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+On	importe	la	définition	des	classes
+<?php
+Employe	et	Personne
+				include	"Employe.php"	;
+
+Toto	est	un	Employé,	il	est	donc
+				$toto	=	new	Employe();
+une	Personne
+
+	$toto->setNom("Toto");
+Toto	possède	un	salaire	(Employe), 				$toto->augmentation(0.10);
+mais	aussi	un	nom	(Personne)
+
+echo	"<i>	nom	</i>	:	" .	$toto->getNom()	; echo	"	<i>	salaire	</i>	:	" .	$toto->getSalaire()	. "	€	</p>";
+?>
+La	classe	Employe	hérite	tous	les
+attributs	et	opérations	de	Personne
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+<html>		<head>	.	.	.	</head>
+<body>	<h1>Objets	en	PHP</h1>
+<?php
+include	"Employe.php"	;
+
+$toto	=	new	Employe();
+
+$toto->setNom("Toto");
+$toto->augmentation(0.10);
+
+echo	"<p>Objet	Employe	:	</p>	<ul>"	; 	 	 echo	"<li>	<i>	nom	</i>	:	".	$toto->getNom()	.	"</li>"; 	 	 echo	"<li>	<i>	salaire	</i>	:	"	.	$toto->getSalaire()	.	"	€	</li>"; echo	"</ul>"	;
+?>
+</body>	</html>
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+– Méthode	constructeur	:	__construct
+– Redéfinition	d’une	opération
+class	Manager	extends	Employe	{
+private	$bonus	;
+function	__construct	($bon)
+Le	constructeur	est	appelé	chaque
+	 	 	 	 {	 	$this->bonus	=	$bon;	 	 }
+fois	qu’un	objet	est	créé	(new)
+
+						public	function	getSalaire()		 {
+return	parent::getSalaire() 	$this->bonus;
+}
+public	function	setBonus	($nouvBon)	{		…	}	 Redéfinition	de	l’opération	getSalaire public	function	getBonus	()			{	…	}
+parent::getSalaire		correspond	à
+}
+l’opération	getSalaire	définie	par	la
+super-classe	(Employe)	 50
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+Appel	au	constructeur	:
+<?php
+			function	__construct	($bon)
+				require	"Manager.php"	;
+	 	 	 	 {	 	$this->bonus	=	$bon;	 	 }
+
+$toto	=	new	Manager(400);
+
+Appel	à	l’opération	getSalaire
+$toto->setNom("Toto");
+de	la	classe	Manager
+$toto->augmentation(0.10);
+
+echo	"<p><i>Manager</i>	:	".	$toto->getNom()
+.	",	salaire		" .	$toto->getSalaire()	.	" €		"
+.	",	bonus	"	. $toto->getBonus()	. 	"</p>";
+?>
+POO	en	PHP
+«	l’opérateur	::	»
+L'opérateur	de	résolution	de	portée	«	::	»	(double	deux points)	fournit	un	moyen	d'accéder	aux	membres
+statiques	ou	constantes,	ainsi	qu'aux	attributs	ou méthodes	surchargées	d'une	classe.
+
+•  Le	mot	clé«	self::	»	est	utilisé	pour	accéder	aux méthodes	et	attributs	statiques	depuis	la	classe
+•  Le	mot	clé	«	parent::	»	est	utilisé	pour	accéder	aux propriétés	ou	aux	méthodes	surchargées	ou
+constantes	d’une	classe	depuis	la	classe	fil e
+•  Pour	référencer	ces	éléments	en	dehors	de	la	classe, utilisez	plutôt	le	nom	de	la	classe	«	nomClasse::	»
+PHP	:	Sessions
+•  Mécanisme	de	sessions
+–  Chaque	visite	à	un	site	/	page	est	indépendante
+–  Les	sessions	permettent	de	conserver	les	informations	des visiteurs	entre	les	pages
+–  Les	informations	sur	les	sessions	sont	stockées	sur	le serveur
+•  Fonctionnement	général
+1)  Ouverture	de	session	:	session_start()
+•
+Chaque	utilisateur	reçoit	un	identifiant	transmis	entre	les	pages 2)  Définition	des	variables	de	sessions	(données)
+•
+Les	variables	de	session	sont	transmises	de	page	à	page
+•
+$_SESSION["variable"]	=	valeur	;
+3)  Fermeture	de	session	:	session_destroy()
+
+
+PHP	:	Sessions
+Login	&	mdp
+différents	de	uml
+Login	&	mdp	corrects
+(uml	/uml	)
+< form	name="…"
+action="coursPHP-23.php"
+method="POST" >
+<label	>Login	:	</label>
+<input	type="text"	name="login"	maxlength="15"	/> 	<br/>
+<label	>Mot	de	passe	:	</label>
+	 	 	<input	type="password"	name="mdp"	maxlength="15"	/>
+<br/>
+	 	 	<input	type="submit"	value="OK"	/>
+</form>
+
+
+PHP	:	Sessions
+<?php			session_start();	 ?>
+Ouverture	d’une	session
+<html>
+(au	début	de	chaque	page)
+<head>	…	</head>
+<body>
+<?php
+.	.	.
+
+$login	=	$_POST["login"]	;
+Définition	des	variables	de	session
+										$mdp	=	$_POST["mdp"];
+$_SESSION["var"]
+
+if	(	$login	==	"uml"	AND	$mdp	==	"uml" )	{
+	 $_SESSION["login"]	=	$login	;
+…
+echo	"<h1>Bienvenue,	cher	$login	</h1>"	; Les	variables	de
+}
+session	contiennent
+else	{			echo	"<h1>Desolé	!	</h1>"; les	informations	qui
+echo	"<p>	Page	accessible	uniquement	aux	membres.	</p>"; passeront	de	page	en
+}
+page.
+
+?>
+</body>	</html>
+
+
+PHP	:	Sessions
+<?php	session_start();	?>
+<html>		<head>…	 </head>
+<body>
+<?php
+if		(	isset(	$_SESSION["login"]	)	 AND	 !	empty(	$_SESSION["login"]	)	)	{
+$login	=		$_SESSION["login"]	;
+…
+Usage	des	variables	de	session
+echo	"<p>Client	<b>	$login	</b>	:	 Ceci	est	une	page	pour $ 	le
+_Ss	Eab
+SSoIn
+Oné
+N[s	" </
+v p
+ar>"
+"] 	;
+}
+else	{						echo	"<h1>Desolé	!	</h1>"; echo	"<p>	Il	s'agit	d'une	page	privée	!!	Il	faut	être	membre.	</p>";
+}
+?>
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+…
+UFR06	Gestion
+
+
+PHP	:	Sessions
+<?php	session_start();	?>
+<html>		<head>…	 </head>
+<body>
+<?php
+if		(	isset(	$_SESSION["login"]	)	 AND	 !	empty(	$_SESSION["login"]	)	)	{
+…
+	unset($_SESSION["login"]);
+Fermeture	de	la	session
+											session_destroy();
+session_destroy()
+}
+else	{						echo	"<h1>Desolé	!	</h1>"; echo	"<p>	Pas	de	connexion	active.	</p>"; Ne	pas	oublier	de	vider	les
+}
+?>
+variables	de	session
+Manuele	Kirsch	Pinheiro	-	UP1	/	CRI	/
+…
+unset(	$_SESSION[	"var"	]	)
+UFR06	Gestion
+57
+PHP	:	Fonctions	avancées	(rappel)
+•  isset($var1,	$var2,	…)	:	Détermine	si	une variable	ou	plusieurs	sont	définies	et	sont
+différentes	de	NULL
+
+•  unset($var1,$var2,…)	:	Détruit	les	variables
+
+•  empty($var)	:	Détermine	si	une	variable	est vide
+
+PHP	:	Sessions
+<?php
+
+?>
+1	–	On	demande	une	page
+<html><body>
+web	classique	sans	session
+PageWeb
+au	serveur	web	sur
+</body></html>
+«	localhost	»	port	«	8888	»
+Sans	session,	si	on	demande	une
+page	web,	on	obtient	une	réponse
+classique	:	les	déclarations
+habituel es	du	serveur	web,	et	la
+page	demandée
+2	–	Le	serveur	web	répond
+normalement	avec	le	code
+HTTP	200,	puis	avec
+3	–	Le	serveur	web	envoie
+diverses	valeurs	indiquant
+finalement	la	page	web
+les	plugins	dont	il	dispose
+Statuts	HTTP	:	classiques	(rappel) 200
+OK
+La	requête	a	bien	été	reçue,	comprise,	et	exécutée 301
+308	 Permanent	Redirect	 La	ressource	a	été	définitivement	déplacée	à	une autre	URL
+302
+307	 Temporary	Redirect	 La	ressource	est	temporairement	déplacée	à	une autre	URL
+403
+Forbidden
+La	requête	est	correcte,	mais	le	client	n’a	pas	le droit	de	demander	au	serveur	de	faire	cette	action 404
+Not	Found
+La	ressource	visée	par	l’URL	n’a	pas	été	trouvée 500	 Internal	Server	Error	 Erreur	générique/non	spécifique…	le	serveur	web	a échoué	quelque	chose	à	un	moment
+502
+Bad	Gateway
+Le	serveur	web	visé	n’arrive	pas	à	contacter	le serveur	qui	traite	la	requête	envoyée
+
+PHP	:	Sessions
+<?php
+1	–	On	demande	une	page
+session_start();
+web	contenant	une	session
+?>
+au	serveur	web	sur
+<htm
+Lol><b
+rsq o
+u d
+e	y>
+P Pag
+HP	 e
+d W
+e e
+m b	</
+andbeo	dy
+à	 ></
+cré h
+e tm
+r	ul>
+«	localhost	»	port	«	8888	»
+ne	session,	son	ID	est	transmis	par	le	serveur
+web	au	navigateur.
+
+Côté	serveur	web	&	PHP	:	une	liste	des	sessions	actives	est	stockée	dans	des fichiers	(avec	l’ensemble	des	variables	que	l’on	souhaite	conserver	entre chaque	page	web)
+Côté	client	:	l’ID	de	session	est	renvoyé	pour	pouvoir	«	s’identifier	»…
+ATTENTION	!	L’ID	est	visible	sur	le	réseau	!	Quel 2q	–	u’Lue	ns	edrve	eumr	alw	ienb	rteénpotinodn	avné	ecp	leeu	t copier	cet	ID	et	s’identifier	avec	à	la	place	du	navico g de
+ate HT
+ur	TlP
+é 	2
+gi00
+ti ,	p
+m u
+e is
+… 	.il	envoie	le
+Pour	faire	une	session	«	à	peu	près	»	sécurisée,	il	 n e u
+s m
+t	 é
+n r
+é oc	d
+e e
+s 	sse
+ai srseio
+n
+d 	ePHP
+s’ 	(
+as u
+s n
+u 	rID
+e 	r
+unique).	Cet	ID	sera	renvoyé	par	le
+que	l’on	parle	au	même	navigateur	(en	vérifier	l’IP	du	client,	par	exemple).
+
+navigateur	avec	chaque	requête
+Nous	ne	v3	e–
+rrLe
+o 	nse
+s	 rv
+p eu
+as	rl	’weenbs	e
+e nv
+m o
+bliee		des	bonnes	pratiques	dans	ce	cours.
+
+pour	identifier	le	client	côté	serveur
+finalement	la	page	web
+
+
+PHP	:	Sessions
+•  Mécanisme	de	sessions
+–  Base	pour	la	gestion	de	panier	dans	les	sites	de	e-commerce
+–  Les	produits	choisis	par	le	client	sont	enregistrés	en	tant	que variables	de	session
+–  On	peut	y	garder	des	objets	SIMPLES
+class	LigneProduit	{
+public	$nom	;
+public	$qte	;
+Contenu	du	panier	est	gardé
+
+dans	les	variables	de	session.
+
+/*	constructeur	*/
+Tableau	contenant	des	objets
+					function	__construct(	$nom	)	{
+LigneProduit.
+
+$this->nom	=	$nom;
+Chaque	$_SESSION[$produit]
+$this->qte	=	1;
+contient	un	objet.
+
+}
+}
+
+
+PHP	:	Sessions
+Chaque	produit	choisi	est	identifié
+function	ajouterProduit($produit)	{
+par	un	«	id	»	(ici	le	nom).
+
+$qte	=	0;
+$_SESSION[$produit]
+
+va	contenir	un	objet	LigneProduit
+if	(	!	isset	(	$_SESSION[$produit]	)	 )	{
+	 	 	 	 	 $_SESSION[$produit]	=	new	LigneProduit($produit); $qte	=	$_SESSION[$produit]->qte
+}
+S’il	n’y	a	aucun
+
+$_SESSION[$produit]	,
+				else	{	//	produit	déjà	là,	augmenter	alors	sa	quantité	 on	va	créer	un	nouveau	objet 	 	 	 	 	 $objet	=	$_SESSION[$produit]	;
+LigneProduit
+										$objet->qte	=	$objet->qte 	1; $qte	=	$objet->qte	;
+S’il	y	a	déjà	un
+}
+$_SESSION[$produit]	,
+return	$qte;
+on	va	juste	augmenter	la	valeur	de
+}
+l’attribut	«	qte	»	dans	l’objet
+LigneProduit
+
+
+PHP	:	Sessions
+Lorsqu’on	veut	supprimer	un
+function	supprimerProduit($produit)	{
+produit,	on	va	réduire	sa	quantité
+				$qte	=	0	;
+dans	l’objet	LigneProduit
+
+				if	(	isset(	$_SESSION[$produit]	)	)	{
+On	récupère	l’objet
+	 	 	 	 	 $objet	=	$_SESSION[$produit]	;
+LigneProduit	gardé	dans
+$objet->qte	=	$objet->qte	-	1;
+$_SESSION[$produit]
+$qte	=	$objet->qte;
+
+On	réduit	sa	quantité	d’une	unité
+	if	(	$qte	<=	0)	{	//on	supprime	le	produit 													unset($_SESSION[$produit]);
+}
+}
+S’il	n’en	reste	plus	(la	quantité	a
+
+atteint	0	unités),	on	supprime	le return	$qte;
+produit	de	la	session
+}
+
+
+PHP	:	Sessions
+On	peut	récupérer	le	contenu	du
+panier	en	récupérant	le	contenu
+de	la	variable	de	session
+$_SESSION
+Pour	chaque	objet
+LigneProduit	gardé	dans
+	function	afficherPanier()	{
+$_SESSION
+						echo	"<table>"	;
+						foreach($_SESSION	as	$objet)	{
+echo	"<tr><td>	" .	$objet->nom	. "	</td>	<td>	"
+. $objet->qte	.	"	</td>	</tr>	";
+}
+echo	"</table>"	;
+}
+
+
+PHP	:	Sessions
+Cookies
+•  Un	cookie	est	un	mécanisme	pour	stocker	des
+informations	sur	les	visiteurs	afin	de	les
+identifier	plus	tard
+•  Contrairement	aux	variables	de	session,	les
+cookies	sont	des	petits	fichiers	stockés	sur
+l’ordinateur	de	l’utilisateur	pour	une	durée	de vie	que	nous	pouvons	définir
+PHP	:	Cookies
+•  Les	cookies	sont	accessibles	via	la	superglobale	$_COOKIE
+•  La	fonction	 setcookie()	permet	de	définir	un	cookie	qui	sera envoyé	avec	le	reste	des	en-têtes	HTTP
+–  Les	cookies	font	partie	des	en-têtes	HTTP,	ce	qui	impose que	 setcookie()	soit	appelée	avant	tout	affichage	de texte	et	avant	même	<!doctype	>
+–  La	fonction	 setcookie()	peut	prendre	jusqu'à	7
+paramètres	:
+•  Le	premier	est	obligatoire	car	il	définit	le	nom	du	cookie
+•  Le	deuxième	définit	la	valeur	du	cookie
+•  Le	troisième	définit	la	durée	de	vie	du	cookie	en	seconde setcookie('nom',	'nomUtilisateur',	time()+3600*24); echo	$_COOKIE['nom’]; //	affichage	du	cookie
+
+PHP	:	Cookies
+<?php
+session_start();
+1	–	On	demande	une	page	web
+		setcookie('nom',	'nomUtilisateur',	time()+3600*24); contenant	une	session	et	un
+?>
+cookie	avec	une	variable
+Lorsque	PHP	demande	à	créer	des	cookies,	les	valeurs sont	envoyées	par	le	serveur	web	au	navigateur,	pour	que celui-ci	stocke	les	valeurs	localement.
+
+Les	cookies	sont	stockés	sur	votre	disque	dur	!...	Ils	sont donc	renvoyés	à	chaque	demande	de	page	web.
+
+Attention	à	ne	pas	mettre	trop	de	données	:
+2	–	Le	serveur	web	répond	avec	le	code
+- Ne	pas	y	mettre	de	fichiers
+HTTP	200,	puis	il	envoie	le	numéro	de
+session	PHP,	et	la	variable	«	nom	»
+- Ne	pas	y	mettre	d’objets	ou	coco
+n nte
+te nnan
+e t	ula	rvsal	e
+truro	«p	n	ogmrU
+o tisl	is!ate
+ur	»…
+chacun	dans	un	cookie
+(tableaux,	etc…)
+PHP	:	Cookies
+•  La	fonction	 setrawcookie()	est	exactement	la même	que	 setcookie()	exceptée	que	la	valeur du	cookie	ne	sera	pas	automatiquement
+encodée	dans	l’URL	lors	de	l'envoi	au
+navigateur
+
+•  Pour	détruire	un	cookie	:	appeler	 setcookie() avec	une	date	d’expiration	dans	le	passé	:
+setcookie("Nomcookie",	"valeurCookie", time()-3600);
+PHP	:	Cookies
+•	Exemple	de	cookie	sous	forme	de	tableau	:
+
+<?php
+setcookie("cookie[three]",	"cookiethree",	time()+3600*1); setcookie("cookie[two]",	"cookietwo",	time()+3600*1); setcookie("cookie[one]",	"cookieone",	time()+3600*1);
+?>
+<?php	 	 	 	 //	affichage	de	ces	cookies
+if	(isset($_COOKIE['cookie']))	{
+//	exemple	d'appel	du	cookie	:
+echo	'le	cookie	two	est	:'.	$_COOKIE['cookie']['two'].	'	sinon	parcours	avec foreach	comme	suit	:	<br/>';
+foreach	($_COOKIE['cookie']	as	$name	=>	$value)	{
+$name	=	htmlspecialchars($name);
+$value	=	htmlspecialchars($value);
+echo	"$name	:	$value	<br	/>";
+}
+}		?>
+
+<?php
+PHP	:	Cookies
+session_start();
+		setcookie("cookie[three]",	"cookiethree",	time()+3600*1); 		setcookie("cookie[two]",	"cookietwo",	time()+3600*1); 1	–	On	demande	une	page
+		setcookie("cookie[one]",	"cookieone",	time()+3600*1); web	contenant	une	session
+?>
+et	trois	cookies
+Chaque	cookie	est	envoyé	au	navigateur
+2	–	Le	serveur	web	répond	avec	le
+avec	ses	valeurs	et	sa	date	d’expiration…
+code	HTTP	200,	puis	il	envoie	des
+cookies	contenant	les	3	variables	et
+le	numéro	de	session	PHP
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+[Navigateur	fait	une	requête]
+Le	client	a	cliqué	sur	le	lien	vers
+cookies4.php
+Bien	que	cette	page	n’ait	besoin	d’aucune
+valeur	de	cookie	(hormis	la	session),	le
+navigateur	renvoie	TOUT	LE	TEMPS	toutes
+ses	valeurs	stockées	dans	des	cookies	!
+
+(évident	:	le	navigateur	ne	connait	pas	le
+code	PHP	contenu	dans	la	page	web,	donc
+il	renvoie	toutes	les	valeurs	qu’il	est	censé
+conserver)
+
+PHP	:	Cookies
+[Serveur	Web	répond]
+Le	serveur	web	«	détruit	»	la	session...	En
+pratique	cela	signifie	que	les	variables	de
+session	sont	détruites…	mais	pas	cel es	des
+cookies	!
+
+
+PHP	:	Cookies
+[Navigateur	fait	une	requête]
+Le	navigateur	demande	cookies5.php
+La	session	est	détruite	côté	serveur,	mais
+le	navigateur	continue	d’envoyer	l’ID	dont
+il	dispose,	ainsi	que	les	cookies	qu’il	a
+stocké
+
+PHP	:	Cookies
+[Serveur	Web	répond]
+On	force	le	serveur	web	a	écrire	des
+valeurs	de	session	et	de	cookies…
+Seules	les	valeurs	stockées	dans	les	cookies
+seront	affichables…	étant	donné	que	la
+session	est	détruite	!
+
+
+PHP	:	Cookies
+En	effet	:	les	2	variables	stockées	dans	des	cookies	s’affichent,	mais	pas les	autres
+- Nom	reste	vide,	car	la	session	est	détruite,	donc	le	contenu	est	vide
+- Prenom	et	MonRawCookie	s’affichent	car	ils	sont	renvoyés	par	le navigateur	avec	chaque	requête	«	tant	que	»	leur	durée	de	vie	est valable
+
+PHP	:	Cookies
+[Navigateur	fait	une	requête]
+Le	navigateur	demande	la	page
+cookies5.php
+Il	continue	d’envoyer	toutes	les	variables
+«	encore	valables	»	contenues	dans	des
+cookies
+
+PHP	:	Cookies
+[Serveur	Web	répond]
+Le	serveur	web	répond,	mais	il	ne	renvoie
+aucun	ID	de	session	(usage	de	la	valeur
+précédente	encore	possible)
+
+
+Les	données	du	navigateur
+sont	stockées	dans	un	fichier	 PHP	:	Cookies
+Cookie	«	prenom	»,
+contenant	«	Fab	»,
+pour	le	serveur	web
+p1web2019.metalman.eu
+dans	le	dossier	«	test_cookie	»
+avec	divers	timestamps
+Un	exemple	de	fichier	contenant	des
+cookies	du	navigateur	du	client.
+
+Les	valeurs	sont	lisibles	!	Ne	JAMAIS
+stocker	de	mot	de	passe	dans	un	cookie	!
+
+(que	le	contenu	de	la	variable	soit	chiffré
+ou	non	:	le	mot	de	passe	sera	accessible
+sur	l’ordinateur	du	client	!)
+Cookie	«	MonRawCookie	»,
+contenant	«	valeurCookie	»,
+pour	le	serveur	web
+p1web2019.metalman.eu
+dans	le	dossier	«	test_cookie	»
+avec	divers	timestamps
+PHP	:	Sessions	&	Cookies
+•  Session	:	variables	conservées	côté	serveur
+–  session_start();			//	sur	chaque	page	PHP
+–  $_SESSION["ma_variable"]	=	42;	 	//	variables
+–  unset($_SESSION["ma_variable"]);		 //	variables
+–  session_destroy();			//	seulement	en	fin	de	session
+•  Cookies	:	variables	conservées	côté	client
+–  setcookie('nom',	'nomUtilisateur',	time()+3600*24);
+–  echo	$_COOKIE['nom'];
+–  setcookie('nom',	'nomUtilisateur',	time()-3600);
+Transactions	&	BDD
+•  Un	site	de	vente	en	ligne	a	presque	vidé	ses stocks… Il	ne	reste	plus	qu’un	seul	objet	en
+vente	en	un	seul	exemplaire
+•  Que	se	passe-t-il	lorsque	2	utilisateurs
+essayent	d’acheter	en	même	temps	cet
+objet	?
+
+– Impossible	à	déterminer…	En	général,	les	deux utilisateurs	arriveront	à	passer	commande,	et	le vendeur	verra	2	commandes	sur	le	même	objet,
+et	le	stock	passera	en	négatif
+Transactions	&	BDD
+•  Une	transaction	est	un	ensemble	de	requêtes
+visant	à	changer	l’état	d’une	base	de	données
+•  Exemple	:
+1.  On	sélectionne	des	produits	dans	une	BDD
+choix	des	produits
+2.  On	créer	une	nouvel e	ligne	dans	une	table
+création	d’une	nouvel e	réservation	de	produits 3.  On	réduit	des	valeurs	dans	une	autre	table
+réduction	de	la	quantité	de	plusieurs	produits
+
+Les	3	requêtes	sont	exécutées	en	une	seule	transaction
+Transactions	&	BDD
+•  Une	transaction	peut	être	vue	comme	une
+requête	«	métier	»/haut	niveau	:
+- «	réserver	des	produits	dans	un	magasin	»	est	une transaction	qu’un	client	peut	demander
+- En	pratique	il	faut	que	le	client	choisisse	des produits	disponibles,	que	l’on	prépare	une	note liant	le	client	aux	produits,	et	isoler	les	produits pour	les	mettre	de	côté
+Les	requêtes	«	techniques	»/bas	niveau	toutes
+seules	n’ont	que	peu	de	signification,	mais	ensemble el es	servent	un	but	commun	(cf	process	mining…)
+Transactions	&	BDD
+•  Les	transactions	se	terminent	par	un	«	commit	»
+–  Validation	de	la	transaction
+–  Écriture	des	modifications
+•  On	peut	vouloir	annuler	une	transaction	en	cours de	route	ou	après	un	commit.	On	effectue	dans
+ce	cas	un	«	rol back	»
+–  La	transaction	est	annulée,	aucune	modification	n’est apportée	aux	données	dans	la	BDD
+–  Les	anciennes	valeurs	sont	remises	dans	la	BDD
+Transactions	&	BDD
+Le	«	commit	»	est	la	dernière	étape	d’une	transaction	:	c’est	à	ce moment-là	que	le	SGBD	enregistre	les	changements.
+
+Généralement,	les	transactions	sont	effectuées	en	mémoire	RAM,	et lorsque	qu’un	commit	est	effectué,	les	changements	sont	inscrits	sur les	disques	durs.
+
+Si	un	SGBD	crashe,	il	doit	pouvoir	retrouver	son	dernier	état cohérent…
+...ou	alors	il	doit	pouvoir	proposer	de	“rejouer”	l’ensemble	des transactions	effectuées	pour	retrouver	une	base	de	données cohérente	et	à	jour.
+
+
+Les	transactions	(leurs	requêtes	groupées)	sont	enregistrées	dans	les logs	des	SGBD,	permettant	de	rejouer	l’ensemble	des	transactions effectuées.
+
+Transactions	&	BDD
+•  Propriétés	ACID	:
+–  Atomicité
+–  Cohérence
+–  Isolation
+–  Durabilité
+
+«	Un	ensemble	de	propriétés	qui	garantissent	qu'une transaction	informatique	est	exécutée	de	façon
+fiable.	»
+
+
+	Wikipédia	– Propriétés	ACID
+Les	propriétés	ACID	permettent	d’assurer	qu’un
+SGBD	supporte	les	«	transactions	»
+
+Transactions	&	BDD
+•  Atomicité	:
+Une	transaction	est	«	atomique	»	si	el e	s’effectue intégralement	ou	pas	du	tout
+
+(Une	transaction	non-atomique	créerait	une
+réservation	avec	les	produits,	mais	ne	réduirait	pas la	quantité	dans	les	stocks	(par	exemple).
+
+Le	stock	réel	ne	serait	pas	correctement	représenté, ce	qui	entraînerait	des	problèmes)
+Transactions	&	BDD
+•  Cohérence	:
+La	cohérence	assure	que	toutes	les	contraintes	de	la base	de	données	sont	respectées	avant	et	après	les transactions	(l’état	de	la	base	de	donnée	est	valide selon	les	règles)
+
+(Une	transaction	incohérente	permettrait	par
+exemple	de	faire	référence	à	des	objets	qui
+n’existent	plus,	ce	qui	bloquerait	les	jointures)
+Transactions	&	BDD
+•  Isolation	:
+Capacité	de	protéger	les	données	contre	plusieurs modifications	simultanées.	Une	transaction	ne	doit pas	dépendre	des	données	d’une	autre	transaction.
+
+
+(Des	transactions	non-isolées	permettent	de	faire des	modifications	sur	des	valeurs	qui	n’existent	plus ou	qui	ont	été	modifiées	entre	temps)
+Transactions	&	BDD
+•  Exemple	problème	isolation	:	Un	produit	est	en	quantité	9
+une	transaction	A	le	réduit	de	1,	il	devrait	se	retrouver	à	8, mais	une	transaction	B	le	réduit	de	3	entre	temps.
+
+
+•  La	valeur	correcte	devrait	être	3 	1	=	4	 	 =>		 	9	–	4	=	5
+mais	comme	l’ordre	des	écritures	est	importante	: 1) 	A	lit	la	valeur	9
+SELECT	qte	FROM	produits	WHERE	nom=«	pomme	»
+2) 	B	lit	la	valeur	9
+SELECT	qte	FROM	produits	WHERE	nom=«	pomme	»
+3) 	B	réduit	de	3	la	quantité	:	 	9	–	3	=	6	 	( UPDATE	qte	) 4) 	A	réduit	de	1	la	quantité	:	 	9	–	1	=	8	 	( UPDATE	qte	) 5)	La	valeur	finale	sera	8,	car	B	est	exécutée	en	dernière
+Transactions	&	BDD
+•  Durabilité:
+En	cas	de	panne	(de	l’ordinateur,	du	système
+d’exploitation,	du	SGBD,	…),	les	transactions
+exécutées	sont	définitivement	enregistrées.
+
+
+(À	moins	que	la	panne	ne	concerne	l’ensemble	des disques	qui	contiennent	les	BDD,	les	transactions effectuées	doivent	être	enregistrées	dès	qu’el es sont	effectuées)
+Transactions	avec	MySQL
+MySQL	a	la	particularité	de	gérer	plusieurs	moteurs de	stockage	dans	une	même	BDD,	aussi	appelé
+moteur	de	table.
+
+•	Un	moteur	de	stockage	est	un	ensemble
+d’algorithmes	permettant	de	stocker	et	d’accéder aux	données	dans	un	SGBD.	En	général,	un	seul
+moteur	est	utilisé	par	BDD.
+
+•	Pour	lister	tous	les	moteurs,	utilisez	la	requête	: SHOW	ENGINES;
+Transactions	avec	MySQL
+Principaux	moteurs	de	stockage	MySQL	:
+MyISAM	:	moteur	par	défaut	jusque	MySQL	5.5
+•  Très	simple	d’utilisation
+•  Très	performant	sur	des	tables	fréquemment
+ouvertes	(très	rapide	pour	les	opérations	count()	et les	lectures)
+•  Offre	un	index	FULL-TEXT	qui	permet	de	faire	des recherches	précises	sur	des	textes
+× Ne	supporte	ni	les	clés	étrangères,	ni	les	transactions
+× Gère	le	verrouil age	au	niveau	de	la	table
+(bloque	la	table	entière	lors	des	opérations
+d’insertions,	suppressions	ou	MAJ)
+Transactions	avec	MySQL
+Principaux	moteurs	de	stockage	MySQL	:
+InnoDB	:	moteur	par	défaut	depuis	MySQL	5.5
+•  Gestion	des	clés	étrangères	et	support	des
+transactions	(par	défaut	:	chaque	requête	SQL	est considérée	comme	une	transaction)
+–  Véritable	gestion	du	modèle	relationnel	&	transactionnel
+–  Respecte	ACID
+•  Gère	le	verrouil age	au	niveau	de	la	ligne
+× Ne	propose	pas	d’index	FULL-TEXT,	légèrement	plus lent	dans	les	opérations
+Transactions	avec	MySQL
+Principaux	moteurs	de	stockage	MySQL	:
+
+Memory	:	Stocke	les	données	de	la	table	en	mémoire (RAM).
+
+•  Accès	très	rapides
+× En	cas	de	panne,	les	données	stockées	sont	perdues
+Transactions	avec	MySQL
+1.  Début	de	la	transaction	:	START	TRANSACTION
+2.  Requêtes	:	SELECT,	UPDATE,	…
+3.  Validation	de	la	transaction	:	COMMIT
+OU
+Annulation	de	la	transaction	en	cas	d’erreur	:
+ROLLBACK
+
+•  S’il	y	a	une	erreur	d’intégrité	dans	les	données,	le rol back	se	fait	automatiquement
+Transactions	avec	MySQL
+Ne	pas	oublier	d’utiliser	un	moteur	de	BDD
+compatible	avec	les	transactions	et	les	propriétés ACID…
+
+...	et	utiliser	les	requêtes	et	fonctions	de	transactions si	nécessaire...
+
+
+...sinon	:
+une	requête	=	 une	transaction	“pas	toujours	ACID”
+Transactions	avec	MySQL
+Exemple	de	gestion	de	transaction	:	achats	en	ligne
+
+•  Spécification	du	moteur	InnoDB	lors	de	la	création de	la	table,	pour	supporter	les	transactions CREATE	TABLE	Compte	(	ID	int	,	Solde	int	not	nul 	) ENGINE=InnoDB	;
+SET	autocommit=0	;	//désactiver	la	validation	automatique	des	requêtes START	TRANSACTION	;
+UPDATE	compte	SET	solde=solde+100	where	id=IDVendeur	; UPDATE	compte	SET	solde=solde-100	where	id=IDAcheteur	; COMMIT	;
+Transactions	avec	PDO
+1.  Début	de	la	transaction	:
+$bdd->beginTransaction();
+
+2.  Requêtes	de	la	transactions:
+$bdd->query();
+$bdd->query();
+
+3.  Validation	/	Annulation	de	la	transaction	: $bdd->commit();
+$bdd->rol back();
+
+

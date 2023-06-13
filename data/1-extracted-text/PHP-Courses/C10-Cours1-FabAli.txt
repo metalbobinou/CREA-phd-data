@@ -1,0 +1,1355 @@
+Développement	Web	–	PHP
+Cours	1
+
+Fabrice	BOISSIER
+Fabrice.Boissier@univ-paris1.fr
+
+Ali	JAFFAL
+Ali.Jaffal@univ-paris1.fr
+
+Bureau	C.14.05
+2018-2019
+Fabrice.Boissier@univ-paris1.fr
+1
+Ali.Jaffal@univ-paris1.fr
+
+
+Organisation
+•  12	séances
+•  Une	séance	=	1h30	cours 	1h30	TD,	Projet
+•  Projet	en	binôme	ou	en	solo	(selon	les	groupes	du	premier	semestre)
+•  1	Devoir	Sur	Table
+•  Interros	Surprises	10	minutes
+•  Participation,	travail	continu	notés	sous	forme	de	points	bonus
+•  TD	de	la	semaine,	divers	documents	et	informations	diverses		sur	l’EPI
+•  Fin	cours	avril
+•  Evaluation
+–  Contrôle	continu	(50	%)
+•  Devoir	Maison
+•  Projet
+•  1	Devoirs	Sur	Table
+•  Interrogations	surprises
+•  Bonus	Participation
+–  Examen	partiel	(50	%)
+Fabrice.Boissier@univ-paris1.fr
+2
+Ali.Jaffal@univ-paris1.fr
+
+
+Programme	du	cours
+•  Introduction	générale	au	web
+–  Architectures	techniques
+–  Rappel	sur	HTML	et	la	différence	Statique/Dynamique
+–  Explications	sur	l’environnement	web
+–  Premiers	pas	en	PHP
+–  Installation	WAMP/MAMP/XAMP
+•  PHP
+•  PHP	et	MySQL
+Fabrice.Boissier@univ-paris1.fr
+3
+Ali.Jaffal@univ-paris1.fr
+
+
+Architecture	générale	d’un	site	web
+Base	de	Données
+(information	brute)
+Navigateur
+Serveur	Web
+(utilisateur)
+(site	visible)
+Serveur	d’Application
+(traitements	internes)
+Front	Office
+Back	Office
+Fabrice.Boissier@univ-paris1.fr
+4
+Ali.Jaffal@univ-paris1.fr
+
+
+Architecture	générale	d’un	site	web
+Base	de	Données
+Navigateur
+Serveur	Web
+Serveur	d’Application
+Front	Office
+Back	Office
+Fabrice.Boissier@univ-paris1.fr
+5
+Ali.Jaffal@univ-paris1.fr
+
+
+Architecture	générale	d’un	site	web
+Navigateur
+Serveur	Web	&
+Base	de	Données
+Apache
+Front	Office
+Back	Office
+Fabrice.Boissier@univ-paris1.fr
+6
+Ali.Jaffal@univ-paris1.fr
+
+
+Architecture	générale	d’un	site	web
+Navigateur
+Serveur	Web	&
+Base	de	Données
+Apache
+XAMP
+Front	Office
+Back	Office
+Fabrice.Boissier@univ-paris1.fr
+7
+Ali.Jaffal@univ-paris1.fr
+
+
+Rappel	des	versions	des	technologies
+Vérifiez	bien	les	versions	de	tutoriaux	que	vous	trouverez sur	internet	!
+
+§  HTML
+pas	vraiment	de	version	minimale	hormis	1.1…
+
+	les	navigateurs	interprètent	ce	qu’ils	peuvent
+§  HTML	5 	version	actuel e	 (4	passe	aussi)
+
+§  PHP	4
+obsolète	et	non-supporté	(+	fail es	de	sécurité)
+§  PHP	5.6 	 supporté
+§  PHP	7.3 	version	actuel e
+§  MySQL	8 	version	actuel e	 (mais	peu	de	soucis	avec	le	langage,
+
+	car	standard	SQL,	excepté	si	tutorial	<=	MySQL	3.0) Fabrice.Boissier@univ-paris1.fr
+8
+Ali.Jaffal@univ-paris1.fr
+
+
+Rappel	des	versions	des	technologies
+Vérifiez	bien	les	versions	de	tutoriaux	que	vous trouverez	sur	internet	!
+
+§  Documentation	PHP	:
+http://php.net/manual/fr/
+§  Exemple	concret	avec	les	fonctions	de	chaînes	: http://php.net/manual/fr/ref.strings.php
+
+Fabrice.Boissier@univ-paris1.fr
+9
+Ali.Jaffal@univ-paris1.fr
+
+
+Rappel	HTML
+•  Header	/	Body
+•  Listes
+•  Tableaux
+•  Images	et	Liens
+Fabrice.Boissier@univ-paris1.fr
+10
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML
+Chaque	balise	ouverte
+html
+doit	être	fermée
+<html>
+<balise> …	</balise> head
+body
+<head>
+<title> Exemple	HTML	</title> title
+h1
+p
+p
+</head>
+<body>
+i
+b
+<h1> Exemple</h1>
+<p> Ceci	est		<i> really</i>
+<b> Important</b> . </p>
+<p> 	L'informatique	peut	vous aider	! </p>
+</body>
+</html>
+Fabrice.Boissier@univ-paris1.fr
+11
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML
+•  Structure	d’un	document	HTML
+<!DOCTYPE	html>
+Indication	«	idiome	»	HTML
+<html>
+<head>
+< meta	name="author"	content=
+Entête	(head)
+"Manuele	Kirsch	Pinheiro"	/> Informations	générales
+< title>	Exemple	HTML	</title> sur	le	document
+</head>
+<body>
+<h1>Exemple</h1>
+<p>Ceci	est	<i>really</i> Corps	(body)
+<b>Important</b>.	 </p> Contenu	du	document
+<p>	L'informatique	peut	vous	aider	!	</p>
+</body>
+</html>
+Fabrice.Boissier@univ-paris1.fr
+12
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML
+•  Elément	DOCTYPE
+–  Indique	au	navigateur	quel e	version	de	HTML	a	été utilisée
+–  HTML	4.01
+•  Couramment	compris	par	tous	les	navigateurs
+	<!DOCTYPE	html	PUBLIC	"-//W3C//DTD	HTML	4.01	Transitional//EN"
+http://www.w3.org/TR/html4/loose.dtd>
+–  HTML	5
+<!DOCTYPE	html>
+•  En	cours	de	définition
+•  Reconnu	uniquement	par	les	navigateurs	les	plus	récents (Google	Chrome	 16.0,	Firefox	9.0,	Internet	Explorer	9…) Fabrice.Boissier@univ-paris1.fr
+13
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML
+•  Eléments	de	l’entête	(head)
+<head>
+< meta	name="author"
+–  Informations	complémentaires
+content=	"Manuele"	/>
+sur	le	document
+< title>	Exemple	HTML	</title>
+</head>
+–  Ce	n’est	pas	le	contenu	du	document,	donc	ces informations	ne	sont	pas	affichées	dans	la	page
+–  Typiquement,	informations	pour	les	moteurs	de	recherche
+•  Balises
+–  <titre>	…	</titre>
+:	 titre	du	document
+–  <meta	…	/>
+
+:	 métadonnées	(descriptions)	sur
+
+
+le	document
+–  <link	…	/>,	<style>	…	</style> :	styles Fabrice.Boissier@univ-paris1.fr
+14
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML
+•  Eléments	de	l’entête	(head)
+<	title	> Exemple	HTML	</	title	> Ouverture	et	fermeture	de	la	balise
+<meta	 name="author"
+	 	 	 	 	 	 	 	 	 content=	"auteur" /> Attributs	associés	à	la	balise
+Les	éléments	de
+Précisions	sur	une	balise
+l’entête	ne	sont
+Chaque	balise	possède	son	ensemble
+pas	visibles	dans
+le	corps	du
+d’attributs
+document
+<balise	attribut	=	"valeur"	…	>
+		<meta	name="description"	value="…"	/>
+		<meta	charset="ISO-8859-1">
+Fabrice.Boissier@univ-paris1.fr
+15
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML
+•  Eléments	du	corps	(body)
+<body>
+–  Contenu	du	document
+<h1>Exemple</h1>
+<p>Ceci	est	<i>really</i>
+–  Partie	rendue	visible	par	les
+<b>Important</b>.	 </p> navigateurs
+<p>	L'informatique	peut	vous
+•  Balises	:	il	y	en	a	plein…
+aider	!	</p>
+</body>
+–  Titres	:	 <h1>,	<h2>	…	<h6>
+–  Paragraphe	et	saut	de	ligne	:	<p> 	et	<br	/>
+–  Citations	et	mises	en	valeur	:	<b>,	<i>,	<blockquote> …
+–  Images	et	liens	:	<img>,	<a	…> …
+–  Listes	:	<ol>,	<ul>,	<li>
+–  Tableaux	:	<table>,	<tr>,	<td> …
+–  Organisation	du	document	:	<div>,	<section> …
+Fabrice.Boissier@univ-paris1.fr
+16
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML
+•  Eléments	du	corps	(body)
+•  Les	titres	:	h1,	h2,	h3,	h4,	h5,	h6
+–  Les	éléments	h x	permettent	de	définir	des	titres	de différents	niveaux
+•  	h1	correspond	au	titre	principal
+–  Ils	doivent	apparaître	dans	l’ordre	(h1	avant	h2)	avec	un seul	titre	principal	(h1)
+<body>
+<h1> Exemple</h1>
+h1
+…
+</body>
+Fabrice.Boissier@univ-paris1.fr
+17
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML
+•  Eléments	du	corps	(body)
+•  Paragraphe,	saut	de	ligne	et	citation…
+–  La	balise	<p>	…	</p> 	indique	un	paragraphe
+–  La	balise	<br	/> fait	un	simple	saut	de	ligne
+–  Les	balises	<b>…</b> 	et	<i>…</i> 	mettent	un	texte	en relief	(en	gras	ou	en	italique)
+–  La	balise	<blockquote> …</blockquote> permet	de citer	une	autre	page	Web
+<blockquote	 cite="http://source/" >	citation	</blockquote>
+–  La	balise	<hr	/> permet	d’établir	une	séparation	(ligne horizontal)	dans	le	document
+Fabrice.Boissier@univ-paris1.fr
+18
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML
+•  Eléments	 body
+<html>
+h1
+<head>	…	</head>
+<body>
+h2
+i
+			<h1> Exemple	h1</h1> br
+<h2> Exemple	h2</h2> p
+	<p> Ceci	est	un	paragraphe	avec un	<i> terme	technique</i> 	et	un b
+<br/>	<b> mot-clé</b> . </p>
+<blockquote
+cite=" http://fr.wikipedia.org/wiki/
+Hypertext_markup_language" > HTML	n’est	pas	conçu	pour	spécifier	l’apparence	visuel e	exacte	des documents. </blockquote>
+hr
+<hr/>
+<p> 	L'informatique	peut	vous	aider	! </p> blockquote
+</body>
+</html>
+Fabrice.Boissier@univ-paris1.fr
+19
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML
+•  HTML
+– Langage	de	balises,	permettant	la	structuration	des pages	Web
+– Organisation	en	balises
+<balise	attr="valeur">	…	 </balise>
+– Organisation	du	document
+•  Entête	:	head
+•  Corps	du	document	:	body
+– Différents	types	de	balises	possibles
+•  Listes,	tableaux,	images,	liens…
+Fabrice.Boissier@univ-paris1.fr
+20
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML	:	listes
+•  Plusieurs	types	de	listes	sont	possibles
+–  Listes	numérotés	:	<ol>	…	</ol>
+–  Listes	non-numérotés	:	<ul>	…	</ul>
+–  Peu	importe	la	liste,	un	seul	moyen	d’indiquer	les éléments	:	<li>	…	</li>
+<ol>
+<li> Item	1	</li>
+<li> Item	2	</li>
+</ol>
+<ul>
+<li> Premier	item	</li>
+	<li> Second	item	</li>
+</ul>
+Fabrice.Boissier@univ-paris1.fr
+21
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML	:	tableaux
+•  Pour	créer	un	tableau	en	HTML,	on	va
+combiner	plusieurs	balises	:
+– table,	tr,	td,	caption,	th,	thead,	tbody
+<table	 border="1" > Tableau
+	 <tr>
+<table>
+Ligne
+	<td> HTML	2</td>
+<tr>
+<td> 1995</td>
+	 </tr>
+	 <tr>
+<td>HTML	4</td>
+<td>1999</td>
+Cellule
+	 </tr>
+<td>
+</table>
+Fabrice.Boissier@univ-paris1.fr
+22
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML	:	tableaux
+<table	border="1">
+caption	:	légende
+<caption> Historique	du	HTML	</caption>
+	<thead>
+thead	:	Entête	du	tableau
+<tr>
+	 	 	<th> Version</th> th	:	Cellule	de	l’entête
+	 	 	<th> Année	</th>
+</tr>
+	 </thead>
+tbody	:	corps	du
+	<tbody>
+tableau
+<tr>
+<td>HTML	2</td>	<td>1995</td>
+</tr>
+<tr>
+<td>HTML	4</td>	<td>1999</td>
+</tr>
+</tbody>
+</table>
+Fabrice.Boissier@univ-paris1.fr
+23
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML	:	images
+•  Insertion	d’images	dans	le	texte	:	balise	img
+<img	src="fichier.jpg"	width=	"80"	alt="texte"	/> Texte	alternatif
+Tail e	optionnel e
+infobulle
+width=	"80"
+height="70"
+src	:	où	se	trouve	l’image
+Page.html
+Soit	el e	est	avec	la	page	Web
+img	( répertoire)
+src=".\img\Paris_ND.jpg"
+Paris_ND.jpg	( fichier)
+
+Soit	el e	est	sur	un	serveur	:
+src="http://lsteffenel.fr/images/petanque-cochonnet.jpg"
+Fabrice.Boissier@univ-paris1.fr
+24
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML	:	images
+•  Balises	HTML	:	Images
+<html>
+<head>	…	 </head>
+<body>
+<h1>Exemples	</h1>
+<p>Image	distante	:	<img
+src="http://lsteffenel.fr/images/petanque-cochonnet.jpg"
+width="80"	alt="Cochonnet	et	petanques"	/> </p>
+<p>Image	local	:	<img	src=".\img\Paris_ND.jpg"
+height="70"	 alt="Vue	de	Paris"	/> </p>
+</body>
+</html>
+Fabrice.Boissier@univ-paris1.fr
+25
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML	:	liens
+•  L’usage	des	liens	permet	de	relier	une	page	Web	à d’autres	pages,	voire	à	d’autres	points	dans	la	page
+<a	href=" ref">	lien	visible</a>
+•  L’attribut	 href	indique	vers	où	aller	lorsqu’on	clique	sur le	lien
+–  Lien	local	:
+<a	href=" autrePage.html"> vers	autre	page	</a>
+–  Lien	distant:
+< a	href=" http://serveur/page.html"> ail eurs	</a>
+–  Envoyer	un	mail	:
+<a	href=" mailto:monemail@serveur.com"> envoyer	mail</a> Fabrice.Boissier@univ-paris1.fr
+26
+Ali.Jaffal@univ-paris1.fr
+
+
+HTML	:	liens
+On	attribue	un	identificateur
+<balise	id="identificateur" >
+<h1	id="debut"> Liens	</h1>
+
+<p>Lien	vers	<a	href="http://epi.univ-paris1.fr"> l'EPI	</a> </p>
+
+<p>Lien	vers	<a	href="coursHTML-5.html"> exemple	tableaux	</a> </p>
+
+<p>Envoyer	un	mail	à
+<a	href="mailto:moi@mail.com"> moi	</a> </p>
+<p>	….	</p>
+Lien	vers	l’identificateur
+
+<a	href=" #identificateur">
+<p> <a	href="coursHTML-7.html#debut"> Retourner au	début	</a> </p> Fabrice.Boissier@univ-paris1.fr
+27
+Ali.Jaffal@univ-paris1.fr
+
+
+Statique	vs	Dynamique
+•  Statique	:
+Partie	«	fixe	»	des	pages
+–  HTML
+renvoyées	au	client	:	les
+–  CSS
+parties	qui	ne	changent	pas
+–  JavaScript	(JS)
+quoi	qu’il	arrive
+•  Dynamique	:
+–  CGI
+Partie	«	variable	»	des	pages
+–  PHP
+renvoyées	au	client	:	les
+–  Java
+parties	qui	changent	selon
+–  JavaScript	(JS)
+les	requêtes	et	les
+–  …
+informations	disponibles
+Fabrice.Boissier@univ-paris1.fr
+28
+Ali.Jaffal@univ-paris1.fr
+
+
+Statique	vs	Dynamique
+•  Site	web	statique	:
+Aucun	changement	dans	les	pages	lorsque
+l’on	«	rafraichit	»/refait	la	même	requête
+•  Dynamique	:
+Les	pages	évoluent	selon	les	informations externes	(à	chaque	requête,	en	général)
+Fabrice.Boissier@univ-paris1.fr
+29
+Ali.Jaffal@univ-paris1.fr
+
+
+Statique	vs	Dynamique
+•  Site	web	statique
+body	{
+<html>
+background-color:
+<head>
+lightblue;
+<link	rel="stylesheet"
+}
+type="text/css"
+
+href="mystyle.css">
+h1	{
+</head>
+color:	navy;
+<body>
+margin-left:	20px;
+</body>
+}
+</html>
+CSS
+HTML
+Fabrice.Boissier@univ-paris1.fr
+30
+Ali.Jaffal@univ-paris1.fr
+
+
+Statique	vs	Dynamique
+•  Site	web	dynamique
+body	{
+<html>
+<?php
+background-color:
+<head>
+include("head.html");
+lightblue;
+<link	rel="stylesheet"
+echo	"<body>";
+}
+type="text/css"
+Var	=	3 	5;
+
+href="mystyle.css">
+echo	"Valeur	:	$Var";
+h1	{
+</head>
+
+color:	navy;
+
+echo	"</body>";
+margin-left:	20px;
+
+include("foot.html");
+}
+
+?>
+CSS
+HTML
+PHP
+Fabrice.Boissier@univ-paris1.fr
+31
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache,	URI/URL,	DNS,	PHP
+•  Serveur	Web	:	Apache
+(traite	les	connexions	et	transmet	les	requêtes)
+•  S’appuie	sur	HTTP,	URI/URL,	DNS
+(pour	communiquer	ainsi	que	comprendre	quel e ressource	et	quel	site	sont	visés)
+•  Extension	au	serveur	web	:	PHP
+(lit	les	requêtes	qu’Apache	lui	transmet,	et	fait	les traitements	demandés)
+Fabrice.Boissier@univ-paris1.fr
+32
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache	&	PHP
+•  Apache	va	traiter	les	connexions	et	requêtes
+•  PHP	va	construire	la	réponse	en	exécutant	la logique	métier	(le	code)
+Navigateur
+Serveur	Web
+Apache
+Fabrice.Boissier@univ-paris1.fr
+33
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache
+•  Apache	:
+Serveur	web	libre	et	gratuit
+Dispose	d’extensions	pour	se	lier	à	PHP	ou	à d’autres	outils	pour	traiter	les	requêtes Navigateur
+Serveur	Web
+Apache
+Fabrice.Boissier@univ-paris1.fr
+34
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache
+•  Apache	:
+Usage	classique	associe	des	fichiers	à	des requêtes
+<html>
+http://monsite.fr/page.htm
+Coucou
+(GET	page.htm)
+</html>
+page.htm
+Navigateur
+Serveur	Web
+Apache
+Fabrice.Boissier@univ-paris1.fr
+35
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache
+1.  Client	envoie	une	requête	avec	la	ressource	visée 2.  Apache	lit	la	requête,	et	cherche	le	fichier 3.  Apache	répond	à	la	requête	en	envoyant	le	fichier GET	page.htm
+<html>
+http://monsite.fr/page.htm
+Coucou
+(GET	page.htm)
+</html>
+Coucou
+page.htm
+<html>
+Navigateur
+Coucou
+Serveur	Web
+</html>
+page.htm
+Apache
+Fabrice.Boissier@univ-paris1.fr
+36
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache
+•  Requête	et	réponse	transmises	avec	:
+–  HTTP	1.0	 	ou	 	HTTP	1.1	 	ou	 	HTTP/2
+–  (HyperText	Transfer	Protocol)
+GET	page.htm
+<html>
+http://monsite.fr/page.htm
+Coucou
+(GET	page.htm)
+</html>
+Coucou
+page.htm
+Navigateur
+Serveur	Web
+Protocole	pour
+transmettre	les
+Apache
+informations	:
+HTTP
+Fabrice.Boissier@univ-paris1.fr
+37
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache
+Fabrice.Boissier@univ-paris1.fr
+38
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache
+•  Serveur	web	s’appuie	donc,	sur	:
+–  Protocole	HTTP	(utilise	généralement	le	port	80)
+–  Protocole	HTTPS	(utilise	généralement	le	port	443)
+[S	pour	«	secure	»,	en	utilisant	des	certificats	pour chiffrer	la	connexion	ET	pour	s’assurer	que	l’hôte/host est	bien	celui	que	l’on	cherche]
+•  Pour	pouvoir	communiquer	avec	les	navigateurs Fabrice.Boissier@univ-paris1.fr
+39
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache	&	URI/URL
+•  Identification	des	ressources	avec	URI	et	URL
+–  URI	:	Uniform	Resource	Identifier
+Adresse	unique	vers
+–  URL	:	Uniform	Resource	Locator
+la	ressource
+«	page.htm	»
+GET	page.htm
+http://monsite.fr/page.htm
+(GET	page.htm)
+Coucou
+<html>
+<html>
+Coucou
+Navigateur
+Coucou
+Serveur	Web
+</html>
+</html>
+page.htm
+page.htm
+Apache
+Fabrice.Boissier@univ-paris1.fr
+40
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache	&	URI/URL
+•  Identification	des	ressources	avec	URI	et	URL
+•  http://monsite.fr/page.htm
+–  Ressource	:	«	page.htm	»
+–  Dans	le	dossier	:	«	/	»	(la	racine)
+–  Sur	le	site	web	:	«	http://monsite.fr	»
+•  ftp://machine1.autresite.com/images/oiseau.jpg
+–  Ressource	:	«	oiseau.jpg	»
+–  Dans	le	dossier	:	«	/images/	»
+–  Sur	la	machine	«	machine1.autresite.com	»	accessible	en	«	ftp://	»
+Fabrice.Boissier@univ-paris1.fr
+41
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache	&	URI/URL
+Fabrice.Boissier@univ-paris1.fr
+42
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache	&	DNS
+•  Chaque	machine	sur	internet	est	identifiée	par	son	IP
+•  Exemple	IPV4	:	 	8.8.8.8	 	ou	 	127.0.0.1
+•  Exemple	IPV6	:	2001:0db8:85a3:0000:0000:8a2e: 0370:7334
+•  Pas	très	pratique	pour	visiter	des	sites	web…
+…mais	parfait	pour	rendre	unique	une	machine Fabrice.Boissier@univ-paris1.fr
+43
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache	&	DNS
+•  DNS	:	Domain	Name	System
+•  Gère	les	«	noms	de	domaine	»	(exemple	:	 univ-paris1.fr	)
+•  Permet	de	lier	un	nom	de	domaine	à	une	ou	des	IP
+•  Permet	de	gérer	des	«	sous-domaines	»
+•  Exemple	:	 	 	 	 	univ-paris1.fr
+www.univ-paris1.fr	 	 	 	 	 ent.univ-paris1.fr
+•  «	www	»	et	«	ent	»	sont	des	sous-domaines Fabrice.Boissier@univ-paris1.fr
+44
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache	&	DNS
+Fabrice.Boissier@univ-paris1.fr
+45
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache	&	DNS
+1.  Client	envoie	une	requête	avec	la	ressource	visée 2.  Apache	lit	la	requête,	et	cherche	le	fichier 3.  Apache	répond	à	la	requête	en	envoyant	le	fichier GE
+G T	page
+ag .
+
+e htm
+tm
+HOST
+HO	c
+S h
+T	ez.
+
+mi m
+o. o
+e is.	fr
+<html>
+GET	page.htm	GET	page.htm
+Coucou
+HOST	mio.es	 HOST	chez.moi.fr
+</html>
+Coucou
+Pouet
+page.htm
+<html>
+<html>
+Navigateur
+Coucou
+Pouet
+Serveur	Web
+<html>
+</html>
+</html>
+Pouet
+</html>
+page.htm	 page.htm
+Apache
+page.htm
+Fabrice.Boissier@univ-paris1.fr
+46
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache	&	DNS
+•  Plusieurs	noms	de	domaine	peuvent	renvoyer	vers	la même	IP
+•  Le	serveur	web	peut	donc	afficher	des	sites	différents selon	l’hôte	demandé	dans	la	requête
+–  Chez	Apache,	on	appel e	cela	des	«	virtual	hosts	»	(vhosts)
+–  Pour	gérer	cela,	vous	devez	avoir	accès	à	la	configuration	du serveur	web.	Ce	qui	n’est	pas	toujours	le	cas	lorsque	vous souscrivez	à	un	service	«	d’hébergement	web	».
+
+
+•  Pour	avoir	un	«	bon	»	site,	il	est	utile	de	lui	choisir	un nom	de	domaine	pertinent
+–  Les	certificats	pour	mettre	du	HTTPS	se	basant	sur	les	noms	de domaine,	et	pas	sur	les	IP
+Fabrice.Boissier@univ-paris1.fr
+47
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache	&	PHP
+•  PHP	est	une	extension	à	côté	de	Apache
+<html>
+–  Apache	configuré	pour	appeler	PHP	lorsqu’il
+<?php
+voit	passer	une	requête	terminant	par	«	.php	»
+echo	"B";
+?>
+–  PHP	traite	le	fichier	en	question,	et	produit
+</html>
+une	réponse	renvoyée	par	Apache
+page.php
+GET	page.php
+GET	page.php
+B
+<html>
+Navigateur
+Serveur	Web
+<html>
+B
+B
+</html>
+</html>
+Apache
+page.php
+page.php
+Fabrice.Boissier@univ-paris1.fr
+48
+Ali.Jaffal@univ-paris1.fr
+
+
+Apache	&	CGI
+•  CGI	:	Common	Gateway	Interface
+–  Des	outils	autres	que	PHP	peuvent	être	appelés	par	les
+<html>
+serveurs	web
+…
+–
+</html>
+  CGI	est	un	standard	pour	envoyer	les	requêtes	aux autres	outils,	et	lire	leurs	réponses
+page.xyz
+GET	page.xyz
+GET	page.xyz
+Hel o
+CGI
+<html>
+Navigateur
+Serveur	Web
+<html>
+B
+Hel o
+</html>
+</html>
+CGI
+Apache
+page.xyz
+page.xyz
+Fabrice.Boissier@univ-paris1.fr
+49
+Ali.Jaffal@univ-paris1.fr
+
+
+Objectifs	du	cours	:
+
+Création	d’un	site	Web	dynamique
+PHP
+Fabrice.Boissier@univ-paris1.fr
+50
+Ali.Jaffal@univ-paris1.fr
+
+
+PHP
+•  PHP	est	un	langage	de	programmation	utilisé	pour	la construction	de	sites	Web	dynamiques
+–  Pages	PHP	:	pages	Web	qui	contiennent	de	PHP
+•  On	va	mélanger	le	PHP	au	code	HTML	/	CSS
+•  Le	code	PHP	va	être	analysé	par	le	serveur
+•  Le	résultat	va	être	une	nouvelle	page	Web	mise	à	jour automatiquement	par	le	code	PHP
+coursPHP-1.php
+<html>	…
+Le	code	PHP	est	à
+	 <?php
+l’intérieur	de	la	balise
+date_default_timezone_set("Europe/Paris");
+<?php	 	 …	 	 ?>
+ou	entouré	par	la	balise
+echo	"<p	style='font-style:	italic;'>	Paris,	le	"
+<script	language="php">
+.date('d	/	m	/	Y'). "</p>" ;
+…	</script>
+	?>
+…	</html>
+Fabrice.Boissier@univ-paris1.fr
+51
+Ali.Jaffal@univ-paris1.fr
+
+
+PHP
+PHP	:	Php	Hypertext	Preprocessor.
+
+Ø Langage	interprété	pour	créer	des	sites dynamiques
+Ø Langage	de	script	côté	serveur
+Ø Langage	faiblement	typé
+Ø Langage	«	Embedded	HTML	»
+Ø Open	source	:	PHP	a	permis	de	créer	un	grand nombre	de	sites	web	célèbres,	comme
+Facebook,	Wikipédia,	etc.
+
+Fabrice.Boissier@univ-paris1.fr
+52
+Ali.Jaffal@univ-paris1.fr
+
+
+Commandes	PHP	de	base
+•  Variables
+•  Types
+•  Opérateurs
+•  Fonctions
+•  echo,	gettype,	unset
+Fabrice.Boissier@univ-paris1.fr
+53
+Ali.Jaffal@univ-paris1.fr
+
+
+Installation	et	configuration	de	PHP
+Il	suffit	de	télécharger	la	suite	logiciele	:
+
+•  WAMP	:	http://www.wampserver.com/
+
+•  MAMP	:	http://www.mamp.info/
+
+•  XAMPP	:	https://www.apachefriends.org/fr/
+Et	un	éditeur	de	texte	:
+•  Sublim	Text	(macOs):	http://www.sublimetext.com/2
+•  Notepad++	(Windows)	:	https://notepad-plus-plus.org/fr/
+•  Autres	(Linux/BSD/UNIX)	:	emacs,	vim,	nano,	gedit,	…
+Fabrice.Boissier@univ-paris1.fr
+54
+Ali.Jaffal@univ-paris1.fr
+
+
+Introduction	au	PHP
+Syntaxe	de	base	:
+<!DOCTYPE	HTML	PUBLIC	"-//W3C//
+< !doctype	html>
+DTD	HTML	4.01//EN"	"http://
+< html>
+www.w3.org/TR/html4/strict.dtd">
+< head>
+< title> Titre</title>
+</head>
+< body>
+<? php	echo	" Hello	World	! " ; 	?>
+</body>
+</html>
+Fabrice.Boissier@univ-paris1.fr
+55
+Ali.Jaffal@univ-paris1.fr
+
+
+Commentaires	PHP
+Commentaires	:
+
+Commentaires	hérités	du	langage	C	et	Perl
+//	Ceci	est	un	commentaire	sur	une	seule	ligne
+/*	Ceci	est	un	commentaire	sur	plusieurs	lignes
+*/
+
+Commentaire	style	shell
+#	Ceci	est	un	commentaire	sur	une	seule	ligne Fabrice.Boissier@univ-paris1.fr
+56
+Ali.Jaffal@univ-paris1.fr
+
+
+Variables	PHP
+•  La	notion	de	variable
+– Une	variable	est	un	conteneur	de	valeur
+– On	peut	lui	affecter	une	valeur,	qu’on	va	utiliser plus	tard
+$variable	 	 =	 	 "PHP5"	; Le	«	$	»	indique
+une	variable
+
+Le	«	=	»	est	une	affectation
+
+On	attribut	une	valeur	à	la
+Le	nom	de	variable
+variable
+commence	toujours	par
+
+une	lettre	ou	un	«	_	», sans
+echo	"…	$variable		…"	;
+espace
+
+On	récupère	la	valeur
+gardée	dans	la	variable	par
+son	nom
+Fabrice.Boissier@univ-paris1.fr
+57
+Ali.Jaffal@univ-paris1.fr
+
+
+Variables	PHP
+•  La	notion	de	variable	:	les	types	des	données
+–  Les	variables	peuvent	garder	de	valeurs	de	différents	types
+•  Nombres	entiers	(integer)	:	25
+•  Nombres	décimaux	(double	ou	float)	:	2.25
+•  Chaînes	de	caractères	(string)	:	«	1	super	chaîne	!	»
+•  Logique	(boolean)	:	«	true	»	(1)	ou	«	false	»
+–  La	fonction	gettype($variable)	permet	de	savoir	quel e	type de	valeur	contient	la	variable
+•  $entier	=	25;
+
+gettype($entier)	è	integer
+•  $decimal	=	2.25;
+
+gettype($decimal)	è	double
+•  $chaine	=	"1	super	chaîne	!"; gettype($chaine)	è	string
+•  $bool	=	true;
+
+gettype($bool)	è	boolean
+Fabrice.Boissier@univ-paris1.fr
+58
+Ali.Jaffal@univ-paris1.fr
+
+
+Variables	PHP
+•  Exemple	:
+<?php
+Définition	d’une
+	$entier	=	25;
+variable
+							$decimal	=	2.25;
+	 	 	 	$chaine	=	"1	super	chaîne	!";
+							$boolean	=	true;
+
+echo	"<li>"	. gettype($entier)	.	":	$entier	</li>" ; echo	"<li>"	. gettype($decimal)	.	":	$decimal	</li>" ; echo	"<li>"	. gettype($chaine)	.	":	$chaine	</li>" ; echo	"<li>"	. gettype($boolean)	.	":	$boolean	</li>" ;
+	 ?>
+Valeur	de	chaque
+On	récupère	la
+gettype()
+variable
+valeur	de	la	variable
+informe	le	type
+$boolean
+de	la	variable
+Fabrice.Boissier@univ-paris1.fr
+59
+Ali.Jaffal@univ-paris1.fr
+
+
+Types	de	données	PHP
+Opérateur	sur	les	chaînes	de	caractères	:
+–	concaténation	:	chaine1	.	Chaine2
+Opérateurs	logiques	:
+•	AND	ou	&&	(vrai	si	$a	et	$b	vrais)
+•	OR	ou	||	(vrai	si	$a	ou	$b	sont	vrais)
+Opérateurs	arithmétiques	:
+•	addition	:	$a 	$b,
+•	soustraction	:	$a	-	$b,
+•	multiplication	:	$a	*	$b,
+•	division	:	$a	/	$b,
+•	modulo	(reste	de	la	division	entière)	:	$a	%	$b.
+
+Fabrice.Boissier@univ-paris1.fr
+60
+Ali.Jaffal@univ-paris1.fr
+
+
+Types	de	données	PHP
+Opérateurs	arithmétiques	:
+•	Attention	:	lorsqu’une	chaine	de	caractère	est	évaluée comme	une	valeur	numérique,	les	règles	suivantes s’appliquent	:
+•	$toto	=	1 	"4.5"	;	#	$toto	vaut	5.5
+•	$toto	=	1 	"titi 	149"	;	#	$toto	vaut	1	car	la	chaine vaut	0	si	c’est	du	texte	ou,
+•	$toto	=	1 	"149 	titi"	;	#	$toto	vaut	150	car	la	chaine vaut	149	(commence	par	une	valeur	numérique).
+
+Fabrice.Boissier@univ-paris1.fr
+61
+Ali.Jaffal@univ-paris1.fr
+
+
+Types	de	données	PHP
+Opérateurs	de	comparaison	:
+•	égal	à	:	$a	==	$b
+•	différent	de	:	$a	!=	$b
+•	supérieur	à	:	$a	>	$b
+•	inférieur	à	:	$a	<	$b
+•	supérieur	ou	égal	à	:	$a	>=	$b
+•	inférieur	ou	égal	à	:	$a	<=	$b
+Exemple	:	echo	$toto	==	0	?	"Vrai"	:	"Faux"	; Fabrice.Boissier@univ-paris1.fr
+62
+Ali.Jaffal@univ-paris1.fr
+
+
+Opérateurs	PHP
+•  Opérateurs
+–  Différents	opérateurs	permettent	de	manipuler	des valeurs,	qu’ils	soient	dans	les	variables	ou	pas Opérateurs
+Opérateurs
+Opérateurs	de
+Opérateurs	logiques
+mathématiques
+String
+comparaison
++		 	 -	 	*		 /	 	 	 %
+.
+
+==		 	 	 	!=
+||	 (OR)
+(concaténation)	 <=		 	 	<		 	 	 	 >=		 	 	 	>		 	 	 	 &&	(AND)
+!	( not)
+	<?php
+	$a	=	2 	3	;
+
+
+	$b	=	4	-	$a	;
+$nom	=	"Toto”;
+echo	"Salut	"	.	$nom; echo	"<p>	4	-	 $a	vaut	 $b	 </p>";
+	 ?>
+Fabrice.Boissier@univ-paris1.fr
+63
+Ali.Jaffal@univ-paris1.fr
+
+
+Fonctions	PHP
+Date
+Déclaration	avec	:
+•	DATETIME
+$date	=	new	DateTime('2000-01-05');
+•	DATE_CREATE	:	un	Alias	de	DateTime::__construct() $date2	=	date_create('2000-01-01');
+
+Extraction	du	Mois,	année	,	……	:
+Avec	style	procédural	en	utilisant	DATE_FORMAT
+echo	date_format($date,	"m"); Avec	style	orienté	objet	(OO)	:
+echo	$date->format('Y');
+Fabrice.Boissier@univ-paris1.fr
+64
+Ali.Jaffal@univ-paris1.fr
+
+
+Fonctions	PHP
+Date
+
+Exemples	:
+
+•	$date=date(	"d-m-y	");
+	echo	"	ceci	est	la	date	du	jour	"	.$date	;
+
+•	$heure	=	date("h:i:s");
+echo		"c'est	l’heure	du	jour	"	.$heure	; Fabrice.Boissier@univ-paris1.fr
+65
+Ali.Jaffal@univ-paris1.fr
+
+
+Tableaux	PHP
+•  Tableaux
+–  Variables	capables	d’enregistrer	plusieurs	valeurs	d’un	type
+•  Tableaux	à	indice	:
+Attention	a	définir	toutes
+–  Chaque	position	est	identifiée	par
+les	positions	avant	de	les
+un	numéro	(commençant	par	0)
+utiliser	ou	il	y	aura	une
+•
+message	d’erreur.
+
+  $tableau	[0]	=	"A";
+•  $tableau	[1]	=	"B";
+•  $tableau	[3]	=	"Fin";
+•
+A	 B
+Fin	 Suite
+  $tableau	[	]	=	"Suite";
+•  Tableaux	associatifs	:
+0	 1	 2
+3
+4
+–  Chaque	position	reçoit	un	identifiant	(un	label)	 Jean	 Dupont
+•  $tableauAssoc	[" Prenom"]	=	"Jean";
+•
+Prenom	 Nom
+  $tableauAssoc	[" Nom"]	=	"Dupont"	; Fabrice.Boissier@univ-paris1.fr
+66
+Ali.Jaffal@univ-paris1.fr
+
+
+Tableaux	PHP
+Les	tableaux	de	PHP	ressemblent	aux	tableaux	associatifs	( hash-
+tables).
+
+
+•	L’index	est	appelé	 clé
+•	La	valeur	associée	à	la	clé	est	appelée	 valeur
+
+On	déclare	un	tableau	de	deux	façons	:
+
+•	Utiliser	la	fonction	array()	pour	créer	un	tableau
+•	Ou	affecter	directement	les	valeurs	au	tableau
+Fabrice.Boissier@univ-paris1.fr
+67
+Ali.Jaffal@univ-paris1.fr
+
+
+PHP
+Message	d’erreur	car	le
+<head>		…
+contenu	de	la	position	2
+<style>…	</style>
+(	$tableau[2]	)	n’a	pas
+</head>
+été	défini	auparavant.
+
+<body>		…
+<h2>Tableaux	à	indice	</h2>
+<table>
+<?php
+							$tableau	[0]	=	"A";
+							$tableau	[1]	=	"B";
+							$tableau	[3]	=	"Fin"; Contenu	de	la
+							$tableau	[]	=	"Suite"; position	4
+
+(	$tableau[4]	)
+							echo	" <tr>	<td> ".	$tableau[0]	.	" </td>	<td> ".		$tableau[1]
+												.	" </td>	<td> "	.	$tableau[2]	.	" </td><td> "	.	$tableau[3]
+												.	" </td><td> "	.	$tableau[4]		.	" </td></tr> "	;
+		?>
+</table>
+…
+Fabrice.Boissier@univ-paris1.fr
+68
+Ali.Jaffal@univ-paris1.fr
+
+
+Tableaux	PHP
+…
+<h2>Tableau	associatif	</h2>
+<table>
+<tr>	<th>	Nom	</th>	<th>Prénom	</th>	</tr>
+
+	<?php
+							$tableauAssoc	["Prenom"]	=	"Jean"; 							$tableauAssoc	["Nom"]	=	"Dupont"	;
+
+							echo	"<tr>	<td>"	.	 $tableauAssoc	["Nom"]	.	"</td>"	; 							echo	"<td>"	.	$tableauAssoc	["Prenom"]	.	"	</td></tr>"	;
+	 	 ?>
+
+</table>
+</body>
+Fabrice.Boissier@univ-paris1.fr
+69
+Ali.Jaffal@univ-paris1.fr
+
+
+Tableaux	PHP
+Fonctions	sur	les	tableaux	:
+
+•	sizeof()	:	retourne	le	nombre	d’éléments	d’un	tableau,	ou
+
+•	count()	:	retourne	le	nombre	d’éléments	d’un	tableau	s’il	existe, 1	si	la	variable	n’est	pas	un	tableau	et	0	si	la	variable	n’existe	pas.
+
+Fabrice.Boissier@univ-paris1.fr
+70
+Ali.Jaffal@univ-paris1.fr
+
+
+Tableaux	PHP
+Exemple:
+
+•	$suite	=	array(1,	2,	3,	4)	;
+•	$tab[0]	=	1	;
+•	$tab[1]	=	"toto"	;	#	on	peut	mélanger	les	contenus
+•	$tab["chaine"]	=	"	valeur"	;	#	on	peut	mélanger	les	clés.
+
+•	$personne	=	array("type"	=>	"M.",	"nom"	=>	"Smith")	;
+Fabrice.Boissier@univ-paris1.fr
+71
+Ali.Jaffal@univ-paris1.fr
+
+
+Tableaux	PHP
+Parcourir	un	tableau	:
+<?php
+//	On	crée	notre	array	$prenoms
+$prenoms	=	array	('François',	'Michel',	'Nicole',	'Véronique',
+'Benoît');
+//	Puis	on	fait	une	boucle	pour	tout	afficher	: for	($numero	=	0;	$numero	<	5;	$numero++)
+{
+	echo	$prenoms[$numero]	.	'<br	/>';
+}
+?>
+Fabrice.Boissier@univ-paris1.fr
+72
+Ali.Jaffal@univ-paris1.fr
+
+
+Tableaux	PHP
+Parcourir	un	tableau	:
+<?php
+
+$prenoms	=	array	('François',	'Michel',	'Nicole',	'Véronique',
+'Benoît');
+foreach($prenoms	as	$id	=>	$valeur)
+{
+	 echo	"Case	($id)	=	$valeur";
+}
+?>
+Fabrice.Boissier@univ-paris1.fr
+73
+Ali.Jaffal@univ-paris1.fr
+
+
+Tableaux	PHP
+Parcourir	un	tableau	associatif	:
+<?php
+$personne	=	array("type"	=>	"M.",	"nom"	=>	"Smith")	; foreach($personne	as	$cle	=>	$valeur)
+{
+	 echo	"cle="	.$cle	.“	valeur=	"	.	$valeur	;
+}
+?>
+Fabrice.Boissier@univ-paris1.fr
+74
+Ali.Jaffal@univ-paris1.fr
+
+

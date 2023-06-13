@@ -1,0 +1,1842 @@
+Développement web
+DUT Info 2, 2019-2020
+
+Thomas FRESSIN
+thomas.fressin@u-pem.fr
+
+Développement web
+
+PLAN DE LA PRÉSENTATION
+
+ Dév. front-end/back-end
+ Modèle d’exécution du web
+ HTML
+ CSS
+ PHP
+ MySQL
+
+Thomas FRESSIN
+
+2
+
+Développement web
+
+BIBLIOGRAPHIE
+ Cours de Pierre-Nicolas Clauss (LORIA)
+ Cours de Romain Lebreton, Sébastien Gagné, Auréline
+Quatrehomme
+ Wikipédia
+ http://www.commentcamarche.net/contents/html/
+ http://www.apprendre-php.com
+ http ://www.php.net/manual/fr
+
+Thomas FRESSIN
+
+3
+
+Développement web
+
+LE DEVELOPPEMENT
+FRONT-END / BACK-END
+
+Thomas FRESSIN
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+FRONT-END
+Le « développement web frontal » (front-end en anglais) correspond aux
+productions HTML, CSS et JavaScript d’une page internet ou d’une
+application qu’un utilisateur peut voir et avec lesquelles il peut interagir
+directement.
+Le principal défi du développement web frontal est de toujours s'adapter
+aux dernières évolutions ; les outils et les techniques de
+développement étant en évolution constante.
+La conception des sites internet doit également être capable d’offrir une
+bonne ergonomie de lecture en facilitant la navigation et l’obtention
+d’information. Cet objectif est d’autant plus compliqué que les lecteurs
+utilisent maintenant différentes plateformes de format et de taille variés.
+Le développeur doit donc s’assurer que le site internet apparaît
+correctement sur l’ensemble des navigateurs Web et des
+plateformes/appareils disponibles.
+
+11
+
+Hypertext : une page doit être relier à
+d’autres pages
+→ comprendre l’architecture de
+l’information et les relations des pages
+Markup : le contenu est intégré à une
+structure de page balisée
+
+Règles pour traduire le
+DOM dans une forme
+visuelle
+
+Contrôler les données
+saisies dans des
+formulaires HTML
+
+Règles de style en
+cascade. Ce sont un
+ensemble de règles qui
+décrivent la priorité avec
+laquelle les styles sont
+rendus sur une page
+
+Interagir avec le
+document HTML via le
+DOM
+
+12
+
+BACK-END
+En informatique, un back-end (parfois aussi appelé un arrière-plan) est un
+terme désignant un étage de sortie d'un logiciel devant produire un
+résultat. On l'oppose au front-end (aussi appelé un frontal) qui lui est la
+partie visible de l'iceberg.
+Illustration du concept :
+Dans un magasin, on trouve une arrière-boutique où sont stockés les
+articles, et un bureau qui assure le bon fonctionnement du magasin. Il
+s'agit du back-end, de tout ce qui se passe en arrière-plan sans que le
+client ne s'en rende compte.
+Dans ce même magasin, on retrouve un service à la clientèle et des
+étalages. Il s'agit du front-end, de ce que le client voit.
+
+13
+
+Développement web
+
+MODÈLE D’EXÉCUTION DU WEB
+
+Thomas FRESSIN
+
+14
+
+Développement web
+
+MODÈLE D’EXÉCUTION DU WEB
+INTERNET
+Requête HTTP
+(protocole de transfert
+hypertexte)
+Code « web »
+SERVEUR
+
+CLIENT
+
+Thomas FRESSIN
+
+15
+
+Développement web
+
+MODÈLE D’EXÉCUTION DU WEB
+
+Thomas FRESSIN
+
+16
+
+Développement web
+
+MODÈLE D’EXÉCUTION DU WEB
+image
+
+page
+
+Flux
+vidéo
+
+Thomas FRESSIN
+
+17
+
+Développement web
+
+REQUÊTE HTTP
+
+Thomas FRESSIN
+
+18
+
+Développement web
+
+REQUÊTE HTTP
+
+Thomas FRESSIN
+
+19
+
+Développement web
+
+MODÈLE D’EXÉCUTION DU WEB
+
+Ressources :
+●
+Code html (page)
+●
+Code css (style)
+●
+Code js (interaction)
+●
+Image
+●
+Flux vidéo
+●
+Cookie
+●
+Redirection
+●
+...
+
+Principaux codes HTTP :
+●
+200 : succès
+●
+301 et 302 : redirection perm./temp.
+●
+401 : utilisateur non authentifié
+●
+403 : accès refusé
+●
+404 : page non trouvée
+●
+500 et 503 : erreur serveur
+●
+504 : le serveur n'a pas répondu
+
+Thomas FRESSIN
+
+20
+
+Requête HTTP
+Code « web »
+
+21
+
+Écouter le réseau
+(F12 ou Menu Outils/Outils de développement puis onglet Réseau)
+
+22
+
+Développement web
+
+MODÈLE D’EXÉCUTION DU WEB
+Du client au serveur
+Il peut exister des machines intermédiaires servant de relais
+
+Requête HTTP
+Code « web »
+
+●
+
+●
+●
+
+●
+
+Un proxy (serveur mandataire) peut modifier les réponses et requêtes qu'il reçoit et
+peut gérer un cache des ressources demandées.
+Une passerelle (ou gateway) est un intermédiaire modifiant le protocole utilisé.
+Un tunnel transmet les requêtes et les réponses sans aucune modification, ni mise en cache.
+Utilisation de protocoles : SSL/TLS/… HTTPS
+Thomas FRESSIN
+
+23
+
+Développement web
+
+HTML 5
+
+Hypertext Markup Language /
+Langage de balisage d’hypertexte
+
+Thomas FRESSIN
+
+24
+
+Développement web
+
+HTML : historique
+1991 HTML
+1994 HTML 2
+1996 CSS 1 + JavaScript
+1997 HTML 4
+1998 CSS 2
+2000 XHTML 1
+2002 Tableless Web Design
+2005 AJAX
+2009 HTML 5
+
+Thomas FRESSIN
+
+25
+
+Développement web
+
+HTML 5 : généralités
+ Langage standardisé
+• Date de première version :
+• Date de dernière version :
+• N° de version actuelle :
+• Paradigme
+• Auteur
+• Développeur
+• Version en dév.
+• Influencé par
+• A influencé
+• Écrit en
+• Site web
+• Extensions de fichiers
+
+28 octobre 2014
+21 décembre 2017
+5.2
+Langage de balisage
+WHATWG
+WHATWG et W3C
+5.3
+SGML
+Wikicode, BBCode
+SGML
+https://www.w3.org/TR/html52/
+HTML: .html, .htm
+XHTML: .xhtml, .xht, .xml
+
+Thomas FRESSIN
+
+26
+
+Développement web
+
+HTML : généralités
+ Language descriptif
+ Pas de séquences de contrôle
+ Description de la sémantique du document
+ Balises
+ Balise ouvrante : <tag>
+ Balise fermante : </tag>
+ Les deux en une : <tag />
+ Attributs : <tag attribut="valeurs">
+ Standardisé
+ W3C : http ://www.w3c.org
+ Dernière version : HTML 5
+Strict
+Transitional
+Frameset
+ Validation automatique : http ://validator.w3.org
+ Balise DOCTYPE, sur la première ligne du fichier
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http ://www.w3.org/TR/html4/loose.dtd">
+
+Thomas FRESSIN
+
+27
+
+Développement web
+
+HTML, XHTML, HTML5...
+ XHTML
+ Le XHTML est un langage normé (+ contraignant pour le développeur)
+permettant (en théorie) un standardisation de la façon de coder pour un
+affiche (censé être) compatible sur tous les navigateurs/OS
+ Il existe plusieurs versions : Strict, Transitional
+ Il est possible de vérifier le respect de son code sur un validateur (celui
+de la W3C par exemple)
+ Avis professionnel : faut tendre vers le XHTML sans trop perdre de
+temps avec (la compatibilité OS/navigateurs est + importante)
+HTML5
+ Le HTML5 est la nouvelle version du HTML5.
+ C'est un nouveau standard participant au web sémantique (donner du
+sens aux balises pour faciliter l'interprétation informatique, l'interconnexion
+des données du web, ..)
+ Il permet en outre : + de dynamisme, la géolocalisation, la portabilité
+mobile, ...
+Thomas FRESSIN
+
+28
+
+Développement web
+
+HTML : généralités
+Encapsulation de type « pile »
+ correct
+ incorrect
+
+<a> <b> </b> </a>
+<a> <b> </a> </b>
+
+Structure arborescente
+Arbre minimal :
+<html>
+<head>
+<title>…</title>
+</head>
+<body>
+…
+</body>
+
+métadonnées
+données
+
+page HTML
+
+</html>
+Thomas FRESSIN
+
+29
+
+Développement web
+
+HTML : généralités
+ Commentaires
+<!– ici mes commentaires -->
+
+HTML + XML => XHTML
+Balises toujours fermées
+Transformation en d'autres formats
+HTML donne un découpage selon la sémantique du document
+Mise en forme visuelle
+en HTML : moins lisible, plus de code
+en CSS : plus lisible, regroupement et généralisation
+
+Thomas FRESSIN
+
+30
+
+Développement web
+
+HTML : espacements
+ Code :
+mon
+ça,
+
+ Résultat :
+texte, comme\t
+j’\n
+aime.
+
+mon texte,
+beaucoup.
+
+comme
+
+ça,
+
+j’aime...
+
+..
+beaucoup.
+
+ Conclusions :
+ Les suites de caractère d'espacement équivaut à un seul caractère d'espacement
+ Les expressions \t et \n sont ignorés
+ Il faut utiliser des balises pour mettre en forme le texte
+
+Thomas FRESSIN
+
+31
+
+Développement web
+
+HTML : mise en forme du texte
+ Mise en forme au niveau paragraphe
+<br />
+&nbsp;
+<p>…</p>
+<div>…</div>
+<pre>…</pre>
+
+Aller à la ligne
+Insérer un espace
+Paragraphe
+Cadre
+Tout est reproduit tel quel
+
+ Mise en forme au niveau phrase
+<em>…</em>
+<strong>…</strong>
+<cite>…</cite>
+<q>…</q>
+<blockquote>…</blockquote>
+<code>…</code>
+<abbr>…</abbr>
+<acronym>…</acronym>
+<sup>…</sup>
+<sub>…</sub>
+<big>…</big>
+<small>…</small>
+
+Mise en valeur (italique)
+Mise en valeur forte (gras)
+Citation courte (gras italique)
+Citation courte (entre guillements)
+Citation longue (gras)
+Extrait de code source (gras italique petit)
+Abréviation (gras italique)
+Acronyme (gras italique)
+Mettre en exposant
+Mettre en indice
+Plus gros
+Plus petit
+
+Beaucoup d'autres : <dfn>, <samp>, <kbd>, <var>, <ins>, <del>, …
+
+32
+
+Développement web
+
+HTML : liens hypertextes
+ Balise des liens hypertextes
+<a>…</a>
+
+Lien
+
+<a href="lien">texte</a>
+
+Lien externe
+
+<a href="mailto:address@server.com">mail</a>
+
+Lien courriel
+
+<a href="javascript:fonction()">texte</a>
+
+Lien javascript
+
+<a name="ancre" />
+<a href="lien#ancre">texte</a>
+
+Lien interne (ancre)
+
+<a … target="_blank">texte</a>
+
+Nouvel onglet
+
+ Balise des liens hypertextes
+ Possibilité de lien sur une image
+ Choisir le(s) bon(s) mot(s) pour servir de lien
+ Lier les pages de manière cohérente
+Thomas FRESSIN
+
+33
+
+Développement web
+
+HTML : liens hypertextes
+ Adresse absolue d’un lien
+<a href="http://fressin.fr/">T. FRESSIN</a>
+<a href="fressin.fr/fr/index.php">T. FRESSIN</a>
+
+ Adresse relative d’un lien
+Ma page ‘index.html’ est dans le dossier a.
+J’ai une page ‘toto.html’ dans le dossier a2.
+Pour créer le lien index vers toto :
+<a href="a2/toto.html">Lien</a>
+Ma page ‘toto.html’ est dans le dossier a2.
+J’ai une page ‘tata.html’ dans le dossier b.
+Pour créer le lien toto vers tata :
+<a href=« ../b/tata.html">Lien</a>
+
+Thomas FRESSIN
+
+34
+
+Développement web
+
+HTML : listes
+ Liste ordonnée
+<ol>
+<li>article 1</li>
+<li>article 2</li>
+<li>article 3</li>
+</ol>
+
+ Liste non-ordonnée
+<ul>
+<li>article 1</li>
+<li>article 2</li>
+<li>article 3</li>
+</ul>
+
+ Liste de définition
+<dl>
+<dt>article 1</dt>
+<dd>définition 1</dd>
+<dt>article 2</dt>
+<dd>définition 2</dd>
+</dl>
+Thomas FRESSIN
+
+35
+
+Développement web
+
+HTML : tableaux
+ Tableau
+<table border="1">
+<caption> Voici le titre du tableau </caption>
+<tr>
+<th> Titre A1 </th>
+<th> Titre A2 </th>
+<th> Titre A3 </th>
+<th> Titre A4 </th>
+</tr>
+<tr>
+<th> Titre B1 </th>
+<td> Valeur B2 </td>
+<td> Valeur B3 </td>
+<td> Valeur B4 </td>
+</tr>
+</table>
+
+ Attributs utiles
+rowspan="x"
+colspan="x"
+align
+valign
+
+fusionner x lignes
+fusionner x colonnes
+alignement horizontal dans les th, tr, td
+alignement vertical dans les th, tr, td
+Thomas FRESSIN
+
+36
+
+Développement web
+
+HTML : images
+ Image
+<img src="path_image.ext" alt="Texte de remplacement"
+title="Texte à afficher" />
+
+ Spécifications
+ Formats acceptés des images : jpeg, jpg, png, gif, svg
+<img src="equilateral.png" srcset="equilateral.svg"/>
+
+ Principaux attributs :
+
+
+
+
+
+
+
+src
+align
+alt
+title
+width
+height
+
+Thomas FRESSIN
+
+37
+
+Développement web
+
+HTML : caractères spéciaux
+ Codage de la page
+ Nous travaillons au format ISO-8859-1 (Latin-1 ou Europe occidentale)
+Caractères spéciaux
+ Les accentuations et symboles sont des caractères spéciaux.
+ Mal codés (en ISO ou en HTML), ces caractères seront mal affichés en
+sortie.
+Code HTML
+&eacute;
+&egrave;
+&acirc;
+&Auml;
+&ccdeil;
+&amp;
+&euro;
+&quot;
+…
+
+Code ISO
+&#233;
+&#232;
+&#226;
+&#196;
+&#231;
+&#38;
+&#128;
+&#34;
+&#137;
+…
+Thomas FRESSIN
+
+Rendu
+é
+è
+â
+Ä
+ç
+&
+€
+«
+‰
+…
+38
+
+Développement web
+
+HTML : métadonnées
+<head>
+<title>Titre</title>
+<meta
+<meta
+<meta
+<meta
+<meta
+<meta
+<meta
+<meta
+<meta
+<meta
+<meta
+<meta
+
+name="description" lang="fr" content="description" />
+name="keywords" lang="fr" content="keywords FR" />
+name="publisher" content="nom prenom" />
+name="revisit-after" content="30 days" />
+name="reply-to" content="courriel" />
+name="author" lang="fr" content="nom prenom" />
+name="robots" content="all" />
+name="distribution" content="global" />
+name="identifier-url" content="url" />
+name="date-creation-yyyymmdd" content="20070927" />
+name="date-revision-yyyymmdd" content="20080409" />
+name="verify-v1" content="code" />
+
+<link rel="shortcut icon" href="http://url_absolue/favicon.ico" />
+<script type="text/javascript">...</script>
+<style type="text/css">...</style>
+</head>
+
+Thomas FRESSIN
+
+39
+
+Développement web
+
+HTML5
+
+~=
+HTML + CSS + JS
+
+Thomas FRESSIN
+
+40
+
+Développement web
+
+HTML 5 : nouvelles possibilités
+
+
+
+
+
+
+
+
+
+
+
+Sémantique & balisage
+CSS 3
+Graphics / Multimedia
+Vidéo, canvas
+Offline / Storage
+BDD, stockage offline, objet, ...
+Realtime / Communication
+Evénements, notifications, ...
+File / Hardware Access
+Drag&drop, géoloc
+
+Thomas FRESSIN
+
+41
+
+42
+
+Développement web
+
+Sémantique & balisage
+
+Thomas FRESSIN
+
+43
+
+Développement web
+
+Balises plus simples et explicites
+<!DOCTYPE html>
+<html lang="fr">
+
+<header> ... </header>
+<nav> ... </nav>
+
+<head>
+<meta charset="UTF-8">
+...
+</head>
+
+<section>
+<article>
+...
+</article>
+<article>
+...
+</article>
+</section>
+<aside> ... </aside>
+<figure> ... </figure>
+<footer> ... </footer>
+
+Thomas FRESSIN
+
+44
+
+Développement web
+
+Thomas FRESSIN
+
+45
+
+Développement web
+
+De meilleurs tags sémantiques
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+...
+</head>
+<body>
+<header>
+<hgroup>
+<h1>Page title</h1>
+<h2>Page subtitle</h2>
+</hgroup>
+</header>
+<nav>
+<ul>
+Navigation...
+</ul>
+</nav>
+
+<section>
+<article>
+<header>
+<h1>Title</h1>
+</header>
+<section>
+Content...
+</section>
+</article>
+<article>
+<header>
+<h1>Title</h1>
+</header>
+<section>
+Content...
+</section>
+</article>
+</section>
+
+Thomas FRESSIN
+
+<aside>
+Top links...
+</aside>
+<figure>
+<img src="..."/>
+<figcaption>Chart 1.1</figcaption>
+</figure>
+<footer>
+Copyright ©
+<time datetime="2010-11-08">2010</time>.
+</footer>
+</body>
+
+46
+
+Développement web
+
+Listes autocomplétées
+<input list="cars"/>
+<datalist id="cars">
+<option value="BMW"/>
+<option value="Ford"/>
+<option value="Volvo"/>
+</datalist>
+
+Thomas FRESSIN
+
+47
+
+Développement web
+
+Balises sémantiques
+
+Thomas FRESSIN
+
+48
+
+Développement web
+
+Relations et liens décrits
+
+Thomas FRESSIN
+
+49
+
+Développement web
+
+Microdata
+
+Thomas FRESSIN
+
+50
+
+Développement web
+
+Nouveaux types de formulaires
+
+Thomas FRESSIN
+
+51
+
+Développement web
+
+Formulaires pour mobiles
+
+Thomas FRESSIN
+
+52
+
+Développement web
+
+Validation du code
+https://validator.w3.org/
+
+Thomas FRESSIN
+
+53
+
+Développement web
+
+CSS
+
+Cascading Style Sheets / Feuilles de style en cascade
+
+Thomas FRESSIN
+
+54
+
+Développement web
+
+CSS : utilité
+ Utilités
+ Séparer la forme du fond
+ HTML décrit le fond
+ CSS décrit la forme
+ Centralisation de l’aspect visuel
+ Optimiser les modifications
+ Il suffit de modifier un style à un endroit pour l’appliquer partout
+ Factoriser/rendre plus lisible le code
+
+Thomas FRESSIN
+
+55
+
+Développement web
+
+CSS : où décrire les classes ?
+ Description interne à la page :
+ Dans les métadonnées :
+<head>
+<style type="text/css">
+<!-tous_les_styles_ici
+-->
+</style>
+</head>
+
+ Dans le corps de la page :
+<body>
+<span style="un_style">…</style>
+</body>
+
+ Description externe (dans un fichier css) :
+<head>
+<link rel="stylesheet" type="text/css" href="url.css">
+</head>
+
+Thomas FRESSIN
+
+56
+
+Développement web
+
+CSS : format d’une classe
+ Format :
+classe {
+attribut: valeurs; [attribut: valeurs; …]
+}
+//la classe peut correspondre à une balise html (pour que le style s’applique à cette balise)
+//si la classe ne s’applique pas à une balise html spécifique, on précède le nom de la classe d’un point
+
+ Exemple classique de classes :
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+margin:0px;
+}
+.td_menu {
+height:25px;
+width:380px;
+vertical-align:middle;
+text-align:left;
+}
+a.menu:link, a.menu:visited, a.menu:active, a.menu:hover {
+color:#6A0055;
+letter-spacing: 3px;
+text-decoration: none;
+}
+
+Thomas FRESSIN
+
+57
+
+Développement web
+
+CSS : utilité concrète
+ Code sans CSS (avant)
+<html>
+<head />
+<body>
+<div style="color:#6A0055; font-family:Arial;"><strong>text 1</strong></div>
+<div style="color:#6A0055; font-family:Arial;"><strong>text 2</strong></div>
+<div style="color:#6A0055; font-family:Arial;"><strong>text 3</strong></div>
+<div style="font-family:Arial;">text 4</div>
+</body>
+</html>
+
+ Code avec CSS (après)
+<html>
+<head>
+<style type="text/css"><!-.style1 { color:#6A0055; font-family:Arial; font-weight: bold; }
+.style2 { font-family:Arial; }
+--></style>
+</head>
+<body>
+<div class="style1">text 1</div>
+<div class="style1">text 2</div>
+<div class="style1">text 3</div>
+<div class="style2">text 4</div>
+</body>
+</html>
+
+Thomas FRESSIN
+
+58
+
+Développement web
+
+CSS 3
+
+Thomas FRESSIN
+
+59
+
+Développement web
+
+Sélecteurs CSS 3
+
+Thomas FRESSIN
+
+60
+
+Développement web
+
+Webfonts
+
+Thomas FRESSIN
+
+61
+
+Développement web
+
+Multi-colonnes
+
+Thomas FRESSIN
+
+62
+
+Développement web
+
+Opacité
+
+Thomas FRESSIN
+
+63
+
+Développement web
+
+Teinte, luminosité, saturation (TLS)
+
+Thomas FRESSIN
+
+64
+
+Développement web
+
+Angles arrondis
+
+Thomas FRESSIN
+
+65
+
+Développement web
+
+Dégradés
+
+Thomas FRESSIN
+
+66
+
+Développement web
+
+Ombrages
+
+Thomas FRESSIN
+
+67
+
+Développement web
+
+Fonds multiples
+
+Thomas FRESSIN
+
+68
+
+Développement web
+
+PHP
+
+Hypertext Preprocessor
+
+Thomas FRESSIN
+
+69
+
+Développement web
+
+PHP : généralités
+ Langage crée en 1994
+ Versions actuelle :
+7.3.10 (24 septembre 2019)
+ Langage de script
+ Langage interprété
+ Présence d'un interpréteur côté serveur
+ Intégré au code HTML
+ Syntaxe proche du C et du Java
+ Interface simple avec beaucoup de SGBD
+
+Thomas FRESSIN
+
+70
+
+Développement web
+
+Concurrents de PHP
+
+Thomas FRESSIN
+
+71
+
+Développement web
+
+PHP : modèle d’exécution
+1. Le client demande une page PHP
+2. Le serveur web exécute le code de la page
+2a. Lancement de l'interpréteur
+2b. Exécution du code
+3. Le serveur web renvoie le résultat de l'exécution
+4. Le client affiche le résultat
+
+Pour le client, il est impossible de voir le code PHP.
+Seul le résultat de l'exécution est récupéré par le client
+Thomas FRESSIN
+
+72
+
+Développement web
+
+PHP : du statique au dynamique
+Page statique (côté serveur) :
+
+Affichage (côté client) :
+
+<html>
+<head><title>Page statique</title></head>
+<body>
+Nous sommes le 11-09-2001.
+</body>
+</html>
+
+Nous sommes le 11-09-2001.
+
+Page dynamique (côté serveur) :
+<html>
+<head><title>Page statique</title></head>
+<body>
+Nous sommes le <?php echo date('d-m-Y'); ?>.
+</body>
+</html>
+
+Thomas FRESSIN
+
+Nous sommes le 01-04-2011.
+//Date du jour affichée
+
+73
+
+Développement web
+
+PHP : éléments du langage
+
+ Le code PHP s'intègre dans l'HTML de cette façon :
+ici html <?php ... ?> ici html
+
+ Les instructions PHP se finissent par un point virgule
+instruction_php;
+
+ Les commentaires peuvent s’écrire de 2 façons :
+/* commentaire */
+// commentaire
+
+(commentaire bout-en-bout)
+(commentaire jusqu’en fin de ligne)
+
+Thomas FRESSIN
+
+74
+
+Développement web
+
+PHP : variables
+ Les variables sont préfixées par le signe dollar $
+$nom_variable
+
+ Le nom suit les règles classiques (pas d’espace, sensible à la casse)
+ Le type des variables n’a pas besoin d’être déclaré (typage implicite)
+$my_var_03 = 54 ; //entier
+$my_var_03 = "pif"; //maintenant, une chaine
+
+ Attention aux fautes de frappes dans les noms de variables
+ Fonctions sur les variables :
+isset($var) : renvoie true si $var existe
+empty($var) : renvoie true si $var est vide
+unset($var) : détruit $var
+
+Thomas FRESSIN
+
+75
+
+Développement web
+
+PHP : types des variables
+
+ Entiers :
+ Flottants :
+ Chaînes :
+
+$var=54;
+$var=54.3;
+$var="54";
+
+$var='54';
+
+ Booléens :
+
+$var=false;
+
+$var=true;
+
+ Fonctions de test :
+
+is_integer ($var), is_string ($var), … : renvoie true si $var est un
+
+entier, une chaîne, . . .
+
+ On définit une constante à l'aide de la commande define
+define("PI", 3.14);
+
+On les utilise directement (sans $) : echo(PI);
+
+Thomas FRESSIN
+
+76
+
+Développement web
+
+PHP : chaîne de caractères
+
+ Délimitées par " (contenu interprété)
+ Délimitées par ' (contenu non interprété)
+ Les unes peuvent contenir les autres
+ Sinon backslash
+
+$var="e"; echo
+$var='e'; echo
+$var="citation
+$var="citation
+
+ Concaténation :
+
+echo $v1.$v2;
+echo $v1." ".$v2;
+
+$v1="pas"; $v2="pas";
+
+ Accès à un caractère : $date="2011-04-01";
+ Longueur de la chaîne
+ Sous-chaîne avec substr($str,start[,len])
+ Effacer espaces début/fin : $var=" abc ";
+
+Thomas FRESSIN
+
+echo
+echo
+echo
+echo
+echo
+
+"pal$var";
+'pal$var';
+: 'ok'";
+: \"ok\"";
+
+$date{5}.$date{6};
+strlen($date);
+substr($date,5);
+substr($date,3,3);
+trim($var);
+
+77
+
+Développement web
+
+PHP : tableaux
+ Tableaux :
+
+$tab = array("foo"=>"bar", 12=>true);
+$tab["foo"]="bar"; $tab[12]=true;
+<?php
+// Création d'un tableau simple.
+$array = array(1, 2, 3, 4, 5);
+print_r($array);
+// On efface tous les éléments, mais on concerne le tableau :
+foreach ($array as $i => $value) {
+unset($array[$i]);
+}
+print_r($array);
+// Ajout d'un élément (notez que la nouvelle clé est 5, et non 0).
+$array[] = 6;
+print_r($array);
+// Ré-indexation :
+$array = array_values($array);
+$array[] = 7;
+print_r($array);
+?>
+
+Thomas FRESSIN
+
+//lignes identiques
+
+Array
+(
+[0]
+[1]
+[2]
+[3]
+[4]
+)
+Array
+(
+)
+Array
+(
+[5]
+)
+Array
+(
+[0]
+[1]
+)
+
+=>
+=>
+=>
+=>
+=>
+
+1
+2
+3
+4
+5
+
+=> 6
+
+=> 6
+=> 7
+
+78
+
+Développement web
+
+PHP : opérateurs
+Arithmétiques :
+
+Affectation :
+
+Affectaison :
+
+echo ((1+2-3)*2)/2;
+echo 7%3;
+$var=1; echo $var++;
+$var=3; echo $var--;
+
+//affiche 1
+
+echo $var=1;
+$var='aa'; echo $var.='b';
+$var=1; echo $var+=3;
+$var=2; echo $var-=1;
+$var=2; echo $var*=2;
+$var=2; echo $var/=2;
+$var=7; echo $var%=3;
+==, ===
+//égal, identique
+!=, <>, !==
+//diff, diff, diff ou pas même type
+<, >, >=, <=
+
+ Logiques :
+
+and, &&
+or, ||
+xor
+!
+
+ Conditionnel :
+
+… ? … : …
+Thomas FRESSIN
+
+79
+
+Développement web
+
+PHP : conditionnelles et boucles
+$var=1
+if ($var<0) {
+echo "h1";
+}
+elseif ($var<-3) {
+echo "h2";
+}
+else {
+echo "h3";
+}
+
+$tab[0]=1;
+$tab[1]=1;
+$tab[2]="coucou";
+for($i=0;$i<3;$i++) {
+echo $tab[$i];
+}
+
+$var="coucou";
+switch ($var) {
+case "maman" : echo "h1"; break ;
+case "papa" : echo "h2"; break ;
+default : echo "h3"; break;
+}
+
+$i=0;
+while($i<5) {
+$i++; echo $i;
+}
+
+Thomas FRESSIN
+
+80
+
+Développement web
+
+PHP : fonctions
+
+Thomas FRESSIN
+
+81
+
+Développement web
+
+PHP : exemples de fonctions
+function math($nb) {
+$nb++; $nb++;
+return $nb--;
+}
+echo math(3);
+echo math(-1);
+
+function test($var) {
+switch($var) {
+case 'maman': echo 'mère'; break;
+case ‘papa': echo 'père'; break;
+default : echo 'non défini'; break;
+}
+}
+echo test('maman');
+
+function fonc() {
+global $var ;
+$var=4;
+}
+$var=0;
+fonc() ;
+echo $var ;
+
+Thomas FRESSIN
+
+82
+
+Développement web
+
+HTML & PHP : utilisation des formulaires
+OK formulaire envoyé.
+
+Page de résultat
+
+Page de formulaire
+
+Thomas FRESSIN
+
+83
+
+Développement web
+
+Transmettre des données entre pages Web
+
+84
+
+Développement web
+
+HTML & PHP : utilisation des formulaires
+OK formulaire envoyé.
+
+Page de résultat
+
+Page de formulaire
+
+ 2 méthodes de dialogue possibles :
+ GET : données encodées dans l'URL (non persistantes)
+http://www.google.com/search/search.php?q=fnac
+
+ POST : données persistantes et cachées (pas de navigation avec Précédent/Suivant)
+ L’objectif dans les 2 cas est de récupérer les données envoyées :
+
+ echo $_GET['q'];
+ echo $_POST['q'];
+ echo $_REQUEST['q']; // affiche du GET ou POST
+Thomas FRESSIN
+
+85
+
+Développement web
+
+Avantages & inconvénients des 2 méthodes
+La méthode GET :
+●
+
+se prête bien à un site en développement car on peut facilement contrôler
+les valeurs et noms de variables du formulaire.
+
+●
+
+Il est facile de créer un lien <a> vers une page traitant un formulaire en
+méthode GET et d’y envoyer des données via le query string.
+
+La méthode POST :
+●
+
+●
+
+est plus propre car les valeurs ne sont plus affichées dans la barre
+d’adresse du navigateur
+Attention : ces informations ne sont pas vraiment cachées pour autant
+
+Thomas FRESSIN
+
+86
+
+Développement web
+
+HTML & PHP : utilisation des formulaires
+ Exemple de formulaire :
+<form action="page_resultat.html" method="POST">
+Prenom : <input type="text" name="prenom" /><br />
+Nom :
+<input type="text" name="nom" /><br />
+<input type="submit" value="ENVOYER" />
+</form>
+
+ Différents types des balises INPUT :
+ text
+ password
+file
+ checkbox
+ button
+ hidden
+ radio
+ reset
+ submit
+
+zone de texte sur une seule ligne
+idem, mais avec achage d'étoiles
+sélection d'un fichier
+case à cocher
+bouton simple (pas d'action sans javascript)
+champ "texte" caché
+bouton d'option
+bouton de remise à zéro
+bouton de soumission
+
+Thomas FRESSIN
+
+87
+
+Développement web
+
+PHP : structures de contrôle
+
+Thomas FRESSIN
+
+88
+
+Développement web
+
+PHP : sessions
+ On veut parfois garder de l'information entre plusieurs pages :
+ Login / Password
+ Préférences de navigation
+ Sélection de produits à acheter (panier, ...)
+On utilise donc les sessions PHP.
+ Les sessions permettent de stocker des informations côté serveur
+ Elles sont identifiées par un numéro qui reste valide tant que le visiteur reste
+connecté
+ Le numéro est transmis au serveur soit dans l'URL, soit dans un cookie
+ Les données se placent et se récupèrent dans $_SESSION, comme pour les
+formulaires
+echo $_SESSION['login']=$_POST['login'];
+
+ Les sessions utilisent les cookies : il faut donc ouvrir la session avant d'afficher quoi
+que ce soit. La session existe dès qu'elle est crée et jusqu'à ce qu'elle soit détruite.
+Création (et réouverture) : session_start()
+Destruction : session_destroy()
+Note : les session s'autodétruisent après un certain temps (glmt 30 min)
+Thomas FRESSIN
+
+89
+
+Développement web
+
+PHP orienté objet
+Exemple 1
+
+Thomas FRESSIN
+
+90
+
+Développement web
+
+PHP orienté objet
+Exemple 2 (1/2)
+
+Thomas FRESSIN
+
+91
+
+Développement web
+
+PHP orienté objet
+Exemple 2 (2/2)
+
+Thomas FRESSIN
+
+92
+
+Développement web
+
+MySQL
+
+Thomas FRESSIN
+
+93
+
+Développement web
+
+SQL : définition
+ SQL est un langage puissant de requête
+ Il permet de faire une demande complexe à une BDD dans un langage proche de l'anglais
+ On l'utilise pour récupérer, ajouter, supprimer et créer des données dans une BDD
+Les BDD utilisent des tables :
+ chaque ligne est un enregistrement de champs avec des valeurs
+ les requêtes se font sur ces champs
+ MySQL est un SGBDD puissant
+ Il est utilisé principalement dans le cadre des BDD sur internet (sites, blogs, etc.)
+ C’est une application libre de droit, très populaire
+ phpmyadmin est un outil de gestion de BDD qui embarque le SBGDD MySQL
+
+Thomas FRESSIN
+
+94
+
+Développement web
+
+SQL : requêtes basiques
+ Requête interrogative
+SELECT * FROM PersosXVI;
+
+ Requête sélective
+SELECT Nom, Prenom FROM PersosXVI;
+
+Id
+1
+2
+3
+4
+
+ Requête restrictive
+SELECT * FROM PersosXVI WHERE Prenom = 'Jean';
+
+ Décompte
+SELECT count(*) FROM PersosXVI;
+
+ Somme
+SELECT SUM(Age) FROM PersosXVI;
+
+On peut complètement mélanger les types de requêtes
+
+Thomas FRESSIN
+
+95
+
+Développement web
+
+SQL : requêtes complexes
+Id
+1
+2
+3
+4
+ Requête croisée
+SELECT p.Nom, p.Activite FROM PersosXVI p, RoiXVI r
+WHERE p.Roi = r.Id AND r.Nom = 'Francois Ier'
+ORDER BY p.Nom DESC;
+
+On peut complètement mélanger les types de requêtes
+
+Thomas FRESSIN
+
+96
+
+Développement web
+
+SQL : manipulation des données
+Id
+1
+2
+3
+
+ Requête d'insertion
+INSERT INTO PersosXVI(Nom, Prenom, Age, Activite)
+VALUES('PARE', 'Ambroise', 44, 'Chirurgien');
+
+Requête de mise à jour
+UPDATE PersosXVI SET Age = 43 WHERE Nom = 'CARTIER';
+
+Requête de suppression
+DELETE FROM PersosXVI WHERE Prenom = 'Jean';
+
+Thomas FRESSIN
+
+97
+
+Développement web
+
+MySQL & PHP : manipulation des données
+ Connexion
+$mysqli = new mysqli("localhost", "user", "password", "base");
+//$cnx est false en cas d'erreur de connexion
+
+ Choix de la base
+mysqli_select_db($mysqli, "base");
+
+ Exécution
+$result = $mysqli->query("SELECT Name FROM City LIMIT 10")
+//$resultat a pour valeur false en cas d'erreur
+
+ Récupération des résultats
+$row = $result->fetch_object();
+echo $row->prenom;
+//si un seul résultat à afficher
+while( $row = $result->fetch_object() ) {
+$results[] = $row;
+}
+//si plusieurs lignes à afficher
+Thomas FRESSIN
+
+98
+
+Développement web
+
+SQL : fonctions annexes
+ Nombre de résultat d’un SELECT
+echo $mysqli->num_rows;
+
+ Nombre de lignes affectées par un INSERT, UPDATE ou DELETE
+echo $mysqli->affected_rows;
+
+ Dernier incrément d’un champ
+echo $mysqli→insert_id;
+
+Protection des chaînes de caractères :
+$city = $mysqli->real_escape_string($city);
+
+Fermeture de la connexion :
+mysqli_close($mysqli);
+
+Thomas FRESSIN
+
+99
+
+

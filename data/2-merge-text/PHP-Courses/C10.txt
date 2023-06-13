@@ -1,0 +1,4135 @@
+Développement	Web	–	PHP
+Cours	1
+
+
+
+Organisation
+•  12	séances
+•  Une	séance	=	1h30	cours 	1h30	TD,	Projet
+•  Projet	en	binôme	ou	en	solo	(selon	les	groupes	du	premier	semestre)
+•  1	Devoir	Sur	Table
+•  Interros	Surprises	10	minutes
+•  Participation,	travail	continu	notés	sous	forme	de	points	bonus
+•  TD	de	la	semaine,	divers	documents	et	informations	diverses		sur	l’EPI
+•  Fin	cours	avril
+•  Evaluation
+–  Contrôle	continu	(50	%)
+•  Devoir	Maison
+•  Projet
+•  1	Devoirs	Sur	Table
+•  Interrogations	surprises
+•  Bonus	Participation
+–  Examen	partiel	(50	%)
+
+
+
+Programme	du	cours
+•  Introduction	générale	au	web
+–  Architectures	techniques
+–  Rappel	sur	HTML	et	la	différence	Statique/Dynamique
+–  Explications	sur	l’environnement	web
+–  Premiers	pas	en	PHP
+–  Installation	WAMP/MAMP/XAMP
+•  PHP
+•  PHP	et	MySQL
+
+
+
+
+
+Architecture	générale	d’un	site	web
+Base	de	Données
+(information	brute)
+Navigateur
+Serveur	Web
+(utilisateur)
+(site	visible)
+Serveur	d’Application
+(traitements	internes)
+Front	Office
+Back	Office
+
+
+
+
+
+Architecture	générale	d’un	site	web
+Base	de	Données
+Navigateur
+Serveur	Web
+Serveur	d’Application
+Front	Office
+Back	Office
+
+
+
+
+
+Architecture	générale	d’un	site	web
+Navigateur
+Serveur	Web	&
+Base	de	Données
+Apache
+Front	Office
+Back	Office
+
+
+
+
+
+Architecture	générale	d’un	site	web
+Navigateur
+Serveur	Web	&
+Base	de	Données
+Apache
+XAMP
+Front	Office
+Back	Office
+
+
+
+
+
+Rappel	des	versions	des	technologies
+Vérifiez	bien	les	versions	de	tutoriaux	que	vous	trouverez sur	internet	!
+
+§  HTML
+pas	vraiment	de	version	minimale	hormis	1.1...
+
+	les	navigateurs	interprètent	ce	qu’ils	peuvent
+§  HTML	5 	version	actuelle	 (4	passe	aussi)
+
+§  PHP	4
+obsolète	et	non-supporté	(+	failles	de	sécurité)
+§  PHP	5.6 	 supporté
+§  PHP	7.3 	version	actuelle
+§  MySQL	8 	version	actuelle	 (mais	peu	de	soucis	avec	le	langage,
+
+	car	standard	SQL,	excepté	si	tutorial	<=	MySQL	3.0)
+
+
+
+
+Rappel	des	versions	des	technologies
+Vérifiez	bien	les	versions	de	tutoriaux	que	vous trouverez	sur	internet	!
+
+§  Documentation	PHP	:
+http://php.net/manual/fr/
+§  Exemple	concret	avec	les	fonctions	de	chaînes	: http://php.net/manual/fr/ref.strings.php
+
+
+
+
+
+
+Rappel	HTML
+•  Header	/	Body
+•  Listes
+•  Tableaux
+•  Images	et	Liens
+
+
+
+
+
+HTML
+Chaque	balise	ouverte
+html
+doit	être	fermée
+<html>
+<balise> ...	</balise> head
+body
+<head>
+<title> Exemple	HTML	</title> title
+h1
+p
+p
+</head>
+<body>
+i
+b
+<h1> Exemple</h1>
+<p> Ceci	est		<i> really</i>
+<b> Important</b> . </p>
+<p> 	L'informatique	peut	vous aider	! </p>
+</body>
+</html>
+
+
+
+
+
+HTML
+•  Structure	d’un	document	HTML
+<!DOCTYPE	html>
+Indication	«	idiome	»	HTML
+<html>
+<head>
+< meta	name="author"	content=
+Entête	(head)
+"Manuele	Kirsch	Pinheiro"	/> Informations	générales
+< title>	Exemple	HTML	</title> sur	le	document
+</head>
+<body>
+<h1>Exemple</h1>
+<p>Ceci	est	<i>really</i> Corps	(body)
+<b>Important</b>.	 </p> Contenu	du	document
+<p>	L'informatique	peut	vous	aider	!	</p>
+</body>
+</html>
+
+
+
+
+
+HTML
+•  Elément	DOCTYPE
+–  Indique	au	navigateur	quelle	version	de	HTML	a	été utilisée
+–  HTML	4.01
+•  Couramment	compris	par	tous	les	navigateurs
+	<!DOCTYPE	html	PUBLIC	"-//W3C//DTD	HTML	4.01	Transitional//EN"
+http://www.w3.org/TR/html4/loose.dtd>
+–  HTML	5
+<!DOCTYPE	html>
+•  En	cours	de	définition
+•  Reconnu	uniquement	par	les	navigateurs	les	plus	récents (Google	Chrome	 16.0,	Firefox	9.0,	Internet	Explorer	9...)
+
+
+
+
+HTML
+•  Eléments	de	l’entête	(head)
+<head>
+< meta	name="author"
+–  Informations	complémentaires
+content=	"Manuele"	/>
+sur	le	document
+< title>	Exemple	HTML	</title>
+</head>
+–  Ce	n’est	pas	le	contenu	du	document,	donc	ces informations	ne	sont	pas	affichées	dans	la	page
+–  Typiquement,	informations	pour	les	moteurs	de	recherche
+•  Balises
+–  <titre>	...	</titre>
+:	 titre	du	document
+–  <meta	...	/>
+
+:	 métadonnées	(descriptions)	sur
+
+
+le	document
+–  <link	...	/>,	<style>	...	</style> :	styles
+
+
+
+
+HTML
+•  Eléments	de	l’entête	(head)
+<	title	> Exemple	HTML	</	title	> Ouverture	et	fermeture	de	la	balise
+<meta	 name="author"
+	 	 	 	 	 	 	 	 	 content=	"auteur" /> Attributs	associés	à	la	balise
+Les	éléments	de
+Précisions	sur	une	balise
+l’entête	ne	sont
+Chaque	balise	possède	son	ensemble
+pas	visibles	dans
+le	corps	du
+d’attributs
+document
+<balise	attribut	=	"valeur"	...	>
+		<meta	name="description"	value="..."	/>
+		<meta	charset="ISO-8859-1">
+
+
+
+
+
+HTML
+•  Eléments	du	corps	(body)
+<body>
+–  Contenu	du	document
+<h1>Exemple</h1>
+<p>Ceci	est	<i>really</i>
+–  Partie	rendue	visible	par	les
+<b>Important</b>.	 </p> navigateurs
+<p>	L'informatique	peut	vous
+•  Balises	:	il	y	en	a	plein...
+aider	!	</p>
+</body>
+–  Titres	:	 <h1>,	<h2>	...	<h6>
+–  Paragraphe	et	saut	de	ligne	:	<p> 	et	<br	/>
+–  Citations	et	mises	en	valeur	:	<b>,	<i>,	<blockquote> ...
+–  Images	et	liens	:	<img>,	<a	...> ...
+–  Listes	:	<ol>,	<ul>,	<li>
+–  Tableaux	:	<table>,	<tr>,	<td> ...
+–  Organisation	du	document	:	<div>,	<section> ...
+
+
+
+
+
+HTML
+•  Eléments	du	corps	(body)
+•  Les	titres	:	h1,	h2,	h3,	h4,	h5,	h6
+–  Les	éléments	h x	permettent	de	définir	des	titres	de différents	niveaux
+•  	h1	correspond	au	titre	principal
+–  Ils	doivent	apparaître	dans	l’ordre	(h1	avant	h2)	avec	un seul	titre	principal	(h1)
+<body>
+<h1> Exemple</h1>
+h1
+...
+</body>
+
+
+
+
+
+HTML
+•  Eléments	du	corps	(body)
+•  Paragraphe,	saut	de	ligne	et	citation...
+–  La	balise	<p>	...	</p> 	indique	un	paragraphe
+–  La	balise	<br	/> fait	un	simple	saut	de	ligne
+–  Les	balises	<b>...</b> 	et	<i>...</i> 	mettent	un	texte	en relief	(en	gras	ou	en	italique)
+–  La	balise	<blockquote> ...</blockquote> permet	de citer	une	autre	page	Web
+<blockquote	 cite="http://source/" >	citation	</blockquote>
+–  La	balise	<hr	/> permet	d’établir	une	séparation	(ligne horizontal)	dans	le	document
+
+
+
+
+
+HTML
+•  Eléments	 body
+<html>
+h1
+<head>	...	</head>
+<body>
+h2
+i
+			<h1> Exemple	h1</h1> br
+<h2> Exemple	h2</h2> p
+	<p> Ceci	est	un	paragraphe	avec un	<i> terme	technique</i> 	et	un b
+<br/>	<b> mot-clé</b> . </p>
+<blockquote
+cite=" http://fr.wikipedia.org/wiki/
+Hypertext_markup_language" > HTML	n’est	pas	conçu	pour	spécifier	l’apparence	visuelle	exacte	des documents. </blockquote>
+hr
+<hr/>
+<p> 	L'informatique	peut	vous	aider	! </p> blockquote
+</body>
+</html>
+
+
+
+
+
+HTML
+•  HTML
+– Langage	de	balises,	permettant	la	structuration	des pages	Web
+– Organisation	en	balises
+<balise	attr="valeur">	...	 </balise>
+– Organisation	du	document
+•  Entête	:	head
+•  Corps	du	document	:	body
+– Différents	types	de	balises	possibles
+•  Listes,	tableaux,	images,	liens...
+
+
+
+
+
+HTML	:	listes
+•  Plusieurs	types	de	listes	sont	possibles
+–  Listes	numérotés	:	<ol>	...	</ol>
+–  Listes	non-numérotés	:	<ul>	...	</ul>
+–  Peu	importe	la	liste,	un	seul	moyen	d’indiquer	les éléments	:	<li>	...	</li>
+<ol>
+<li> Item	1	</li>
+<li> Item	2	</li>
+</ol>
+<ul>
+<li> Premier	item	</li>
+	<li> Second	item	</li>
+</ul>
+
+
+
+
+
+HTML	:	tableaux
+•  Pour	créer	un	tableau	en	HTML,	on	va
+combiner	plusieurs	balises	:
+– table,	tr,	td,	caption,	th,	thead,	tbody
+<table	 border="1" > Tableau
+	 <tr>
+<table>
+Ligne
+	<td> HTML	2</td>
+<tr>
+<td> 1995</td>
+	 </tr>
+	 <tr>
+<td>HTML	4</td>
+<td>1999</td>
+Cellule
+	 </tr>
+<td>
+</table>
+
+
+
+
+
+HTML	:	tableaux
+<table	border="1">
+caption	:	légende
+<caption> Historique	du	HTML	</caption>
+	<thead>
+thead	:	Entête	du	tableau
+<tr>
+	 	 	<th> Version</th> th	:	Cellule	de	l’entête
+	 	 	<th> Année	</th>
+</tr>
+	 </thead>
+tbody	:	corps	du
+	<tbody>
+tableau
+<tr>
+<td>HTML	2</td>	<td>1995</td>
+</tr>
+<tr>
+<td>HTML	4</td>	<td>1999</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+HTML	:	images
+•  Insertion	d’images	dans	le	texte	:	balise	img
+<img	src="fichier.jpg"	width=	"80"	alt="texte"	/> Texte	alternatif
+Taille	optionnelle
+infobulle
+width=	"80"
+height="70"
+src	:	où	se	trouve	l’image
+Page.html
+Soit	elle	est	avec	la	page	Web
+img	( répertoire)
+src=".\img\Paris_ND.jpg"
+Paris_ND.jpg	( fichier)
+
+Soit	elle	est	sur	un	serveur	:
+src="http://lsteffenel.fr/images/petanque-cochonnet.jpg"
+
+
+
+
+
+HTML	:	images
+•  Balises	HTML	:	Images
+<html>
+<head>	...	 </head>
+<body>
+<h1>Exemples	</h1>
+<p>Image	distante	:	<img
+src="http://lsteffenel.fr/images/petanque-cochonnet.jpg"
+width="80"	alt="Cochonnet	et	petanques"	/> </p>
+<p>Image	local	:	<img	src=".\img\Paris_ND.jpg"
+height="70"	 alt="Vue	de	Paris"	/> </p>
+</body>
+</html>
+
+
+
+
+
+HTML	:	liens
+•  L’usage	des	liens	permet	de	relier	une	page	Web	à d’autres	pages,	voire	à	d’autres	points	dans	la	page
+<a	href=" ref">	lien	visible</a>
+•  L’attribut	 href	indique	vers	où	aller	lorsqu’on	clique	sur le	lien
+–  Lien	local	:
+<a	href=" autrePage.html"> vers	autre	page	</a>
+–  Lien	distant:
+< a	href=" http://serveur/page.html"> ailleurs	</a>
+–  Envoyer	un	mail	:
+<a	href=" mailto:monemail@serveur.com"> envoyer	mail</a>
+
+
+
+
+HTML	:	liens
+On	attribue	un	identificateur
+<balise	id="identificateur" >
+<h1	id="debut"> Liens	</h1>
+
+<p>Lien	vers	<a	href="http://epi.univ-paris1.fr"> l'EPI	</a> </p>
+
+<p>Lien	vers	<a	href="coursHTML-5.html"> exemple	tableaux	</a> </p>
+
+<p>Envoyer	un	mail	à
+<a	href="mailto:moi@mail.com"> moi	</a> </p>
+<p>	....	</p>
+Lien	vers	l’identificateur
+
+<a	href=" #identificateur">
+<p> <a	href="coursHTML-7.html#debut"> Retourner au	début	</a> </p>
+
+
+
+
+Statique	vs	Dynamique
+•  Statique	:
+Partie	«	fixe	»	des	pages
+–  HTML
+renvoyées	au	client	:	les
+–  CSS
+parties	qui	ne	changent	pas
+–  JavaScript	(JS)
+quoi	qu’il	arrive
+•  Dynamique	:
+–  CGI
+Partie	«	variable	»	des	pages
+–  PHP
+renvoyées	au	client	:	les
+–  Java
+parties	qui	changent	selon
+–  JavaScript	(JS)
+les	requêtes	et	les
+–  ...
+informations	disponibles
+
+
+
+
+
+Statique	vs	Dynamique
+•  Site	web	statique	:
+Aucun	changement	dans	les	pages	lorsque
+l’on	«	rafraichit	»/refait	la	même	requête
+•  Dynamique	:
+Les	pages	évoluent	selon	les	informations externes	(à	chaque	requête,	en	général)
+
+
+
+
+
+Statique	vs	Dynamique
+•  Site	web	statique
+body	{
+<html>
+background-color:
+<head>
+lightblue;
+<link	rel="stylesheet"
+}
+type="text/css"
+
+href="mystyle.css">
+h1	{
+</head>
+color:	navy;
+<body>
+margin-left:	20px;
+</body>
+}
+</html>
+CSS
+HTML
+
+
+
+
+
+Statique	vs	Dynamique
+•  Site	web	dynamique
+body	{
+<html>
+<?php
+background-color:
+<head>
+include("head.html");
+lightblue;
+<link	rel="stylesheet"
+echo	"<body>";
+}
+type="text/css"
+Var	=	3 	5;
+
+href="mystyle.css">
+echo	"Valeur	:	$Var";
+h1	{
+</head>
+
+color:	navy;
+
+echo	"</body>";
+margin-left:	20px;
+
+include("foot.html");
+}
+
+?>
+CSS
+HTML
+PHP
+
+
+
+
+
+Apache,	URI/URL,	DNS,	PHP
+•  Serveur	Web	:	Apache
+(traite	les	connexions	et	transmet	les	requêtes)
+•  S’appuie	sur	HTTP,	URI/URL,	DNS
+(pour	communiquer	ainsi	que	comprendre	quelle ressource	et	quel	site	sont	visés)
+•  Extension	au	serveur	web	:	PHP
+(lit	les	requêtes	qu’Apache	lui	transmet,	et	fait	les traitements	demandés)
+
+
+
+
+
+Apache	&	PHP
+•  Apache	va	traiter	les	connexions	et	requêtes
+•  PHP	va	construire	la	réponse	en	exécutant	la logique	métier	(le	code)
+Navigateur
+Serveur	Web
+Apache
+
+
+
+
+
+Apache
+•  Apache	:
+Serveur	web	libre	et	gratuit
+Dispose	d’extensions	pour	se	lier	à	PHP	ou	à d’autres	outils	pour	traiter	les	requêtes Navigateur
+Serveur	Web
+Apache
+
+
+
+
+
+Apache
+•  Apache	:
+Usage	classique	associe	des	fichiers	à	des requêtes
+<html>
+http://monsite.fr/page.htm
+Coucou
+(GET	page.htm)
+</html>
+page.htm
+Navigateur
+Serveur	Web
+Apache
+
+
+
+
+
+Apache
+1.  Client	envoie	une	requête	avec	la	ressource	visée 2.  Apache	lit	la	requête,	et	cherche	le	fichier 3.  Apache	répond	à	la	requête	en	envoyant	le	fichier GET	page.htm
+<html>
+http://monsite.fr/page.htm
+Coucou
+(GET	page.htm)
+</html>
+Coucou
+page.htm
+<html>
+Navigateur
+Coucou
+Serveur	Web
+</html>
+page.htm
+Apache
+
+
+
+
+
+Apache
+•  Requête	et	réponse	transmises	avec	:
+–  HTTP	1.0	 	ou	 	HTTP	1.1	 	ou	 	HTTP/2
+–  (HyperText	Transfer	Protocol)
+GET	page.htm
+<html>
+http://monsite.fr/page.htm
+Coucou
+(GET	page.htm)
+</html>
+Coucou
+page.htm
+Navigateur
+Serveur	Web
+Protocole	pour
+transmettre	les
+Apache
+informations	:
+HTTP
+
+
+
+
+
+Apache
+
+
+
+
+
+Apache
+•  Serveur	web	s’appuie	donc,	sur	:
+–  Protocole	HTTP	(utilise	généralement	le	port	80)
+–  Protocole	HTTPS	(utilise	généralement	le	port	443)
+[S	pour	«	secure	»,	en	utilisant	des	certificats	pour chiffrer	la	connexion	ET	pour	s’assurer	que	l’hôte/host est	bien	celui	que	l’on	cherche]
+•  Pour	pouvoir	communiquer	avec	les	navigateurs
+
+
+
+
+Apache	&	URI/URL
+•  Identification	des	ressources	avec	URI	et	URL
+–  URI	:	Uniform	Resource	Identifier
+Adresse	unique	vers
+–  URL	:	Uniform	Resource	Locator
+la	ressource
+«	page.htm	»
+GET	page.htm
+http://monsite.fr/page.htm
+(GET	page.htm)
+Coucou
+<html>
+<html>
+Coucou
+Navigateur
+Coucou
+Serveur	Web
+</html>
+</html>
+page.htm
+page.htm
+Apache
+
+
+
+
+
+Apache	&	URI/URL
+•  Identification	des	ressources	avec	URI	et	URL
+•  http://monsite.fr/page.htm
+–  Ressource	:	«	page.htm	»
+–  Dans	le	dossier	:	«	/	»	(la	racine)
+–  Sur	le	site	web	:	«	http://monsite.fr	»
+•  ftp://machine1.autresite.com/images/oiseau.jpg
+–  Ressource	:	«	oiseau.jpg	»
+–  Dans	le	dossier	:	«	/images/	»
+–  Sur	la	machine	«	machine1.autresite.com	»	accessible	en	«	ftp://	»
+
+
+
+
+
+Apache	&	URI/URL
+
+
+
+
+
+Apache	&	DNS
+•  Chaque	machine	sur	internet	est	identifiée	par	son	IP
+•  Exemple	IPV4	:	 	8.8.8.8	 	ou	 	127.0.0.1
+•  Exemple	IPV6	:	2001:0db8:85a3:0000:0000:8a2e: 0370:7334
+•  Pas	très	pratique	pour	visiter	des	sites	web...
+...mais	parfait	pour	rendre	unique	une	machine
+
+
+
+
+Apache	&	DNS
+•  DNS	:	Domain	Name	System
+•  Gère	les	«	noms	de	domaine	»	(exemple	:	 univ-paris1.fr	)
+•  Permet	de	lier	un	nom	de	domaine	à	une	ou	des	IP
+•  Permet	de	gérer	des	«	sous-domaines	»
+•  Exemple	:	 	 	 	 	univ-paris1.fr
+www.univ-paris1.fr	 	 	 	 	 ent.univ-paris1.fr
+•  «	www	»	et	«	ent	»	sont	des	sous-domaines
+
+
+
+
+Apache	&	DNS
+
+
+
+
+
+Apache	&	DNS
+1.  Client	envoie	une	requête	avec	la	ressource	visée
+2.  Apache	lit	la	requête,	et	cherche	le	fichier
+3.  Apache	répond	à	la	requête	en	envoyant	le	fichier
+
+GET page.htm
+
+HOST chez.moi.fr
+
+<html>
+GET	page.htm	GET	page.htm
+Coucou
+HOST	mio.es	 HOST	chez.moi.fr
+</html>
+Coucou
+Pouet
+page.htm
+<html>
+<html>
+Navigateur
+Coucou
+Pouet
+Serveur	Web
+<html>
+</html>
+</html>
+Pouet
+</html>
+page.htm	 page.htm
+Apache
+page.htm
+
+
+
+
+
+Apache	&	DNS
+•  Plusieurs	noms	de	domaine	peuvent	renvoyer	vers	la même	IP
+•  Le	serveur	web	peut	donc	afficher	des	sites	différents selon	l’hôte	demandé	dans	la	requête
+–  Chez	Apache,	on	appelle	cela	des	«	virtual	hosts	»	(vhosts)
+–  Pour	gérer	cela,	vous	devez	avoir	accès	à	la	configuration	du serveur	web.	Ce	qui	n’est	pas	toujours	le	cas	lorsque	vous souscrivez	à	un	service	«	d’hébergement	web	».
+
+
+•  Pour	avoir	un	«	bon	»	site,	il	est	utile	de	lui	choisir	un nom	de	domaine	pertinent
+–  Les	certificats	pour	mettre	du	HTTPS	se	basant	sur	les	noms	de domaine,	et	pas	sur	les	IP
+
+
+
+
+
+Apache	&	PHP
+•  PHP	est	une	extension	à	côté	de	Apache
+<html>
+–  Apache	configuré	pour	appeler	PHP	lorsqu’il
+<?php
+voit	passer	une	requête	terminant	par	«	.php	»
+echo	"B";
+?>
+–  PHP	traite	le	fichier	en	question,	et	produit
+</html>
+une	réponse	renvoyée	par	Apache
+page.php
+GET	page.php
+GET	page.php
+B
+<html>
+Navigateur
+Serveur	Web
+<html>
+B
+B
+</html>
+</html>
+Apache
+page.php
+page.php
+
+
+
+
+
+Apache	&	CGI
+•  CGI	:	Common	Gateway	Interface
+–  Des	outils	autres	que	PHP	peuvent	être	appelés	par	les
+<html>
+serveurs	web
+...
+–
+</html>
+  CGI	est	un	standard	pour	envoyer	les	requêtes	aux autres	outils,	et	lire	leurs	réponses
+page.xyz
+GET	page.xyz
+GET	page.xyz
+Hello
+CGI
+<html>
+Navigateur
+Serveur	Web
+<html>
+B
+Hello
+</html>
+</html>
+CGI
+Apache
+page.xyz
+page.xyz
+
+
+
+
+
+Objectifs	du	cours	:
+
+Création	d’un	site	Web	dynamique
+PHP
+
+
+
+
+
+PHP
+•  PHP	est	un	langage	de	programmation	utilisé	pour	la construction	de	sites	Web	dynamiques
+–  Pages	PHP	:	pages	Web	qui	contiennent	de	PHP
+•  On	va	mélanger	le	PHP	au	code	HTML	/	CSS
+•  Le	code	PHP	va	être	analysé	par	le	serveur
+•  Le	résultat	va	être	une	nouvelle	page	Web	mise	à	jour automatiquement	par	le	code	PHP
+coursPHP-1.php
+<html>	...
+Le	code	PHP	est	à
+	 <?php
+l’intérieur	de	la	balise
+date_default_timezone_set("Europe/Paris");
+<?php	 	 ...	 	 ?>
+ou	entouré	par	la	balise
+echo	"<p	style='font-style:	italic;'>	Paris,	le	"
+<script	language="php">
+.date('d	/	m	/	Y'). "</p>" ;
+...	</script>
+	?>
+...	</html>
+
+
+
+
+
+PHP
+PHP	:	Php	Hypertext	Preprocessor.
+
+Ø Langage	interprété	pour	créer	des	sites dynamiques
+Ø Langage	de	script	côté	serveur
+Ø Langage	faiblement	typé
+Ø Langage	«	Embedded	HTML	»
+Ø Open	source	:	PHP	a	permis	de	créer	un	grand nombre	de	sites	web	célèbres,	comme
+Facebook,	Wikipédia,	etc.
+
+
+
+
+
+
+Commandes	PHP	de	base
+•  Variables
+•  Types
+•  Opérateurs
+•  Fonctions
+•  echo,	gettype,	unset
+
+
+
+
+
+Installation	et	configuration	de	PHP
+Il	suffit	de	télécharger	la	suite	logiciele	:
+
+•  WAMP	:	http://www.wampserver.com/
+
+•  MAMP	:	http://www.mamp.info/
+
+•  XAMPP	:	https://www.apachefriends.org/fr/
+Et	un	éditeur	de	texte	:
+•  Sublim	Text	(macOs):	http://www.sublimetext.com/2
+•  Notepad++	(Windows)	:	https://notepad-plus-plus.org/fr/
+•  Autres	(Linux/BSD/UNIX)	:	emacs,	vim,	nano,	gedit,	...
+
+
+
+
+
+Introduction	au	PHP
+Syntaxe	de	base	:
+<!DOCTYPE	HTML	PUBLIC	"-//W3C//
+< !doctype	html>
+DTD	HTML	4.01//EN"	"http://
+< html>
+www.w3.org/TR/html4/strict.dtd">
+< head>
+< title> Titre</title>
+</head>
+< body>
+<? php	echo	" Hello	World	! " ; 	?>
+</body>
+</html>
+
+
+
+
+
+Commentaires	PHP
+Commentaires	:
+
+Commentaires	hérités	du	langage	C	et	Perl
+//	Ceci	est	un	commentaire	sur	une	seule	ligne
+/*	Ceci	est	un	commentaire	sur	plusieurs	lignes
+*/
+
+Commentaire	style	shell
+#	Ceci	est	un	commentaire	sur	une	seule	ligne
+
+
+
+
+Variables	PHP
+•  La	notion	de	variable
+– Une	variable	est	un	conteneur	de	valeur
+– On	peut	lui	affecter	une	valeur,	qu’on	va	utiliser plus	tard
+$variable	 	 =	 	 "PHP5"	; Le	«	$	»	indique
+une	variable
+
+Le	«	=	»	est	une	affectation
+
+On	attribut	une	valeur	à	la
+Le	nom	de	variable
+variable
+commence	toujours	par
+
+une	lettre	ou	un	«	_	», sans
+echo	"...	$variable		..."	;
+espace
+
+On	récupère	la	valeur
+gardée	dans	la	variable	par
+son	nom
+
+
+
+
+
+Variables	PHP
+•  La	notion	de	variable	:	les	types	des	données
+–  Les	variables	peuvent	garder	de	valeurs	de	différents	types
+•  Nombres	entiers	(integer)	:	25
+•  Nombres	décimaux	(double	ou	float)	:	2.25
+•  Chaînes	de	caractères	(string)	:	«	1	super	chaîne	!	»
+•  Logique	(boolean)	:	«	true	»	(1)	ou	«	false	»
+–  La	fonction	gettype($variable)	permet	de	savoir	quelle	type de	valeur	contient	la	variable
+
+•  $entier	=	25;
+gettype($entier)	->	integer
+
+•  $decimal	=	2.25;
+gettype($decimal)	->	double
+
+•  $chaine	=	"1	super	chaîne	!";
+gettype($chaine)	->	string
+
+•  $bool	=	true;
+gettype($bool)	->	boolean
+
+
+
+
+
+Variables	PHP
+•  Exemple	:
+<?php
+Définition	d’une
+	$entier	=	25;
+variable
+							$decimal	=	2.25;
+	 	 	 	$chaine	=	"1	super	chaîne	!";
+							$boolean	=	true;
+
+echo	"<li>"	. gettype($entier)	.	":	$entier	</li>" ; echo	"<li>"	. gettype($decimal)	.	":	$decimal	</li>" ; echo	"<li>"	. gettype($chaine)	.	":	$chaine	</li>" ; echo	"<li>"	. gettype($boolean)	.	":	$boolean	</li>" ;
+	 ?>
+Valeur	de	chaque
+On	récupère	la
+gettype()
+variable
+valeur	de	la	variable
+informe	le	type
+$boolean
+de	la	variable
+
+
+
+
+
+Types	de	données	PHP
+Opérateur	sur	les	chaînes	de	caractères	:
+–	concaténation	:	chaine1	.	Chaine2
+Opérateurs	logiques	:
+•	AND	ou	&&	(vrai	si	$a	et	$b	vrais)
+•	OR	ou	||	(vrai	si	$a	ou	$b	sont	vrais)
+Opérateurs	arithmétiques	:
+•	addition	:	$a 	$b,
+•	soustraction	:	$a	-	$b,
+•	multiplication	:	$a	*	$b,
+•	division	:	$a	/	$b,
+•	modulo	(reste	de	la	division	entière)	:	$a	%	$b.
+
+
+
+
+
+
+Types	de	données	PHP
+Opérateurs	arithmétiques	:
+•	Attention	:	lorsqu’une	chaine	de	caractère	est	évaluée comme	une	valeur	numérique,	les	règles	suivantes s’appliquent	:
+•	$toto	=	1 	"4.5"	;	#	$toto	vaut	5.5
+•	$toto	=	1 	"titi 	149"	;	#	$toto	vaut	1	car	la	chaine vaut	0	si	c’est	du	texte	ou,
+•	$toto	=	1 	"149 	titi"	;	#	$toto	vaut	150	car	la	chaine vaut	149	(commence	par	une	valeur	numérique).
+
+
+
+
+
+Types	de	données	PHP
+Opérateurs	de	comparaison	:
+•	égal	à	:	$a	==	$b
+•	différent	de	:	$a	!=	$b
+•	supérieur	à	:	$a	>	$b
+•	inférieur	à	:	$a	<	$b
+•	supérieur	ou	égal	à	:	$a	>=	$b
+•	inférieur	ou	égal	à	:	$a	<=	$b
+Exemple	:	echo	$toto	==	0	?	"Vrai"	:	"Faux"	;
+
+
+
+
+Opérateurs	PHP
+•  Opérateurs
+–  Différents	opérateurs	permettent	de	manipuler	des valeurs,	qu’ils	soient	dans	les	variables	ou	pas Opérateurs
+Opérateurs
+Opérateurs	de
+Opérateurs	logiques
+mathématiques
+String
+comparaison
++		 	 -	 	*		 /	 	 	 %
+.
+
+==		 	 	 	!=
+||	 (OR)
+(concaténation)	 <=		 	 	<		 	 	 	 >=		 	 	 	>		 	 	 	 &&	(AND)
+!	( not)
+	<?php
+	$a	=	2 	3	;
+
+
+	$b	=	4	-	$a	;
+$nom	=	"Toto”;
+echo	"Salut	"	.	$nom; echo	"<p>	4	-	 $a	vaut	 $b	 </p>";
+	 ?>
+
+
+
+
+
+Fonctions	PHP
+Date
+Déclaration	avec	:
+•	DATETIME
+$date	=	new	DateTime('2000-01-05');
+•	DATE_CREATE	:	un	Alias	de	DateTime::__construct() $date2	=	date_create('2000-01-01');
+
+Extraction	du	Mois,	année	,	......	:
+Avec	style	procédural	en	utilisant	DATE_FORMAT
+echo	date_format($date,	"m"); Avec	style	orienté	objet	(OO)	:
+echo	$date->format('Y');
+
+
+
+
+
+Fonctions	PHP
+Date
+
+Exemples	:
+
+•	$date=date(	"d-m-y	");
+	echo	"	ceci	est	la	date	du	jour	"	.$date	;
+
+•	$heure	=	date("h:i:s");
+echo		"c'est	l’heure	du	jour	"	.$heure	;
+
+
+
+
+Tableaux	PHP
+•  Tableaux
+–  Variables	capables	d’enregistrer	plusieurs	valeurs	d’un	type
+•  Tableaux	à	indice	:
+Attention	a	définir	toutes
+–  Chaque	position	est	identifiée	par
+les	positions	avant	de	les
+un	numéro	(commençant	par	0)
+utiliser	ou	il	y	aura	une
+•
+message	d’erreur.
+
+  $tableau	[0]	=	"A";
+•  $tableau	[1]	=	"B";
+•  $tableau	[3]	=	"Fin";
+•
+A	 B
+Fin	 Suite
+  $tableau	[	]	=	"Suite";
+•  Tableaux	associatifs	:
+0	 1	 2
+3
+4
+–  Chaque	position	reçoit	un	identifiant	(un	label)	 Jean	 Dupont
+•  $tableauAssoc	[" Prenom"]	=	"Jean";
+•
+Prenom	 Nom
+  $tableauAssoc	[" Nom"]	=	"Dupont"	;
+
+
+
+
+Tableaux	PHP
+Les	tableaux	de	PHP	ressemblent	aux	tableaux	associatifs	( hash-
+tables).
+
+
+•	L’index	est	appelé	 clé
+•	La	valeur	associée	à	la	clé	est	appelée	 valeur
+
+On	déclare	un	tableau	de	deux	façons	:
+
+•	Utiliser	la	fonction	array()	pour	créer	un	tableau
+•	Ou	affecter	directement	les	valeurs	au	tableau
+
+
+
+
+
+PHP
+Message	d’erreur	car	le
+<head>		...
+contenu	de	la	position	2
+<style>...	</style>
+(	$tableau[2]	)	n’a	pas
+</head>
+été	défini	auparavant.
+
+<body>		...
+<h2>Tableaux	à	indice	</h2>
+<table>
+<?php
+							$tableau	[0]	=	"A";
+							$tableau	[1]	=	"B";
+							$tableau	[3]	=	"Fin"; Contenu	de	la
+							$tableau	[]	=	"Suite"; position	4
+
+(	$tableau[4]	)
+							echo	" <tr>	<td> ".	$tableau[0]	.	" </td>	<td> ".		$tableau[1]
+												.	" </td>	<td> "	.	$tableau[2]	.	" </td><td> "	.	$tableau[3]
+												.	" </td><td> "	.	$tableau[4]		.	" </td></tr> "	;
+		?>
+</table>
+...
+
+
+
+
+
+Tableaux	PHP
+...
+<h2>Tableau	associatif	</h2>
+<table>
+<tr>	<th>	Nom	</th>	<th>Prénom	</th>	</tr>
+
+	<?php
+							$tableauAssoc	["Prenom"]	=	"Jean"; 							$tableauAssoc	["Nom"]	=	"Dupont"	;
+
+							echo	"<tr>	<td>"	.	 $tableauAssoc	["Nom"]	.	"</td>"	; 							echo	"<td>"	.	$tableauAssoc	["Prenom"]	.	"	</td></tr>"	;
+	 	 ?>
+
+</table>
+</body>
+
+
+
+
+
+Tableaux	PHP
+Fonctions	sur	les	tableaux	:
+
+•	sizeof()	:	retourne	le	nombre	d’éléments	d’un	tableau,	ou
+
+•	count()	:	retourne	le	nombre	d’éléments	d’un	tableau	s’il	existe, 1	si	la	variable	n’est	pas	un	tableau	et	0	si	la	variable	n’existe	pas.
+
+
+
+
+
+
+Tableaux	PHP
+Exemple:
+
+•	$suite	=	array(1,	2,	3,	4)	;
+•	$tab[0]	=	1	;
+•	$tab[1]	=	"toto"	;	#	on	peut	mélanger	les	contenus
+•	$tab["chaine"]	=	"	valeur"	;	#	on	peut	mélanger	les	clés.
+
+•	$personne	=	array("type"	=>	"M.",	"nom"	=>	"Smith")	;
+
+
+
+
+
+Tableaux	PHP
+Parcourir	un	tableau	:
+<?php
+//	On	crée	notre	array	$prenoms
+$prenoms	=	array	('François',	'Michel',	'Nicole',	'Véronique',
+'Benoît');
+//	Puis	on	fait	une	boucle	pour	tout	afficher	: for	($numero	=	0;	$numero	<	5;	$numero++)
+{
+	echo	$prenoms[$numero]	.	'<br	/>';
+}
+?>
+
+
+
+
+
+Tableaux	PHP
+Parcourir	un	tableau	:
+<?php
+
+$prenoms	=	array	('François',	'Michel',	'Nicole',	'Véronique',
+'Benoît');
+foreach($prenoms	as	$id	=>	$valeur)
+{
+	 echo	"Case	($id)	=	$valeur";
+}
+?>
+
+
+
+
+
+Tableaux	PHP
+Parcourir	un	tableau	associatif	:
+<?php
+$personne	=	array("type"	=>	"M.",	"nom"	=>	"Smith")	; foreach($personne	as	$cle	=>	$valeur)
+{
+	 echo	"cle="	.$cle	.“	valeur=	"	.	$valeur	;
+}
+?>
+
+
+Développement	Web	–	PHP
+Cours	2
+
+
+Rappels
+Base	de	Données
+Navigateur
+Serveur	Web
+Serveur	d’Application
+Front	Office
+Back	Office
+
+
+Rappels
+Navigateur
+Serveur	Web	&
+Base	de	Données
+Apache
+Front	Office
+Back	Office
+Rappels
+•  WAMP/MAMP/LAMP/XAMP	:
+– Windows/Mac/Linux/Unix
+– Apache	=	Serveur	Web
+– MySQL	=	Base	de	Données
+– PHP	=	Préprocesseur	des	pages	web
+
+
+Rappels
+•  Communications	entre	«	navigateur	web	»	et
+«	serveur	web	»	se	font	avec	protocole	HTTP
+GET	page.htm
+<html>
+http://monsite.fr/page.htm
+Coucou
+(GET	page.htm)
+</html>
+Coucou
+page.htm
+Navigateur
+Serveur	Web
+Protocole	pour
+transmettre	les
+Apache
+informations	:
+HTTP
+
+
+Rappels
+•  PHP	est	une	extension	à	côté	de	Apache
+–  Apache	configuré	pour	appeler	PHP	lorsqu’il voit	passer	une	requête	terminant	par	«	.php	»
+–  PHP	traite	le	fichier	en	question,	et	produit une	réponse	renvoyée	par	Apache
+
+<html>
+<?php
+echo	"B";
+?>
+</html>
+
+page.php
+GET	page.php
+GET	page.php
+B
+<html>
+Navigateur
+Serveur	Web
+<html>
+B
+B
+</html>
+</html>
+Apache
+page.php
+page.php
+
+
+Caractéristiques	PHP
+•  Langage	faiblement	typé
+– Beaucoup	plus	flexible...
+– ...mais	possibilité	de	faire	n’importe	quoi
+•  Langage	interprété	 //	Sur	le	terminal	de	Linux
+– CLI	disponible	pour	scripts	 //	Command	Line	Interface
+•  Usage	dans	ce	cours	:	extension	apache
+
+
+Rappel	:	Formulaires	HTML
+•  Communication	entre	le	client	(navigateur)	et	le serveur	(php)
+– Les	formulaires	en	HTML	permettent	de	recueillir	des données	auprès	de	l’utilisateur
+•  Les	données	sont	ensuite	communiquées	à	un	programme
+– Le	navigateur	envoie	les	données	récoltées	par	les formulaires	au	serveur
+•  Le	programme	(page	PHP)	récupère	les
+données	grâce	à	des	variables
+Page
+PHP
+
+
+Rappel	:	Formulaires	HTML
+•  Un	formulaire	HTML	est	défini	par	la	balise
+	<form	...>	...	</form>
+–  Tous	les	éléments	sont	à	l’intérieur	de	la	balise
+<form		name=" nomFormulaire"
+	action=" page.php"			method="get	|	post"	>		....	</form>
+	action	:	à	qui	on	envoie	les	données
+	method:	comment	on	envoie	les	données
+–  Les	champs	du	formulaire	sont	introduits	par	différents balises	:
+•  < input	type="..." name="..." value="...	"	id="..."	/>
+•  < textarea	name="..."	 id="..." cols="..." rows="..."	>	...	 </textarea>
+•  < select	name="..."	 id="..."	size="...	"	>
+< option	value="...	"	>	...	</option>		 </select>
+
+
+Rappel	:	Formulaires	HTML
+<input	type="text"	name="nomClient"
+	 	 	 	 	 	 	value="votre	nom"
+	 	 	 	 	 	 	size="40"	maxlength="150"	/>
+
+	<select	name="produit">
+	 	 	 	<option	value="SuperKdo">
+	Super	Kdo					</option>
+							...
+</select>
+
+<textarea	name="opinionClient"
+	 	 	 	 	 	 	 	 	 	cols="40"	rows="5"	>
+										 Votre	opinion	sur	nos	produits
+	</textarea>
+
+<input	type="reset"	 value="Nettoyer"	/>
+
+<input	type="submit"	value="Envoyer" />
+
+input	type="submit" se	charge	d’envoyer	les	données	du formulaire
+
+
+Rappel	:	Formulaires	HTML
+À	qui	les données	sont envoyées
+input	type="text" Zone	de	saisie
+select	...	option Liste	de	sélection d’options
+textarea Zone	de	texte
+input	type="submit" Input	type="reset" Boutons	d’envoi	et	de reset	du	formulaire
+
+<form	name="formClient"	action="coursPHP-7.php"	method="POST"	>
+<label	for="nom"> Nom</label>
+<input	type="text"	id="nom"	name="nomClient"
+ 	 	 	 value="votre	nom"	size="40"	maxlength="150"	/> 	<br/>
+
+	<label> Produit</label>
+
+	 	 	 	<select	name="produit">
+	 	 	 	 	 	 <option	value="SuperKdo"> Super	Kdo</option>
+<option	value="MegaTruc"> Mega	Truc</option>
+	 	 	 	 	 	 	<option	value="BabyFun"> Baby	Fun</option>
+</select> <br/>
+	<label> Opinion</label>
+<textarea	name="opinionClient"	cols="40"	rows="5"	> Votre	opinion	sur	nos	produits	</textarea>
+<br/>
+
+<input	type="submit"	value="Envoyer" class="bouton" />
+<input	type="reset"	 value="Nettoyer" class="bouton" />
+	 </form>
+
+Communications	Client	-	Serveur
+
+•  2	méthodes	génériques	d’envoi	de	données	:
+–  GET	:	(Query	String)
+Valeurs	passées	via	l’URL	par	le	navigateur
+[valeurs	lisibles	dans	l’en-tête	et	dans	les	logs	d’accès]
+•  http://monsite.fr/mapage.php?var=truc&nom=moi
+–  POST	:
+On	remplit	un	formulaire,	et	le	navigateur	envoie	le formulaire	dans	le	«	body	»	de	la	requête	HTTP
+[valeurs	lisibles	si	le	«	body	»	de	la	requête	est	accessible]
+•  http://monsite.fr/mapage.php
+Communications	Client	-	Serveur
+•  Les	données	recueillies	dans	le	formulaire	sont transmises	au	programme	indiqué	dans	action=...
+•  Dans	PHP,	on	récupère	ces	données	grâce	à	deux tableaux	associatifs	spéciaux
+– $_GET ->		 <form	action="..." method="get" >
+•  $_GET["nom"]
+<input	...	name="nom"	/>
+
+– $_POST ->		 <form	action="..." method="post" >
+•  $_POST["nom"]
+<input	...	name="nom"	/>
+
+
+Communication	C/S	:	GET
+1.  Client	envoie	des	données	OU	clique	sur	un	lien	prévu
+2.  Apache	récupère	et	analyse	la	requête
+3.  Apache	crée	des	tableaux	contenant	les	valeurs et	les	envoie	à	PHP
+GET	page.php
+GET	var=42
+GET	:
+http://site.fr/page.php?var=42
+var=42
+GET	/page.php?var=42
+<html>
+Coucou
+</html>
+Navigateur
+Serveur	Web
+page.php
+Apache
+Communications	C/S	:	GET
+•  URL	de	la	requête	contient	les	valeurs
+– Formulaire	passé	par	l’URL
+– Construction	de	sa	propre	URL	:
+
+<a	href="http://monsite.fr/page.php?var=bla&x=42&y=0">Lien</a> page.php
+la	page	qui	traitera	la	requête
+var
+contient	«	bla	»
+x
+contient	42
+y
+contient	0
+«	?	»	sépare	l’adresse	de	ressource	des	données
+«	&	»	sépare	chaque	donnée	(champs/valeur)
+
+
+Communications	C/S	:	GET
+•  Méthode	GET
+–  Les	données	sont	envoyées	dans	l’URL	du	programme
+–  Limitée	à	256	octets	 	<form	name="formGet"
+–  Déconseillé
+
+	action="coursPHP-8.php"
+
+	method="GET">
+<label>Nom</label>
+<input	type="text"	name="client"	size="20"	/> 	<br/>
+<label>Mot	de	passe	</label>
+	 	 <input	type="password"	name="mdp"	size="10"/>
+<br/>
+<input	type="submit"	value="Envoyer"	/>
+	</form>
+<?php
+echo	"<p>Bienvenue,	<i>". $_GET["client"]	.	"</i>	!	</p>";
+?>
+
+
+
+
+Communications	C/S	:	GET
+1	-	On	lance	un	programme qui	écoute	les	requêtes envoyées	sur	notre	propre machine	(localhost),	sur	le port	5000
+2	-	On	crée	un	formulaire qui	enverra	les	données avec	la	méthode	GET,	vers une	page	de	notre	machine sur	le	port	5000
+
+Communications	C/S	:	GET
+3	–	On	remplit	le formulaire	avec	des valeurs,	puis	on	clique	sur «	Envoyer	»
+4	–	Le	navigateur	envoie une	requête	GET	au serveur	(localhost)	avec l’ensemble	des	variables dans	l’URL
+
+Communications	C/S	:	GET
+5	–	Depuis	le	programme «	serveur	»	on	écrit	une réponse
+6	–	Le	navigateur	récupère	une réponse,	il	considère	donc	qu’il	s’agit de	la	ressource	visée	par	cette	URL avec	ces	variables	et	valeurs
+6	–	Le	navigateur commence	à	récupérer	la réponse
+
+
+Communications	C/S	:	GET
+7	–	Depuis	le	programme «	serveur	»,	on	termine	la	réponse (Ctrl 	D)/ferme	la	connexion
+8	–	Le	navigateur	voit	la connexion	se	fermer,	il	considère que	les	données	qu’il	a	récupéré constitue	la	réponse	entière,	il l’affiche
+
+
+Communications	C/S	:	GET	(logs)
+1	–	On	va	regarder	les	«	logs	»	de apache	(les	journaux	enregistrant toutes	les	transactions	que	le serveur	web	a	traité)
+2	–	Le	navigateur	demande	la page	contenant	le	formulaire	au serveur
+3	–	Le	navigateur	envoie	le	formulaire par	l’URL...	on	voit	toutes	les	valeurs dans	la	requête	GET	enregistrée
+
+
+Communication	C/S	:	POST
+1.  Client	rempli	formulaire	puis	déclenche	une	requête
+2.  Apache	récupère	et	analyse	la	requête
+3.  Apache	crée	des	tableaux	contenant	les	valeurs et	les	envoie	à	PHP
+GET	page.php
+POST	Name=Flo
+POST	:
+http://site.fr/page.php
+Name=Flo
+POST	Name=Flo
+Name	:
+Flo
+<html>
+Coucou
+</html>
+Navigateur
+Serveur	Web
+page.php
+Apache
+
+
+Communication	C/S	:	POST
+<form	name="formClient"	action="coursPHP-7.php"
+
+															method="POST"	>
+<label	for="nom">Nom</label>
+<input	type="text" id="nom"
+																name="nomClient"	 value="votre	nom"
+																size="40"	maxlength="150" /> 	<br/>
+...
+<?php
+			$nom	=	$_POST["nomClient"];
+	 	$op	=		$_POST["opinionClient"];
+			$prod	=	$_POST["produit"];
+echo	"<p>Merci	de	votre	participation, $nom	!	</p>";
+ 		echo	"<p>Votre	produit	est	:	<i> $prod	</i>	</p>";
+ 		echo	"<p>	Votre	opinion	est	:	<i> $op	</i>	</p>";
+?>
+
+
+Communication	C/S	:	POST	 -	HTML
+• Exemple
+<form	name="..."	action="coursPHP-9.php"	method="POST">
+<fieldset>
+ 	 			<legend> Vos	données	</legend>
+<label	>...</label>		< input	type="text"	name="nom" ...	 />	<br/>
+<label	>...</label>		< input	type="email"	name="email"...	/><br/>
+	 <input	type="radio"	name="sexe"	value="Homme"	/> Homme
+<input	type="radio"	name="sexe"	value="Femme"	/> Femme<br/>
+	</fieldset>
+<fieldset>		<legend> Vos	produits	</legend>
+<label>...</label>
+	 	<select	name="produit">
+	 	 	 	<option	value="SuperKdo">...</option>
+<option	value="MegaTruc">	Mega	Truc</option>
+	 	 	 	<option	value="BabyFun">	...	</option>
+</select> <br/>
+<label>...</label>
+		<textarea	name="opinion"	...	 >	...	</textarea>
+</fieldset>
+
+
+Communication	C/S	:	POST	-	PHP
+•  Exemple
+<body>
+<h1>Récapitulatif	</h1>
+<ul>
+<?php
+						echo	"<li>	Nom	:	"	.	$_POST["nom"]	.	"</li>"	;
+ 						echo	"<li>	Email	:	"	.	$_POST["email"]	.	"</li>"	;
+ 						echo	"<li>	Sexe	:	"	.	$_POST["sexe"]	.	"</li>"	;
+ 						echo	"<li>	Produit	préféré	:	"	.	$_POST["produit"]	.	"</li>"	;
+ 						echo	"<li>	Suggestion	:	"	.	$_POST["opinion"]	.	"</li>"	;
+?>
+</ul>
+</body>
+
+Communication	C/S	:	POST
+1	-	On	lance	un	programme qui	écoute	les	requêtes envoyées	sur	notre	propre machine	(localhost),	sur	le port	5000
+2	-	On	crée	un	formulaire qui	enverra	les	données avec	la	méthode	POST, vers	une	page	de	notre machine	sur	le	port	5000
+
+Communication	C/S	:	POST
+3	–	On	remplit	le formulaire	avec	des valeurs,	puis	on	clique	sur «	Envoyer	»
+4	–	Le	navigateur	envoie	une requête	POST	au	serveur (localhost)	en	visant	la ressource	/index.php,	et	en incluant	l’ensemble	des variables	dans	le	corps	(body) de	la	requête	HTTP
+
+Communication	C/S	:	POST
+5	–	Depuis	le	programme «	serveur	»	on	écrit	une réponse
+6	–	Le	navigateur	récupère	une réponse,	il	considère	donc	qu’il	s’agit
+6	–	Le	navigateur d’une	réponse	possible	accessible	à commence	à	récupérer	la cette	URL	lorsque	l’on	envoie	des réponse données	en	POST
+
+
+Communication	C/S	:	POST
+8	–	Le	navigateur	voit	la connexion	se	fermer,	il	considère que	les	données	qu’il	a	récupéré constitue	la	réponse	entière,	il l’affiche
+7	–	Depuis	le	programme «	serveur	»,	on	termine	la	réponse (Ctrl 	D)/ferme	la	connexion
+
+Communications	C/S	:	POST	(logs)
+1	–	On	va	regarder	les	«	logs	»	de apache	(les	journaux	enregistrant toutes	les	transactions	que	le serveur	web	a	traité)
+2	–	Le	navigateur	demande	la page	contenant	le	formulaire	au serveur
+3	–	Le	navigateur	envoie	le	formulaire	en POST,	on	ne	voit	aucun	nom	de	variable	ni valeur	dans	les	logs	d’apache	!
+
+Statuts	HTTP
+•  Une	requête	envoyée	=	une	réponse	reçue
+•  Réponses	HTTP	de	5	types	(officiels)	:
+– 1xx	:	informationnelle
+– 2xx	:	succès
+– 3xx	:	redirection
+– 4xx	:	erreur	côté	client		//	404	:	url	n’existe	pas
+– 5xx	:	erreur	côté	serveur
+–  [autres	erreurs	sont	liées	au	serveur	web	utilisé]
+Statuts	HTTP	:	classiques
+200
+OK
+La	requête	a	bien	été	reçue,	comprise,	et	exécutée 301
+308	 Permanent	Redirect	 La	ressource	a	été	définitivement	déplacée	à	une autre	URL
+302
+307	 Temporary	Redirect	 La	ressource	est	temporairement	déplacée	à	une autre	URL
+403
+Forbidden
+La	requête	est	correcte,	mais	le	client	n’a	pas	le droit	de	demander	au	serveur	de	faire	cette	action 404
+Not	Found
+La	ressource	visée	par	l’URL	n’a	pas	été	trouvée
+500	 Internal	Server	Error	 Erreur	générique/non	spécifique...	le	serveur	web	a échoué	quelque	chose	à	un	moment
+502
+Bad	Gateway
+Le	serveur	web	visé	n’arrive	pas	à	contacter	le
+serveur	qui	traite	la	requête	envoyée
+
+Statuts	HTTP	:	200
+
+Statuts	HTTP
+1	–	On	envoie	une	requête au	serveur	«	localhost	»	sur le	port	8888,	en demandant	la	ressource	‘/’
+2	–	Apache	répond	dans	l’en-tête	de	la	réponse	HTTP	que tout	va	bien	(OK)	:	code	200
+2	–	Apache	envoie	la page	web	demandée dans	le	corps	(body) de	la	réponse
+
+Statuts	HTTP	:	404
+
+Statuts	HTTP
+1	–	On	envoie	une	requête au	serveur	«	localhost	»	sur le	port	8888,	en demandant	une	ressource qui	n’existe	pas
+2	–	Apache	répond	dans	l’en-tête	de la	réponse	HTTP	que	la	ressource	n’a pas	été	trouvée	:	code	404
+2	–	Apache	envoie	dans	le	corps	de	la réponse	HTTP	une	page	web	détaillant l’erreur	au	client	(au	format	HTML pour	que	le	client	puisse	la	lire)
+
+Statuts	HTTP	:	400
+
+Statuts	HTTP
+1	–	On	envoie	une	requête incorrecte	(protocole inexistant)	au	serveur «	localhost	»	sur	le	port 8888
+2	–	Apache	répond	dans	l’en-tête	de	la	réponse HTTP	que	la	requête	est	incorrecte	(elle	ne respecte	pas	les	standards	qu’il	connait)
+2	–	Apache	envoie	dans	le	corps	de	la réponse	HTTP	une	page	web	détaillant l’erreur	au	client	(au	format	HTML pour	que	le	client	puisse	la	lire)
+PHP	:	Contrôle	de	Flot
+•  Instructions	de	contrôle
+– Instructions	pour	gérer	le	flot	d’exécution
+– Instructions	conditionnelles
+•  elles	conditionnent	l’exécution
+•  Semblables	à	un	nœud	de	Décision	(diagramme	activités)
+•  if...	else	...,	switch	...	case	...
+– Instructions	de	boucle
+•  elles	permettent	la	répétition	d’un	bloc	d’instructions
+•  for	...		,	foreach	...	,	while	...	,	do...	while
+
+
+PHP	:	if	...	else	...
+•  Instructions	conditionnelles		if	...	else...
+if	(	 condition	)
+{				 bloc	d’instructions	si	vrai	; }
+else
+{			 bloc	d’instructions	si	faux	;		}
+
+[	condition	VRAI	]
+Bloc d’instructions si	vrai
+optionnel
+[	sinon	]
+Bloc d’instructions si	faux
+
+if	(	$qte	>=	100)
+	{			$remise	=	0.10;	/*	remise	de	10	%	offerte	*/
+echo	"<p>Vous	avez	une	remise	de	10%	!	</p>";
+		}
+else	{
+...
+$remise	=	0.05;
+	echo	"<p>Vous	avez	une	remise	de	5%	</p>";
+
+
+
+PHP	:	if	...	else	...
+•  Instructions	conditionnelles		if	...	else...
+–  Les	données	pour	la	condition	peuvent	venir	d’un	formulaire
+
+formExemple11.html
+<form	name="..."	method="POST"
+	action="coursPHP-11.php" >
+...
+<select	name="prix">
+	<option	value="10">
+		Super	Kdo	-	10€		</option>
+...
+</select>
+...
+<input	type="number"	size="10"
+	name="qte"	/>
+...
+<input	type="submit"	value="Devis"	/>
+</form>
+
+
+coursPHP-11.php
+<?php
+$qte	=	$_POST["qte"];
+$prixunit	=	$_POST["prix"];
+$remise	=	0;
+
+if	(	$qte	>=	100)
+{			$remise	=	0.10; /*	remise	de	10	%	offerte	*/
+	echo	"<p>Vous	avez	une	remise	de	10%	!	</p>";
+}
+
+$prix	=		$prixunit	*	$qte
+		-	($prixunit	*	$qte	*	$remise);
+echo	" <p>	Pour	un	prix	de	<i> $prixunit	</i>
+ 	 	 	 l'unité	 et		<i> $qte	</i>	unités,	vous	avez	à
+ 	 	 	 régler	<i> 	$prix	</i></p>";
+?>
+
+
+
+PHP	:	if	...	else	...
+<form	name="..."	method="POST"
+action="coursPHP-11.php" >
+<label>Produit	:	</label>
+<select	name="prix">
+<option	value="10"	> Super	...	</option>
+...		</select> 					<br/>
+<label	>Quantité	:	</label>
+<input	name="qte"	type="number"
+		size="10"	/> 		<br/>
+<input	type="submit"	value="Devis"	/>
+</form>
+
+<?php
+$qte	=	$_POST["qte"];
+$prixunit	=	$_POST["prix"];
+				$remise	=	0;
+....
+	if	(	$qte	>=	100)
+{			$remise	=	0.10;
+	echo	"<p>Vous	avez	....	</p>";
+}
+...	?>
+
+
+
+
+PHP	:	if	...	elseif	...	else	...
+•  Instructions	conditionnelles		if	...	else	...
+–  Les	blocs	if	...	else	...	peuvent	contenir	n’importe	quelle instruction,	y	compris	d’autres	blocs	if	...	else	...
+if	(	 condition1	)
+{				 bloc	d’instructions	si	condition1	vraie	; }
+elseif	(condition2)
+{			 bloc	d’instructions	si	condition2	vraie	;		}
+else
+{			 bloc	d’instructions	si	les	conditions	sont	fausses	;		}
+
+
+<form	name="..."	method="POST"
+	action="coursPHP-12.php" >
+...
+<select	name="prix"> 	...		</select>
+...
+<input	type="number"	...	name="qte"/>
+...
+<input	type="submit"	value="Devis"	/>
+</form>
+
+<?php
+$qte	=	$_POST["qte"];
+			$prixunit	=	$_POST["prix"];
+
+	if	(	$qte	>=	100)
+	 {	 	 $remise	=	0.10	;	 }
+	elseif	(	$qte	>=	50	)
+	{	 	 $remise	=	0.05	;	 }
+	else
+	{	 	 $remise	=	0	;	 	 	 	}
+	$prix	=		$prixunit	*	$qte
+			-	($prixunit	*	$qte	*	$remise)	;
+
+echo	" <p>	Prix	unitaire	:	<i> $prixunit	</i>,
+				Quantité	:	<i> $qte	</i>,
+				Remise	:	<i>"	. $remise*100	.	"</i>	%	</p>"	;
+echo	 "<p><i>Total	à	régler	:	</i>
+ 	 	<b> $prix	</b></p>"; 44
+?>
+
+
+
+PHP	:	for	...
+•  Instructions	de	boucle	:	for
+–  La	boucle	for	permet	de	répéter	(un	certain	nombre	de	fois) l’exécution	d’un	bloc	d’instructions
+for	(	 initialisation	; condition	; incrémentation	)
+						{		 bloc	d’instructions	à	répéter	;		}
+
+$i	=	1
+[	i	<=	6	]
+echo	...
+i++
+[	else	]
+la	suite...
+
+$i++ ->	$i	= $i +	1
+
+for	(	$i	=	1	; $i	<=	6	; $i++)
+{
+echo	"<h$i>	Titre	niveau	$i	</h$i>";
+}
+
+
+
+
+PHP	:	for	...
+•  Instructions	de	boucle	:	for
+<?php
+for	(	$i	=	1	;	$i	<=	6	;	$i++)
+{
+	echo	"<h$i>	Titre	niveau	$i	</h$i>";
+}
+?>
+
+
+
+PHP	:	while	...
+•  Instructions	de	boucle	:	while
+– La	boucle	while	permet	de	continuer	à	réaliser	un bloc	d’opérations	tant	qu’une	condition	soit	vraie
+
+$i	=	1
+[	i	<=	6	]
+echo	...
+$i	=	$i +	1	;
+[	else	]
+la	suite...
+
+$i	=	1	;
+while	(	$i	<=	6	)	{
+	echo	"<h$i>	Titre	niveau	$i	</h$i>";
+	$i	=	$i + 1;
+}
+
+
+
+
+PHP	:	while	...
+•  Instructions	de	boucle	:	while
+On	donne	une	valeur initiale	à	la	variable	$i
+Tant	que	$i	ne	dépasse pas	la	valeur	6
+On	met	à	jour	la	valeur de	la	variable	$i
+
+<?php
+	$i	=	1	;
+	while	(	$i	<=	6	)	{
+		echo	"<h$i>	Titre	niveau	$i	</h$i>";
+		$i	=	$i +	1;
+	}
+?>
+
+
+
+
+PHP	:	foreach	...
+•  Instructions	de	boucle	:	foreach
+– La	boucle	foreach	permet	de	répéter	un	bloc d’instructions	pour	chaque	valeur	dans	un	tableau
+
+$tableau
+[	reste-t-il	une valeur	?	]
+$titre	reçoit	la prochaine	valeur
+echo	...
+[	plus	de	valeur dans	le	tableau	]
+la	suite...
+
+foreach	($tableau	as	$titre	)	{
+	echo	"<$titre>	Titre	$titre
+ 	 	 	</$titre>";
+}
+
+
+
+
+PHP	:	foreach	...
+•  Instructions	de	boucle	:	foreach
+On	définit	un	tableau
+Pour	chaque	valeur dans	le	tableau
+
+<?php
+	$tableau	=	array("h1",	"h2",	"h3",
+						"h4",	"h5",	"h6");
+	foreach	($tableau	as	$titre	)	{
+		echo	"<$titre>	Titre	$titre
+	 	 	 	</$titre>";
+	}
+?>
+
+
+
+PHP	:	foreach	...
+•  Instructions	de	boucle	:	foreach
+– 	ça	fonctionne	aussi	pour	les	tableaux	associatifs
+On	définit	un	tableau associatif	:	clé	=>	valeur
+Pour	chaque	pair $clé	=>	$valeur dans	$tableau
+
+<?php
+$tableau	=	array	("nom"	=>	"Dupont"	,
+	"prenom"	=>	"Jean"	,
+	"adresse"	=>	"qq	part	à	Paris"	)	;
+
+foreach	($tableau	as	$cle=>$valeur)	{
+	echo	"<li> $cle	:		$valeur	</li>"	;
+}
+?>
+
+
+
+PHP	:	boucles
+•  Instructions	de	boucle	:	boucles	imbriquées
+– Il	est	possible	d’imbriquer	des	boucles	les	unes	dans les	autres
+<table>
+<?php
+	 	 	for	(	$lin	=	1	;	$lin	<=	9	;	$lin++)	 {
+echo	"<tr>	";
+	 	 	 	 	 	for	(	$col	=	1	;	$col	<=	9	;	$col++)	 {
+echo	"<td>	"
+	.	($col	*	$lin)	.	" </td>"	;
+}
+echo	"</tr>";
+					}
+?>
+</table>
+52
+
+
+Evaluation	des	Etudiants Date Type Description Binôme
+S05 (19/02)	 	[DM]	Devoir	Maison	 1	mini	projet	à	rendre	par	mail	(25/02	–	23h42)	 OUI
+S10 (02/04)	 [DST]	Devoir	sur	Table 1	examen	écrit	sans	document	ni	machine NON	 50%
+S12 (16/04) [PROJ]	Projet Présentation	du	projet OUI
+mai Partiel 1	examen	écrit	sans	document	ni	machine NON	 50%
+
+
+
+PHP	:	Fonctions
+•  Fonctions
+– PHP	offre	une	large	panoplie	de	fonctions
+•  Exemple	:	isset($var)		 	à	TRUE	si	$var	a	été	déclarée
+•  Exemple	:	empty($var)	à	TRUE	si	$var	est	vide	(ou	vaut	0)
+– On	peut	aussi	écrire	les	nôtres
+(même	en	dehors	des	classes)
+•  function	nomFonction	($paramètre	,	...	)	{		instructions	}
+	function	salutation	(	$nom	)	{
+echo	"<h1>Bienvenue,	$nom	!	</h1>"; echo	"<p	class=droite>Aujourd'hui,	nous	sommes	le	"	.date('d	/	m	/	Y').	"</p>"	;
+		}
+
+
+
+
+PHP
+
+...
+<form	name="..."	method="POST"
+	action="coursPHP-15.php"	>
+<label	>Nom	:	</label>
+<input	type="text"	name="client"
+	size="25"/>
+...
+<input	type="submit"	value="OK"	/>
+</form>
+
+<?php
+function		salutation	(	$nom	)	{
+	date_default_timezone_set("Europe/Paris");
+echo	"<h1>Bienvenue,	$nom	!	</h1>";
+echo	"<p	class=droite>Aujourd'hui..."
+	.	date('d	/	m	/	Y'). 	"</p>"	;
+}
+if	(	isset	($_POST["client"])	 	 	AND
+	!	empty	($_POST["client"])	)	 	 {
+		salutation	(	$_POST["client"]	)	;
+	}
+else	{				salutation	("cher	client")	;			}
+?>
+
+
+
+
+Visibilité	des	variables
+En	PHP	il	existe	3	niveaux	de	visibilité	d’une	variables	selon	le contexte	:
+•  Les	variables	superglobales	:	elles	sont	disponibles	n'importe où	dans	le	programme.
+
+•  Les	variables	globales	:	ce	sont	toutes	les	variables,	tableaux, objets	et	constantes	que	nous	créons	nous-même	dans	le programme	principal.	elles	ne	sont	généralement	visibles	que dans	le	programme	principal.
+
+•  Les	variables	locales	:	ce	sont	toutes	les	variables	d'une fonction	(paramètres	compris).	Leur	visibilité	n'est	que	locale, et	le	programme	principal	ne	peut	pas	agir	sur	ces	variables.
+
+Portée	des	variables	globales
+•  En	PHP,	une	variable	globale	peut	être	utilisée à	l’intérieur	d’une	fonction	sans	la	passer	en paramètre
+– Usage	du	mot	clé	«	global	»
+– La	variable	doit	être	déclarée	avec	«	global	»	dans chaque	fonction	où	cela	est	nécessaire
+
+
+Portée	des	variables	globales
+<?php
+$a	=	1;
+$b	=	2;
+function	somme()
+{
+	global	$a,	$b;
+	$b	=	$a 	$b;
+	echo	«		».$b;
+}
+somme();
+somme();
+?>
+
+On	a	déclaré	$a	et	$b	avec le	mot	clé	«	global	»	à l’intérieur	de	somme	pour qu’elles	soient	manipulées par	celle-ci.
+
+
+
+Portée	des	variables	globales
+•  Une	autre	méthode	pour	accéder	aux	variables globales	est	d'utiliser	la	superglobale	$GLOBALS	:
+<?php
+$a	=	1;
+$b	=	2;
+
+function	somme()
+{
+	$GLOBALS['b']	=	$GLOBALS['a'] 	$GLOBALS['b']; 	echo	$GLOBALS['b']	;
+}	?>
+
+
+Les	variables	superglobales
+•  Les	variables	superglobales	sont	générées automatiquement	par	PHP	:
+– elles	sont	disponibles	quel	que	soit	le	contexte	du script	 (même	à	l’intérieur	d’une	fonction	sans	être	passées en	paramètre	de	celle-ci)
+– elles	sont	écrites	en	majuscules	et	commencent,
+par	un	underscore	 «	_	»
+– elles	sont	généralement	des	tableaux	associatifs
+Les	variables	superglobales
+•  $GLOBALS	:	rassemble	les	variables	globales.
+
+•  $_ENV	:	ce	sont	des	variables	d'environnement	toujours	données par	le	serveur.
+
+•  $_SESSION	:	se	sont	des	variables	de	session.	Ces	variables	restent stockées	sur	le	serveur	le	temps	de	la	présence	d'un	visiteur.
+
+•  $_COOKIE	:	contient	les	valeurs	des	cookies	enregistrés	sur l'ordinateur	du	visiteur.
+
+•  $_GET	:	contient	les	données	envoyées	en	paramètres	dans	l'URL.
+
+•  $_POST	:	contient	les	informations	qui	viennent	d'être	envoyées par	un	formulaire.
+
+
+
+Les	variables	superglobales
+<html><head>
+<title>La	variable	$_SERVER</title>
+</head><body>
+<?php
+echo	'Nom	du	fichier	en	cours	d\'execution	'	.
+
+	'a	partir	de	la	racine	:	'	.	$_SERVER['PHP_SELF']; echo	'<br/>'	;
+echo	'Nom	de	la	racine	du	script	:	'	.	$_SERVER['DOCUMENT_ROOT']	; echo	'<br/>';
+echo	'Nom	du	client	HTML	:	'	.	$_SERVER['HTTP_USER_AGENT']	.	'<br>'; echo	'Nom	du	serveur	qui	execute	le	script	:	'	.	$_SERVER['SERVER_NAME']	; echo	'<br/><br/>';
+echo	'Votre	adresse	IP	est	:	'	.	$_SERVER['REMOTE_ADDR']	;
+?>
+</body></html>
+Fonctions	avancées
+•  Fonctions	avancées	PHP	(serveur)
+– ===,	isset,	empty,	is_nul
+– include,	require,	include_once,	require_once
+– ...
+
+•  Fonctions	avancées	HTTP	(client)
+–  header()
+
+
+PHP	:	Fonctions	avancées
+
+<?php
+$var1	=	42;
+$var2	=	"42";
+$var3	=	"42	 ";
+$var4	=	"	 	42";
+
+echo(($var1	==	$var2)."#");
+echo(($var1	==	$var3)."#");
+echo(($var1	==	$var4)."#");
+echo(($var1	===	$var2)."#");
+echo(($var1	===	$var3)."#");
+echo(($var2	==	$var3)."#");
+
+?>
+
+PHP	faiblement	typé	:
+==		 compare	les	valeurs
+===	compare	valeurs	ET	types
+
+TRUE	==	1
+FALSE	==	0
+
+1#	1#	1#	#	#	#
+
+
+
+PHP	:	Fonctions	avancées
+•  Importation	des	fichiers
+•  Incorporer	le	contenu	d’un	fichier	dans	une	page	PHP
+•  But	:	réutilisation	des	fichiers,	uniformisation	du	site
+– include	"fichier"	et		include_once		"fichier"
+•  include	remplace	la	ligne	par	le	contenu	du	fichier
+•  include_once	fait	ça	une	seule	fois	(même	dans	une boucle)
+– require	"fichier" et	require_once	"fichier"
+•  idem	include,	mais	si	le	fichier	n’existe	pas,	on	a	une erreur
+
+
+
+PHP	:	Fonctions	avancées
+<meta	charset="UTF-8"	/>
+...
+<title>Mon	site</title>
+<link	rel="stylesheet"
+		href="css/blocs.css"	/>
+
+<header>
+	<h1>Mon	site</h1>
+</header>
+<nav>
+<h2>Exemples	</h2>
+<ul>
+	<li>...</li>
+...
+</ul>
+</nav>
+
+<head> <?php
+		include_once	"head.html";
+		require	"mesfonctions.php"	;	?>
+</head>	<body>
+		<?php	include_once	"headerNav.html";			?>
+...
+		<?php
+				salutation	("cher	client")	;
+		?>
+<article>
+<h2>	News	</h2>
+<p>	...	 </p>
+</article>
+...
+
+<?php
+	function	salutation	(	$nom	)	{
+	echo	"<p	class=droite><b>Bienvenue,
+			$nom	!	</b></p>";
+	echo	"<p	class=droite>Aujourd'hui, nous	sommes	le	"
+			.date('d	/	m	/	Y'). "</p>"	;
+	}
+?>
+
+
+
+PHP
+include_once	"head.html"
+include_once	"headerNav.html";
+require	"mesfonctions.php"	;
+salutation	("cher	client")	;
+
+<head> ...
+				<title>Mon	site</title>
+				<link	rel="stylesheet"
+						href="css/blocs.css"	/>
+</head>
+<body>
+<header>		<h1>Mon	site</h1>	</header>
+<nav>
+<h2>Exemples	</h2>
+<ul>
+	 <li>...</li>
+		...
+	 </ul>
+</nav>
+<section>
+<p	class=droite><b>Bienvenue,	cher	client	!	</b></p><p class=droite>Aujourd'hui,	nous	sommes	le	22/	03	/	2014	</p>
+...
+
+
+
+
+PHP	:	Fonctions	avancées
+•  gettype($var)	:	retourne	le	type	de	la	variable
+•  addslashes()	:	ajoute	des	antislashs	devant	les caractères	spéciaux
+
+$res	=	addslashes("L'a");	//	retourne	 L\’a.
+
+
+•  strstr(texte,	chaineAchercher)	:	trouve	la	première occurrence	dans	une	chaîne
+$email	=	'name@example.com';
+$domain	=	strstr($email,	'@');
+echo	$domain;	//	Affiche	:	@example.com
+PHP	:	Fonctions	avancées
+•  htmlspecialchars	(chaine,	flags)	:	Conversion	des caractères	spéciaux	en	entités	HTML.
+
+Remplace	par	exemple	&	(ET	commercial)	en	 &amp;
+	 Un	exemple	de	flag	est	 ENT_QUOTES	 qui	Convertit	les guillemets	doubles	et	les	guillemets	simples.
+
+$str	=	"This	is	some	<b>	bold	</b>	text."; echo	htmlspecialchars($str);
+//	affichera	:	This	is	some	&lt;b&gt;	bold	&lt;/b&gt;	text.
+
+
+
+PHP	:	Fonctions	avancées
+•  strip_tags	(chaine,	allowableTags)	:	Supprime	les	balises HTML	et	PHP	d'une	chaîne.	Les	commentaires	HTML	et PHP	sont	également	supprimés
+Ce	comportement	peut	être	modifié	avec	le	paramètre allowableTags
+$text	=	‘
+<p>Paragraph.</p><!--	Comment	--><a	href="#fragment">Other text</a>
+';
+//	Autorise	<p>	et	<a>
+echo	strip_tags($text,	'<p><a>');
+//	affichera	:
+//	<p>Paragraph.</p>	<a	href="#fragment">Other	text</a>
+
+
+
+PHP	:	Fonctions	avancées
+•  strlen()	:	retourne	la	longueur	de	la	chaîne
+•  strtolower()	:	passe	tous	les	caractères	en minuscules
+•  strtoupper()	:	passe	tous	les	caractères	en majuscules
+•  strpos(texte,	chaine)	:	recherche	la	position	de	la première	«	chaine	»	trouvée
+
+
+
+PHP	:	Fonctions	avancées
+•  trim()	:	efface	les	espaces	blancs	au	début	et	à	la	fin d’une	chaine
+•  ereg(chaine,	texte)	:	recherche	dans	texte	,	les séquences	des	caractères	«	chaine	».
+
+Retourne	la	longueur	de	l'occurrence	trouvée	si	une occurrence	a	été	trouvée	dans	la	chaîne	string,
+FALSE	dans	le	cas	contraire	ou	si	une	erreur	est	survenue.
+
+if	(	ereg("BCD",	"ABCDEF")	)
+{	echo	"oui";	}
+else	 	{	echo	"non";	}
+
+
+
+PHP	:	Fonctions	avancées
+•  isset($var1,	$var2,	...)	:	Détermine	si	une variable	ou	plusieurs	sont	définies	et	sont
+différentes	de	NULL
+
+•  unset($var1,$var2,...)	:	Détruit	les	variables
+
+•  empty($var)	:	Détermine	si	une	variable	est vide
+
+
+
+PHP	:	Fonctions	avancées
+•  Une	variable	non	déclarée	et	une	variable	vide ne	sont	pas	pareilles...
+
+FALSE	=	0
+TRUE	=	1
+-1
+1-
+1-1
+-1
+
+<?php
+echo(isset($var)	.	"-"	.	empty($var)	.	"<br>");
+$var	=	42;
+echo(isset($var)	.	"-"	.	empty($var)	.	"<br>");
+$var	=	"";
+echo(isset($var)	.	"-"	.	empty($var)	.	"<br>");
+unset($var);
+echo(isset($var)	.	"-"	.	empty($var)	.	"<br>");
+?>
+
+
+
+PHP	:	Fonctions	avancées
+$Var isset empty
+($var	non	déclarée) (0)	FAUX (1) 	VRAI
+42 (1)	VRAI (0)	FAUX
+«		» (1)	VRAI (1) 	VRAI
+(unset	$var) (0)	FAUX (1)	VRAI
+
+
+
+PHP	:	Fonctions	avancées
+
+•  Valeur	«	null	» disponible,	mais signifie	que	la variable	existe
+•  Null	!=	Empty
+
+<?php
+echo	(is_null($var)	.	"-"	.	empty($var)	.	";;");
+$var=0;
+echo	(is_null($var)	.	"-"	.	empty($var)	.	";;");
+$var="";
+echo	(is_null($var)	.	"-"	.	empty($var)	.	";;");
+$var	=	null;
+echo	(is_null($var)	.	"-"	.	empty($var)	.	";;");
+?>
+
+PHP	Notice:	 Undefined	variable:	var	in	Standard	input	code	on	line	2
+
+1-1	;;	-1	;;	-1	;;	1-1
+
+
+
+PHP	:	Fonctions	avancées
+$Var is_null empty
+($var	non	déclarée) (1)	VRAI* (1) 	VRAI
+0 (0)	FAUX (1) 	VRAI
+«		» (0)	FAUX (1) 	VRAI
+null (1)	VRAI (1) 	VRAI
+
+*	:	is_null()	déclenche	une	alerte	(PHP	Notice)	si	la	variable	n’a	pas	été	allouée
+
+
+
+PHP	:	Fonctions	avancées
+•  array_values(array)	:	Retourne	toutes	les valeurs	d'un	tableau
+– elles-mêmes	dans	un	tableau
+(utile	pour	vider	cases	vides)
+•  array_keys(array,	valeur)	:	Retourne	toutes	les clés	associées	à	«	valeur	»
+– si	valeur	n’est	pas	spécifiée	alors	retourne	toutes les	clés	du	tableau
+(utile	pour	connaitre	toutes	les	clés	possibles)
+
+
+
+PHP	:	Fonctions	avancées
+•  array_values(array)	:	Retourne toutes	les	valeurs	d'un	tableau
+–  elles-mêmes	dans	un	tableau
+
+0	-	42	;;	1	-	42	;;	2	-	9	;;	5	-	42	;;	8	-	6
+0	-	42	;;	1	-	42	;;	2	-	9	;;	3	-	42	;;	4	-	6
+
+<?php
+	 $tab[0]	=	42;
+	 $tab[1]	=	42;
+	 $tab[2]	=	9;
+	 $tab[5]	=	42;
+	 $tab[8]	=	6;
+
+$var1=array_values($tab);
+foreach($tab	as	$id	=>	$val)
+{	echo	"$id	-	$val	;;	";	}
+echo	"<br>";
+foreach($var1	as	$id	=>
+$val)
+{	echo	"$id	-	$val	;;	";	}
+?>
+
+
+
+
+PHP	:	Fonctions	avancées
+Prenom	-	Jean	;;
+Nom	-	Martin	;;
+Prenom2	-	Olivier	;;
+Prenom3	-	Jean
+
+0	-	Jean	;;
+1	-	Martin	;;
+2	-	Olivier	;;
+3	-	Jean
+
+<?php
+	 $tab["Prenom"]	=	"Jean";
+	 $tab["Nom"]	=	"Dupont";
+	 $tab["Prenom2"]	=	"Olivier";
+	 $tab["Prenom3"]	=	"Jean";
+	 $tab["Nom"]	=	"Martin";
+
+$var1=array_values($tab);
+foreach($tab	as	$id	=>	$val)
+{	echo	"$id	-	$val	;;	";	}
+echo	"<br>";
+foreach($var1	as	$id	=>	$val)
+{	echo	"$id	-	$val	;;	";	}
+?>
+
+
+
+
+PHP	:	Fonctions	avancées
+•  array_keys(array,	valeur)	:
+Retourne	toutes	les	clés associées	à	«	valeur	»
+–  si	valeur	n’est	pas	spécifiée alors	retourne	toutes	les clés	du	tableau
+
+0	-	Prenom	;;
+1	-	Prenom3	;;
+
+<?php
+	 $tab["Prenom"]	=	"Jean";
+	 $tab["Nom"]	=	"Dupont";
+	 $tab["Prenom2"]	=	"Olivier";
+	 $tab["Prenom3"]	=	"Jean";
+	 $tab["Nom"]	=	"Martin";
+
+$var1=array_keys($tab,	"Jean");
+foreach($tab	as	$id	=>	$val)
+{	echo	"$id	-	$val	;;	";	}
+echo	"<br>";
+foreach($var1	as	$id	=>	$val)
+{	echo	"$id	-	$val	;;	";	}
+?>
+
+
+
+
+PHP	:	Fonctions	avancées
+•  array_keys(array,	valeur)	:
+Retourne	toutes	les	clés associées	à	«	valeur	»
+–  si	valeur	n’est	pas	spécifiée alors	retourne	toutes	les clés	du	tableau
+
+0	-	Prenom	;;
+1	-	Nom	;;
+2	-	Prenom2	;;
+3	-	Prenom3	;;
+
+<?php
+	 $tab["Prenom"]	=	"Jean";
+	 $tab["Nom"]	=	"Dupont";
+	 $tab["Prenom2"]	=	"Olivier";
+	 $tab["Prenom3"]	=	"Jean";
+	 $tab["Nom"]	=	"Martin";
+
+$var1=array_keys($tab);
+foreach($tab	as	$id	=>	$val)
+{	echo	"$id	-	$val	;;	";	}
+echo	"<br>";
+foreach($var1	as	$id	=>	$val)
+{	echo	"$id	-	$val	;;	";	}
+?>
+
+
+
+
+PHP	:	Fonctions	avancées
+•  in_array(valeur,	array)	:	Vérifie	si	une	valeur appartient	à	un	tableau
+
+•  array_key_exists(key,	array)	:	Vérifie	si	une	clé existe	dans	un	tableau
+
+
+
+PHP	:	Fonctions	avancées
+TRUE	=	1
+FALSE	=	0
+
+1	-	1	-		-
+
+<?php
+		$tab["Prenom"]	=	"Jean";
+	 $tab["Nom"]	=	"Dupont";
+	 $tab["Prenom2"]	=	"Olivier";
+	 $tab["Prenom3"]	=	"Jean";
+	 $tab["Nom"]	=	"Martin";
+
+$var1=in_array("Jean",	$tab);
+$var2=array_key_exists("Nom",
+$tab);
+$var3=in_array("A",	$tab);
+$var4=array_key_exists("A",	$tab);
+echo	"$var1	-	$var2	-	$var3	-	$var4";
+?>
+
+
+
+
+PHP	:	Fonctions	avancées	HTTP
+•  En	PHP,	la	fonction	header()	se	charge
+d'envoyer	au	client	les	en-têtes	passés	en
+paramètre
+•  Règle	importante	:	l'appel	à	‘header()’	doit	se faire	avant	tout	envoi	au	navigateur
+– Attention	aux	includes	qui	écriraient	quelque
+chose...
+– Ne	PAS	écrire	de	<html>	vu	que	l’on	est	dans	les en-têtes	HTTP	et	non	HTML	!
+
+
+
+PHP	:	Fonctions	avancées	HTTP
+•  On	peut	utiliser	la	fonction	«	header()	»	pour	envoyer des	codes	HTTP	:
+
+<?php
+header("HTTP/1.0	404	Not	Found");
+?>
+<?php
+header("Status:	301	Moved	Permanently",	false,	301); header('Location:	http://www.votresite.com/
+pageprotegee.php');
+?>
+
+
+
+PHP	:	Fonctions	avancées	HTTP
+Header	HTTP	renvoyé	par	Apache...
+...donc	ce	que	vous	pouvez	modifier
+avec	la	fonction	«	header()	»
+
+
+
+PHP	:	Fonctions	avancées	HTTP
+•  Pour	créer	une	redirection	avec	PHP,	on	utilise header	pour	envoyer	des	en-têtes	de	type
+Location	(adresse)
+•  Script	de	redirection	(HTTP	302)	:
+
+<?php
+header('Location:	http://monsite.com/page.php');
+?>
+
+
+
+PHP	:	Fonctions	avancées	HTTP
+•  On	peut	envoyer	des	fichiers	et	jouer	avec
+d’autres	champs	HTTP	tels	que	le	«	Content-
+Type	»
+– «	Content-Type	»	indique	le	type	de	donnée,	donc le	navigateur	essayera	d’utiliser	l’outil	préféré	de l’utilisateur	pour	lire	ce	fichier
+•  readfile()	permet	d’envoyer	un	fichier
+
+
+PHP	:	Fonctions	avancées	HTTP
+Le	serveur	web	déclare	en	header	qu’il	s’agit
+de	«	text/html	»,	donc	du	texte	interprétable
+par	le	navigateur	ou	lisible	par	l’utilisateur.
+
+Le	navigateur	l’affiche	donc.
+
+
+PHP	:	Fonctions	avancées	HTTP
+Le	serveur	web	déclare	en	header	qu’il	s’agit
+de	«	image/jpeg	»,	donc	d’une	image	au
+format	JPEG.	Le	texte	n’en	étant	pas,	il	est
+impossible	d’afficher	une	image,	mais	le
+navigateur	essaye	tout	de	même
+
+PHP	:	Fonctions	avancées	HTTP
+Le	serveur	web	déclare	en	header
+qu’il	s’agit	de	«	video/mp4	»,	donc
+d’une	vidéo	au	format	MP4.	Le
+texte	n’en	étant	pas,	il	est
+impossible	d’afficher	la	vidéo,	mais
+le	navigateur	essaye	tout	de	même
+de	le	lire	avec	un	lecteur	de	vidéos
+
+PHP	:	Fonctions	avancées	HTTP
+Le	serveur	web	déclare	en	header
+qu’il	s’agit	de	«	application/octet-
+stream	»,	donc	d’un	flux	d’octets.
+
+Par	défaut,	les	navigateurs
+proposent	de	télécharger	le	fichier
+associé	plutôt	que	de	l’afficher
+PHP	:	Fonctions	avancées	HTTP
+<?php
+//	On	declare	un	PDF
+header('Content-Type:	application/pdf');
+//	Le	client	verra	un	fichier	"downloaded.pdf"
+header('Content-
+Disposition:	attachment;	filename="downloaded.pdf"');
+//	Le	fichier	du	serveur	web	qui	sera	transmis
+readfile('original.pdf');
+?>
+PHP	:	Fonctions	avancées	HTTP
+<?php
+$file	=	'monkey.gif';
+if	(file_exists($file))	{
+header('Content-Description:	File	Transfer');
+header('Content-Type:	application/octet-stream');
+header('Content-
+Disposition:	attachment;	filename="'.basename($file).'"'); header('Expires:	0');
+header('Cache-Control:	must-revalidate');
+header('Pragma:	public');
+header('Content-Length:	'	.	filesize($file));
+readfile($file);
+exit;
+}	?>
+
+
+Développement	Web	–	PHP
+Cours	3
+
+Rappels	:	Architecture	Générale
+Base	de	Données
+Navigateur
+Serveur	Web
+Serveur	d’Application
+Front	Office
+Back	Office
+
+
+Rappels	:	Architecture	Générale
+Navigateur
+Serveur	Web	&
+Base	de	Données
+Apache
+Front	Office
+Back	Office
+
+
+Rappels	:	Serveur	Web
+•  Communications	entre	«	navigateur	web	»	et
+«	serveur	web	»	se	font	avec	protocole	HTTP
+http://monsite.fr/page.htm
+(GET	page.htm)
+GET	page.htm
+<html>
+Coucou
+</html>
+Coucou
+page.htm
+Navigateur
+Serveur	Web
+Apache
+Protocole	pour transmettre	les informations	: HTTP
+
+
+Rappels	:	Serveur	Web
+•  Communications	entre	client	et	serveur	se
+font	avec	les	méthodes	GET	et	POST
+•  GET	:	passage	d’informations	par	l’URL,	donc par	la	requête	elle-même
+•  POST	:	passage	d’information	par	le	contenu
+de	la	requête
+
+
+Rappels	:	Serveur	Web
+•  Une	requête	envoyée	=	une	réponse	reçue
+•  Réponses	HTTP	de	5	types	(officiels)	:
+– 1xx	:	informationnelle
+– 2xx	:	succès
+– 3xx	:	redirection
+– 4xx	:	erreur	côté	client
+– 5xx	:	erreur	côté	serveur
+–  [autres	erreurs	sont	liées	au	serveur	web	utilisé]
+
+
+Rappels	:	Serveur	Web
+•  Header	HTTP	permet	de	déclarer	le	type	de
+données	transmises
+–  Content-Type:	text/html
+–  Content-Type:	application/pdf
+–  Content-Type:	application/octet-stream
+–  Content-Type:	video/mp4
+
+•  Le	navigateur	web	a	des	paramètres
+personnalisables	pour	choisir	un	programme
+externe	(ou	pas)	selon	le	type	de	données
+
+
+Rappels	:	PHP
+•  PHP	est	une	extension	à	côté	de	Apache
+–  Apache	configuré	pour	appeler	PHP	lorsqu’il
+voit	passer	une	requête	terminant	par	«	.php	»
+–  PHP	traite	le	fichier	en	question,	et	produit
+une	réponse	renvoyée	par	Apache
+
+<html>
+<?php
+echo	"B";
+?>
+</html>
+page.php
+GET	page.php
+GET	page.php
+Navigateur
+Serveur	Web
+Apache
+<html>
+B
+<html>
+page.php
+<html>
+B
+</html>
+page.php
+
+
+Rappels	:	PHP
+•  Langage	faiblement	typé
+– Beaucoup	plus	flexible...
+– ...mais	possibilité	de	faire	n’importe	quoi
+•  Langage	interprété
+– CLI	disponible	pour	scripts
+•  Usage	dans	ce	cours	:	extension	apache
+SGBD	&	BDD
+•  SGBD	:	Système	de	Gestion	de	Base	de	Données
+[DBMS	:	DataBase	Management	System]
+•  BDD	:	Base	de	Données
+[DB	:	DataBase]
+
+
+SGBD	&	BDD
+Personne Cours
+ID	 Nom Prenom
+1	 Jaffal Ali
+2	 Boissier	 Fabrice
+•  BDD	:	les	données
+organisées	dans	un
+conteneur
+Table	:	Personne
+•  SGBD	:	le	système	ou	le
+SELECT	*	FROM Personne
+logiciel	qui	gère	les	bases de	données
+1:Jaffal:Ali	;
+2:Boissier:Fabrice	;
+
+
+
+SGBD	&	BDD
+•	Qu’est	ce	qu’un	SGBD	?
+«	C’est	un	logiciel	système	destiné	à	stocker	et	à	partager des	informations	dans	une	base	de	données,	en	garantissant la	qualité,	la	pérennité	et	la	confidentialité	des	informations, tout	en	cachant	la	complexité	des	opérations.»	 WIKIPEDIA
+Parmi	les	logiciels	les	plus	connus,	on	trouve	:
+MySQL, PostgreSQL,	SQLite,	Oracle	et	MariaDB.
+
+Pour	une	liste	détaillée	des	SGBD,	consulter	ce	lien http://fadace.developpez.com/sgbdcmp/#LI
+
+
+SGBD	&	BDD
+•  «	Avant	»	:	on	organisait	soi-même	un	disque ou	un	fichier,	et	on	codait	un	bout	de
+programme	spécifique	pour	naviguer	dedans
+(et	effectuer	des	lectures/écritures)
+BDD
+(Search	for	«	handle	»	description)
+Get	/car/door/handle/description
+[Seek	Disc	1,	Track	4,	Block	2
+&	Extract	2	blocks]
+Application
+
+
+SGBD	&	BDD
+•  Aujourd’hui	:	usage	d’un	pilote	logiciel
+effectuant	les	transactions	avec	le	SGBD
+– API,	bibliothèque,	...	extension	permettant	de
+mettre	du	SQL	dans	un	langage	de	programmation, et	de	récupérer	un	tableau	réponse
+SELECT	*	FROM Personne
+Connecteur (API,	extension,	...)
+1:Jaffal:Ali	;
+2:Boissier:Fabrice	;
+Serveur	Web
+SGBD
+
+
+
+PHP	&	SGBD	:	Connecteurs
+$sql	=	"SELECT	*	FROM	Personne";
+$res	=	mysqli->query($sql);
+$line	=	$res->fetch_object();
+echo	$line->nom;
+page.php
+SELECT	*	FROM Personne
+GET	page.php
+MySQLi
+Jaffal
+1:Jaffal:Ali	;
+2:Boissier:Fabrice	;
+Navigateur
+Base	de	Données
+Serveur	Web
+
+
+
+PHP	&	SGBD	:	Connecteurs
+•  Plusieurs	extensions	à	PHP	existent	pour
+interroger	des	SGBD	:
+– MySQL	:	 obsolète	–	ne	pas	l’utiliser	!
+	(attention	:	anciens	tutos	l’utilisent)
+– MySQLi	:	MySQL	«	improved	»
+mise	à	jour	de	l’extension	MySQL
+– PDO	:	PHP	Data	Object
+pilote	générique	multi-SGBD
+
+•  (Hors	PHP	:	ODBC	(middleware),	connecteur	quasi-universel)
+–  Open	DataBase	Connectivity
+
+
+
+MySQL	avec	PHP
+Manipulation	des	bases	de	données	MySQL	se	fait	soit	via
+une	interface	graphique	comme	‘PhpMyAdmin’	soit	en
+exécutant	un	script	PHP.
+
+1.	PhpMyAdmin
+•	Un	programme	permettant	d'avoir	une	vue	rapide	de l’ensemble	des	données.
+
+•	C’est	un	des	outils	les	plus	connus	permettant	de manipuler	une	base	de	données	MySQL.
+
+•	PhpMyAdmin	est	livré	avec	WAMP,	et	presque	tous	les hébergeurs	permettent	d'utiliser	phpMyAdmin.
+
+(chemin	d’accès:	 http://localhost:8888/phpMyAdmin)
+
+
+
+
+MySQL	avec	PHP
+2.	Script	PHP
+
+•  Etapes	pour	utiliser	une	base	des	données
+1)  Connexion	au	serveur	MySQL
+2)  Envoi	des	requêtes	SQL	(select,	insert	into...)
+3)  Récupération	des	résultats
+4)  Fermeture	de	la	connexion
+
+
+MySQLi
+•  Connexion	à	un	serveur	MySQL	à	travers	mysqli
+–  Toute	la	communication	avec	la	BdD	passe	par	un	objet	de	la classe	«	mysqli	»
+–  La	connexion	s’effectue	à	la	création	de	cet	objet	(new) $idcon	=	new	mysqli	(	$ host,	$user,	$mdp, $bdd	);
+
+objet	identifiant de	la	connexion
+nom	du	serveur
+utilisateur	autorisé	à	accéder	à	la	base
+mot	de	passe
+base	de	données
+
+•  Toute	connexion	ouverte	doit	être	fermée
+	$bool	=	$idcon->close	()	;
+on	demande	à	l’objet mysqli	de	fermer	la connexion
+
+
+
+
+MySQLi
+Astuce	:	 placer	ces	informations	dans	un	fichier et		faire	require	(ou	include)	"fichier"
+Création	de	l’objet connexion
+L’attribut	connect_errno de	indique	si	la	connexion a	bien	été	établie
+En	cas	de	problème, on	arrête	avec	la fonction	die.
+Fermeture	de	la	connexion
+
+<?php
+$host	=	"localhost";
+	 	 	$user	=	"root";
+			$mdp	=	"root";
+			$bdd	=	"clientsBD";
+
+$mysqli	=	new	mysqli	( $host,	$user,	$mdp,	$bdd	)	;
+	if		(	$mysqli->connect_errno	)	{
+		die	("<p>	Impossible	de	connecter	à	$bdd	:	"
+		. $mysqli->connect_error	.	"	</p>"	)	;
+}
+else	{
+	echo	"<p>	Connecté	au	serveur	$host,
+		à	la	base	$bdd	</p>";
+	$mysqli->close();
+}
+?>
+
+
+
+MySQLi
+•  Envoie	de	requêtes	à	une	base	de	données
+$result	=	$mysqli->query	($sql)	;
+Résultat	de	la	requête
+exécution	de	la	requête sur	l’objet	connexion
+Requête	SQL	à exécuter
+
+– Requête	SQL	:
+•  S’il	s’agit	d’un	SELECT,	le	résultat	correspond	aux données	fournies	par	la	requête	(objet	mysqli_result)
+•  Sinon	(INSERT,	UPDATE,	DELETE...),	le	résultat	sera TRUE	si	la	requête	est	bien	exécutée, FALSE	sinon
+
+
+
+<form	name="formNouveauClient"
+	 	action="coursPHP-18.php"
+		method="POST">
+...
+<input	type="text"	name="nom"	 ...	/>
+...
+<input	type="text"	name="email"	...	/>
+...
+<input	type="submit"	value="Envoyer"	/>
+</form>
+
+
+
+PHP
+connexion.php
+<?php
+function	connexion()	{
+	$host	=	"localhost";
+	$user	=	"uml";
+	$mdp	=	"uml";
+	$bdd	=	"clientsBD";
+
+	$mysqli	=	new	mysqli	( $host,
+				$user,	$mdp,	$bdd)	;
+
+	if		(	$mysqli->connect_errno	)	{
+		die	("<p>	Impossible	..."
+		.	$mysqli->connect_error	. "	</p>"	)	;
+	}
+	return	$mysqli	;
+}	?>
+
+coursPHP-18.php
+<?php
+if	(	!	empty($_POST["nom"])	AND	!	empty($_POST["e	mail"])	)	{
+	require	"connexion.php";
+	$mysqli	=	connexion()	;
+
+	$nom	=	$_POST["nom"];
+	$email	=	$_POST["email"];
+	$adr	=	$_POST["adresse"];
+	$id	=	'\N';	 /*	auto-increment	*/
+
+	$sql	=	"INSERT	INTO	client	(id,	nom,	email,	adresse)
+				VALUES	(	'$id',	'$nom',	'$email',	'$adr')	";
+
+	$result	=		$mysqli->query	($sql)	;
+
+	if	(	!	$result	)	{			echo	"<p>Désolée,	...	</p>";	 	 	 }
+	else	{
+		echo	"<p>	Vous	êtes	le	client	numéro	<i>	"
+			.	$mysqli->insert_id		. "</i></p>";
+	}
+	$mysqli->close()	;
+}
+...	?>
+
+
+
+
+MySQLi
+•  Récupération	des	données
+$result	=	$mysqli->query	("SELECT	 *	FROM	table")	;
+– Les	requêtes	SELECT	fournissent	des	données
+– On	récupère	le	résultat	(ligne	à	ligne)	à	l’aide	des opérations	fetch_*
+– Chaque	appel	à	fetch_*	retourne	la	prochaine	ligne
+•  Ligne	dans	un	tableau	à	indice	:	$result->fetch_row	()	;
+•  Ligne	dans	un	tableau	associatif	 :	$result->fetch_assoc	()	;
+•  Ligne	dans	un	objet	:	$result->fetch_object	()	;
+
+
+
+connexion.php
+<?php
+function	connexion()	{
+	...
+	$mysqli	=	new	mysqli	( $host,
+			$user,	$mdp,	$bdd)	;
+	...
+	return	$mysqli	;
+}	?>
+
+On	exécute	la	requête	avec l’opération	$mysqli->query
+L’opération	$result->fetch_object récupère	la	prochaine	ligne, FAUX	s’il	n’y	reste	plus	de	lignes.
+Chaque	attribut	de	la	requête devient	un	attribut	de	l’objet $ligne
+
+coursPHP-19.php
+<?php
+	require	"connexion.php"	;
+	$mysqli	=	connexion();
+
+	$sql	=	"SELECT	id,	nom,	email,	adresse
+ 	 	 	 	 FROM	 client	ORDER	BY	 nom	"	;
+ 	$result	=	$mysqli->query	($sql)	;
+
+	if	(	!	$result	)	{	echo	"<p>	Desolée	...	</p>"	;	}
+	else	{	...
+		while	(	$ligne	=	$result->fetch_object()	)	{
+		...
+		echo	"<td>"	. $ligne->id	.	"</td>";
+		echo	"<td>"	. $ligne->nom	.	"</td>"; echo	"<td>"	. $ligne->email	.	"</td>";
+		echo	"<td>"	. $ligne->adresse	.	"</td>";
+		...
+	} ...
+}	?>
+
+
+
+MySQLi
+La	même	requête	avec	récupération	des	informations
+•  ...	par	tableau	à	indice
+...
+	$sql	=	"SELECT	id,	nom,	email,	adresse
+			FROM	 client	ORDER	BY	 nom	"	;
+	$result	=	$mysqli->query	($sql)	;
+	...
+	while	(	$ligne	=	$result->fetch_row()	)	{
+		...
+		echo	"<td>"	. $ligne[0]	.	"</td>";
+		echo	"<td>"	. $ligne[1]	.	"</td>";
+		echo	"<td>"	. $ligne[2]	.	"</td>";
+		echo	"<td>"	. $ligne[3]	. 	"</td>";
+		...
+	} ...
+
+ça	commence	toujours	par	0
+
+•  ...	par	tableau	associatif
+...
+	$sql	=	"SELECT	id,	nom,	email,	adresse
+				FROM	 client	ORDER	BY	 nom	"	;
+	$result	=	$mysqli->query	($sql)	;
+	...
+	while	(	$ligne	=	$result->fetch_assoc	()	)	{
+		...
+		echo	"<td>"	. $ligne['id']	. "</td>";
+		echo	"<td>"	. $ligne['nom']	. "</td>";
+		echo	"<td>"	. $ligne['email']	.	"</td>";
+		echo	"<td>"	. $ligne['adresse']	."<td>";
+		...
+	} ...
+
+chaque	attribut	est accessible	par	son nom
+
+
+
+
+MySQLi
+•  Autres	informations	peuvent	être	récupérées	d’un	objet mysqli_result	(	$result	=	$mysqli->query	(...)		)
+– Combien	de	lignes	et	colonnes	on	peut	récupérer
+•  $nblignes	=	$result->num_rows	;
+•  $nbcol	=	$result->field_count	;
+– Les	noms	des	colonnes	(attributs)	dans	le	résultat
+•  $colonnes	=	$result->fetch_fields()	;
+
+
+
+
+MySQLi
+A	partir	de	l’objet	$result,	on	peut récupérer	le	nombre	de	lignes (attribut	num_rows)	et	de	colonnes par	ligne	(attribut	field_count).
+
+...
+	$sql	=	" SELECT	id,	nom,	email,	adresse
+				FROM	client	ORDER	BY	nom	"	;
+	$result	=	$mysqli->query	($sql)	;
+...
+	echo	"<p>	Nous	avons	" .	$result->num_rows	. "	clients.	</p>";
+	echo	"<p>	Il	y	a	"	. $result->field_count	.	"	attributs	par	client.	</p>	"	;
+...
+
+On	peut	aussi	récupérer	les colonnes.	Chaque	colonne	est	un objet	et	l’attribut	name	donne	 son	nom.
+La	ligne	aussi	est	un	objet	dont	les	attributs	correspondent	aux colonnes.	On	peut	utiliser	un foreach	pour	accéder	à	la	valeur des	attributs.
+
+...
+	$titres	=	$result->fetch_fields()	;
+	foreach	($titres	as	$colonne)	{
+		echo	"<th>	"	.	$colonne->name	.	"	</th>"	;
+	}
+	while	(	$ligne	=	$result->fetch_object()	)	{
+		echo	"<tr>"	;
+		foreach	(	$ligne	as	$colonne=>$val	)	{
+			echo	"<td>	" .	$val	. "	</td>"	; 	 								}
+		}
+		echo	"</tr>"	;
+		} ...
+
+
+
+
+MySQLi
+$mysql	=	new	mysqli	(	$host,	$user,	$mdp,	$bdd	);
+
+$mysql->connect_errno();
+
+$sql	=	"INSERT	INTO	client	(id,	nom,	email,	adresse) 	VALUES	(	'$id',	'$nom',	'$email',	'$adr')	";
+
+$result	=		$mysql->query($sql)	;
+
+while	(	$ligne	=	$result->fetch_object()	)
+{
+						$ligne->id;	 	$ligne->nom;
+}
+
+$mysql->close();
+
+
+
+MySQLi
+•  Pour	debugger	:	(sauf	en	production)
+/*	Test	d’erreur	a	la	connexion	*/
+$mysqli	=	new	mysqli("localhost",	"nobody",	""); if	(mysqli_connect_errno())	{
+printf("La	connexion	a	échoué	:	%s\n",	mysqli_connect_error()); exit();
+}		 /*	Test	d’erreur	lors	de	la	requête	*/
+if	(!$mysqli->query("SET	a=1"))	{
+print_r($mysqli->error_list);
+}
+
+
+
+PDO
+•  PDO	:	PHP	Data	Object
+•  Pilote	générique	multi-SGBD
+– MySQL,	PostGreSQL,	Oracle,	DB2,	SQL	Server,	...
+•  Similaire	à	MySQLi
+– Quelques	variations	dans	la	syntaxe...
+– ...et	dans	le	comportement
+
+
+
+PDO	:	Connexion
+•  Connexion	se	fait	avec	une	«	connection	string	»
+contenant	les	informations	de	la	BDD	:
+–  Host	:	Localhost	(ou	127.0.0.1)
+–  Port	:	9306
+
+$connexion	=	new	PDO(
+"mysql:host=mon_serveur;port=mon_port;dbname=ma_bdd",
+"mon_login",
+"mon_pass");
+
+
+
+PDO	:	Ecriture	/	EXEC
+•  Requête	d’écriture	:	INSERT,	UPDATE,	DELETE
+–  Se	fait	avec	méthode	PDO::exec()
+–  PAS	AVEC	QUERY	!
+
+–  Renvoie	le	nombre	de	modifications	effectuées	(integer) $requete	=	"DELETE	FROM	ma_table
+
+WHERE	mon_champ	=	ma_valeur";
+$compteur	=	$connexion->exec($requete);
+
+
+
+PDO	:	Lecture	/	QUERY
+•  Requête	de	lecture	:	SELECT
+–  Se	fait	avec	méthode	PDO::query()
+–  PAS	AVEC	EXEC	!
+
+–  Renvoie	les	résultats	(PDOStatement)
+$requete	=	"SELECT	*	FROM	ma_table
+
+WHERE	mon_champ	=	ma_valeur";
+$resultats	=	$connexion->query($requete);
+
+
+
+PDO	:	Résultats	/	FETCH
+•  Lecture	de	la	réponse	d’une	requête	de	lecture	:	fetch
+•  fetch()	:	renvoie	la	ligne	suivante	des	résultats
+•  fetchObject()	:	renvoie	la	ligne	suivante	en	tant	qu’objet
+•  fetchAll()	:	renvoie	un	tableau	de	toutes	les	réponses $ligne	=	$resultats->fetch(PDO::FETCH_ASSOC);	 <-	tableau	associatif $ligne	=	$resultats->fetch(PDO::FETCH_NUM);	 	 <-	tableau	simple $ligne	=	$resultats->fetch(PDO::FETCH_BOTH);	 	<-	les	2	(par	défaut) $ligne	=	$resultats->fetch(PDO::FETCH_OBJ);	 	 	 	<-	objet
+
+
+
+PDO	:	Fermeture	connexion
+•  Avant	de	refaire	une	requête,	il	faut	libérer	le curseur	en	place
+$resultats->closeCursor();
+
+
+
+PDO
+$connexion	=	new	PDO(
+"mysql:host=mon_serveur;port=mon_port;dbname=ma_bdd",
+"mon_login",
+"mon_pass");
+
+$requete	=	"SELECT	*	FROM	ma_table
+	 	 	 	 	 WHERE	mon_champ	=	ma_valeur"; 	$resultats	=	$connexion->query($requete); 	while	(	$ligne	=	$resultats->fetch(PDO::FETCH_OBJ)	)
+{
+	$ligne->id;	 	$ligne->nom;
+}		$resultats->closeCursor();
+
+
+
+PDO	:	...or	die()
+•  Pour	débugger	sa	requête,	ne	pas	oublier	de
+demander	à	PHP	d’afficher	l’erreur	s’il	y	en	a	!
+
+–  Sauf	en	production	!	Une	fois	le	site	en	ligne,	il	ne	faut jamais	afficher	les	erreurs...
+–  Risque	qu’un	pirate	récupère	les	informations	de	debug $resultats	=	$connexion->query($requete);
+if	(!$resultats)
+{					print_r($connexion-	>errorInfo());
+}
+
+
+
+
+Programmation	Orienté	Objet	(POO)
+«	Classe	et	Objet	»
+•  Une	classe	permet	la	définition	d’un	nouveau type	de	variable	qui	rassemble	plusieurs
+attributs.
+
+– elle	permet	également	la	définition	de	fonctions manipulant	ces	attributs,	en	POO,	ces	fonctions s’appellent	des	‘ méthodes’.
+
+•  Un	objet	est	une	instance	d’une	classe.	Un objet	est	alors	assimilé	à	une	variable	et	sa
+classe	au	type	de	cet	objet.
+
+
+
+Programmation	Orienté	Objet	(POO)
+«	concepts	de	base	»
+
+La	POO	a	deux	buts	:
+
+•  Faciliter	la	réutilisation	du	code	déjà	écrit grâce	à	l'héritage
+•  Encapsulation	des	données	et	les	traitements correspondants
+Programmation	Orienté	Objet	(POO)
+«	concepts	de	base	»
+•  Faciliter	la	réutilisation	du	code	déjà	écrit	grâce	à	l'héritage	:
+–  L’héritage	permet,	à	partir	d'une	classe	déjà	existante,	d'en	créer une	nouvelle	qui	reprendra	ses	caractéristiques	et	de	les	adapter aux	besoins	sans	modifier	la	classe	de	base.
+
+–  Il	est	possible	alors	de	redéfinir	une	méthode	dans	des	classes héritant	d'une	classe	de	base	sauf	si	cette	méthode	a	été	définie comme	 final.	L’appel	de	la	méthode	d'un	objet	est	possible	sans	se soucier	de	son	type	intrinsèque	:	il	s'agit	du	polymorphisme.
+
+•  Le	polymorphisme	traite	de	la	capacité	de	l'objet	à	posséder plusieurs	formes.
+
+ex	:		 ma_fonction(int	i)							ma_fonction(string	str)
+
+
+
+Programmation	Orienté	Objet	(POO)
+«	concepts	de	base	»
+•  Encapsulation	des	données	et	les	traitements correspondants.
+
+– L’encapsulation	permet	de	regrouper	un
+ensemble	d’attributs	avec	un	ensemble	de
+méthodes	en	une	classe	permettant	de	les
+manipuler.
+
+
+
+
+PHP	orienté	objets
+•  PHP	5	est	un	langage	«	orienté	objets	»
+– Manipulation	de	classes	et	d’objets
+Définition	de	classe class	Personne
+Visibilité	: private	 $nom
+Définition	d’un	attribut
+Opération	: public	function 	...
+Accès	à	un	attribut $this->attribut
+Retourner	une	valeur return	valeur	;
+<?php
+class	Personne	{
+	private	$nom;
+
+	public	function	 setNom	(	$nouvNom	)
+	{		$this->nom	=	$nouvNom; }
+
+	public	function	 getNom	()	{
+		return	$this->nom;
+	}
+}
+
+
+
+
+POO	en	PHP
+«	Visibilité	d'un	attribut	ou	d'une	méthode	»
+•  «	public	»	:	si	un	attribut	ou	une	méthode	est public,	alors	on	pourra	y	avoir	accès	depuis n'importe	où.
+
+•  «	private	»:	impose	quelques	restrictions.	L’accès aux	attributs	et	méthodes	est	seulement	possible depuis	l'intérieur	de	la	classe.
+
+–  Ne	mettez	jamais	le	constructeur	avec	le	type	de visibilité	 private	sinon,	elle	ne	pourra	jamais	être appelée,	vous	ne	pourrez	donc	pas	instancier	votre classe
+•  «	protected	»	a	le	même	effet	que	 private,	à l’exception	que	toutes	les	classes	filles	auront accès	aux	attributs	protégés.
+
+
+
+
+PHP	orienté	objets
+•  Classes	&	Objets
+– Création	d’un	objet	:	$obj	=	new	classe()	;
+Création	d’un	objet $toto	=	new	Personne	()
+Accès	aux	opérations publiques $toto->setNom("Toto") $toto	->	getNom	()
+Impossible	d’accéder	aux attributs	privés
+
+...
+<?php
+	$toto	=	new	Personne();
+	$toto->setNom("Toto");
+	echo	"<p>	...	 " .		$toto->getNom()		. 	"</p>";
+	$toto->nom	=	"blablabla";
+	echo	"	<p>	" 	.	$toto->nom		.	"	</p>	";
+?>
+
+
+
+PHP	orienté	objets
+Erreur	car	l’attribut «	nom	»	est	privé	!!
+
+<html>	<head>	...
+<?php
+	class	Personne	{
+		private	$nom;
+		...
+	}	//fin	classe	Personne
+	?>
+</head>
+<body>	...
+<?php
+	$toto	=	new	Personne();
+	$toto->setNom("Toto");
+	echo	"<p>	Objet	<i>Personne</i>	:	 "	 .	$toto->getNom()	.	"</p>	";
+	...
+	echo	"	<p>	"	.	$toto->nom	 .	"	</p>	";
+?>
+</body>	</htlml>
+
+
+
+
+PHP	orienté	objets
+•  Classes	&	objets	:
+–  Héritage	:		class	 SousClasse	extends	 SuperClasse
+La	classe	 Employe	hérite	de	la classe	 Personne class	Employe	extends	Personne
+On	rajoute	un	nouvel	attribut private	$salaire Et	des	nouvelles	opérations public	function	 augmentation public	function	 getSalaire
+
+class	 Employe	extends	 Personne	{
+	private	$salaire	 =	1000;
+
+	public	function	 augmentation	 ($perc)	{
+		if	($perc	>	0)	 	 {
+		$this->salaire	=		$this->salaire
+			$this->salaire*$perc;
+		}
+	}
+
+	public	function	getSalaire()
+	{	return	$this->salaire; }
+}
+Fichier	Employe.php
+
+
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+On	importe	la	définition	des	classes Employe	et	Personne
+Toto	est	un	Employé,	il	est	donc une	Personne
+Toto	possède	un	salaire	(Employe), mais	aussi	un	nom	(Personne)
+La	classe	Employe	hérite	tous	les attributs	et	opérations	de	Personne
+
+<?php
+	include	"Employe.php"	;
+	$toto	=	new	Employe();
+	$toto->setNom("Toto");
+	$toto->augmentation(0.10);
+	echo	"<i>	nom	</i>	:	" .	$toto->getNom()	;
+	echo	"	<i>	salaire	</i>	:	" .	$toto->getSalaire()	. "	€	</p>";
+?>
+
+
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+<html>		<head>	.	.	.	</head>
+<body>	<h1>Objets	en	PHP</h1>
+<?php
+include	"Employe.php"	;
+
+$toto	=	new	Employe();
+
+$toto->setNom("Toto");
+$toto->augmentation(0.10);
+
+echo	"<p>Objet	Employe	:	</p>	<ul>"	;
+echo	"<li>	<i>	nom	</i>	:	".	$toto->getNom()	.	"</li>";
+echo	"<li>	<i>	salaire	</i>	:	"	.	$toto->getSalaire()	.	"	€	</li>";
+echo	"</ul>"	;
+?>
+</body>	</html>
+
+
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+– Méthode	constructeur	:	__construct
+– Redéfinition	d’une	opération
+Le	constructeur	est	appelé	chaque fois	qu’un	objet	est	créé	(new)
+Redéfinition	de	l’opération	getSalaire parent::getSalaire correspond	à l’opération	getSalaire	définie	par	la super-classe	(Employe)
+
+class	Manager	extends	Employe	{
+	private	$bonus	;
+	function	__construct	($bon)
+ 	 {	 	$this->bonus	=	$bon;	 	 }
+
+	public	function	getSalaire()		 {
+		return	parent::getSalaire() 	$this->bonus;
+	}
+	public	function	setBonus	($nouvBon)	{		...	}
+	public	function	getBonus	()			{	...	}
+}
+
+
+
+PHP	orienté	objets
+•  Classes	&	objets
+Appel	au	constructeur	: function	__construct	($bon) {	 	$this->bonus	=	$bon;	 	 }
+Appel	à	l’opération	getSalaire de	la	classe	Manager
+
+<?php
+	require	"Manager.php"	;
+	$toto	=	new	Manager(400);
+	$toto->setNom("Toto");
+	$toto->augmentation(0.10);
+	echo	"<p><i>Manager</i>	:	".	$toto->getNom()
+		.	",	salaire		" .	$toto->getSalaire()	.	" €		"
+		.	",	bonus	"	. $toto->getBonus()	. 	"</p>";
+?>
+
+
+
+POO	en	PHP
+«	l’opérateur	::	»
+L'opérateur	de	résolution	de	portée	«	::	»	(double	deux points)	fournit	un	moyen	d'accéder	aux	membres
+statiques	ou	constantes,	ainsi	qu'aux	attributs	ou méthodes	surchargées	d'une	classe.
+
+•  Le	mot	clé«	self::	»	est	utilisé	pour	accéder	aux méthodes	et	attributs	statiques	depuis	la	classe
+•  Le	mot	clé	«	parent::	»	est	utilisé	pour	accéder	aux propriétés	ou	aux	méthodes	surchargées	ou
+constantes	d’une	classe	depuis	la	classe	fille
+•  Pour	référencer	ces	éléments	en	dehors	de	la	classe, utilisez	plutôt	le	nom	de	la	classe	«	nomClasse::	»
+
+
+
+PHP	:	Sessions
+•  Mécanisme	de	sessions
+–  Chaque	visite	à	un	site	/	page	est	indépendante
+–  Les	sessions	permettent	de	conserver	les	informations	des visiteurs	entre	les	pages
+–  Les	informations	sur	les	sessions	sont	stockées	sur	le serveur
+•  Fonctionnement	général
+1)  Ouverture	de	session	:	session_start()
+• Chaque	utilisateur	reçoit	un	identifiant	transmis	entre	les	pages
+2)  Définition	des	variables	de	sessions	(données)
+• Les	variables	de	session	sont	transmises	de	page	à	page
+• $_SESSION["variable"]	=	valeur	;
+3)  Fermeture	de	session	:	session_destroy()
+
+
+
+PHP	:	Sessions
+Login	&	mdp différents	de	uml
+Login	&	mdp	corrects (uml	/uml	)
+
+< form	name="..."
+action="coursPHP-23.php"
+method="POST" >
+<label	>Login	:	</label>
+<input	type="text"	name="login"	maxlength="15"	/> 	<br/>
+<label	>Mot	de	passe	:	</label>
+	 	 	<input	type="password"	name="mdp"	maxlength="15"	/>
+<br/>
+	 	 	<input	type="submit"	value="OK"	/>
+</form>
+
+
+
+
+PHP	:	Sessions
+Ouverture	d’une	session (au	début	de	chaque	page)
+Définition	des	variables	de	session $_SESSION["var"]
+Les	variables	de session	contiennent les	informations	qui passeront	de	page	en page.
+
+<?php			session_start();	 ?>
+<html>
+<head>	...	</head>
+<body>
+<?php
+...
+	$login	=	$_POST["login"]	;
+	$mdp	=	$_POST["mdp"];
+	if	(	$login	==	"uml"	AND	$mdp	==	"uml" )	{
+		$_SESSION["login"]	=	$login	;
+		...
+		echo	"<h1>Bienvenue,	cher	$login	</h1>"	;
+	}
+	else	{			echo	"<h1>Desolé	!	</h1>";
+		echo	"<p>	Page	accessible	uniquement	aux	membres.	</p>";
+	}
+?>
+</body>	</html>
+
+
+
+
+PHP	:	Sessions
+Usage	des	variables	de	session $_SESSION["var"]
+
+<?php	session_start();	?>
+<html>		<head>...	 </head>
+<body>
+<?php
+	if		(	isset(	$_SESSION["login"]	)	 AND	 !	empty(	$_SESSION["login"]	)	)	{
+		$login	=		$_SESSION["login"]	;
+...
+		echo	"<p>Client	<b>	$login	</b>	:	 Ceci	est	une	page	pour les abonnés </p>" ;
+	}
+	else	{	echo	"<h1>Desolé	!	</h1>";
+		echo	"<p>	Il	s'agit	d'une	page	privée	!!	Il	faut	être	membre.	</p>";
+}
+?>
+...
+
+
+
+
+PHP	:	Sessions
+Fermeture	de	la	session session_destroy()
+Ne	pas	oublier	de	vider	les variables	de	session unset(	$_SESSION[	"var"	]	)
+
+<?php	session_start();	?>
+<html>		<head>...	 </head>
+<body>
+<?php
+	if		(	isset(	$_SESSION["login"]	)	 AND	 !	empty(	$_SESSION["login"]	)	)	{
+...
+		unset($_SESSION["login"]);
+		session_destroy();
+	}
+	else	{	echo	"<h1>Desolé	!	</h1>";
+	echo	"<p>	Pas	de	connexion	active.	</p>";
+}
+?>
+...
+
+
+
+
+PHP	:	Fonctions	avancées	(rappel)
+•  isset($var1,	$var2,	...)	:	Détermine	si	une variable	ou	plusieurs	sont	définies	et	sont
+différentes	de	NULL
+
+•  unset($var1,$var2,...)	:	Détruit	les	variables
+
+•  empty($var)	:	Détermine	si	une	variable	est vide
+
+
+
+PHP	:	Sessions
+Sans	session,	si	on	demande	une page	web,	on	obtient	une	réponse classique	:	les	déclarations habituelles	du	serveur	web,	et	la page	demandée
+1	–	On	demande	une	page web	classique	sans	session au	serveur	web	sur «	localhost	»	port	«	8888	»
+2	–	Le	serveur	web	répond normalement	avec	le	code HTTP	200,	puis	avec diverses	valeurs	indiquant les	plugins	dont	il	dispose
+3	–	Le	serveur	web	envoie finalement	la	page	web
+
+<?php
+
+?>
+<html><body>
+PageWeb
+</body></html>
+
+
+
+Statuts	HTTP	:	classiques	(rappel)
+200 OK La	requête	a	bien	été	reçue,	comprise,	et	exécutée
+301 308	 Permanent	Redirect	 La	ressource	a	été	définitivement	déplacée	à	une autre	URL
+302 307	 Temporary	Redirect	 La	ressource	est	temporairement	déplacée	à	une autre	URL
+403 Forbidden La	requête	est	correcte,	mais	le	client	n’a	pas	le droit	de	demander	au	serveur	de	faire	cette	action
+404 Not	Found La	ressource	visée	par	l’URL	n’a	pas	été	trouvée
+500	 Internal	Server	Error	 Erreur	générique/non	spécifique...	le	serveur	web	a échoué	quelque	chose	à	un	moment
+502 Bad	Gateway Le	serveur	web	visé	n’arrive	pas	à	contacter	le serveur	qui	traite	la	requête	envoyée
+
+
+
+
+PHP	:	Sessions
+1 – On	demande	une	page web	contenant	une	session au	serveur	web	sur « localhost » port « 8888 »
+2 – Le serveur web répond avec le code HTTP 200, puis il envoie le numéro de session PHP (un ID unique). Cet ID sera renvoyé par le navigateur avec chaque requête pour identifier le
+3 – Le serveur web envoie client côté serveur finalement la page web
+Lorsque PHP demande à créer une session, son ID est transmis par le serveur web au navigateur.
+Côté serveur web & PHP : une liste des sessions actives est stockée dans des fichiers (avec l’ensemble des variables que l’on souhaite conserver entre chaque page web)
+Côté client : l’ID de session est renvoyé pour pouvoir « s’identifier »...
+ATTENTION ! L’ID est visible sur le réseau ! Quelqu’un de mal intentionné peut copier cet ID et s’identifier avec à la place du navigateur légitime...
+Pour faire une session « à peu près » sécurisée, il est nécessaire de s’assurer que l’on parle au même navigateur (en vérifier l’IP du client, par exemple).
+Nous ne verrons pas l’ensemble des bonnes pratiques dans ce cours.
+
+<?php
+session_start();
+?>
+<html><body> PageWeb </body></html>
+
+
+
+PHP	:	Sessions
+•  Mécanisme	de	sessions
+–  Base	pour	la	gestion	de	panier	dans	les	sites	de	e-commerce
+–  Les	produits	choisis	par	le	client	sont	enregistrés	en	tant	que variables	de	session
+–  On	peut	y	garder	des	objets	SIMPLES
+Contenu	du	panier	est	gardé dans	les	variables	de	session.
+Tableau	contenant	des	objets LigneProduit.
+Chaque	$_SESSION[$produit] contient	un	objet.
+
+class	LigneProduit	{
+public	$nom	;
+public	$qte	;
+/*	constructeur	*/
+	function	__construct(	$nom	)	{
+	$this->nom	=	$nom;
+	$this->qte	=	1;
+	}
+}
+
+
+
+PHP	:	Sessions
+Chaque	produit	choisi	est	identifié par	un	«	id	»	(ici	le	nom). $_SESSION[$produit] va	contenir	un	objet	LigneProduit
+S’il	n’y	a	aucun $_SESSION[$produit]	, on	va	créer	un	nouveau	objet LigneProduit
+S’il	y	a	déjà	un $_SESSION[$produit]	, on	va	juste	augmenter	la	valeur	de l’attribut	«	qte	»	dans	l’objet LigneProduit
+
+function	ajouterProduit($produit)	{
+	$qte	=	0;
+	if	(	!	isset	(	$_SESSION[$produit]	)	 )	{
+		$_SESSION[$produit]	=	new	LigneProduit($produit);
+		$qte	=	$_SESSION[$produit]->qte
+	}
+	else	{	//	produit	déjà	là,	augmenter	alors	sa	quantité
+		$objet	=	$_SESSION[$produit]	;
+		$objet->qte	=	$objet->qte 	1;
+		$qte	=	$objet->qte	;
+	}
+	return	$qte;
+}
+
+
+
+PHP	:	Sessions
+Lorsqu’on	veut	supprimer	un produit,	on	va	réduire	sa	quantité dans	l’objet	LigneProduit
+On	récupère	l’objet LigneProduit	gardé	dans $_SESSION[$produit]
+On	réduit	sa	quantité	d’une	unité
+S’il	n’en	reste	plus	(la	quantité	a atteint	0	unités),	on	supprime	le  produit	de	la	session
+
+function	supprimerProduit($produit)	{
+	$qte	=	0	;
+	if	(	isset(	$_SESSION[$produit]	)	)	{
+ 	 	 $objet	=	$_SESSION[$produit]	;
+		$objet->qte	=	$objet->qte	-	1;
+		$qte	=	$objet->qte;
+
+	if	(	$qte	<=	0)	{	//on	supprime	le	produit
+		unset($_SESSION[$produit]);
+		}
+	}
+	return	$qte;
+}
+
+
+
+
+PHP	:	Sessions
+On	peut	récupérer	le	contenu	du panier	en	récupérant	le	contenu de	la	variable	de	session $_SESSION
+Pour	chaque	objet LigneProduit	gardé	dans $_SESSION
+
+function	afficherPanier()	{
+	echo	"<table>"	;
+	foreach($_SESSION	as	$objet)	{
+		echo	"<tr><td>	" .	$objet->nom	. "	</td>	<td>	"
+			. $objet->qte	.	"	</td>	</tr>	";
+	}
+	echo	"</table>"	;
+}
+
+
+
+PHP	:	Sessions
+
+
+
+Cookies
+•  Un	cookie	est	un	mécanisme	pour	stocker	des
+informations	sur	les	visiteurs	afin	de	les
+identifier	plus	tard
+•  Contrairement	aux	variables	de	session,	les
+cookies	sont	des	petits	fichiers	stockés	sur
+l’ordinateur	de	l’utilisateur	pour	une	durée	de vie	que	nous	pouvons	définir
+PHP	:	Cookies
+•  Les	cookies	sont	accessibles	via	la	superglobale	$_COOKIE
+•  La	fonction	 setcookie()	permet	de	définir	un	cookie	qui	sera envoyé	avec	le	reste	des	en-têtes	HTTP
+–  Les	cookies	font	partie	des	en-têtes	HTTP,	ce	qui	impose que	 setcookie()	soit	appelée	avant	tout	affichage	de texte	et	avant	même	<!doctype	>
+–  La	fonction	 setcookie()	peut	prendre	jusqu'à	7
+paramètres	:
+•  Le	premier	est	obligatoire	car	il	définit	le	nom	du	cookie
+•  Le	deuxième	définit	la	valeur	du	cookie
+•  Le	troisième	définit	la	durée	de	vie	du	cookie	en	seconde
+setcookie('nom',	'nomUtilisateur',	time()+3600*24);
+echo	$_COOKIE['nom’]; //	affichage	du	cookie
+
+
+
+
+PHP	:	Cookies
+1 – On demande une page web contenant une session et un cookie avec une variable
+2 – Le serveur web répond avec le code HTTP 200, puis il envoie le numéro de session PHP, et la variable « nom » contenant la valeur « nomUtilisateur »... chacun dans un cookie
+
+Lorsque PHP demande à créer des cookies, les valeurs sont envoyées par le serveur web au navigateur, pour que celui-ci stocke les valeurs localement.
+Les cookies sont stockés sur votre disque dur !... Ils sont donc renvoyés à chaque demande de page web.
+Attention à ne pas mettre trop de données :
+- Ne pas y mettre de fichiers
+- Ne pas y mettre d’objets ou conteneurs trop gros !
+(tableaux, etc...)
+
+<?php
+session_start();
+setcookie('nom', 'nomUtilisateur', time()+3600*24);
+?>
+
+
+
+PHP	:	Cookies
+•  La	fonction	 setrawcookie()	est	exactement	la même	que	 setcookie()	exceptée	que	la	valeur du	cookie	ne	sera	pas	automatiquement
+encodée	dans	l’URL	lors	de	l'envoi	au
+navigateur
+
+•  Pour	détruire	un	cookie	:	appeler	 setcookie() avec	une	date	d’expiration	dans	le	passé	:
+setcookie("Nomcookie",	"valeurCookie", time()-3600);
+
+
+
+PHP	:	Cookies
+•	Exemple	de	cookie	sous	forme	de	tableau	:
+
+<?php
+setcookie("cookie[three]",	"cookiethree",	time()+3600*1); setcookie("cookie[two]",	"cookietwo",	time()+3600*1); setcookie("cookie[one]",	"cookieone",	time()+3600*1);
+?>
+<?php	 	 	 	 //	affichage	de	ces	cookies
+if	(isset($_COOKIE['cookie']))	{
+//	exemple	d'appel	du	cookie	:
+echo	'le	cookie	two	est	:'.	$_COOKIE['cookie']['two'].	'	sinon	parcours	avec foreach	comme	suit	:	<br/>';
+foreach	($_COOKIE['cookie']	as	$name	=>	$value)	{
+$name	=	htmlspecialchars($name);
+$value	=	htmlspecialchars($value);
+echo	"$name	:	$value	<br	/>";
+}
+}		?>
+
+
+
+
+PHP	:	Cookies
+<?php
+session_start();
+		setcookie("cookie[three]",	"cookiethree",	time()+3600*1);
+		setcookie("cookie[two]",	"cookietwo",	time()+3600*1);
+		setcookie("cookie[one]",	"cookieone",	time()+3600*1);
+?>
+1 – On	demande	une	page web	contenant	une	session et	trois	cookies
+2 – Le serveur web répond avec le code HTTP 200, puis il envoie des cookies contenant les 3 variables et le numéro de session PHP
+Chaque cookie est envoyé au navigateur avec ses valeurs et sa date d’expiration...
+
+
+
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+
+PHP	:	Cookies
+[Navigateur	fait	une	requête]
+Le	client	a	cliqué	sur	le	lien	vers cookies4.php
+Bien	que	cette	page	n’ait	besoin	d’aucune valeur	de	cookie	(hormis	la	session),	le navigateur	renvoie	TOUT	LE	TEMPS	toutes ses	valeurs	stockées	dans	des	cookies	!
+(évident	:	le	navigateur	ne	connait	pas	le code	PHP	contenu	dans	la	page	web,	donc il	renvoie	toutes	les	valeurs	qu’il	est	censé conserver)
+
+
+PHP	:	Cookies
+[Serveur	Web	répond]
+Le	serveur	web	«	détruit	»	la	session...	En pratique	cela	signifie	que	les	variables	de session	sont	détruites...	mais	pas	celles	des cookies	!
+
+
+PHP	:	Cookies
+[Navigateur	fait	une	requête]
+Le	navigateur	demande	cookies5.php
+La	session	est	détruite	côté	serveur,	mais le	navigateur	continue	d’envoyer	l’ID	dont il	dispose,	ainsi	que	les	cookies	qu’il	a stocké
+
+
+PHP	:	Cookies
+[Serveur	Web	répond]
+On	force	le	serveur	web	a	écrire	des valeurs	de	session	et	de	cookies...
+Seules	les	valeurs	stockées	dans	les	cookies seront	affichables...	étant	donné	que	la session	est	détruite	!
+
+
+PHP	:	Cookies
+En	effet	:	les	2	variables	stockées	dans	des	cookies	s’affichent,	mais	pas les	autres
+- Nom	reste	vide,	car	la	session	est	détruite,	donc	le	contenu	est	vide
+- Prenom	et	MonRawCookie	s’affichent	car	ils	sont	renvoyés	par	le navigateur	avec	chaque	requête	«	tant	que	»	leur	durée	de	vie	est valable
+
+
+PHP	:	Cookies
+[Navigateur	fait	une	requête]
+Le	navigateur	demande	la	page cookies5.php
+Il	continue	d’envoyer	toutes	les	variables «	encore	valables	»	contenues	dans	des cookies
+
+
+PHP	:	Cookies
+[Serveur	Web	répond]
+Le	serveur	web	répond,	mais	il	ne	renvoie aucun	ID	de	session	(usage	de	la	valeur précédente	encore	possible)
+
+
+PHP	:	Cookies
+Les	données	du	navigateur sont	stockées	dans	un	fichier
+Cookie	«	prenom	», contenant	«	Fab	», pour	le	serveur	web p1web2019.metalman.eu dans	le	dossier	«	test_cookie	» avec	divers	timestamps
+Un	exemple	de	fichier	contenant	des cookies	du	navigateur	du	client.
+Les	valeurs	sont	lisibles	!	Ne	JAMAIS stocker	de	mot	de	passe	dans	un	cookie	!
+(que	le	contenu	de	la	variable	soit	chiffré ou	non	:	le	mot	de	passe	sera	accessible sur	l’ordinateur	du	client	!)
+Cookie	«	MonRawCookie	», contenant	«	valeurCookie	», pour	le	serveur	web p1web2019.metalman.eu dans	le	dossier	«	test_cookie	» avec	divers	timestamps
+
+
+
+PHP	:	Sessions	&	Cookies
+•  Session	:	variables	conservées	côté	serveur
+–  session_start();			//	sur	chaque	page	PHP
+–  $_SESSION["ma_variable"]	=	42;	 	//	variables
+–  unset($_SESSION["ma_variable"]);		 //	variables
+–  session_destroy();			//	seulement	en	fin	de	session
+•  Cookies	:	variables	conservées	côté	client
+–  setcookie('nom',	'nomUtilisateur',	time()+3600*24);
+–  echo	$_COOKIE['nom'];
+–  setcookie('nom',	'nomUtilisateur',	time()-3600);
+
+
+
+Transactions	&	BDD
+•  Un	site	de	vente	en	ligne	a	presque	vidé	ses stocks... Il	ne	reste	plus	qu’un	seul	objet	en
+vente	en	un	seul	exemplaire
+•  Que	se	passe-t-il	lorsque	2	utilisateurs
+essayent	d’acheter	en	même	temps	cet
+objet	?
+
+– Impossible	à	déterminer...	En	général,	les	deux utilisateurs	arriveront	à	passer	commande,	et	le vendeur	verra	2	commandes	sur	le	même	objet,
+et	le	stock	passera	en	négatif
+
+
+
+Transactions	&	BDD
+•  Une	transaction	est	un	ensemble	de	requêtes
+visant	à	changer	l’état	d’une	base	de	données
+•  Exemple	:
+1.  On	sélectionne	des	produits	dans	une	BDD
+choix	des	produits
+2.  On	créer	une	nouvelle	ligne	dans	une	table
+création	d’une	nouvelle	réservation	de	produits 3.  On	réduit	des	valeurs	dans	une	autre	table
+réduction	de	la	quantité	de	plusieurs	produits
+
+Les	3	requêtes	sont	exécutées	en	une	seule	transaction
+
+
+
+Transactions	&	BDD
+•  Une	transaction	peut	être	vue	comme	une
+requête	«	métier	»/haut	niveau	:
+- «	réserver	des	produits	dans	un	magasin	»	est	une transaction	qu’un	client	peut	demander
+- En	pratique	il	faut	que	le	client	choisisse	des produits	disponibles,	que	l’on	prépare	une	note liant	le	client	aux	produits,	et	isoler	les	produits pour	les	mettre	de	côté
+Les	requêtes	«	techniques	»/bas	niveau	toutes
+seules	n’ont	que	peu	de	signification,	mais	ensemble elles	servent	un	but	commun	(cf	process	mining...)
+
+
+
+Transactions	&	BDD
+•  Les	transactions	se	terminent	par	un	«	commit	»
+–  Validation	de	la	transaction
+–  Écriture	des	modifications
+•  On	peut	vouloir	annuler	une	transaction	en	cours de	route	ou	après	un	commit.	On	effectue	dans
+ce	cas	un	«	rollback	»
+–  La	transaction	est	annulée,	aucune	modification	n’est apportée	aux	données	dans	la	BDD
+–  Les	anciennes	valeurs	sont	remises	dans	la	BDD
+
+
+
+Transactions	&	BDD
+Le	«	commit	»	est	la	dernière	étape	d’une	transaction	:	c’est	à	ce moment-là	que	le	SGBD	enregistre	les	changements.
+
+Généralement,	les	transactions	sont	effectuées	en	mémoire	RAM,	et lorsque	qu’un	commit	est	effectué,	les	changements	sont	inscrits	sur les	disques	durs.
+
+Si	un	SGBD	crashe,	il	doit	pouvoir	retrouver	son	dernier	état cohérent...
+...ou	alors	il	doit	pouvoir	proposer	de	“rejouer”	l’ensemble	des transactions	effectuées	pour	retrouver	une	base	de	données cohérente	et	à	jour.
+
+
+Les	transactions	(leurs	requêtes	groupées)	sont	enregistrées	dans	les logs	des	SGBD,	permettant	de	rejouer	l’ensemble	des	transactions effectuées.
+
+
+
+Transactions	&	BDD
+•  Propriétés	ACID	:
+–  Atomicité
+–  Cohérence
+–  Isolation
+–  Durabilité
+
+«	Un	ensemble	de	propriétés	qui	garantissent	qu'une transaction	informatique	est	exécutée	de	façon
+fiable.	»
+
+
+	Wikipédia	– Propriétés	ACID
+Les	propriétés	ACID	permettent	d’assurer	qu’un
+SGBD	supporte	les	«	transactions	»
+
+
+
+Transactions	&	BDD
+•  Atomicité	:
+Une	transaction	est	«	atomique	»	si	elle	s’effectue intégralement	ou	pas	du	tout
+
+(Une	transaction	non-atomique	créerait	une
+réservation	avec	les	produits,	mais	ne	réduirait	pas la	quantité	dans	les	stocks	(par	exemple).
+
+Le	stock	réel	ne	serait	pas	correctement	représenté, ce	qui	entraînerait	des	problèmes)
+
+
+
+Transactions	&	BDD
+•  Cohérence	:
+La	cohérence	assure	que	toutes	les	contraintes	de	la base	de	données	sont	respectées	avant	et	après	les transactions	(l’état	de	la	base	de	donnée	est	valide selon	les	règles)
+
+(Une	transaction	incohérente	permettrait	par
+exemple	de	faire	référence	à	des	objets	qui
+n’existent	plus,	ce	qui	bloquerait	les	jointures)
+
+
+
+Transactions	&	BDD
+•  Isolation	:
+Capacité	de	protéger	les	données	contre	plusieurs modifications	simultanées.	Une	transaction	ne	doit pas	dépendre	des	données	d’une	autre	transaction.
+
+
+(Des	transactions	non-isolées	permettent	de	faire des	modifications	sur	des	valeurs	qui	n’existent	plus ou	qui	ont	été	modifiées	entre	temps)
+
+
+
+Transactions	&	BDD
+•  Exemple	problème	isolation	:	Un	produit	est	en	quantité	9
+une	transaction	A	le	réduit	de	1,	il	devrait	se	retrouver	à	8, mais	une	transaction	B	le	réduit	de	3	entre	temps.
+
+
+•  La	valeur	correcte	devrait	être	3 	1	=	4	 	 =>		 	9	–	4	=	5
+mais	comme	l’ordre	des	écritures	est	importante	: 1) 	A	lit	la	valeur	9
+SELECT	qte	FROM	produits	WHERE	nom=«	pomme	»
+2) 	B	lit	la	valeur	9
+SELECT	qte	FROM	produits	WHERE	nom=«	pomme	»
+3) 	B	réduit	de	3	la	quantité	:	 	9	–	3	=	6	 	( UPDATE	qte	) 4) 	A	réduit	de	1	la	quantité	:	 	9	–	1	=	8	 	( UPDATE	qte	) 5)	La	valeur	finale	sera	8,	car	B	est	exécutée	en	dernière
+
+
+
+Transactions	&	BDD
+•  Durabilité:
+En	cas	de	panne	(de	l’ordinateur,	du	système
+d’exploitation,	du	SGBD,	...),	les	transactions
+exécutées	sont	définitivement	enregistrées.
+
+
+(À	moins	que	la	panne	ne	concerne	l’ensemble	des disques	qui	contiennent	les	BDD,	les	transactions effectuées	doivent	être	enregistrées	dès	qu’elles sont	effectuées)
+
+
+
+Transactions	avec	MySQL
+MySQL	a	la	particularité	de	gérer	plusieurs	moteurs de	stockage	dans	une	même	BDD,	aussi	appelé
+moteur	de	table.
+
+•	Un	moteur	de	stockage	est	un	ensemble
+d’algorithmes	permettant	de	stocker	et	d’accéder aux	données	dans	un	SGBD.	En	général,	un	seul
+moteur	est	utilisé	par	BDD.
+
+•	Pour	lister	tous	les	moteurs,	utilisez	la	requête	: SHOW	ENGINES;
+
+
+
+Transactions	avec	MySQL
+Principaux	moteurs	de	stockage	MySQL	:
+MyISAM	:	moteur	par	défaut	jusque	MySQL	5.5
+•  Très	simple	d’utilisation
+•  Très	performant	sur	des	tables	fréquemment
+ouvertes	(très	rapide	pour	les	opérations	count()	et les	lectures)
+•  Offre	un	index	FULL-TEXT	qui	permet	de	faire	des recherches	précises	sur	des	textes
+× Ne	supporte	ni	les	clés	étrangères,	ni	les	transactions
+× Gère	le	verrouillage	au	niveau	de	la	table
+(bloque	la	table	entière	lors	des	opérations
+d’insertions,	suppressions	ou	MAJ)
+
+
+
+Transactions	avec	MySQL
+Principaux	moteurs	de	stockage	MySQL	:
+InnoDB	:	moteur	par	défaut	depuis	MySQL	5.5
+•  Gestion	des	clés	étrangères	et	support	des
+transactions	(par	défaut	:	chaque	requête	SQL	est considérée	comme	une	transaction)
+–  Véritable	gestion	du	modèle	relationnel	&	transactionnel
+–  Respecte	ACID
+•  Gère	le	verrouillage	au	niveau	de	la	ligne
+× Ne	propose	pas	d’index	FULL-TEXT,	légèrement	plus lent	dans	les	opérations
+
+
+
+Transactions	avec	MySQL
+Principaux	moteurs	de	stockage	MySQL	:
+
+Memory	:	Stocke	les	données	de	la	table	en	mémoire (RAM).
+
+•  Accès	très	rapides
+× En	cas	de	panne,	les	données	stockées	sont	perdues
+
+
+
+
+Transactions	avec	MySQL
+1.  Début	de	la	transaction	:	START	TRANSACTION
+2.  Requêtes	:	SELECT,	UPDATE,	...
+3.  Validation	de	la	transaction	:	COMMIT
+OU
+Annulation	de	la	transaction	en	cas	d’erreur	:
+ROLLBACK
+
+•  S’il	y	a	une	erreur	d’intégrité	dans	les	données,	le rollback	se	fait	automatiquement
+
+
+
+
+Transactions	avec	MySQL
+Ne	pas	oublier	d’utiliser	un	moteur	de	BDD
+compatible	avec	les	transactions	et	les	propriétés ACID...
+
+...	et	utiliser	les	requêtes	et	fonctions	de	transactions si	nécessaire...
+
+
+...sinon	:
+une	requête	=	 une	transaction	“pas	toujours	ACID”
+
+
+
+Transactions	avec	MySQL
+Exemple	de	gestion	de	transaction	:	achats	en	ligne
+
+•  Spécification	du	moteur	InnoDB	lors	de	la	création de	la	table,	pour	supporter	les	transactions
+CREATE	TABLE	Compte	(	ID	int	,	Solde	int	not	nul 	)
+ENGINE=InnoDB	;
+SET	autocommit=0	;	//désactiver	la	validation	automatique	des	requêtes
+START	TRANSACTION	;
+UPDATE	compte	SET	solde=solde+100	where	id=IDVendeur	;
+UPDATE	compte	SET	solde=solde-100	where	id=IDAcheteur	;
+COMMIT	;
+
+
+
+Transactions	avec	PDO
+1.  Début	de	la	transaction	:
+$bdd->beginTransaction();
+
+2.  Requêtes	de	la	transactions:
+$bdd->query();
+$bdd->query();
+
+3.  Validation	/	Annulation	de	la	transaction	: $bdd->commit();
+$bdd->rollback();

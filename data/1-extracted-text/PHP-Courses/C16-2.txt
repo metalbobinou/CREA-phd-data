@@ -1,0 +1,935 @@
+Développement objet
+ Définition de briques logicielles représentant un
+
+concept, une idée ou une entité ainsi que leurs
+interactions : les objets
+ Un objet est une structure de données comprenant
+également les fonctionnalités de traitement des
+données
+ L’objet est vu au travers de ses spécifications
+ Les concepts associés sont :
+ Encapsulation
+ Héritage
+ Polymorphisme
+10:11:29
+
+Programmation Web 2011-2012
+
+1
+
+Classe
+ Une classe définit un modèle, un moule, à partir
+
+
+
+
+
+
+duquel tous les objets de classe seront créés
+La classe décrit les données internes ainsi que les
+fonctionnalités des objets
+La classe est une vision « inerte », une recette de
+cuisine, visant à décrire la structure et le
+comportement des objets qui seront créés
+La construction d’un objet à partir de la classe
+génératrice s’appelle instanciation
+Les objets, entités « vivantes » en mémoire, sont des
+instances de la classe
+
+10:11:29
+
+Programmation Web 2011-2012
+
+2
+
+Instanciation
+ La classe est une description « inerte »
+ Les objets doivent être instanciés à partir de la classe
+
+génératrice pour exister et devenir fonctionnels
+
+ Exemple : la classe Animal
+
+$bambi = new Animal() ;
+$scrat = new Animal() ;
+$melman = new Animal() ;
+
+10:11:29
+
+Programmation Web 2011-2012
+
+3
+
+Encapsulation
+ Procédé consistant à rassembler les données et les
+
+traitements au sein des objets
+ L’implémentation interne des objets est cachée
+ Les objets sont vu à travers leurs spécifications
+ Les données internes et les fonctionnalités possèdent
+un niveau de visibilité et peuvent éventuellement être
+masquées :
+ Public
+ Privé
+ Protégé
+
+10:11:29
+
+Programmation Web 2011-2012
+
+4
+
+Encapsulation
+ Les données internes des objets sont appelées attributs
+ Les fonctionnalités des objets sont appelées méthodes
+ Méthodes habituelles :
+ Constructeur / destructeur
+ Accesseurs / modificateurs (getters / setters)
+ Référence à l’objet courant dans la description de la
+
+classe : $this
+
+10:11:29
+
+Programmation Web 2011-2012
+
+5
+
+Visibilité
+ Publique :
+
+Les données internes et les méthodes sont accessibles
+par tous
+
+ Protégé :
+
+Les données internes et les méthodes sont accessibles
+aux objets dérivés
+
+ Privé :
+
+Les données internes et les méthodes ne sont
+accessibles qu’aux objets de la classe
+
+10:11:29
+
+Programmation Web 2011-2012
+
+6
+
+Héritage ou dérivation ou
+extension
+ Création de nouvelles classes à partir du modèle d’une
+
+classe existante
+ La nouvelle classe possède tous les attributs et
+méthodes de la classe mère
+ La nouvelle classe peut proposer de nouveaux attributs
+et de nouvelles méthodes ou spécialiser des méthodes
+Mammifère
+de la classe mère
+Herbivore
+
+Impala
+10:11:29
+
+Caribou
+
+Carnivore
+
+Guépard
+
+Programmation Web 2011-2012
+
+Léopard
+7
+
+Polymorphisme
+Mammifère
+nourriture
+
+ Choix dynamique de la méthode qui correspond au
+
+type réel de l’objet
+ Méthode mange()
+
+Herbivore
+plantes
+
+Impala
+herbe
+
+Caribou
+mousse
+
+Carnivore
+viande
+
+Guépard
+impala
+
+Léopard
+impala
+
+ function nourriture(Mammifere $m) {
+
+return $m->mange() ;
+
+}
+ $i = new Impala() ; nourriture($i) ;
+ $c = new Carnivore() ; nourriture($c) ;
+10:11:29
+
+Programmation Web 2011-2012
+
+herbe
+viande
+8
+
+Développement objet en PHP
+ PHP 4
+ Classes (tout est public)
+ Constructeur
+ Héritage
+ Méthodes statiques implicites
+ Outils pour la linéarisation (sauvegarde sur disque)
+ PHP 5
+ Classes (choix public, protected, private)
+ Constructeur et destructeur
+ Membres et méthodes statiques
+ Classes et méthodes abstraites
+ …
+10:11:29
+
+Programmation Web 2011-2012
+
+9
+
+Déclaration
+Définition d'une classe en
+PHPde4classe
+<?php
+class MaClasse {
+var $madonnee ; // Attribut
+
+Attribut public
+Constructeur public
+
+Référence à
+// Constructeur
+l'objet courant
+function MaClasse($param) {
+$this->madonnee = $param ;
+}
+Accès à un attribut
+function affiche() { // Méthode
+echo get_class($this)
+Méthode publique
+." contient ".$this->madonnee ;
+}
+Donne le nom de la
+classe de l'objet
+courant
+
+}
+?>
+
+10:11:29
+
+Programmation Web 2011-2012
+
+10
+
+Utilisation d'une classe en PHP 4
+
+Inclusion de la
+définition de la classe
+
+<?php
+require "maclasse.php" ;
+Création d'un objet
+// Nouvel objet
+$o
+= new MaClasse(12)
+maclasse
+contient 12 ;
+// Utilisation d'une méthode
+$o->affiche() ;
+$o->madonnee = "coucou" ;
+
+Méthode affiche de
+l'objet $o
+Impossible de
+restreindre l'accès
+aux attributs
+
+?>
+
+10:11:29
+
+Programmation Web 2011-2012
+
+11
+
+Héritage en PHP 4
+
+Héritage de
+MaClasse
+
+<?php
+class MaClasseHeritee extends MaClasse {
+var $autredonnee ;
+function MaClasseHeritee($param1, $param2)
+{
+Opérateur
+de
+parent::MaClasse($param1) ;
+résolution de portée
+$this->autredonnee = $param2 ;
+(Paamayim
+}
+Nekudotayim)
+function affiche() {
+MaClasse::affiche() ;
+Méthode MaClasse
+echo " et ".get_class($this)
+du parent
+." contient ".$this->autredonnee ;
+}
+}
+Méthode affiche de
+?>
+la classe
+
+MaClasse
+10:11:29
+
+Programmation Web 2011-2012
+
+12
+
+Méthodes de classe implicites
+<?php
+class MaClasse {
+var $madonnee ; // Attribut
+// Constructeur
+function MaClasse($param) {
+$this->madonnee = $param ;
+}
+function affiche() { // Méthode
+echo $this->madonnee ;
+}
+function statique() { // Méthode
+echo "Statique !!!" ;
+}
+} ?>
+
+10:11:29
+
+Programmation Web 2011-2012
+
+Méthode publique
+
+Ne fait pas référence à
+$this
+ Méthode statique
+(méthode de classe)
+13
+
+Méthodes de classe implicites
+
+Inclusion de la
+définition de la classe
+
+<?php
+require "maclasse.php" ;
+Création d'un objet
+// Création d'un objet
+$o = new MaClasse(12) ;
+
+Méthode affiche de
+l'objet $o
+
+// Utilisation d'une méthode
+12
+$o->affiche()
+;
+
+Impossible de
+restreindre l'accès
+// Utilisation d'une méthode implicitement
+auxstatique
+attributs
+MaClasse::statique()
+;
+Statique !!!
+?>
+
+10:11:29
+
+Programmation Web 2011-2012
+
+14
+
+Développement objet en PHP 5
+A partir de maintenant,
+développement en PHP 5
+
+10:11:29
+
+Programmation Web 2011-2012
+
+15
+
+Définition d'une classeDéclaration de classe
+<?php
+class MaClasse {
+private $madonnee ;
+
+Attribut privé
+Constructeur public
+
+public function __construct($param) {
+$this->madonnee = $param ;
+Référence à l'objet
+}
+courant
+function __destruct() {
+echo "Destruction..." ; }
+Destructeur public
+function affiche() {
+echo "madonnee : "
+Méthode publique
+.$this->madonnee ;
+par défaut
+}
+} ?>
+
+Accès à un attribut
+
+10:11:29
+
+Programmation Web 2011-2012
+
+16
+
+Utilisation d'une classe
+
+Inclusion de la
+définition de la classe
+
+<?php
+require "maclasse.php" ;
+Création d'un objet
+// Nouvel objet
+$o
+= new MaClasse(12)
+maclasse
+contient 12 ;
+// Utilisation d'une méthode
+$o->affiche()
+;{
+class
+Fatal MaClasse
+error: Cannot
+access private
+private
+$madonnee ;
+property
+MaClasse::$madonnee
+in
+...
+dummy.php on =line
+25
+$o->madonnee
+"coucou"
+;
+function __destruct() {
+Destruction...
+echo "Destruction..." ; }
+unset($o) ;
+?>
+10:11:29
+
+Programmation Web 2011-2012
+
+Méthode affiche de
+l'objet $o
+L'attribut est privé
+Destruction de
+l'objet $o
+
+17
+
+Valeur par défaut des attributs
+Attribut avec valeur
+par défaut
+<?php
+class MaClasse {
+private $madonnee = "Défaut" ;
+function affecte($val) {
+$this->madonnee = $val ; }
+function affiche() {
+Nouvel objet
+echo "madonnee : ".$this->madonnee ; }
+}
+Affichage
+madonnee : Défaut
+$o = new MaClasse() ;
+Affectation
+$o->affiche()
+;
+madonnee : Nouvelle
+$o->affecte("Nouvelle") ;
+Affichage
+$o->affiche() ;
+?>
+10:11:29
+Programmation Web 2011-2012
+
+18
+
+Attributs et méthodes de classe
+ Mot clé static
+ Attributs et méthodes utilisables sans instance de la
+
+classe (=attributs et méthode de classe)
+ Attributs NE peuvent PAS être accédés depuis une
+instance ($objet->attribut)
+ Attributs partagés par toutes les instances de la classe
+ Méthodes peuvent être accédés depuis une instance
+($objet->methode())
+ Dans les méthodes, $this n'est pas disponible
+10:11:29
+
+Programmation Web 2011-2012
+
+19
+
+Attributs statiques
+
+Attribut privé statique :
+ne peut être accédé
+que par des méthodes
+de la classe
+
+class MaClasse {
+private static $n = 0 ;
+function __construct() {
+Accès à l'attribut
+statique
+echo ++MaClasse::$n
+." instance(s)" ; }
+function __destruct() {
+echo "destruction" ; self::$n-- ; }
+1 instance(s)
+} instance(s)
+2
+$s = new MaClasse() ;
+destruction
+$tinstance(s)
+= new MaClasse() ;
+2
+unset($t)
+; Cannot access private property
+3
+instance(s)
+Fatal
+error:
+$u
+= new MaClasse()
+;
+MaClasse::$n
+in dummy.php
+on line 37
+$v = new MaClasse()
+;
+10:11:29
+Programmation Web 2011-2012
+
+20
+
+Méthodes statiques
+class MaClasse {
+private static $n = 0 ;
+function __construct() {
+echo ++MaClasse::$n." instance(s)<br>\n"
+; }
+Méthode publique
+statique
+function __destruct() {
+MaClasse::$n-- ; }
+static function f($i) {
+echo "Dans f() : ".($i*$i)Appel
+; } à partir d'une instance
+} instance(s)
+Toléré
+1
+Dans f() : 4
+$s = f()
+new :
+MaClasse()
+;
+Dans
+9
+$s->f(2) ;
+MaClasse::f(3)Programmation
+;
+10:11:29
+Web 2011-2012
+
+Appel sans instance
+21
+
+Constantes de classe
+class MaClasse {
+const constante = "Valeur" ;
+public function montre() {
+echo self::constante ;
+}
+}
+Valeur
+$c = new MaClasse() ;
+Valeur
+$c->montre() ;
+echo MaClasse::constante ;
+
+10:11:29
+
+Programmation Web 2011-2012
+
+Constante publique de
+classe
+Accès à la constante
+de classe depuis la
+classe
+
+Accès à la constante
+de classe à l'extérieur
+de la classe
+
+22
+
+Héritage
+
+class Simple {
+function affiche() {
+echo "Je suis Simple" ; }
+}
+class Etendue extends Simple {
+function affiche() {
+parent::affiche() ;
+echo " mais aussi Etendue" ;
+}
+}
+$s = new Simple() ;
+$e = new Etendue() ;
+Je suis Simple;
+$s->affiche()
+$e->affiche()
+Je
+suis Simple;mais aussi Etendue
+
+10:11:29
+
+Programmation Web 2011-2012
+
+Classe simple
+Une méthode
+publique
+Classe étendue
+héritant de la classe
+simple
+Surcharge de la
+méthode
+Appel de la méthode
+du parent
+
+23
+
+Assignation d'objets
+class Point {
+private $_x ;
+private $_y ;
+public function __construct($x=0, $y=0) {
+$this->_x = $x ;
+$this->_y = $y ; }
+public function set($x, $y) {
+$this->_x = $x ;
+$this->_y = $y ; }
+public function toString() {
+return "({$this->_x}, {$this->_y})" ; }
+10:11:29
+
+Programmation Web 2011-2012
+
+24
+
+Assignation d'objets
+$segment = array() ;
+$point = new Point() ;
+for ($i=10; $i<20; $i++)
+{
+$point->set($i, $i) ;
+$segment[] = $point ;
+}
+foreach ($segment as $k => $p)
+echo "$k: {$p->toString()}<br>\n" ;
+
+10:11:29
+
+Programmation Web 2011-2012
+
+$point
+$segment
+0: (19, 19)
+0
+1: (19, 19)
+1 19)
+2: (19,
+2 19)
+3: (19,
+4: (19,
+3 19)
+5: (19,
+4 19)
+6: (19,
+5 19)
+7: (19, 19)
+6
+8: (19, 19)
+7 19)
+9: (19,
+8
+9
+
+19,19
+18,18
+17,17
+16,16
+15,15
+14,14
+13,13
+12,12
+11,11
+10,10
+0,0
+
+25
+
+19,19
+18,18
+17,17
+16,16
+15,15
+14,14
+13,13
+12,12
+11,11
+10,10
+0,0
+
+Clonage d'objets
+$segment = array() ;
+$point = new Point() ;
+for ($i=10; $i<20; $i++)
+{
+$point->set($i, $i) ;
+$segment[] = clone $point ;
+}
+foreach ($segment as $k => $p)
+echo "$k: {$p->toString()}<br>\n" ;
+
+$point
+$segment
+0: (10, 10)
+0
+1: (11, 11)
+1 12)
+2: (12,
+2 13)
+3: (13,
+4: (14,
+3 14)
+5: (15,
+4 15)
+6: (16,
+5 16)
+7: (17, 17)
+6
+8: (18, 18)
+7 19)
+9: (19,
+8
+9
+
+10,10
+11,11
+12,12
+13,13
+14,14
+15,15
+16,16
+17,17
+18,18
+19,19
+
+10:11:29
+
+Programmation Web 2011-2012
+
+26
+
+Objets comme arguments de
+fonctions
+function origine($p) {
+$p->set(0, 0) ; }
+$point = new Point(10, 10) ;
+echo "avant: {$point->toString()}<br>\n" ;
+origine($point) ;
+echo "apres: {$point->toString()}<br>\n"
+;
+Passage
+de
+l'objet
+avant: (10, 10)
+Point par référence
+apres: (0, 0)
+10:11:29
+
+Programmation Web 2011-2012
+
+27
+
+Objets dans les chaînes de
+caractères
+ Problème :
+ ambiguïté
+ non évaluable
+ Chaîne contenant :
+ un attribut d'un objet dans une chaîne
+"a : $a->attribut"
+ le résultat d'une méthode d'un objet dans une chaîne
+"résultat : $a->calcule()"
+ une entrée de tableau associatif
+ "valeur : $tab['cle']"
+ une variableProgrammation
+suivie de
+texte (sans espace)
+10:11:29
+Web 2011-2012
+
+28
+
+Objets dans les chaînes de
+caractères
+ Solution :
+ effectuer des concaténations (pénible)
+ délimiter par { }
+ Chaîne contenant :
+ un attribut d'un objet dans une chaîne
+"a : {$a->attribut}"
+ le résultat d'une méthode d'un objet dans une chaîne
+"résultat : {$a->calcule()}"
+ une entrée de tableau associatif
+ "valeur : {$tab['cle']}"
+ une variableProgrammation
+suivie de
+texte (sans espace)
+10:11:29
+Web 2011-2012
+
+29
+
+Gestion des erreurs :
+exceptions
+ Gestion des exception identiques à C++/Java
+ Exception peut être :
+ Jetée
+: throw
+ Essayée : try
+ Capturée
+: catch
+ Exception jetée : code après throw non exécuté
+ Capture : 1 ou plusieurs blocs (selon type)
+ Exception non capturée : erreur fatale
+
+10:11:29
+
+Programmation Web 2011-2012
+
+30
+
+Utilisation des exceptions
+try {
+$error = 'Toujours lancer cette erreur';
+Déroutement
+throw new Exception($error);
+/* Le code après une exception n'est
+Capturer
+Essayer
+Lancer
+jamais exécuté. */
+echo 'Jamais exécuté'; }
+Capture Exception: Toujours lancer cette erreur
+catch (Exception $e) {
+echo "Capture Exception: "
+.$e->getMessage()." \n"; }
+Bonjour le monde
+// Poursuite de l'exécution
+echo 'Bonjour
+le monde';
+10:11:29
+Programmation
+Web 2011-2012
+
+31
+
+Classe Exception PHP 5
+<?php
+class Exception {
+protected $message = ''; // message de l'exception
+protected $code = 0;
+// code de l'exception
+protected $file;
+// fichier source de l'exception
+protected $line;
+// ligne de la source de l'exception
+function __construct(string $message=NULL, int code=0);
+final
+final
+final
+final
+final
+final
+
+function
+function
+function
+function
+function
+function
+function
+
+getMessage();
+// message de l'exception
+getCode();
+// code de l'exception
+getFile();
+// nom du fichier source
+getLine();
+// ligne du fichier source
+getTrace();
+// un tableau de backtrace()
+getTraceAsString(); // chaîne de trace
+_toString();
+// chaîne pour l'affichage
+
+} ?>
+10:11:29
+
+Programmation Web 2011-2012
+
+32
+
+

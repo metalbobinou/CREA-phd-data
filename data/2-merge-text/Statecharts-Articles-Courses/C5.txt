@@ -1,0 +1,761 @@
+Statecharts
+Used to model behaviour of Reactive Systems
+(event driven, react to internal and external stimuli)
+Visual formalism but formal and rigourous for
+1. documentation
+2. analysis
+3. simulation
+4. code generation
+Solves FSA problems:
+hierarchy (
+
+
+
+
+
+1. flat
+
+re-use)
+
+2. represent large number of transitions concisely
+3. represent large number of states concisely
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+1/17
+
+Statecharts references
+
+
+David Harel. Statecharts: A Visual Formalism for Complex Systems.
+Science of Computer Programming. vol. 8. 1987. pp. 231 - 274.
+
+
+
+David Harel and Amnon Naamad. The STATEMATE semantics of
+statecharts. ACM Transactions on Software Engineering and Methodology
+(TOSEM) vol. 5. Issue 4. October 1996. pp.293 - 333.
+
+
+
+Michael von der Beeck. A comparison of statechart variants. In Formal
+Techniques in Real-Time and Fault-Tolerant Systems. L. de Roever and J.
+Vytopil, Eds. Lecture Notes in Computer Science vol. 863. Springer-Verlag,
+New York, pp. 128 - 148. 1994
+
+
+
+Michael von der Beeck. A structured operational semantics for
+UML-statecharts. Software and Systems Modeling. Volume 1, No. 2 pp. 130
+- 141 . December 2002.
+
+
+COMP 304
+
+Statechart revisions in UML 2.0 (www.omg.org).
+hv@cs.mcgill.ca
+
+Higraphs
+
+2/17
+
+Statecharts tools
+
+
+STATEMATE [http://www.ilogix.com/products/magnum/index.cfm]
+
+
+
+Rhapsody [http://www.ilogix.com/products/rhapsody/rhap inc.cfm]
+
+
+
+Rational Rose [http://www.rational.com]
+
+
+
+Stateflow [http://www.mathworks.com/products/stateflow/]
+
+
+
+BetterState Lite
+
+[http://www.windriver.com/products/html/betterstate.html]
+
+
+XJTek [http://www.xjtek.com/products/xjcharts/]
+
+
+
+Poseidon for UML [http://www.GentleWare.com]
+
+
+
+ArgoUML [http://argouml.tigris.org/]
+
+
+
+visualSTATE [http://www.iar.com/Products/VS/]
+
+
+
+SVM [http://msdl.cs.mcgill.ca/people/tfeng/research.html]
+
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+3/17
+
+Statecharts =
+
+1. Deterministic Finite State Automata (FSA, DFA)
+2. Depth
+3. Orthogonality
+4. Broadcast
+5. History
+
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+4/17
+
+UML 2.0 Statecharts abstract syntax
+
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+5/17
+
+Deterministic Finite State Automata (FSA, DFA)
+State
+A
+
+ 
+
+
+A
+
+entry/ ...
+do/ ...
+exit/ ...
+
+A
+
+e
+Default state (pseudo state)
+
+
+
+f/a
+g [guard]
+
+B
+
+g(2,"a")
+C
+
+transition
+
+event(params) [guard] /output_action(params)
+
+e
+Not allowed in DFA !
+
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+6/17
+
+Depth (XOR)
+Statechart with depth
+
+give meaning
+by "flattening"
+
+State automaton
+
+ 
+
+X
+A
+
+g
+
+A
+
+e
+
+f
+
+e
+f
+
+B
+
+g
+
+B
+f
+
+C
+
+COMP 304
+
+C
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+7/17
+
+Depth and determinism
+Statechart with depth
+
+give meaning
+by "flattening"
+
+State automaton (non deterministic)
+
+ 
+
+
+ 
+
+X
+A
+
+f
+
+A
+
+e
+
+f
+
+e
+f
+
+B
+
+f
+
+B
+f
+
+C
+
+C
+
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+8/17
+
+Depth and determinism
+State automaton (non deterministic)
+
+
+
+
+
+
+
+A
+
+e
+f
+
+f
+
+B
+f
+
+Deterministic state automaton
+
+ 
+
+ 
+
+C
+
+outer transition first (STATEMATE)
+
+inner transition first (UML)
+
+A
+
+Deterministic state automaton
+
+A
+
+e
+
+e
+f
+
+f
+
+B
+
+B
+
+f
+
+f
+
+C
+
+COMP 304
+
+C
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+9/17
+
+Why “inner-first” in UML Statecharts ?
+outer1
+
+outer2
+
+e
+
+e()
+g()
+
+outer2
+inner1
+
+e
+
+f(2,"hello")
+
+g
+
+outer3
+inner1
+
+inner2
+
+inner2
+e()
+f(int, string)
+
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+10/17
+
+Orthogonality (AND)
+meaning
+
+State Automaton
+
+Statechart with Orthogonal Components
+
+
+
+%& %&
+
+Y
+D
+
+!"
+
+A
+e
+
+f[D in(G)]
+
+g h
+
+n
+
+B,F
+
+F
+e
+
+B,G
+e
+
+f
+
+p
+
+g
+
+m
+
+C,E
+p
+
+I
+
+C,G
+
+p
+
+k
+n
+
+p
+
+C,F
+m|p
+
+H
+
+COMP 304
+
+e
+
+m|p
+
+e
+
+e
+
+h
+
+g
+
+B,E
+
+G
+
+C
+
+H
+
+k
+
+E
+
+#$
+
+B
+
+k
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+e
+
+p
+
+p e
+
+h
+I
+
+11/17
+
+Broadcasting (output events)
+A
+
+D
+
+E
+
+h
+
+B
+e
+
+f/g
+C
+
+H
+
+n
+
+F
+
+g
+
+G
+
+m/e
+
+I
+
+e
+
+J
+
+n/f
+
+Input Segment: nmnn
+
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+12/17
+
+History States
+
+Autonomous
+
+Red
+
+H
+
+resume
+
+t
+to_manual
+
+Manual
+
+Green
+
+t
+Yellow
+
+t
+
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+13/17
+
+Deep History
+
+H*
+A
+OC2
+
+OC1
+C
+
+B
+X
+
+I
+Y
+
+D
+
+J
+
+Z
+
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+14/17
+
+Traffic Light Example, visual syntax
+ON−OFF
+
+OFF
+
+ON
+NORMAL
+RED
+CROSSWALK
+
+GREEN_SOON
+
+AFTER(6)
+
+ON−OFF
+RED_WAIT
+H*
+
+AFTER(2)
+AFTER(2)
+
+YELLOW
+QUIT
+
+AFTER(5)
+
+DEAD
+
+GREEN
+POLICE
+
+POLICE
+
+FLASHING
+YELLOW_ON
+AFTER(0.5)
+
+AFTER(0.5)
+YELLOW_OFF
+
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+15/17
+
+Traffic Light Example, textual syntax
+# Statechart description generated by SVM-AToM3-plugin, written by Thomas Feng
+STATECHART:
+OFF
+DEAD
+ON [DS] [HS*]
+NORMAL [DS]
+GREEN
+YELLOW
+RED [DS]
+RED_WAIT [DS]
+GREEN_SOON
+FLASHING
+YELLOW_ON [DS]
+YELLOW_OFF
+
+TRANSITION:
+S: ON.FLASHING.YELLOW_OFF
+N: ON.FLASHING.YELLOW_ON
+T: 0.5
+C: 1
+TRANSITION: [HS]
+S: OFF
+N: ON
+E: ON-OFF
+C: 1
+
+ENTER:
+N: OFF
+O: theglobals.GUI.send(’DEAD’)
+ENTER:
+N: ON.NORMAL.YELLOW
+O: theglobals.GUI.send(’YELLOW’)
+ENTER:
+N: ON.NORMAL.GREEN
+O: theglobals.GUI.send(’GREEN’)
+ENTER:
+N: DEAD
+O: theglobals.GUI.tk.destroy()
+theglobals.EXECUTOR.shutdown()
+ENTER:
+N: ON.FLASHING.YELLOW_OFF
+O: theglobals.GUI.send(’DEAD’)
+ENTER:
+N: ON.FLASHING.YELLOW_ON
+O: theglobals.GUI.send(’YELLOW’)
+ENTER:
+N: ON.NORMAL.RED
+O: theglobals.GUI.send(’RED’)
+
+COMP 304
+
+hv@cs.mcgill.ca
+
+TRANSITION:
+S: ON.NORMAL.RED.RED_WAIT
+N: ON.NORMAL.RED.GREEN_SOON
+T: 6
+C: 1
+
+TRANSITION:
+S: ON
+N: OFF
+E: ON-OFF
+C: 1
+
+TRANSITION:
+S: ON.NORMAL.RED.RED_WAIT
+N: ON.NORMAL.RED.GREEN_SOON
+E: CROSSWALK
+C: 1
+
+TRANSITION:
+S: ON.FLASHING
+N: ON.NORMAL
+E: POLICE
+C: 1
+
+TRANSITION:
+S: ON.NORMAL.GREEN
+N: ON.NORMAL.YELLOW
+T: 5
+C: 1
+
+TRANSITION:
+S: ON.NORMAL
+N: ON.FLASHING
+E: POLICE
+C: 1
+
+TRANSITION:
+S: ON.NORMAL.YELLOW
+N: ON.NORMAL.RED
+T: 2
+C: 1
+
+TRANSITION:
+S: ON
+N: DEAD
+E: QUIT
+C: 1
+
+TRANSITION:
+S: ON.NORMAL.RED.GREEN_SOON
+N: ON.NORMAL.GREEN
+T: 2
+C: 1
+
+TRANSITION:
+S: ON.FLASHING.YELLOW_ON
+N: ON.FLASHING.YELLOW_OFF
+T: 0.5
+C: 1
+
+Higraphs
+
+16/17
+
+Simple Stopwatch Example
+
+http://www.xjtek.com/products/xjcharts/demo/
+COMP 304
+
+hv@cs.mcgill.ca
+
+Higraphs
+
+17/17
+
+
