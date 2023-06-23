@@ -1,0 +1,100 @@
+B
+
+41
+13
+
+computer bn:00021464n
+statecharts bn:01128895n
+systems bn:15125301n
+state bn:00023236n
+behavior bn:00009657n
+kind bn:00035907n
+number bn:00058285n
+history bn:00044268n
+effect bn:00021961n
+simultaneous bn:00099916a
+reg bn:01922794n
+timers bn:00077309n
+conditional bn:00100214a
+operational semantics bn:02057536n
+condition c bn:00675915n
+composite bn:00100155a
+goal bn:00030721n
+scenario bn:01190125n
+city bn:03335997n
+plant bn:00035324n
+transition state bn:03731398n
+police bn:00022026n
+transducer bn:00077966n
+code bn:00020354n
+traffic light bn:00074441n
+include bn:00089662v
+logical value bn:00855623n
+gate bn:00037487n
+flip-flop bn:00035248n
+autonomous bn:00097830a
+red light bn:00066676n
+composite states bn:00892979n
+inner bn:00105133a
+deep bn:00101054a
+atomic bn:00097696a
+activity diagrams bn:02627321n
+superstate bn:03656095n
+fsa bn:03013778n
+basic bn:00098103a
+fsms bn:03431506n
+state actions bn:00955439n
+A1
+A2
+A3
+A4
+A5
+C1
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+X.XXX...X.X..
+.X.X...X...X.
+...X.X.....X.
+.X.....X...X.
+XX.X.....X...
+..X.....X....
+X.XXX.....X..
+XX...........
+.X.XX.X.....X
+X...X...X....
+X............
+X....X.......
+X............
+X............
+X............
+.X..........X
+.....X.......
+..........X..
+...........X.
+..X..........
+..X.X........
+..X..........
+...........X.
+...X.........
+...X.......X.
+...X.........
+...X.........
+...........X.
+...........X.
+.........X...
+....X........
+............X
+....X........
+....X........
+..........X..
+......X......
+............X
+...........X.
+...........X.
+...........X.
+...........X.

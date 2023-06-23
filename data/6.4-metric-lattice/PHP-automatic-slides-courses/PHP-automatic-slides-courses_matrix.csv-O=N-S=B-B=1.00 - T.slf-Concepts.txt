@@ -1,0 +1,77 @@
+Concept (0) : 
+  level : 3
+  objects (0) : 
+  attributes (6) : C1.csv C2.csv C4.csv C7.csv C8.csv C9.csv 
+  parents concepts (5) : 1 2 3 4 5 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 1
+  objects (1) : fichier bn:00021475n 
+  attributes (1) : C9.csv 
+  parents concepts (1) : 10 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 2
+  objects (1) : client bn:00019764n 
+  attributes (2) : C1.csv C4.csv 
+  parents concepts (2) : 6 9 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 2
+  objects (1) : base de donnée bn:00025333n 
+  attributes (2) : C4.csv C7.csv 
+  parents concepts (2) : 7 9 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 2
+  objects (1) : site bn:00047172n 
+  attributes (2) : C1.csv C2.csv 
+  parents concepts (2) : 6 8 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 1
+  objects (1) : chaîne bn:00074685n 
+  attributes (1) : C8.csv 
+  parents concepts (1) : 10 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 1
+  objects (2) : client bn:00019764n site bn:00047172n 
+  attributes (1) : C1.csv 
+  parents concepts (1) : 10 
+  childs concepts (2) : 2 4 
+
+Concept (7) : 
+  level : 1
+  objects (2) : base de donnée bn:00025333n typage bn:00016413n 
+  attributes (1) : C7.csv 
+  parents concepts (1) : 10 
+  childs concepts (1) : 3 
+
+Concept (8) : 
+  level : 1
+  objects (2) : site bn:00047172n langage de script bn:01431715n 
+  attributes (1) : C2.csv 
+  parents concepts (1) : 10 
+  childs concepts (1) : 4 
+
+Concept (9) : 
+  level : 1
+  objects (3) : client bn:00019764n base de donnée bn:00025333n mysql bn:01225760n 
+  attributes (1) : C4.csv 
+  parents concepts (1) : 10 
+  childs concepts (2) : 2 3 
+
+Concept (10) : 
+  level : 0
+  objects (8) : fichier bn:00021475n client bn:00019764n base de donnée bn:00025333n mysql bn:01225760n site bn:00047172n langage de script bn:01431715n typage bn:00016413n chaîne bn:00074685n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (6) : 1 5 6 7 8 9 
+

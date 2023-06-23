@@ -1,0 +1,5 @@
+Concept ID;Level;Nb Obj;Nb Att;Objects;Attributes;
+0;2;0;2;;C5.csv,C6.csv,;
+1;1;2;1;chaîne bn:00074685n,nombre bn:00058285n,;C5.csv,;
+2;1;4;1;php bn:01753580n,serveur bn:00044916n,fichiers bn:00021475n,code bn:00020354n,;C6.csv,;
+3;0;6;0;php bn:01753580n,serveur bn:00044916n,chaîne bn:00074685n,nombre bn:00058285n,fichiers bn:00021475n,code bn:00020354n,;;

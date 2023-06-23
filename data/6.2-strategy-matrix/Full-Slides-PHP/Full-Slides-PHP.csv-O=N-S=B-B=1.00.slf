@@ -1,0 +1,29 @@
+[Lattice]
+7
+9
+[Objects]
+fichier bn:00021475n
+client bn:00019764n
+php bn:01753580n
+chaîne bn:00074685n
+script bn:01431715n
+serveur bn:00044916n
+type bn:00016413n
+[Attributes]
+C1
+C12
+C13
+C14
+C16
+C2
+C4
+C7
+C8
+[relation]
+0 0 0 1 0 0 0 0 0 
+1 1 0 1 0 0 1 0 0 
+0 0 1 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 
+0 0 1 1 1 1 0 0 0 
+0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 1 0 

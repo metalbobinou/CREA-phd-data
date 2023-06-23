@@ -1,0 +1,6 @@
+Concept ID;Level;Nb Obj;Nb Att;Objects;Attributes;
+0;2;0;3;;C3.csv,C5.csv,C6.csv,;
+1;1;3;1;configuration bn:03088982n,insert bn:03795444n,client bn:00019764n,;C3.csv,;
+2;1;4;1;chaîne bn:00074685n,nombre bn:00058285n,class bn:03598962n,null bn:15898583n,;C5.csv,;
+3;1;7;1;php bn:01753580n,serveur bn:00044916n,fichiers bn:00021475n,code bn:00020354n,echo bn:03626250n,files bn:00065682n,composer bn:14766022n,;C6.csv,;
+4;0;14;0;php bn:01753580n,serveur bn:00044916n,chaîne bn:00074685n,nombre bn:00058285n,fichiers bn:00021475n,code bn:00020354n,echo bn:03626250n,files bn:00065682n,class bn:03598962n,configuration bn:03088982n,insert bn:03795444n,client bn:00019764n,composer bn:14766022n,null bn:15898583n,;;

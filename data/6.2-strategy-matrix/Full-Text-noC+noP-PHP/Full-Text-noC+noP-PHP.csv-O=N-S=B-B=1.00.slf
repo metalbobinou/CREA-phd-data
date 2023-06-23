@@ -1,0 +1,29 @@
+[Lattice]
+8
+7
+[Objects]
+php bn:01753580n
+texte bn:00076732n
+site bn:00047172n
+client web bn:00013447n
+nombre bn:00058285n
+code bn:00020354n
+chaîne bn:00074685n
+pouvoir bn:00084451v
+[Attributes]
+C11
+C15
+C17
+C19
+C3
+C5
+C6
+[relation]
+1 0 0 0 0 0 0 
+0 0 1 0 0 1 0 
+0 0 0 0 1 1 0 
+0 0 0 0 1 1 0 
+0 0 0 1 0 1 0 
+0 0 0 0 0 0 1 
+0 0 0 1 0 1 0 
+0 1 0 0 0 0 0 

@@ -1,0 +1,37 @@
+B
+
+14
+4
+
+php bn:01753580n
+serveur bn:00044916n
+chaîne bn:00074685n
+programmation bn:00021493n
+nombre bn:00058285n
+fichiers bn:00021475n
+code bn:00020354n
+méthode bn:01641329n
+exceptions bn:00032118n
+echo bn:03626250n
+class bn:03598962n
+configuration bn:03088982n
+insert bn:03795444n
+client bn:00019764n
+C3.csv
+C5.csv
+C6.csv
+CJA-automatic.csv
+..X.
+..XX
+.X..
+.XX.
+.X.X
+...X
+..X.
+.XX.
+...X
+..X.
+.X..
+X...
+X...
+X...

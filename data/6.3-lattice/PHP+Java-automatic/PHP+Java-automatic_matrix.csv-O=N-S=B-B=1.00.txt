@@ -1,0 +1,28 @@
+B
+
+7
+9
+
+fichier bn:00021475n
+client bn:00019764n
+php bn:01753580n
+langage de script bn:01431715n
+serveur bn:00044916n
+chaîne bn:00074685n
+class bn:03598962n
+C1
+C2
+C3
+C4
+C5
+C6
+C8
+C9
+CJA
+.......XX
+X.XX.....
+.....X...
+.X..XX...
+.....X..X
+....X.X..
+....X..X.

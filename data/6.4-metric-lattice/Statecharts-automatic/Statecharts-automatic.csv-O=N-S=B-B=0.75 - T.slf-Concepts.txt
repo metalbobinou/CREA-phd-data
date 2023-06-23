@@ -1,0 +1,224 @@
+Concept (0) : 
+  level : 4
+  objects (0) : 
+  attributes (13) : A1 A2 A3 A4 A5 C1 C2 C3 C4 C5 C6 C7 C8 
+  parents concepts (6) : 1 2 3 4 5 6 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 4
+  objects (1) : computer bn:00021464n 
+  attributes (6) : A1 A3 A4 A5 C4 C6 
+  parents concepts (3) : 7 8 9 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 3
+  objects (1) : statecharts bn:01128895n 
+  attributes (4) : A2 A4 C3 C7 
+  parents concepts (3) : 10 20 21 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 3
+  objects (1) : systems bn:15125301n 
+  attributes (3) : A4 C1 C7 
+  parents concepts (2) : 20 22 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 3
+  objects (1) : behavior bn:00009657n 
+  attributes (4) : A1 A2 A4 C5 
+  parents concepts (4) : 11 12 15 21 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 3
+  objects (1) : effect bn:00021961n 
+  attributes (5) : A2 A4 A5 C2 C8 
+  parents concepts (4) : 13 14 17 21 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 2
+  objects (1) : timers bn:00077309n 
+  attributes (2) : A1 C1 
+  parents concepts (2) : 22 29 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 2
+  objects (2) : computer bn:00021464n kind bn:00035907n 
+  attributes (2) : A3 C4 
+  parents concepts (2) : 16 25 
+  childs concepts (1) : 1 
+
+Concept (8) : 
+  level : 3
+  objects (2) : computer bn:00021464n number bn:00058285n 
+  attributes (5) : A1 A3 A4 A5 C6 
+  parents concepts (5) : 15 17 18 19 23 
+  childs concepts (1) : 1 
+
+Concept (9) : 
+  level : 3
+  objects (2) : computer bn:00021464n simultaneous bn:00099916a 
+  attributes (3) : A1 A5 C4 
+  parents concepts (2) : 16 18 
+  childs concepts (1) : 1 
+
+Concept (10) : 
+  level : 2
+  objects (2) : statecharts bn:01128895n state bn:00023236n 
+  attributes (3) : A2 C3 C7 
+  parents concepts (2) : 26 30 
+  childs concepts (1) : 2 
+
+Concept (11) : 
+  level : 2
+  objects (2) : behavior bn:00009657n history bn:00044268n 
+  attributes (2) : A1 A2 
+  parents concepts (2) : 26 29 
+  childs concepts (1) : 4 
+
+Concept (12) : 
+  level : 1
+  objects (2) : behavior bn:00009657n autonomous bn:00097830a 
+  attributes (1) : C5 
+  parents concepts (1) : 31 
+  childs concepts (1) : 4 
+
+Concept (13) : 
+  level : 2
+  objects (2) : effect bn:00021961n composite bn:00100155a 
+  attributes (2) : A2 C8 
+  parents concepts (2) : 24 26 
+  childs concepts (1) : 5 
+
+Concept (14) : 
+  level : 1
+  objects (2) : effect bn:00021961n activity diagrams bn:02627321n 
+  attributes (1) : C2 
+  parents concepts (1) : 31 
+  childs concepts (1) : 5 
+
+Concept (15) : 
+  level : 2
+  objects (3) : computer bn:00021464n behavior bn:00009657n number bn:00058285n 
+  attributes (2) : A1 A4 
+  parents concepts (2) : 28 29 
+  childs concepts (2) : 4 8 
+
+Concept (16) : 
+  level : 1
+  objects (3) : computer bn:00021464n kind bn:00035907n simultaneous bn:00099916a 
+  attributes (1) : C4 
+  parents concepts (1) : 31 
+  childs concepts (2) : 7 9 
+
+Concept (17) : 
+  level : 2
+  objects (3) : computer bn:00021464n number bn:00058285n effect bn:00021961n 
+  attributes (2) : A4 A5 
+  parents concepts (2) : 27 28 
+  childs concepts (2) : 5 8 
+
+Concept (18) : 
+  level : 2
+  objects (3) : computer bn:00021464n number bn:00058285n simultaneous bn:00099916a 
+  attributes (2) : A1 A5 
+  parents concepts (2) : 27 29 
+  childs concepts (2) : 8 9 
+
+Concept (19) : 
+  level : 2
+  objects (3) : computer bn:00021464n number bn:00058285n transition state bn:03731398n 
+  attributes (2) : A3 A5 
+  parents concepts (2) : 25 27 
+  childs concepts (1) : 8 
+
+Concept (20) : 
+  level : 2
+  objects (3) : statecharts bn:01128895n systems bn:15125301n traffic light bn:00074441n 
+  attributes (2) : A4 C7 
+  parents concepts (2) : 28 30 
+  childs concepts (2) : 2 3 
+
+Concept (21) : 
+  level : 2
+  objects (3) : statecharts bn:01128895n behavior bn:00009657n effect bn:00021961n 
+  attributes (2) : A2 A4 
+  parents concepts (2) : 26 28 
+  childs concepts (3) : 2 4 5 
+
+Concept (22) : 
+  level : 1
+  objects (3) : systems bn:15125301n timers bn:00077309n goal bn:00030721n 
+  attributes (1) : C1 
+  parents concepts (1) : 31 
+  childs concepts (2) : 3 6 
+
+Concept (23) : 
+  level : 1
+  objects (4) : computer bn:00021464n number bn:00058285n scenario bn:01190125n atomic bn:00097696a 
+  attributes (1) : C6 
+  parents concepts (1) : 31 
+  childs concepts (1) : 8 
+
+Concept (24) : 
+  level : 1
+  objects (4) : effect bn:00021961n composite bn:00100155a composite states bn:00892979n superstate bn:03656095n 
+  attributes (1) : C8 
+  parents concepts (1) : 31 
+  childs concepts (1) : 13 
+
+Concept (25) : 
+  level : 1
+  objects (6) : computer bn:00021464n kind bn:00035907n number bn:00058285n plant bn:00035324n transition state bn:03731398n police bn:00022026n 
+  attributes (1) : A3 
+  parents concepts (1) : 31 
+  childs concepts (2) : 7 19 
+
+Concept (26) : 
+  level : 1
+  objects (6) : statecharts bn:01128895n state bn:00023236n behavior bn:00009657n history bn:00044268n effect bn:00021961n composite bn:00100155a 
+  attributes (1) : A2 
+  parents concepts (1) : 31 
+  childs concepts (4) : 10 11 13 21 
+
+Concept (27) : 
+  level : 1
+  objects (8) : computer bn:00021464n number bn:00058285n effect bn:00021961n simultaneous bn:00099916a transition state bn:03731398n red light bn:00066676n inner bn:00105133a deep bn:00101054a 
+  attributes (1) : A5 
+  parents concepts (1) : 31 
+  childs concepts (3) : 17 18 19 
+
+Concept (28) : 
+  level : 1
+  objects (10) : computer bn:00021464n statecharts bn:01128895n systems bn:15125301n behavior bn:00009657n number bn:00058285n effect bn:00021961n code bn:00020354n traffic light bn:00074441n include bn:00089662v logical value bn:00855623n 
+  attributes (1) : A4 
+  parents concepts (1) : 31 
+  childs concepts (4) : 15 17 20 21 
+
+Concept (29) : 
+  level : 1
+  objects (10) : computer bn:00021464n behavior bn:00009657n number bn:00058285n history bn:00044268n simultaneous bn:00099916a reg bn:01922794n timers bn:00077309n conditional bn:00100214a operational semantics bn:02057536n condition c bn:00675915n 
+  attributes (1) : A1 
+  parents concepts (1) : 31 
+  childs concepts (4) : 6 11 15 18 
+
+Concept (30) : 
+  level : 1
+  objects (12) : statecharts bn:01128895n systems bn:15125301n state bn:00023236n city bn:03335997n transducer bn:00077966n traffic light bn:00074441n gate bn:00037487n flip-flop bn:00035248n fsa bn:03013778n basic bn:00098103a fsms bn:03431506n state actions bn:00955439n 
+  attributes (1) : C7 
+  parents concepts (1) : 31 
+  childs concepts (2) : 10 20 
+
+Concept (31) : 
+  level : 0
+  objects (41) : computer bn:00021464n statecharts bn:01128895n systems bn:15125301n state bn:00023236n behavior bn:00009657n kind bn:00035907n number bn:00058285n history bn:00044268n effect bn:00021961n simultaneous bn:00099916a reg bn:01922794n timers bn:00077309n conditional bn:00100214a operational semantics bn:02057536n condition c bn:00675915n composite bn:00100155a goal bn:00030721n scenario bn:01190125n city bn:03335997n plant bn:00035324n transition state bn:03731398n police bn:00022026n transducer bn:00077966n code bn:00020354n traffic light bn:00074441n include bn:00089662v logical value bn:00855623n gate bn:00037487n flip-flop bn:00035248n autonomous bn:00097830a red light bn:00066676n composite states bn:00892979n inner bn:00105133a deep bn:00101054a atomic bn:00097696a activity diagrams bn:02627321n superstate bn:03656095n fsa bn:03013778n basic bn:00098103a fsms bn:03431506n state actions bn:00955439n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (12) : 12 14 16 22 23 24 25 26 27 28 29 30 
+

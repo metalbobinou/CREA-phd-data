@@ -1,0 +1,10 @@
+Concept ID;Level;Nb Obj;Nb Att;Objects;Attributes;
+0;3;0;4;;C3.csv,C5.csv,C6.csv,CJA-automatic.csv,;
+1;2;1;2;serveur bn:00044916n,;C3.csv,C5.csv,;
+2;2;1;2;nombre bn:00058285n,;C3.csv,C6.csv,;
+3;2;1;2;class bn:03598962n,;C3.csv,CJA-automatic.csv,;
+4;1;7;1;php bn:01753580n,serveur bn:00044916n,http bn:00045088n,xml bn:02771436n,configuration bn:03088982n,client bn:00019764n,composer bn:14766022n,;C5.csv,;
+5;1;7;1;commentaires bn:00020978n,méthode bn:01641329n,classe bn:03608262n,java bn:00048043n,class bn:03598962n,mise bn:00016287n,publique bn:00109211a,;CJA-automatic.csv,;
+6;1;9;1;langage bn:00049910n,base de données bn:00025333n,données bn:00025314n,nombre bn:00058285n,site bn:00047172n,personne bn:00046516n,insert bn:03795444n,varchar bn:01838409n,null bn:15898583n,;C6.csv,;
+7;1;13;1;script bn:01431715n,serveur bn:00044916n,chaîne bn:00074685n,programmation bn:00021493n,timestamp bn:03603649n,nombre bn:00058285n,fichiers bn:00021475n,code bn:00020354n,texte bn:00076732n,exceptions bn:00032118n,echo bn:03626250n,files bn:00065682n,class bn:03598962n,;C3.csv,;
+8;0;33;0;php bn:01753580n,script bn:01431715n,langage bn:00049910n,serveur bn:00044916n,commentaires bn:00020978n,chaîne bn:00074685n,programmation bn:00021493n,timestamp bn:03603649n,base de données bn:00025333n,données bn:00025314n,nombre bn:00058285n,fichiers bn:00021475n,code bn:00020354n,texte bn:00076732n,http bn:00045088n,méthode bn:01641329n,classe bn:03608262n,exceptions bn:00032118n,java bn:00048043n,site bn:00047172n,personne bn:00046516n,xml bn:02771436n,echo bn:03626250n,files bn:00065682n,class bn:03598962n,configuration bn:03088982n,insert bn:03795444n,varchar bn:01838409n,mise bn:00016287n,client bn:00019764n,publique bn:00109211a,composer bn:14766022n,null bn:15898583n,;;

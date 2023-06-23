@@ -1,0 +1,385 @@
+Concept (0) : 
+  level : 6
+  objects (0) : 
+  attributes (18) : C1 C11 C12 C13 C14 C15 C16 C17 C18 C19 C2 C3 C4 C5 C6 C7 C8 C9 
+  parents concepts (10) : 1 2 3 4 5 6 7 8 9 10 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 3
+  objects (1) : fichier bn:00021475n 
+  attributes (3) : C14 C16 C9 
+  parents concepts (2) : 11 24 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 4
+  objects (1) : client bn:00019764n 
+  attributes (8) : C1 C12 C14 C15 C17 C19 C3 C4 
+  parents concepts (4) : 12 13 14 15 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 6
+  objects (1) : base de donnée bn:00025333n 
+  attributes (8) : C12 C16 C17 C19 C3 C4 C5 C7 
+  parents concepts (2) : 12 16 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 6
+  objects (1) : donnée bn:00025314n 
+  attributes (8) : C12 C16 C19 C2 C3 C4 C5 C7 
+  parents concepts (3) : 16 17 18 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 4
+  objects (1) : php bn:01753580n 
+  attributes (5) : C11 C13 C14 C16 C6 
+  parents concepts (2) : 19 20 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 3
+  objects (1) : code bn:00020354n 
+  attributes (5) : C13 C18 C4 C6 C9 
+  parents concepts (3) : 11 32 44 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 5
+  objects (1) : nombre bn:00058285n 
+  attributes (7) : C12 C14 C19 C4 C5 C7 C8 
+  parents concepts (4) : 13 21 22 27 
+  childs concepts (1) : 0 
+
+Concept (8) : 
+  level : 5
+  objects (1) : site bn:00047172n 
+  attributes (6) : C1 C12 C16 C2 C3 C5 
+  parents concepts (2) : 14 17 
+  childs concepts (1) : 0 
+
+Concept (9) : 
+  level : 5
+  objects (1) : types bn:00016413n 
+  attributes (8) : C11 C14 C15 C19 C3 C5 C6 C7 
+  parents concepts (5) : 15 19 21 23 29 
+  childs concepts (1) : 0 
+
+Concept (10) : 
+  level : 5
+  objects (1) : langage de script bn:01431715n 
+  attributes (7) : C13 C14 C16 C19 C2 C5 C6 
+  parents concepts (3) : 18 20 23 
+  childs concepts (1) : 0 
+
+Concept (11) : 
+  level : 1
+  objects (2) : fichier bn:00021475n code bn:00020354n 
+  attributes (1) : C9 
+  parents concepts (1) : 54 
+  childs concepts (2) : 1 6 
+
+Concept (12) : 
+  level : 4
+  objects (2) : client bn:00019764n base de donnée bn:00025333n 
+  attributes (5) : C12 C17 C19 C3 C4 
+  parents concepts (1) : 25 
+  childs concepts (2) : 2 3 
+
+Concept (13) : 
+  level : 3
+  objects (2) : client bn:00019764n nombre bn:00058285n 
+  attributes (4) : C12 C14 C19 C4 
+  parents concepts (2) : 35 46 
+  childs concepts (2) : 2 7 
+
+Concept (14) : 
+  level : 3
+  objects (2) : client bn:00019764n site bn:00047172n 
+  attributes (3) : C1 C12 C3 
+  parents concepts (1) : 36 
+  childs concepts (2) : 2 8 
+
+Concept (15) : 
+  level : 3
+  objects (2) : client bn:00019764n types bn:00016413n 
+  attributes (4) : C14 C15 C19 C3 
+  parents concepts (3) : 26 37 46 
+  childs concepts (2) : 2 9 
+
+Concept (16) : 
+  level : 5
+  objects (2) : base de donnée bn:00025333n donnée bn:00025314n 
+  attributes (7) : C12 C16 C19 C3 C4 C5 C7 
+  parents concepts (5) : 25 27 28 29 30 
+  childs concepts (2) : 3 4 
+
+Concept (17) : 
+  level : 4
+  objects (2) : donnée bn:00025314n site bn:00047172n 
+  attributes (5) : C12 C16 C2 C3 C5 
+  parents concepts (2) : 28 31 
+  childs concepts (2) : 4 8 
+
+Concept (18) : 
+  level : 4
+  objects (2) : donnée bn:00025314n langage de script bn:01431715n 
+  attributes (4) : C16 C19 C2 C5 
+  parents concepts (2) : 30 31 
+  childs concepts (2) : 4 10 
+
+Concept (19) : 
+  level : 3
+  objects (2) : php bn:01753580n types bn:00016413n 
+  attributes (3) : C11 C14 C6 
+  parents concepts (1) : 33 
+  childs concepts (2) : 5 9 
+
+Concept (20) : 
+  level : 3
+  objects (2) : php bn:01753580n langage de script bn:01431715n 
+  attributes (4) : C13 C14 C16 C6 
+  parents concepts (4) : 24 32 33 34 
+  childs concepts (2) : 5 10 
+
+Concept (21) : 
+  level : 4
+  objects (2) : nombre bn:00058285n types bn:00016413n 
+  attributes (4) : C14 C19 C5 C7 
+  parents concepts (2) : 40 43 
+  childs concepts (2) : 7 9 
+
+Concept (22) : 
+  level : 4
+  objects (2) : nombre bn:00058285n chaîne bn:00074685n 
+  attributes (4) : C14 C19 C5 C8 
+  parents concepts (1) : 43 
+  childs concepts (1) : 7 
+
+Concept (23) : 
+  level : 4
+  objects (2) : types bn:00016413n langage de script bn:01431715n 
+  attributes (4) : C14 C19 C5 C6 
+  parents concepts (2) : 33 43 
+  childs concepts (2) : 9 10 
+
+Concept (24) : 
+  level : 2
+  objects (3) : fichier bn:00021475n php bn:01753580n langage de script bn:01431715n 
+  attributes (2) : C14 C16 
+  parents concepts (2) : 49 50 
+  childs concepts (2) : 1 20 
+
+Concept (25) : 
+  level : 3
+  objects (3) : client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n 
+  attributes (4) : C12 C19 C3 C4 
+  parents concepts (3) : 35 36 37 
+  childs concepts (2) : 12 16 
+
+Concept (26) : 
+  level : 2
+  objects (3) : client bn:00019764n salaire bn:15928884n types bn:00016413n 
+  attributes (2) : C15 C19 
+  parents concepts (2) : 38 53 
+  childs concepts (1) : 15 
+
+Concept (27) : 
+  level : 4
+  objects (3) : base de donnée bn:00025333n donnée bn:00025314n nombre bn:00058285n 
+  attributes (5) : C12 C19 C4 C5 C7 
+  parents concepts (3) : 35 39 40 
+  childs concepts (2) : 7 16 
+
+Concept (28) : 
+  level : 3
+  objects (3) : base de donnée bn:00025333n donnée bn:00025314n site bn:00047172n 
+  attributes (4) : C12 C16 C3 C5 
+  parents concepts (4) : 36 39 41 42 
+  childs concepts (2) : 16 17 
+
+Concept (29) : 
+  level : 4
+  objects (3) : base de donnée bn:00025333n donnée bn:00025314n types bn:00016413n 
+  attributes (4) : C19 C3 C5 C7 
+  parents concepts (3) : 37 40 41 
+  childs concepts (2) : 9 16 
+
+Concept (30) : 
+  level : 3
+  objects (3) : base de donnée bn:00025333n donnée bn:00025314n langage de script bn:01431715n 
+  attributes (3) : C16 C19 C5 
+  parents concepts (2) : 42 48 
+  childs concepts (2) : 16 18 
+
+Concept (31) : 
+  level : 3
+  objects (3) : donnée bn:00025314n site bn:00047172n langage de script bn:01431715n 
+  attributes (3) : C16 C2 C5 
+  parents concepts (1) : 42 
+  childs concepts (2) : 17 18 
+
+Concept (32) : 
+  level : 2
+  objects (3) : php bn:01753580n code bn:00020354n langage de script bn:01431715n 
+  attributes (2) : C13 C6 
+  parents concepts (1) : 52 
+  childs concepts (2) : 6 20 
+
+Concept (33) : 
+  level : 2
+  objects (3) : php bn:01753580n types bn:00016413n langage de script bn:01431715n 
+  attributes (2) : C14 C6 
+  parents concepts (2) : 50 52 
+  childs concepts (3) : 19 20 23 
+
+Concept (34) : 
+  level : 2
+  objects (3) : php bn:01753580n langage de script bn:01431715n serveur bn:00044916n 
+  attributes (2) : C16 C6 
+  parents concepts (2) : 49 52 
+  childs concepts (1) : 20 
+
+Concept (35) : 
+  level : 2
+  objects (4) : client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n nombre bn:00058285n 
+  attributes (3) : C12 C19 C4 
+  parents concepts (3) : 44 47 53 
+  childs concepts (3) : 13 25 27 
+
+Concept (36) : 
+  level : 2
+  objects (4) : client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n site bn:00047172n 
+  attributes (2) : C12 C3 
+  parents concepts (2) : 45 47 
+  childs concepts (3) : 14 25 28 
+
+Concept (37) : 
+  level : 2
+  objects (4) : client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n types bn:00016413n 
+  attributes (2) : C19 C3 
+  parents concepts (2) : 45 53 
+  childs concepts (3) : 15 25 29 
+
+Concept (38) : 
+  level : 1
+  objects (4) : client bn:00019764n salaire bn:15928884n types bn:00016413n pouvoir bn:00084451v 
+  attributes (1) : C15 
+  parents concepts (1) : 54 
+  childs concepts (1) : 26 
+
+Concept (39) : 
+  level : 2
+  objects (4) : base de donnée bn:00025333n donnée bn:00025314n nombre bn:00058285n site bn:00047172n 
+  attributes (2) : C12 C5 
+  parents concepts (2) : 47 51 
+  childs concepts (2) : 27 28 
+
+Concept (40) : 
+  level : 3
+  objects (4) : base de donnée bn:00025333n donnée bn:00025314n nombre bn:00058285n types bn:00016413n 
+  attributes (3) : C19 C5 C7 
+  parents concepts (1) : 48 
+  childs concepts (3) : 21 27 29 
+
+Concept (41) : 
+  level : 2
+  objects (4) : base de donnée bn:00025333n donnée bn:00025314n site bn:00047172n types bn:00016413n 
+  attributes (2) : C3 C5 
+  parents concepts (2) : 45 51 
+  childs concepts (2) : 28 29 
+
+Concept (42) : 
+  level : 2
+  objects (4) : base de donnée bn:00025333n donnée bn:00025314n site bn:00047172n langage de script bn:01431715n 
+  attributes (2) : C16 C5 
+  parents concepts (2) : 49 51 
+  childs concepts (3) : 28 30 31 
+
+Concept (43) : 
+  level : 3
+  objects (4) : nombre bn:00058285n types bn:00016413n langage de script bn:01431715n chaîne bn:00074685n 
+  attributes (3) : C14 C19 C5 
+  parents concepts (2) : 46 48 
+  childs concepts (3) : 21 22 23 
+
+Concept (44) : 
+  level : 1
+  objects (5) : client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n code bn:00020354n nombre bn:00058285n 
+  attributes (1) : C4 
+  parents concepts (1) : 54 
+  childs concepts (2) : 6 35 
+
+Concept (45) : 
+  level : 1
+  objects (5) : client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n site bn:00047172n types bn:00016413n 
+  attributes (1) : C3 
+  parents concepts (1) : 54 
+  childs concepts (3) : 36 37 41 
+
+Concept (46) : 
+  level : 2
+  objects (5) : client bn:00019764n nombre bn:00058285n types bn:00016413n langage de script bn:01431715n chaîne bn:00074685n 
+  attributes (2) : C14 C19 
+  parents concepts (2) : 50 53 
+  childs concepts (3) : 13 15 43 
+
+Concept (47) : 
+  level : 1
+  objects (6) : client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n nombre bn:00058285n site bn:00047172n positionnement bn:00030615n 
+  attributes (1) : C12 
+  parents concepts (1) : 54 
+  childs concepts (3) : 35 36 39 
+
+Concept (48) : 
+  level : 2
+  objects (6) : base de donnée bn:00025333n donnée bn:00025314n nombre bn:00058285n types bn:00016413n langage de script bn:01431715n chaîne bn:00074685n 
+  attributes (2) : C19 C5 
+  parents concepts (2) : 51 53 
+  childs concepts (3) : 30 40 43 
+
+Concept (49) : 
+  level : 1
+  objects (7) : fichier bn:00021475n base de donnée bn:00025333n donnée bn:00025314n php bn:01753580n site bn:00047172n langage de script bn:01431715n serveur bn:00044916n 
+  attributes (1) : C16 
+  parents concepts (1) : 54 
+  childs concepts (3) : 24 34 42 
+
+Concept (50) : 
+  level : 1
+  objects (8) : fichier bn:00021475n client bn:00019764n php bn:01753580n nombre bn:00058285n types bn:00016413n langage de script bn:01431715n chaîne bn:00074685n helvetica bn:00043646n 
+  attributes (1) : C14 
+  parents concepts (1) : 54 
+  childs concepts (3) : 24 33 46 
+
+Concept (51) : 
+  level : 1
+  objects (8) : base de donnée bn:00025333n donnée bn:00025314n nombre bn:00058285n site bn:00047172n types bn:00016413n langage de script bn:01431715n chaîne bn:00074685n realisateur bn:00027369n 
+  attributes (1) : C5 
+  parents concepts (1) : 54 
+  childs concepts (4) : 39 41 42 48 
+
+Concept (52) : 
+  level : 1
+  objects (8) : php bn:01753580n code bn:00020354n types bn:00016413n langage de script bn:01431715n serveur bn:00044916n thomas bn:00005240n généralité bn:00041249n autre bn:00108013a 
+  attributes (1) : C6 
+  parents concepts (1) : 54 
+  childs concepts (3) : 32 33 34 
+
+Concept (53) : 
+  level : 1
+  objects (11) : client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n nombre bn:00058285n salaire bn:15928884n types bn:00016413n langage de script bn:01431715n chaîne bn:00074685n symfony bn:02798620n inverse bn:00056301n info bn:00046698n 
+  attributes (1) : C19 
+  parents concepts (1) : 54 
+  childs concepts (5) : 26 35 37 46 48 
+
+Concept (54) : 
+  level : 0
+  objects (23) : fichier bn:00021475n client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n php bn:01753580n code bn:00020354n nombre bn:00058285n salaire bn:15928884n site bn:00047172n types bn:00016413n langage de script bn:01431715n serveur bn:00044916n chaîne bn:00074685n helvetica bn:00043646n pouvoir bn:00084451v positionnement bn:00030615n thomas bn:00005240n symfony bn:02798620n inverse bn:00056301n info bn:00046698n realisateur bn:00027369n généralité bn:00041249n autre bn:00108013a 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (10) : 11 38 44 45 47 49 50 51 52 53 
+

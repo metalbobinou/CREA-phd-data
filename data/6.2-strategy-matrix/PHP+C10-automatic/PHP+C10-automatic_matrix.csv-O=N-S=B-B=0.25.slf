@@ -1,0 +1,170 @@
+[Lattice]
+77
+10
+[Objects]
+page web bn:00080778n
+navigateur bn:00013447n
+serveur web bn:02705179n
+fichier bn:00021475n
+client bn:00019764n
+base de donnée bn:00025333n
+donnée bn:00025314n
+php bn:01753580n
+code bn:00020354n
+texte bn:00076732n
+concerner bn:00083240v
+commentaire bn:00020978n
+délimiter bn:00086464v
+fois bn:00032768n
+url bn:00079080n
+case à cocher bn:03157691n
+post bn:01500184n
+nombre bn:00058285n
+text bn:14981519n
+langage bn:00049910n
+zones bn:00005513n
+utilisateur bn:00079373n
+case bn:04777941n
+associer bn:00082868v
+personne bn:00046516n
+méthode post bn:00045088n
+fermeture bn:16858148n
+machine bn:00054050n
+mysql bn:01225760n
+salaire bn:15928884n
+jour bn:00000086n
+programmation bn:00021493n
+site bn:00047172n
+chaîne bn:00074685n
+header bn:00043309n
+doctype bn:15839327n
+moteur bn:00030850n
+configuration bn:03088982n
+paris bn:00015540n
+langage de script bn:01431715n
+côté serveur bn:03816678n
+opérateur bn:16281811n
+super bn:17336345n
+type bn:00016413n
+foreach bn:03463379n
+cle bn:04756252n
+serveur bn:00044916n
+communication bn:00021221n
+interpréter bn:00089840v
+transaction bn:01403911n
+côté client bn:03163702n
+classes bn:03608262n
+bienvenue bn:00080852n
+class bn:03598962n
+mot bn:00081546n
+méthode bn:01641329n
+session bn:03751534n
+visiteur bn:03106425n
+afficher bn:00087013v
+pouvoir bn:00084451v
+mysqli bn:01438356n
+insert bn:03795444n
+france bn:00036202n
+pointeur bn:03222272n
+list bn:04720346n
+casse bn:03225002n
+timestamp bn:03603649n
+xml bn:02771436n
+echo bn:03626250n
+files bn:00065682n
+varchar bn:01838409n
+valeur bn:00079508n
+composer bn:14766022n
+null bn:15898583n
+généralité bn:00041249n
+autre bn:00108013a
+avoir accès bn:00082209v
+[Attributes]
+C1
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+C9
+C10
+[relation]
+0 0 1 0 1 1 0 1 0 0 
+0 1 1 0 1 1 1 1 1 0 
+0 1 1 1 1 1 0 0 1 0 
+1 0 0 0 1 1 0 1 1 1 
+1 0 1 1 0 0 0 0 0 0 
+0 0 1 1 1 0 1 0 0 0 
+0 1 1 1 1 0 1 0 0 0 
+1 0 1 1 0 1 0 0 1 1 
+0 0 0 1 0 1 0 0 1 1 
+0 0 1 0 1 1 1 0 1 1 
+0 0 1 1 1 1 1 0 0 1 
+1 0 1 1 1 0 0 1 1 1 
+0 0 1 1 0 1 0 1 0 1 
+1 1 1 0 1 1 1 0 1 1 
+1 0 1 1 1 0 0 0 1 1 
+1 0 0 1 0 1 0 0 1 0 
+0 1 1 0 1 1 0 0 1 0 
+0 0 0 1 1 0 1 1 0 1 
+1 1 1 1 1 1 0 0 0 1 
+1 0 1 0 1 0 0 1 1 1 
+0 0 1 0 0 1 0 0 0 0 
+0 0 1 1 1 1 0 0 1 1 
+1 1 1 0 0 1 0 0 1 1 
+0 0 1 0 1 1 0 0 1 1 
+0 0 1 1 1 0 0 1 1 1 
+0 1 1 0 0 1 1 1 1 0 
+1 0 1 1 1 1 0 1 1 1 
+0 0 1 0 1 1 0 0 0 1 
+0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 
+1 0 1 0 0 1 0 0 0 1 
+1 1 0 1 1 1 0 0 1 1 
+1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 1 
+0 0 1 0 0 1 0 0 1 1 
+0 0 0 1 0 0 0 1 1 1 
+0 0 1 0 1 1 0 0 0 1 
+0 0 1 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 1 1 
+0 1 0 0 1 1 0 0 0 1 
+0 0 1 0 1 1 0 0 1 1 
+0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 1 0 1 1 1 0 0 0 
+0 1 1 1 1 1 0 0 1 0 
+0 1 1 1 0 0 0 0 1 1 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 1 0 0 1 0 1 
+0 0 1 0 1 0 0 0 0 1 
+0 0 1 0 1 1 0 0 0 1 
+0 0 1 0 1 1 0 0 1 1 
+0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 1 0 0 0 1 1 
+0 1 1 1 1 1 0 0 0 1 
+0 1 0 1 1 1 1 1 1 0 
+0 0 1 1 1 1 0 0 0 0 
+0 0 1 0 0 1 0 1 0 1 
+0 0 1 1 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 1 0 0 0 1 1 
+0 0 1 0 0 0 0 1 1 1 
+0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 1 1 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 
+0 0 1 0 1 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 

@@ -1,0 +1,51 @@
+// <Lattice object of 6 atoms 12 concepts 5 coatoms at 0x6ffff72b5f60>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="fichier bn:00021475n" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="client bn:00019764n" labelangle=270]
+	c2 -> c2 [color=transparent labelangle=90 taillabel="C1 C3 C4"]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="langage de script bn:01431715n" labelangle=270]
+	c3 -> c3 [color=transparent labelangle=90 taillabel=C2]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="serveur bn:00044916n" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="chaîne bn:00074685n" labelangle=270]
+	c5 -> c5 [color=transparent labelangle=90 taillabel=C8]
+	c5 -> c0
+	c6
+	c6 -> c6 [color=transparent headlabel="class bn:03598962n" labelangle=270]
+	c6 -> c0
+	c7
+	c7 -> c7 [color=transparent labelangle=90 taillabel=CJA]
+	c7 -> c1
+	c7 -> c4
+	c8
+	c8 -> c8 [color=transparent labelangle=90 taillabel=C9]
+	c8 -> c1
+	c8 -> c6
+	c9
+	c9 -> c9 [color=transparent headlabel="php bn:01753580n" labelangle=270]
+	c9 -> c9 [color=transparent labelangle=90 taillabel=C6]
+	c9 -> c3
+	c9 -> c4
+	c10
+	c10 -> c10 [color=transparent labelangle=90 taillabel=C5]
+	c10 -> c3
+	c10 -> c5
+	c10 -> c6
+	c11
+	c11 -> c2
+	c11 -> c7
+	c11 -> c8
+	c11 -> c9
+	c11 -> c10
+}

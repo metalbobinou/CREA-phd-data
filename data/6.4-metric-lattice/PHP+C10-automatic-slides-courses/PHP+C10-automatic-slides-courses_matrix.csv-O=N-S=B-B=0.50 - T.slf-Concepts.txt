@@ -1,0 +1,259 @@
+Concept (0) : 
+  level : 4
+  objects (0) : 
+  attributes (7) : C1.csv C10.csv C2.csv C4.csv C7.csv C8.csv C9.csv 
+  parents concepts (8) : 1 2 3 4 5 6 7 9 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 3
+  objects (1) : donnée bn:00025314n 
+  attributes (3) : C2.csv C4.csv C7.csv 
+  parents concepts (3) : 14 22 24 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 3
+  objects (1) : case à cocher bn:03157691n 
+  attributes (3) : C1.csv C4.csv C9.csv 
+  parents concepts (3) : 17 21 25 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 4
+  objects (1) : nombre bn:00058285n 
+  attributes (4) : C10.csv C4.csv C7.csv C8.csv 
+  parents concepts (3) : 10 11 15 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 4
+  objects (1) : text bn:14981519n 
+  attributes (4) : C1.csv C10.csv C2.csv C4.csv 
+  parents concepts (3) : 12 13 20 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 4
+  objects (1) : langage bn:00049910n 
+  attributes (4) : C1.csv C10.csv C8.csv C9.csv 
+  parents concepts (3) : 8 16 26 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 3
+  objects (2) : navigateur bn:00013447n méthode post bn:00045088n 
+  attributes (4) : C2.csv C7.csv C8.csv C9.csv 
+  parents concepts (4) : 14 15 16 23 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 3
+  objects (2) : serveur web bn:02705179n foreach bn:03463379n 
+  attributes (3) : C2.csv C4.csv C9.csv 
+  parents concepts (3) : 23 24 25 
+  childs concepts (1) : 0 
+
+Concept (8) : 
+  level : 3
+  objects (2) : fichier bn:00021475n langage bn:00049910n 
+  attributes (3) : C1.csv C10.csv C9.csv 
+  parents concepts (3) : 17 20 31 
+  childs concepts (1) : 5 
+
+Concept (9) : 
+  level : 3
+  objects (2) : code bn:00020354n utilisateur bn:00079373n 
+  attributes (3) : C10.csv C4.csv C9.csv 
+  parents concepts (3) : 25 29 31 
+  childs concepts (1) : 0 
+
+Concept (10) : 
+  level : 3
+  objects (2) : concerner bn:00083240v nombre bn:00058285n 
+  attributes (3) : C10.csv C4.csv C7.csv 
+  parents concepts (3) : 18 22 29 
+  childs concepts (1) : 3 
+
+Concept (11) : 
+  level : 3
+  objects (2) : délimiter bn:00086464v nombre bn:00058285n 
+  attributes (3) : C10.csv C4.csv C8.csv 
+  parents concepts (2) : 26 29 
+  childs concepts (1) : 3 
+
+Concept (12) : 
+  level : 3
+  objects (2) : text bn:14981519n site bn:00047172n 
+  attributes (3) : C1.csv C2.csv C4.csv 
+  parents concepts (2) : 21 24 
+  childs concepts (1) : 4 
+
+Concept (13) : 
+  level : 3
+  objects (2) : text bn:14981519n mot bn:00081546n 
+  attributes (3) : C10.csv C2.csv C4.csv 
+  parents concepts (3) : 19 24 29 
+  childs concepts (1) : 4 
+
+Concept (14) : 
+  level : 2
+  objects (3) : navigateur bn:00013447n donnée bn:00025314n méthode post bn:00045088n 
+  attributes (2) : C2.csv C7.csv 
+  parents concepts (2) : 28 32 
+  childs concepts (2) : 1 6 
+
+Concept (15) : 
+  level : 2
+  objects (3) : navigateur bn:00013447n nombre bn:00058285n méthode post bn:00045088n 
+  attributes (2) : C7.csv C8.csv 
+  parents concepts (2) : 28 30 
+  childs concepts (2) : 3 6 
+
+Concept (16) : 
+  level : 2
+  objects (3) : navigateur bn:00013447n langage bn:00049910n méthode post bn:00045088n 
+  attributes (2) : C8.csv C9.csv 
+  parents concepts (2) : 30 34 
+  childs concepts (2) : 5 6 
+
+Concept (17) : 
+  level : 2
+  objects (3) : fichier bn:00021475n case à cocher bn:03157691n langage bn:00049910n 
+  attributes (2) : C1.csv C9.csv 
+  parents concepts (2) : 27 34 
+  childs concepts (2) : 2 8 
+
+Concept (18) : 
+  level : 2
+  objects (3) : texte bn:00076732n concerner bn:00083240v nombre bn:00058285n 
+  attributes (2) : C10.csv C7.csv 
+  parents concepts (2) : 28 35 
+  childs concepts (1) : 10 
+
+Concept (19) : 
+  level : 2
+  objects (3) : text bn:14981519n langage de script bn:01431715n mot bn:00081546n 
+  attributes (2) : C10.csv C2.csv 
+  parents concepts (2) : 32 35 
+  childs concepts (1) : 13 
+
+Concept (20) : 
+  level : 2
+  objects (4) : fichier bn:00021475n text bn:14981519n langage bn:00049910n jour bn:00000086n 
+  attributes (2) : C1.csv C10.csv 
+  parents concepts (2) : 27 35 
+  childs concepts (2) : 4 8 
+
+Concept (21) : 
+  level : 2
+  objects (4) : client bn:00019764n case à cocher bn:03157691n text bn:14981519n site bn:00047172n 
+  attributes (2) : C1.csv C4.csv 
+  parents concepts (2) : 27 33 
+  childs concepts (2) : 2 12 
+
+Concept (22) : 
+  level : 2
+  objects (4) : base de donnée bn:00025333n donnée bn:00025314n concerner bn:00083240v nombre bn:00058285n 
+  attributes (2) : C4.csv C7.csv 
+  parents concepts (2) : 28 33 
+  childs concepts (2) : 1 10 
+
+Concept (23) : 
+  level : 2
+  objects (6) : navigateur bn:00013447n serveur web bn:02705179n post bn:01500184n méthode post bn:00045088n foreach bn:03463379n list bn:04720346n 
+  attributes (2) : C2.csv C9.csv 
+  parents concepts (2) : 32 34 
+  childs concepts (2) : 6 7 
+
+Concept (24) : 
+  level : 2
+  objects (6) : serveur web bn:02705179n donnée bn:00025314n text bn:14981519n site bn:00047172n foreach bn:03463379n mot bn:00081546n 
+  attributes (2) : C2.csv C4.csv 
+  parents concepts (2) : 32 33 
+  childs concepts (4) : 1 7 12 13 
+
+Concept (25) : 
+  level : 2
+  objects (6) : serveur web bn:02705179n php bn:01753580n code bn:00020354n case à cocher bn:03157691n utilisateur bn:00079373n foreach bn:03463379n 
+  attributes (2) : C4.csv C9.csv 
+  parents concepts (2) : 33 34 
+  childs concepts (3) : 2 7 9 
+
+Concept (26) : 
+  level : 2
+  objects (6) : délimiter bn:00086464v nombre bn:00058285n langage bn:00049910n chaîne bn:00074685n interpréter bn:00089840v visiteur bn:03106425n 
+  attributes (2) : C10.csv C8.csv 
+  parents concepts (2) : 30 35 
+  childs concepts (2) : 5 11 
+
+Concept (27) : 
+  level : 1
+  objects (7) : fichier bn:00021475n client bn:00019764n case à cocher bn:03157691n text bn:14981519n langage bn:00049910n jour bn:00000086n site bn:00047172n 
+  attributes (1) : C1.csv 
+  parents concepts (1) : 36 
+  childs concepts (3) : 17 20 21 
+
+Concept (28) : 
+  level : 1
+  objects (8) : navigateur bn:00013447n base de donnée bn:00025333n donnée bn:00025314n texte bn:00076732n concerner bn:00083240v nombre bn:00058285n méthode post bn:00045088n type bn:00016413n 
+  attributes (1) : C7.csv 
+  parents concepts (1) : 36 
+  childs concepts (4) : 14 15 18 22 
+
+Concept (29) : 
+  level : 2
+  objects (8) : code bn:00020354n concerner bn:00083240v délimiter bn:00086464v nombre bn:00058285n text bn:14981519n utilisateur bn:00079373n mot bn:00081546n afficher bn:00087013v 
+  attributes (2) : C10.csv C4.csv 
+  parents concepts (2) : 33 35 
+  childs concepts (4) : 9 10 11 13 
+
+Concept (30) : 
+  level : 1
+  objects (9) : page web bn:00080778n navigateur bn:00013447n délimiter bn:00086464v nombre bn:00058285n langage bn:00049910n méthode post bn:00045088n chaîne bn:00074685n interpréter bn:00089840v visiteur bn:03106425n 
+  attributes (1) : C8.csv 
+  parents concepts (1) : 36 
+  childs concepts (3) : 15 16 26 
+
+Concept (31) : 
+  level : 2
+  objects (11) : fichier bn:00021475n code bn:00020354n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v header bn:00043309n paris bn:00015540n côté serveur bn:03816678n classes bn:03608262n class bn:03598962n mysqli bn:01438356n 
+  attributes (2) : C10.csv C9.csv 
+  parents concepts (2) : 34 35 
+  childs concepts (2) : 8 9 
+
+Concept (32) : 
+  level : 1
+  objects (13) : navigateur bn:00013447n serveur web bn:02705179n donnée bn:00025314n post bn:01500184n text bn:14981519n méthode post bn:00045088n site bn:00047172n langage de script bn:01431715n foreach bn:03463379n mot bn:00081546n france bn:00036202n list bn:04720346n timestamp bn:03603649n 
+  attributes (1) : C2.csv 
+  parents concepts (1) : 36 
+  childs concepts (4) : 14 19 23 24 
+
+Concept (33) : 
+  level : 1
+  objects (18) : serveur web bn:02705179n client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n php bn:01753580n code bn:00020354n concerner bn:00083240v délimiter bn:00086464v case à cocher bn:03157691n nombre bn:00058285n text bn:14981519n utilisateur bn:00079373n mysql bn:01225760n site bn:00047172n foreach bn:03463379n mot bn:00081546n session bn:03751534n afficher bn:00087013v 
+  attributes (1) : C4.csv 
+  parents concepts (1) : 36 
+  childs concepts (5) : 21 22 24 25 29 
+
+Concept (34) : 
+  level : 1
+  objects (20) : navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n php bn:01753580n code bn:00020354n case à cocher bn:03157691n post bn:01500184n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v méthode post bn:00045088n header bn:00043309n paris bn:00015540n côté serveur bn:03816678n foreach bn:03463379n classes bn:03608262n class bn:03598962n mysqli bn:01438356n list bn:04720346n accéder bn:00082209v 
+  attributes (1) : C9.csv 
+  parents concepts (1) : 36 
+  childs concepts (5) : 16 17 23 25 31 
+
+Concept (35) : 
+  level : 1
+  objects (32) : fichier bn:00021475n code bn:00020354n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v nombre bn:00058285n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v machine bn:00054050n salaire bn:15928884n jour bn:00000086n chaîne bn:00074685n header bn:00043309n moteur bn:00030850n paris bn:00015540n langage de script bn:01431715n côté serveur bn:03816678n opérateur bn:16281811n super bn:17336345n interpréter bn:00089840v transaction bn:01403911n côté client bn:03163702n classes bn:03608262n bienvenue bn:00080852n class bn:03598962n mot bn:00081546n visiteur bn:03106425n afficher bn:00087013v pouvoir bn:00084451v mysqli bn:01438356n 
+  attributes (1) : C10.csv 
+  parents concepts (1) : 36 
+  childs concepts (6) : 18 19 20 26 29 31 
+
+Concept (36) : 
+  level : 0
+  objects (51) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n php bn:01753580n code bn:00020354n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v case à cocher bn:03157691n post bn:01500184n nombre bn:00058285n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v méthode post bn:00045088n machine bn:00054050n mysql bn:01225760n salaire bn:15928884n jour bn:00000086n site bn:00047172n chaîne bn:00074685n header bn:00043309n moteur bn:00030850n paris bn:00015540n langage de script bn:01431715n côté serveur bn:03816678n opérateur bn:16281811n super bn:17336345n type bn:00016413n foreach bn:03463379n interpréter bn:00089840v transaction bn:01403911n côté client bn:03163702n classes bn:03608262n bienvenue bn:00080852n class bn:03598962n mot bn:00081546n session bn:03751534n visiteur bn:03106425n afficher bn:00087013v pouvoir bn:00084451v mysqli bn:01438356n france bn:00036202n list bn:04720346n timestamp bn:03603649n accéder bn:00082209v 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (7) : 27 28 30 32 33 34 35 
+

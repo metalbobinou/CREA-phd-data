@@ -1,0 +1,1394 @@
+X;C3;C5;C6;CJA
+php;0.111111;0;0;0
+définition;0.5;0.5;0.5;0.5
+page;0.111111;0;0;0
+script;0;0.2;0.2;0
+langage;0.333333;0.333333;0;0.333333
+serveur;0.5;0.5;0.5;0.5
+base;0.111111;0;0;0
+séparateur;0.2;0;0.2;0
+bloc;0.333333;0.333333;0;0.333333
+commentaires;0.2;0.2;0;0
+portée;0.111111;0;0;0
+type;0.5;0.5;0.5;0.5
+booléens;0.2;0;0;0.2
+chaîne;0;0;0.2;0.2
+supprimer;0.111111;0;0;0
+précédence;0.2;0;0;0.2
+bits;0.333333;0.333333;0;0.333333
+comparaison;0.2;0;0;0.2
+incrémentation;0.2;0;0;0.2
+opérateur logiques;0.2;0;0.2;0
+logiques;0.5;0.5;0.5;0.5
+structure de contrôle;0.5;0.5;0.5;0.5
+programmation;0;0.333333;0.333333;0.333333
+foreach;0.5;0.5;0.5;0.5
+switch;0.2;0;0;0.2
+syntaxe;0.5;0.5;0.5;0.5
+valeur de retour;0.2;0;0.2;0
+post;0.5;0.5;0.5;0.5
+strftime;0.2;0.2;0;0
+mysql;0.333333;0.333333;0.333333;0
+phpmyadmin;0.2;0.2;0;0
+utilisateur;0.5;0.5;0.5;0.5
+modifier;0.111111;0;0;0
+numériques;0.111111;0;0;0
+entiers;0.333333;0.333333;0;0.333333
+réels;0.333333;0;0.333333;0.333333
+text;0.5;0.5;0.5;0.5
+enum;0.111111;0;0;0
+timestamp;0;0.2;0.2;0
+time;0.2;0.2;0;0
+sql;0.333333;0.333333;0.333333;0
+innodb;0.111111;0;0;0
+fulltext;0.111111;0;0;0
+base de données;0.333333;0.333333;0;0.333333
+données;0.333333;0.333333;0;0.333333
+séquence;0.333333;0;0.333333;0.333333
+nombre;0.5;0.5;0.5;0.5
+fichiers;0;0.2;0.2;0
+fread;0.111111;0;0;0
+fichier par;0.111111;0;0;0
+sortie;0.2;0;0;0.2
+sortie standard;0.2;0.2;0;0
+ecriture;0.333333;0.333333;0;0.333333
+fin de fichier;0.111111;0;0;0
+fermer;0.2;0;0.2;0
+système de fichiers;0.111111;0;0;0
+code;0;0.2;0;0.2
+texte;0;0.333333;0.333333;0.333333
+comparer;0.111111;0;0;0
+session;0.333333;0.333333;0.333333;0
+http;0.333333;0;0.333333;0.333333
+couleurs;0.5;0.5;0.5;0.5
+rectangle;0.111111;0;0;0
+polygones;0.111111;0;0;0
+programmation objet;0.333333;0.333333;0;0.333333
+opérateur;0.111111;0;0;0
+méthode;0.333333;0.333333;0.333333;0
+classe;0.333333;0.333333;0.333333;0
+héritage;0.5;0.5;0.5;0.5
+polymorphisme;0.2;0;0;0.2
+self;0.2;0.2;0;0
+constructeurs;0.5;0.5;0.5;0.5
+destructeur;0.111111;0;0;0
+affectation;0.333333;0;0.333333;0.333333
+nouveauté;0.111111;0;0;0
+exceptions;0.2;0;0;0.2
+sauvegarder;0.5;0.5;0.5;0.5
+côté serveur;0.333333;0.333333;0.333333;0
+inspirer;0.111111;0;0;0
+langage c;0.2;0;0;0.2
+java;0.333333;0.333333;0.333333;0
+perl;0.2;0.2;0;0
+rasmus lerdorf;0.2;0.2;0;0
+site;0.333333;0.333333;0;0.333333
+site personnel;0.111111;0;0;0
+interpreter;0.2;0;0.2;0
+personne;0.2;0.2;0;0
+contributeurs;0.111111;0;0;0
+juin;0.2;0.2;0;0
+zeev suraski;0.2;0.2;0;0
+modulaire;0.2;0.2;0;0
+extensible;0.111111;0;0;0
+supplémentaires;0.333333;0.333333;0.333333;0
+manquer;0.2;0;0.2;0
+cohérente;0.333333;0;0.333333;0.333333
+serveur web;0.5;0.5;0.5;0.5
+moteur;0.5;0.5;0.5;0.5
+zend;0.2;0.2;0;0
+zend engine;0.2;0.2;0;0
+mai;0.111111;0;0;0
+c++;0.5;0.5;0.5;0.5
+xml;0.2;0;0.2;0
+forum;0.111111;0;0;0
+messagerie;0.111111;0;0;0
+commerce électronique;0.2;0.2;0;0
+banque;0.2;0;0.2;0
+publication en ligne;0.111111;0;0;0
+voulez;0.5;0.5;0.5;0.5
+lamp;0.2;0.2;0;0
+linux;0.333333;0.333333;0.333333;0
+incorporer;0.111111;0;0;0
+javascript;0.333333;0.333333;0.333333;0
+semblant;0.111111;0;0;0
+navigateur;0.5;0.5;0.5;0.5
+dédier;0.111111;0;0;0
+lire;0.5;0.5;0.5;0.5
+page web;0.5;0.5;0.5;0.5
+vitesse;0.2;0;0.2;0
+côté;0.111111;0;0;0
+côté client;0.333333;0.333333;0.333333;0
+windows;0.5;0.5;0.5;0.5
+vbscript;0.111111;0;0;0
+jscript;0.111111;0;0;0
+activex;0.111111;0;0;0
+portage;0.111111;0;0;0
+plate-forme;0.2;0;0;0.2
+langage de programmation;0.5;0.5;0.5;0.5
+langage de programmation procédural;0.2;0.2;0;0
+procédural;0.111111;0;0;0
+nécessaire;0.333333;0;0.333333;0.333333
+python;0.333333;0.333333;0.333333;0
+unix;0.333333;0.333333;0;0.333333
+mac;0.2;0.2;0;0
+second;0.111111;0;0;0
+distribution linux;0.2;0.2;0;0
+mode;0.5;0.5;0.5;0.5
+répertoire personnel;0.111111;0;0;0
+complexe;0.5;0.5;0.5;0.5
+uvre;0.333333;0;0.333333;0.333333
+employer;0.2;0.2;0;0
+easyphp;0.111111;0;0;0
+coloration syntaxique;0.111111;0;0;0
+w3c;0.2;0;0.2;0
+xhtml;0.111111;0;0;0
+css;0.111111;0;0;0
+affichage;0.5;0.5;0.5;0.5
+entête;0.333333;0;0.333333;0.333333
+mozilla;0.111111;0;0;0
+galeon;0.111111;0;0;0
+konqueror;0.111111;0;0;0
+compatibles;0.2;0;0;0.2
+bordélique;0.111111;0;0;0
+endroit;0.333333;0.333333;0.333333;0
+web;0.333333;0;0.333333;0.333333
+souple;0.111111;0;0;0
+point-virgule;0.333333;0;0.333333;0.333333
+sensible;0.333333;0.333333;0.333333;0
+lettre;0.2;0.2;0;0
+dépendre;0.333333;0;0.333333;0.333333
+contexte;0.2;0;0;0.2
+transtypage;0.333333;0;0.333333;0.333333
+signe égal;0.111111;0;0;0
+sans;0.111111;0;0;0
+echo;0.2;0;0.2;0
+affiche;0.111111;0;0;0
+globale;0.333333;0;0.333333;0.333333
+variable locale;0.2;0;0;0.2
+locale;0.111111;0;0;0
+grand nombre;0.2;0;0.2;0
+files;0;0;0.2;0.2
+upload;0.111111;0;0;0
+env;0.2;0.2;0;0
+url;0.333333;0.333333;0;0.333333
+cache;0.2;0.2;0;0
+dynamique;0.111111;0;0;0
+ambiguïté;0.111111;0;0;0
+chaîne vide;0.2;0;0.2;0
+booléenne;0.111111;0;0;0
+architecture;0.2;0.2;0;0
+nombre à virgule flottante;0.111111;0;0;0
+spécifier;0.333333;0;0.333333;0.333333
+puissance de 10;0.111111;0;0;0
+ascii;0.2;0;0;0.2
+unicode;0.111111;0;0;0
+échapper;0.111111;0;0;0
+lf;0.111111;0;0;0
+carriage return;0.111111;0;0;0
+cr;0.111111;0;0;0
+antislash;0.2;0;0.2;0
+notation octale;0.111111;0;0;0
+notation hexadécimale;0.111111;0;0;0
+hexadécimale;0.111111;0;0;0
+égal;0.333333;0;0.333333;0.333333
+valeur numérique;0.111111;0;0;0
+numérique;0.111111;0;0;0
+addition;0.2;0;0.2;0
+val;0.111111;0;0;0
+table de hachage;0.2;0;0;0.2
+hachage;0.333333;0.333333;0;0.333333
+pile;0.333333;0.333333;0;0.333333
+séparer;0.333333;0.333333;0;0.333333
+volée;0.111111;0;0;0
+cle;0.111111;0;0;0
+class;0.2;0;0;0.2
+constantes;0.111111;0;0;0
+casse;0.111111;0;0;0
+redéfinir;0.111111;0;0;0
+integer;0.5;0.5;0.5;0.5
+gauche;0.2;0;0;0.2
+droite;0.2;0;0;0.2
+croître;0.111111;0;0;0
+associativité;0.111111;0;0;0
+modulo;0.2;0;0;0.2
+division;0.333333;0;0.333333;0.333333
+multiplication;0.5;0.5;0.5;0.5
+division par deux;0.111111;0;0;0
+deux;0.2;0;0.2;0
+message;0.333333;0.333333;0;0.333333
+temps;0.333333;0.333333;0.333333;0
+oeil;0.111111;0;0;0
+fois;0.5;0.5;0.5;0.5
+affiche;0.333333;0;0.333333;0.333333
+mot;0.5;0.5;0.5;0.5
+exécutée;0.111111;0;0;0
+conditionnelle;0.2;0;0;0.2
+sorte;0.111111;0;0;0
+list;0.2;0;0;0.2
+case;0.333333;0;0.333333;0.333333
+ressembler à;0.2;0;0.2;0
+homologue;0.111111;0;0;0
+impossible;0.5;0.5;0.5;0.5
+existe;0.2;0;0.2;0
+appel de fonction;0.2;0;0;0.2
+valeur par défaut;0.333333;0.333333;0.333333;0
+type de valeurs;0.111111;0;0;0
+devoir;0.2;0;0.2;0
+couvrir;0.111111;0;0;0
+rappel;0.333333;0.333333;0.333333;0
+limitation;0.111111;0;0;0
+conteneur;0.2;0;0;0.2
+droit;0.333333;0.333333;0.333333;0
+chose;0.333333;0.333333;0.333333;0
+premier;0.2;0;0.2;0
+choix multiples;0.111111;0;0;0
+vin;0.111111;0;0;0
+format de date;0.111111;0;0;0
+langue anglaise;0.333333;0;0.333333;0.333333
+français;0.2;0;0.2;0
+système;0.5;0.5;0.5;0.5
+semaine;0.2;0;0.2;0
+heure internet;0.111111;0;0;0
+internet;0.5;0.5;0.5;0.5
+vendredi;0.2;0.2;0;0
+janvier;0.111111;0;0;0
+24h;0.333333;0;0.333333;0.333333
+hiver;0.111111;0;0;0
+heure de greenwich;0.111111;0;0;0
+dec;0.111111;0;0;0
+fuseau horaire;0.111111;0;0;0
+machine;0.5;0.5;0.5;0.5
+dimanche;0.333333;0.333333;0.333333;0
+samedi;0.2;0.2;0;0
+lundi;0.2;0.2;0;0
+second;0.111111;0;0;0
+fonction;0.111111;0;0;0
+siècle;0.111111;0;0;0
+numérique;0.111111;0;0;0
+intervalle;0.111111;0;0;0
+semaine 1;0.111111;0;0;0
+abréviation;0.111111;0;0;0
+littéral;0.333333;0;0.333333;0.333333
+september;0.111111;0;0;0
+septembre;0.2;0.2;0;0
+semaine 3;0.111111;0;0;0
+système de gestion;0.333333;0.333333;0.333333;0
+système de gestion de base de donnée;0.2;0;0.2;0
+relationnel;0.2;0;0;0.2
+open source;0.2;0;0;0.2
+mysql ab;0.111111;0;0;0
+licence;0.2;0;0.2;0
+licence gpl;0.2;0;0.2;0
+support technique;0.111111;0;0;0
+hébergeur;0.2;0;0.2;0
+étrangères;0.111111;0;0;0
+notamment;0.2;0.2;0;0
+delete;0.333333;0.333333;0.333333;0
+moteur de recherche;0.111111;0;0;0
+sqlplus;0.111111;0;0;0
+intuitif;0.111111;0;0;0
+toolkit;0.2;0;0;0.2
+qt;0.111111;0;0;0
+macos;0.2;0.2;0;0
+configuration;0.2;0.2;0;0
+ip;0.111111;0;0;0
+doute;0.2;0;0.2;0
+administrateur;0.2;0;0.2;0
+mise à jour;0.333333;0;0.333333;0.333333
+insert;0.2;0;0.2;0
+possible;0.333333;0.333333;0.333333;0
+varchar;0.2;0.2;0;0
+tenir compte;0.2;0;0.2;0
+quantité variables;0.111111;0;0;0
+medium;0.111111;0;0;0
+tris;0.111111;0;0;0
+champ de;0.2;0;0;0.2
+insérer;0.2;0;0;0.2
+plupart;0.2;0;0.2;0
+préférence;0.111111;0;0;0
+février;0.111111;0;0;0
+mise;0.2;0;0.2;0
+expliquer;0.111111;0;0;0
+plage;0.2;0;0;0.2
+mm;0.111111;0;0;0
+fraction;0.111111;0;0;0
+soumettre;0.111111;0;0;0
+transaction;0.333333;0.333333;0;0.333333
+rollback;0.2;0.2;0;0
+crash;0.111111;0;0;0
+contraintes;0.333333;0;0.333333;0.333333
+intégrité;0.111111;0;0;0
+parente;0.111111;0;0;0
+clé étrangère;0.2;0;0.2;0
+fils;0.111111;0;0;0
+critère;0.333333;0;0.333333;0.333333
+flotter;0.111111;0;0;0
+order;0.111111;0;0;0
+simplicité;0.111111;0;0;0
+ouverte;0.111111;0;0;0
+échec;0.333333;0.333333;0.333333;0
+numéroter;0.111111;0;0;0
+identiques;0.111111;0;0;0
+renommer;0.2;0.2;0;0
+insertion;0.111111;0;0;0
+avoir besoin de;0.5;0.5;0.5;0.5
+valeur;0.2;0;0;0.2
+liste chaînée;0.111111;0;0;0
+jointure;0.111111;0;0;0
+activer;0.111111;0;0;0
+mode texte;0.2;0;0;0.2
+attention;0.333333;0.333333;0;0.333333
+fin;0.2;0;0;0.2
+placer;0.111111;0;0;0
+img;0.2;0;0.2;0
+fichier csv;0.111111;0;0;0
+ret;0.111111;0;0;0
+fichier binaire;0.111111;0;0;0
+calculer;0.2;0;0.2;0
+réussite;0.111111;0;0;0
+pointeur;0.2;0;0;0.2
+txt;0.5;0.5;0.5;0.5
+fermeture;0.5;0.5;0.5;0.5
+chdir;0.111111;0;0;0
+argument;0.2;0;0;0.2
+relatif;0.2;0;0;0.2
+handle;0.111111;0;0;0
+prochaine;0.2;0;0.2;0
+sous;0.111111;0;0;0
+base 8;0.111111;0;0;0
+type de fichier;0.111111;0;0;0
+fifo;0.111111;0;0;0
+pointé;0.2;0;0.2;0
+inode;0.111111;0;0;0
+size;0.333333;0.333333;0;0.333333
+taille de bloc;0.111111;0;0;0
+shell unix;0.111111;0;0;0
+dirname;0.2;0.2;0;0
+isoler;0.111111;0;0;0
+chown;0.111111;0;0;0
+chgrp;0.111111;0;0;0
+copy;0.111111;0;0;0
+hard link;0.111111;0;0;0
+lien symbolique;0.111111;0;0;0
+masque;0.2;0;0;0.2
+rename;0.111111;0;0;0
+umask;0.111111;0;0;0
+client;0.2;0.2;0;0
+encodage;0.333333;0.333333;0.333333;0
+avatar;0.111111;0;0;0
+vérification;0.2;0;0.2;0
+pire;0.111111;0;0;0
+boite de dialogue;0.2;0;0;0.2
+gestionnaire de fichier;0.111111;0;0;0
+cliquer;0.2;0;0.2;0
+bouton;0.111111;0;0;0
+associer;0.5;0.5;0.5;0.5
+temp;0.111111;0;0;0
+initialiser;0.5;0.5;0.5;0.5
+fichier temporaire;0.111111;0;0;0
+verrouiller;0.111111;0;0;0
+caractère nul;0.111111;0;0;0
+inverse;0.2;0;0.2;0
+oreille;0.111111;0;0;0
+gras;0.111111;0;0;0
+entité;0.5;0.5;0.5;0.5
+entité html;0.111111;0;0;0
+fonctionnement;0.111111;0;0;0
+quotes;0.111111;0;0;0
+formater;0.2;0;0;0.2
+troisième;0.111111;0;0;0
+colle;0.111111;0;0;0
+longueur;0.333333;0.333333;0;0.333333
+trim;0.333333;0.333333;0.333333;0
+invisibles;0.2;0;0;0.2
+strcmp;0.111111;0;0;0
+égale;0.111111;0;0;0
+expiration;0.111111;0;0;0
+avoir lieu;0.5;0.5;0.5;0.5
+disponible;0.2;0;0.2;0
+variable globale;0.111111;0;0;0
+mot de passe;0.2;0;0.2;0
+visiteur;0.2;0;0.2;0
+authentification;0.333333;0.333333;0.333333;0
+déconnexion;0.111111;0;0;0
+évidente;0.111111;0;0;0
+connecté;0.111111;0;0;0
+démarrer;0.2;0;0.2;0
+balise html;0.2;0;0.2;0
+sauvegarde;0.2;0;0.2;0
+unset;0.111111;0;0;0
+concerner;0.5;0.5;0.5;0.5
+cookie de session;0.111111;0;0;0
+ouverture de session;0.5;0.5;0.5;0.5
+recommencer;0.111111;0;0;0
+décompte;0.2;0;0.2;0
+unix_timestamp;0.111111;0;0;0
+retirer;0.111111;0;0;0
+dll;0.111111;0;0;0
+jpeg;0.111111;0;0;0
+windows bitmap;0.111111;0;0;0
+truecolor;0.111111;0;0;0
+largeur;0.111111;0;0;0
+gd;0.111111;0;0;0
+gif;0.111111;0;0;0
+psd;0.111111;0;0;0
+tiff;0.111111;0;0;0
+intel;0.2;0.2;0;0
+rouge;0.2;0.2;0;0
+vert;0.2;0.2;0;0
+premier;0.333333;0;0.333333;0.333333
+rvb;0.111111;0;0;0
+coordonnées;0.111111;0;0;0
+total;0.333333;0;0.333333;0.333333
+zone;0.2;0;0.2;0
+blue;0.111111;0;0;0
+cercle;0.2;0;0.2;0
+ellipse;0.111111;0;0;0
+juste;0.111111;0;0;0
+mot-clé;0.111111;0;0;0
+constante;0.2;0;0;0.2
+classe d;0.111111;0;0;0
+autre;0.333333;0;0.333333;0.333333
+héritage multiple;0.2;0;0;0.2
+classe a;0.111111;0;0;0
+faire référence;0.111111;0;0;0
+générique;0.2;0;0;0.2
+type b;0.111111;0;0;0
+ramasse-miettes;0.2;0;0;0.2
+code objet;0.111111;0;0;0
+clonage;0.111111;0;0;0
+directe;0.2;0;0;0.2
+explicite;0.2;0;0;0.2
+via;0.111111;0;0;0
+descripteur de fichiers;0.111111;0;0;0
+o3;0.111111;0;0;0
+substituer;0.111111;0;0;0
+être utile;0.333333;0;0.333333;0.333333
+utile;0.2;0;0;0.2
+abstraire;0.333333;0.333333;0;0.333333
+abstraites;0.2;0;0;0.2
+classe abstraite;0.2;0;0;0.2
+dérivée;0.111111;0;0;0
+implémentant;0.2;0;0;0.2
+publique;0.333333;0.333333;0.333333;0
+redéfinition;0.2;0;0;0.2
+final;0.2;0;0;0.2
+final;0.2;0;0;0.2
+prototypes;0.111111;0;0;0
+template;0.111111;0;0;0
+déclencher;0.111111;0;0;0
+contraire;0.111111;0;0;0
+variable;0.2;0;0.2;0
+iterator;0.2;0;0;0.2
+infos;0.5;0.5;0.5;0.5
+numéro de ligne;0.111111;0;0;0
+erreur;0.111111;0;0;0
+parent;0.2;0;0.2;0
+ancien système;0.111111;0;0;0
+stream;0.111111;0;0;0
+xampp;0.2;0.2;0;0
+etc.;0.333333;0.333333;0.333333;0
+erreur de syntaxe;0.111111;0;0;0
+intéresser;0.111111;0;0;0
+comportement;0.5;0.5;0.5;0.5
+réception;0.2;0;0;0.2
+répéter;0.2;0.2;0;0
+cas objet;0.111111;0;0;0
+standard;0.5;0.5;0.5;0.5
+internes;0.2;0;0;0.2
+supporter;0.111111;0;0;0
+remplissage;0.2;0;0.2;0
+structure;0.111111;0;0;0
+epub;0;0.111111;0;0
+format pdf;0;0.2;0.2;0
+caractéristique;0;0.333333;0.333333;0.333333
+installation;0;0.2;0;0.2
+3.14;0;0.2;0;0.2
+filtrage;0;0.111111;0;0
+validation;0;0.111111;0;0
+composer;0;0;0.2;0.2
+symfony;0;0.111111;0;0
+application;0;0.111111;0;0
+web service;0;0.111111;0;0
+web mobile;0;0.111111;0;0
+mobile;0;0.111111;0;0
+informatique;0;0.333333;0.333333;0.333333
+interpréter;0;0.111111;0;0
+compilateur;0;0.333333;0.333333;0.333333
+compilateur jit;0;0.111111;0;0
+facebook;0;0.111111;0;0
+coder;0;0.333333;0.333333;0.333333
+fichier source;0;0.333333;0.333333;0.333333
+sortie;0;0.111111;0;0
+retrouver;0;0.2;0.2;0
+programmeur;0;0.2;0;0.2
+développement;0;0.2;0;0.2
+ca;0;0.111111;0;0
+livre;0;0.2;0.2;0
+hiphop;0;0.111111;0;0
+machine virtuelle;0;0.2;0;0.2
+typage fort;0;0.111111;0;0
+framework;0;0.2;0;0.2
+phalcon;0;0.111111;0;0
+compilation aot;0;0.111111;0;0
+possibilité;0;0.333333;0.333333;0.333333
+travers;0;0.2;0;0.2
+yahoo;0;0.111111;0;0
+content management systems;0;0.111111;0;0
+gestion de contenu;0;0.111111;0;0
+joomla;0;0.111111;0;0
+développement web;0;0.2;0.2;0
+laravel;0;0.111111;0;0
+mamp;0;0.111111;0;0
+indispensable;0;0.333333;0.333333;0.333333
+macports;0;0.111111;0;0
+client serveur;0;0.2;0.2;0
+communication;0;0.333333;0.333333;0.333333
+fichier de configuration;0;0.111111;0;0
+numbers;0;0.111111;0;0
+compression;0;0.111111;0;0
+phase;0;0.333333;0.333333;0.333333
+éxécution;0;0.111111;0;0
+logging;0;0.111111;0;0
+désactiver;0;0.2;0.2;0
+démarrage;0;0.111111;0;0
+plugins;0;0.111111;0;0
+logger;0;0.111111;0;0
+rapporter;0;0.111111;0;0
+fuite de mémoire;0;0.111111;0;0
+chaine;0;0.111111;0;0
+socket;0;0.111111;0;0
+chemin;0;0.2;0.2;0
+iconv;0;0.111111;0;0
+système d;0;0.2;0;0.2
+smtp;0;0.111111;0;0
+set;0;0.111111;0;0
+lien permanents;0;0.111111;0;0
+links;0;0.111111;0;0
+host;0;0.2;0.2;0
+passwd;0;0.111111;0;0
+mysqli;0;0.111111;0;0
+md5;0;0.111111;0;0
+assertion;0;0.2;0;0.2
+fonction utilisateur;0;0.111111;0;0
+doctype;0;0.111111;0;0
+mac os x;0;0.111111;0;0
+khtml;0;0.111111;0;0
+gecko;0;0.111111;0;0
+doc;0;0.2;0.2;0
+msie;0;0.111111;0;0
+firefox;0;0.111111;0;0
+chrome;0;0.111111;0;0
+safari;0;0.111111;0;0
+remède;0;0.111111;0;0
+head;0;0.2;0.2;0
+existence;0;0.2;0.2;0
+répondre;0;0.111111;0;0
+null;0;0.2;0;0.2
+simplifier;0;0.111111;0;0
+concaténation;0;0.333333;0.333333;0.333333
+majuscule;0;0.2;0.2;0
+égalité;0;0.111111;0;0
+eval;0;0.111111;0;0
+tableau associatifs;0;0.111111;0;0
+parcours;0;0.333333;0.333333;0.333333
+mardi;0;0.2;0.2;0
+mercredi;0;0.111111;0;0
+jeudi;0;0.2;0.2;0
+casse;0;0.111111;0;0
+query_string;0;0.111111;0;0
+externes;0;0.111111;0;0
+racine;0;0.2;0;0.2
+signaler;0;0.111111;0;0
+type de retour;0;0.2;0;0.2
+etudiant;0;0.2;0.2;0
+setter;0;0.2;0;0.2
+attribut;0;0.2;0;0.2
+espace de nommage;0;0.111111;0;0
+bleu;0;0.111111;0;0
+set;0;0.111111;0;0
+diff;0;0.111111;0;0
+ball;0;0.111111;0;0
+être;0;0.2;0.2;0
+interrogation;0;0.2;0;0.2
+prenom;0;0.2;0.2;0
+jeanne;0;0.111111;0;0
+durand;0;0.111111;0;0
+andreas;0;0.111111;0;0
+dalton;0;0.111111;0;0
+fichier css;0;0.111111;0;0
+auto;0;0.2;0;0.2
+tr;0;0.111111;0;0
+puce;0;0.2;0;0.2
+clef primaire;0;0.2;0.2;0
+franz kafka;0;0.111111;0;0
+cotes;0;0.111111;0;0
+systématiquement;0;0.111111;0;0
+injections;0;0.111111;0;0
+injections sql;0;0.111111;0;0
+essayer;0;0.2;0.2;0
+code malveillant;0;0.111111;0;0
+faille de sécurité;0;0.111111;0;0
+html5;0;0.111111;0;0
+être valables;0;0.111111;0;0
+injection de code;0;0.111111;0;0
+système d’information;0;0.111111;0;0
+credit;0;0.111111;0;0
+depot;0;0.2;0.2;0
+commit;0;0.111111;0;0
+réutilisé;0;0.333333;0.333333;0.333333
+printf;0;0.2;0;0.2
+action;0;0.111111;0;0
+courant;0;0.2;0;0.2
+href;0;0.2;0.2;0
+csrf;0;0.111111;0;0
+temporaire;0;0.111111;0;0
+django;0;0.111111;0;0
+flask;0;0.111111;0;0
+token;0;0.2;0;0.2
+svg;0;0.111111;0;0
+mathml;0;0.111111;0;0
+document object model;0;0.111111;0;0
+document xml;0;0.111111;0;0
+bas niveau;0;0.2;0;0.2
+programme tv;0;0.111111;0;0
+tv;0;0.111111;0;0
+debut;0;0.111111;0;0
+smith;0;0.111111;0;0
+realisateur;0;0.111111;0;0
+dutchman;0;0.111111;0;0
+johnny guitar;0;0.111111;0;0
+guitar;0;0.111111;0;0
+woman under the influence;0;0.111111;0;0
+victor/victoria;0;0.111111;0;0
+simplexml;0;0.111111;0;0
+the flying dutchman;0;0.111111;0;0
+jour de fête;0;0.111111;0;0
+controleur;0;0.2;0;0.2
+composants;0;0.111111;0;0
+version;0;0.2;0.2;0
+framework web;0;0.111111;0;0
+cd;0;0.2;0.2;0
+path;0;0.2;0;0.2
+menu;0;0.2;0.2;0
+poisson;0;0.111111;0;0
+catch;0;0.111111;0;0
+h2;0;0.111111;0;0
+routage;0;0.111111;0;0
+familiariser;0;0.111111;0;0
+micro-noyau;0;0.111111;0;0
+package;0;0.2;0;0.2
+courantes;0;0.111111;0;0
+bin;0;0.111111;0;0
+répertoire de travail;0;0.111111;0;0
+log;0;0.111111;0;0
+flex;0;0.111111;0;0
+test driven development;0;0.111111;0;0
+avant;0;0.111111;0;0
+méthodologie;0;0.111111;0;0
+spécification;0;0.2;0;0.2
+junit;0;0.2;0;0.2
+phpunit;0;0.111111;0;0
+sommes;0;0.111111;0;0
+librairie;0;0.333333;0.333333;0.333333
+mettre en place;0;0.111111;0;0
+architecture rest;0;0.111111;0;0
+transfer;0;0.111111;0;0
+logique métier;0;0.111111;0;0
+json;0;0.111111;0;0
+js;0;0.111111;0;0
+rich internet application;0;0.111111;0;0
+patch;0;0.111111;0;0
+soap;0;0.111111;0;0
+microsoft;0;0.2;0.2;0
+principe;0;0.111111;0;0
+roy fielding;0;0.111111;0;0
+thèse;0;0.111111;0;0
+séparation;0;0.2;0.2;0
+code serveur;0;0.111111;0;0
+description;0;0.2;0.2;0
+mémorisation;0;0.111111;0;0
+contact;0;0.111111;0;0
+creation;0;0.2;0;0.2
+détails;0;0.2;0.2;0
+avérer;0;0.2;0;0.2
+root;0;0.111111;0;0
+voter;0;0.111111;0;0
+mobile;0;0.2;0;0.2
+informatique;0;0.333333;0.333333;0.333333
+initialisation;0;0.2;0;0.2
+gitlab;0;0.111111;0;0
+bitbucket;0;0.111111;0;0
+github;0;0.111111;0;0
+revue;0;0.111111;0;0
+gestion de version;0;0.111111;0;0
+professionnelle;0;0.111111;0;0
+historique;0;0.111111;0;0
+dominique;0;0;0.111111;0
+novembre;0;0;0.111111;0
+document;0;0;0.111111;0
+gnu;0;0;0.111111;0
+gnu fdl;0;0;0.111111;0
+généralité;0;0;0.111111;0
+langage intermédiaires;0;0;0.111111;0
+faq;0;0;0.111111;0
+préliminaire;0;0;0.111111;0
+postgresql;0;0;0.111111;0
+pear;0;0;0.111111;0
+dbx;0;0;0.111111;0
+news;0;0;0.111111;0
+manipulation;0;0;0.111111;0
+accueil;0;0;0.111111;0
+étude de cas;0;0;0.111111;0
+évaluation;0;0;0.111111;0
+généalogie;0;0;0.111111;0
+généralité;0;0;0.111111;0
+optimisation;0;0;0.111111;0
+fonctionnement;0;0;0.111111;0
+remarque;0;0;0.111111;0
+autre;0;0;0.111111;0
+traiter de;0;0;0.111111;0
+aborder;0;0;0.111111;0
+universitaires;0;0;0.111111;0
+autonome;0;0;0.111111;0
+logiciel;0;0;0.2;0.2
+docbook;0;0;0.111111;0
+texte source;0;0;0.111111;0
+emacs;0;0;0.111111;0
+dtd;0;0;0.111111;0
+disponible;0;0;0.111111;0
+seul;0;0;0.111111;0
+langage naturels;0;0;0.111111;0
+ordinateur;0;0;0.111111;0
+processeur;0;0;0.2;0.2
+réécrire;0;0;0.111111;0
+portabilité;0;0;0.2;0.2
+langage compilés;0;0;0.111111;0
+intelligible;0;0;0.111111;0
+point de vue;0;0;0.2;0.2
+auxiliaire;0;0;0.111111;0
+mesure;0;0;0.111111;0
+exécutable;0;0;0.2;0.2
+compilé;0;0;0.111111;0
+confidentialité;0;0;0.111111;0
+paiement;0;0;0.111111;0
+paiement en ligne;0;0;0.111111;0
+lisp;0;0;0.111111;0
+applets;0;0;0.2;0.2
+page web dynamiques;0;0;0.111111;0
+flash;0;0;0.111111;0
+problématique;0;0;0.111111;0
+contrôle de sécurité;0;0;0.111111;0
+validité;0;0;0.111111;0
+être extrait;0;0;0.111111;0
+réalité;0;0;0.111111;0
+outil de développement;0;0;0.2;0.2
+importer;0;0;0.2;0.2
+application web;0;0;0.2;0.2
+tant;0;0;0.111111;0
+cas particulier;0;0;0.2;0.2
+générale;0;0;0.2;0.2
+quelconques;0;0;0.2;0.2
+soustraction;0;0;0.2;0.2
+classiques;0;0;0.2;0.2
+inférieur;0;0;0.2;0.2
+table de multiplication;0;0;0.111111;0
+factorielles;0;0;0.111111;0
+enfant;0;0;0.111111;0
+common gateway interface;0;0;0.111111;0
+pouvoir;0;0;0.111111;0
+après;0;0;0.2;0.2
+bouton radio;0;0;0.111111;0
+radio;0;0;0.111111;0
+case à cocher;0;0;0.111111;0
+clic;0;0;0.2;0.2
+exclusifs;0;0;0.111111;0
+sélectionner;0;0;0.2;0.2
+avoir accès;0;0;0.111111;0
+phrase;0;0;0.111111;0
+bébé;0;0;0.111111;0
+distance;0;0;0.111111;0
+vrai;0;0;0.111111;0
+nom de personne;0;0;0.111111;0
+permis de chasse;0;0;0.111111;0
+capital;0;0;0.111111;0
+coûter;0;0;0.111111;0
+groupe;0;0;0.111111;0
+liste déroulante;0;0;0.111111;0
+incomplète;0;0;0.111111;0
+devinette;0;0;0.111111;0
+manipulation;0;0;0.111111;0
+abuser;0;0;0.111111;0
+string;0;0;0.111111;0
+matrice;0;0;0.111111;0
+boucle for;0;0;0.2;0.2
+couple;0;0;0.111111;0
+touch;0;0;0.111111;0
+hoaxbuster;0;0;0.111111;0
+virus;0;0;0.111111;0
+e-mail;0;0;0.111111;0
+identifier;0;0;0.111111;0
+xxvii;0;0;0.111111;0
+pilote;0;0;0.111111;0
+fonction de base;0;0;0.111111;0
+migration;0;0;0.111111;0
+comme;0;0;0.111111;0
+adodb;0;0;0.111111;0
+metadata;0;0;0.111111;0
+mssql;0;0;0.111111;0
+firebird;0;0;0.111111;0
+informix;0;0;0.111111;0
+odbc;0;0;0.111111;0
+clore;0;0;0.2;0.2
+explicitement;0;0;0.111111;0
+ansi;0;0;0.111111;0
+homogène;0;0;0.111111;0
+adresse mail;0;0;0.111111;0
+copier-coller;0;0;0.111111;0
+rendre;0;0;0.111111;0
+détecter;0;0;0.2;0.2
+envier;0;0;0.111111;0
+souhaitable;0;0;0.111111;0
+force brute;0;0;0.111111;0
+bc;0;0;0.111111;0
+temps de calcul;0;0;0.111111;0
+compliquer;0;0;0.111111;0
+chaîne littérale;0;0;0.111111;0
+tex;0;0;0.111111;0
+alex;0;0;0.111111;0
+thomas;0;0;0.111111;0
+avoir envie de;0;0;0.111111;0
+impératif;0;0;0.111111;0
+fonctionnalité;0;0;0.2;0.2
+archiver;0;0;0.111111;0
+stocker;0;0;0.2;0.2
+particulier;0;0;0.111111;0
+data source name;0;0;0.111111;0
+héberger;0;0;0.111111;0
+légèrement;0;0;0.111111;0
+configurer;0;0;0.111111;0
+affichage;0;0;0.2;0.2
+tel;0;0;0.111111;0
+fax;0;0;0.111111;0
+guise;0;0;0.111111;0
+rows;0;0;0.111111;0
+bcd;0;0;0.111111;0
+sous-répertoire;0;0;0.111111;0
+article de presse;0;0;0.111111;0
+copier;0;0;0.2;0.2
+horizontale;0;0;0.111111;0
+fin de paragraphe;0;0;0.111111;0
+système d’exploitation;0;0;0.111111;0
+disque dur;0;0;0.111111;0
+disquette;0;0;0.111111;0
+mini-site;0;0;0.111111;0
+accès libre;0;0;0.111111;0
+libre;0;0;0.111111;0
+numéro de téléphone;0;0;0.111111;0
+téléphone;0;0;0.2;0.2
+énoncé;0;0;0.111111;0
+punition;0;0;0.111111;0
+récursive;0;0;0.111111;0
+retour;0;0;0.111111;0
+or;0;0;0.111111;0
+compléter;0;0;0.111111;0
+féminin;0;0;0.111111;0
+chasse;0;0;0.111111;0
+chiens;0;0;0.111111;0
+amis;0;0;0.111111;0
+bienvenue;0;0;0.111111;0
+interdit;0;0;0.111111;0
+correct;0;0;0.2;0.2
+limiter;0;0;0.111111;0
+min;0;0;0.111111;0
+triche;0;0;0.111111;0
+pipotron;0;0;0.111111;0
+égard;0;0;0.111111;0
+dégradation;0;0;0.111111;0
+convient;0;0;0.2;0.2
+anticiper;0;0;0.111111;0
+préoccuper;0;0;0.111111;0
+remémorer;0;0;0.111111;0
+globalité;0;0;0.111111;0
+possession;0;0;0.111111;0
+bon sens;0;0;0.111111;0
+correspondante;0;0;0.111111;0
+onglets;0;0;0.111111;0
+sciences;0;0;0.111111;0
+créer;0;0;0.111111;0
+chansons;0;0;0.111111;0
+genre musicaux;0;0;0.111111;0
+parole;0;0;0.111111;0
+statistique;0;0;0.111111;0
+droit d’auteur;0;0;0.111111;0
+supprimer;0;0;0.111111;0
+paroles de chanson;0;0;0.111111;0
+orthographe;0;0;0.111111;0
+familiarisation;0;0;0.111111;0
+créneau horaires;0;0;0.111111;0
+pouvoir;0;0;0.111111;0
+notification;0;0;0.111111;0
+tableur;0;0;0.111111;0
+dérouler;0;0;0.111111;0
+rue;0;0;0.111111;0
+seance;0;0;0.111111;0
+club de tennis;0;0;0.111111;0
+tennis;0;0;0.111111;0
+défaire;0;0;0.111111;0
+payer;0;0;0.111111;0
+sport;0;0;0.111111;0
+matériel;0;0;0.111111;0
+civile;0;0;0.111111;0
+clavier;0;0;0.2;0.2
+vol;0;0;0.111111;0
+dégradation;0;0;0.111111;0
+mettre en prison;0;0;0.111111;0
+vainqueur;0;0;0.111111;0
+logistiques;0;0;0.111111;0
+match;0;0;0.111111;0
+caravane;0;0;0.111111;0
+branchement;0;0;0.111111;0
+lit;0;0;0.111111;0
+lit pliants;0;0;0.111111;0
+nuit;0;0;0.111111;0
+redevance;0;0;0.111111;0
+véhicules;0;0;0.111111;0
+courrier publicitaires;0;0;0.111111;0
+publicitaires;0;0;0.111111;0
+car;0;0;0.111111;0
+réfrigérateur;0;0;0.111111;0
+prestation;0;0;0.111111;0
+localisation géographique;0;0;0.111111;0
+téléphone;0;0;0.111111;0
+entendre;0;0;0.111111;0
+fin;0;0;0.111111;0
+presque;0;0;0.111111;0
+adhérents;0;0;0.111111;0
+adhesion;0;0;0.111111;0
+euro;0;0;0.111111;0
+moindre;0;0;0.111111;0
+intuitive;0;0;0.111111;0
+vital;0;0;0.111111;0
+bibliothèque thématiques;0;0;0.111111;0
+thématiques;0;0;0.111111;0
+avantageront;0;0;0.111111;0
+aphorisme;0;0;0.111111;0
+logiciel libres;0;0;0.111111;0
+décès;0;0;0.111111;0
+seul;0;0;0.111111;0
+lieu de naissance;0;0;0.111111;0
+multimédia;0;0;0.111111;0
+document officiel;0;0;0.111111;0
+acte;0;0;0.111111;0
+acte de naissance;0;0;0.111111;0
+mariage;0;0;0.111111;0
+minimales;0;0;0.111111;0
+album;0;0;0.111111;0
+photo;0;0;0.111111;0
+import-export;0;0;0.111111;0
+gedcom;0;0;0.111111;0
+mormons;0;0;0.111111;0
+nom complet;0;0;0.111111;0
+jésus-christ;0;0;0.111111;0
+logiciel de généalogie;0;0;0.111111;0
+stocker;0;0;0.111111;0
+maladies;0;0;0.111111;0
+bonheur;0;0;0.111111;0
+organisation;0;0;0.2;0.2
+part;0;0;0.111111;0
+exception;0;0;0.111111;0
+sexe;0;0;0.111111;0
+gravite;0;0;0.111111;0
+administratif;0;0;0.111111;0
+besoin de savoir;0;0;0.111111;0
+fier;0;0;0.111111;0
+temps partiel;0;0;0.111111;0
+partiel;0;0;0.111111;0
+décharges;0;0;0.111111;0
+contrat;0;0;0.111111;0
+libre accès;0;0;0.111111;0
+enseignant;0;0;0.111111;0
+vacataires;0;0;0.111111;0
+deug;0;0;0.111111;0
+service;0;0;0.111111;0
+semestre;0;0;0.111111;0
+universitaires;0;0;0.111111;0
+universitaire;0;0;0.111111;0
+économie;0;0;0.111111;0
+histoire;0;0;0.111111;0
+maître de conférence;0;0;0.111111;0
+moins;0;0;0.111111;0
+pédagogique;0;0;0.111111;0
+titulaires;0;0;0.111111;0
+cm;0;0;0.111111;0
+travaux dirigés;0;0;0.111111;0
+parler;0;0;0.111111;0
+obliger;0;0;0.111111;0
+philosophie;0;0;0.111111;0
+bac;0;0;0.111111;0
+chargé;0;0;0.111111;0
+chargé de cours;0;0;0.111111;0
+criminelles;0;0;0.111111;0
+institutions;0;0;0.111111;0
+politique;0;0;0.111111;0
+littérature;0;0;0.111111;0
+littérature germaniques;0;0;0.111111;0
+romanes;0;0;0.111111;0
+littérature arabes;0;0;0.111111;0
+psychologie;0;0;0.111111;0
+psychologie clinique;0;0;0.111111;0
+psychologie sociale;0;0;0.111111;0
+arts;0;0;0.111111;0
+musique;0;0;0.111111;0
+musicologie;0;0;0.111111;0
+anthropologie;0;0;0.111111;0
+éthnologie;0;0;0.111111;0
+préhistoire;0;0;0.111111;0
+civilisation;0;0;0.111111;0
+archéologie;0;0;0.111111;0
+contemporain;0;0;0.111111;0
+géographie;0;0;0.111111;0
+géographie physique;0;0;0.111111;0
+espace;0;0;0.111111;0
+mathématiques;0;0;0.2;0.2
+constituants;0;0;0.111111;0
+chimie théorique;0;0;0.111111;0
+chimie organique;0;0;0.111111;0
+astronomie;0;0;0.111111;0
+océanographie;0;0;0.111111;0
+océanographie physique;0;0;0.111111;0
+physique;0;0;0.111111;0
+pharmaceutiques;0;0;0.111111;0
+génie mécanique;0;0;0.111111;0
+génie civil;0;0;0.111111;0
+génie informatique;0;0;0.111111;0
+procédés;0;0;0.111111;0
+biochimie;0;0;0.111111;0
+biologie;0;0;0.111111;0
+biologie moléculaire;0;0;0.111111;0
+moléculaire;0;0;0.111111;0
+biologie cellulaire;0;0;0.111111;0
+physiologie;0;0;0.111111;0
+population;0;0;0.111111;0
+écologie;0;0;0.111111;0
+organismes;0;0;0.111111;0
+éducation;0;0;0.111111;0
+epistémologie;0;0;0.111111;0
+cultures;0;0;0.111111;0
+activité physiques;0;0;0.111111;0
+théologie;0;0;0.111111;0
+théologie catholique;0;0;0.111111;0
+approche;0;0;0.111111;0
+vinyl;0;0;0.111111;0
+l’album;0;0;0.111111;0
+ailleurs;0;0;0.111111;0
+problème;0;0;0.111111;0
+recherche;0;0;0.111111;0
+là;0;0;0.111111;0
+centrale;0;0;0.111111;0
+intitulé;0;0;0.2;0.2
+rock;0;0;0.111111;0
+pénétration;0;0;0.111111;0
+date de sortie;0;0;0.111111;0
+figurer;0;0;0.111111;0
+code postal;0;0;0.111111;0
+bureau;0;0;0.111111;0
+compte en banque;0;0;0.111111;0
+numéro isbn;0;0;0.111111;0
+axiome;0;0;0.111111;0
+residents;0;0;0.111111;0
+rolling stones;0;0;0.111111;0
+mick jagger;0;0;0.111111;0
+keith richard;0;0;0.111111;0
+john lennon;0;0;0.111111;0
+futur;0;0;0.111111;0
+code barre;0;0;0.111111;0
+compositeur;0;0;0.111111;0
+song;0;0;0.111111;0
+varier;0;0;0.111111;0
+velvet underground;0;0;0.111111;0
+terry riley;0;0;0.111111;0
+probabilité;0;0;0.111111;0
+mémoriser;0;0;0.111111;0
+conceptuel;0;0;0.111111;0
+numero;0;0;0.111111;0
+facilité;0;0;0.111111;0
+alternative;0;0;0.111111;0
+quanta;0;0;0.111111;0
+intermédiaire;0;0;0.2;0.2
+associatif;0;0;0.111111;0
+ébauche;0;0;0.111111;0
+mémento;0;0;0;0.111111
+reference;0;0;0;0.111111
+générateur;0;0;0;0.111111
+générateur de documentation;0;0;0;0.111111
+javadoc;0;0;0;0.111111
+style de programmation;0;0;0;0.111111
+identificateurs;0;0;0;0.111111
+type primitifs;0;0;0;0.111111
+type statique;0;0;0;0.111111
+hiérarchie;0;0;0;0.111111
+nouvelle classe;0;0;0;0.111111
+mise en page;0;0;0;0.111111
+swing;0;0;0;0.111111
+thread;0;0;0;0.111111
+section critiques;0;0;0;0.111111
+interactive;0;0;0;0.111111
+test unitaires;0;0;0;0.111111
+unitaires;0;0;0;0.111111
+design pattern;0;0;0;0.111111
+modèle singleton;0;0;0;0.111111
+machine virtuelle java;0;0;0;0.111111
+glossaire;0;0;0;0.111111
+monde réel;0;0;0;0.111111
+concrète;0;0;0;0.111111
+grise;0;0;0;0.111111
+typiquement;0;0;0;0.111111
+encapsuler;0;0;0;0.111111
+interagir;0;0;0;0.111111
+nom générique;0;0;0;0.111111
+consommation;0;0;0;0.111111
+hiérarchique;0;0;0;0.111111
+sun microsystems;0;0;0;0.111111
+james gosling;0;0;0;0.111111
+obligatoire;0;0;0;0.111111
+lisibilité;0;0;0;0.111111
+durée de vie;0;0;0;0.111111
+verbe;0;0;0;0.111111
+paraphraser;0;0;0;0.111111
+intitulé;0;0;0;0.111111
+complète;0;0;0;0.111111
+lettre minuscules;0;0;0;0.111111
+rassembler;0;0;0;0.111111
+jar;0;0;0;0.111111
+classpath;0;0;0;0.111111
+void;0;0;0;0.111111
+abstract;0;0;0;0.111111
+sémantique;0;0;0;0.111111
+matériels;0;0;0;0.111111
+spécifique;0;0;0;0.111111
+ajouter;0;0;0;0.111111
+conformer;0;0;0;0.111111
+contribuer;0;0;0;0.111111
+concept;0;0;0;0.111111
+intérieur;0;0;0;0.111111
+classe internes;0;0;0;0.111111
+regroupement;0;0;0;0.111111
+encapsulation;0;0;0;0.111111
+mots-clés;0;0;0;0.111111
+modificateurs;0;0;0;0.111111
+variable de classe;0;0;0;0.111111
+variable de type;0;0;0;0.111111
+tentative;0;0;0;0.111111
+espace mémoire;0;0;0;0.111111
+collector;0;0;0;0.111111
+indirectement;0;0;0;0.111111
+sémantique;0;0;0;0.111111
+cyrillique;0;0;0;0.111111
+windows nt;0;0;0;0.111111
+système de codage;0;0;0;0.111111
+byte;0;0;0;0.111111
+simple précision;0;0;0;0.111111
+double précision;0;0;0;0.111111
+point décimal;0;0;0;0.111111
+affection;0;0;0;0.111111
+bibliothèque standard;0;0;0;0.111111
+primitif;0;0;0;0.111111
+autoboxing;0;0;0;0.111111
+auparavant;0;0;0;0.111111
+noter;0;0;0;0.111111
+opérandes;0;0;0;0.111111
+mark;0;0;0;0.111111
+applicables;0;0;0;0.111111
+agrégat;0;0;0;0.111111
+fréquents;0;0;0;0.111111
+généricité;0;0;0;0.111111
+précédente;0;0;0;0.111111
+gestion;0;0;0;0.111111
+évolution;0;0;0;0.111111
+is;0;0;0;0.111111
+borne supérieure;0;0;0;0.111111
+principales;0;0;0;0.111111
+relever;0;0;0;0.111111
+opération;0;0;0;0.111111
+grand entier;0;0;0;0.111111
+enveloppe;0;0;0;0.111111
+explicite;0;0;0;0.111111
+ordre normal;0;0;0;0.111111
+division euclidienne;0;0;0;0.111111
+euclidienne;0;0;0;0.111111
+arrondir;0;0;0;0.111111
+unaires;0;0;0;0.111111
+exclusif;0;0;0;0.111111
+inférer;0;0;0;0.111111
+opérateur booléen;0;0;0;0.111111
+négation;0;0;0;0.111111
+paramètre formel;0;0;0;0.111111
+formel;0;0;0;0.111111
+effectifs;0;0;0;0.111111
+signature;0;0;0;0.111111
+duplication de code;0;0;0;0.111111
+pointe;0;0;0;0.111111
+capter;0;0;0;0.111111
+commande;0;0;0;0.111111
+fichier exécutable;0;0;0;0.111111
+syntaxique;0;0;0;0.111111
+instruction vide;0;0;0;0.111111
+vide;0;0;0;0.111111
+mettre fin à;0;0;0;0.111111
+boucle while;0;0;0;0.111111
+jour;0;0;0;0.111111
+améliorer;0;0;0;0.111111
+mode graphique;0;0;0;0.111111
+scanner;0;0;0;0.111111
+périphérique;0;0;0;0.111111
+approprié;0;0;0;0.111111
+accès séquentiel;0;0;0;0.111111
+terminal;0;0;0;0.111111
+erreur de saisie;0;0;0;0.111111
+classloader;0;0;0;0.111111
+accessibilité;0;0;0;0.111111
+pare-feu;0;0;0;0.111111
+technique;0;0;0;0.111111
+réutilisation;0;0;0;0.111111
+réutilisation de code;0;0;0;0.111111
+astre;0;0;0;0.111111
+hériter;0;0;0;0.111111
+sous-type;0;0;0;0.111111
+ascendant;0;0;0;0.111111
+planete;0;0;0;0.111111
+descendre;0;0;0;0.111111
+type dynamique;0;0;0;0.111111
+liaison dynamique;0;0;0;0.111111
+annotation;0;0;0;0.111111
+compatibilité;0;0;0;0.111111
+accessible;0;0;0;0.111111
+invoquer;0;0;0;0.111111
+draw;0;0;0;0.111111
+dehors;0;0;0;0.111111
+différencier;0;0;0;0.111111
+cat;0;0;0;0.111111
+division par zéro;0;0;0;0.111111
+paquetage;0;0;0;0.111111
+normal;0;0;0;0.111111
+normalement;0;0;0;0.111111
+prendre en compte;0;0;0;0.111111
+interfaces graphiques;0;0;0;0.111111
+abstract window toolkit;0;0;0;0.111111
+prompt;0;0;0;0.111111
+containers;0;0;0;0.111111
+intermédiaires;0;0;0;0.111111
+panel;0;0;0;0.111111
+positionnement;0;0;0;0.111111
+taille;0;0;0;0.111111
+souris;0;0;0;0.111111
+généré;0;0;0;0.111111
+nature;0;0;0;0.111111
+listener;0;0;0;0.111111
+touche;0;0;0;0.111111
+fenêtre;0;0;0;0.111111
+anonyme;0;0;0;0.111111
+modèle-vue-contrôleur;0;0;0;0.111111
+interface utilisateur;0;0;0;0.111111
+paradigme;0;0;0;0.111111
+dater;0;0;0;0.111111
+adaptabilité;0;0;0;0.111111
+type de programme;0;0;0;0.111111
+programmation concurrente;0;0;0;0.111111
+segment de code;0;0;0;0.111111
+garantir;0;0;0;0.111111
+consommateur;0;0;0;0.111111
+symétrique;0;0;0;0.111111
+javabeans;0;0;0;0.111111
+couplage;0;0;0;0.111111
+cohesion;0;0;0;0.111111
+adéquation;0;0;0;0.111111
+délicats;0;0;0;0.111111
+processus de conception;0;0;0;0.111111
+garder;0;0;0;0.111111
+impact;0;0;0;0.111111
+architecture logicielle;0;0;0;0.111111
+minimiser;0;0;0;0.111111
+objet métier;0;0;0;0.111111
+représentation interne;0;0;0;0.111111
+gestion de données;0;0;0;0.111111
+applicatives;0;0;0;0.111111
+schéma de;0;0;0;0.111111
+idéale;0;0;0;0.111111
+import;0;0;0;0.111111
+view;0;0;0;0.111111
+esprit;0;0;0;0.111111
+système distribués;0;0;0;0.111111
+java ee;0;0;0;0.111111
+ejb;0;0;0;0.111111
+servlets;0;0;0;0.111111
+interrelation;0;0;0;0.111111
+plan de test;0;0;0;0.111111
+test système;0;0;0;0.111111
+cas de test;0;0;0;0.111111
+malheureusement;0;0;0;0.111111
+régression;0;0;0;0.111111
+test de non-régression;0;0;0;0.111111
+batterie;0;0;0;0.111111
+communauté open source;0;0;0;0.111111
+outil;0;0;0;0.111111
+test fixture;0;0;0;0.111111
+test;0;0;0;0.111111
+bean;0;0;0;0.111111
+composant;0;0;0;0.111111
+assemblé;0;0;0;0.111111
+plate-forme java;0;0;0;0.111111
+java se;0;0;0;0.111111
+convention de nommage;0;0;0;0.111111
+environnement de développement;0;0;0;0.111111
+personnalisation;0;0;0;0.111111
+persistance;0;0;0;0.111111
+support de stockage;0;0;0;0.111111
+sérialisation;0;0;0;0.111111
+canvas;0;0;0;0.111111
+théoriques;0;0;0;0.111111
+algorithmes;0;0;0;0.111111
+fondamentaux;0;0;0;0.111111
+structuration;0;0;0;0.111111
+interaction;0;0;0;0.111111
+unique;0;0;0;0.111111
+wikipedia;0;0;0;0.111111
+barre de défilement;0;0;0;0.111111
+existants;0;0;0;0.111111
+an;0;0;0;0.111111
+bytecode;0;0;0;0.111111
+structure de classe;0;0;0;0.111111
+java native interface;0;0;0;0.111111
+tutoriel;0;0;0;0.111111
+interface de programmation;0;0;0;0.111111
+interfaçage;0;0;0;0.111111
+programme c;0;0;0;0.111111
+wall;0;0;0;0.111111
+illustrer;0;0;0;0.111111
+procedure;0;0;0;0.111111
+descripteur;0;0;0;0.111111
+structure de donnée;0;0;0;0.111111
+line;0;0;0;0.111111
+scanf;0;0;0;0.111111
+allocation;0;0;0;0.111111
+mémoire dynamique;0;0;0;0.111111
+edition;0;0;0;0.111111
+java platform, micro edition;0;0;0;0.111111
+décembre 2006;0;0;0;0.111111
+produit logiciel;0;0;0;0.111111
+java runtime environment;0;0;0;0.111111
+runtime;0;0;0;0.111111
+java development kit;0;0;0;0.111111
+débogueur;0;0;0;0.111111
+imprécis;0;0;0;0.111111
+kit de développement;0;0;0;0.111111
+application mobiles;0;0;0;0.111111
+pda;0;0;0;0.111111
+java card;0;0;0;0.111111
+carte à puce;0;0;0;0.111111
+javafx;0;0;0;0.111111
+encyclopédie;0;0;0;0.111111
+éditeur de texte;0;0;0;0.111111
+java 2;0;0;0;0.111111
+plateforme java;0;0;0;0.111111

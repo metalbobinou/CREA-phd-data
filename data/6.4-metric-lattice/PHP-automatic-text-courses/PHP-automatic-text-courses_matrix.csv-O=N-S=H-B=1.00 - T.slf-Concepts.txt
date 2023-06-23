@@ -1,0 +1,35 @@
+Concept (0) : 
+  level : 2
+  objects (0) : 
+  attributes (3) : C3.csv C5.csv C6.csv 
+  parents concepts (3) : 1 2 3 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 1
+  objects (3) : php bn:01753580n http bn:00045088n xml bn:02771436n 
+  attributes (1) : C5.csv 
+  parents concepts (1) : 4 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 1
+  objects (6) : langage bn:00049910n base de données bn:00025333n données bn:00025314n site bn:00047172n personne bn:00046516n varchar bn:01838409n 
+  attributes (1) : C6.csv 
+  parents concepts (1) : 4 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 1
+  objects (8) : script bn:01431715n chaîne bn:00074685n programmation bn:00021493n timestamp bn:03603649n fichiers bn:00021475n code bn:00020354n texte bn:00076732n méthode bn:01641329n 
+  attributes (1) : C3.csv 
+  parents concepts (1) : 4 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 0
+  objects (17) : php bn:01753580n script bn:01431715n langage bn:00049910n chaîne bn:00074685n programmation bn:00021493n timestamp bn:03603649n base de données bn:00025333n données bn:00025314n fichiers bn:00021475n code bn:00020354n texte bn:00076732n http bn:00045088n méthode bn:01641329n site bn:00047172n personne bn:00046516n xml bn:02771436n varchar bn:01838409n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (3) : 1 2 3 
+

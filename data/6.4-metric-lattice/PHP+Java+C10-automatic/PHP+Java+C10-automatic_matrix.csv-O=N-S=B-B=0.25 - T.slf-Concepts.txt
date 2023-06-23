@@ -1,0 +1,2373 @@
+Concept (0) : 
+  level : 9
+  objects (0) : 
+  attributes (11) : C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 CJA 
+  parents concepts (11) : 1 2 3 4 5 6 7 8 9 10 16 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 8
+  objects (1) : navigateur bn:00013447n 
+  attributes (8) : C2 C3 C5 C6 C7 C8 C9 CJA 
+  parents concepts (5) : 11 12 13 14 15 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 6
+  objects (1) : donnée bn:00025314n 
+  attributes (6) : C2 C3 C4 C5 C7 CJA 
+  parents concepts (4) : 17 41 53 131 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 7
+  objects (1) : concerner bn:00083240v 
+  attributes (7) : C3 C4 C5 C6 C7 C10 CJA 
+  parents concepts (5) : 21 22 53 58 147 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 8
+  objects (1) : fois bn:00032768n 
+  attributes (9) : C1 C2 C3 C5 C6 C7 C9 C10 CJA 
+  parents concepts (7) : 11 19 20 25 26 27 28 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 6
+  objects (1) : nombre bn:00058285n 
+  attributes (6) : C4 C5 C7 C8 C10 CJA 
+  parents concepts (4) : 12 21 30 31 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 8
+  objects (1) : text bn:14981519n 
+  attributes (8) : C1 C2 C3 C4 C5 C6 C10 CJA 
+  parents concepts (4) : 25 32 33 34 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 8
+  objects (1) : fermeture bn:16858148n 
+  attributes (9) : C1 C3 C4 C5 C6 C8 C9 C10 CJA 
+  parents concepts (12) : 14 18 23 24 27 29 30 32 35 36 37 38 
+  childs concepts (1) : 0 
+
+Concept (8) : 
+  level : 7
+  objects (1) : programmation bn:00021493n 
+  attributes (7) : C1 C2 C4 C5 C6 C9 C10 
+  parents concepts (5) : 28 33 37 39 95 
+  childs concepts (1) : 0 
+
+Concept (9) : 
+  level : 5
+  objects (1) : cle bn:04756252n 
+  attributes (5) : C2 C3 C4 C9 C10 
+  parents concepts (5) : 39 52 72 79 199 
+  childs concepts (1) : 0 
+
+Concept (10) : 
+  level : 6
+  objects (1) : méthode bn:01641329n 
+  attributes (7) : C2 C4 C5 C6 C7 C8 C9 
+  parents concepts (6) : 15 17 22 31 38 95 
+  childs concepts (1) : 0 
+
+Concept (11) : 
+  level : 7
+  objects (2) : navigateur bn:00013447n fois bn:00032768n 
+  attributes (7) : C2 C3 C5 C6 C7 C9 CJA 
+  parents concepts (6) : 41 42 43 44 45 124 
+  childs concepts (2) : 1 4 
+
+Concept (12) : 
+  level : 4
+  objects (2) : navigateur bn:00013447n nombre bn:00058285n 
+  attributes (4) : C5 C7 C8 CJA 
+  parents concepts (4) : 46 47 123 213 
+  childs concepts (2) : 1 5 
+
+Concept (13) : 
+  level : 7
+  objects (2) : navigateur bn:00013447n méthode post bn:00045088n 
+  attributes (7) : C2 C3 C6 C7 C8 C9 CJA 
+  parents concepts (4) : 44 46 49 50 
+  childs concepts (1) : 1 
+
+Concept (14) : 
+  level : 6
+  objects (2) : navigateur bn:00013447n fermeture bn:16858148n 
+  attributes (6) : C3 C5 C6 C8 C9 CJA 
+  parents concepts (5) : 40 48 49 51 228 
+  childs concepts (2) : 1 7 
+
+Concept (15) : 
+  level : 6
+  objects (2) : navigateur bn:00013447n méthode bn:01641329n 
+  attributes (6) : C2 C5 C6 C7 C8 C9 
+  parents concepts (4) : 45 47 50 51 
+  childs concepts (2) : 1 10 
+
+Concept (16) : 
+  level : 7
+  objects (2) : serveur web bn:02705179n foreach bn:03463379n 
+  attributes (7) : C2 C3 C4 C5 C6 C9 CJA 
+  parents concepts (5) : 52 93 94 95 124 
+  childs concepts (1) : 0 
+
+Concept (17) : 
+  level : 4
+  objects (2) : donnée bn:00025314n méthode bn:01641329n 
+  attributes (4) : C2 C4 C5 C7 
+  parents concepts (3) : 126 135 193 
+  childs concepts (2) : 2 10 
+
+Concept (18) : 
+  level : 6
+  objects (2) : php bn:01753580n fermeture bn:16858148n 
+  attributes (6) : C1 C3 C4 C6 C9 C10 
+  parents concepts (5) : 54 55 56 98 99 
+  childs concepts (1) : 7 
+
+Concept (19) : 
+  level : 7
+  objects (2) : java bn:00048043n fois bn:00032768n 
+  attributes (7) : C1 C2 C3 C5 C6 C7 C10 
+  parents concepts (3) : 42 57 102 
+  childs concepts (1) : 4 
+
+Concept (20) : 
+  level : 7
+  objects (2) : texte bn:00076732n fois bn:00032768n 
+  attributes (7) : C3 C5 C6 C7 C9 C10 CJA 
+  parents concepts (3) : 43 58 146 
+  childs concepts (1) : 4 
+
+Concept (21) : 
+  level : 5
+  objects (2) : concerner bn:00083240v nombre bn:00058285n 
+  attributes (5) : C4 C5 C7 C10 CJA 
+  parents concepts (3) : 97 108 205 
+  childs concepts (2) : 3 5 
+
+Concept (22) : 
+  level : 4
+  objects (2) : concerner bn:00083240v méthode bn:01641329n 
+  attributes (4) : C4 C5 C6 C7 
+  parents concepts (3) : 135 190 266 
+  childs concepts (2) : 3 10 
+
+Concept (23) : 
+  level : 7
+  objects (2) : commentaire bn:00020978n fermeture bn:16858148n 
+  attributes (7) : C1 C3 C4 C5 C8 C9 C10 
+  parents concepts (3) : 59 60 61 
+  childs concepts (1) : 7 
+
+Concept (24) : 
+  level : 6
+  objects (2) : délimiter bn:00086464v fermeture bn:16858148n 
+  attributes (6) : C3 C4 C6 C8 C10 CJA 
+  parents concepts (7) : 62 63 64 65 109 122 204 
+  childs concepts (1) : 7 
+
+Concept (25) : 
+  level : 7
+  objects (2) : fois bn:00032768n text bn:14981519n 
+  attributes (7) : C1 C2 C3 C5 C6 C10 CJA 
+  parents concepts (5) : 57 66 67 68 69 
+  childs concepts (2) : 4 6 
+
+Concept (26) : 
+  level : 7
+  objects (2) : fois bn:00032768n case bn:04777941n 
+  attributes (7) : C1 C2 C3 C6 C9 C10 CJA 
+  parents concepts (5) : 66 70 71 72 186 
+  childs concepts (1) : 4 
+
+Concept (27) : 
+  level : 7
+  objects (2) : fois bn:00032768n fermeture bn:16858148n 
+  attributes (7) : C1 C3 C5 C6 C9 C10 CJA 
+  parents concepts (5) : 67 70 73 117 146 
+  childs concepts (2) : 4 7 
+
+Concept (28) : 
+  level : 6
+  objects (2) : fois bn:00032768n programmation bn:00021493n 
+  attributes (6) : C1 C2 C5 C6 C9 C10 
+  parents concepts (4) : 71 73 105 187 
+  childs concepts (2) : 4 8 
+
+Concept (29) : 
+  level : 7
+  objects (2) : url bn:00079080n fermeture bn:16858148n 
+  attributes (7) : C1 C3 C4 C5 C9 C10 CJA 
+  parents concepts (4) : 59 74 75 117 
+  childs concepts (1) : 7 
+
+Concept (30) : 
+  level : 5
+  objects (2) : nombre bn:00058285n fermeture bn:16858148n 
+  attributes (5) : C4 C5 C8 C10 CJA 
+  parents concepts (4) : 62 76 112 205 
+  childs concepts (2) : 5 7 
+
+Concept (31) : 
+  level : 4
+  objects (2) : nombre bn:00058285n méthode bn:01641329n 
+  attributes (4) : C4 C5 C7 C8 
+  parents concepts (3) : 47 135 151 
+  childs concepts (2) : 5 10 
+
+Concept (32) : 
+  level : 7
+  objects (2) : text bn:14981519n fermeture bn:16858148n 
+  attributes (7) : C1 C3 C4 C5 C6 C10 CJA 
+  parents concepts (5) : 54 67 74 77 147 
+  childs concepts (2) : 6 7 
+
+Concept (33) : 
+  level : 6
+  objects (2) : text bn:14981519n programmation bn:00021493n 
+  attributes (6) : C1 C2 C4 C5 C6 C10 
+  parents concepts (3) : 77 78 105 
+  childs concepts (2) : 6 8 
+
+Concept (34) : 
+  level : 7
+  objects (2) : text bn:14981519n mot bn:00081546n 
+  attributes (7) : C2 C3 C4 C5 C6 C10 CJA 
+  parents concepts (5) : 69 78 79 93 147 
+  childs concepts (1) : 6 
+
+Concept (35) : 
+  level : 7
+  objects (2) : langage bn:00049910n fermeture bn:16858148n 
+  attributes (7) : C1 C3 C5 C8 C9 C10 CJA 
+  parents concepts (5) : 48 60 63 76 117 
+  childs concepts (1) : 7 
+
+Concept (36) : 
+  level : 7
+  objects (2) : utilisateur bn:00079373n fermeture bn:16858148n 
+  attributes (7) : C3 C4 C5 C6 C9 C10 CJA 
+  parents concepts (6) : 55 75 80 94 146 147 
+  childs concepts (1) : 7 
+
+Concept (37) : 
+  level : 6
+  objects (2) : fermeture bn:16858148n programmation bn:00021493n 
+  attributes (6) : C1 C4 C5 C6 C9 C10 
+  parents concepts (5) : 56 73 77 80 111 
+  childs concepts (2) : 7 8 
+
+Concept (38) : 
+  level : 5
+  objects (2) : fermeture bn:16858148n méthode bn:01641329n 
+  attributes (5) : C4 C5 C6 C8 C9 
+  parents concepts (4) : 51 64 115 166 
+  childs concepts (2) : 7 10 
+
+Concept (39) : 
+  level : 4
+  objects (2) : programmation bn:00021493n cle bn:04756252n 
+  attributes (4) : C2 C4 C9 C10 
+  parents concepts (4) : 120 121 134 260 
+  childs concepts (2) : 8 9 
+
+Concept (40) : 
+  level : 5
+  objects (3) : page web bn:00080778n navigateur bn:00013447n fermeture bn:16858148n 
+  attributes (5) : C3 C5 C6 C8 CJA 
+  parents concepts (4) : 81 82 122 298 
+  childs concepts (1) : 14 
+
+Concept (41) : 
+  level : 5
+  objects (3) : navigateur bn:00013447n donnée bn:00025314n fois bn:00032768n 
+  attributes (5) : C2 C3 C5 C7 CJA 
+  parents concepts (4) : 83 84 188 227 
+  childs concepts (2) : 2 11 
+
+Concept (42) : 
+  level : 5
+  objects (3) : navigateur bn:00013447n java bn:00048043n fois bn:00032768n 
+  attributes (5) : C2 C3 C5 C6 C7 
+  parents concepts (5) : 83 85 86 161 210 
+  childs concepts (2) : 11 19 
+
+Concept (43) : 
+  level : 6
+  objects (3) : navigateur bn:00013447n texte bn:00076732n fois bn:00032768n 
+  attributes (6) : C3 C5 C6 C7 C9 CJA 
+  parents concepts (4) : 87 88 128 228 
+  childs concepts (2) : 11 20 
+
+Concept (44) : 
+  level : 6
+  objects (3) : navigateur bn:00013447n fois bn:00032768n méthode post bn:00045088n 
+  attributes (6) : C2 C3 C6 C7 C9 CJA 
+  parents concepts (5) : 84 85 87 89 186 
+  childs concepts (2) : 11 13 
+
+Concept (45) : 
+  level : 5
+  objects (3) : navigateur bn:00013447n fois bn:00032768n méthode bn:01641329n 
+  attributes (5) : C2 C5 C6 C7 C9 
+  parents concepts (4) : 86 88 89 187 
+  childs concepts (2) : 11 15 
+
+Concept (46) : 
+  level : 3
+  objects (3) : navigateur bn:00013447n nombre bn:00058285n méthode post bn:00045088n 
+  attributes (3) : C7 C8 CJA 
+  parents concepts (3) : 90 183 252 
+  childs concepts (2) : 12 13 
+
+Concept (47) : 
+  level : 3
+  objects (3) : navigateur bn:00013447n nombre bn:00058285n méthode bn:01641329n 
+  attributes (3) : C5 C7 C8 
+  parents concepts (3) : 90 248 251 
+  childs concepts (3) : 12 15 31 
+
+Concept (48) : 
+  level : 5
+  objects (3) : navigateur bn:00013447n langage bn:00049910n fermeture bn:16858148n 
+  attributes (5) : C3 C5 C8 C9 CJA 
+  parents concepts (4) : 81 91 130 263 
+  childs concepts (2) : 14 35 
+
+Concept (49) : 
+  level : 5
+  objects (3) : navigateur bn:00013447n méthode post bn:00045088n fermeture bn:16858148n 
+  attributes (5) : C3 C6 C8 C9 CJA 
+  parents concepts (4) : 91 92 122 272 
+  childs concepts (2) : 13 14 
+
+Concept (50) : 
+  level : 5
+  objects (3) : navigateur bn:00013447n méthode post bn:00045088n méthode bn:01641329n 
+  attributes (5) : C2 C6 C7 C8 C9 
+  parents concepts (3) : 89 90 92 
+  childs concepts (2) : 13 15 
+
+Concept (51) : 
+  level : 4
+  objects (3) : navigateur bn:00013447n fermeture bn:16858148n méthode bn:01641329n 
+  attributes (4) : C5 C6 C8 C9 
+  parents concepts (4) : 82 92 163 286 
+  childs concepts (3) : 14 15 38 
+
+Concept (52) : 
+  level : 4
+  objects (3) : serveur web bn:02705179n foreach bn:03463379n cle bn:04756252n 
+  attributes (4) : C2 C3 C4 C9 
+  parents concepts (4) : 134 164 231 236 
+  childs concepts (2) : 9 16 
+
+Concept (53) : 
+  level : 5
+  objects (3) : base de donnée bn:00025333n donnée bn:00025314n concerner bn:00083240v 
+  attributes (5) : C3 C4 C5 C7 CJA 
+  parents concepts (3) : 97 188 253 
+  childs concepts (2) : 2 3 
+
+Concept (54) : 
+  level : 5
+  objects (3) : php bn:01753580n text bn:14981519n fermeture bn:16858148n 
+  attributes (5) : C1 C3 C4 C6 C10 
+  parents concepts (4) : 101 137 197 219 
+  childs concepts (2) : 18 32 
+
+Concept (55) : 
+  level : 5
+  objects (3) : php bn:01753580n utilisateur bn:00079373n fermeture bn:16858148n 
+  attributes (5) : C3 C4 C6 C9 C10 
+  parents concepts (5) : 132 136 199 219 267 
+  childs concepts (2) : 18 36 
+
+Concept (56) : 
+  level : 5
+  objects (3) : php bn:01753580n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (5) : C1 C4 C6 C9 C10 
+  parents concepts (5) : 100 101 136 138 167 
+  childs concepts (2) : 18 37 
+
+Concept (57) : 
+  level : 6
+  objects (3) : java bn:00048043n fois bn:00032768n text bn:14981519n 
+  attributes (6) : C1 C2 C3 C5 C6 C10 
+  parents concepts (5) : 103 104 105 106 107 
+  childs concepts (2) : 19 25 
+
+Concept (58) : 
+  level : 6
+  objects (3) : texte bn:00076732n concerner bn:00083240v fois bn:00032768n 
+  attributes (6) : C3 C5 C6 C7 C10 CJA 
+  parents concepts (4) : 102 108 128 261 
+  childs concepts (2) : 3 20 
+
+Concept (59) : 
+  level : 6
+  objects (3) : commentaire bn:00020978n url bn:00079080n fermeture bn:16858148n 
+  attributes (6) : C1 C3 C4 C5 C9 C10 
+  parents concepts (5) : 98 110 111 148 150 
+  childs concepts (2) : 23 29 
+
+Concept (60) : 
+  level : 6
+  objects (3) : commentaire bn:00020978n langage bn:00049910n fermeture bn:16858148n 
+  attributes (6) : C1 C3 C5 C8 C9 C10 
+  parents concepts (2) : 113 148 
+  childs concepts (2) : 23 35 
+
+Concept (61) : 
+  level : 6
+  objects (3) : commentaire bn:00020978n personne bn:00046516n fermeture bn:16858148n 
+  attributes (6) : C3 C4 C5 C8 C9 C10 
+  parents concepts (6) : 109 112 113 114 115 150 
+  childs concepts (1) : 23 
+
+Concept (62) : 
+  level : 4
+  objects (3) : délimiter bn:00086464v nombre bn:00058285n fermeture bn:16858148n 
+  attributes (4) : C4 C8 C10 CJA 
+  parents concepts (3) : 116 178 246 
+  childs concepts (2) : 24 30 
+
+Concept (63) : 
+  level : 4
+  objects (3) : délimiter bn:00086464v langage bn:00049910n fermeture bn:16858148n 
+  attributes (4) : C3 C8 C10 CJA 
+  parents concepts (4) : 116 158 207 309 
+  childs concepts (2) : 24 35 
+
+Concept (64) : 
+  level : 3
+  objects (3) : délimiter bn:00086464v fermeture bn:16858148n méthode bn:01641329n 
+  attributes (3) : C4 C6 C8 
+  parents concepts (3) : 184 206 306 
+  childs concepts (2) : 24 38 
+
+Concept (65) : 
+  level : 4
+  objects (3) : délimiter bn:00086464v fermeture bn:16858148n visiteur bn:03106425n 
+  attributes (4) : C3 C6 C8 C10 
+  parents concepts (3) : 159 207 317 
+  childs concepts (1) : 24 
+
+Concept (66) : 
+  level : 6
+  objects (3) : fois bn:00032768n text bn:14981519n case bn:04777941n 
+  attributes (6) : C1 C2 C3 C6 C10 CJA 
+  parents concepts (4) : 103 118 119 156 
+  childs concepts (2) : 25 26 
+
+Concept (67) : 
+  level : 6
+  objects (3) : fois bn:00032768n text bn:14981519n fermeture bn:16858148n 
+  attributes (6) : C1 C3 C5 C6 C10 CJA 
+  parents concepts (4) : 104 154 156 261 
+  childs concepts (3) : 25 27 32 
+
+Concept (68) : 
+  level : 5
+  objects (3) : fois bn:00032768n text bn:14981519n site bn:00047172n 
+  attributes (5) : C1 C2 C3 C5 CJA 
+  parents concepts (4) : 106 118 182 227 
+  childs concepts (1) : 25 
+
+Concept (69) : 
+  level : 6
+  objects (3) : fois bn:00032768n text bn:14981519n mot bn:00081546n 
+  attributes (6) : C2 C3 C5 C6 C10 CJA 
+  parents concepts (4) : 107 119 185 261 
+  childs concepts (2) : 25 34 
+
+Concept (70) : 
+  level : 6
+  objects (3) : fois bn:00032768n case bn:04777941n fermeture bn:16858148n 
+  attributes (6) : C1 C3 C6 C9 C10 CJA 
+  parents concepts (5) : 96 99 155 156 203 
+  childs concepts (2) : 26 27 
+
+Concept (71) : 
+  level : 5
+  objects (3) : fois bn:00032768n case bn:04777941n programmation bn:00021493n 
+  attributes (5) : C1 C2 C6 C9 C10 
+  parents concepts (4) : 120 141 167 230 
+  childs concepts (2) : 26 28 
+
+Concept (72) : 
+  level : 4
+  objects (3) : fois bn:00032768n case bn:04777941n cle bn:04756252n 
+  attributes (4) : C2 C3 C9 C10 
+  parents concepts (4) : 120 174 231 308 
+  childs concepts (2) : 9 26 
+
+Concept (73) : 
+  level : 5
+  objects (3) : fois bn:00032768n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (5) : C1 C5 C6 C9 C10 
+  parents concepts (4) : 144 167 179 245 
+  childs concepts (3) : 27 28 37 
+
+Concept (74) : 
+  level : 6
+  objects (3) : url bn:00079080n text bn:14981519n fermeture bn:16858148n 
+  attributes (6) : C1 C3 C4 C5 C10 CJA 
+  parents concepts (3) : 110 154 176 
+  childs concepts (2) : 29 32 
+
+Concept (75) : 
+  level : 6
+  objects (3) : url bn:00079080n utilisateur bn:00079373n fermeture bn:16858148n 
+  attributes (6) : C3 C4 C5 C9 C10 CJA 
+  parents concepts (4) : 133 150 176 202 
+  childs concepts (2) : 29 36 
+
+Concept (76) : 
+  level : 4
+  objects (3) : nombre bn:00058285n langage bn:00049910n fermeture bn:16858148n 
+  attributes (4) : C5 C8 C10 CJA 
+  parents concepts (4) : 116 123 208 291 
+  childs concepts (2) : 30 35 
+
+Concept (77) : 
+  level : 5
+  objects (3) : text bn:14981519n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (5) : C1 C4 C5 C6 C10 
+  parents concepts (4) : 101 144 149 177 
+  childs concepts (3) : 32 33 37 
+
+Concept (78) : 
+  level : 5
+  objects (3) : text bn:14981519n programmation bn:00021493n mot bn:00081546n 
+  attributes (5) : C2 C4 C5 C6 C10 
+  parents concepts (4) : 121 165 175 177 
+  childs concepts (2) : 33 34 
+
+Concept (79) : 
+  level : 4
+  objects (3) : text bn:14981519n cle bn:04756252n mot bn:00081546n 
+  attributes (4) : C2 C3 C4 C10 
+  parents concepts (4) : 121 164 174 279 
+  childs concepts (2) : 9 34 
+
+Concept (80) : 
+  level : 5
+  objects (3) : utilisateur bn:00079373n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (5) : C4 C5 C6 C9 C10 
+  parents concepts (5) : 136 166 177 180 245 
+  childs concepts (2) : 36 37 
+
+Concept (81) : 
+  level : 4
+  objects (4) : page web bn:00080778n navigateur bn:00013447n langage bn:00049910n fermeture bn:16858148n 
+  attributes (4) : C3 C5 C8 CJA 
+  parents concepts (4) : 123 157 158 315 
+  childs concepts (2) : 40 48 
+
+Concept (82) : 
+  level : 3
+  objects (4) : page web bn:00080778n navigateur bn:00013447n fermeture bn:16858148n méthode bn:01641329n 
+  attributes (3) : C5 C6 C8 
+  parents concepts (3) : 184 248 327 
+  childs concepts (2) : 40 51 
+
+Concept (83) : 
+  level : 4
+  objects (4) : navigateur bn:00013447n donnée bn:00025314n java bn:00048043n fois bn:00032768n 
+  attributes (4) : C2 C3 C5 C7 
+  parents concepts (4) : 125 126 212 249 
+  childs concepts (2) : 41 42 
+
+Concept (84) : 
+  level : 4
+  objects (4) : navigateur bn:00013447n donnée bn:00025314n fois bn:00032768n méthode post bn:00045088n 
+  attributes (4) : C2 C3 C7 CJA 
+  parents concepts (3) : 125 214 269 
+  childs concepts (2) : 41 44 
+
+Concept (85) : 
+  level : 4
+  objects (4) : navigateur bn:00013447n java bn:00048043n fois bn:00032768n méthode post bn:00045088n 
+  attributes (4) : C2 C3 C6 C7 
+  parents concepts (4) : 125 127 189 250 
+  childs concepts (2) : 42 44 
+
+Concept (86) : 
+  level : 4
+  objects (4) : navigateur bn:00013447n java bn:00048043n fois bn:00032768n méthode bn:01641329n 
+  attributes (4) : C2 C5 C6 C7 
+  parents concepts (4) : 126 127 190 270 
+  childs concepts (2) : 42 45 
+
+Concept (87) : 
+  level : 5
+  objects (4) : navigateur bn:00013447n texte bn:00076732n fois bn:00032768n méthode post bn:00045088n 
+  attributes (5) : C3 C6 C7 C9 CJA 
+  parents concepts (3) : 129 162 272 
+  childs concepts (2) : 43 44 
+
+Concept (88) : 
+  level : 4
+  objects (4) : navigateur bn:00013447n texte bn:00076732n fois bn:00032768n méthode bn:01641329n 
+  attributes (4) : C5 C6 C7 C9 
+  parents concepts (3) : 129 190 286 
+  childs concepts (2) : 43 45 
+
+Concept (89) : 
+  level : 4
+  objects (4) : navigateur bn:00013447n fois bn:00032768n méthode post bn:00045088n méthode bn:01641329n 
+  attributes (4) : C2 C6 C7 C9 
+  parents concepts (3) : 127 129 230 
+  childs concepts (3) : 44 45 50 
+
+Concept (90) : 
+  level : 2
+  objects (4) : navigateur bn:00013447n nombre bn:00058285n méthode post bn:00045088n méthode bn:01641329n 
+  attributes (2) : C7 C8 
+  parents concepts (2) : 274 292 
+  childs concepts (3) : 46 47 50 
+
+Concept (91) : 
+  level : 4
+  objects (4) : navigateur bn:00013447n langage bn:00049910n méthode post bn:00045088n fermeture bn:16858148n 
+  attributes (4) : C3 C8 C9 CJA 
+  parents concepts (3) : 158 192 293 
+  childs concepts (2) : 48 49 
+
+Concept (92) : 
+  level : 3
+  objects (4) : navigateur bn:00013447n méthode post bn:00045088n fermeture bn:16858148n méthode bn:01641329n 
+  attributes (3) : C6 C8 C9 
+  parents concepts (3) : 184 234 319 
+  childs concepts (3) : 49 50 51 
+
+Concept (93) : 
+  level : 6
+  objects (4) : serveur web bn:02705179n text bn:14981519n foreach bn:03463379n mot bn:00081546n 
+  attributes (6) : C2 C3 C4 C5 C6 CJA 
+  parents concepts (4) : 131 165 185 194 
+  childs concepts (2) : 16 34 
+
+Concept (94) : 
+  level : 6
+  objects (4) : serveur web bn:02705179n utilisateur bn:00079373n fermeture bn:16858148n foreach bn:03463379n 
+  attributes (6) : C3 C4 C5 C6 C9 CJA 
+  parents concepts (5) : 132 133 166 194 228 
+  childs concepts (2) : 16 36 
+
+Concept (95) : 
+  level : 5
+  objects (4) : serveur web bn:02705179n programmation bn:00021493n foreach bn:03463379n méthode bn:01641329n 
+  attributes (5) : C2 C4 C5 C6 C9 
+  parents concepts (4) : 134 165 166 187 
+  childs concepts (3) : 8 10 16 
+
+Concept (96) : 
+  level : 5
+  objects (4) : fichier bn:00021475n fois bn:00032768n case bn:04777941n fermeture bn:16858148n 
+  attributes (5) : C1 C6 C9 C10 CJA 
+  parents concepts (4) : 167 168 169 216 
+  childs concepts (1) : 70 
+
+Concept (97) : 
+  level : 4
+  objects (4) : base de donnée bn:00025333n donnée bn:00025314n concerner bn:00083240v nombre bn:00058285n 
+  attributes (4) : C4 C5 C7 CJA 
+  parents concepts (3) : 135 213 265 
+  childs concepts (2) : 21 53 
+
+Concept (98) : 
+  level : 5
+  objects (4) : php bn:01753580n commentaire bn:00020978n url bn:00079080n fermeture bn:16858148n 
+  attributes (5) : C1 C3 C4 C9 C10 
+  parents concepts (4) : 137 138 198 199 
+  childs concepts (2) : 18 59 
+
+Concept (99) : 
+  level : 5
+  objects (4) : php bn:01753580n fois bn:00032768n case bn:04777941n fermeture bn:16858148n 
+  attributes (5) : C1 C3 C6 C9 C10 
+  parents concepts (4) : 167 197 198 267 
+  childs concepts (2) : 18 70 
+
+Concept (100) : 
+  level : 4
+  objects (4) : php bn:01753580n case à cocher bn:03157691n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (4) : C1 C4 C6 C9 
+  parents concepts (4) : 139 171 196 235 
+  childs concepts (1) : 56 
+
+Concept (101) : 
+  level : 4
+  objects (4) : php bn:01753580n text bn:14981519n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (4) : C1 C4 C6 C10 
+  parents concepts (4) : 139 172 240 259 
+  childs concepts (3) : 54 56 77 
+
+Concept (102) : 
+  level : 5
+  objects (4) : java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n 
+  attributes (5) : C3 C5 C6 C7 C10 
+  parents concepts (3) : 140 161 295 
+  childs concepts (2) : 19 58 
+
+Concept (103) : 
+  level : 5
+  objects (4) : java bn:00048043n fois bn:00032768n text bn:14981519n case bn:04777941n 
+  attributes (5) : C1 C2 C3 C6 C10 
+  parents concepts (4) : 141 142 143 197 
+  childs concepts (2) : 57 66 
+
+Concept (104) : 
+  level : 5
+  objects (4) : java bn:00048043n fois bn:00032768n text bn:14981519n fermeture bn:16858148n 
+  attributes (5) : C1 C3 C5 C6 C10 
+  parents concepts (4) : 144 197 200 295 
+  childs concepts (2) : 57 67 
+
+Concept (105) : 
+  level : 5
+  objects (4) : java bn:00048043n fois bn:00032768n text bn:14981519n programmation bn:00021493n 
+  attributes (5) : C1 C2 C5 C6 C10 
+  parents concepts (4) : 141 144 145 175 
+  childs concepts (3) : 28 33 57 
+
+Concept (106) : 
+  level : 4
+  objects (4) : java bn:00048043n fois bn:00032768n text bn:14981519n site bn:00047172n 
+  attributes (4) : C1 C2 C3 C5 
+  parents concepts (4) : 142 145 221 249 
+  childs concepts (2) : 57 68 
+
+Concept (107) : 
+  level : 5
+  objects (4) : java bn:00048043n fois bn:00032768n text bn:14981519n mot bn:00081546n 
+  attributes (5) : C2 C3 C5 C6 C10 
+  parents concepts (4) : 143 175 210 295 
+  childs concepts (2) : 57 69 
+
+Concept (108) : 
+  level : 4
+  objects (4) : texte bn:00076732n concerner bn:00083240v fois bn:00032768n nombre bn:00058285n 
+  attributes (4) : C5 C7 C10 CJA 
+  parents concepts (3) : 140 213 291 
+  childs concepts (2) : 21 58 
+
+Concept (109) : 
+  level : 4
+  objects (4) : commentaire bn:00020978n délimiter bn:00086464v personne bn:00046516n fermeture bn:16858148n 
+  attributes (4) : C3 C4 C8 C10 
+  parents concepts (3) : 178 207 279 
+  childs concepts (2) : 24 61 
+
+Concept (110) : 
+  level : 5
+  objects (4) : commentaire bn:00020978n url bn:00079080n text bn:14981519n fermeture bn:16858148n 
+  attributes (5) : C1 C3 C4 C5 C10 
+  parents concepts (4) : 137 149 200 224 
+  childs concepts (2) : 59 74 
+
+Concept (111) : 
+  level : 5
+  objects (4) : commentaire bn:00020978n url bn:00079080n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (5) : C1 C4 C5 C9 C10 
+  parents concepts (4) : 138 149 179 180 
+  childs concepts (2) : 37 59 
+
+Concept (112) : 
+  level : 4
+  objects (4) : commentaire bn:00020978n nombre bn:00058285n personne bn:00046516n fermeture bn:16858148n 
+  attributes (4) : C4 C5 C8 C10 
+  parents concepts (4) : 151 178 208 262 
+  childs concepts (2) : 30 61 
+
+Concept (113) : 
+  level : 5
+  objects (4) : commentaire bn:00020978n langage bn:00049910n personne bn:00046516n fermeture bn:16858148n 
+  attributes (5) : C3 C5 C8 C9 C10 
+  parents concepts (4) : 130 152 208 280 
+  childs concepts (2) : 60 61 
+
+Concept (114) : 
+  level : 4
+  objects (4) : commentaire bn:00020978n personne bn:00046516n fermeture bn:16858148n doctype bn:15839327n 
+  attributes (4) : C4 C8 C9 C10 
+  parents concepts (4) : 153 178 181 260 
+  childs concepts (1) : 61 
+
+Concept (115) : 
+  level : 4
+  objects (4) : commentaire bn:00020978n personne bn:00046516n fermeture bn:16858148n méthode bn:01641329n 
+  attributes (4) : C4 C5 C8 C9 
+  parents concepts (4) : 151 153 163 239 
+  childs concepts (2) : 38 61 
+
+Concept (116) : 
+  level : 3
+  objects (4) : délimiter bn:00086464v nombre bn:00058285n langage bn:00049910n fermeture bn:16858148n 
+  attributes (3) : C8 C10 CJA 
+  parents concepts (3) : 183 268 312 
+  childs concepts (3) : 62 63 76 
+
+Concept (117) : 
+  level : 6
+  objects (4) : fois bn:00032768n url bn:00079080n langage bn:00049910n fermeture bn:16858148n 
+  attributes (6) : C1 C3 C5 C9 C10 CJA 
+  parents concepts (4) : 148 154 155 202 
+  childs concepts (3) : 27 29 35 
+
+Concept (118) : 
+  level : 4
+  objects (4) : fois bn:00032768n text bn:14981519n case bn:04777941n site bn:00047172n 
+  attributes (4) : C1 C2 C3 CJA 
+  parents concepts (3) : 142 226 269 
+  childs concepts (2) : 66 68 
+
+Concept (119) : 
+  level : 5
+  objects (4) : fois bn:00032768n text bn:14981519n case bn:04777941n mot bn:00081546n 
+  attributes (5) : C2 C3 C6 C10 CJA 
+  parents concepts (3) : 143 229 296 
+  childs concepts (2) : 66 69 
+
+Concept (120) : 
+  level : 3
+  objects (4) : fois bn:00032768n case bn:04777941n programmation bn:00021493n cle bn:04756252n 
+  attributes (3) : C2 C9 C10 
+  parents concepts (3) : 222 264 322 
+  childs concepts (3) : 39 71 72 
+
+Concept (121) : 
+  level : 3
+  objects (4) : text bn:14981519n programmation bn:00021493n cle bn:04756252n mot bn:00081546n 
+  attributes (3) : C2 C4 C10 
+  parents concepts (3) : 215 222 301 
+  childs concepts (3) : 39 78 79 
+
+Concept (122) : 
+  level : 4
+  objects (5) : page web bn:00080778n navigateur bn:00013447n délimiter bn:00086464v méthode post bn:00045088n fermeture bn:16858148n 
+  attributes (4) : C3 C6 C8 CJA 
+  parents concepts (3) : 158 159 316 
+  childs concepts (3) : 24 40 49 
+
+Concept (123) : 
+  level : 3
+  objects (5) : page web bn:00080778n navigateur bn:00013447n nombre bn:00058285n langage bn:00049910n fermeture bn:16858148n 
+  attributes (3) : C5 C8 CJA 
+  parents concepts (3) : 183 248 320 
+  childs concepts (3) : 12 76 81 
+
+Concept (124) : 
+  level : 6
+  objects (5) : navigateur bn:00013447n serveur web bn:02705179n fois bn:00032768n post bn:01500184n foreach bn:03463379n 
+  attributes (6) : C2 C3 C5 C6 C9 CJA 
+  parents concepts (4) : 185 186 187 228 
+  childs concepts (2) : 11 16 
+
+Concept (125) : 
+  level : 3
+  objects (5) : navigateur bn:00013447n donnée bn:00025314n java bn:00048043n fois bn:00032768n méthode post bn:00045088n 
+  attributes (3) : C2 C3 C7 
+  parents concepts (3) : 160 232 283 
+  childs concepts (3) : 83 84 85 
+
+Concept (126) : 
+  level : 3
+  objects (5) : navigateur bn:00013447n donnée bn:00025314n java bn:00048043n fois bn:00032768n méthode bn:01641329n 
+  attributes (3) : C2 C5 C7 
+  parents concepts (3) : 160 251 284 
+  childs concepts (3) : 17 83 86 
+
+Concept (127) : 
+  level : 3
+  objects (5) : navigateur bn:00013447n java bn:00048043n fois bn:00032768n méthode post bn:00045088n méthode bn:01641329n 
+  attributes (3) : C2 C6 C7 
+  parents concepts (3) : 160 233 285 
+  childs concepts (3) : 85 86 89 
+
+Concept (128) : 
+  level : 5
+  objects (5) : navigateur bn:00013447n texte bn:00076732n concerner bn:00083240v fois bn:00032768n type bn:00016413n 
+  attributes (5) : C3 C5 C6 C7 CJA 
+  parents concepts (4) : 161 162 188 298 
+  childs concepts (2) : 43 58 
+
+Concept (129) : 
+  level : 3
+  objects (5) : navigateur bn:00013447n texte bn:00076732n fois bn:00032768n méthode post bn:00045088n méthode bn:01641329n 
+  attributes (3) : C6 C7 C9 
+  parents concepts (2) : 233 319 
+  childs concepts (3) : 87 88 89 
+
+Concept (130) : 
+  level : 4
+  objects (5) : navigateur bn:00013447n commentaire bn:00020978n langage bn:00049910n personne bn:00046516n fermeture bn:16858148n 
+  attributes (4) : C3 C5 C8 C9 
+  parents concepts (4) : 157 163 192 299 
+  childs concepts (2) : 48 113 
+
+Concept (131) : 
+  level : 5
+  objects (5) : serveur web bn:02705179n donnée bn:00025314n text bn:14981519n foreach bn:03463379n mot bn:00081546n 
+  attributes (5) : C2 C3 C4 C5 CJA 
+  parents concepts (4) : 164 193 227 253 
+  childs concepts (2) : 2 93 
+
+Concept (132) : 
+  level : 4
+  objects (5) : serveur web bn:02705179n php bn:01753580n utilisateur bn:00079373n fermeture bn:16858148n foreach bn:03463379n 
+  attributes (4) : C3 C4 C6 C9 
+  parents concepts (4) : 235 236 276 304 
+  childs concepts (2) : 55 94 
+
+Concept (133) : 
+  level : 5
+  objects (5) : serveur web bn:02705179n url bn:00079080n utilisateur bn:00079373n fermeture bn:16858148n foreach bn:03463379n 
+  attributes (5) : C3 C4 C5 C9 CJA 
+  parents concepts (3) : 195 253 263 
+  childs concepts (2) : 75 94 
+
+Concept (134) : 
+  level : 3
+  objects (5) : serveur web bn:02705179n programmation bn:00021493n foreach bn:03463379n cle bn:04756252n méthode bn:01641329n 
+  attributes (3) : C2 C4 C9 
+  parents concepts (3) : 215 264 289 
+  childs concepts (3) : 39 52 95 
+
+Concept (135) : 
+  level : 3
+  objects (5) : base de donnée bn:00025333n donnée bn:00025314n concerner bn:00083240v nombre bn:00058285n méthode bn:01641329n 
+  attributes (3) : C4 C5 C7 
+  parents concepts (2) : 251 305 
+  childs concepts (4) : 17 22 31 97 
+
+Concept (136) : 
+  level : 4
+  objects (5) : php bn:01753580n code bn:00020354n utilisateur bn:00079373n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (4) : C4 C6 C9 C10 
+  parents concepts (4) : 235 259 260 290 
+  childs concepts (3) : 55 56 80 
+
+Concept (137) : 
+  level : 4
+  objects (5) : php bn:01753580n commentaire bn:00020978n url bn:00079080n text bn:14981519n fermeture bn:16858148n 
+  attributes (4) : C1 C3 C4 C10 
+  parents concepts (4) : 170 172 258 279 
+  childs concepts (3) : 54 98 110 
+
+Concept (138) : 
+  level : 4
+  objects (5) : php bn:01753580n commentaire bn:00020978n url bn:00079080n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (4) : C1 C4 C9 C10 
+  parents concepts (4) : 171 172 241 260 
+  childs concepts (3) : 56 98 111 
+
+Concept (139) : 
+  level : 3
+  objects (5) : php bn:01753580n case à cocher bn:03157691n text bn:14981519n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (3) : C1 C4 C6 
+  parents concepts (3) : 218 255 306 
+  childs concepts (2) : 100 101 
+
+Concept (140) : 
+  level : 3
+  objects (5) : java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n nombre bn:00058285n 
+  attributes (3) : C5 C7 C10 
+  parents concepts (2) : 251 326 
+  childs concepts (2) : 102 108 
+
+Concept (141) : 
+  level : 4
+  objects (5) : java bn:00048043n fois bn:00032768n text bn:14981519n case bn:04777941n programmation bn:00021493n 
+  attributes (4) : C1 C2 C6 C10 
+  parents concepts (3) : 173 201 240 
+  childs concepts (3) : 71 103 105 
+
+Concept (142) : 
+  level : 3
+  objects (5) : java bn:00048043n fois bn:00032768n text bn:14981519n case bn:04777941n site bn:00047172n 
+  attributes (3) : C1 C2 C3 
+  parents concepts (3) : 173 278 283 
+  childs concepts (3) : 103 106 118 
+
+Concept (143) : 
+  level : 4
+  objects (5) : java bn:00048043n fois bn:00032768n text bn:14981519n case bn:04777941n mot bn:00081546n 
+  attributes (4) : C2 C3 C6 C10 
+  parents concepts (4) : 174 201 250 317 
+  childs concepts (3) : 103 107 119 
+
+Concept (144) : 
+  level : 4
+  objects (5) : java bn:00048043n fois bn:00032768n text bn:14981519n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (4) : C1 C5 C6 C10 
+  parents concepts (3) : 220 240 307 
+  childs concepts (4) : 73 77 104 105 
+
+Concept (145) : 
+  level : 3
+  objects (5) : java bn:00048043n fois bn:00032768n text bn:14981519n programmation bn:00021493n site bn:00047172n 
+  attributes (3) : C1 C2 C5 
+  parents concepts (3) : 173 243 284 
+  childs concepts (2) : 105 106 
+
+Concept (146) : 
+  level : 6
+  objects (5) : texte bn:00076732n fois bn:00032768n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n 
+  attributes (6) : C3 C5 C6 C9 C10 CJA 
+  parents concepts (5) : 202 203 223 228 261 
+  childs concepts (3) : 20 27 36 
+
+Concept (147) : 
+  level : 6
+  objects (5) : concerner bn:00083240v text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n mot bn:00081546n 
+  attributes (6) : C3 C4 C5 C6 C10 CJA 
+  parents concepts (5) : 176 177 194 204 261 
+  childs concepts (4) : 3 32 34 36 
+
+Concept (148) : 
+  level : 5
+  objects (5) : commentaire bn:00020978n fois bn:00032768n url bn:00079080n langage bn:00049910n fermeture bn:16858148n 
+  attributes (5) : C1 C3 C5 C9 C10 
+  parents concepts (4) : 179 198 200 280 
+  childs concepts (3) : 59 60 117 
+
+Concept (149) : 
+  level : 4
+  objects (5) : commentaire bn:00020978n url bn:00079080n text bn:14981519n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (4) : C1 C4 C5 C10 
+  parents concepts (3) : 172 220 262 
+  childs concepts (3) : 77 110 111 
+
+Concept (150) : 
+  level : 5
+  objects (5) : commentaire bn:00020978n url bn:00079080n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n 
+  attributes (5) : C3 C4 C5 C9 C10 
+  parents concepts (5) : 180 195 199 224 280 
+  childs concepts (3) : 59 61 75 
+
+Concept (151) : 
+  level : 3
+  objects (5) : commentaire bn:00020978n nombre bn:00058285n personne bn:00046516n fermeture bn:16858148n méthode bn:01641329n 
+  attributes (3) : C4 C5 C8 
+  parents concepts (3) : 206 248 305 
+  childs concepts (3) : 31 112 115 
+
+Concept (152) : 
+  level : 4
+  objects (5) : commentaire bn:00020978n langage bn:00049910n personne bn:00046516n fermeture bn:16858148n insert bn:03795444n 
+  attributes (4) : C3 C8 C9 C10 
+  parents concepts (4) : 181 192 207 308 
+  childs concepts (1) : 113 
+
+Concept (153) : 
+  level : 3
+  objects (5) : commentaire bn:00020978n personne bn:00046516n fermeture bn:16858148n doctype bn:15839327n méthode bn:01641329n 
+  attributes (3) : C4 C8 C9 
+  parents concepts (3) : 206 234 289 
+  childs concepts (2) : 114 115 
+
+Concept (154) : 
+  level : 5
+  objects (5) : fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n fermeture bn:16858148n 
+  attributes (5) : C1 C3 C5 C10 CJA 
+  parents concepts (4) : 182 200 209 282 
+  childs concepts (3) : 67 74 117 
+
+Concept (155) : 
+  level : 5
+  objects (5) : fois bn:00032768n url bn:00079080n langage bn:00049910n case bn:04777941n fermeture bn:16858148n 
+  attributes (5) : C1 C3 C9 C10 CJA 
+  parents concepts (4) : 168 198 209 244 
+  childs concepts (2) : 70 117 
+
+Concept (156) : 
+  level : 5
+  objects (5) : fois bn:00032768n text bn:14981519n case bn:04777941n fermeture bn:16858148n jour bn:00000086n 
+  attributes (5) : C1 C3 C6 C10 CJA 
+  parents concepts (4) : 169 197 209 296 
+  childs concepts (3) : 66 67 70 
+
+Concept (157) : 
+  level : 3
+  objects (6) : page web bn:00080778n navigateur bn:00013447n commentaire bn:00020978n langage bn:00049910n personne bn:00046516n fermeture bn:16858148n 
+  attributes (3) : C3 C5 C8 
+  parents concepts (3) : 247 248 330 
+  childs concepts (2) : 81 130 
+
+Concept (158) : 
+  level : 3
+  objects (6) : page web bn:00080778n navigateur bn:00013447n délimiter bn:00086464v langage bn:00049910n méthode post bn:00045088n fermeture bn:16858148n 
+  attributes (3) : C3 C8 CJA 
+  parents concepts (3) : 183 247 328 
+  childs concepts (4) : 63 81 91 122 
+
+Concept (159) : 
+  level : 3
+  objects (6) : page web bn:00080778n navigateur bn:00013447n délimiter bn:00086464v méthode post bn:00045088n fermeture bn:16858148n visiteur bn:03106425n 
+  attributes (3) : C3 C6 C8 
+  parents concepts (3) : 184 247 331 
+  childs concepts (2) : 65 122 
+
+Concept (160) : 
+  level : 2
+  objects (6) : navigateur bn:00013447n donnée bn:00025314n java bn:00048043n fois bn:00032768n méthode post bn:00045088n méthode bn:01641329n 
+  attributes (2) : C2 C7 
+  parents concepts (2) : 274 310 
+  childs concepts (3) : 125 126 127 
+
+Concept (161) : 
+  level : 4
+  objects (6) : navigateur bn:00013447n java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n type bn:00016413n 
+  attributes (4) : C3 C5 C6 C7 
+  parents concepts (4) : 189 190 212 318 
+  childs concepts (3) : 42 102 128 
+
+Concept (162) : 
+  level : 4
+  objects (6) : navigateur bn:00013447n texte bn:00076732n concerner bn:00083240v fois bn:00032768n méthode post bn:00045088n type bn:00016413n 
+  attributes (4) : C3 C6 C7 CJA 
+  parents concepts (4) : 189 191 214 316 
+  childs concepts (2) : 87 128 
+
+Concept (163) : 
+  level : 3
+  objects (6) : navigateur bn:00013447n commentaire bn:00020978n langage bn:00049910n personne bn:00046516n fermeture bn:16858148n méthode bn:01641329n 
+  attributes (3) : C5 C8 C9 
+  parents concepts (3) : 234 248 314 
+  childs concepts (3) : 51 115 130 
+
+Concept (164) : 
+  level : 3
+  objects (6) : serveur web bn:02705179n donnée bn:00025314n text bn:14981519n foreach bn:03463379n cle bn:04756252n mot bn:00081546n 
+  attributes (3) : C2 C3 C4 
+  parents concepts (3) : 215 283 311 
+  childs concepts (3) : 52 79 131 
+
+Concept (165) : 
+  level : 4
+  objects (6) : serveur web bn:02705179n text bn:14981519n programmation bn:00021493n foreach bn:03463379n mot bn:00081546n méthode bn:01641329n 
+  attributes (4) : C2 C4 C5 C6 
+  parents concepts (3) : 193 266 270 
+  childs concepts (3) : 78 93 95 
+
+Concept (166) : 
+  level : 4
+  objects (6) : serveur web bn:02705179n utilisateur bn:00079373n fermeture bn:16858148n programmation bn:00021493n foreach bn:03463379n méthode bn:01641329n 
+  attributes (4) : C4 C5 C6 C9 
+  parents concepts (4) : 235 239 266 286 
+  childs concepts (4) : 38 80 94 95 
+
+Concept (167) : 
+  level : 4
+  objects (6) : fichier bn:00021475n php bn:01753580n fois bn:00032768n case bn:04777941n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (4) : C1 C6 C9 C10 
+  parents concepts (4) : 196 240 241 290 
+  childs concepts (5) : 56 71 73 96 99 
+
+Concept (168) : 
+  level : 4
+  objects (6) : fichier bn:00021475n fois bn:00032768n url bn:00079080n langage bn:00049910n case bn:04777941n fermeture bn:16858148n 
+  attributes (4) : C1 C9 C10 CJA 
+  parents concepts (3) : 217 241 257 
+  childs concepts (2) : 96 155 
+
+Concept (169) : 
+  level : 4
+  objects (6) : fichier bn:00021475n fois bn:00032768n text bn:14981519n case bn:04777941n fermeture bn:16858148n jour bn:00000086n 
+  attributes (4) : C1 C6 C10 CJA 
+  parents concepts (3) : 217 240 300 
+  childs concepts (2) : 96 156 
+
+Concept (170) : 
+  level : 3
+  objects (6) : client bn:00019764n php bn:01753580n commentaire bn:00020978n url bn:00079080n text bn:14981519n fermeture bn:16858148n 
+  attributes (3) : C1 C3 C4 
+  parents concepts (3) : 218 278 311 
+  childs concepts (1) : 137 
+
+Concept (171) : 
+  level : 3
+  objects (6) : php bn:01753580n commentaire bn:00020978n url bn:00079080n case à cocher bn:03157691n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (3) : C1 C4 C9 
+  parents concepts (3) : 218 256 289 
+  childs concepts (2) : 100 138 
+
+Concept (172) : 
+  level : 3
+  objects (6) : php bn:01753580n commentaire bn:00020978n url bn:00079080n text bn:14981519n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (3) : C1 C4 C10 
+  parents concepts (3) : 218 277 301 
+  childs concepts (4) : 101 137 138 149 
+
+Concept (173) : 
+  level : 2
+  objects (6) : java bn:00048043n fois bn:00032768n text bn:14981519n case bn:04777941n programmation bn:00021493n site bn:00047172n 
+  attributes (2) : C1 C2 
+  parents concepts (2) : 294 310 
+  childs concepts (3) : 141 142 145 
+
+Concept (174) : 
+  level : 3
+  objects (6) : java bn:00048043n fois bn:00032768n text bn:14981519n case bn:04777941n cle bn:04756252n mot bn:00081546n 
+  attributes (3) : C2 C3 C10 
+  parents concepts (3) : 222 283 329 
+  childs concepts (3) : 72 79 143 
+
+Concept (175) : 
+  level : 4
+  objects (6) : java bn:00048043n fois bn:00032768n text bn:14981519n programmation bn:00021493n langage de script bn:01431715n mot bn:00081546n 
+  attributes (4) : C2 C5 C6 C10 
+  parents concepts (3) : 201 270 307 
+  childs concepts (3) : 78 105 107 
+
+Concept (176) : 
+  level : 5
+  objects (6) : concerner bn:00083240v url bn:00079080n text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n mot bn:00081546n 
+  attributes (5) : C3 C4 C5 C10 CJA 
+  parents concepts (5) : 205 224 225 253 282 
+  childs concepts (3) : 74 75 147 
+
+Concept (177) : 
+  level : 4
+  objects (6) : concerner bn:00083240v text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n programmation bn:00021493n mot bn:00081546n 
+  attributes (4) : C4 C5 C6 C10 
+  parents concepts (4) : 259 262 266 307 
+  childs concepts (4) : 77 78 80 147 
+
+Concept (178) : 
+  level : 3
+  objects (6) : commentaire bn:00020978n délimiter bn:00086464v nombre bn:00058285n personne bn:00046516n fermeture bn:16858148n doctype bn:15839327n 
+  attributes (3) : C4 C8 C10 
+  parents concepts (3) : 206 268 301 
+  childs concepts (4) : 62 109 112 114 
+
+Concept (179) : 
+  level : 4
+  objects (6) : commentaire bn:00020978n fois bn:00032768n url bn:00079080n langage bn:00049910n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (4) : C1 C5 C9 C10 
+  parents concepts (3) : 220 241 297 
+  childs concepts (3) : 73 111 148 
+
+Concept (180) : 
+  level : 4
+  objects (6) : commentaire bn:00020978n url bn:00079080n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (4) : C4 C5 C9 C10 
+  parents concepts (4) : 239 260 262 297 
+  childs concepts (3) : 80 111 150 
+
+Concept (181) : 
+  level : 3
+  objects (6) : commentaire bn:00020978n langage bn:00049910n personne bn:00046516n fermeture bn:16858148n doctype bn:15839327n insert bn:03795444n 
+  attributes (3) : C8 C9 C10 
+  parents concepts (3) : 234 268 322 
+  childs concepts (2) : 114 152 
+
+Concept (182) : 
+  level : 4
+  objects (6) : fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n fermeture bn:16858148n site bn:00047172n 
+  attributes (4) : C1 C3 C5 CJA 
+  parents concepts (3) : 221 226 315 
+  childs concepts (2) : 68 154 
+
+Concept (183) : 
+  level : 2
+  objects (7) : page web bn:00080778n navigateur bn:00013447n délimiter bn:00086464v nombre bn:00058285n langage bn:00049910n méthode post bn:00045088n fermeture bn:16858148n 
+  attributes (2) : C8 CJA 
+  parents concepts (2) : 292 333 
+  childs concepts (4) : 46 116 123 158 
+
+Concept (184) : 
+  level : 2
+  objects (7) : page web bn:00080778n navigateur bn:00013447n délimiter bn:00086464v méthode post bn:00045088n fermeture bn:16858148n méthode bn:01641329n visiteur bn:03106425n 
+  attributes (2) : C6 C8 
+  parents concepts (2) : 292 336 
+  childs concepts (4) : 64 82 92 159 
+
+Concept (185) : 
+  level : 5
+  objects (7) : navigateur bn:00013447n serveur web bn:02705179n fois bn:00032768n post bn:01500184n text bn:14981519n foreach bn:03463379n mot bn:00081546n 
+  attributes (5) : C2 C3 C5 C6 CJA 
+  parents concepts (4) : 210 227 229 298 
+  childs concepts (3) : 69 93 124 
+
+Concept (186) : 
+  level : 5
+  objects (7) : navigateur bn:00013447n serveur web bn:02705179n fois bn:00032768n post bn:01500184n case bn:04777941n méthode post bn:00045088n foreach bn:03463379n 
+  attributes (5) : C2 C3 C6 C9 CJA 
+  parents concepts (4) : 211 229 230 272 
+  childs concepts (3) : 26 44 124 
+
+Concept (187) : 
+  level : 4
+  objects (7) : navigateur bn:00013447n serveur web bn:02705179n fois bn:00032768n post bn:01500184n programmation bn:00021493n foreach bn:03463379n méthode bn:01641329n 
+  attributes (4) : C2 C5 C6 C9 
+  parents concepts (3) : 230 270 286 
+  childs concepts (4) : 28 45 95 124 
+
+Concept (188) : 
+  level : 4
+  objects (7) : navigateur bn:00013447n base de donnée bn:00025333n donnée bn:00025314n texte bn:00076732n concerner bn:00083240v fois bn:00032768n type bn:00016413n 
+  attributes (4) : C3 C5 C7 CJA 
+  parents concepts (4) : 212 213 214 315 
+  childs concepts (3) : 41 53 128 
+
+Concept (189) : 
+  level : 3
+  objects (7) : navigateur bn:00013447n java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n méthode post bn:00045088n type bn:00016413n 
+  attributes (3) : C3 C6 C7 
+  parents concepts (3) : 232 233 331 
+  childs concepts (3) : 85 161 162 
+
+Concept (190) : 
+  level : 3
+  objects (7) : navigateur bn:00013447n java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n type bn:00016413n méthode bn:01641329n 
+  attributes (3) : C5 C6 C7 
+  parents concepts (3) : 233 251 327 
+  childs concepts (4) : 22 86 88 161 
+
+Concept (191) : 
+  level : 3
+  objects (7) : navigateur bn:00013447n texte bn:00076732n concerner bn:00083240v fois bn:00032768n méthode post bn:00045088n type bn:00016413n files bn:00065682n 
+  attributes (3) : C6 C7 CJA 
+  parents concepts (3) : 233 252 324 
+  childs concepts (1) : 162 
+
+Concept (192) : 
+  level : 3
+  objects (7) : navigateur bn:00013447n commentaire bn:00020978n langage bn:00049910n personne bn:00046516n méthode post bn:00045088n fermeture bn:16858148n insert bn:03795444n 
+  attributes (3) : C3 C8 C9 
+  parents concepts (3) : 234 247 321 
+  childs concepts (3) : 91 130 152 
+
+Concept (193) : 
+  level : 3
+  objects (7) : serveur web bn:02705179n donnée bn:00025314n text bn:14981519n programmation bn:00021493n foreach bn:03463379n mot bn:00081546n méthode bn:01641329n 
+  attributes (3) : C2 C4 C5 
+  parents concepts (3) : 215 284 305 
+  childs concepts (3) : 17 131 165 
+
+Concept (194) : 
+  level : 5
+  objects (7) : serveur web bn:02705179n concerner bn:00083240v text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n foreach bn:03463379n mot bn:00081546n 
+  attributes (5) : C3 C4 C5 C6 CJA 
+  parents concepts (4) : 237 238 253 298 
+  childs concepts (3) : 93 94 147 
+
+Concept (195) : 
+  level : 4
+  objects (7) : serveur web bn:02705179n commentaire bn:00020978n url bn:00079080n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n foreach bn:03463379n 
+  attributes (4) : C3 C4 C5 C9 
+  parents concepts (4) : 236 239 287 299 
+  childs concepts (2) : 133 150 
+
+Concept (196) : 
+  level : 3
+  objects (7) : fichier bn:00021475n php bn:01753580n fois bn:00032768n case à cocher bn:03157691n case bn:04777941n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (3) : C1 C6 C9 
+  parents concepts (3) : 255 256 319 
+  childs concepts (2) : 100 167 
+
+Concept (197) : 
+  level : 4
+  objects (7) : php bn:01753580n java bn:00048043n fois bn:00032768n text bn:14981519n case bn:04777941n fermeture bn:16858148n jour bn:00000086n 
+  attributes (4) : C1 C3 C6 C10 
+  parents concepts (3) : 240 258 317 
+  childs concepts (5) : 54 99 103 104 156 
+
+Concept (198) : 
+  level : 4
+  objects (7) : php bn:01753580n commentaire bn:00020978n fois bn:00032768n url bn:00079080n langage bn:00049910n case bn:04777941n fermeture bn:16858148n 
+  attributes (4) : C1 C3 C9 C10 
+  parents concepts (3) : 241 258 308 
+  childs concepts (4) : 98 99 148 155 
+
+Concept (199) : 
+  level : 4
+  objects (7) : php bn:01753580n commentaire bn:00020978n url bn:00079080n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n cle bn:04756252n 
+  attributes (4) : C3 C4 C9 C10 
+  parents concepts (4) : 236 260 279 308 
+  childs concepts (4) : 9 55 98 150 
+
+Concept (200) : 
+  level : 4
+  objects (7) : java bn:00048043n commentaire bn:00020978n fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n fermeture bn:16858148n 
+  attributes (4) : C1 C3 C5 C10 
+  parents concepts (4) : 220 221 258 313 
+  childs concepts (4) : 104 110 148 154 
+
+Concept (201) : 
+  level : 3
+  objects (7) : java bn:00048043n fois bn:00032768n text bn:14981519n case bn:04777941n programmation bn:00021493n langage de script bn:01431715n mot bn:00081546n 
+  attributes (3) : C2 C6 C10 
+  parents concepts (3) : 222 285 325 
+  childs concepts (3) : 141 143 175 
+
+Concept (202) : 
+  level : 5
+  objects (7) : texte bn:00076732n fois bn:00032768n url bn:00079080n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n 
+  attributes (5) : C3 C5 C9 C10 CJA 
+  parents concepts (4) : 244 263 280 282 
+  childs concepts (3) : 75 117 146 
+
+Concept (203) : 
+  level : 5
+  objects (7) : texte bn:00076732n fois bn:00032768n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n header bn:00043309n 
+  attributes (5) : C3 C6 C9 C10 CJA 
+  parents concepts (5) : 216 244 267 272 296 
+  childs concepts (2) : 70 146 
+
+Concept (204) : 
+  level : 5
+  objects (7) : concerner bn:00083240v délimiter bn:00086464v text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n mot bn:00081546n afficher bn:00087013v 
+  attributes (5) : C3 C4 C6 C10 CJA 
+  parents concepts (4) : 219 225 237 296 
+  childs concepts (2) : 24 147 
+
+Concept (205) : 
+  level : 4
+  objects (7) : concerner bn:00083240v url bn:00079080n nombre bn:00058285n text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n mot bn:00081546n 
+  attributes (4) : C4 C5 C10 CJA 
+  parents concepts (4) : 246 262 265 291 
+  childs concepts (3) : 21 30 176 
+
+Concept (206) : 
+  level : 2
+  objects (7) : commentaire bn:00020978n délimiter bn:00086464v nombre bn:00058285n personne bn:00046516n fermeture bn:16858148n doctype bn:15839327n méthode bn:01641329n 
+  attributes (2) : C4 C8 
+  parents concepts (2) : 292 323 
+  childs concepts (4) : 64 151 153 178 
+
+Concept (207) : 
+  level : 3
+  objects (7) : commentaire bn:00020978n délimiter bn:00086464v langage bn:00049910n personne bn:00046516n fermeture bn:16858148n visiteur bn:03106425n insert bn:03795444n 
+  attributes (3) : C3 C8 C10 
+  parents concepts (3) : 247 268 329 
+  childs concepts (4) : 63 65 109 152 
+
+Concept (208) : 
+  level : 3
+  objects (7) : commentaire bn:00020978n nombre bn:00058285n langage bn:00049910n personne bn:00046516n fermeture bn:16858148n chaîne bn:00074685n interpréter bn:00089840v 
+  attributes (3) : C5 C8 C10 
+  parents concepts (3) : 248 268 326 
+  childs concepts (3) : 76 112 113 
+
+Concept (209) : 
+  level : 4
+  objects (7) : fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n case bn:04777941n fermeture bn:16858148n jour bn:00000086n 
+  attributes (4) : C1 C3 C10 CJA 
+  parents concepts (4) : 217 226 258 309 
+  childs concepts (3) : 154 155 156 
+
+Concept (210) : 
+  level : 4
+  objects (8) : navigateur bn:00013447n serveur web bn:02705179n java bn:00048043n fois bn:00032768n post bn:01500184n text bn:14981519n foreach bn:03463379n mot bn:00081546n 
+  attributes (4) : C2 C3 C5 C6 
+  parents concepts (4) : 249 250 270 318 
+  childs concepts (3) : 42 107 185 
+
+Concept (211) : 
+  level : 4
+  objects (8) : navigateur bn:00013447n serveur web bn:02705179n fois bn:00032768n post bn:01500184n case bn:04777941n méthode post bn:00045088n foreach bn:03463379n list bn:04720346n 
+  attributes (4) : C2 C3 C9 CJA 
+  parents concepts (3) : 231 269 293 
+  childs concepts (1) : 186 
+
+Concept (212) : 
+  level : 3
+  objects (8) : navigateur bn:00013447n base de donnée bn:00025333n donnée bn:00025314n java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n type bn:00016413n 
+  attributes (3) : C3 C5 C7 
+  parents concepts (3) : 232 251 330 
+  childs concepts (3) : 83 161 188 
+
+Concept (213) : 
+  level : 3
+  objects (8) : navigateur bn:00013447n base de donnée bn:00025333n donnée bn:00025314n texte bn:00076732n concerner bn:00083240v fois bn:00032768n nombre bn:00058285n type bn:00016413n 
+  attributes (3) : C5 C7 CJA 
+  parents concepts (3) : 251 252 320 
+  childs concepts (4) : 12 97 108 188 
+
+Concept (214) : 
+  level : 3
+  objects (8) : navigateur bn:00013447n base de donnée bn:00025333n donnée bn:00025314n texte bn:00076732n concerner bn:00083240v fois bn:00032768n méthode post bn:00045088n type bn:00016413n 
+  attributes (3) : C3 C7 CJA 
+  parents concepts (3) : 232 252 328 
+  childs concepts (3) : 84 162 188 
+
+Concept (215) : 
+  level : 2
+  objects (8) : serveur web bn:02705179n donnée bn:00025314n text bn:14981519n programmation bn:00021493n foreach bn:03463379n cle bn:04756252n mot bn:00081546n méthode bn:01641329n 
+  attributes (2) : C2 C4 
+  parents concepts (2) : 310 323 
+  childs concepts (4) : 121 134 164 193 
+
+Concept (216) : 
+  level : 4
+  objects (8) : fichier bn:00021475n texte bn:00076732n fois bn:00032768n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n header bn:00043309n 
+  attributes (4) : C6 C9 C10 CJA 
+  parents concepts (4) : 257 281 290 300 
+  childs concepts (2) : 96 203 
+
+Concept (217) : 
+  level : 3
+  objects (8) : fichier bn:00021475n fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n case bn:04777941n fermeture bn:16858148n jour bn:00000086n 
+  attributes (3) : C1 C10 CJA 
+  parents concepts (3) : 242 277 312 
+  childs concepts (3) : 168 169 209 
+
+Concept (218) : 
+  level : 2
+  objects (8) : client bn:00019764n php bn:01753580n commentaire bn:00020978n url bn:00079080n case à cocher bn:03157691n text bn:14981519n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (2) : C1 C4 
+  parents concepts (2) : 294 323 
+  childs concepts (4) : 139 170 171 172 
+
+Concept (219) : 
+  level : 4
+  objects (8) : php bn:01753580n concerner bn:00083240v délimiter bn:00086464v text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n mot bn:00081546n afficher bn:00087013v 
+  attributes (4) : C3 C4 C6 C10 
+  parents concepts (4) : 259 276 279 317 
+  childs concepts (3) : 54 55 204 
+
+Concept (220) : 
+  level : 3
+  objects (8) : java bn:00048043n commentaire bn:00020978n fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (3) : C1 C5 C10 
+  parents concepts (3) : 243 277 326 
+  childs concepts (4) : 144 149 179 200 
+
+Concept (221) : 
+  level : 3
+  objects (8) : java bn:00048043n commentaire bn:00020978n fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n fermeture bn:16858148n site bn:00047172n 
+  attributes (3) : C1 C3 C5 
+  parents concepts (3) : 243 278 330 
+  childs concepts (3) : 106 182 200 
+
+Concept (222) : 
+  level : 2
+  objects (8) : java bn:00048043n fois bn:00032768n text bn:14981519n case bn:04777941n programmation bn:00021493n langage de script bn:01431715n cle bn:04756252n mot bn:00081546n 
+  attributes (2) : C2 C10 
+  parents concepts (2) : 310 335 
+  childs concepts (4) : 120 121 174 201 
+
+Concept (223) : 
+  level : 5
+  objects (8) : texte bn:00076732n fois bn:00032768n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n côté serveur bn:03816678n classes bn:03608262n public bn:00109211a 
+  attributes (5) : C3 C5 C6 C9 C10 
+  parents concepts (5) : 245 267 273 280 295 
+  childs concepts (1) : 146 
+
+Concept (224) : 
+  level : 4
+  objects (8) : concerner bn:00083240v commentaire bn:00020978n url bn:00079080n text bn:14981519n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n mot bn:00081546n 
+  attributes (4) : C3 C4 C5 C10 
+  parents concepts (4) : 262 279 287 313 
+  childs concepts (3) : 110 150 176 
+
+Concept (225) : 
+  level : 4
+  objects (8) : concerner bn:00083240v délimiter bn:00086464v url bn:00079080n text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n mot bn:00081546n afficher bn:00087013v 
+  attributes (4) : C3 C4 C10 CJA 
+  parents concepts (4) : 246 275 279 309 
+  childs concepts (2) : 176 204 
+
+Concept (226) : 
+  level : 3
+  objects (8) : fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n case bn:04777941n fermeture bn:16858148n jour bn:00000086n site bn:00047172n 
+  attributes (3) : C1 C3 CJA 
+  parents concepts (3) : 242 278 328 
+  childs concepts (3) : 118 182 209 
+
+Concept (227) : 
+  level : 4
+  objects (9) : navigateur bn:00013447n serveur web bn:02705179n donnée bn:00025314n fois bn:00032768n post bn:01500184n text bn:14981519n site bn:00047172n foreach bn:03463379n mot bn:00081546n 
+  attributes (4) : C2 C3 C5 CJA 
+  parents concepts (3) : 249 269 315 
+  childs concepts (4) : 41 68 131 185 
+
+Concept (228) : 
+  level : 5
+  objects (9) : navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n fois bn:00032768n post bn:01500184n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n foreach bn:03463379n 
+  attributes (5) : C3 C5 C6 C9 CJA 
+  parents concepts (4) : 263 272 273 298 
+  childs concepts (5) : 14 43 94 124 146 
+
+Concept (229) : 
+  level : 4
+  objects (9) : navigateur bn:00013447n serveur web bn:02705179n fois bn:00032768n post bn:01500184n text bn:14981519n case bn:04777941n méthode post bn:00045088n foreach bn:03463379n mot bn:00081546n 
+  attributes (4) : C2 C3 C6 CJA 
+  parents concepts (3) : 250 269 316 
+  childs concepts (3) : 119 185 186 
+
+Concept (230) : 
+  level : 3
+  objects (9) : navigateur bn:00013447n serveur web bn:02705179n fois bn:00032768n post bn:01500184n case bn:04777941n méthode post bn:00045088n programmation bn:00021493n foreach bn:03463379n méthode bn:01641329n 
+  attributes (3) : C2 C6 C9 
+  parents concepts (3) : 264 285 319 
+  childs concepts (4) : 71 89 186 187 
+
+Concept (231) : 
+  level : 3
+  objects (9) : navigateur bn:00013447n serveur web bn:02705179n fois bn:00032768n post bn:01500184n case bn:04777941n méthode post bn:00045088n foreach bn:03463379n cle bn:04756252n list bn:04720346n 
+  attributes (3) : C2 C3 C9 
+  parents concepts (3) : 264 283 321 
+  childs concepts (3) : 52 72 211 
+
+Concept (232) : 
+  level : 2
+  objects (9) : navigateur bn:00013447n base de donnée bn:00025333n donnée bn:00025314n java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n méthode post bn:00045088n type bn:00016413n 
+  attributes (2) : C3 C7 
+  parents concepts (2) : 274 337 
+  childs concepts (4) : 125 189 212 214 
+
+Concept (233) : 
+  level : 2
+  objects (9) : navigateur bn:00013447n java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n méthode post bn:00045088n type bn:00016413n méthode bn:01641329n files bn:00065682n 
+  attributes (2) : C6 C7 
+  parents concepts (2) : 274 336 
+  childs concepts (5) : 127 129 189 190 191 
+
+Concept (234) : 
+  level : 2
+  objects (9) : navigateur bn:00013447n commentaire bn:00020978n langage bn:00049910n personne bn:00046516n méthode post bn:00045088n fermeture bn:16858148n doctype bn:15839327n méthode bn:01641329n insert bn:03795444n 
+  attributes (2) : C8 C9 
+  parents concepts (2) : 292 332 
+  childs concepts (5) : 92 153 163 181 192 
+
+Concept (235) : 
+  level : 3
+  objects (9) : serveur web bn:02705179n php bn:01753580n code bn:00020354n case à cocher bn:03157691n utilisateur bn:00079373n fermeture bn:16858148n programmation bn:00021493n foreach bn:03463379n méthode bn:01641329n 
+  attributes (3) : C4 C6 C9 
+  parents concepts (3) : 289 306 319 
+  childs concepts (4) : 100 132 136 166 
+
+Concept (236) : 
+  level : 3
+  objects (9) : serveur web bn:02705179n php bn:01753580n commentaire bn:00020978n url bn:00079080n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n foreach bn:03463379n cle bn:04756252n 
+  attributes (3) : C3 C4 C9 
+  parents concepts (3) : 289 311 321 
+  childs concepts (4) : 52 132 195 199 
+
+Concept (237) : 
+  level : 4
+  objects (9) : serveur web bn:02705179n concerner bn:00083240v délimiter bn:00086464v text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n foreach bn:03463379n mot bn:00081546n afficher bn:00087013v 
+  attributes (4) : C3 C4 C6 CJA 
+  parents concepts (4) : 254 275 276 316 
+  childs concepts (2) : 194 204 
+
+Concept (238) : 
+  level : 4
+  objects (9) : serveur web bn:02705179n concerner bn:00083240v text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n mysql bn:01225760n foreach bn:03463379n mot bn:00081546n session bn:03751534n 
+  attributes (4) : C3 C4 C5 C6 
+  parents concepts (4) : 266 276 287 318 
+  childs concepts (1) : 194 
+
+Concept (239) : 
+  level : 3
+  objects (9) : serveur web bn:02705179n commentaire bn:00020978n url bn:00079080n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n programmation bn:00021493n foreach bn:03463379n méthode bn:01641329n 
+  attributes (3) : C4 C5 C9 
+  parents concepts (3) : 289 305 314 
+  childs concepts (4) : 115 166 180 195 
+
+Concept (240) : 
+  level : 3
+  objects (9) : fichier bn:00021475n php bn:01753580n java bn:00048043n fois bn:00032768n text bn:14981519n case bn:04777941n fermeture bn:16858148n jour bn:00000086n programmation bn:00021493n 
+  attributes (3) : C1 C6 C10 
+  parents concepts (3) : 255 277 325 
+  childs concepts (6) : 101 141 144 167 169 197 
+
+Concept (241) : 
+  level : 3
+  objects (9) : fichier bn:00021475n php bn:01753580n commentaire bn:00020978n fois bn:00032768n url bn:00079080n langage bn:00049910n case bn:04777941n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (3) : C1 C9 C10 
+  parents concepts (3) : 256 277 322 
+  childs concepts (5) : 138 167 168 179 198 
+
+Concept (242) : 
+  level : 2
+  objects (9) : fichier bn:00021475n fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n case bn:04777941n fermeture bn:16858148n jour bn:00000086n site bn:00047172n 
+  attributes (2) : C1 CJA 
+  parents concepts (2) : 294 333 
+  childs concepts (2) : 217 226 
+
+Concept (243) : 
+  level : 2
+  objects (9) : java bn:00048043n commentaire bn:00020978n fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n fermeture bn:16858148n programmation bn:00021493n site bn:00047172n 
+  attributes (2) : C1 C5 
+  parents concepts (2) : 294 334 
+  childs concepts (3) : 145 220 221 
+
+Concept (244) : 
+  level : 4
+  objects (9) : texte bn:00076732n fois bn:00032768n url bn:00079080n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n header bn:00043309n 
+  attributes (4) : C3 C9 C10 CJA 
+  parents concepts (4) : 257 293 308 309 
+  childs concepts (3) : 155 202 203 
+
+Concept (245) : 
+  level : 4
+  objects (9) : texte bn:00076732n fois bn:00032768n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n programmation bn:00021493n côté serveur bn:03816678n classes bn:03608262n public bn:00109211a 
+  attributes (4) : C5 C6 C9 C10 
+  parents concepts (4) : 286 290 297 307 
+  childs concepts (3) : 73 80 223 
+
+Concept (246) : 
+  level : 3
+  objects (9) : concerner bn:00083240v délimiter bn:00086464v url bn:00079080n nombre bn:00058285n text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n mot bn:00081546n afficher bn:00087013v 
+  attributes (3) : C4 C10 CJA 
+  parents concepts (3) : 288 301 312 
+  childs concepts (3) : 62 205 225 
+
+Concept (247) : 
+  level : 2
+  objects (10) : page web bn:00080778n navigateur bn:00013447n commentaire bn:00020978n délimiter bn:00086464v langage bn:00049910n personne bn:00046516n méthode post bn:00045088n fermeture bn:16858148n visiteur bn:03106425n insert bn:03795444n 
+  attributes (2) : C3 C8 
+  parents concepts (2) : 292 337 
+  childs concepts (5) : 157 158 159 192 207 
+
+Concept (248) : 
+  level : 2
+  objects (10) : page web bn:00080778n navigateur bn:00013447n commentaire bn:00020978n nombre bn:00058285n langage bn:00049910n personne bn:00046516n fermeture bn:16858148n chaîne bn:00074685n interpréter bn:00089840v méthode bn:01641329n 
+  attributes (2) : C5 C8 
+  parents concepts (2) : 292 334 
+  childs concepts (7) : 47 82 123 151 157 163 208 
+
+Concept (249) : 
+  level : 3
+  objects (10) : navigateur bn:00013447n serveur web bn:02705179n donnée bn:00025314n java bn:00048043n fois bn:00032768n post bn:01500184n text bn:14981519n site bn:00047172n foreach bn:03463379n mot bn:00081546n 
+  attributes (3) : C2 C3 C5 
+  parents concepts (3) : 283 284 330 
+  childs concepts (4) : 83 106 210 227 
+
+Concept (250) : 
+  level : 3
+  objects (10) : navigateur bn:00013447n serveur web bn:02705179n java bn:00048043n fois bn:00032768n post bn:01500184n text bn:14981519n case bn:04777941n méthode post bn:00045088n foreach bn:03463379n mot bn:00081546n 
+  attributes (3) : C2 C3 C6 
+  parents concepts (3) : 283 285 331 
+  childs concepts (4) : 85 143 210 229 
+
+Concept (251) : 
+  level : 2
+  objects (10) : navigateur bn:00013447n base de donnée bn:00025333n donnée bn:00025314n java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n nombre bn:00058285n type bn:00016413n méthode bn:01641329n 
+  attributes (2) : C5 C7 
+  parents concepts (2) : 274 334 
+  childs concepts (7) : 47 126 135 140 190 212 213 
+
+Concept (252) : 
+  level : 2
+  objects (10) : navigateur bn:00013447n base de donnée bn:00025333n donnée bn:00025314n texte bn:00076732n concerner bn:00083240v fois bn:00032768n nombre bn:00058285n méthode post bn:00045088n type bn:00016413n files bn:00065682n 
+  attributes (2) : C7 CJA 
+  parents concepts (2) : 274 333 
+  childs concepts (4) : 46 191 213 214 
+
+Concept (253) : 
+  level : 4
+  objects (10) : serveur web bn:02705179n base de donnée bn:00025333n donnée bn:00025314n concerner bn:00083240v url bn:00079080n text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n foreach bn:03463379n mot bn:00081546n 
+  attributes (4) : C3 C4 C5 CJA 
+  parents concepts (4) : 265 275 287 315 
+  childs concepts (5) : 53 131 133 176 194 
+
+Concept (254) : 
+  level : 3
+  objects (10) : serveur web bn:02705179n concerner bn:00083240v délimiter bn:00086464v text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n foreach bn:03463379n mot bn:00081546n afficher bn:00087013v composer bn:14766022n 
+  attributes (3) : C4 C6 CJA 
+  parents concepts (3) : 288 306 324 
+  childs concepts (1) : 237 
+
+Concept (255) : 
+  level : 2
+  objects (10) : fichier bn:00021475n php bn:01753580n java bn:00048043n fois bn:00032768n case à cocher bn:03157691n text bn:14981519n case bn:04777941n fermeture bn:16858148n jour bn:00000086n programmation bn:00021493n 
+  attributes (2) : C1 C6 
+  parents concepts (2) : 294 336 
+  childs concepts (3) : 139 196 240 
+
+Concept (256) : 
+  level : 2
+  objects (10) : fichier bn:00021475n php bn:01753580n commentaire bn:00020978n fois bn:00032768n url bn:00079080n case à cocher bn:03157691n langage bn:00049910n case bn:04777941n fermeture bn:16858148n programmation bn:00021493n 
+  attributes (2) : C1 C9 
+  parents concepts (2) : 294 332 
+  childs concepts (3) : 171 196 241 
+
+Concept (257) : 
+  level : 3
+  objects (10) : fichier bn:00021475n texte bn:00076732n fois bn:00032768n url bn:00079080n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n header bn:00043309n 
+  attributes (3) : C9 C10 CJA 
+  parents concepts (3) : 303 312 322 
+  childs concepts (3) : 168 216 244 
+
+Concept (258) : 
+  level : 3
+  objects (10) : php bn:01753580n java bn:00048043n commentaire bn:00020978n fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n case bn:04777941n fermeture bn:16858148n jour bn:00000086n 
+  attributes (3) : C1 C3 C10 
+  parents concepts (3) : 277 278 329 
+  childs concepts (5) : 137 197 198 200 209 
+
+Concept (259) : 
+  level : 3
+  objects (10) : php bn:01753580n code bn:00020354n concerner bn:00083240v délimiter bn:00086464v text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n programmation bn:00021493n mot bn:00081546n afficher bn:00087013v 
+  attributes (3) : C4 C6 C10 
+  parents concepts (3) : 301 306 325 
+  childs concepts (4) : 101 136 177 219 
+
+Concept (260) : 
+  level : 3
+  objects (10) : php bn:01753580n code bn:00020354n commentaire bn:00020978n url bn:00079080n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n programmation bn:00021493n doctype bn:15839327n cle bn:04756252n 
+  attributes (3) : C4 C9 C10 
+  parents concepts (3) : 289 301 322 
+  childs concepts (6) : 39 114 136 138 180 199 
+
+Concept (261) : 
+  level : 5
+  objects (10) : texte bn:00076732n concerner bn:00083240v fois bn:00032768n text bn:14981519n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n moteur bn:00030850n mot bn:00081546n 
+  attributes (5) : C3 C5 C6 C10 CJA 
+  parents concepts (4) : 282 295 296 298 
+  childs concepts (5) : 58 67 69 146 147 
+
+Concept (262) : 
+  level : 3
+  objects (10) : concerner bn:00083240v commentaire bn:00020978n url bn:00079080n nombre bn:00058285n text bn:14981519n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n programmation bn:00021493n mot bn:00081546n 
+  attributes (3) : C4 C5 C10 
+  parents concepts (3) : 301 305 326 
+  childs concepts (6) : 112 149 177 180 205 224 
+
+Concept (263) : 
+  level : 4
+  objects (11) : navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n fois bn:00032768n url bn:00079080n post bn:01500184n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n foreach bn:03463379n 
+  attributes (4) : C3 C5 C9 CJA 
+  parents concepts (4) : 271 293 299 315 
+  childs concepts (4) : 48 133 202 228 
+
+Concept (264) : 
+  level : 2
+  objects (11) : navigateur bn:00013447n serveur web bn:02705179n fois bn:00032768n post bn:01500184n case bn:04777941n méthode post bn:00045088n programmation bn:00021493n foreach bn:03463379n cle bn:04756252n méthode bn:01641329n list bn:04720346n 
+  attributes (2) : C2 C9 
+  parents concepts (2) : 310 332 
+  childs concepts (4) : 120 134 230 231 
+
+Concept (265) : 
+  level : 3
+  objects (11) : serveur web bn:02705179n base de donnée bn:00025333n donnée bn:00025314n concerner bn:00083240v url bn:00079080n nombre bn:00058285n text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n foreach bn:03463379n mot bn:00081546n 
+  attributes (3) : C4 C5 CJA 
+  parents concepts (3) : 288 305 320 
+  childs concepts (3) : 97 205 253 
+
+Concept (266) : 
+  level : 3
+  objects (11) : serveur web bn:02705179n concerner bn:00083240v text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n mysql bn:01225760n programmation bn:00021493n foreach bn:03463379n mot bn:00081546n méthode bn:01641329n session bn:03751534n 
+  attributes (3) : C4 C5 C6 
+  parents concepts (3) : 305 306 327 
+  childs concepts (5) : 22 165 166 177 238 
+
+Concept (267) : 
+  level : 4
+  objects (11) : php bn:01753580n texte bn:00076732n fois bn:00032768n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n header bn:00043309n côté serveur bn:03816678n classes bn:03608262n public bn:00109211a 
+  attributes (4) : C3 C6 C9 C10 
+  parents concepts (4) : 290 304 308 317 
+  childs concepts (4) : 55 99 203 223 
+
+Concept (268) : 
+  level : 2
+  objects (11) : commentaire bn:00020978n délimiter bn:00086464v nombre bn:00058285n langage bn:00049910n personne bn:00046516n fermeture bn:16858148n chaîne bn:00074685n doctype bn:15839327n interpréter bn:00089840v visiteur bn:03106425n insert bn:03795444n 
+  attributes (2) : C8 C10 
+  parents concepts (2) : 292 335 
+  childs concepts (5) : 116 178 181 207 208 
+
+Concept (269) : 
+  level : 3
+  objects (12) : navigateur bn:00013447n serveur web bn:02705179n donnée bn:00025314n fois bn:00032768n post bn:01500184n text bn:14981519n case bn:04777941n méthode post bn:00045088n site bn:00047172n foreach bn:03463379n mot bn:00081546n list bn:04720346n 
+  attributes (3) : C2 C3 CJA 
+  parents concepts (2) : 283 328 
+  childs concepts (5) : 84 118 211 227 229 
+
+Concept (270) : 
+  level : 3
+  objects (12) : navigateur bn:00013447n serveur web bn:02705179n java bn:00048043n fois bn:00032768n post bn:01500184n text bn:14981519n programmation bn:00021493n langage de script bn:01431715n foreach bn:03463379n mot bn:00081546n méthode bn:01641329n timestamp bn:03603649n 
+  attributes (3) : C2 C5 C6 
+  parents concepts (3) : 284 285 327 
+  childs concepts (5) : 86 165 175 187 210 
+
+Concept (271) : 
+  level : 3
+  objects (12) : navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n fois bn:00032768n url bn:00079080n post bn:01500184n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n foreach bn:03463379n null bn:15898583n 
+  attributes (3) : C5 C9 CJA 
+  parents concepts (3) : 303 314 320 
+  childs concepts (1) : 263 
+
+Concept (272) : 
+  level : 4
+  objects (12) : navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n fois bn:00032768n post bn:01500184n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n header bn:00043309n foreach bn:03463379n 
+  attributes (4) : C3 C6 C9 CJA 
+  parents concepts (4) : 281 293 304 316 
+  childs concepts (5) : 49 87 186 203 228 
+
+Concept (273) : 
+  level : 4
+  objects (12) : navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n fois bn:00032768n post bn:01500184n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n côté serveur bn:03816678n foreach bn:03463379n classes bn:03608262n public bn:00109211a 
+  attributes (4) : C3 C5 C6 C9 
+  parents concepts (4) : 286 299 304 318 
+  childs concepts (2) : 223 228 
+
+Concept (274) : 
+  level : 1
+  objects (12) : navigateur bn:00013447n base de donnée bn:00025333n donnée bn:00025314n java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n nombre bn:00058285n méthode post bn:00045088n type bn:00016413n méthode bn:01641329n files bn:00065682n 
+  attributes (1) : C7 
+  parents concepts (1) : 338 
+  childs concepts (6) : 90 160 232 233 251 252 
+
+Concept (275) : 
+  level : 3
+  objects (12) : serveur web bn:02705179n base de donnée bn:00025333n donnée bn:00025314n concerner bn:00083240v délimiter bn:00086464v url bn:00079080n text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n foreach bn:03463379n mot bn:00081546n afficher bn:00087013v 
+  attributes (3) : C3 C4 CJA 
+  parents concepts (3) : 288 311 328 
+  childs concepts (3) : 225 237 253 
+
+Concept (276) : 
+  level : 3
+  objects (12) : serveur web bn:02705179n php bn:01753580n concerner bn:00083240v délimiter bn:00086464v text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n mysql bn:01225760n foreach bn:03463379n mot bn:00081546n session bn:03751534n afficher bn:00087013v 
+  attributes (3) : C3 C4 C6 
+  parents concepts (3) : 306 311 331 
+  childs concepts (4) : 132 219 237 238 
+
+Concept (277) : 
+  level : 2
+  objects (12) : fichier bn:00021475n php bn:01753580n java bn:00048043n commentaire bn:00020978n fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n case bn:04777941n fermeture bn:16858148n jour bn:00000086n programmation bn:00021493n 
+  attributes (2) : C1 C10 
+  parents concepts (2) : 294 335 
+  childs concepts (6) : 172 217 220 240 241 258 
+
+Concept (278) : 
+  level : 2
+  objects (12) : client bn:00019764n php bn:01753580n java bn:00048043n commentaire bn:00020978n fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n case bn:04777941n fermeture bn:16858148n jour bn:00000086n site bn:00047172n 
+  attributes (2) : C1 C3 
+  parents concepts (2) : 294 337 
+  childs concepts (5) : 142 170 221 226 258 
+
+Concept (279) : 
+  level : 3
+  objects (12) : php bn:01753580n concerner bn:00083240v commentaire bn:00020978n délimiter bn:00086464v url bn:00079080n text bn:14981519n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n cle bn:04756252n mot bn:00081546n afficher bn:00087013v 
+  attributes (3) : C3 C4 C10 
+  parents concepts (3) : 301 311 329 
+  childs concepts (7) : 79 109 137 199 219 224 225 
+
+Concept (280) : 
+  level : 4
+  objects (12) : texte bn:00076732n commentaire bn:00020978n fois bn:00032768n url bn:00079080n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n côté serveur bn:03816678n classes bn:03608262n public bn:00109211a 
+  attributes (4) : C3 C5 C9 C10 
+  parents concepts (4) : 297 299 308 313 
+  childs concepts (5) : 113 148 150 202 223 
+
+Concept (281) : 
+  level : 3
+  objects (13) : navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n texte bn:00076732n fois bn:00032768n post bn:01500184n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n header bn:00043309n foreach bn:03463379n 
+  attributes (3) : C6 C9 CJA 
+  parents concepts (3) : 303 319 324 
+  childs concepts (2) : 216 272 
+
+Concept (282) : 
+  level : 4
+  objects (13) : texte bn:00076732n concerner bn:00083240v fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n moteur bn:00030850n transaction bn:01403911n mot bn:00081546n 
+  attributes (4) : C3 C5 C10 CJA 
+  parents concepts (4) : 291 309 313 315 
+  childs concepts (4) : 154 176 202 261 
+
+Concept (283) : 
+  level : 2
+  objects (14) : navigateur bn:00013447n serveur web bn:02705179n donnée bn:00025314n java bn:00048043n fois bn:00032768n post bn:01500184n text bn:14981519n case bn:04777941n méthode post bn:00045088n site bn:00047172n foreach bn:03463379n cle bn:04756252n mot bn:00081546n list bn:04720346n 
+  attributes (2) : C2 C3 
+  parents concepts (2) : 310 337 
+  childs concepts (8) : 125 142 164 174 231 249 250 269 
+
+Concept (284) : 
+  level : 2
+  objects (14) : navigateur bn:00013447n serveur web bn:02705179n donnée bn:00025314n java bn:00048043n fois bn:00032768n post bn:01500184n text bn:14981519n programmation bn:00021493n site bn:00047172n langage de script bn:01431715n foreach bn:03463379n mot bn:00081546n méthode bn:01641329n timestamp bn:03603649n 
+  attributes (2) : C2 C5 
+  parents concepts (2) : 310 334 
+  childs concepts (5) : 126 145 193 249 270 
+
+Concept (285) : 
+  level : 2
+  objects (14) : navigateur bn:00013447n serveur web bn:02705179n java bn:00048043n fois bn:00032768n post bn:01500184n text bn:14981519n case bn:04777941n méthode post bn:00045088n programmation bn:00021493n langage de script bn:01431715n foreach bn:03463379n mot bn:00081546n méthode bn:01641329n timestamp bn:03603649n 
+  attributes (2) : C2 C6 
+  parents concepts (2) : 310 336 
+  childs concepts (5) : 127 201 230 250 270 
+
+Concept (286) : 
+  level : 3
+  objects (14) : navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n fois bn:00032768n post bn:01500184n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n programmation bn:00021493n côté serveur bn:03816678n foreach bn:03463379n classes bn:03608262n méthode bn:01641329n public bn:00109211a 
+  attributes (3) : C5 C6 C9 
+  parents concepts (3) : 314 319 327 
+  childs concepts (6) : 51 88 166 187 245 273 
+
+Concept (287) : 
+  level : 3
+  objects (14) : serveur web bn:02705179n base de donnée bn:00025333n donnée bn:00025314n concerner bn:00083240v commentaire bn:00020978n url bn:00079080n text bn:14981519n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n mysql bn:01225760n foreach bn:03463379n mot bn:00081546n session bn:03751534n 
+  attributes (3) : C3 C4 C5 
+  parents concepts (3) : 305 311 330 
+  childs concepts (4) : 195 224 238 253 
+
+Concept (288) : 
+  level : 2
+  objects (14) : serveur web bn:02705179n base de donnée bn:00025333n donnée bn:00025314n concerner bn:00083240v délimiter bn:00086464v url bn:00079080n nombre bn:00058285n text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n foreach bn:03463379n mot bn:00081546n afficher bn:00087013v composer bn:14766022n 
+  attributes (2) : C4 CJA 
+  parents concepts (2) : 323 333 
+  childs concepts (4) : 246 254 265 275 
+
+Concept (289) : 
+  level : 2
+  objects (14) : serveur web bn:02705179n php bn:01753580n code bn:00020354n commentaire bn:00020978n url bn:00079080n case à cocher bn:03157691n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n programmation bn:00021493n doctype bn:15839327n foreach bn:03463379n cle bn:04756252n méthode bn:01641329n 
+  attributes (2) : C4 C9 
+  parents concepts (2) : 323 332 
+  childs concepts (7) : 134 153 171 235 236 239 260 
+
+Concept (290) : 
+  level : 3
+  objects (14) : fichier bn:00021475n php bn:01753580n code bn:00020354n texte bn:00076732n fois bn:00032768n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n programmation bn:00021493n header bn:00043309n côté serveur bn:03816678n classes bn:03608262n public bn:00109211a 
+  attributes (3) : C6 C9 C10 
+  parents concepts (3) : 319 322 325 
+  childs concepts (5) : 136 167 216 245 267 
+
+Concept (291) : 
+  level : 3
+  objects (14) : texte bn:00076732n concerner bn:00083240v fois bn:00032768n url bn:00079080n nombre bn:00058285n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n moteur bn:00030850n transaction bn:01403911n mot bn:00081546n 
+  attributes (3) : C5 C10 CJA 
+  parents concepts (3) : 312 320 326 
+  childs concepts (4) : 76 108 205 282 
+
+Concept (292) : 
+  level : 1
+  objects (15) : page web bn:00080778n navigateur bn:00013447n commentaire bn:00020978n délimiter bn:00086464v nombre bn:00058285n langage bn:00049910n personne bn:00046516n méthode post bn:00045088n fermeture bn:16858148n chaîne bn:00074685n doctype bn:15839327n interpréter bn:00089840v méthode bn:01641329n visiteur bn:03106425n insert bn:03795444n 
+  attributes (1) : C8 
+  parents concepts (1) : 338 
+  childs concepts (8) : 90 183 184 206 234 247 248 268 
+
+Concept (293) : 
+  level : 3
+  objects (15) : navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n fois bn:00032768n url bn:00079080n post bn:01500184n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n header bn:00043309n foreach bn:03463379n list bn:04720346n 
+  attributes (3) : C3 C9 CJA 
+  parents concepts (3) : 303 321 328 
+  childs concepts (5) : 91 211 244 263 272 
+
+Concept (294) : 
+  level : 1
+  objects (15) : fichier bn:00021475n client bn:00019764n php bn:01753580n java bn:00048043n commentaire bn:00020978n fois bn:00032768n url bn:00079080n case à cocher bn:03157691n text bn:14981519n langage bn:00049910n case bn:04777941n fermeture bn:16858148n jour bn:00000086n programmation bn:00021493n site bn:00047172n 
+  attributes (1) : C1 
+  parents concepts (1) : 338 
+  childs concepts (8) : 173 218 242 243 255 256 277 278 
+
+Concept (295) : 
+  level : 4
+  objects (15) : java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n text bn:14981519n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n moteur bn:00030850n côté serveur bn:03816678n côté client bn:03163702n classes bn:03608262n mot bn:00081546n public bn:00109211a 
+  attributes (4) : C3 C5 C6 C10 
+  parents concepts (4) : 307 313 317 318 
+  childs concepts (5) : 102 104 107 223 261 
+
+Concept (296) : 
+  level : 4
+  objects (15) : texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n text bn:14981519n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n jour bn:00000086n header bn:00043309n moteur bn:00030850n mot bn:00081546n afficher bn:00087013v 
+  attributes (4) : C3 C6 C10 CJA 
+  parents concepts (4) : 300 309 316 317 
+  childs concepts (5) : 119 156 203 204 261 
+
+Concept (297) : 
+  level : 3
+  objects (15) : texte bn:00076732n commentaire bn:00020978n fois bn:00032768n url bn:00079080n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n programmation bn:00021493n côté serveur bn:03816678n classes bn:03608262n class bn:03598962n mysqli bn:01438356n public bn:00109211a 
+  attributes (3) : C5 C9 C10 
+  parents concepts (3) : 314 322 326 
+  childs concepts (4) : 179 180 245 280 
+
+Concept (298) : 
+  level : 4
+  objects (16) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n concerner bn:00083240v fois bn:00032768n post bn:01500184n text bn:14981519n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n moteur bn:00030850n type bn:00016413n foreach bn:03463379n mot bn:00081546n 
+  attributes (4) : C3 C5 C6 CJA 
+  parents concepts (4) : 302 315 316 318 
+  childs concepts (6) : 40 128 185 194 228 261 
+
+Concept (299) : 
+  level : 3
+  objects (16) : navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n commentaire bn:00020978n fois bn:00032768n url bn:00079080n post bn:01500184n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n côté serveur bn:03816678n foreach bn:03463379n classes bn:03608262n public bn:00109211a 
+  attributes (3) : C3 C5 C9 
+  parents concepts (3) : 314 321 330 
+  childs concepts (5) : 130 195 263 273 280 
+
+Concept (300) : 
+  level : 3
+  objects (16) : fichier bn:00021475n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n text bn:14981519n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n jour bn:00000086n header bn:00043309n moteur bn:00030850n mot bn:00081546n afficher bn:00087013v 
+  attributes (3) : C6 C10 CJA 
+  parents concepts (3) : 312 324 325 
+  childs concepts (3) : 169 216 296 
+
+Concept (301) : 
+  level : 2
+  objects (16) : php bn:01753580n code bn:00020354n concerner bn:00083240v commentaire bn:00020978n délimiter bn:00086464v url bn:00079080n nombre bn:00058285n text bn:14981519n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n programmation bn:00021493n doctype bn:15839327n cle bn:04756252n mot bn:00081546n afficher bn:00087013v 
+  attributes (2) : C4 C10 
+  parents concepts (2) : 323 335 
+  childs concepts (8) : 121 172 178 246 259 260 262 279 
+
+Concept (302) : 
+  level : 3
+  objects (17) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n concerner bn:00083240v fois bn:00032768n post bn:01500184n text bn:14981519n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n moteur bn:00030850n type bn:00016413n foreach bn:03463379n communication bn:00021221n mot bn:00081546n 
+  attributes (3) : C5 C6 CJA 
+  parents concepts (3) : 320 324 327 
+  childs concepts (1) : 298 
+
+Concept (303) : 
+  level : 2
+  objects (17) : navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n texte bn:00076732n fois bn:00032768n url bn:00079080n post bn:01500184n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n header bn:00043309n foreach bn:03463379n list bn:04720346n null bn:15898583n 
+  attributes (2) : C9 CJA 
+  parents concepts (2) : 332 333 
+  childs concepts (4) : 257 271 281 293 
+
+Concept (304) : 
+  level : 3
+  objects (17) : navigateur bn:00013447n serveur web bn:02705179n php bn:01753580n texte bn:00076732n fois bn:00032768n post bn:01500184n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n header bn:00043309n côté serveur bn:03816678n foreach bn:03463379n classes bn:03608262n public bn:00109211a mise bn:00016287n 
+  attributes (3) : C3 C6 C9 
+  parents concepts (3) : 319 321 331 
+  childs concepts (4) : 132 267 272 273 
+
+Concept (305) : 
+  level : 2
+  objects (17) : serveur web bn:02705179n base de donnée bn:00025333n donnée bn:00025314n concerner bn:00083240v commentaire bn:00020978n url bn:00079080n nombre bn:00058285n text bn:14981519n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n mysql bn:01225760n programmation bn:00021493n foreach bn:03463379n mot bn:00081546n méthode bn:01641329n session bn:03751534n 
+  attributes (2) : C4 C5 
+  parents concepts (2) : 323 334 
+  childs concepts (8) : 135 151 193 239 262 265 266 287 
+
+Concept (306) : 
+  level : 2
+  objects (17) : serveur web bn:02705179n php bn:01753580n code bn:00020354n concerner bn:00083240v délimiter bn:00086464v case à cocher bn:03157691n text bn:14981519n utilisateur bn:00079373n fermeture bn:16858148n mysql bn:01225760n programmation bn:00021493n foreach bn:03463379n mot bn:00081546n méthode bn:01641329n session bn:03751534n afficher bn:00087013v composer bn:14766022n 
+  attributes (2) : C4 C6 
+  parents concepts (2) : 323 336 
+  childs concepts (7) : 64 139 235 254 259 266 276 
+
+Concept (307) : 
+  level : 3
+  objects (17) : java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n text bn:14981519n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n programmation bn:00021493n moteur bn:00030850n langage de script bn:01431715n côté serveur bn:03816678n côté client bn:03163702n classes bn:03608262n mot bn:00081546n public bn:00109211a 
+  attributes (3) : C5 C6 C10 
+  parents concepts (3) : 325 326 327 
+  childs concepts (5) : 144 175 177 245 295 
+
+Concept (308) : 
+  level : 3
+  objects (18) : php bn:01753580n texte bn:00076732n commentaire bn:00020978n fois bn:00032768n url bn:00079080n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n header bn:00043309n configuration bn:03088982n côté serveur bn:03816678n cle bn:04756252n classes bn:03608262n insert bn:03795444n public bn:00109211a 
+  attributes (3) : C3 C9 C10 
+  parents concepts (3) : 321 322 329 
+  childs concepts (7) : 72 152 198 199 244 267 280 
+
+Concept (309) : 
+  level : 3
+  objects (18) : texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n jour bn:00000086n header bn:00043309n moteur bn:00030850n transaction bn:01403911n mot bn:00081546n afficher bn:00087013v 
+  attributes (3) : C3 C10 CJA 
+  parents concepts (3) : 312 328 329 
+  childs concepts (6) : 63 209 225 244 282 296 
+
+Concept (310) : 
+  level : 1
+  objects (19) : navigateur bn:00013447n serveur web bn:02705179n donnée bn:00025314n java bn:00048043n fois bn:00032768n post bn:01500184n text bn:14981519n case bn:04777941n méthode post bn:00045088n programmation bn:00021493n site bn:00047172n langage de script bn:01431715n foreach bn:03463379n cle bn:04756252n mot bn:00081546n méthode bn:01641329n france bn:00036202n list bn:04720346n timestamp bn:03603649n 
+  attributes (1) : C2 
+  parents concepts (1) : 338 
+  childs concepts (8) : 160 173 215 222 264 283 284 285 
+
+Concept (311) : 
+  level : 2
+  objects (19) : serveur web bn:02705179n client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n php bn:01753580n concerner bn:00083240v commentaire bn:00020978n délimiter bn:00086464v url bn:00079080n text bn:14981519n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n mysql bn:01225760n foreach bn:03463379n cle bn:04756252n mot bn:00081546n session bn:03751534n afficher bn:00087013v 
+  attributes (2) : C3 C4 
+  parents concepts (2) : 323 337 
+  childs concepts (7) : 164 170 236 275 276 279 287 
+
+Concept (312) : 
+  level : 2
+  objects (20) : fichier bn:00021475n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n url bn:00079080n nombre bn:00058285n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n jour bn:00000086n header bn:00043309n moteur bn:00030850n transaction bn:01403911n mot bn:00081546n afficher bn:00087013v 
+  attributes (2) : C10 CJA 
+  parents concepts (2) : 333 335 
+  childs concepts (7) : 116 217 246 257 291 300 309 
+
+Concept (313) : 
+  level : 3
+  objects (20) : java bn:00048043n texte bn:00076732n concerner bn:00083240v commentaire bn:00020978n fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n machine bn:00054050n moteur bn:00030850n côté serveur bn:03816678n transaction bn:01403911n côté client bn:03163702n classes bn:03608262n mot bn:00081546n public bn:00109211a 
+  attributes (3) : C3 C5 C10 
+  parents concepts (3) : 326 329 330 
+  childs concepts (5) : 200 224 280 282 295 
+
+Concept (314) : 
+  level : 2
+  objects (21) : navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n commentaire bn:00020978n fois bn:00032768n url bn:00079080n post bn:01500184n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n programmation bn:00021493n côté serveur bn:03816678n foreach bn:03463379n classes bn:03608262n class bn:03598962n méthode bn:01641329n mysqli bn:01438356n public bn:00109211a null bn:15898583n 
+  attributes (2) : C5 C9 
+  parents concepts (2) : 332 334 
+  childs concepts (6) : 163 239 271 286 297 299 
+
+Concept (315) : 
+  level : 3
+  objects (22) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n base de donnée bn:00025333n donnée bn:00025314n texte bn:00076732n concerner bn:00083240v fois bn:00032768n url bn:00079080n post bn:01500184n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n site bn:00047172n moteur bn:00030850n type bn:00016413n foreach bn:03463379n transaction bn:01403911n mot bn:00081546n 
+  attributes (3) : C3 C5 CJA 
+  parents concepts (3) : 320 328 330 
+  childs concepts (8) : 81 182 188 227 253 263 282 298 
+
+Concept (316) : 
+  level : 3
+  objects (22) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n post bn:01500184n text bn:14981519n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n machine bn:00054050n jour bn:00000086n header bn:00043309n moteur bn:00030850n type bn:00016413n foreach bn:03463379n mot bn:00081546n afficher bn:00087013v 
+  attributes (3) : C3 C6 CJA 
+  parents concepts (3) : 324 328 331 
+  childs concepts (7) : 122 162 229 237 272 296 298 
+
+Concept (317) : 
+  level : 3
+  objects (22) : php bn:01753580n java bn:00048043n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n text bn:14981519n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n jour bn:00000086n header bn:00043309n moteur bn:00030850n côté serveur bn:03816678n côté client bn:03163702n classes bn:03608262n mot bn:00081546n visiteur bn:03106425n afficher bn:00087013v public bn:00109211a 
+  attributes (3) : C3 C6 C10 
+  parents concepts (3) : 325 329 331 
+  childs concepts (7) : 65 143 197 219 267 295 296 
+
+Concept (318) : 
+  level : 3
+  objects (23) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n post bn:01500184n text bn:14981519n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n mysql bn:01225760n moteur bn:00030850n côté serveur bn:03816678n type bn:00016413n foreach bn:03463379n côté client bn:03163702n classes bn:03608262n mot bn:00081546n session bn:03751534n public bn:00109211a 
+  attributes (3) : C3 C5 C6 
+  parents concepts (3) : 327 330 331 
+  childs concepts (6) : 161 210 238 273 295 298 
+
+Concept (319) : 
+  level : 2
+  objects (23) : navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n php bn:01753580n code bn:00020354n texte bn:00076732n fois bn:00032768n case à cocher bn:03157691n post bn:01500184n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n programmation bn:00021493n header bn:00043309n côté serveur bn:03816678n foreach bn:03463379n classes bn:03608262n méthode bn:01641329n public bn:00109211a mise bn:00016287n avoir accès bn:00082209v 
+  attributes (2) : C6 C9 
+  parents concepts (2) : 332 336 
+  childs concepts (9) : 92 129 196 230 235 281 286 290 304 
+
+Concept (320) : 
+  level : 2
+  objects (25) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n base de donnée bn:00025333n donnée bn:00025314n texte bn:00076732n concerner bn:00083240v fois bn:00032768n url bn:00079080n post bn:01500184n nombre bn:00058285n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n site bn:00047172n moteur bn:00030850n type bn:00016413n foreach bn:03463379n communication bn:00021221n transaction bn:01403911n mot bn:00081546n null bn:15898583n 
+  attributes (2) : C5 CJA 
+  parents concepts (2) : 333 334 
+  childs concepts (7) : 123 213 265 271 291 302 315 
+
+Concept (321) : 
+  level : 2
+  objects (25) : navigateur bn:00013447n serveur web bn:02705179n php bn:01753580n texte bn:00076732n commentaire bn:00020978n fois bn:00032768n url bn:00079080n post bn:01500184n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v personne bn:00046516n méthode post bn:00045088n fermeture bn:16858148n header bn:00043309n configuration bn:03088982n côté serveur bn:03816678n foreach bn:03463379n cle bn:04756252n classes bn:03608262n insert bn:03795444n public bn:00109211a list bn:04720346n mise bn:00016287n 
+  attributes (2) : C3 C9 
+  parents concepts (2) : 332 337 
+  childs concepts (7) : 192 231 236 293 299 304 308 
+
+Concept (322) : 
+  level : 2
+  objects (25) : fichier bn:00021475n php bn:01753580n code bn:00020354n texte bn:00076732n commentaire bn:00020978n fois bn:00032768n url bn:00079080n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n programmation bn:00021493n header bn:00043309n doctype bn:15839327n configuration bn:03088982n paris bn:00015540n côté serveur bn:03816678n cle bn:04756252n classes bn:03608262n class bn:03598962n mysqli bn:01438356n insert bn:03795444n public bn:00109211a 
+  attributes (2) : C9 C10 
+  parents concepts (2) : 332 335 
+  childs concepts (8) : 120 181 241 257 260 290 297 308 
+
+Concept (323) : 
+  level : 1
+  objects (26) : serveur web bn:02705179n client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n php bn:01753580n code bn:00020354n concerner bn:00083240v commentaire bn:00020978n délimiter bn:00086464v url bn:00079080n case à cocher bn:03157691n nombre bn:00058285n text bn:14981519n utilisateur bn:00079373n personne bn:00046516n fermeture bn:16858148n mysql bn:01225760n programmation bn:00021493n doctype bn:15839327n foreach bn:03463379n cle bn:04756252n mot bn:00081546n méthode bn:01641329n session bn:03751534n afficher bn:00087013v composer bn:14766022n 
+  attributes (1) : C4 
+  parents concepts (1) : 338 
+  childs concepts (9) : 206 215 218 288 289 301 305 306 311 
+
+Concept (324) : 
+  level : 2
+  objects (27) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n post bn:01500184n text bn:14981519n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n machine bn:00054050n jour bn:00000086n header bn:00043309n moteur bn:00030850n type bn:00016413n foreach bn:03463379n serveur bn:00044916n communication bn:00021221n mot bn:00081546n afficher bn:00087013v files bn:00065682n composer bn:14766022n 
+  attributes (2) : C6 CJA 
+  parents concepts (2) : 333 336 
+  childs concepts (6) : 191 254 281 300 302 316 
+
+Concept (325) : 
+  level : 2
+  objects (27) : fichier bn:00021475n php bn:01753580n java bn:00048043n code bn:00020354n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n text bn:14981519n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n jour bn:00000086n programmation bn:00021493n header bn:00043309n moteur bn:00030850n langage de script bn:01431715n côté serveur bn:03816678n côté client bn:03163702n classes bn:03608262n bienvenue bn:00080852n mot bn:00081546n visiteur bn:03106425n afficher bn:00087013v public bn:00109211a 
+  attributes (2) : C6 C10 
+  parents concepts (2) : 335 336 
+  childs concepts (7) : 201 240 259 290 300 307 317 
+
+Concept (326) : 
+  level : 2
+  objects (27) : java bn:00048043n texte bn:00076732n concerner bn:00083240v commentaire bn:00020978n fois bn:00032768n url bn:00079080n nombre bn:00058285n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n machine bn:00054050n programmation bn:00021493n chaîne bn:00074685n moteur bn:00030850n langage de script bn:01431715n côté serveur bn:03816678n interpréter bn:00089840v transaction bn:01403911n côté client bn:03163702n classes bn:03608262n class bn:03598962n mot bn:00081546n mysqli bn:01438356n public bn:00109211a 
+  attributes (2) : C5 C10 
+  parents concepts (2) : 334 335 
+  childs concepts (8) : 140 208 220 262 291 297 307 313 
+
+Concept (327) : 
+  level : 2
+  objects (28) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n java bn:00048043n texte bn:00076732n concerner bn:00083240v fois bn:00032768n post bn:01500184n text bn:14981519n utilisateur bn:00079373n associer bn:00082868v fermeture bn:16858148n machine bn:00054050n mysql bn:01225760n programmation bn:00021493n moteur bn:00030850n langage de script bn:01431715n côté serveur bn:03816678n type bn:00016413n foreach bn:03463379n communication bn:00021221n côté client bn:03163702n classes bn:03608262n mot bn:00081546n méthode bn:01641329n session bn:03751534n public bn:00109211a timestamp bn:03603649n 
+  attributes (2) : C5 C6 
+  parents concepts (2) : 334 336 
+  childs concepts (8) : 82 190 266 270 286 302 307 318 
+
+Concept (328) : 
+  level : 2
+  objects (31) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n base de donnée bn:00025333n donnée bn:00025314n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n url bn:00079080n post bn:01500184n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n machine bn:00054050n jour bn:00000086n site bn:00047172n header bn:00043309n moteur bn:00030850n type bn:00016413n foreach bn:03463379n transaction bn:01403911n mot bn:00081546n afficher bn:00087013v pointeur bn:03222272n list bn:04720346n valeur bn:00079508n 
+  attributes (2) : C3 CJA 
+  parents concepts (2) : 333 337 
+  childs concepts (9) : 158 214 226 269 275 293 309 315 316 
+
+Concept (329) : 
+  level : 2
+  objects (31) : php bn:01753580n java bn:00048043n texte bn:00076732n concerner bn:00083240v commentaire bn:00020978n délimiter bn:00086464v fois bn:00032768n url bn:00079080n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n machine bn:00054050n jour bn:00000086n header bn:00043309n moteur bn:00030850n configuration bn:03088982n côté serveur bn:03816678n opérateur bn:16281811n cle bn:04756252n transaction bn:01403911n côté client bn:03163702n classes bn:03608262n mot bn:00081546n visiteur bn:03106425n afficher bn:00087013v insert bn:03795444n public bn:00109211a 
+  attributes (2) : C3 C10 
+  parents concepts (2) : 335 337 
+  childs concepts (8) : 174 207 258 279 308 309 313 317 
+
+Concept (330) : 
+  level : 2
+  objects (32) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n base de donnée bn:00025333n donnée bn:00025314n java bn:00048043n texte bn:00076732n concerner bn:00083240v commentaire bn:00020978n fois bn:00032768n url bn:00079080n post bn:01500184n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n machine bn:00054050n mysql bn:01225760n site bn:00047172n moteur bn:00030850n côté serveur bn:03816678n type bn:00016413n foreach bn:03463379n transaction bn:01403911n côté client bn:03163702n classes bn:03608262n mot bn:00081546n session bn:03751534n public bn:00109211a varchar bn:01838409n 
+  attributes (2) : C3 C5 
+  parents concepts (2) : 334 337 
+  childs concepts (9) : 157 212 221 249 287 299 313 315 318 
+
+Concept (331) : 
+  level : 2
+  objects (34) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n php bn:01753580n java bn:00048043n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n post bn:01500184n text bn:14981519n zones bn:00005513n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n machine bn:00054050n mysql bn:01225760n jour bn:00000086n header bn:00043309n moteur bn:00030850n côté serveur bn:03816678n type bn:00016413n foreach bn:03463379n côté client bn:03163702n classes bn:03608262n mot bn:00081546n session bn:03751534n visiteur bn:03106425n afficher bn:00087013v public bn:00109211a xml bn:02771436n mise bn:00016287n 
+  attributes (2) : C3 C6 
+  parents concepts (2) : 336 337 
+  childs concepts (8) : 159 189 250 276 304 316 317 318 
+
+Concept (332) : 
+  level : 1
+  objects (36) : navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n php bn:01753580n code bn:00020354n texte bn:00076732n commentaire bn:00020978n fois bn:00032768n url bn:00079080n case à cocher bn:03157691n post bn:01500184n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v personne bn:00046516n méthode post bn:00045088n fermeture bn:16858148n programmation bn:00021493n header bn:00043309n doctype bn:15839327n configuration bn:03088982n paris bn:00015540n côté serveur bn:03816678n foreach bn:03463379n cle bn:04756252n classes bn:03608262n class bn:03598962n méthode bn:01641329n mysqli bn:01438356n insert bn:03795444n public bn:00109211a list bn:04720346n mise bn:00016287n null bn:15898583n avoir accès bn:00082209v 
+  attributes (1) : C9 
+  parents concepts (1) : 338 
+  childs concepts (9) : 234 256 264 289 303 314 319 321 322 
+
+Concept (333) : 
+  level : 1
+  objects (40) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n base de donnée bn:00025333n donnée bn:00025314n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n url bn:00079080n post bn:01500184n nombre bn:00058285n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n machine bn:00054050n jour bn:00000086n site bn:00047172n header bn:00043309n moteur bn:00030850n type bn:00016413n foreach bn:03463379n serveur bn:00044916n communication bn:00021221n transaction bn:01403911n mot bn:00081546n afficher bn:00087013v pointeur bn:03222272n list bn:04720346n exceptions bn:00032118n files bn:00065682n valeur bn:00079508n composer bn:14766022n positionnement bn:00030615n null bn:15898583n 
+  attributes (1) : CJA 
+  parents concepts (1) : 338 
+  childs concepts (9) : 183 242 252 288 303 312 320 324 328 
+
+Concept (334) : 
+  level : 1
+  objects (44) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n base de donnée bn:00025333n donnée bn:00025314n java bn:00048043n texte bn:00076732n concerner bn:00083240v commentaire bn:00020978n fois bn:00032768n url bn:00079080n post bn:01500184n nombre bn:00058285n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n machine bn:00054050n mysql bn:01225760n programmation bn:00021493n site bn:00047172n chaîne bn:00074685n moteur bn:00030850n langage de script bn:01431715n côté serveur bn:03816678n type bn:00016413n foreach bn:03463379n communication bn:00021221n interpréter bn:00089840v transaction bn:01403911n côté client bn:03163702n classes bn:03608262n class bn:03598962n mot bn:00081546n méthode bn:01641329n session bn:03751534n mysqli bn:01438356n public bn:00109211a casse bn:03225002n timestamp bn:03603649n varchar bn:01838409n null bn:15898583n 
+  attributes (1) : C5 
+  parents concepts (1) : 338 
+  childs concepts (10) : 243 248 251 284 305 314 320 326 327 330 
+
+Concept (335) : 
+  level : 1
+  objects (46) : fichier bn:00021475n php bn:01753580n java bn:00048043n code bn:00020354n texte bn:00076732n concerner bn:00083240v commentaire bn:00020978n délimiter bn:00086464v fois bn:00032768n url bn:00079080n nombre bn:00058285n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v personne bn:00046516n fermeture bn:16858148n machine bn:00054050n salaire bn:15928884n jour bn:00000086n programmation bn:00021493n chaîne bn:00074685n header bn:00043309n doctype bn:15839327n moteur bn:00030850n configuration bn:03088982n paris bn:00015540n langage de script bn:01431715n côté serveur bn:03816678n opérateur bn:16281811n super bn:17336345n cle bn:04756252n interpréter bn:00089840v transaction bn:01403911n côté client bn:03163702n classes bn:03608262n bienvenue bn:00080852n class bn:03598962n mot bn:00081546n visiteur bn:03106425n afficher bn:00087013v pouvoir bn:00084451v mysqli bn:01438356n insert bn:03795444n public bn:00109211a 
+  attributes (1) : C10 
+  parents concepts (1) : 338 
+  childs concepts (9) : 222 268 277 301 312 322 325 326 329 
+
+Concept (336) : 
+  level : 1
+  objects (50) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n php bn:01753580n java bn:00048043n code bn:00020354n texte bn:00076732n concerner bn:00083240v délimiter bn:00086464v fois bn:00032768n case à cocher bn:03157691n post bn:01500184n text bn:14981519n zones bn:00005513n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v méthode post bn:00045088n fermeture bn:16858148n machine bn:00054050n mysql bn:01225760n jour bn:00000086n programmation bn:00021493n header bn:00043309n moteur bn:00030850n langage de script bn:01431715n côté serveur bn:03816678n type bn:00016413n foreach bn:03463379n serveur bn:00044916n communication bn:00021221n côté client bn:03163702n classes bn:03608262n bienvenue bn:00080852n mot bn:00081546n méthode bn:01641329n session bn:03751534n visiteur bn:03106425n afficher bn:00087013v public bn:00109211a timestamp bn:03603649n xml bn:02771436n echo bn:03626250n files bn:00065682n mise bn:00016287n composer bn:14766022n généralité bn:00041249n autre bn:00108013a avoir accès bn:00082209v 
+  attributes (1) : C6 
+  parents concepts (1) : 338 
+  childs concepts (10) : 184 233 255 285 306 319 324 325 327 331 
+
+Concept (337) : 
+  level : 1
+  objects (51) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n php bn:01753580n java bn:00048043n texte bn:00076732n concerner bn:00083240v commentaire bn:00020978n délimiter bn:00086464v fois bn:00032768n url bn:00079080n post bn:01500184n text bn:14981519n langage bn:00049910n zones bn:00005513n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v personne bn:00046516n méthode post bn:00045088n fermeture bn:16858148n machine bn:00054050n mysql bn:01225760n jour bn:00000086n site bn:00047172n header bn:00043309n moteur bn:00030850n configuration bn:03088982n côté serveur bn:03816678n opérateur bn:16281811n type bn:00016413n foreach bn:03463379n cle bn:04756252n transaction bn:01403911n côté client bn:03163702n classes bn:03608262n mot bn:00081546n session bn:03751534n visiteur bn:03106425n afficher bn:00087013v insert bn:03795444n public bn:00109211a pointeur bn:03222272n list bn:04720346n xml bn:02771436n varchar bn:01838409n mise bn:00016287n valeur bn:00079508n 
+  attributes (1) : C3 
+  parents concepts (1) : 338 
+  childs concepts (10) : 232 247 278 283 311 321 328 329 330 331 
+
+Concept (338) : 
+  level : 0
+  objects (82) : page web bn:00080778n navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n client bn:00019764n base de donnée bn:00025333n donnée bn:00025314n php bn:01753580n java bn:00048043n code bn:00020354n texte bn:00076732n concerner bn:00083240v commentaire bn:00020978n délimiter bn:00086464v fois bn:00032768n url bn:00079080n case à cocher bn:03157691n post bn:01500184n nombre bn:00058285n text bn:14981519n langage bn:00049910n zones bn:00005513n utilisateur bn:00079373n case bn:04777941n associer bn:00082868v personne bn:00046516n méthode post bn:00045088n fermeture bn:16858148n machine bn:00054050n mysql bn:01225760n salaire bn:15928884n jour bn:00000086n programmation bn:00021493n site bn:00047172n chaîne bn:00074685n header bn:00043309n doctype bn:15839327n moteur bn:00030850n configuration bn:03088982n paris bn:00015540n langage de script bn:01431715n côté serveur bn:03816678n opérateur bn:16281811n super bn:17336345n type bn:00016413n foreach bn:03463379n cle bn:04756252n serveur bn:00044916n communication bn:00021221n interpréter bn:00089840v transaction bn:01403911n côté client bn:03163702n classes bn:03608262n bienvenue bn:00080852n class bn:03598962n mot bn:00081546n méthode bn:01641329n session bn:03751534n visiteur bn:03106425n afficher bn:00087013v pouvoir bn:00084451v mysqli bn:01438356n insert bn:03795444n public bn:00109211a france bn:00036202n pointeur bn:03222272n list bn:04720346n casse bn:03225002n timestamp bn:03603649n exceptions bn:00032118n xml bn:02771436n echo bn:03626250n files bn:00065682n varchar bn:01838409n mise bn:00016287n valeur bn:00079508n composer bn:14766022n positionnement bn:00030615n null bn:15898583n généralité bn:00041249n autre bn:00108013a avoir accès bn:00082209v 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (11) : 274 292 294 310 323 332 333 334 335 336 337 
+

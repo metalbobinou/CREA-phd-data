@@ -1,0 +1,14 @@
+Concept ID;Level;Nb Obj;Nb Att;Objects;Attributes;
+0;4;0;8;;A1,A2,A3,A4,C3,C4,C5,C7,;
+1;3;1;3;statecharts bn:01128895n,;A2,A4,C7,;
+2;3;1;3;state bn:00023236n,;A2,C3,C7,;
+3;2;1;2;kind bn:00035907n,;A3,C4,;
+4;2;1;2;history bn:00044268n,;A1,A2,;
+5;1;1;1;autonomous bn:00097830a,;C5,;
+6;2;2;2;statecharts bn:01128895n,state bn:00023236n,;A2,C7,;
+7;2;2;2;statecharts bn:01128895n,traffic light bn:00074441n,;A4,C7,;
+8;1;2;1;kind bn:00035907n,police bn:00022026n,;A3,;
+9;1;3;1;statecharts bn:01128895n,state bn:00023236n,history bn:00044268n,;A2,;
+10;1;3;1;statecharts bn:01128895n,state bn:00023236n,traffic light bn:00074441n,;C7,;
+11;1;3;1;statecharts bn:01128895n,code bn:00020354n,traffic light bn:00074441n,;A4,;
+12;0;8;0;statecharts bn:01128895n,state bn:00023236n,kind bn:00035907n,history bn:00044268n,police bn:00022026n,code bn:00020354n,traffic light bn:00074441n,autonomous bn:00097830a,;;

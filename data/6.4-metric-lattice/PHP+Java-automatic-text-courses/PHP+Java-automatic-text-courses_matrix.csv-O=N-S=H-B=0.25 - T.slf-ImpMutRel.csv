@@ -1,0 +1,34 @@
+X ; C3.csv ; C5.csv ; C6.csv ; CJA-automatic.csv
+php bn:01753580n ; 0 ; 0.25 ; 0 ; 0
+script bn:01431715n ; 0.166667 ; 0 ; 0 ; 0
+langage bn:00049910n ; 0 ; 0 ; 0.25 ; 0
+serveur bn:00044916n ; 0.285714 ; 0.4 ; 0 ; 0
+commentaires bn:00020978n ; 0 ; 0 ; 0 ; 0.25
+chaîne bn:00074685n ; 0.166667 ; 0 ; 0 ; 0
+programmation bn:00021493n ; 0.166667 ; 0 ; 0 ; 0
+timestamp bn:03603649n ; 0.166667 ; 0 ; 0 ; 0
+base de données bn:00025333n ; 0 ; 0 ; 0.25 ; 0
+données bn:00025314n ; 0 ; 0 ; 0.25 ; 0
+nombre bn:00058285n ; 0.285714 ; 0 ; 0.4 ; 0
+fichiers bn:00021475n ; 0.166667 ; 0 ; 0 ; 0
+code bn:00020354n ; 0.166667 ; 0 ; 0 ; 0
+texte bn:00076732n ; 0.166667 ; 0 ; 0 ; 0
+http bn:00045088n ; 0 ; 0.25 ; 0 ; 0
+méthode bn:01641329n ; 0.285714 ; 0 ; 0 ; 0.4
+classe bn:03608262n ; 0 ; 0 ; 0 ; 0.25
+exceptions bn:00032118n ; 0.166667 ; 0 ; 0 ; 0
+java bn:00048043n ; 0 ; 0 ; 0 ; 0.25
+site bn:00047172n ; 0 ; 0 ; 0.25 ; 0
+personne bn:00046516n ; 0 ; 0 ; 0.25 ; 0
+xml bn:02771436n ; 0 ; 0.25 ; 0 ; 0
+echo bn:03626250n ; 0.166667 ; 0 ; 0 ; 0
+files bn:00065682n ; 0.166667 ; 0 ; 0 ; 0
+class bn:03598962n ; 0.285714 ; 0 ; 0 ; 0.4
+configuration bn:03088982n ; 0 ; 0.25 ; 0 ; 0
+insert bn:03795444n ; 0 ; 0 ; 0.25 ; 0
+varchar bn:01838409n ; 0 ; 0 ; 0.25 ; 0
+mise bn:00016287n ; 0 ; 0 ; 0 ; 0.25
+client bn:00019764n ; 0 ; 0.25 ; 0 ; 0
+publique bn:00109211a ; 0 ; 0 ; 0 ; 0.25
+composer bn:14766022n ; 0 ; 0.25 ; 0 ; 0
+null bn:15898583n ; 0 ; 0 ; 0.25 ; 0

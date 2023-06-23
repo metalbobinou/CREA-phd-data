@@ -1,0 +1,10 @@
+Concept ID;Level;Nb Obj;Nb Att;Objects;Attributes;
+0;3;0;7;;C11,C15,C17,C19,C3,C5,C6,;
+1;1;1;1;php bn:01753580n,;C11,;
+2;2;1;2;texte bn:00076732n,;C17,C5,;
+3;1;1;1;code bn:00020354n,;C6,;
+4;1;1;1;pouvoir bn:00084451v,;C15,;
+5;2;2;2;site bn:00047172n,client web bn:00013447n,;C3,C5,;
+6;2;2;2;nombre bn:00058285n,chaîne bn:00074685n,;C19,C5,;
+7;1;5;1;texte bn:00076732n,site bn:00047172n,client web bn:00013447n,nombre bn:00058285n,chaîne bn:00074685n,;C5,;
+8;0;8;0;php bn:01753580n,texte bn:00076732n,site bn:00047172n,client web bn:00013447n,nombre bn:00058285n,code bn:00020354n,chaîne bn:00074685n,pouvoir bn:00084451v,;;

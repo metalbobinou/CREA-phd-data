@@ -1,0 +1,19 @@
+[Lattice]
+5
+3
+[Objects]
+php bn:01753580n
+chaîne bn:00074685n
+fichiers bn:00021475n
+code bn:00020354n
+class bn:03598962n
+[Attributes]
+C5.csv
+C6.csv
+CJA-automatic.csv
+[relation]
+0 1 0 
+1 0 0 
+0 0 1 
+0 1 0 
+1 0 0 

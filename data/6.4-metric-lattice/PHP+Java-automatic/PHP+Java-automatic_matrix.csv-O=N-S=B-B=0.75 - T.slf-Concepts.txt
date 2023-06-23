@@ -1,0 +1,161 @@
+Concept (0) : 
+  level : 3
+  objects (0) : 
+  attributes (10) : C1 C2 C3 C4 C5 C6 C7 C8 C9 CJA 
+  parents concepts (9) : 1 2 3 4 5 6 7 9 12 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 2
+  objects (1) : fichier bn:00021475n 
+  attributes (2) : C9 CJA 
+  parents concepts (2) : 18 19 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 3
+  objects (1) : client bn:00019764n 
+  attributes (3) : C1 C3 C4 
+  parents concepts (2) : 8 15 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 3
+  objects (1) : nombre bn:00058285n 
+  attributes (5) : C4 C5 C7 C8 CJA 
+  parents concepts (3) : 10 11 15 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 2
+  objects (1) : zones bn:00005513n 
+  attributes (2) : C3 C6 
+  parents concepts (2) : 16 21 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 3
+  objects (1) : site bn:00047172n 
+  attributes (5) : C1 C2 C3 C5 CJA 
+  parents concepts (3) : 8 10 14 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 2
+  objects (1) : serveur bn:00044916n 
+  attributes (2) : C6 CJA 
+  parents concepts (2) : 19 21 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 2
+  objects (1) : class bn:03598962n 
+  attributes (2) : C5 C9 
+  parents concepts (2) : 18 20 
+  childs concepts (1) : 0 
+
+Concept (8) : 
+  level : 2
+  objects (2) : client bn:00019764n site bn:00047172n 
+  attributes (2) : C1 C3 
+  parents concepts (1) : 16 
+  childs concepts (2) : 2 5 
+
+Concept (9) : 
+  level : 2
+  objects (2) : php bn:01753580n code bn:00020354n 
+  attributes (3) : C4 C6 C9 
+  parents concepts (3) : 15 18 21 
+  childs concepts (1) : 0 
+
+Concept (10) : 
+  level : 2
+  objects (2) : nombre bn:00058285n site bn:00047172n 
+  attributes (2) : C5 CJA 
+  parents concepts (2) : 19 20 
+  childs concepts (2) : 3 5 
+
+Concept (11) : 
+  level : 2
+  objects (2) : nombre bn:00058285n chaîne bn:00074685n 
+  attributes (2) : C5 C8 
+  parents concepts (2) : 13 20 
+  childs concepts (1) : 3 
+
+Concept (12) : 
+  level : 2
+  objects (2) : langage de script bn:01431715n timestamp bn:03603649n 
+  attributes (3) : C2 C5 C6 
+  parents concepts (2) : 14 21 
+  childs concepts (1) : 0 
+
+Concept (13) : 
+  level : 1
+  objects (3) : nombre bn:00058285n salaire bn:15928884n chaîne bn:00074685n 
+  attributes (1) : C8 
+  parents concepts (1) : 22 
+  childs concepts (1) : 11 
+
+Concept (14) : 
+  level : 2
+  objects (3) : site bn:00047172n langage de script bn:01431715n timestamp bn:03603649n 
+  attributes (2) : C2 C5 
+  parents concepts (2) : 17 20 
+  childs concepts (2) : 5 12 
+
+Concept (15) : 
+  level : 1
+  objects (4) : client bn:00019764n php bn:01753580n code bn:00020354n nombre bn:00058285n 
+  attributes (1) : C4 
+  parents concepts (1) : 22 
+  childs concepts (3) : 2 3 9 
+
+Concept (16) : 
+  level : 1
+  objects (4) : client bn:00019764n zones bn:00005513n site bn:00047172n opérateur bn:16281811n 
+  attributes (1) : C3 
+  parents concepts (1) : 22 
+  childs concepts (2) : 4 8 
+
+Concept (17) : 
+  level : 1
+  objects (4) : site bn:00047172n france bn:00036202n langage de script bn:01431715n timestamp bn:03603649n 
+  attributes (1) : C2 
+  parents concepts (1) : 22 
+  childs concepts (1) : 14 
+
+Concept (18) : 
+  level : 1
+  objects (5) : fichier bn:00021475n php bn:01753580n code bn:00020354n class bn:03598962n paris bn:00015540n 
+  attributes (1) : C9 
+  parents concepts (1) : 22 
+  childs concepts (3) : 1 7 9 
+
+Concept (19) : 
+  level : 1
+  objects (6) : fichier bn:00021475n nombre bn:00058285n site bn:00047172n serveur bn:00044916n exceptions bn:00032118n positionnement bn:00030615n 
+  attributes (1) : CJA 
+  parents concepts (1) : 22 
+  childs concepts (3) : 1 6 10 
+
+Concept (20) : 
+  level : 1
+  objects (7) : nombre bn:00058285n site bn:00047172n langage de script bn:01431715n casse bn:03225002n timestamp bn:03603649n chaîne bn:00074685n class bn:03598962n 
+  attributes (1) : C5 
+  parents concepts (1) : 22 
+  childs concepts (4) : 7 10 11 14 
+
+Concept (21) : 
+  level : 1
+  objects (10) : php bn:01753580n code bn:00020354n zones bn:00005513n langage de script bn:01431715n serveur bn:00044916n timestamp bn:03603649n echo bn:03626250n généralité bn:00041249n autre bn:00108013a bienvenue bn:00080852n 
+  attributes (1) : C6 
+  parents concepts (1) : 22 
+  childs concepts (4) : 4 6 9 12 
+
+Concept (22) : 
+  level : 0
+  objects (23) : fichier bn:00021475n client bn:00019764n php bn:01753580n code bn:00020354n nombre bn:00058285n zones bn:00005513n salaire bn:15928884n site bn:00047172n france bn:00036202n langage de script bn:01431715n serveur bn:00044916n casse bn:03225002n timestamp bn:03603649n chaîne bn:00074685n opérateur bn:16281811n exceptions bn:00032118n echo bn:03626250n class bn:03598962n positionnement bn:00030615n généralité bn:00041249n autre bn:00108013a bienvenue bn:00080852n paris bn:00015540n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (8) : 13 15 16 17 18 19 20 21 
+

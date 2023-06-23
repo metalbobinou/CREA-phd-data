@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LAT type="ConceptLattice" Desc="Full-Text-C+noP-PHP+Java.csv-O=N-S=B-B=1.00 - T.slf - #OfNodes = 11">
+<OBJS>
+<OBJ id="0">php bn:01753580n</OBJ>
+<OBJ id="1">texte bn:00076732n</OBJ>
+<OBJ id="2">fichier bn:00021475n</OBJ>
+<OBJ id="3">nombre bn:00058285n</OBJ>
+<OBJ id="4">code bn:00020354n</OBJ>
+<OBJ id="5">serveur bn:00044916n</OBJ>
+<OBJ id="6">chaîne bn:00074685n</OBJ>
+</OBJS>
+<ATTS>
+<ATT id="0">C11</ATT>
+<ATT id="1">C17</ATT>
+<ATT id="2">C19</ATT>
+<ATT id="3">C5</ATT>
+<ATT id="4">C6</ATT>
+<ATT id="5">CJA</ATT>
+</ATTS>
+<NODS>
+<NOD id="0">
+<EXT>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="1"/>
+<ATT id="2"/>
+<ATT id="3"/>
+<ATT id="4"/>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="1"/>
+<PARENT id="2"/>
+<PARENT id="3"/>
+<PARENT id="4"/>
+</SUP_NOD>
+</NOD>
+<NOD id="1">
+<EXT>
+<OBJ id="0"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+</INT>
+<SUP_NOD>
+<PARENT id="10"/>
+</SUP_NOD>
+</NOD>
+<NOD id="2">
+<EXT>
+<OBJ id="1"/>
+</EXT>
+<INT>
+<ATT id="1"/>
+<ATT id="3"/>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="5"/>
+</SUP_NOD>
+</NOD>
+<NOD id="3">
+<EXT>
+<OBJ id="3"/>
+</EXT>
+<INT>
+<ATT id="2"/>
+<ATT id="3"/>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="5"/>
+<PARENT id="6"/>
+</SUP_NOD>
+</NOD>
+<NOD id="4">
+<EXT>
+<OBJ id="5"/>
+</EXT>
+<INT>
+<ATT id="4"/>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="7"/>
+<PARENT id="9"/>
+</SUP_NOD>
+</NOD>
+<NOD id="5">
+<EXT>
+<OBJ id="1"/>
+<OBJ id="3"/>
+</EXT>
+<INT>
+<ATT id="3"/>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="8"/>
+<PARENT id="9"/>
+</SUP_NOD>
+</NOD>
+<NOD id="6">
+<EXT>
+<OBJ id="3"/>
+<OBJ id="6"/>
+</EXT>
+<INT>
+<ATT id="2"/>
+<ATT id="3"/>
+</INT>
+<SUP_NOD>
+<PARENT id="8"/>
+</SUP_NOD>
+</NOD>
+<NOD id="7">
+<EXT>
+<OBJ id="4"/>
+<OBJ id="5"/>
+</EXT>
+<INT>
+<ATT id="4"/>
+</INT>
+<SUP_NOD>
+<PARENT id="10"/>
+</SUP_NOD>
+</NOD>
+<NOD id="8">
+<EXT>
+<OBJ id="1"/>
+<OBJ id="3"/>
+<OBJ id="6"/>
+</EXT>
+<INT>
+<ATT id="3"/>
+</INT>
+<SUP_NOD>
+<PARENT id="10"/>
+</SUP_NOD>
+</NOD>
+<NOD id="9">
+<EXT>
+<OBJ id="1"/>
+<OBJ id="2"/>
+<OBJ id="3"/>
+<OBJ id="5"/>
+</EXT>
+<INT>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="10"/>
+</SUP_NOD>
+</NOD>
+<NOD id="10">
+<EXT>
+<OBJ id="0"/>
+<OBJ id="1"/>
+<OBJ id="2"/>
+<OBJ id="3"/>
+<OBJ id="4"/>
+<OBJ id="5"/>
+<OBJ id="6"/>
+</EXT>
+<INT>
+</INT>
+<SUP_NOD/>
+</NOD>
+</NODS>
+</LAT>

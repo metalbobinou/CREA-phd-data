@@ -1,0 +1,5 @@
+X ; C3.csv ; C5.csv ; C6.csv ; CJA-automatic.csv
+C3.csv ; 1 ; 0.4 ; 0.4 ; 0.2
+C5.csv ; 0.4 ; 1 ; 0.2 ; 0.25
+C6.csv ; 0.4 ; 0.2 ; 1 ; 0.25
+CJA-automatic.csv ; 0.2 ; 0.25 ; 0.25 ; 1

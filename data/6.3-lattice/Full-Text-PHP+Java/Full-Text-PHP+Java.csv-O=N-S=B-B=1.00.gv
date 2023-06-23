@@ -1,0 +1,39 @@
+// <Lattice object of 4 atoms 9 concepts 5 coatoms at 0x108ef7048>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="php bn:01753580n" labelangle=270]
+	c1 -> c1 [color=transparent labelangle=90 taillabel=C11]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="nombre bn:00058285n" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="serveur bn:00044916n" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="pouvoir bn:00084451v" labelangle=270]
+	c4 -> c4 [color=transparent labelangle=90 taillabel=C15]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="chaîne bn:00074685n" labelangle=270]
+	c5 -> c5 [color=transparent labelangle=90 taillabel="C19 C5"]
+	c5 -> c2
+	c6
+	c6 -> c6 [color=transparent headlabel="code bn:00020354n" labelangle=270]
+	c6 -> c6 [color=transparent labelangle=90 taillabel=C6]
+	c6 -> c3
+	c7
+	c7 -> c7 [color=transparent headlabel="fichier bn:00021475n" labelangle=270]
+	c7 -> c7 [color=transparent labelangle=90 taillabel=CJA]
+	c7 -> c2
+	c7 -> c3
+	c8
+	c8 -> c1
+	c8 -> c4
+	c8 -> c5
+	c8 -> c6
+	c8 -> c7
+}

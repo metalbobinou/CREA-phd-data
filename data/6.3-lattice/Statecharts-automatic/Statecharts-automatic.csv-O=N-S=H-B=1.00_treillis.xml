@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LAT type="ConceptLattice" Desc="Statecharts-automatic.csv-O=N-S=H-B=1.00 - T.slf - #OfNodes = 34">
+<OBJS>
+<OBJ id="0">science bn:00069670n</OBJ>
+<OBJ id="1">computer bn:00021464n</OBJ>
+<OBJ id="2">statecharts bn:01128895n</OBJ>
+<OBJ id="3">systems bn:15125301n</OBJ>
+<OBJ id="4">david harel bn:03178978n</OBJ>
+<OBJ id="5">mathematics bn:00053823n</OBJ>
+<OBJ id="6">state bn:00023236n</OBJ>
+<OBJ id="7">state machine bn:00212740n</OBJ>
+<OBJ id="8">diagrams bn:00026817n</OBJ>
+<OBJ id="9">communication bn:00021221n</OBJ>
+<OBJ id="10">units bn:00021497n</OBJ>
+<OBJ id="11">language bn:00049910n</OBJ>
+<OBJ id="12">complex bn:00100148a</OBJ>
+<OBJ id="13">complex system bn:03086504n</OBJ>
+<OBJ id="14">problem bn:00048242n</OBJ>
+<OBJ id="15">reactive systems bn:02824399n</OBJ>
+<OBJ id="16">example bn:00032100n</OBJ>
+<OBJ id="17">automobiles bn:00007309n</OBJ>
+<OBJ id="18">networks bn:00024712n</OBJ>
+<OBJ id="19">way bn:00033729n</OBJ>
+<OBJ id="20">time bn:00077270n</OBJ>
+<OBJ id="21">simulation bn:00021496n</OBJ>
+<OBJ id="22">set bn:00070697n</OBJ>
+<OBJ id="23">output bn:00036821n</OBJ>
+<OBJ id="24">information bn:00046705n</OBJ>
+<OBJ id="25">tool bn:00077585n</OBJ>
+<OBJ id="26">number bn:00058285n</OBJ>
+<OBJ id="27">state transition bn:03348716n</OBJ>
+<OBJ id="28">nature bn:00057017n</OBJ>
+<OBJ id="29">triggering bn:00082306v</OBJ>
+<OBJ id="30">hierarchical bn:00104156a</OBJ>
+<OBJ id="31">orthogonality bn:00059586n</OBJ>
+<OBJ id="32">main bn:00099598a</OBJ>
+<OBJ id="33">possible bn:00108829a</OBJ>
+<OBJ id="34">broadcast bn:00013234n</OBJ>
+<OBJ id="35">semantics bn:00070404n</OBJ>
+<OBJ id="36">concept bn:00021547n</OBJ>
+<OBJ id="37">occurring bn:00085337v</OBJ>
+<OBJ id="38">america bn:00003341n</OBJ>
+<OBJ id="39">achieved bn:00082226v</OBJ>
+<OBJ id="40">automata bn:00007371n</OBJ>
+<OBJ id="41">c d bn:00016915n</OBJ>
+<OBJ id="42">sec bn:00068672n</OBJ>
+<OBJ id="43">history bn:00044268n</OBJ>
+<OBJ id="44">effect bn:00021961n</OBJ>
+<OBJ id="45">require bn:00091028v</OBJ>
+<OBJ id="46">determinism bn:00026654n</OBJ>
+<OBJ id="47">simultaneous bn:00099916a</OBJ>
+<OBJ id="48">application bn:00005095n</OBJ>
+<OBJ id="49">possibility bn:00045632n</OBJ>
+<OBJ id="50">light bn:00051108n</OBJ>
+<OBJ id="51">second bn:00095974a</OBJ>
+<OBJ id="52">merely bn:00114626r</OBJ>
+<OBJ id="53">syntax bn:00062118n</OBJ>
+<OBJ id="54">substates bn:00964536n</OBJ>
+<OBJ id="55">defined bn:00086465v</OBJ>
+<OBJ id="56">formal syntax bn:01042120n</OBJ>
+<OBJ id="57">definition bn:00025928n</OBJ>
+<OBJ id="58">subset bn:00074971n</OBJ>
+<OBJ id="59">management bn:00053116n</OBJ>
+<OBJ id="60">higraphs bn:01691263n</OBJ>
+<OBJ id="61">finite bn:00102992a</OBJ>
+<OBJ id="62">new york bn:00041611n</OBJ>
+<OBJ id="63">automata theory bn:00152075n</OBJ>
+<OBJ id="64">entity bn:00031027n</OBJ>
+<OBJ id="65">types bn:00016413n</OBJ>
+<OBJ id="66">multiple bn:00107028a</OBJ>
+<OBJ id="67">composite bn:00100155a</OBJ>
+<OBJ id="68">sequence bn:00070574n</OBJ>
+<OBJ id="69">large number bn:14223782n</OBJ>
+<OBJ id="70">workflows bn:00081578n</OBJ>
+<OBJ id="71">strategy bn:00069579n</OBJ>
+<OBJ id="72">code bn:00020354n</OBJ>
+<OBJ id="73">current bn:00096401a</OBJ>
+<OBJ id="74">traffic light bn:00074441n</OBJ>
+<OBJ id="75">bit bn:00010731n</OBJ>
+<OBJ id="76">summary bn:00075142n</OBJ>
+<OBJ id="77">autonomous bn:00097830a</OBJ>
+<OBJ id="78">stateflow bn:03369007n</OBJ>
+<OBJ id="79">composite states bn:00892979n</OBJ>
+<OBJ id="80">simple bn:00098053a</OBJ>
+<OBJ id="81">interaction diagram bn:02571962n</OBJ>
+<OBJ id="82">deterministic finite state automata bn:03499526n</OBJ>
+</OBJS>
+<ATTS>
+<ATT id="0">A1</ATT>
+<ATT id="1">A2</ATT>
+<ATT id="2">A3</ATT>
+<ATT id="3">A4</ATT>
+<ATT id="4">A5</ATT>
+<ATT id="5">C1</ATT>
+<ATT id="6">C2</ATT>
+<ATT id="7">C3</ATT>
+<ATT id="8">C4</ATT>
+<ATT id="9">C5</ATT>
+<ATT id="10">C6</ATT>
+<ATT id="11">C7</ATT>
+<ATT id="12">C8</ATT>
+</ATTS>
+<NODS>
+<NOD id="0">
+<EXT>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="1"/>
+<ATT id="2"/>
+<ATT id="3"/>
+<ATT id="4"/>
+<ATT id="5"/>
+<ATT id="6"/>
+<ATT id="7"/>
+<ATT id="8"/>
+<ATT id="9"/>
+<ATT id="10"/>
+<ATT id="11"/>
+<ATT id="12"/>
+</INT>
+<SUP_NOD>
+<PARENT id="1"/>
+<PARENT id="2"/>
+<PARENT id="3"/>
+<PARENT id="4"/>
+<PARENT id="5"/>
+<PARENT id="6"/>
+<PARENT id="7"/>
+<PARENT id="8"/>
+<PARENT id="9"/>
+<PARENT id="10"/>
+<PARENT id="11"/>
+<PARENT id="12"/>
+<PARENT id="14"/>
+</SUP_NOD>
+</NOD>
+<NOD id="1">
+<EXT>
+<OBJ id="1"/>
+</EXT>
+<INT>
+<ATT id="1"/>
+<ATT id="7"/>
+<ATT id="9"/>
+<ATT id="11"/>
+</INT>
+<SUP_NOD>
+<PARENT id="13"/>
+<PARENT id="28"/>
+</SUP_NOD>
+</NOD>
+<NOD id="2">
+<EXT>
+<OBJ id="3"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="4"/>
+<ATT id="7"/>
+</INT>
+<SUP_NOD>
+<PARENT id="15"/>
+<PARENT id="16"/>
+</SUP_NOD>
+</NOD>
+<NOD id="3">
+<EXT>
+<OBJ id="5"/>
+</EXT>
+<INT>
+<ATT id="3"/>
+<ATT id="6"/>
+</INT>
+<SUP_NOD>
+<PARENT id="20"/>
+<PARENT id="26"/>
+</SUP_NOD>
+</NOD>
+<NOD id="4">
+<EXT>
+<OBJ id="7"/>
+</EXT>
+<INT>
+<ATT id="5"/>
+<ATT id="11"/>
+</INT>
+<SUP_NOD>
+<PARENT id="25"/>
+<PARENT id="27"/>
+</SUP_NOD>
+</NOD>
+<NOD id="5">
+<EXT>
+<OBJ id="14"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="24"/>
+<PARENT id="27"/>
+</SUP_NOD>
+</NOD>
+<NOD id="6">
+<EXT>
+<OBJ id="16"/>
+</EXT>
+<INT>
+<ATT id="2"/>
+<ATT id="9"/>
+<ATT id="11"/>
+</INT>
+<SUP_NOD>
+<PARENT id="21"/>
+<PARENT id="22"/>
+</SUP_NOD>
+</NOD>
+<NOD id="7">
+<EXT>
+<OBJ id="26"/>
+</EXT>
+<INT>
+<ATT id="1"/>
+<ATT id="9"/>
+<ATT id="11"/>
+<ATT id="12"/>
+</INT>
+<SUP_NOD>
+<PARENT id="13"/>
+<PARENT id="31"/>
+</SUP_NOD>
+</NOD>
+<NOD id="8">
+<EXT>
+<OBJ id="27"/>
+</EXT>
+<INT>
+<ATT id="6"/>
+<ATT id="10"/>
+<ATT id="12"/>
+</INT>
+<SUP_NOD>
+<PARENT id="17"/>
+<PARENT id="18"/>
+</SUP_NOD>
+</NOD>
+<NOD id="9">
+<EXT>
+<OBJ id="31"/>
+</EXT>
+<INT>
+<ATT id="8"/>
+<ATT id="9"/>
+</INT>
+<SUP_NOD>
+<PARENT id="29"/>
+<PARENT id="32"/>
+</SUP_NOD>
+</NOD>
+<NOD id="10">
+<EXT>
+<OBJ id="35"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="4"/>
+<ATT id="9"/>
+</INT>
+<SUP_NOD>
+<PARENT id="15"/>
+<PARENT id="32"/>
+</SUP_NOD>
+</NOD>
+<NOD id="11">
+<EXT>
+<OBJ id="36"/>
+</EXT>
+<INT>
+<ATT id="5"/>
+<ATT id="12"/>
+</INT>
+<SUP_NOD>
+<PARENT id="27"/>
+<PARENT id="31"/>
+</SUP_NOD>
+</NOD>
+<NOD id="12">
+<EXT>
+<OBJ id="44"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="2"/>
+<ATT id="7"/>
+</INT>
+<SUP_NOD>
+<PARENT id="16"/>
+<PARENT id="22"/>
+</SUP_NOD>
+</NOD>
+<NOD id="13">
+<EXT>
+<OBJ id="1"/>
+<OBJ id="26"/>
+</EXT>
+<INT>
+<ATT id="1"/>
+<ATT id="9"/>
+<ATT id="11"/>
+</INT>
+<SUP_NOD>
+<PARENT id="21"/>
+<PARENT id="23"/>
+</SUP_NOD>
+</NOD>
+<NOD id="14">
+<EXT>
+<OBJ id="2"/>
+<OBJ id="51"/>
+</EXT>
+<INT>
+<ATT id="5"/>
+<ATT id="8"/>
+</INT>
+<SUP_NOD>
+<PARENT id="27"/>
+<PARENT id="29"/>
+</SUP_NOD>
+</NOD>
+<NOD id="15">
+<EXT>
+<OBJ id="3"/>
+<OBJ id="35"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="4"/>
+</INT>
+<SUP_NOD>
+<PARENT id="19"/>
+<PARENT id="24"/>
+</SUP_NOD>
+</NOD>
+<NOD id="16">
+<EXT>
+<OBJ id="3"/>
+<OBJ id="44"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="7"/>
+</INT>
+<SUP_NOD>
+<PARENT id="24"/>
+<PARENT id="28"/>
+</SUP_NOD>
+</NOD>
+<NOD id="17">
+<EXT>
+<OBJ id="27"/>
+<OBJ id="33"/>
+</EXT>
+<INT>
+<ATT id="10"/>
+<ATT id="12"/>
+</INT>
+<SUP_NOD>
+<PARENT id="30"/>
+<PARENT id="31"/>
+</SUP_NOD>
+</NOD>
+<NOD id="18">
+<EXT>
+<OBJ id="27"/>
+<OBJ id="57"/>
+</EXT>
+<INT>
+<ATT id="6"/>
+<ATT id="12"/>
+</INT>
+<SUP_NOD>
+<PARENT id="26"/>
+<PARENT id="31"/>
+</SUP_NOD>
+</NOD>
+<NOD id="19">
+<EXT>
+<OBJ id="3"/>
+<OBJ id="25"/>
+<OBJ id="35"/>
+<OBJ id="74"/>
+</EXT>
+<INT>
+<ATT id="4"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="20">
+<EXT>
+<OBJ id="5"/>
+<OBJ id="23"/>
+<OBJ id="68"/>
+<OBJ id="75"/>
+</EXT>
+<INT>
+<ATT id="3"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="21">
+<EXT>
+<OBJ id="0"/>
+<OBJ id="1"/>
+<OBJ id="16"/>
+<OBJ id="26"/>
+<OBJ id="40"/>
+</EXT>
+<INT>
+<ATT id="9"/>
+<ATT id="11"/>
+</INT>
+<SUP_NOD>
+<PARENT id="25"/>
+<PARENT id="32"/>
+</SUP_NOD>
+</NOD>
+<NOD id="22">
+<EXT>
+<OBJ id="16"/>
+<OBJ id="39"/>
+<OBJ id="44"/>
+<OBJ id="59"/>
+<OBJ id="71"/>
+</EXT>
+<INT>
+<ATT id="2"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="23">
+<EXT>
+<OBJ id="1"/>
+<OBJ id="18"/>
+<OBJ id="22"/>
+<OBJ id="26"/>
+<OBJ id="48"/>
+<OBJ id="58"/>
+<OBJ id="62"/>
+</EXT>
+<INT>
+<ATT id="1"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="24">
+<EXT>
+<OBJ id="3"/>
+<OBJ id="13"/>
+<OBJ id="14"/>
+<OBJ id="19"/>
+<OBJ id="32"/>
+<OBJ id="35"/>
+<OBJ id="44"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="25">
+<EXT>
+<OBJ id="0"/>
+<OBJ id="1"/>
+<OBJ id="7"/>
+<OBJ id="16"/>
+<OBJ id="26"/>
+<OBJ id="40"/>
+<OBJ id="61"/>
+<OBJ id="63"/>
+</EXT>
+<INT>
+<ATT id="11"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="26">
+<EXT>
+<OBJ id="5"/>
+<OBJ id="27"/>
+<OBJ id="29"/>
+<OBJ id="37"/>
+<OBJ id="38"/>
+<OBJ id="49"/>
+<OBJ id="57"/>
+<OBJ id="76"/>
+</EXT>
+<INT>
+<ATT id="6"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="27">
+<EXT>
+<OBJ id="2"/>
+<OBJ id="7"/>
+<OBJ id="14"/>
+<OBJ id="36"/>
+<OBJ id="42"/>
+<OBJ id="45"/>
+<OBJ id="51"/>
+<OBJ id="52"/>
+<OBJ id="80"/>
+</EXT>
+<INT>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="28">
+<EXT>
+<OBJ id="1"/>
+<OBJ id="3"/>
+<OBJ id="11"/>
+<OBJ id="21"/>
+<OBJ id="28"/>
+<OBJ id="44"/>
+<OBJ id="50"/>
+<OBJ id="70"/>
+<OBJ id="72"/>
+<OBJ id="77"/>
+</EXT>
+<INT>
+<ATT id="7"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="29">
+<EXT>
+<OBJ id="2"/>
+<OBJ id="9"/>
+<OBJ id="15"/>
+<OBJ id="20"/>
+<OBJ id="31"/>
+<OBJ id="34"/>
+<OBJ id="41"/>
+<OBJ id="43"/>
+<OBJ id="51"/>
+<OBJ id="73"/>
+</EXT>
+<INT>
+<ATT id="8"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="30">
+<EXT>
+<OBJ id="8"/>
+<OBJ id="12"/>
+<OBJ id="24"/>
+<OBJ id="27"/>
+<OBJ id="33"/>
+<OBJ id="47"/>
+<OBJ id="54"/>
+<OBJ id="64"/>
+<OBJ id="67"/>
+<OBJ id="79"/>
+</EXT>
+<INT>
+<ATT id="10"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="31">
+<EXT>
+<OBJ id="17"/>
+<OBJ id="26"/>
+<OBJ id="27"/>
+<OBJ id="30"/>
+<OBJ id="33"/>
+<OBJ id="36"/>
+<OBJ id="55"/>
+<OBJ id="57"/>
+<OBJ id="65"/>
+<OBJ id="66"/>
+<OBJ id="78"/>
+</EXT>
+<INT>
+<ATT id="12"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="32">
+<EXT>
+<OBJ id="0"/>
+<OBJ id="1"/>
+<OBJ id="4"/>
+<OBJ id="6"/>
+<OBJ id="10"/>
+<OBJ id="16"/>
+<OBJ id="26"/>
+<OBJ id="31"/>
+<OBJ id="35"/>
+<OBJ id="40"/>
+<OBJ id="46"/>
+<OBJ id="53"/>
+<OBJ id="56"/>
+<OBJ id="60"/>
+<OBJ id="69"/>
+<OBJ id="81"/>
+<OBJ id="82"/>
+</EXT>
+<INT>
+<ATT id="9"/>
+</INT>
+<SUP_NOD>
+<PARENT id="33"/>
+</SUP_NOD>
+</NOD>
+<NOD id="33">
+<EXT>
+<OBJ id="0"/>
+<OBJ id="1"/>
+<OBJ id="2"/>
+<OBJ id="3"/>
+<OBJ id="4"/>
+<OBJ id="5"/>
+<OBJ id="6"/>
+<OBJ id="7"/>
+<OBJ id="8"/>
+<OBJ id="9"/>
+<OBJ id="10"/>
+<OBJ id="11"/>
+<OBJ id="12"/>
+<OBJ id="13"/>
+<OBJ id="14"/>
+<OBJ id="15"/>
+<OBJ id="16"/>
+<OBJ id="17"/>
+<OBJ id="18"/>
+<OBJ id="19"/>
+<OBJ id="20"/>
+<OBJ id="21"/>
+<OBJ id="22"/>
+<OBJ id="23"/>
+<OBJ id="24"/>
+<OBJ id="25"/>
+<OBJ id="26"/>
+<OBJ id="27"/>
+<OBJ id="28"/>
+<OBJ id="29"/>
+<OBJ id="30"/>
+<OBJ id="31"/>
+<OBJ id="32"/>
+<OBJ id="33"/>
+<OBJ id="34"/>
+<OBJ id="35"/>
+<OBJ id="36"/>
+<OBJ id="37"/>
+<OBJ id="38"/>
+<OBJ id="39"/>
+<OBJ id="40"/>
+<OBJ id="41"/>
+<OBJ id="42"/>
+<OBJ id="43"/>
+<OBJ id="44"/>
+<OBJ id="45"/>
+<OBJ id="46"/>
+<OBJ id="47"/>
+<OBJ id="48"/>
+<OBJ id="49"/>
+<OBJ id="50"/>
+<OBJ id="51"/>
+<OBJ id="52"/>
+<OBJ id="53"/>
+<OBJ id="54"/>
+<OBJ id="55"/>
+<OBJ id="56"/>
+<OBJ id="57"/>
+<OBJ id="58"/>
+<OBJ id="59"/>
+<OBJ id="60"/>
+<OBJ id="61"/>
+<OBJ id="62"/>
+<OBJ id="63"/>
+<OBJ id="64"/>
+<OBJ id="65"/>
+<OBJ id="66"/>
+<OBJ id="67"/>
+<OBJ id="68"/>
+<OBJ id="69"/>
+<OBJ id="70"/>
+<OBJ id="71"/>
+<OBJ id="72"/>
+<OBJ id="73"/>
+<OBJ id="74"/>
+<OBJ id="75"/>
+<OBJ id="76"/>
+<OBJ id="77"/>
+<OBJ id="78"/>
+<OBJ id="79"/>
+<OBJ id="80"/>
+<OBJ id="81"/>
+<OBJ id="82"/>
+</EXT>
+<INT>
+</INT>
+<SUP_NOD/>
+</NOD>
+</NODS>
+</LAT>

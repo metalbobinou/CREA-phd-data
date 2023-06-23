@@ -1,0 +1,7 @@
+Concept ID;Level;Nb Obj;Nb Att;Objects;Attributes;
+0;2;0;4;;C3.csv,C5.csv,C6.csv,CJA-automatic.csv,;
+1;1;4;1;php bn:01753580n,http bn:00045088n,xml bn:02771436n,composer bn:14766022n,;C5.csv,;
+2;1;6;1;commentaires bn:00020978n,méthode bn:01641329n,classe bn:03608262n,java bn:00048043n,mise bn:00016287n,publique bn:00109211a,;CJA-automatic.csv,;
+3;1;7;1;langage bn:00049910n,base de données bn:00025333n,données bn:00025314n,site bn:00047172n,personne bn:00046516n,varchar bn:01838409n,null bn:15898583n,;C6.csv,;
+4;1;8;1;script bn:01431715n,chaîne bn:00074685n,programmation bn:00021493n,timestamp bn:03603649n,fichiers bn:00021475n,code bn:00020354n,texte bn:00076732n,files bn:00065682n,;C3.csv,;
+5;0;25;0;php bn:01753580n,script bn:01431715n,langage bn:00049910n,commentaires bn:00020978n,chaîne bn:00074685n,programmation bn:00021493n,timestamp bn:03603649n,base de données bn:00025333n,données bn:00025314n,fichiers bn:00021475n,code bn:00020354n,texte bn:00076732n,http bn:00045088n,méthode bn:01641329n,classe bn:03608262n,java bn:00048043n,site bn:00047172n,personne bn:00046516n,xml bn:02771436n,files bn:00065682n,varchar bn:01838409n,mise bn:00016287n,publique bn:00109211a,composer bn:14766022n,null bn:15898583n,;;

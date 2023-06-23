@@ -1,0 +1,115 @@
+// <Lattice object of 9 atoms 26 concepts 11 coatoms at 0x6ffff6dd1f60>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="navigateur bn:00013447n" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="donnée bn:00025314n" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="commentaire bn:00020978n" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="nombre bn:00058285n" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="méthode post bn:00045088n" labelangle=270]
+	c5 -> c0
+	c6
+	c6 -> c6 [color=transparent headlabel="site bn:00047172n" labelangle=270]
+	c6 -> c0
+	c7
+	c7 -> c7 [color=transparent headlabel="langage de script bn:01431715n" labelangle=270]
+	c7 -> c0
+	c8
+	c8 -> c8 [color=transparent headlabel="méthode bn:01641329n" labelangle=270]
+	c8 -> c0
+	c9
+	c9 -> c9 [color=transparent headlabel="timestamp bn:03603649n" labelangle=270]
+	c9 -> c0
+	c10
+	c10 -> c2
+	c10 -> c4
+	c11
+	c11 -> c11 [color=transparent headlabel="text bn:14981519n" labelangle=270]
+	c11 -> c2
+	c12
+	c12 -> c12 [color=transparent headlabel="délimiter bn:00086464v" labelangle=270]
+	c12 -> c4
+	c13
+	c13 -> c13 [color=transparent headlabel="personne bn:00046516n" labelangle=270]
+	c13 -> c4
+	c14
+	c14 -> c14 [color=transparent headlabel="list bn:04720346n" labelangle=270]
+	c14 -> c14 [color=transparent labelangle=90 taillabel=C4]
+	c14 -> c5
+	c14 -> c7
+	c15
+	c15 -> c15 [color=transparent headlabel="serveur web bn:02705179n communication bn:00021221n" labelangle=270]
+	c15 -> c15 [color=transparent labelangle=90 taillabel=C10]
+	c15 -> c1
+	c15 -> c2
+	c15 -> c5
+	c16
+	c16 -> c16 [color=transparent headlabel="programmation bn:00021493n files bn:00065682n" labelangle=270]
+	c16 -> c16 [color=transparent labelangle=90 taillabel=C3]
+	c16 -> c4
+	c16 -> c8
+	c16 -> c9
+	c17
+	c17 -> c17 [color=transparent headlabel="doctype bn:15839327n configuration bn:03088982n xml bn:02771436n composer bn:14766022n" labelangle=270]
+	c17 -> c17 [color=transparent labelangle=90 taillabel=C5]
+	c17 -> c5
+	c18
+	c18 -> c18 [color=transparent headlabel="java bn:00048043n classes bn:03608262n public bn:00109211a mise bn:00016287n" labelangle=270]
+	c18 -> c18 [color=transparent labelangle=90 taillabel=CJA]
+	c18 -> c3
+	c18 -> c8
+	c19
+	c19 -> c19 [color=transparent headlabel="base de donnée bn:00025333n insert bn:03795444n varchar bn:01838409n null bn:15898583n" labelangle=270]
+	c19 -> c19 [color=transparent labelangle=90 taillabel=C6]
+	c19 -> c10
+	c19 -> c13
+	c20
+	c20 -> c20 [color=transparent headlabel="fichier bn:00021475n case à cocher bn:03157691n côté serveur bn:03816678n serveur bn:00044916n interpréter bn:00089840v côté client bn:03163702n pointeur bn:03222272n" labelangle=270]
+	c20 -> c20 [color=transparent labelangle=90 taillabel=C2]
+	c20 -> c3
+	c20 -> c12
+	c21
+	c21 -> c21 [color=transparent headlabel="moteur bn:00030850n type bn:00016413n transaction bn:01403911n mot bn:00081546n visiteur bn:03106425n afficher bn:00087013v" labelangle=270]
+	c21 -> c21 [color=transparent labelangle=90 taillabel=C9]
+	c21 -> c7
+	c21 -> c10
+	c21 -> c11
+	c22
+	c22 -> c22 [color=transparent headlabel="url bn:00079080n langage bn:00049910n case bn:04777941n fermeture bn:16858148n chaîne bn:00074685n header bn:00043309n session bn:03751534n valeur bn:00079508n avoir accès bn:00082209v" labelangle=270]
+	c22 -> c22 [color=transparent labelangle=90 taillabel=C7]
+	c22 -> c6
+	c22 -> c9
+	c23
+	c23 -> c23 [color=transparent headlabel="page web bn:00080778n texte bn:00076732n concerner bn:00083240v utilisateur bn:00079373n associer bn:00082868v machine bn:00054050n mysql bn:01225760n salaire bn:15928884n" labelangle=270]
+	c23 -> c23 [color=transparent labelangle=90 taillabel=C1]
+	c23 -> c1
+	c23 -> c12
+	c23 -> c13
+	c24
+	c24 -> c24 [color=transparent headlabel="php bn:01753580n code bn:00020354n fois bn:00032768n post bn:01500184n jour bn:00000086n paris bn:00015540n opérateur bn:16281811n foreach bn:03463379n cle bn:04756252n bienvenue bn:00080852n class bn:03598962n mysqli bn:01438356n" labelangle=270]
+	c24 -> c24 [color=transparent labelangle=90 taillabel=C8]
+	c24 -> c6
+	c24 -> c11
+	c25
+	c25 -> c14
+	c25 -> c15
+	c25 -> c16
+	c25 -> c17
+	c25 -> c18
+	c25 -> c19
+	c25 -> c20
+	c25 -> c21
+	c25 -> c22
+	c25 -> c23
+	c25 -> c24
+}

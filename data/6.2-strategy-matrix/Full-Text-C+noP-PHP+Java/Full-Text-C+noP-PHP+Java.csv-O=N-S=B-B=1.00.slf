@@ -1,0 +1,26 @@
+[Lattice]
+7
+6
+[Objects]
+php bn:01753580n
+texte bn:00076732n
+fichier bn:00021475n
+nombre bn:00058285n
+code bn:00020354n
+serveur bn:00044916n
+chaîne bn:00074685n
+[Attributes]
+C11
+C17
+C19
+C5
+C6
+CJA
+[relation]
+1 0 0 0 0 0 
+0 1 0 1 0 1 
+0 0 0 0 0 1 
+0 0 1 1 0 1 
+0 0 0 0 1 0 
+0 0 0 0 1 1 
+0 0 1 1 0 0 

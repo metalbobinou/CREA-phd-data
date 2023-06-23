@@ -1,0 +1,11 @@
+Concept ID;Level;Type Obj/Att;Nb Obj;Nb Att;Objects/Attributes;
+0;2;Objects;0;3;
+0;2;Attributes;0;3;C3.csv;C5.csv;C6.csv;
+1;1;Objects;3;1;php bn:01753580n;http bn:00045088n;xml bn:02771436n;
+1;1;Attributes;3;1;C5.csv;
+2;1;Objects;6;1;langage bn:00049910n;base de données bn:00025333n;données bn:00025314n;site bn:00047172n;personne bn:00046516n;varchar bn:01838409n;
+2;1;Attributes;6;1;C6.csv;
+3;1;Objects;8;1;script bn:01431715n;chaîne bn:00074685n;programmation bn:00021493n;timestamp bn:03603649n;fichiers bn:00021475n;code bn:00020354n;texte bn:00076732n;méthode bn:01641329n;
+3;1;Attributes;8;1;C3.csv;
+4;0;Objects;17;0;php bn:01753580n;script bn:01431715n;langage bn:00049910n;chaîne bn:00074685n;programmation bn:00021493n;timestamp bn:03603649n;base de données bn:00025333n;données bn:00025314n;fichiers bn:00021475n;code bn:00020354n;texte bn:00076732n;http bn:00045088n;méthode bn:01641329n;site bn:00047172n;personne bn:00046516n;xml bn:02771436n;varchar bn:01838409n;
+4;0;Attributes;17;0;

@@ -1,0 +1,63 @@
+B
+
+24
+10
+
+fichier bn:00021475n
+client bn:00019764n
+base de donnée bn:00025333n
+donnée bn:00025314n
+php bn:01753580n
+post bn:01500184n
+nombre bn:00058285n
+zones bn:00005513n
+salaire bn:15928884n
+site bn:00047172n
+chaîne bn:00074685n
+langage de script bn:01431715n
+super bn:17336345n
+type bn:00016413n
+serveur bn:00044916n
+pouvoir bn:00084451v
+france bn:00036202n
+pointeur bn:03222272n
+casse bn:03225002n
+timestamp bn:03603649n
+echo bn:03626250n
+valeur bn:00079508n
+généralité bn:00041249n
+autre bn:00108013a
+C1
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+C9
+C10
+X....X..XX
+X.XX......
+..XXX.X...
+.XXXX.X...
+...X.X..X.
+.XX.XX..X.
+...XX.XX.X
+..X..X....
+.........X
+XXX.X.....
+....X..X.X
+.X..XX...X
+.........X
+..X.XXX...
+.....X....
+.........X
+.X........
+..X.......
+....X.....
+.X..XX....
+.....X....
+..X.......
+.....X....
+.....X....

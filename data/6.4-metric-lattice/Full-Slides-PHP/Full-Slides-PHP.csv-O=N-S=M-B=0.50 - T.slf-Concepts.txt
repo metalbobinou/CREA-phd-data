@@ -1,0 +1,2933 @@
+Concept (0) : 
+  level : 9
+  objects (0) : 
+  attributes (11) : C1 C12 C13 C14 C16 C18 C2 C4 C7 C8 C9 
+  parents concepts (12) : 1 2 3 4 5 6 7 8 9 10 11 12 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 5
+  objects (1) : fichier bn:00021475n 
+  attributes (5) : C1 C12 C13 C18 C8 
+  parents concepts (4) : 14 15 55 102 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 8
+  objects (1) : javascript bn:00055423n 
+  attributes (8) : C1 C12 C13 C14 C16 C2 C4 C9 
+  parents concepts (6) : 16 17 18 19 49 64 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 5
+  objects (1) : mise en forme bn:01681906n 
+  attributes (5) : C1 C13 C14 C18 C4 
+  parents concepts (5) : 21 22 119 128 164 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 8
+  objects (1) : affichage bn:00010421n 
+  attributes (9) : C1 C12 C14 C16 C18 C2 C4 C7 C9 
+  parents concepts (8) : 16 23 24 25 26 27 28 71 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 7
+  objects (1) : lien hypertextes bn:00045513n 
+  attributes (7) : C1 C13 C18 C2 C4 C8 C9 
+  parents concepts (7) : 14 21 24 29 30 31 32 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 7
+  objects (1) : champ de saisie bn:03113401n 
+  attributes (7) : C1 C13 C14 C2 C4 C8 C9 
+  parents concepts (5) : 17 29 33 34 35 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 8
+  objects (1) : booléen bn:00294693n 
+  attributes (9) : C1 C12 C13 C14 C16 C2 C4 C7 C8 
+  parents concepts (8) : 15 18 20 25 33 36 37 38 
+  childs concepts (1) : 0 
+
+Concept (8) : 
+  level : 8
+  objects (1) : logiques bn:00051845n 
+  attributes (8) : C1 C12 C14 C16 C2 C7 C8 C9 
+  parents concepts (6) : 26 34 36 39 40 41 
+  childs concepts (1) : 0 
+
+Concept (9) : 
+  level : 5
+  objects (1) : prenom bn:15996005n 
+  attributes (5) : C1 C18 C7 C8 C9 
+  parents concepts (4) : 39 97 132 142 
+  childs concepts (1) : 0 
+
+Concept (10) : 
+  level : 7
+  objects (1) : structure de contrôle bn:00047734n 
+  attributes (7) : C1 C13 C14 C16 C18 C2 C9 
+  parents concepts (5) : 19 22 27 30 53 
+  childs concepts (1) : 0 
+
+Concept (11) : 
+  level : 7
+  objects (1) : fermeture bn:16858148n 
+  attributes (7) : C1 C12 C16 C18 C4 C8 C9 
+  parents concepts (6) : 31 37 40 42 43 134 
+  childs concepts (1) : 0 
+
+Concept (12) : 
+  level : 9
+  objects (1) : switch bn:01071927n 
+  attributes (10) : C12 C13 C14 C16 C18 C2 C4 C7 C8 C9 
+  parents concepts (12) : 13 28 32 35 38 41 43 44 45 46 47 48 
+  childs concepts (1) : 0 
+
+Concept (13) : 
+  level : 8
+  objects (2) : serveur web bn:02705179n switch bn:01071927n 
+  attributes (8) : C12 C13 C14 C16 C18 C2 C4 C9 
+  parents concepts (6) : 49 50 51 52 53 54 
+  childs concepts (1) : 12 
+
+Concept (14) : 
+  level : 4
+  objects (2) : fichier bn:00021475n lien hypertextes bn:00045513n 
+  attributes (4) : C1 C13 C18 C8 
+  parents concepts (4) : 116 155 171 172 
+  childs concepts (2) : 1 5 
+
+Concept (15) : 
+  level : 4
+  objects (2) : fichier bn:00021475n booléen bn:00294693n 
+  attributes (4) : C1 C12 C13 C8 
+  parents concepts (4) : 171 173 196 244 
+  childs concepts (2) : 1 7 
+
+Concept (16) : 
+  level : 7
+  objects (2) : javascript bn:00055423n affichage bn:00010421n 
+  attributes (7) : C1 C12 C14 C16 C2 C4 C9 
+  parents concepts (5) : 58 59 60 103 122 
+  childs concepts (2) : 2 4 
+
+Concept (17) : 
+  level : 6
+  objects (2) : javascript bn:00055423n champ de saisie bn:03113401n 
+  attributes (6) : C1 C13 C14 C2 C4 C9 
+  parents concepts (5) : 58 61 62 63 104 
+  childs concepts (2) : 2 6 
+
+Concept (18) : 
+  level : 7
+  objects (2) : javascript bn:00055423n booléen bn:00294693n 
+  attributes (7) : C1 C12 C13 C14 C16 C2 C4 
+  parents concepts (4) : 57 59 62 105 
+  childs concepts (2) : 2 7 
+
+Concept (19) : 
+  level : 6
+  objects (2) : javascript bn:00055423n structure de contrôle bn:00047734n 
+  attributes (6) : C1 C13 C14 C16 C2 C9 
+  parents concepts (4) : 63 106 118 124 
+  childs concepts (2) : 2 10 
+
+Concept (20) : 
+  level : 7
+  objects (2) : java bn:00048043n booléen bn:00294693n 
+  attributes (7) : C1 C12 C13 C14 C16 C2 C7 
+  parents concepts (3) : 57 65 183 
+  childs concepts (1) : 7 
+
+Concept (21) : 
+  level : 4
+  objects (2) : mise en forme bn:01681906n lien hypertextes bn:00045513n 
+  attributes (4) : C1 C13 C18 C4 
+  parents concepts (4) : 116 176 249 271 
+  childs concepts (2) : 3 5 
+
+Concept (22) : 
+  level : 4
+  objects (2) : mise en forme bn:01681906n structure de contrôle bn:00047734n 
+  attributes (4) : C1 C13 C14 C18 
+  parents concepts (4) : 116 212 252 263 
+  childs concepts (2) : 3 10 
+
+Concept (23) : 
+  level : 7
+  objects (2) : affichage bn:00010421n fois bn:00032768n 
+  attributes (7) : C1 C12 C16 C18 C2 C7 C9 
+  parents concepts (5) : 67 68 69 70 184 
+  childs concepts (1) : 4 
+
+Concept (24) : 
+  level : 5
+  objects (2) : affichage bn:00010421n lien hypertextes bn:00045513n 
+  attributes (5) : C1 C18 C2 C4 C9 
+  parents concepts (4) : 121 129 213 239 
+  childs concepts (2) : 4 5 
+
+Concept (25) : 
+  level : 7
+  objects (2) : affichage bn:00010421n booléen bn:00294693n 
+  attributes (7) : C1 C12 C14 C16 C2 C4 C7 
+  parents concepts (4) : 59 66 72 183 
+  childs concepts (2) : 4 7 
+
+Concept (26) : 
+  level : 7
+  objects (2) : affichage bn:00010421n logiques bn:00051845n 
+  attributes (7) : C1 C12 C14 C16 C2 C7 C9 
+  parents concepts (4) : 60 67 73 183 
+  childs concepts (2) : 4 8 
+
+Concept (27) : 
+  level : 6
+  objects (2) : affichage bn:00010421n structure de contrôle bn:00047734n 
+  attributes (6) : C1 C14 C16 C18 C2 C9 
+  parents concepts (4) : 68 124 168 174 
+  childs concepts (2) : 4 10 
+
+Concept (28) : 
+  level : 8
+  objects (2) : affichage bn:00010421n switch bn:01071927n 
+  attributes (8) : C12 C14 C16 C18 C2 C4 C7 C9 
+  parents concepts (6) : 50 70 72 73 74 75 
+  childs concepts (2) : 4 12 
+
+Concept (29) : 
+  level : 6
+  objects (2) : lien hypertextes bn:00045513n champ de saisie bn:03113401n 
+  attributes (6) : C1 C13 C2 C4 C8 C9 
+  parents concepts (6) : 56 61 76 77 78 79 
+  childs concepts (2) : 5 6 
+
+Concept (30) : 
+  level : 5
+  objects (2) : lien hypertextes bn:00045513n structure de contrôle bn:00047734n 
+  attributes (5) : C1 C13 C18 C2 C9 
+  parents concepts (4) : 113 116 126 129 
+  childs concepts (2) : 5 10 
+
+Concept (31) : 
+  level : 5
+  objects (2) : lien hypertextes bn:00045513n fermeture bn:16858148n 
+  attributes (5) : C1 C18 C4 C8 C9 
+  parents concepts (4) : 78 142 143 213 
+  childs concepts (2) : 5 11 
+
+Concept (32) : 
+  level : 6
+  objects (2) : lien hypertextes bn:00045513n switch bn:01071927n 
+  attributes (6) : C13 C18 C2 C4 C8 C9 
+  parents concepts (4) : 51 79 80 155 
+  childs concepts (2) : 5 12 
+
+Concept (33) : 
+  level : 6
+  objects (2) : champ de saisie bn:03113401n booléen bn:00294693n 
+  attributes (6) : C1 C13 C14 C2 C4 C8 
+  parents concepts (4) : 62 76 81 82 
+  childs concepts (2) : 6 7 
+
+Concept (34) : 
+  level : 5
+  objects (2) : champ de saisie bn:03113401n logiques bn:00051845n 
+  attributes (5) : C1 C14 C2 C8 C9 
+  parents concepts (4) : 77 81 83 182 
+  childs concepts (2) : 6 8 
+
+Concept (35) : 
+  level : 6
+  objects (2) : champ de saisie bn:03113401n switch bn:01071927n 
+  attributes (6) : C13 C14 C2 C4 C8 C9 
+  parents concepts (6) : 79 82 83 84 85 104 
+  childs concepts (2) : 6 12 
+
+Concept (36) : 
+  level : 7
+  objects (2) : booléen bn:00294693n logiques bn:00051845n 
+  attributes (7) : C1 C12 C14 C16 C2 C7 C8 
+  parents concepts (5) : 81 86 87 88 183 
+  childs concepts (2) : 7 8 
+
+Concept (37) : 
+  level : 5
+  objects (2) : booléen bn:00294693n fermeture bn:16858148n 
+  attributes (5) : C1 C12 C16 C4 C8 
+  parents concepts (4) : 87 89 139 220 
+  childs concepts (2) : 7 11 
+
+Concept (38) : 
+  level : 7
+  objects (2) : booléen bn:00294693n switch bn:01071927n 
+  attributes (8) : C12 C13 C14 C16 C2 C4 C7 C8 
+  parents concepts (9) : 65 72 82 88 89 90 91 105 156 
+  childs concepts (2) : 7 12 
+
+Concept (39) : 
+  level : 4
+  objects (2) : logiques bn:00051845n prenom bn:15996005n 
+  attributes (4) : C1 C7 C8 C9 
+  parents concepts (4) : 86 151 185 247 
+  childs concepts (2) : 8 9 
+
+Concept (40) : 
+  level : 5
+  objects (2) : logiques bn:00051845n fermeture bn:16858148n 
+  attributes (5) : C1 C12 C16 C8 C9 
+  parents concepts (4) : 87 92 229 279 
+  childs concepts (2) : 8 11 
+
+Concept (41) : 
+  level : 7
+  objects (2) : logiques bn:00051845n switch bn:01071927n 
+  attributes (7) : C12 C14 C16 C2 C7 C8 C9 
+  parents concepts (8) : 73 83 88 93 94 95 96 229 
+  childs concepts (2) : 8 12 
+
+Concept (42) : 
+  level : 5
+  objects (2) : fermeture bn:16858148n boucle while bn:03237310n 
+  attributes (5) : C1 C12 C18 C8 C9 
+  parents concepts (5) : 55 92 142 194 259 
+  childs concepts (1) : 11 
+
+Concept (43) : 
+  level : 6
+  objects (2) : fermeture bn:16858148n switch bn:01071927n 
+  attributes (6) : C12 C16 C18 C4 C8 C9 
+  parents concepts (7) : 89 98 99 100 101 210 229 
+  childs concepts (2) : 11 12 
+
+Concept (44) : 
+  level : 7
+  objects (2) : méthode bn:01641329n switch bn:01071927n 
+  attributes (7) : C12 C18 C2 C4 C7 C8 C9 
+  parents concepts (6) : 74 80 90 93 97 98 
+  childs concepts (1) : 12 
+
+Concept (45) : 
+  level : 5
+  objects (2) : switch bn:01071927n insert bn:03795444n 
+  attributes (5) : C12 C13 C14 C8 C9 
+  parents concepts (4) : 84 94 108 156 
+  childs concepts (1) : 12 
+
+Concept (46) : 
+  level : 5
+  objects (2) : switch bn:01071927n doctype bn:15839327n 
+  attributes (5) : C14 C16 C4 C8 C9 
+  parents concepts (5) : 85 91 95 100 322 
+  childs concepts (1) : 12 
+
+Concept (47) : 
+  level : 5
+  objects (2) : switch bn:01071927n comparaison bn:00021304n 
+  attributes (5) : C16 C18 C2 C8 C9 
+  parents concepts (4) : 96 101 144 272 
+  childs concepts (1) : 12 
+
+Concept (48) : 
+  level : 5
+  objects (3) : page web bn:00080778n switch bn:01071927n delete bn:00941697n 
+  attributes (5) : C12 C13 C14 C18 C8 
+  parents concepts (3) : 102 154 156 
+  childs concepts (1) : 12 
+
+Concept (49) : 
+  level : 7
+  objects (3) : serveur web bn:02705179n javascript bn:00055423n switch bn:01071927n 
+  attributes (7) : C12 C13 C14 C16 C2 C4 C9 
+  parents concepts (6) : 103 104 105 106 107 108 
+  childs concepts (2) : 2 13 
+
+Concept (50) : 
+  level : 7
+  objects (3) : serveur web bn:02705179n affichage bn:00010421n switch bn:01071927n 
+  attributes (7) : C12 C14 C16 C18 C2 C4 C9 
+  parents concepts (6) : 103 109 110 111 163 165 
+  childs concepts (2) : 13 28 
+
+Concept (51) : 
+  level : 5
+  objects (3) : serveur web bn:02705179n lien hypertextes bn:00045513n switch bn:01071927n 
+  attributes (5) : C13 C18 C2 C4 C9 
+  parents concepts (4) : 112 113 160 239 
+  childs concepts (2) : 13 32 
+
+Concept (52) : 
+  level : 6
+  objects (3) : serveur web bn:02705179n langage bn:00049910n switch bn:01071927n 
+  attributes (6) : C12 C13 C14 C18 C2 C4 
+  parents concepts (6) : 109 112 114 154 164 205 
+  childs concepts (1) : 13 
+
+Concept (53) : 
+  level : 6
+  objects (3) : serveur web bn:02705179n structure de contrôle bn:00047734n switch bn:01071927n 
+  attributes (6) : C13 C14 C16 C18 C2 C9 
+  parents concepts (5) : 106 113 114 115 168 
+  childs concepts (2) : 10 13 
+
+Concept (54) : 
+  level : 4
+  objects (3) : serveur web bn:02705179n switch bn:01071927n pdf bn:01745594n 
+  attributes (4) : C13 C16 C18 C4 
+  parents concepts (4) : 115 206 271 326 
+  childs concepts (1) : 13 
+
+Concept (55) : 
+  level : 4
+  objects (3) : fichier bn:00021475n fermeture bn:16858148n boucle while bn:03237310n 
+  attributes (4) : C1 C12 C18 C8 
+  parents concepts (4) : 172 173 274 288 
+  childs concepts (2) : 1 42 
+
+Concept (56) : 
+  level : 4
+  objects (3) : base de donnée bn:00025333n lien hypertextes bn:00045513n champ de saisie bn:03113401n 
+  attributes (4) : C1 C13 C8 C9 
+  parents concepts (4) : 171 246 247 248 
+  childs concepts (1) : 29 
+
+Concept (57) : 
+  level : 6
+  objects (3) : javascript bn:00055423n java bn:00048043n booléen bn:00294693n 
+  attributes (6) : C1 C12 C13 C14 C16 C2 
+  parents concepts (4) : 117 118 157 215 
+  childs concepts (2) : 18 20 
+
+Concept (58) : 
+  level : 5
+  objects (3) : javascript bn:00055423n affichage bn:00010421n champ de saisie bn:03113401n 
+  attributes (5) : C1 C14 C2 C4 C9 
+  parents concepts (5) : 121 123 182 218 265 
+  childs concepts (2) : 16 17 
+
+Concept (59) : 
+  level : 6
+  objects (3) : javascript bn:00055423n affichage bn:00010421n booléen bn:00294693n 
+  attributes (6) : C1 C12 C14 C16 C2 C4 
+  parents concepts (4) : 123 158 178 215 
+  childs concepts (3) : 16 18 25 
+
+Concept (60) : 
+  level : 6
+  objects (3) : javascript bn:00055423n affichage bn:00010421n logiques bn:00051845n 
+  attributes (6) : C1 C12 C14 C16 C2 C9 
+  parents concepts (5) : 120 124 179 200 215 
+  childs concepts (2) : 16 26 
+
+Concept (61) : 
+  level : 5
+  objects (3) : javascript bn:00055423n lien hypertextes bn:00045513n champ de saisie bn:03113401n 
+  attributes (5) : C1 C13 C2 C4 C9 
+  parents concepts (4) : 121 125 126 160 
+  childs concepts (2) : 17 29 
+
+Concept (62) : 
+  level : 5
+  objects (3) : javascript bn:00055423n champ de saisie bn:03113401n booléen bn:00294693n 
+  attributes (5) : C1 C13 C14 C2 C4 
+  parents concepts (5) : 119 123 125 175 236 
+  childs concepts (3) : 17 18 33 
+
+Concept (63) : 
+  level : 5
+  objects (3) : javascript bn:00055423n champ de saisie bn:03113401n structure de contrôle bn:00047734n 
+  attributes (5) : C1 C13 C14 C2 C9 
+  parents concepts (4) : 126 161 175 182 
+  childs concepts (2) : 17 19 
+
+Concept (64) : 
+  level : 4
+  objects (3) : javascript bn:00055423n addition bn:00001296n soustraction bn:00055233n 
+  attributes (4) : C1 C12 C13 C9 
+  parents concepts (4) : 244 246 311 347 
+  childs concepts (1) : 2 
+
+Concept (65) : 
+  level : 6
+  objects (3) : java bn:00048043n booléen bn:00294693n switch bn:01071927n 
+  attributes (6) : C12 C13 C14 C16 C2 C7 
+  parents concepts (2) : 157 224 
+  childs concepts (2) : 20 38 
+
+Concept (66) : 
+  level : 4
+  objects (3) : fichier texte bn:00028018n affichage bn:00010421n booléen bn:00294693n 
+  attributes (4) : C1 C2 C4 C7 
+  parents concepts (4) : 127 217 225 301 
+  childs concepts (1) : 25 
+
+Concept (67) : 
+  level : 6
+  objects (3) : affichage bn:00010421n fois bn:00032768n logiques bn:00051845n 
+  attributes (6) : C1 C12 C16 C2 C7 C9 
+  parents concepts (4) : 120 130 131 222 
+  childs concepts (2) : 23 26 
+
+Concept (68) : 
+  level : 5
+  objects (3) : affichage bn:00010421n fois bn:00032768n structure de contrôle bn:00047734n 
+  attributes (5) : C1 C16 C18 C2 C9 
+  parents concepts (4) : 129 177 245 272 
+  childs concepts (2) : 23 27 
+
+Concept (69) : 
+  level : 5
+  objects (3) : affichage bn:00010421n fois bn:00032768n détruire bn:00084204v 
+  attributes (5) : C1 C12 C18 C7 C9 
+  parents concepts (4) : 130 132 226 259 
+  childs concepts (1) : 23 
+
+Concept (70) : 
+  level : 6
+  objects (3) : affichage bn:00010421n fois bn:00032768n switch bn:01071927n 
+  attributes (6) : C12 C16 C18 C2 C7 C9 
+  parents concepts (4) : 131 133 186 209 
+  childs concepts (2) : 23 28 
+
+Concept (71) : 
+  level : 7
+  objects (3) : affichage bn:00010421n url bn:00079080n définition bn:00025928n 
+  attributes (7) : C1 C12 C14 C16 C18 C4 C9 
+  parents concepts (5) : 122 128 134 165 174 
+  childs concepts (1) : 4 
+
+Concept (72) : 
+  level : 6
+  objects (3) : affichage bn:00010421n booléen bn:00294693n switch bn:01071927n 
+  attributes (6) : C12 C14 C16 C2 C4 C7 
+  parents concepts (3) : 135 158 224 
+  childs concepts (3) : 25 28 38 
+
+Concept (73) : 
+  level : 6
+  objects (3) : affichage bn:00010421n logiques bn:00051845n switch bn:01071927n 
+  attributes (6) : C12 C14 C16 C2 C7 C9 
+  parents concepts (4) : 131 136 200 224 
+  childs concepts (3) : 26 28 41 
+
+Concept (74) : 
+  level : 6
+  objects (3) : affichage bn:00010421n méthode bn:01641329n switch bn:01071927n 
+  attributes (6) : C12 C18 C2 C4 C7 C9 
+  parents concepts (3) : 110 137 186 
+  childs concepts (2) : 28 44 
+
+Concept (75) : 
+  level : 6
+  objects (3) : affichage bn:00010421n switch bn:01071927n temps bn:00077270n 
+  attributes (6) : C12 C14 C2 C4 C7 C9 
+  parents concepts (4) : 135 136 137 159 
+  childs concepts (1) : 28 
+
+Concept (76) : 
+  level : 5
+  objects (3) : lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n 
+  attributes (5) : C1 C13 C2 C4 C8 
+  parents concepts (5) : 125 138 139 140 171 
+  childs concepts (2) : 29 33 
+
+Concept (77) : 
+  level : 4
+  objects (3) : lien hypertextes bn:00045513n champ de saisie bn:03113401n logiques bn:00051845n 
+  attributes (4) : C1 C2 C8 C9 
+  parents concepts (4) : 138 228 247 253 
+  childs concepts (2) : 29 34 
+
+Concept (78) : 
+  level : 4
+  objects (3) : lien hypertextes bn:00045513n champ de saisie bn:03113401n fermeture bn:16858148n 
+  attributes (4) : C1 C4 C8 C9 
+  parents concepts (4) : 139 247 262 313 
+  childs concepts (2) : 29 31 
+
+Concept (79) : 
+  level : 5
+  objects (3) : lien hypertextes bn:00045513n champ de saisie bn:03113401n switch bn:01071927n 
+  attributes (5) : C13 C2 C4 C8 C9 
+  parents concepts (4) : 140 141 160 248 
+  childs concepts (3) : 29 32 35 
+
+Concept (80) : 
+  level : 5
+  objects (3) : lien hypertextes bn:00045513n méthode bn:01641329n switch bn:01071927n 
+  attributes (5) : C18 C2 C4 C8 C9 
+  parents concepts (4) : 141 143 144 239 
+  childs concepts (2) : 32 44 
+
+Concept (81) : 
+  level : 4
+  objects (3) : champ de saisie bn:03113401n booléen bn:00294693n logiques bn:00051845n 
+  attributes (4) : C1 C14 C2 C8 
+  parents concepts (3) : 138 145 300 
+  childs concepts (3) : 33 34 36 
+
+Concept (82) : 
+  level : 5
+  objects (3) : champ de saisie bn:03113401n booléen bn:00294693n switch bn:01071927n 
+  attributes (5) : C13 C14 C2 C4 C8 
+  parents concepts (5) : 140 145 146 197 236 
+  childs concepts (3) : 33 35 38 
+
+Concept (83) : 
+  level : 4
+  objects (3) : champ de saisie bn:03113401n logiques bn:00051845n switch bn:01071927n 
+  attributes (4) : C14 C2 C8 C9 
+  parents concepts (4) : 145 190 228 333 
+  childs concepts (3) : 34 35 41 
+
+Concept (84) : 
+  level : 4
+  objects (3) : champ de saisie bn:03113401n switch bn:01071927n insert bn:03795444n 
+  attributes (4) : C13 C14 C8 C9 
+  parents concepts (4) : 190 197 204 248 
+  childs concepts (2) : 35 45 
+
+Concept (85) : 
+  level : 4
+  objects (3) : champ de saisie bn:03113401n switch bn:01071927n doctype bn:15839327n 
+  attributes (4) : C14 C4 C8 C9 
+  parents concepts (4) : 146 190 262 379 
+  childs concepts (2) : 35 46 
+
+Concept (86) : 
+  level : 3
+  objects (3) : booléen bn:00294693n logiques bn:00051845n prenom bn:15996005n 
+  attributes (3) : C1 C7 C8 
+  parents concepts (3) : 191 312 346 
+  childs concepts (2) : 36 39 
+
+Concept (87) : 
+  level : 4
+  objects (3) : booléen bn:00294693n logiques bn:00051845n fermeture bn:16858148n 
+  attributes (4) : C1 C12 C16 C8 
+  parents concepts (3) : 173 304 341 
+  childs concepts (3) : 36 37 40 
+
+Concept (88) : 
+  level : 6
+  objects (3) : booléen bn:00294693n logiques bn:00051845n switch bn:01071927n 
+  attributes (6) : C12 C14 C16 C2 C7 C8 
+  parents concepts (5) : 145 147 148 149 224 
+  childs concepts (3) : 36 38 41 
+
+Concept (89) : 
+  level : 4
+  objects (3) : booléen bn:00294693n fermeture bn:16858148n switch bn:01071927n 
+  attributes (4) : C12 C16 C4 C8 
+  parents concepts (4) : 150 193 304 335 
+  childs concepts (3) : 37 38 43 
+
+Concept (90) : 
+  level : 5
+  objects (3) : booléen bn:00294693n méthode bn:01641329n switch bn:01071927n 
+  attributes (5) : C12 C2 C4 C7 C8 
+  parents concepts (4) : 147 187 189 193 
+  childs concepts (2) : 38 44 
+
+Concept (91) : 
+  level : 4
+  objects (3) : booléen bn:00294693n switch bn:01071927n doctype bn:15839327n 
+  attributes (4) : C14 C16 C4 C8 
+  parents concepts (4) : 146 150 192 334 
+  childs concepts (2) : 38 46 
+
+Concept (92) : 
+  level : 4
+  objects (3) : logiques bn:00051845n fermeture bn:16858148n boucle while bn:03237310n 
+  attributes (4) : C1 C12 C8 C9 
+  parents concepts (4) : 173 247 347 356 
+  childs concepts (2) : 40 42 
+
+Concept (93) : 
+  level : 4
+  objects (3) : logiques bn:00051845n méthode bn:01641329n switch bn:01071927n 
+  attributes (5) : C12 C2 C7 C8 C9 
+  parents concepts (5) : 147 151 228 260 356 
+  childs concepts (2) : 41 44 
+
+Concept (94) : 
+  level : 4
+  objects (3) : logiques bn:00051845n switch bn:01071927n insert bn:03795444n 
+  attributes (4) : C12 C14 C8 C9 
+  parents concepts (4) : 190 230 356 367 
+  childs concepts (2) : 41 45 
+
+Concept (95) : 
+  level : 4
+  objects (3) : logiques bn:00051845n switch bn:01071927n doctype bn:15839327n 
+  attributes (4) : C14 C16 C8 C9 
+  parents concepts (4) : 190 192 305 371 
+  childs concepts (2) : 41 46 
+
+Concept (96) : 
+  level : 4
+  objects (3) : logiques bn:00051845n switch bn:01071927n comparaison bn:00021304n 
+  attributes (4) : C16 C2 C8 C9 
+  parents concepts (4) : 149 228 305 309 
+  childs concepts (2) : 41 47 
+
+Concept (97) : 
+  level : 4
+  objects (3) : prenom bn:15996005n méthode bn:01641329n switch bn:01071927n 
+  attributes (4) : C18 C7 C8 C9 
+  parents concepts (3) : 151 261 287 
+  childs concepts (2) : 9 44 
+
+Concept (98) : 
+  level : 5
+  objects (3) : fermeture bn:16858148n méthode bn:01641329n switch bn:01071927n 
+  attributes (5) : C12 C18 C4 C8 C9 
+  parents concepts (4) : 143 152 194 325 
+  childs concepts (2) : 43 44 
+
+Concept (99) : 
+  level : 4
+  objects (3) : fermeture bn:16858148n switch bn:01071927n message bn:00521573n 
+  attributes (4) : C12 C16 C18 C8 
+  parents concepts (4) : 153 288 304 360 
+  childs concepts (1) : 43 
+
+Concept (100) : 
+  level : 4
+  objects (3) : fermeture bn:16858148n switch bn:01071927n doctype bn:15839327n 
+  attributes (4) : C16 C4 C8 C9 
+  parents concepts (4) : 150 262 305 362 
+  childs concepts (2) : 43 46 
+
+Concept (101) : 
+  level : 4
+  objects (3) : fermeture bn:16858148n switch bn:01071927n comparaison bn:00021304n 
+  attributes (4) : C16 C18 C8 C9 
+  parents concepts (4) : 153 287 305 376 
+  childs concepts (2) : 43 47 
+
+Concept (102) : 
+  level : 4
+  objects (4) : page web bn:00080778n fichier bn:00021475n switch bn:01071927n delete bn:00941697n 
+  attributes (4) : C12 C13 C18 C8 
+  parents concepts (4) : 155 195 196 288 
+  childs concepts (2) : 1 48 
+
+Concept (103) : 
+  level : 6
+  objects (4) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n switch bn:01071927n 
+  attributes (6) : C12 C14 C16 C2 C4 C9 
+  parents concepts (4) : 158 159 199 200 
+  childs concepts (3) : 16 49 50 
+
+Concept (104) : 
+  level : 5
+  objects (4) : serveur web bn:02705179n javascript bn:00055423n champ de saisie bn:03113401n switch bn:01071927n 
+  attributes (5) : C13 C14 C2 C4 C9 
+  parents concepts (4) : 160 161 236 265 
+  childs concepts (3) : 17 35 49 
+
+Concept (105) : 
+  level : 6
+  objects (4) : serveur web bn:02705179n javascript bn:00055423n booléen bn:00294693n switch bn:01071927n 
+  attributes (6) : C12 C13 C14 C16 C2 C4 
+  parents concepts (4) : 157 158 162 205 
+  childs concepts (3) : 18 38 49 
+
+Concept (106) : 
+  level : 5
+  objects (4) : serveur web bn:02705179n javascript bn:00055423n structure de contrôle bn:00047734n switch bn:01071927n 
+  attributes (5) : C13 C14 C16 C2 C9 
+  parents concepts (4) : 161 198 234 238 
+  childs concepts (3) : 19 49 53 
+
+Concept (107) : 
+  level : 5
+  objects (4) : serveur web bn:02705179n javascript bn:00055423n multiplication bn:00056300n switch bn:01071927n 
+  attributes (5) : C12 C13 C16 C4 C9 
+  parents concepts (4) : 162 203 207 310 
+  childs concepts (1) : 49 
+
+Concept (108) : 
+  level : 4
+  objects (4) : serveur web bn:02705179n javascript bn:00055423n switch bn:01071927n insert bn:03795444n 
+  attributes (4) : C12 C13 C14 C9 
+  parents concepts (4) : 204 311 331 367 
+  childs concepts (2) : 45 49 
+
+Concept (109) : 
+  level : 5
+  objects (4) : serveur web bn:02705179n affichage bn:00010421n langage bn:00049910n switch bn:01071927n 
+  attributes (5) : C12 C14 C18 C2 C4 
+  parents concepts (5) : 166 167 208 273 292 
+  childs concepts (2) : 50 52 
+
+Concept (110) : 
+  level : 5
+  objects (4) : serveur web bn:02705179n affichage bn:00010421n méthode bn:01641329n switch bn:01071927n 
+  attributes (5) : C12 C18 C2 C4 C9 
+  parents concepts (5) : 166 201 239 295 325 
+  childs concepts (2) : 50 74 
+
+Concept (111) : 
+  level : 6
+  objects (4) : serveur web bn:02705179n affichage bn:00010421n concaténation bn:03489514n switch bn:01071927n 
+  attributes (6) : C12 C14 C16 C18 C2 C9 
+  parents concepts (5) : 167 168 200 209 211 
+  childs concepts (1) : 50 
+
+Concept (112) : 
+  level : 4
+  objects (4) : serveur web bn:02705179n lien hypertextes bn:00045513n langage bn:00049910n switch bn:01071927n 
+  attributes (4) : C13 C18 C2 C4 
+  parents concepts (4) : 169 269 271 293 
+  childs concepts (2) : 51 52 
+
+Concept (113) : 
+  level : 4
+  objects (4) : serveur web bn:02705179n lien hypertextes bn:00045513n structure de contrôle bn:00047734n switch bn:01071927n 
+  attributes (4) : C13 C18 C2 C9 
+  parents concepts (4) : 169 170 202 352 
+  childs concepts (3) : 30 51 53 
+
+Concept (114) : 
+  level : 4
+  objects (4) : serveur web bn:02705179n langage bn:00049910n structure de contrôle bn:00047734n switch bn:01071927n 
+  attributes (4) : C13 C14 C18 C2 
+  parents concepts (4) : 169 263 270 290 
+  childs concepts (2) : 52 53 
+
+Concept (115) : 
+  level : 3
+  objects (4) : serveur web bn:02705179n structure de contrôle bn:00047734n switch bn:01071927n pdf bn:01745594n 
+  attributes (3) : C13 C16 C18 
+  parents concepts (3) : 351 357 394 
+  childs concepts (2) : 53 54 
+
+Concept (116) : 
+  level : 3
+  objects (4) : fichier bn:00021475n mise en forme bn:01681906n lien hypertextes bn:00045513n structure de contrôle bn:00047734n 
+  attributes (3) : C1 C13 C18 
+  parents concepts (3) : 353 354 357 
+  childs concepts (4) : 14 21 22 30 
+
+Concept (117) : 
+  level : 4
+  objects (4) : javascript bn:00055423n java bn:00048043n code source bn:00072947n booléen bn:00294693n 
+  attributes (4) : C1 C12 C13 C14 
+  parents concepts (4) : 244 252 298 331 
+  childs concepts (1) : 57 
+
+Concept (118) : 
+  level : 5
+  objects (4) : javascript bn:00055423n java bn:00048043n booléen bn:00294693n structure de contrôle bn:00047734n 
+  attributes (5) : C1 C13 C14 C16 C2 
+  parents concepts (3) : 175 198 277 
+  childs concepts (2) : 19 57 
+
+Concept (119) : 
+  level : 4
+  objects (4) : javascript bn:00055423n mise en forme bn:01681906n champ de saisie bn:03113401n booléen bn:00294693n 
+  attributes (4) : C1 C13 C14 C4 
+  parents concepts (4) : 176 252 278 321 
+  childs concepts (2) : 3 62 
+
+Concept (120) : 
+  level : 5
+  objects (4) : javascript bn:00055423n affichage bn:00010421n fois bn:00032768n logiques bn:00051845n 
+  attributes (5) : C1 C12 C16 C2 C9 
+  parents concepts (4) : 177 251 266 279 
+  childs concepts (2) : 60 67 
+
+Concept (121) : 
+  level : 4
+  objects (4) : javascript bn:00055423n affichage bn:00010421n lien hypertextes bn:00045513n champ de saisie bn:03113401n 
+  attributes (4) : C1 C2 C4 C9 
+  parents concepts (4) : 217 253 308 313 
+  childs concepts (3) : 24 58 61 
+
+Concept (122) : 
+  level : 6
+  objects (4) : javascript bn:00055423n affichage bn:00010421n url bn:00079080n définition bn:00025928n 
+  attributes (6) : C1 C12 C14 C16 C4 C9 
+  parents concepts (5) : 178 179 180 181 199 
+  childs concepts (2) : 16 71 
+
+Concept (123) : 
+  level : 4
+  objects (4) : javascript bn:00055423n affichage bn:00010421n champ de saisie bn:03113401n booléen bn:00294693n 
+  attributes (4) : C1 C14 C2 C4 
+  parents concepts (4) : 217 278 300 343 
+  childs concepts (3) : 58 59 62 
+
+Concept (124) : 
+  level : 5
+  objects (4) : javascript bn:00055423n affichage bn:00010421n logiques bn:00051845n structure de contrôle bn:00047734n 
+  attributes (5) : C1 C14 C16 C2 C9 
+  parents concepts (5) : 177 182 234 275 277 
+  childs concepts (3) : 19 27 60 
+
+Concept (125) : 
+  level : 4
+  objects (4) : javascript bn:00055423n lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n 
+  attributes (4) : C1 C13 C2 C4 
+  parents concepts (4) : 176 216 217 293 
+  childs concepts (3) : 61 62 76 
+
+Concept (126) : 
+  level : 4
+  objects (4) : javascript bn:00055423n lien hypertextes bn:00045513n champ de saisie bn:03113401n structure de contrôle bn:00047734n 
+  attributes (4) : C1 C13 C2 C9 
+  parents concepts (4) : 202 216 246 253 
+  childs concepts (3) : 30 61 63 
+
+Concept (127) : 
+  level : 3
+  objects (4) : fichier texte bn:00028018n affichage bn:00010421n post bn:01500184n booléen bn:00294693n 
+  attributes (3) : C1 C4 C7 
+  parents concepts (3) : 302 346 363 
+  childs concepts (1) : 66 
+
+Concept (128) : 
+  level : 4
+  objects (4) : mise en forme bn:01681906n affichage bn:00010421n url bn:00079080n définition bn:00025928n 
+  attributes (4) : C1 C14 C18 C4 
+  parents concepts (4) : 212 249 278 359 
+  childs concepts (2) : 3 71 
+
+Concept (129) : 
+  level : 4
+  objects (4) : affichage bn:00010421n fois bn:00032768n lien hypertextes bn:00045513n structure de contrôle bn:00047734n 
+  attributes (4) : C1 C18 C2 C9 
+  parents concepts (3) : 253 339 352 
+  childs concepts (3) : 24 30 68 
+
+Concept (130) : 
+  level : 4
+  objects (4) : affichage bn:00010421n fois bn:00032768n logiques bn:00051845n détruire bn:00084204v 
+  attributes (4) : C1 C12 C7 C9 
+  parents concepts (4) : 185 255 315 347 
+  childs concepts (2) : 67 69 
+
+Concept (131) : 
+  level : 5
+  objects (4) : affichage bn:00010421n fois bn:00032768n logiques bn:00051845n switch bn:01071927n 
+  attributes (5) : C12 C16 C2 C7 C9 
+  parents concepts (3) : 256 260 266 
+  childs concepts (3) : 67 70 73 
+
+Concept (132) : 
+  level : 4
+  objects (4) : affichage bn:00010421n fois bn:00032768n prenom bn:15996005n détruire bn:00084204v 
+  attributes (4) : C1 C18 C7 C9 
+  parents concepts (3) : 185 261 339 
+  childs concepts (2) : 9 69 
+
+Concept (133) : 
+  level : 4
+  objects (4) : affichage bn:00010421n fois bn:00032768n switch bn:01071927n tableau associatif bn:03848413n 
+  attributes (4) : C12 C16 C18 C7 
+  parents concepts (3) : 282 285 360 
+  childs concepts (1) : 70 
+
+Concept (134) : 
+  level : 6
+  objects (4) : affichage bn:00010421n url bn:00079080n définition bn:00025928n fermeture bn:16858148n 
+  attributes (6) : C1 C12 C16 C18 C4 C9 
+  parents concepts (4) : 181 184 210 213 
+  childs concepts (2) : 11 71 
+
+Concept (135) : 
+  level : 5
+  objects (4) : affichage bn:00010421n booléen bn:00294693n switch bn:01071927n temps bn:00077270n 
+  attributes (5) : C12 C14 C2 C4 C7 
+  parents concepts (3) : 187 258 292 
+  childs concepts (2) : 72 75 
+
+Concept (136) : 
+  level : 5
+  objects (4) : affichage bn:00010421n logiques bn:00051845n switch bn:01071927n temps bn:00077270n 
+  attributes (5) : C12 C14 C2 C7 C9 
+  parents concepts (3) : 235 258 260 
+  childs concepts (2) : 73 75 
+
+Concept (137) : 
+  level : 5
+  objects (4) : affichage bn:00010421n méthode bn:01641329n switch bn:01071927n temps bn:00077270n 
+  attributes (5) : C12 C2 C4 C7 C9 
+  parents concepts (4) : 187 188 201 260 
+  childs concepts (2) : 74 75 
+
+Concept (138) : 
+  level : 3
+  objects (4) : lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n logiques bn:00051845n 
+  attributes (3) : C1 C2 C8 
+  parents concepts (3) : 286 312 355 
+  childs concepts (3) : 76 77 81 
+
+Concept (139) : 
+  level : 3
+  objects (4) : lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n fermeture bn:16858148n 
+  attributes (3) : C1 C4 C8 
+  parents concepts (3) : 303 312 363 
+  childs concepts (3) : 37 76 78 
+
+Concept (140) : 
+  level : 4
+  objects (4) : lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n switch bn:01071927n 
+  attributes (4) : C13 C2 C4 C8 
+  parents concepts (3) : 189 293 317 
+  childs concepts (3) : 76 79 82 
+
+Concept (141) : 
+  level : 4
+  objects (4) : lien hypertextes bn:00045513n champ de saisie bn:03113401n méthode bn:01641329n switch bn:01071927n 
+  attributes (4) : C2 C4 C8 C9 
+  parents concepts (4) : 189 228 262 308 
+  childs concepts (2) : 79 80 
+
+Concept (142) : 
+  level : 4
+  objects (4) : lien hypertextes bn:00045513n prenom bn:15996005n fermeture bn:16858148n boucle while bn:03237310n 
+  attributes (4) : C1 C18 C8 C9 
+  parents concepts (4) : 172 247 287 339 
+  childs concepts (3) : 9 31 42 
+
+Concept (143) : 
+  level : 4
+  objects (4) : lien hypertextes bn:00045513n fermeture bn:16858148n méthode bn:01641329n switch bn:01071927n 
+  attributes (4) : C18 C4 C8 C9 
+  parents concepts (3) : 262 287 378 
+  childs concepts (3) : 31 80 98 
+
+Concept (144) : 
+  level : 4
+  objects (4) : lien hypertextes bn:00045513n méthode bn:01641329n switch bn:01071927n comparaison bn:00021304n 
+  attributes (4) : C18 C2 C8 C9 
+  parents concepts (3) : 228 287 352 
+  childs concepts (2) : 47 80 
+
+Concept (145) : 
+  level : 3
+  objects (4) : champ de saisie bn:03113401n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n 
+  attributes (3) : C14 C2 C8 
+  parents concepts (3) : 286 306 388 
+  childs concepts (4) : 81 82 83 88 
+
+Concept (146) : 
+  level : 3
+  objects (4) : champ de saisie bn:03113401n booléen bn:00294693n switch bn:01071927n doctype bn:15839327n 
+  attributes (3) : C14 C4 C8 
+  parents concepts (3) : 303 306 397 
+  childs concepts (3) : 82 85 91 
+
+Concept (147) : 
+  level : 4
+  objects (4) : booléen bn:00294693n logiques bn:00051845n méthode bn:01641329n switch bn:01071927n 
+  attributes (4) : C12 C2 C7 C8 
+  parents concepts (4) : 191 286 314 382 
+  childs concepts (3) : 88 90 93 
+
+Concept (148) : 
+  level : 4
+  objects (4) : booléen bn:00294693n logiques bn:00051845n switch bn:01071927n fin de ligne bn:00051314n 
+  attributes (4) : C12 C14 C16 C8 
+  parents concepts (4) : 192 230 304 361 
+  childs concepts (1) : 88 
+
+Concept (149) : 
+  level : 3
+  objects (4) : booléen bn:00294693n logiques bn:00051845n switch bn:01071927n comparaison bn:00021304n 
+  attributes (3) : C16 C2 C8 
+  parents concepts (3) : 286 364 365 
+  childs concepts (2) : 88 96 
+
+Concept (150) : 
+  level : 3
+  objects (4) : booléen bn:00294693n fermeture bn:16858148n switch bn:01071927n doctype bn:15839327n 
+  attributes (3) : C16 C4 C8 
+  parents concepts (3) : 303 364 384 
+  childs concepts (3) : 89 91 100 
+
+Concept (151) : 
+  level : 3
+  objects (4) : logiques bn:00051845n prenom bn:15996005n méthode bn:01641329n switch bn:01071927n 
+  attributes (3) : C7 C8 C9 
+  parents concepts (3) : 191 342 387 
+  childs concepts (3) : 39 93 97 
+
+Concept (152) : 
+  level : 4
+  objects (4) : personne bn:00046516n fermeture bn:16858148n méthode bn:01641329n switch bn:01071927n 
+  attributes (4) : C12 C4 C8 C9 
+  parents concepts (4) : 193 262 356 386 
+  childs concepts (1) : 98 
+
+Concept (153) : 
+  level : 3
+  objects (4) : fermeture bn:16858148n switch bn:01071927n message bn:00521573n comparaison bn:00021304n 
+  attributes (3) : C16 C18 C8 
+  parents concepts (3) : 332 364 394 
+  childs concepts (2) : 99 101 
+
+Concept (154) : 
+  level : 4
+  objects (5) : page web bn:00080778n serveur web bn:02705179n langage bn:00049910n switch bn:01071927n delete bn:00941697n 
+  attributes (4) : C12 C13 C14 C18 
+  parents concepts (4) : 195 263 331 349 
+  childs concepts (2) : 48 52 
+
+Concept (155) : 
+  level : 3
+  objects (5) : page web bn:00080778n fichier bn:00021475n lien hypertextes bn:00045513n switch bn:01071927n delete bn:00941697n 
+  attributes (3) : C13 C18 C8 
+  parents concepts (3) : 317 332 357 
+  childs concepts (3) : 14 32 102 
+
+Concept (156) : 
+  level : 4
+  objects (5) : page web bn:00080778n booléen bn:00294693n switch bn:01071927n delete bn:00941697n insert bn:03795444n 
+  attributes (4) : C12 C13 C14 C8 
+  parents concepts (4) : 196 197 230 331 
+  childs concepts (3) : 38 45 48 
+
+Concept (157) : 
+  level : 5
+  objects (5) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n booléen bn:00294693n switch bn:01071927n 
+  attributes (5) : C12 C13 C14 C16 C2 
+  parents concepts (4) : 198 231 289 291 
+  childs concepts (3) : 57 65 105 
+
+Concept (158) : 
+  level : 5
+  objects (5) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n booléen bn:00294693n switch bn:01071927n 
+  attributes (5) : C12 C14 C16 C2 C4 
+  parents concepts (3) : 233 289 292 
+  childs concepts (4) : 59 72 103 105 
+
+Concept (159) : 
+  level : 5
+  objects (5) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n switch bn:01071927n temps bn:00077270n 
+  attributes (5) : C12 C14 C2 C4 C9 
+  parents concepts (5) : 201 235 265 292 323 
+  childs concepts (2) : 75 103 
+
+Concept (160) : 
+  level : 4
+  objects (5) : serveur web bn:02705179n javascript bn:00055423n lien hypertextes bn:00045513n champ de saisie bn:03113401n switch bn:01071927n 
+  attributes (4) : C13 C2 C4 C9 
+  parents concepts (4) : 202 203 293 308 
+  childs concepts (4) : 51 61 79 104 
+
+Concept (161) : 
+  level : 4
+  objects (5) : serveur web bn:02705179n javascript bn:00055423n champ de saisie bn:03113401n structure de contrôle bn:00047734n switch bn:01071927n 
+  attributes (4) : C13 C14 C2 C9 
+  parents concepts (4) : 202 204 290 333 
+  childs concepts (3) : 63 104 106 
+
+Concept (162) : 
+  level : 4
+  objects (5) : serveur web bn:02705179n javascript bn:00055423n booléen bn:00294693n multiplication bn:00056300n switch bn:01071927n 
+  attributes (4) : C12 C13 C16 C4 
+  parents concepts (4) : 206 268 291 335 
+  childs concepts (2) : 105 107 
+
+Concept (163) : 
+  level : 5
+  objects (5) : serveur web bn:02705179n texte bn:00076732n affichage bn:00010421n switch bn:01071927n radio bn:00065899n 
+  attributes (5) : C14 C18 C2 C4 C9 
+  parents concepts (5) : 208 239 240 265 336 
+  childs concepts (1) : 50 
+
+Concept (164) : 
+  level : 4
+  objects (5) : serveur web bn:02705179n mise en forme bn:01681906n langage bn:00049910n switch bn:01071927n droit bn:00048655n 
+  attributes (4) : C13 C14 C18 C4 
+  parents concepts (4) : 263 271 321 359 
+  childs concepts (2) : 3 52 
+
+Concept (165) : 
+  level : 6
+  objects (5) : serveur web bn:02705179n affichage bn:00010421n url bn:00079080n définition bn:00025928n switch bn:01071927n 
+  attributes (6) : C12 C14 C16 C18 C4 C9 
+  parents concepts (5) : 199 210 211 242 243 
+  childs concepts (2) : 50 71 
+
+Concept (166) : 
+  level : 4
+  objects (5) : serveur web bn:02705179n affichage bn:00010421n langage bn:00049910n méthode bn:01641329n switch bn:01071927n 
+  attributes (4) : C12 C18 C2 C4 
+  parents concepts (4) : 269 337 338 345 
+  childs concepts (2) : 109 110 
+
+Concept (167) : 
+  level : 4
+  objects (5) : serveur web bn:02705179n affichage bn:00010421n langage bn:00049910n concaténation bn:03489514n switch bn:01071927n 
+  attributes (4) : C12 C14 C18 C2 
+  parents concepts (4) : 270 337 349 358 
+  childs concepts (2) : 109 111 
+
+Concept (168) : 
+  level : 5
+  objects (5) : serveur web bn:02705179n affichage bn:00010421n structure de contrôle bn:00047734n concaténation bn:03489514n switch bn:01071927n 
+  attributes (5) : C14 C16 C18 C2 C9 
+  parents concepts (4) : 234 240 272 307 
+  childs concepts (3) : 27 53 111 
+
+Concept (169) : 
+  level : 3
+  objects (5) : serveur web bn:02705179n lien hypertextes bn:00045513n langage bn:00049910n structure de contrôle bn:00047734n switch bn:01071927n 
+  attributes (3) : C13 C18 C2 
+  parents concepts (3) : 320 357 380 
+  childs concepts (3) : 112 113 114 
+
+Concept (170) : 
+  level : 3
+  objects (5) : serveur web bn:02705179n lien hypertextes bn:00045513n structure de contrôle bn:00047734n switch bn:01071927n déconnexion bn:00027504n 
+  attributes (3) : C13 C18 C9 
+  parents concepts (3) : 357 373 401 
+  childs concepts (1) : 113 
+
+Concept (171) : 
+  level : 3
+  objects (5) : fichier bn:00021475n base de donnée bn:00025333n lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n 
+  attributes (3) : C1 C13 C8 
+  parents concepts (3) : 312 317 354 
+  childs concepts (4) : 14 15 56 76 
+
+Concept (172) : 
+  level : 3
+  objects (5) : fichier bn:00021475n lien hypertextes bn:00045513n prenom bn:15996005n fermeture bn:16858148n boucle while bn:03237310n 
+  attributes (3) : C1 C18 C8 
+  parents concepts (3) : 312 332 353 
+  childs concepts (3) : 14 55 142 
+
+Concept (173) : 
+  level : 3
+  objects (5) : fichier bn:00021475n booléen bn:00294693n logiques bn:00051845n fermeture bn:16858148n boucle while bn:03237310n 
+  attributes (3) : C1 C12 C8 
+  parents concepts (3) : 312 381 382 
+  childs concepts (4) : 15 55 87 92 
+
+Concept (174) : 
+  level : 5
+  objects (5) : client serveur bn:03496583n affichage bn:00010421n url bn:00079080n structure de contrôle bn:00047734n définition bn:00025928n 
+  attributes (5) : C1 C14 C16 C18 C9 
+  parents concepts (4) : 212 245 275 307 
+  childs concepts (2) : 27 71 
+
+Concept (175) : 
+  level : 4
+  objects (5) : javascript bn:00055423n java bn:00048043n champ de saisie bn:03113401n booléen bn:00294693n structure de contrôle bn:00047734n 
+  attributes (4) : C1 C13 C14 C2 
+  parents concepts (4) : 216 252 290 300 
+  childs concepts (3) : 62 63 118 
+
+Concept (176) : 
+  level : 3
+  objects (5) : javascript bn:00055423n mise en forme bn:01681906n lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n 
+  attributes (3) : C1 C13 C4 
+  parents concepts (3) : 354 363 374 
+  childs concepts (3) : 21 119 125 
+
+Concept (177) : 
+  level : 4
+  objects (5) : javascript bn:00055423n affichage bn:00010421n fois bn:00032768n logiques bn:00051845n structure de contrôle bn:00047734n 
+  attributes (4) : C1 C16 C2 C9 
+  parents concepts (4) : 253 299 309 328 
+  childs concepts (3) : 68 120 124 
+
+Concept (178) : 
+  level : 5
+  objects (5) : javascript bn:00055423n affichage bn:00010421n url bn:00079080n booléen bn:00294693n définition bn:00025928n 
+  attributes (5) : C1 C12 C14 C16 C4 
+  parents concepts (4) : 219 220 233 276 
+  childs concepts (2) : 59 122 
+
+Concept (179) : 
+  level : 5
+  objects (5) : javascript bn:00055423n affichage bn:00010421n url bn:00079080n logiques bn:00051845n définition bn:00025928n 
+  attributes (5) : C1 C12 C14 C16 C9 
+  parents concepts (4) : 267 275 276 279 
+  childs concepts (2) : 60 122 
+
+Concept (180) : 
+  level : 5
+  objects (5) : javascript bn:00055423n affichage bn:00010421n url bn:00079080n syntaxe bn:00062118n définition bn:00025928n 
+  attributes (5) : C1 C14 C16 C4 C9 
+  parents concepts (5) : 218 219 221 275 322 
+  childs concepts (1) : 122 
+
+Concept (181) : 
+  level : 5
+  objects (5) : javascript bn:00055423n affichage bn:00010421n url bn:00079080n définition bn:00025928n fermeture bn:16858148n 
+  attributes (5) : C1 C12 C16 C4 C9 
+  parents concepts (5) : 214 220 221 279 310 
+  childs concepts (2) : 122 134 
+
+Concept (182) : 
+  level : 4
+  objects (5) : javascript bn:00055423n affichage bn:00010421n champ de saisie bn:03113401n logiques bn:00051845n structure de contrôle bn:00047734n 
+  attributes (4) : C1 C14 C2 C9 
+  parents concepts (4) : 253 297 300 333 
+  childs concepts (4) : 34 58 63 124 
+
+Concept (183) : 
+  level : 6
+  objects (5) : java bn:00048043n code bn:00020354n affichage bn:00010421n booléen bn:00294693n logiques bn:00051845n 
+  attributes (6) : C1 C12 C14 C16 C2 C7 
+  parents concepts (4) : 215 222 223 224 
+  childs concepts (4) : 20 25 26 36 
+
+Concept (184) : 
+  level : 5
+  objects (5) : affichage bn:00010421n fois bn:00032768n url bn:00079080n définition bn:00025928n fermeture bn:16858148n 
+  attributes (5) : C1 C12 C16 C18 C9 
+  parents concepts (4) : 245 259 279 324 
+  childs concepts (2) : 23 134 
+
+Concept (185) : 
+  level : 3
+  objects (5) : affichage bn:00010421n fois bn:00032768n logiques bn:00051845n prenom bn:15996005n détruire bn:00084204v 
+  attributes (3) : C1 C7 C9 
+  parents concepts (3) : 342 346 390 
+  childs concepts (3) : 39 130 132 
+
+Concept (186) : 
+  level : 5
+  objects (5) : affichage bn:00010421n fois bn:00032768n nombre entiers bn:00047009n méthode bn:01641329n switch bn:01071927n 
+  attributes (5) : C12 C18 C2 C7 C9 
+  parents concepts (3) : 226 260 295 
+  childs concepts (2) : 70 74 
+
+Concept (187) : 
+  level : 4
+  objects (5) : affichage bn:00010421n booléen bn:00294693n méthode bn:01641329n switch bn:01071927n temps bn:00077270n 
+  attributes (4) : C12 C2 C4 C7 
+  parents concepts (4) : 225 227 314 345 
+  childs concepts (3) : 90 135 137 
+
+Concept (188) : 
+  level : 4
+  objects (5) : affichage bn:00010421n rappel bn:03490040n méthode bn:01641329n switch bn:01071927n temps bn:00077270n 
+  attributes (4) : C12 C4 C7 C9 
+  parents concepts (3) : 227 315 386 
+  childs concepts (1) : 137 
+
+Concept (189) : 
+  level : 3
+  objects (5) : lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n méthode bn:01641329n switch bn:01071927n 
+  attributes (3) : C2 C4 C8 
+  parents concepts (3) : 286 303 377 
+  childs concepts (3) : 90 140 141 
+
+Concept (190) : 
+  level : 3
+  objects (5) : champ de saisie bn:03113401n logiques bn:00051845n switch bn:01071927n insert bn:03795444n doctype bn:15839327n 
+  attributes (3) : C14 C8 C9 
+  parents concepts (3) : 306 387 398 
+  childs concepts (5) : 83 84 85 94 95 
+
+Concept (191) : 
+  level : 2
+  objects (5) : booléen bn:00294693n logiques bn:00051845n prenom bn:15996005n méthode bn:01641329n switch bn:01071927n 
+  attributes (2) : C7 C8 
+  parents concepts (2) : 404 406 
+  childs concepts (3) : 86 147 151 
+
+Concept (192) : 
+  level : 3
+  objects (5) : booléen bn:00294693n logiques bn:00051845n switch bn:01071927n fin de ligne bn:00051314n doctype bn:15839327n 
+  attributes (3) : C14 C16 C8 
+  parents concepts (3) : 306 364 393 
+  childs concepts (3) : 91 95 148 
+
+Concept (193) : 
+  level : 3
+  objects (5) : booléen bn:00294693n personne bn:00046516n fermeture bn:16858148n méthode bn:01641329n switch bn:01071927n 
+  attributes (3) : C12 C4 C8 
+  parents concepts (3) : 303 382 402 
+  childs concepts (3) : 89 90 152 
+
+Concept (194) : 
+  level : 4
+  objects (5) : fermeture bn:16858148n boucle while bn:03237310n méthode bn:01641329n boucle for bn:03237322n switch bn:01071927n 
+  attributes (4) : C12 C18 C8 C9 
+  parents concepts (4) : 287 288 356 389 
+  childs concepts (2) : 42 98 
+
+Concept (195) : 
+  level : 3
+  objects (6) : page web bn:00080778n serveur web bn:02705179n fichier bn:00021475n langage bn:00049910n switch bn:01071927n delete bn:00941697n 
+  attributes (3) : C12 C13 C18 
+  parents concepts (3) : 357 385 403 
+  childs concepts (2) : 102 154 
+
+Concept (196) : 
+  level : 3
+  objects (6) : page web bn:00080778n fichier bn:00021475n booléen bn:00294693n switch bn:01071927n delete bn:00941697n insert bn:03795444n 
+  attributes (3) : C12 C13 C8 
+  parents concepts (3) : 317 382 385 
+  childs concepts (3) : 15 102 156 
+
+Concept (197) : 
+  level : 3
+  objects (6) : page web bn:00080778n champ de saisie bn:03113401n booléen bn:00294693n switch bn:01071927n delete bn:00941697n insert bn:03795444n 
+  attributes (3) : C13 C14 C8 
+  parents concepts (3) : 306 317 375 
+  childs concepts (3) : 82 84 156 
+
+Concept (198) : 
+  level : 4
+  objects (6) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n booléen bn:00294693n structure de contrôle bn:00047734n switch bn:01071927n 
+  attributes (4) : C13 C14 C16 C2 
+  parents concepts (3) : 232 290 319 
+  childs concepts (3) : 106 118 157 
+
+Concept (199) : 
+  level : 5
+  objects (6) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n définition bn:00025928n switch bn:01071927n 
+  attributes (5) : C12 C14 C16 C4 C9 
+  parents concepts (5) : 233 267 310 322 323 
+  childs concepts (3) : 103 122 165 
+
+Concept (200) : 
+  level : 5
+  objects (6) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n logiques bn:00051845n concaténation bn:03489514n switch bn:01071927n 
+  attributes (5) : C12 C14 C16 C2 C9 
+  parents concepts (5) : 234 235 266 267 289 
+  childs concepts (4) : 60 73 103 111 
+
+Concept (201) : 
+  level : 4
+  objects (6) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n méthode bn:01641329n switch bn:01071927n temps bn:00077270n 
+  attributes (4) : C12 C2 C4 C9 
+  parents concepts (4) : 308 344 345 386 
+  childs concepts (3) : 110 137 159 
+
+Concept (202) : 
+  level : 3
+  objects (6) : serveur web bn:02705179n javascript bn:00055423n lien hypertextes bn:00045513n champ de saisie bn:03113401n structure de contrôle bn:00047734n switch bn:01071927n 
+  attributes (3) : C13 C2 C9 
+  parents concepts (3) : 320 373 383 
+  childs concepts (4) : 113 126 160 161 
+
+Concept (203) : 
+  level : 3
+  objects (6) : serveur web bn:02705179n javascript bn:00055423n lien hypertextes bn:00045513n champ de saisie bn:03113401n multiplication bn:00056300n switch bn:01071927n 
+  attributes (3) : C13 C4 C9 
+  parents concepts (3) : 373 374 399 
+  childs concepts (2) : 107 160 
+
+Concept (204) : 
+  level : 3
+  objects (6) : serveur web bn:02705179n javascript bn:00055423n champ de saisie bn:03113401n structure de contrôle bn:00047734n switch bn:01071927n insert bn:03795444n 
+  attributes (3) : C13 C14 C9 
+  parents concepts (3) : 373 375 398 
+  childs concepts (3) : 84 108 161 
+
+Concept (205) : 
+  level : 5
+  objects (6) : serveur web bn:02705179n javascript bn:00055423n langage bn:00049910n booléen bn:00294693n switch bn:01071927n mot bn:00081546n 
+  attributes (5) : C12 C13 C14 C2 C4 
+  parents concepts (4) : 231 236 237 292 
+  childs concepts (2) : 52 105 
+
+Concept (206) : 
+  level : 3
+  objects (6) : serveur web bn:02705179n javascript bn:00055423n booléen bn:00294693n multiplication bn:00056300n switch bn:01071927n pdf bn:01745594n 
+  attributes (3) : C13 C16 C4 
+  parents concepts (3) : 351 374 384 
+  childs concepts (2) : 54 162 
+
+Concept (207) : 
+  level : 4
+  objects (6) : serveur web bn:02705179n javascript bn:00055423n associer bn:00082868v logiciel open source bn:01157392n multiplication bn:00056300n switch bn:01071927n 
+  attributes (4) : C12 C13 C16 C9 
+  parents concepts (4) : 238 291 311 396 
+  childs concepts (1) : 107 
+
+Concept (208) : 
+  level : 4
+  objects (6) : serveur web bn:02705179n texte bn:00076732n affichage bn:00010421n langage bn:00049910n switch bn:01071927n radio bn:00065899n 
+  attributes (4) : C14 C18 C2 C4 
+  parents concepts (4) : 269 270 343 359 
+  childs concepts (2) : 109 163 
+
+Concept (209) : 
+  level : 5
+  objects (6) : serveur web bn:02705179n affichage bn:00010421n fois bn:00032768n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n 
+  attributes (5) : C12 C16 C18 C2 C9 
+  parents concepts (5) : 241 266 272 295 324 
+  childs concepts (2) : 70 111 
+
+Concept (210) : 
+  level : 5
+  objects (6) : serveur web bn:02705179n affichage bn:00010421n url bn:00079080n définition bn:00025928n fermeture bn:16858148n switch bn:01071927n 
+  attributes (5) : C12 C16 C18 C4 C9 
+  parents concepts (4) : 296 310 324 325 
+  childs concepts (3) : 43 134 165 
+
+Concept (211) : 
+  level : 5
+  objects (6) : serveur web bn:02705179n affichage bn:00010421n url bn:00079080n définition bn:00025928n concaténation bn:03489514n switch bn:01071927n 
+  attributes (5) : C12 C14 C16 C18 C9 
+  parents concepts (4) : 267 307 324 327 
+  childs concepts (2) : 111 165 
+
+Concept (212) : 
+  level : 3
+  objects (6) : client serveur bn:03496583n mise en forme bn:01681906n affichage bn:00010421n url bn:00079080n structure de contrôle bn:00047734n définition bn:00025928n 
+  attributes (3) : C1 C14 C18 
+  parents concepts (3) : 353 368 391 
+  childs concepts (3) : 22 128 174 
+
+Concept (213) : 
+  level : 4
+  objects (6) : php bn:01753580n affichage bn:00010421n lien hypertextes bn:00045513n url bn:00079080n définition bn:00025928n fermeture bn:16858148n 
+  attributes (4) : C1 C18 C4 C9 
+  parents concepts (4) : 249 313 339 378 
+  childs concepts (3) : 24 31 134 
+
+Concept (214) : 
+  level : 4
+  objects (6) : javascript bn:00055423n perl bn:01723165n affichage bn:00010421n url bn:00079080n définition bn:00025928n fermeture bn:16858148n 
+  attributes (4) : C1 C12 C4 C9 
+  parents concepts (4) : 250 313 347 386 
+  childs concepts (1) : 181 
+
+Concept (215) : 
+  level : 5
+  objects (6) : javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n booléen bn:00294693n logiques bn:00051845n 
+  attributes (5) : C1 C12 C14 C16 C2 
+  parents concepts (4) : 251 276 277 289 
+  childs concepts (4) : 57 59 60 183 
+
+Concept (216) : 
+  level : 3
+  objects (6) : javascript bn:00055423n java bn:00048043n lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n structure de contrôle bn:00047734n 
+  attributes (3) : C1 C13 C2 
+  parents concepts (3) : 320 354 355 
+  childs concepts (3) : 125 126 175 
+
+Concept (217) : 
+  level : 3
+  objects (6) : javascript bn:00055423n fichier texte bn:00028018n affichage bn:00010421n lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n 
+  attributes (3) : C1 C2 C4 
+  parents concepts (3) : 355 363 377 
+  childs concepts (4) : 66 121 123 125 
+
+Concept (218) : 
+  level : 4
+  objects (6) : javascript bn:00055423n affichage bn:00010421n url bn:00079080n champ de saisie bn:03113401n syntaxe bn:00062118n définition bn:00025928n 
+  attributes (4) : C1 C14 C4 C9 
+  parents concepts (4) : 278 297 313 379 
+  childs concepts (2) : 58 180 
+
+Concept (219) : 
+  level : 4
+  objects (6) : javascript bn:00055423n affichage bn:00010421n url bn:00079080n booléen bn:00294693n syntaxe bn:00062118n définition bn:00025928n 
+  attributes (4) : C1 C14 C16 C4 
+  parents concepts (4) : 278 280 334 340 
+  childs concepts (2) : 178 180 
+
+Concept (220) : 
+  level : 4
+  objects (6) : javascript bn:00055423n affichage bn:00010421n url bn:00079080n booléen bn:00294693n définition bn:00025928n fermeture bn:16858148n 
+  attributes (4) : C1 C12 C16 C4 
+  parents concepts (4) : 250 280 335 341 
+  childs concepts (3) : 37 178 181 
+
+Concept (221) : 
+  level : 4
+  objects (6) : javascript bn:00055423n affichage bn:00010421n url bn:00079080n syntaxe bn:00062118n définition bn:00025928n fermeture bn:16858148n 
+  attributes (4) : C1 C16 C4 C9 
+  parents concepts (4) : 280 313 328 362 
+  childs concepts (2) : 180 181 
+
+Concept (222) : 
+  level : 5
+  objects (6) : java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n booléen bn:00294693n logiques bn:00051845n 
+  attributes (5) : C1 C12 C16 C2 C7 
+  parents concepts (4) : 251 254 255 256 
+  childs concepts (2) : 67 183 
+
+Concept (223) : 
+  level : 5
+  objects (6) : java bn:00048043n code bn:00020354n affichage bn:00010421n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n 
+  attributes (5) : C1 C14 C16 C2 C7 
+  parents concepts (3) : 254 257 277 
+  childs concepts (1) : 183 
+
+Concept (224) : 
+  level : 5
+  objects (6) : java bn:00048043n code bn:00020354n affichage bn:00010421n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n 
+  attributes (5) : C12 C14 C16 C2 C7 
+  parents concepts (4) : 256 257 258 289 
+  childs concepts (5) : 65 72 73 88 183 
+
+Concept (225) : 
+  level : 3
+  objects (6) : fichier texte bn:00028018n affichage bn:00010421n booléen bn:00294693n méthode bn:01641329n switch bn:01071927n temps bn:00077270n 
+  attributes (3) : C2 C4 C7 
+  parents concepts (3) : 302 348 377 
+  childs concepts (2) : 66 187 
+
+Concept (226) : 
+  level : 4
+  objects (6) : affichage bn:00010421n fois bn:00032768n détruire bn:00084204v nombre entiers bn:00047009n méthode bn:01641329n switch bn:01071927n 
+  attributes (4) : C12 C18 C7 C9 
+  parents concepts (4) : 261 285 315 389 
+  childs concepts (2) : 69 186 
+
+Concept (227) : 
+  level : 3
+  objects (6) : affichage bn:00010421n booléen bn:00294693n rappel bn:03490040n méthode bn:01641329n switch bn:01071927n temps bn:00077270n 
+  attributes (3) : C12 C4 C7 
+  parents concepts (3) : 302 370 402 
+  childs concepts (2) : 187 188 
+
+Concept (228) : 
+  level : 3
+  objects (6) : lien hypertextes bn:00045513n champ de saisie bn:03113401n logiques bn:00051845n méthode bn:01641329n switch bn:01071927n comparaison bn:00021304n 
+  attributes (3) : C2 C8 C9 
+  parents concepts (3) : 286 383 387 
+  childs concepts (6) : 77 83 93 96 141 144 
+
+Concept (229) : 
+  level : 4
+  objects (6) : logiques bn:00051845n fermeture bn:16858148n switch bn:01071927n héritage bn:00043822n constructeur bn:03834827n langage sql bn:02266432n 
+  attributes (4) : C12 C16 C8 C9 
+  parents concepts (4) : 304 305 356 396 
+  childs concepts (3) : 40 41 43 
+
+Concept (230) : 
+  level : 3
+  objects (7) : page web bn:00080778n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n delete bn:00941697n insert bn:03795444n fin de ligne bn:00051314n 
+  attributes (3) : C12 C14 C8 
+  parents concepts (3) : 306 382 400 
+  childs concepts (3) : 94 148 156 
+
+Concept (231) : 
+  level : 4
+  objects (7) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n langage bn:00049910n booléen bn:00294693n switch bn:01071927n mot bn:00081546n 
+  attributes (4) : C12 C13 C14 C2 
+  parents concepts (4) : 264 290 331 358 
+  childs concepts (2) : 157 205 
+
+Concept (232) : 
+  level : 3
+  objects (7) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n booléen bn:00294693n structure de contrôle bn:00047734n switch bn:01071927n css bn:00056944n 
+  attributes (3) : C13 C14 C16 
+  parents concepts (3) : 351 375 393 
+  childs concepts (1) : 198 
+
+Concept (233) : 
+  level : 4
+  objects (7) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n booléen bn:00294693n définition bn:00025928n switch bn:01071927n 
+  attributes (4) : C12 C14 C16 C4 
+  parents concepts (4) : 334 335 361 366 
+  childs concepts (3) : 158 178 199 
+
+Concept (234) : 
+  level : 4
+  objects (7) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n logiques bn:00051845n structure de contrôle bn:00047734n concaténation bn:03489514n switch bn:01071927n 
+  attributes (4) : C14 C16 C2 C9 
+  parents concepts (4) : 309 319 333 371 
+  childs concepts (4) : 106 124 168 200 
+
+Concept (235) : 
+  level : 4
+  objects (7) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n logiques bn:00051845n concaténation bn:03489514n switch bn:01071927n temps bn:00077270n 
+  attributes (4) : C12 C14 C2 C9 
+  parents concepts (4) : 333 344 358 367 
+  childs concepts (3) : 136 159 200 
+
+Concept (236) : 
+  level : 4
+  objects (7) : serveur web bn:02705179n javascript bn:00055423n champ de saisie bn:03113401n langage bn:00049910n booléen bn:00294693n switch bn:01071927n mot bn:00081546n 
+  attributes (4) : C13 C14 C2 C4 
+  parents concepts (4) : 290 293 321 343 
+  childs concepts (4) : 62 82 104 205 
+
+Concept (237) : 
+  level : 4
+  objects (7) : serveur web bn:02705179n javascript bn:00055423n langage bn:00049910n booléen bn:00294693n switch bn:01071927n mot bn:00081546n langage de programmation bn:00064652n 
+  attributes (4) : C12 C13 C2 C4 
+  parents concepts (4) : 264 268 293 345 
+  childs concepts (1) : 205 
+
+Concept (238) : 
+  level : 3
+  objects (7) : serveur web bn:02705179n javascript bn:00055423n associer bn:00082868v structure de contrôle bn:00047734n logiciel open source bn:01157392n multiplication bn:00056300n switch bn:01071927n 
+  attributes (3) : C13 C16 C9 
+  parents concepts (3) : 351 373 405 
+  childs concepts (2) : 106 207 
+
+Concept (239) : 
+  level : 4
+  objects (7) : serveur web bn:02705179n texte bn:00076732n affichage bn:00010421n lien hypertextes bn:00045513n méthode bn:01641329n switch bn:01071927n radio bn:00065899n 
+  attributes (4) : C18 C2 C4 C9 
+  parents concepts (4) : 269 308 352 378 
+  childs concepts (5) : 24 51 80 110 163 
+
+Concept (240) : 
+  level : 4
+  objects (7) : serveur web bn:02705179n texte bn:00076732n affichage bn:00010421n structure de contrôle bn:00047734n concaténation bn:03489514n switch bn:01071927n radio bn:00065899n 
+  attributes (4) : C14 C18 C2 C9 
+  parents concepts (4) : 270 333 352 372 
+  childs concepts (2) : 163 168 
+
+Concept (241) : 
+  level : 4
+  objects (7) : serveur web bn:02705179n affichage bn:00010421n fois bn:00032768n type bn:00016413n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n 
+  attributes (4) : C12 C16 C18 C2 
+  parents concepts (4) : 294 337 350 360 
+  childs concepts (1) : 209 
+
+Concept (242) : 
+  level : 5
+  objects (7) : serveur web bn:02705179n affichage bn:00010421n url bn:00079080n définition bn:00025928n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n 
+  attributes (5) : C12 C14 C18 C4 C9 
+  parents concepts (5) : 273 323 325 327 336 
+  childs concepts (1) : 165 
+
+Concept (243) : 
+  level : 5
+  objects (7) : serveur web bn:02705179n affichage bn:00010421n url bn:00079080n définition bn:00025928n switch bn:01071927n w3c bn:02673666n dtd bn:15232677n 
+  attributes (5) : C14 C16 C18 C4 C9 
+  parents concepts (4) : 296 307 322 336 
+  childs concepts (1) : 165 
+
+Concept (244) : 
+  level : 3
+  objects (7) : fichier bn:00021475n javascript bn:00055423n java bn:00048043n code source bn:00072947n booléen bn:00294693n addition bn:00001296n soustraction bn:00055233n 
+  attributes (3) : C1 C12 C13 
+  parents concepts (3) : 354 381 385 
+  childs concepts (3) : 15 64 117 
+
+Concept (245) : 
+  level : 4
+  objects (7) : client serveur bn:03496583n affichage bn:00010421n fois bn:00032768n url bn:00079080n structure de contrôle bn:00047734n définition bn:00025928n fermeture bn:16858148n 
+  attributes (4) : C1 C16 C18 C9 
+  parents concepts (3) : 328 339 376 
+  childs concepts (3) : 68 174 184 
+
+Concept (246) : 
+  level : 3
+  objects (7) : base de donnée bn:00025333n javascript bn:00055423n lien hypertextes bn:00045513n champ de saisie bn:03113401n addition bn:00001296n soustraction bn:00055233n structure de contrôle bn:00047734n 
+  attributes (3) : C1 C13 C9 
+  parents concepts (3) : 354 373 390 
+  childs concepts (3) : 56 64 126 
+
+Concept (247) : 
+  level : 3
+  objects (7) : base de donnée bn:00025333n lien hypertextes bn:00045513n champ de saisie bn:03113401n logiques bn:00051845n prenom bn:15996005n fermeture bn:16858148n boucle while bn:03237310n 
+  attributes (3) : C1 C8 C9 
+  parents concepts (3) : 312 387 390 
+  childs concepts (6) : 39 56 77 78 92 142 
+
+Concept (248) : 
+  level : 3
+  objects (7) : base de donnée bn:00025333n lien hypertextes bn:00045513n champ de saisie bn:03113401n switch bn:01071927n insert bn:03795444n web application bn:02246184n final bn:01755798n 
+  attributes (3) : C13 C8 C9 
+  parents concepts (3) : 317 373 387 
+  childs concepts (3) : 56 79 84 
+
+Concept (249) : 
+  level : 3
+  objects (7) : php bn:01753580n mise en forme bn:01681906n affichage bn:00010421n lien hypertextes bn:00045513n url bn:00079080n définition bn:00025928n fermeture bn:16858148n 
+  attributes (3) : C1 C18 C4 
+  parents concepts (3) : 353 363 392 
+  childs concepts (3) : 21 128 213 
+
+Concept (250) : 
+  level : 3
+  objects (7) : javascript bn:00055423n perl bn:01723165n affichage bn:00010421n url bn:00079080n booléen bn:00294693n définition bn:00025928n fermeture bn:16858148n 
+  attributes (3) : C1 C12 C4 
+  parents concepts (3) : 363 381 402 
+  childs concepts (2) : 214 220 
+
+Concept (251) : 
+  level : 4
+  objects (7) : javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n booléen bn:00294693n logiques bn:00051845n 
+  attributes (4) : C1 C12 C16 C2 
+  parents concepts (3) : 299 341 350 
+  childs concepts (3) : 120 215 222 
+
+Concept (252) : 
+  level : 3
+  objects (7) : javascript bn:00055423n java bn:00048043n code source bn:00072947n mise en forme bn:01681906n champ de saisie bn:03113401n booléen bn:00294693n structure de contrôle bn:00047734n 
+  attributes (3) : C1 C13 C14 
+  parents concepts (3) : 354 368 375 
+  childs concepts (4) : 22 117 119 175 
+
+Concept (253) : 
+  level : 3
+  objects (7) : javascript bn:00055423n affichage bn:00010421n fois bn:00032768n lien hypertextes bn:00045513n champ de saisie bn:03113401n logiques bn:00051845n structure de contrôle bn:00047734n 
+  attributes (3) : C1 C2 C9 
+  parents concepts (3) : 355 383 390 
+  childs concepts (6) : 77 121 126 129 177 182 
+
+Concept (254) : 
+  level : 4
+  objects (7) : java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n 
+  attributes (4) : C1 C16 C2 C7 
+  parents concepts (3) : 281 299 301 
+  childs concepts (2) : 222 223 
+
+Concept (255) : 
+  level : 3
+  objects (7) : java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n booléen bn:00294693n logiques bn:00051845n détruire bn:00084204v 
+  attributes (3) : C1 C12 C7 
+  parents concepts (3) : 346 370 381 
+  childs concepts (2) : 130 222 
+
+Concept (256) : 
+  level : 4
+  objects (7) : java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n 
+  attributes (4) : C12 C16 C2 C7 
+  parents concepts (4) : 281 282 314 350 
+  childs concepts (3) : 131 222 224 
+
+Concept (257) : 
+  level : 4
+  objects (7) : java bn:00048043n code bn:00020354n affichage bn:00010421n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n 
+  attributes (4) : C14 C16 C2 C7 
+  parents concepts (4) : 281 283 284 319 
+  childs concepts (2) : 223 224 
+
+Concept (258) : 
+  level : 4
+  objects (7) : java bn:00048043n code bn:00020354n affichage bn:00010421n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n temps bn:00077270n 
+  attributes (4) : C12 C14 C2 C7 
+  parents concepts (3) : 283 314 358 
+  childs concepts (3) : 135 136 224 
+
+Concept (259) : 
+  level : 4
+  objects (7) : affichage bn:00010421n fois bn:00032768n url bn:00079080n définition bn:00025928n fermeture bn:16858148n boucle while bn:03237310n détruire bn:00084204v 
+  attributes (4) : C1 C12 C18 C9 
+  parents concepts (4) : 274 339 347 389 
+  childs concepts (3) : 42 69 184 
+
+Concept (260) : 
+  level : 4
+  objects (7) : affichage bn:00010421n fois bn:00032768n logiques bn:00051845n nombre entiers bn:00047009n méthode bn:01641329n switch bn:01071927n temps bn:00077270n 
+  attributes (4) : C12 C2 C7 C9 
+  parents concepts (3) : 314 315 344 
+  childs concepts (5) : 93 131 136 137 186 
+
+Concept (261) : 
+  level : 3
+  objects (7) : affichage bn:00010421n fois bn:00032768n prenom bn:15996005n détruire bn:00084204v nombre entiers bn:00047009n méthode bn:01641329n switch bn:01071927n 
+  attributes (3) : C18 C7 C9 
+  parents concepts (3) : 316 342 401 
+  childs concepts (3) : 97 132 226 
+
+Concept (262) : 
+  level : 3
+  objects (7) : lien hypertextes bn:00045513n champ de saisie bn:03113401n personne bn:00046516n fermeture bn:16858148n méthode bn:01641329n switch bn:01071927n doctype bn:15839327n 
+  attributes (3) : C4 C8 C9 
+  parents concepts (3) : 303 387 399 
+  childs concepts (6) : 78 85 100 141 143 152 
+
+Concept (263) : 
+  level : 3
+  objects (8) : page web bn:00080778n serveur web bn:02705179n mise en forme bn:01681906n langage bn:00049910n structure de contrôle bn:00047734n switch bn:01071927n delete bn:00941697n droit bn:00048655n 
+  attributes (3) : C13 C14 C18 
+  parents concepts (3) : 357 375 391 
+  childs concepts (4) : 22 114 154 164 
+
+Concept (264) : 
+  level : 3
+  objects (8) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n langage bn:00049910n booléen bn:00294693n switch bn:01071927n mot bn:00081546n langage de programmation bn:00064652n 
+  attributes (3) : C12 C13 C2 
+  parents concepts (3) : 320 385 395 
+  childs concepts (2) : 231 237 
+
+Concept (265) : 
+  level : 4
+  objects (8) : serveur web bn:02705179n javascript bn:00055423n texte bn:00076732n affichage bn:00010421n champ de saisie bn:03113401n switch bn:01071927n temps bn:00077270n radio bn:00065899n 
+  attributes (4) : C14 C2 C4 C9 
+  parents concepts (4) : 308 333 343 379 
+  childs concepts (4) : 58 104 159 163 
+
+Concept (266) : 
+  level : 4
+  objects (8) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n fois bn:00032768n logiques bn:00051845n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n 
+  attributes (4) : C12 C16 C2 C9 
+  parents concepts (4) : 309 344 350 396 
+  childs concepts (4) : 120 131 200 209 
+
+Concept (267) : 
+  level : 4
+  objects (8) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n logiques bn:00051845n définition bn:00025928n concaténation bn:03489514n switch bn:01071927n 
+  attributes (4) : C12 C14 C16 C9 
+  parents concepts (4) : 361 367 371 396 
+  childs concepts (4) : 179 199 200 211 
+
+Concept (268) : 
+  level : 3
+  objects (8) : serveur web bn:02705179n javascript bn:00055423n langage bn:00049910n booléen bn:00294693n multiplication bn:00056300n switch bn:01071927n mot bn:00081546n langage de programmation bn:00064652n 
+  attributes (3) : C12 C13 C4 
+  parents concepts (3) : 374 385 402 
+  childs concepts (2) : 162 237 
+
+Concept (269) : 
+  level : 3
+  objects (8) : serveur web bn:02705179n texte bn:00076732n affichage bn:00010421n lien hypertextes bn:00045513n langage bn:00049910n méthode bn:01641329n switch bn:01071927n radio bn:00065899n 
+  attributes (3) : C18 C2 C4 
+  parents concepts (3) : 377 380 392 
+  childs concepts (4) : 112 166 208 239 
+
+Concept (270) : 
+  level : 3
+  objects (8) : serveur web bn:02705179n texte bn:00076732n affichage bn:00010421n langage bn:00049910n structure de contrôle bn:00047734n concaténation bn:03489514n switch bn:01071927n radio bn:00065899n 
+  attributes (3) : C14 C18 C2 
+  parents concepts (3) : 380 388 391 
+  childs concepts (4) : 114 167 208 240 
+
+Concept (271) : 
+  level : 3
+  objects (8) : serveur web bn:02705179n mise en forme bn:01681906n lien hypertextes bn:00045513n langage bn:00049910n switch bn:01071927n pdf bn:01745594n insertion bn:02234787n droit bn:00048655n 
+  attributes (3) : C13 C18 C4 
+  parents concepts (3) : 357 374 392 
+  childs concepts (4) : 21 54 112 164 
+
+Concept (272) : 
+  level : 4
+  objects (8) : serveur web bn:02705179n affichage bn:00010421n fois bn:00032768n structure de contrôle bn:00047734n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n comparaison bn:00021304n 
+  attributes (4) : C16 C18 C2 C9 
+  parents concepts (4) : 294 309 352 376 
+  childs concepts (4) : 47 68 168 209 
+
+Concept (273) : 
+  level : 4
+  objects (8) : serveur web bn:02705179n affichage bn:00010421n url bn:00079080n langage bn:00049910n définition bn:00025928n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n 
+  attributes (4) : C12 C14 C18 C4 
+  parents concepts (4) : 338 349 359 366 
+  childs concepts (2) : 109 242 
+
+Concept (274) : 
+  level : 3
+  objects (8) : fichier bn:00021475n affichage bn:00010421n fois bn:00032768n url bn:00079080n définition bn:00025928n fermeture bn:16858148n boucle while bn:03237310n détruire bn:00084204v 
+  attributes (3) : C1 C12 C18 
+  parents concepts (3) : 353 381 403 
+  childs concepts (2) : 55 259 
+
+Concept (275) : 
+  level : 4
+  objects (8) : client serveur bn:03496583n javascript bn:00055423n affichage bn:00010421n url bn:00079080n logiques bn:00051845n syntaxe bn:00062118n structure de contrôle bn:00047734n définition bn:00025928n 
+  attributes (4) : C1 C14 C16 C9 
+  parents concepts (4) : 297 328 340 371 
+  childs concepts (4) : 124 174 179 180 
+
+Concept (276) : 
+  level : 4
+  objects (8) : javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n url bn:00079080n booléen bn:00294693n logiques bn:00051845n définition bn:00025928n 
+  attributes (4) : C1 C12 C14 C16 
+  parents concepts (4) : 298 340 341 361 
+  childs concepts (3) : 178 179 215 
+
+Concept (277) : 
+  level : 4
+  objects (8) : javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n structure de contrôle bn:00047734n 
+  attributes (4) : C1 C14 C16 C2 
+  parents concepts (4) : 299 300 319 340 
+  childs concepts (4) : 118 124 215 223 
+
+Concept (278) : 
+  level : 3
+  objects (8) : javascript bn:00055423n mise en forme bn:01681906n affichage bn:00010421n url bn:00079080n champ de saisie bn:03113401n booléen bn:00294693n syntaxe bn:00062118n définition bn:00025928n 
+  attributes (3) : C1 C14 C4 
+  parents concepts (3) : 363 368 397 
+  childs concepts (5) : 119 123 128 218 219 
+
+Concept (279) : 
+  level : 4
+  objects (8) : javascript bn:00055423n affichage bn:00010421n fois bn:00032768n url bn:00079080n modulo bn:00553864n logiques bn:00051845n définition bn:00025928n fermeture bn:16858148n 
+  attributes (4) : C1 C12 C16 C9 
+  parents concepts (4) : 328 341 347 396 
+  childs concepts (5) : 40 120 179 181 184 
+
+Concept (280) : 
+  level : 3
+  objects (8) : javascript bn:00055423n affichage bn:00010421n url bn:00079080n booléen bn:00294693n égalité bn:00031284n syntaxe bn:00062118n définition bn:00025928n fermeture bn:16858148n 
+  attributes (3) : C1 C16 C4 
+  parents concepts (3) : 363 369 384 
+  childs concepts (3) : 219 220 221 
+
+Concept (281) : 
+  level : 3
+  objects (8) : java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n 
+  attributes (3) : C16 C2 C7 
+  parents concepts (3) : 329 348 365 
+  childs concepts (3) : 254 256 257 
+
+Concept (282) : 
+  level : 3
+  objects (8) : java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n tableau associatif bn:03848413n 
+  attributes (3) : C12 C16 C7 
+  parents concepts (3) : 329 370 408 
+  childs concepts (2) : 133 256 
+
+Concept (283) : 
+  level : 3
+  objects (8) : java bn:00048043n code bn:00020354n affichage bn:00010421n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n temps bn:00077270n 
+  attributes (3) : C14 C2 C7 
+  parents concepts (3) : 330 348 388 
+  childs concepts (2) : 257 258 
+
+Concept (284) : 
+  level : 3
+  objects (8) : java bn:00048043n code bn:00020354n affichage bn:00010421n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n file bn:00065682n 
+  attributes (3) : C14 C16 C7 
+  parents concepts (3) : 329 330 393 
+  childs concepts (1) : 257 
+
+Concept (285) : 
+  level : 3
+  objects (8) : affichage bn:00010421n fois bn:00032768n détruire bn:00084204v nombre entiers bn:00047009n méthode bn:01641329n switch bn:01071927n time bn:03389905n tableau associatif bn:03848413n 
+  attributes (3) : C12 C18 C7 
+  parents concepts (3) : 316 370 403 
+  childs concepts (2) : 133 226 
+
+Concept (286) : 
+  level : 2
+  objects (8) : lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n logiques bn:00051845n méthode bn:01641329n switch bn:01071927n comparaison bn:00021304n mot de passe bn:00023218n 
+  attributes (2) : C2 C8 
+  parents concepts (2) : 406 409 
+  childs concepts (6) : 138 145 147 149 189 228 
+
+Concept (287) : 
+  level : 3
+  objects (8) : lien hypertextes bn:00045513n prenom bn:15996005n fermeture bn:16858148n boucle while bn:03237310n méthode bn:01641329n boucle for bn:03237322n switch bn:01071927n comparaison bn:00021304n 
+  attributes (3) : C18 C8 C9 
+  parents concepts (3) : 332 387 401 
+  childs concepts (6) : 97 101 142 143 144 194 
+
+Concept (288) : 
+  level : 3
+  objects (9) : page web bn:00080778n fichier bn:00021475n fermeture bn:16858148n boucle while bn:03237310n méthode bn:01641329n boucle for bn:03237322n switch bn:01071927n delete bn:00941697n message bn:00521573n 
+  attributes (3) : C12 C18 C8 
+  parents concepts (3) : 332 382 403 
+  childs concepts (4) : 55 99 102 194 
+
+Concept (289) : 
+  level : 4
+  objects (9) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n booléen bn:00294693n logiques bn:00051845n concaténation bn:03489514n switch bn:01071927n 
+  attributes (4) : C12 C14 C16 C2 
+  parents concepts (4) : 319 350 358 361 
+  childs concepts (5) : 157 158 200 215 224 
+
+Concept (290) : 
+  level : 3
+  objects (9) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n champ de saisie bn:03113401n langage bn:00049910n booléen bn:00294693n structure de contrôle bn:00047734n switch bn:01071927n mot bn:00081546n 
+  attributes (3) : C13 C14 C2 
+  parents concepts (3) : 320 375 388 
+  childs concepts (6) : 114 161 175 198 231 236 
+
+Concept (291) : 
+  level : 3
+  objects (9) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n booléen bn:00294693n associer bn:00082868v logiciel open source bn:01157392n multiplication bn:00056300n switch bn:01071927n fonctionnement bn:00059128n 
+  attributes (3) : C12 C13 C16 
+  parents concepts (3) : 351 385 408 
+  childs concepts (3) : 157 162 207 
+
+Concept (292) : 
+  level : 4
+  objects (9) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n langage bn:00049910n booléen bn:00294693n switch bn:01071927n mot bn:00081546n temps bn:00077270n navigation bn:00057073n 
+  attributes (4) : C12 C14 C2 C4 
+  parents concepts (4) : 343 345 358 366 
+  childs concepts (5) : 109 135 158 159 205 
+
+Concept (293) : 
+  level : 3
+  objects (9) : serveur web bn:02705179n javascript bn:00055423n lien hypertextes bn:00045513n champ de saisie bn:03113401n langage bn:00049910n booléen bn:00294693n switch bn:01071927n mot bn:00081546n langage de programmation bn:00064652n 
+  attributes (3) : C13 C2 C4 
+  parents concepts (3) : 320 374 377 
+  childs concepts (6) : 112 125 140 160 236 237 
+
+Concept (294) : 
+  level : 3
+  objects (9) : serveur web bn:02705179n affichage bn:00010421n fois bn:00032768n structure de contrôle bn:00047734n type bn:00016413n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n comparaison bn:00021304n 
+  attributes (3) : C16 C18 C2 
+  parents concepts (3) : 365 380 394 
+  childs concepts (2) : 241 272 
+
+Concept (295) : 
+  level : 4
+  objects (9) : serveur web bn:02705179n affichage bn:00010421n fois bn:00032768n nombre entiers bn:00047009n list bn:04720346n méthode bn:01641329n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n 
+  attributes (4) : C12 C18 C2 C9 
+  parents concepts (4) : 337 344 352 389 
+  childs concepts (3) : 110 186 209 
+
+Concept (296) : 
+  level : 4
+  objects (9) : serveur web bn:02705179n affichage bn:00010421n url bn:00079080n définition bn:00025928n fermeture bn:16858148n switch bn:01071927n w3c bn:02673666n dtd bn:15232677n microsoft bn:01165400n 
+  attributes (4) : C16 C18 C4 C9 
+  parents concepts (4) : 326 362 376 378 
+  childs concepts (2) : 210 243 
+
+Concept (297) : 
+  level : 3
+  objects (9) : client serveur bn:03496583n javascript bn:00055423n affichage bn:00010421n url bn:00079080n champ de saisie bn:03113401n logiques bn:00051845n syntaxe bn:00062118n structure de contrôle bn:00047734n définition bn:00025928n 
+  attributes (3) : C1 C14 C9 
+  parents concepts (3) : 368 390 398 
+  childs concepts (3) : 182 218 275 
+
+Concept (298) : 
+  level : 3
+  objects (9) : javascript bn:00055423n java bn:00048043n code bn:00020354n code source bn:00072947n affichage bn:00010421n url bn:00079080n booléen bn:00294693n logiques bn:00051845n définition bn:00025928n 
+  attributes (3) : C1 C12 C14 
+  parents concepts (3) : 368 381 400 
+  childs concepts (2) : 117 276 
+
+Concept (299) : 
+  level : 3
+  objects (9) : javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n structure de contrôle bn:00047734n 
+  attributes (3) : C1 C16 C2 
+  parents concepts (3) : 355 365 369 
+  childs concepts (4) : 177 251 254 277 
+
+Concept (300) : 
+  level : 3
+  objects (9) : javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n champ de saisie bn:03113401n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n structure de contrôle bn:00047734n 
+  attributes (3) : C1 C14 C2 
+  parents concepts (3) : 355 368 388 
+  childs concepts (5) : 81 123 175 182 277 
+
+Concept (301) : 
+  level : 3
+  objects (9) : java bn:00048043n code bn:00020354n fichier texte bn:00028018n affichage bn:00010421n fois bn:00032768n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n initialiser bn:00089742v 
+  attributes (3) : C1 C2 C7 
+  parents concepts (3) : 346 348 355 
+  childs concepts (2) : 66 254 
+
+Concept (302) : 
+  level : 2
+  objects (9) : fichier texte bn:00028018n affichage bn:00010421n post bn:01500184n booléen bn:00294693n rappel bn:03490040n méthode bn:01641329n switch bn:01071927n temps bn:00077270n structuration bn:14636497n 
+  attributes (2) : C4 C7 
+  parents concepts (2) : 404 413 
+  childs concepts (3) : 127 225 227 
+
+Concept (303) : 
+  level : 2
+  objects (9) : lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n personne bn:00046516n fermeture bn:16858148n méthode bn:01641329n switch bn:01071927n doctype bn:15839327n sens bn:00046139n 
+  attributes (2) : C4 C8 
+  parents concepts (2) : 406 413 
+  childs concepts (6) : 139 146 150 189 193 262 
+
+Concept (304) : 
+  level : 3
+  objects (9) : booléen bn:00294693n logiques bn:00051845n fermeture bn:16858148n switch bn:01071927n héritage bn:00043822n constructeur bn:03834827n langage sql bn:02266432n fin de ligne bn:00051314n message bn:00521573n 
+  attributes (3) : C12 C16 C8 
+  parents concepts (3) : 364 382 408 
+  childs concepts (5) : 87 89 99 148 229 
+
+Concept (305) : 
+  level : 3
+  objects (9) : logiques bn:00051845n fermeture bn:16858148n switch bn:01071927n héritage bn:00043822n constructeur bn:03834827n langage sql bn:02266432n doctype bn:15839327n comparaison bn:00021304n set bn:04928161n 
+  attributes (3) : C16 C8 C9 
+  parents concepts (3) : 364 387 405 
+  childs concepts (5) : 95 96 100 101 229 
+
+Concept (306) : 
+  level : 2
+  objects (10) : page web bn:00080778n champ de saisie bn:03113401n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n classes bn:03608262n delete bn:00941697n insert bn:03795444n fin de ligne bn:00051314n doctype bn:15839327n 
+  attributes (2) : C14 C8 
+  parents concepts (2) : 406 414 
+  childs concepts (6) : 145 146 190 192 197 230 
+
+Concept (307) : 
+  level : 4
+  objects (10) : serveur web bn:02705179n client serveur bn:03496583n affichage bn:00010421n url bn:00079080n structure de contrôle bn:00047734n définition bn:00025928n concaténation bn:03489514n switch bn:01071927n w3c bn:02673666n dtd bn:15232677n 
+  attributes (4) : C14 C16 C18 C9 
+  parents concepts (4) : 318 371 372 376 
+  childs concepts (4) : 168 174 211 243 
+
+Concept (308) : 
+  level : 3
+  objects (10) : serveur web bn:02705179n javascript bn:00055423n texte bn:00076732n affichage bn:00010421n lien hypertextes bn:00045513n champ de saisie bn:03113401n méthode bn:01641329n switch bn:01071927n temps bn:00077270n radio bn:00065899n 
+  attributes (3) : C2 C4 C9 
+  parents concepts (3) : 377 383 399 
+  childs concepts (6) : 121 141 160 201 239 265 
+
+Concept (309) : 
+  level : 3
+  objects (10) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n fois bn:00032768n logiques bn:00051845n structure de contrôle bn:00047734n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n comparaison bn:00021304n 
+  attributes (3) : C16 C2 C9 
+  parents concepts (3) : 365 383 405 
+  childs concepts (5) : 96 177 234 266 272 
+
+Concept (310) : 
+  level : 4
+  objects (10) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n définition bn:00025928n fermeture bn:16858148n comportement bn:00009657n multiplication bn:00056300n switch bn:01071927n valeur par défaut bn:03854990n 
+  attributes (4) : C12 C16 C4 C9 
+  parents concepts (4) : 335 362 386 396 
+  childs concepts (4) : 107 181 199 210 
+
+Concept (311) : 
+  level : 3
+  objects (10) : serveur web bn:02705179n javascript bn:00055423n addition bn:00001296n soustraction bn:00055233n associer bn:00082868v logiciel open source bn:01157392n linux bn:00051427n multiplication bn:00056300n switch bn:01071927n insert bn:03795444n 
+  attributes (3) : C12 C13 C9 
+  parents concepts (3) : 373 385 410 
+  childs concepts (3) : 64 108 207 
+
+Concept (312) : 
+  level : 2
+  objects (10) : fichier bn:00021475n base de donnée bn:00025333n lien hypertextes bn:00045513n champ de saisie bn:03113401n size bn:03645138n booléen bn:00294693n logiques bn:00051845n prenom bn:15996005n fermeture bn:16858148n boucle while bn:03237310n 
+  attributes (2) : C1 C8 
+  parents concepts (2) : 406 407 
+  childs concepts (7) : 86 138 139 171 172 173 247 
+
+Concept (313) : 
+  level : 3
+  objects (10) : php bn:01753580n javascript bn:00055423n perl bn:01723165n affichage bn:00010421n lien hypertextes bn:00045513n url bn:00079080n champ de saisie bn:03113401n syntaxe bn:00062118n définition bn:00025928n fermeture bn:16858148n 
+  attributes (3) : C1 C4 C9 
+  parents concepts (3) : 363 390 399 
+  childs concepts (6) : 78 121 213 214 218 221 
+
+Concept (314) : 
+  level : 3
+  objects (10) : java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n booléen bn:00294693n logiques bn:00051845n nombre entiers bn:00047009n méthode bn:01641329n switch bn:01071927n temps bn:00077270n 
+  attributes (3) : C12 C2 C7 
+  parents concepts (3) : 348 370 395 
+  childs concepts (5) : 147 187 256 258 260 
+
+Concept (315) : 
+  level : 3
+  objects (10) : affichage bn:00010421n fois bn:00032768n logiques bn:00051845n détruire bn:00084204v rappel bn:03490040n nombre entiers bn:00047009n numérique bn:00107649a méthode bn:01641329n switch bn:01071927n temps bn:00077270n 
+  attributes (3) : C12 C7 C9 
+  parents concepts (3) : 342 370 410 
+  childs concepts (4) : 130 188 226 260 
+
+Concept (316) : 
+  level : 2
+  objects (10) : affichage bn:00010421n fois bn:00032768n prenom bn:15996005n détruire bn:00084204v script bn:01431715n nombre entiers bn:00047009n méthode bn:01641329n switch bn:01071927n time bn:03389905n tableau associatif bn:03848413n 
+  attributes (2) : C18 C7 
+  parents concepts (2) : 404 412 
+  childs concepts (2) : 261 285 
+
+Concept (317) : 
+  level : 2
+  objects (11) : page web bn:00080778n fichier bn:00021475n base de donnée bn:00025333n lien hypertextes bn:00045513n champ de saisie bn:03113401n booléen bn:00294693n switch bn:01071927n delete bn:00941697n insert bn:03795444n web application bn:02246184n final bn:01755798n 
+  attributes (2) : C13 C8 
+  parents concepts (2) : 406 411 
+  childs concepts (6) : 140 155 171 196 197 248 
+
+Concept (318) : 
+  level : 3
+  objects (11) : serveur web bn:02705179n client serveur bn:03496583n affichage bn:00010421n url bn:00079080n structure de contrôle bn:00047734n définition bn:00025928n concaténation bn:03489514n switch bn:01071927n w3c bn:02673666n dtd bn:15232677n order bn:02240223n 
+  attributes (3) : C14 C16 C18 
+  parents concepts (3) : 391 393 394 
+  childs concepts (1) : 307 
+
+Concept (319) : 
+  level : 3
+  objects (11) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n structure de contrôle bn:00047734n concaténation bn:03489514n switch bn:01071927n 
+  attributes (3) : C14 C16 C2 
+  parents concepts (3) : 365 388 393 
+  childs concepts (5) : 198 234 257 277 289 
+
+Concept (320) : 
+  level : 2
+  objects (11) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n lien hypertextes bn:00045513n champ de saisie bn:03113401n langage bn:00049910n booléen bn:00294693n structure de contrôle bn:00047734n switch bn:01071927n mot bn:00081546n langage de programmation bn:00064652n 
+  attributes (2) : C13 C2 
+  parents concepts (2) : 409 411 
+  childs concepts (6) : 169 202 216 264 290 293 
+
+Concept (321) : 
+  level : 3
+  objects (11) : serveur web bn:02705179n javascript bn:00055423n mise en forme bn:01681906n champ de saisie bn:03113401n langage bn:00049910n booléen bn:00294693n switch bn:01071927n mot bn:00081546n cascading style sheet bn:01642119n arial bn:01485779n droit bn:00048655n 
+  attributes (3) : C13 C14 C4 
+  parents concepts (3) : 374 375 397 
+  childs concepts (3) : 119 164 236 
+
+Concept (322) : 
+  level : 4
+  objects (11) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n syntaxe bn:00062118n définition bn:00025928n switch bn:01071927n w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n unset bn:00176172n 
+  attributes (4) : C14 C16 C4 C9 
+  parents concepts (4) : 334 362 371 379 
+  childs concepts (4) : 46 180 199 243 
+
+Concept (323) : 
+  level : 4
+  objects (11) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n définition bn:00025928n anglais bn:00030862n égal bn:00102336a switch bn:01071927n possibilité bn:00045632n façon bn:00033729n temps bn:00077270n 
+  attributes (4) : C12 C14 C4 C9 
+  parents concepts (4) : 366 367 379 386 
+  childs concepts (3) : 159 199 242 
+
+Concept (324) : 
+  level : 4
+  objects (11) : serveur web bn:02705179n affichage bn:00010421n fois bn:00032768n url bn:00079080n définition bn:00025928n fermeture bn:16858148n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n postgresql bn:01709156n sybase bn:01257629n 
+  attributes (4) : C12 C16 C18 C9 
+  parents concepts (4) : 360 376 389 396 
+  childs concepts (4) : 184 209 210 211 
+
+Concept (325) : 
+  level : 4
+  objects (11) : serveur web bn:02705179n affichage bn:00010421n url bn:00079080n définition bn:00025928n fermeture bn:16858148n statiques bn:00111112a méthode bn:01641329n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n lire bn:00066357n 
+  attributes (4) : C12 C18 C4 C9 
+  parents concepts (4) : 338 378 386 389 
+  childs concepts (4) : 98 110 210 242 
+
+Concept (326) : 
+  level : 3
+  objects (11) : serveur web bn:02705179n affichage bn:00010421n url bn:00079080n définition bn:00025928n fermeture bn:16858148n switch bn:01071927n pdf bn:01745594n w3c bn:02673666n dtd bn:15232677n charset bn:00017756n microsoft bn:01165400n 
+  attributes (3) : C16 C18 C4 
+  parents concepts (3) : 384 392 394 
+  childs concepts (2) : 54 296 
+
+Concept (327) : 
+  level : 4
+  objects (11) : serveur web bn:02705179n affichage bn:00010421n url bn:00079080n définition bn:00025928n côté serveur bn:03816678n globales bn:00103624a concaténation bn:03489514n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n internet bn:00024712n 
+  attributes (4) : C12 C14 C18 C9 
+  parents concepts (4) : 349 367 372 389 
+  childs concepts (2) : 211 242 
+
+Concept (328) : 
+  level : 3
+  objects (11) : client serveur bn:03496583n javascript bn:00055423n affichage bn:00010421n fois bn:00032768n url bn:00079080n modulo bn:00553864n logiques bn:00051845n syntaxe bn:00062118n structure de contrôle bn:00047734n définition bn:00025928n fermeture bn:16858148n 
+  attributes (3) : C1 C16 C9 
+  parents concepts (3) : 369 390 405 
+  childs concepts (5) : 177 221 245 275 279 
+
+Concept (329) : 
+  level : 2
+  objects (11) : java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n foreach bn:03463379n switch bn:01071927n tableau associatif bn:03848413n file bn:00065682n 
+  attributes (2) : C16 C7 
+  parents concepts (2) : 404 415 
+  childs concepts (3) : 281 282 284 
+
+Concept (330) : 
+  level : 2
+  objects (11) : java bn:00048043n code bn:00020354n affichage bn:00010421n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n switch bn:01071927n temps bn:00077270n web design bn:02763125n formulaire bn:14352118n file bn:00065682n 
+  attributes (2) : C14 C7 
+  parents concepts (2) : 404 414 
+  childs concepts (2) : 283 284 
+
+Concept (331) : 
+  level : 3
+  objects (12) : page web bn:00080778n serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code source bn:00072947n langage bn:00049910n booléen bn:00294693n switch bn:01071927n mot bn:00081546n delete bn:00941697n insert bn:03795444n communication bn:00021221n 
+  attributes (3) : C12 C13 C14 
+  parents concepts (3) : 375 385 400 
+  childs concepts (5) : 108 117 154 156 231 
+
+Concept (332) : 
+  level : 2
+  objects (12) : page web bn:00080778n fichier bn:00021475n lien hypertextes bn:00045513n prenom bn:15996005n fermeture bn:16858148n boucle while bn:03237310n méthode bn:01641329n boucle for bn:03237322n switch bn:01071927n delete bn:00941697n message bn:00521573n comparaison bn:00021304n 
+  attributes (2) : C18 C8 
+  parents concepts (2) : 406 412 
+  childs concepts (5) : 153 155 172 287 288 
+
+Concept (333) : 
+  level : 3
+  objects (12) : serveur web bn:02705179n javascript bn:00055423n texte bn:00076732n affichage bn:00010421n champ de saisie bn:03113401n logiques bn:00051845n structure de contrôle bn:00047734n concaténation bn:03489514n switch bn:01071927n temps bn:00077270n trim bn:00074703n radio bn:00065899n 
+  attributes (3) : C14 C2 C9 
+  parents concepts (3) : 383 388 398 
+  childs concepts (7) : 83 161 182 234 235 240 265 
+
+Concept (334) : 
+  level : 3
+  objects (12) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n booléen bn:00294693n syntaxe bn:00062118n définition bn:00025928n switch bn:01071927n w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n unset bn:00176172n 
+  attributes (3) : C14 C16 C4 
+  parents concepts (3) : 384 393 397 
+  childs concepts (4) : 91 219 233 322 
+
+Concept (335) : 
+  level : 3
+  objects (12) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n booléen bn:00294693n définition bn:00025928n fermeture bn:16858148n comportement bn:00009657n multiplication bn:00056300n switch bn:01071927n valeur par défaut bn:03854990n c++ bn:03586438n 
+  attributes (3) : C12 C16 C4 
+  parents concepts (3) : 384 402 408 
+  childs concepts (5) : 89 162 220 233 310 
+
+Concept (336) : 
+  level : 4
+  objects (12) : serveur web bn:02705179n texte bn:00076732n affichage bn:00010421n url bn:00079080n définition bn:00025928n site bn:00047172n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n w3c bn:02673666n dtd bn:15232677n radio bn:00065899n 
+  attributes (4) : C14 C18 C4 C9 
+  parents concepts (4) : 359 372 378 379 
+  childs concepts (3) : 163 242 243 
+
+Concept (337) : 
+  level : 3
+  objects (12) : serveur web bn:02705179n affichage bn:00010421n fois bn:00032768n langage bn:00049910n type bn:00016413n nombre entiers bn:00047009n list bn:04720346n méthode bn:01641329n concaténation bn:03489514n vouloir bn:00095629v switch bn:01071927n valeur de retour bn:03828774n 
+  attributes (3) : C12 C18 C2 
+  parents concepts (3) : 380 395 403 
+  childs concepts (4) : 166 167 241 295 
+
+Concept (338) : 
+  level : 3
+  objects (12) : serveur web bn:02705179n affichage bn:00010421n url bn:00079080n langage bn:00049910n définition bn:00025928n fermeture bn:16858148n statiques bn:00111112a méthode bn:01641329n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n lire bn:00066357n 
+  attributes (3) : C12 C18 C4 
+  parents concepts (3) : 392 402 403 
+  childs concepts (3) : 166 273 325 
+
+Concept (339) : 
+  level : 3
+  objects (12) : client serveur bn:03496583n php bn:01753580n affichage bn:00010421n fois bn:00032768n lien hypertextes bn:00045513n url bn:00079080n prenom bn:15996005n structure de contrôle bn:00047734n définition bn:00025928n fermeture bn:16858148n boucle while bn:03237310n détruire bn:00084204v 
+  attributes (3) : C1 C18 C9 
+  parents concepts (3) : 353 390 401 
+  childs concepts (6) : 129 132 142 213 245 259 
+
+Concept (340) : 
+  level : 3
+  objects (12) : client serveur bn:03496583n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n url bn:00079080n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n syntaxe bn:00062118n structure de contrôle bn:00047734n définition bn:00025928n 
+  attributes (3) : C1 C14 C16 
+  parents concepts (3) : 368 369 393 
+  childs concepts (4) : 219 275 276 277 
+
+Concept (341) : 
+  level : 3
+  objects (12) : javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n url bn:00079080n booléen bn:00294693n modulo bn:00553864n logiques bn:00051845n définition bn:00025928n dépendre bn:00086606v fermeture bn:16858148n 
+  attributes (3) : C1 C12 C16 
+  parents concepts (3) : 369 381 408 
+  childs concepts (5) : 87 220 251 276 279 
+
+Concept (342) : 
+  level : 2
+  objects (12) : affichage bn:00010421n fois bn:00032768n logiques bn:00051845n prenom bn:15996005n détruire bn:00084204v rappel bn:03490040n nombre entiers bn:00047009n numérique bn:00107649a méthode bn:01641329n switch bn:01071927n temps bn:00077270n env bn:01199166n 
+  attributes (2) : C7 C9 
+  parents concepts (2) : 404 416 
+  childs concepts (4) : 151 185 261 315 
+
+Concept (343) : 
+  level : 3
+  objects (13) : serveur web bn:02705179n javascript bn:00055423n texte bn:00076732n affichage bn:00010421n champ de saisie bn:03113401n langage bn:00049910n booléen bn:00294693n session bn:03751534n switch bn:01071927n mot bn:00081546n temps bn:00077270n navigation bn:00057073n radio bn:00065899n 
+  attributes (3) : C14 C2 C4 
+  parents concepts (3) : 377 388 397 
+  childs concepts (5) : 123 208 236 265 292 
+
+Concept (344) : 
+  level : 3
+  objects (13) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n fois bn:00032768n logiques bn:00051845n nombre entiers bn:00047009n list bn:04720346n méthode bn:01641329n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n temps bn:00077270n printf bn:03243783n 
+  attributes (3) : C12 C2 C9 
+  parents concepts (3) : 383 395 410 
+  childs concepts (5) : 201 235 260 266 295 
+
+Concept (345) : 
+  level : 3
+  objects (13) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n langage bn:00049910n booléen bn:00294693n méthode bn:01641329n switch bn:01071927n passage par référence bn:14985956n mot bn:00081546n temps bn:00077270n langage de programmation bn:00064652n fread bn:13825823n navigation bn:00057073n 
+  attributes (3) : C12 C2 C4 
+  parents concepts (3) : 377 395 402 
+  childs concepts (5) : 166 187 201 237 292 
+
+Concept (346) : 
+  level : 2
+  objects (13) : disque dur bn:00073359n java bn:00048043n code bn:00020354n fichier texte bn:00028018n affichage bn:00010421n fois bn:00032768n post bn:01500184n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n prenom bn:15996005n initialiser bn:00089742v détruire bn:00084204v 
+  attributes (2) : C1 C7 
+  parents concepts (2) : 404 407 
+  childs concepts (5) : 86 127 185 255 301 
+
+Concept (347) : 
+  level : 3
+  objects (13) : javascript bn:00055423n perl bn:01723165n affichage bn:00010421n fois bn:00032768n url bn:00079080n addition bn:00001296n soustraction bn:00055233n modulo bn:00553864n logiques bn:00051845n définition bn:00025928n fermeture bn:16858148n boucle while bn:03237310n détruire bn:00084204v 
+  attributes (3) : C1 C12 C9 
+  parents concepts (3) : 381 390 410 
+  childs concepts (6) : 64 92 130 214 259 279 
+
+Concept (348) : 
+  level : 2
+  objects (13) : java bn:00048043n code bn:00020354n fichier texte bn:00028018n affichage bn:00010421n fois bn:00032768n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n initialiser bn:00089742v nombre entiers bn:00047009n méthode bn:01641329n switch bn:01071927n temps bn:00077270n 
+  attributes (2) : C2 C7 
+  parents concepts (2) : 404 409 
+  childs concepts (5) : 225 281 283 301 314 
+
+Concept (349) : 
+  level : 3
+  objects (14) : page web bn:00080778n serveur web bn:02705179n affichage bn:00010421n url bn:00079080n langage bn:00049910n définition bn:00025928n côté serveur bn:03816678n globales bn:00103624a concaténation bn:03489514n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n delete bn:00941697n internet bn:00024712n 
+  attributes (3) : C12 C14 C18 
+  parents concepts (3) : 391 400 403 
+  childs concepts (4) : 154 167 273 327 
+
+Concept (350) : 
+  level : 3
+  objects (14) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n booléen bn:00294693n logiques bn:00051845n type bn:00016413n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n généralement bn:00114778r traiter bn:00092034v 
+  attributes (3) : C12 C16 C2 
+  parents concepts (3) : 365 395 408 
+  childs concepts (5) : 241 251 256 266 289 
+
+Concept (351) : 
+  level : 2
+  objects (14) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n booléen bn:00294693n associer bn:00082868v structure de contrôle bn:00047734n logiciel open source bn:01157392n multiplication bn:00056300n switch bn:01071927n fonctionnement bn:00059128n pdf bn:01745594n windows bn:00081305n css bn:00056944n flash bn:01369336n 
+  attributes (2) : C13 C16 
+  parents concepts (2) : 411 415 
+  childs concepts (5) : 115 206 232 238 291 
+
+Concept (352) : 
+  level : 3
+  objects (14) : serveur web bn:02705179n texte bn:00076732n affichage bn:00010421n fois bn:00032768n lien hypertextes bn:00045513n structure de contrôle bn:00047734n nombre entiers bn:00047009n list bn:04720346n méthode bn:01641329n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n radio bn:00065899n comparaison bn:00021304n 
+  attributes (3) : C18 C2 C9 
+  parents concepts (3) : 380 383 401 
+  childs concepts (7) : 113 129 144 239 240 272 295 
+
+Concept (353) : 
+  level : 2
+  objects (14) : fichier bn:00021475n client serveur bn:03496583n php bn:01753580n mise en forme bn:01681906n affichage bn:00010421n fois bn:00032768n lien hypertextes bn:00045513n url bn:00079080n prenom bn:15996005n structure de contrôle bn:00047734n définition bn:00025928n fermeture bn:16858148n boucle while bn:03237310n détruire bn:00084204v 
+  attributes (2) : C1 C18 
+  parents concepts (2) : 407 412 
+  childs concepts (6) : 116 172 212 249 274 339 
+
+Concept (354) : 
+  level : 2
+  objects (14) : fichier bn:00021475n base de donnée bn:00025333n donnée bn:00025314n javascript bn:00055423n java bn:00048043n code source bn:00072947n mise en forme bn:01681906n lien hypertextes bn:00045513n page web dynamique bn:00937946n champ de saisie bn:03113401n booléen bn:00294693n addition bn:00001296n soustraction bn:00055233n structure de contrôle bn:00047734n 
+  attributes (2) : C1 C13 
+  parents concepts (2) : 407 411 
+  childs concepts (7) : 116 171 176 216 244 246 252 
+
+Concept (355) : 
+  level : 2
+  objects (14) : javascript bn:00055423n java bn:00048043n code bn:00020354n fichier texte bn:00028018n affichage bn:00010421n fois bn:00032768n lien hypertextes bn:00045513n champ de saisie bn:03113401n réinitialisation bn:00067306n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n structure de contrôle bn:00047734n initialiser bn:00089742v 
+  attributes (2) : C1 C2 
+  parents concepts (2) : 407 409 
+  childs concepts (7) : 138 216 217 253 299 300 301 
+
+Concept (356) : 
+  level : 3
+  objects (14) : logiques bn:00051845n personne bn:00046516n fermeture bn:16858148n boucle while bn:03237310n méthode bn:01641329n femme bn:00001530n boucle for bn:03237322n switch bn:01071927n héritage bn:00043822n constructeur bn:03834827n host bn:01846442n langage sql bn:02266432n insert bn:03795444n séquence bn:00070574n 
+  attributes (3) : C12 C8 C9 
+  parents concepts (3) : 382 387 410 
+  childs concepts (6) : 92 93 94 152 194 229 
+
+Concept (357) : 
+  level : 2
+  objects (15) : page web bn:00080778n serveur web bn:02705179n fichier bn:00021475n mise en forme bn:01681906n lien hypertextes bn:00045513n langage bn:00049910n structure de contrôle bn:00047734n switch bn:01071927n delete bn:00941697n pdf bn:01745594n firefox bn:01387235n accueil bn:00044514n insertion bn:02234787n droit bn:00048655n déconnexion bn:00027504n 
+  attributes (2) : C13 C18 
+  parents concepts (2) : 411 412 
+  childs concepts (8) : 115 116 155 169 170 195 263 271 
+
+Concept (358) : 
+  level : 3
+  objects (15) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n langage bn:00049910n booléen bn:00294693n logiques bn:00051845n concaténation bn:03489514n switch bn:01071927n mot bn:00081546n temps bn:00077270n nombre pi bn:00062194n min bn:00055094n navigation bn:00057073n 
+  attributes (3) : C12 C14 C2 
+  parents concepts (3) : 388 395 400 
+  childs concepts (6) : 167 231 235 258 289 292 
+
+Concept (359) : 
+  level : 3
+  objects (15) : serveur web bn:02705179n texte bn:00076732n mise en forme bn:01681906n affichage bn:00010421n url bn:00079080n langage bn:00049910n définition bn:00025928n site bn:00047172n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n droit bn:00048655n w3c bn:02673666n dtd bn:15232677n radio bn:00065899n 
+  attributes (3) : C14 C18 C4 
+  parents concepts (3) : 391 392 397 
+  childs concepts (5) : 128 164 208 273 336 
+
+Concept (360) : 
+  level : 3
+  objects (15) : serveur web bn:02705179n affichage bn:00010421n fois bn:00032768n url bn:00079080n définition bn:00025928n fermeture bn:16858148n type bn:00016413n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n postgresql bn:01709156n sybase bn:01257629n message bn:00521573n argument bn:00005603n tableau associatif bn:03848413n 
+  attributes (3) : C12 C16 C18 
+  parents concepts (3) : 394 403 408 
+  childs concepts (4) : 99 133 241 324 
+
+Concept (361) : 
+  level : 3
+  objects (16) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n url bn:00079080n booléen bn:00294693n logiques bn:00051845n définition bn:00025928n concaténation bn:03489514n switch bn:01071927n fin de ligne bn:00051314n xml bn:02771436n mathématiques bn:00053823n description bn:04723965n access bn:02744817n 
+  attributes (3) : C12 C14 C16 
+  parents concepts (3) : 393 400 408 
+  childs concepts (5) : 148 233 267 276 289 
+
+Concept (362) : 
+  level : 3
+  objects (16) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n syntaxe bn:00062118n définition bn:00025928n fermeture bn:16858148n comportement bn:00009657n multiplication bn:00056300n switch bn:01071927n valeur par défaut bn:03854990n w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n unset bn:00176172n microsoft bn:01165400n 
+  attributes (3) : C16 C4 C9 
+  parents concepts (3) : 384 399 405 
+  childs concepts (5) : 100 221 296 310 322 
+
+Concept (363) : 
+  level : 2
+  objects (16) : php bn:01753580n javascript bn:00055423n perl bn:01723165n fichier texte bn:00028018n mise en forme bn:01681906n affichage bn:00010421n lien hypertextes bn:00045513n url bn:00079080n post bn:01500184n champ de saisie bn:03113401n liste déroulante bn:00028831n booléen bn:00294693n égalité bn:00031284n syntaxe bn:00062118n définition bn:00025928n fermeture bn:16858148n 
+  attributes (2) : C1 C4 
+  parents concepts (2) : 407 413 
+  childs concepts (9) : 127 139 176 217 249 250 278 280 313 
+
+Concept (364) : 
+  level : 2
+  objects (16) : booléen bn:00294693n logiques bn:00051845n fermeture bn:16858148n switch bn:01071927n héritage bn:00043822n constructeur bn:03834827n langage sql bn:02266432n fin de ligne bn:00051314n message bn:00521573n doctype bn:15839327n comparaison bn:00021304n champ bn:00034274n travers bn:00042404n disponible bn:00097846a set bn:04928161n type de valeur bn:00253515n 
+  attributes (2) : C16 C8 
+  parents concepts (2) : 406 415 
+  childs concepts (6) : 149 150 153 192 304 305 
+
+Concept (365) : 
+  level : 2
+  objects (17) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n structure de contrôle bn:00047734n type bn:00016413n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n généralement bn:00114778r traiter bn:00092034v comparaison bn:00021304n 
+  attributes (2) : C16 C2 
+  parents concepts (2) : 409 415 
+  childs concepts (7) : 149 281 294 299 309 319 350 
+
+Concept (366) : 
+  level : 3
+  objects (17) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n langage bn:00049910n booléen bn:00294693n définition bn:00025928n anglais bn:00030862n égal bn:00102336a switch bn:01071927n possibilité bn:00045632n mot bn:00081546n façon bn:00033729n temps bn:00077270n boutons bn:03843242n feuille de styles bn:00802225n navigation bn:00057073n 
+  attributes (3) : C12 C14 C4 
+  parents concepts (3) : 397 400 402 
+  childs concepts (4) : 233 273 292 323 
+
+Concept (367) : 
+  level : 3
+  objects (17) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n logiques bn:00051845n définition bn:00025928n anglais bn:00030862n côté serveur bn:03816678n globales bn:00103624a concaténation bn:03489514n égal bn:00102336a switch bn:01071927n possibilité bn:00045632n façon bn:00033729n insert bn:03795444n temps bn:00077270n internet bn:00024712n 
+  attributes (3) : C12 C14 C9 
+  parents concepts (3) : 398 400 410 
+  childs concepts (6) : 94 108 235 267 323 327 
+
+Concept (368) : 
+  level : 2
+  objects (17) : client serveur bn:03496583n ensemble bn:00114766r javascript bn:00055423n java bn:00048043n code bn:00020354n code source bn:00072947n mise en forme bn:01681906n affichage bn:00010421n url bn:00079080n champ de saisie bn:03113401n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n syntaxe bn:00062118n structure de contrôle bn:00047734n définition bn:00025928n euro bn:00031888n 
+  attributes (2) : C1 C14 
+  parents concepts (2) : 407 414 
+  childs concepts (7) : 212 252 278 297 298 300 340 
+
+Concept (369) : 
+  level : 2
+  objects (17) : client serveur bn:03496583n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n url bn:00079080n affectation bn:02806034n booléen bn:00294693n modulo bn:00553864n égalité bn:00031284n logiques bn:00051845n syntaxe bn:00062118n structure de contrôle bn:00047734n définition bn:00025928n dépendre bn:00086606v fermeture bn:16858148n 
+  attributes (2) : C1 C16 
+  parents concepts (2) : 407 415 
+  childs concepts (5) : 280 299 328 340 341 
+
+Concept (370) : 
+  level : 2
+  objects (17) : java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n booléen bn:00294693n logiques bn:00051845n détruire bn:00084204v free software bn:00182120n rappel bn:03490040n nombre entiers bn:00047009n numérique bn:00107649a méthode bn:01641329n switch bn:01071927n variable globale bn:02011863n time bn:03389905n temps bn:00077270n tableau associatif bn:03848413n 
+  attributes (2) : C12 C7 
+  parents concepts (2) : 404 417 
+  childs concepts (6) : 227 255 282 285 314 315 
+
+Concept (371) : 
+  level : 3
+  objects (18) : serveur web bn:02705179n client serveur bn:03496583n javascript bn:00055423n affichage bn:00010421n url bn:00079080n logiques bn:00051845n syntaxe bn:00062118n structure de contrôle bn:00047734n définition bn:00025928n concaténation bn:03489514n switch bn:01071927n concept bn:00021547n coder bn:00084976v w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n spécification bn:00073217n unset bn:00176172n 
+  attributes (3) : C14 C16 C9 
+  parents concepts (3) : 393 398 405 
+  childs concepts (6) : 95 234 267 275 307 322 
+
+Concept (372) : 
+  level : 3
+  objects (18) : serveur web bn:02705179n client serveur bn:03496583n texte bn:00076732n affichage bn:00010421n url bn:00079080n structure de contrôle bn:00047734n définition bn:00025928n site bn:00047172n côté serveur bn:03816678n globales bn:00103624a concaténation bn:03489514n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n internet bn:00024712n w3c bn:02673666n dtd bn:15232677n radio bn:00065899n 
+  attributes (3) : C14 C18 C9 
+  parents concepts (3) : 391 398 401 
+  childs concepts (4) : 240 307 327 336 
+
+Concept (373) : 
+  level : 2
+  objects (18) : serveur web bn:02705179n base de donnée bn:00025333n javascript bn:00055423n lien hypertextes bn:00045513n champ de saisie bn:03113401n addition bn:00001296n soustraction bn:00055233n associer bn:00082868v structure de contrôle bn:00047734n logiciel open source bn:01157392n linux bn:00051427n multiplication bn:00056300n switch bn:01071927n insert bn:03795444n système d bn:04836299n web application bn:02246184n final bn:01755798n déconnexion bn:00027504n 
+  attributes (2) : C13 C9 
+  parents concepts (2) : 411 416 
+  childs concepts (8) : 170 202 203 204 238 246 248 311 
+
+Concept (374) : 
+  level : 2
+  objects (18) : serveur web bn:02705179n javascript bn:00055423n mise en forme bn:01681906n lien hypertextes bn:00045513n champ de saisie bn:03113401n langage bn:00049910n booléen bn:00294693n multiplication bn:00056300n switch bn:01071927n mot bn:00081546n langage de programmation bn:00064652n ascii bn:00003473n pdf bn:01745594n cascading style sheet bn:01642119n insertion bn:02234787n touch bn:03178622n arial bn:01485779n droit bn:00048655n 
+  attributes (2) : C13 C4 
+  parents concepts (2) : 411 413 
+  childs concepts (7) : 176 203 206 268 271 293 321 
+
+Concept (375) : 
+  level : 2
+  objects (19) : page web bn:00080778n serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code source bn:00072947n mise en forme bn:01681906n champ de saisie bn:03113401n langage bn:00049910n booléen bn:00294693n structure de contrôle bn:00047734n switch bn:01071927n mot bn:00081546n delete bn:00941697n insert bn:03795444n communication bn:00021221n css bn:00056944n cascading style sheet bn:01642119n arial bn:01485779n droit bn:00048655n 
+  attributes (2) : C13 C14 
+  parents concepts (2) : 411 414 
+  childs concepts (8) : 197 204 232 252 263 290 321 331 
+
+Concept (376) : 
+  level : 3
+  objects (19) : serveur web bn:02705179n client serveur bn:03496583n affichage bn:00010421n fois bn:00032768n url bn:00079080n structure de contrôle bn:00047734n définition bn:00025928n fermeture bn:16858148n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n postgresql bn:01709156n sybase bn:01257629n w3c bn:02673666n dtd bn:15232677n comparaison bn:00021304n microsoft bn:01165400n microsoft sql server bn:00605043n root bn:00168023n 
+  attributes (3) : C16 C18 C9 
+  parents concepts (3) : 394 401 405 
+  childs concepts (6) : 101 245 272 296 307 324 
+
+Concept (377) : 
+  level : 2
+  objects (19) : serveur web bn:02705179n javascript bn:00055423n fichier texte bn:00028018n texte bn:00076732n affichage bn:00010421n lien hypertextes bn:00045513n champ de saisie bn:03113401n langage bn:00049910n booléen bn:00294693n session bn:03751534n méthode bn:01641329n switch bn:01071927n passage par référence bn:14985956n mot bn:00081546n temps bn:00077270n langage de programmation bn:00064652n fread bn:13825823n navigation bn:00057073n radio bn:00065899n 
+  attributes (2) : C2 C4 
+  parents concepts (2) : 409 413 
+  childs concepts (8) : 189 217 225 269 293 308 343 345 
+
+Concept (378) : 
+  level : 3
+  objects (20) : serveur web bn:02705179n php bn:01753580n texte bn:00076732n affichage bn:00010421n lien hypertextes bn:00045513n url bn:00079080n définition bn:00025928n fermeture bn:16858148n site bn:00047172n statiques bn:00111112a méthode bn:01641329n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n lire bn:00066357n w3c bn:02673666n dtd bn:15232677n radio bn:00065899n microsoft bn:01165400n ecriture bn:00081714n 
+  attributes (3) : C18 C4 C9 
+  parents concepts (3) : 392 399 401 
+  childs concepts (6) : 143 213 239 296 325 336 
+
+Concept (379) : 
+  level : 3
+  objects (20) : serveur web bn:02705179n javascript bn:00055423n texte bn:00076732n affichage bn:00010421n url bn:00079080n champ de saisie bn:03113401n syntaxe bn:00062118n définition bn:00025928n site bn:00047172n anglais bn:00030862n égal bn:00102336a switch bn:01071927n possibilité bn:00045632n façon bn:00033729n temps bn:00077270n w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n unset bn:00176172n radio bn:00065899n 
+  attributes (3) : C14 C4 C9 
+  parents concepts (3) : 397 398 399 
+  childs concepts (6) : 85 218 265 322 323 336 
+
+Concept (380) : 
+  level : 2
+  objects (20) : serveur web bn:02705179n texte bn:00076732n affichage bn:00010421n fois bn:00032768n lien hypertextes bn:00045513n langage bn:00049910n structure de contrôle bn:00047734n type bn:00016413n nombre entiers bn:00047009n list bn:04720346n méthode bn:01641329n concaténation bn:03489514n vouloir bn:00095629v switch bn:01071927n valeur de retour bn:03828774n radio bn:00065899n comparaison bn:00021304n attention bn:00007020n existence bn:00009676n accès bn:00000759n 
+  attributes (2) : C18 C2 
+  parents concepts (2) : 409 412 
+  childs concepts (6) : 169 269 270 294 337 352 
+
+Concept (381) : 
+  level : 2
+  objects (20) : fichier bn:00021475n javascript bn:00055423n perl bn:01723165n java bn:00048043n code bn:00020354n code source bn:00072947n affichage bn:00010421n fois bn:00032768n url bn:00079080n booléen bn:00294693n addition bn:00001296n soustraction bn:00055233n modulo bn:00553864n logiques bn:00051845n définition bn:00025928n dépendre bn:00086606v fermeture bn:16858148n être utile bn:00085368v boucle while bn:03237310n détruire bn:00084204v 
+  attributes (2) : C1 C12 
+  parents concepts (2) : 407 417 
+  childs concepts (8) : 173 244 250 255 274 298 341 347 
+
+Concept (382) : 
+  level : 2
+  objects (22) : page web bn:00080778n fichier bn:00021475n booléen bn:00294693n logiques bn:00051845n personne bn:00046516n fermeture bn:16858148n boucle while bn:03237310n bibliothèques bn:00050969n méthode bn:01641329n integer bn:00691555n femme bn:00001530n boucle for bn:03237322n switch bn:01071927n héritage bn:00043822n constructeur bn:03834827n host bn:01846442n langage sql bn:02266432n delete bn:00941697n insert bn:03795444n séquence bn:00070574n fin de ligne bn:00051314n message bn:00521573n 
+  attributes (2) : C12 C8 
+  parents concepts (2) : 406 417 
+  childs concepts (8) : 147 173 193 196 230 288 304 356 
+
+Concept (383) : 
+  level : 2
+  objects (22) : serveur web bn:02705179n javascript bn:00055423n texte bn:00076732n affichage bn:00010421n fois bn:00032768n lien hypertextes bn:00045513n champ de saisie bn:03113401n logiques bn:00051845n structure de contrôle bn:00047734n nombre entiers bn:00047009n list bn:04720346n méthode bn:01641329n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n temps bn:00077270n printf bn:03243783n trim bn:00074703n radio bn:00065899n comparaison bn:00021304n rows bn:03611246n multiple bn:00056285n 
+  attributes (2) : C2 C9 
+  parents concepts (2) : 409 416 
+  childs concepts (8) : 202 228 253 308 309 333 344 352 
+
+Concept (384) : 
+  level : 2
+  objects (22) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n url bn:00079080n booléen bn:00294693n égalité bn:00031284n syntaxe bn:00062118n définition bn:00025928n fermeture bn:16858148n comportement bn:00009657n multiplication bn:00056300n switch bn:01071927n valeur par défaut bn:03854990n c++ bn:03586438n pdf bn:01745594n w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n unset bn:00176172n droite bn:00051291n charset bn:00017756n microsoft bn:01165400n 
+  attributes (2) : C16 C4 
+  parents concepts (2) : 413 415 
+  childs concepts (7) : 150 206 280 326 334 335 362 
+
+Concept (385) : 
+  level : 2
+  objects (23) : page web bn:00080778n serveur web bn:02705179n fichier bn:00021475n javascript bn:00055423n java bn:00048043n code source bn:00072947n langage bn:00049910n booléen bn:00294693n addition bn:00001296n soustraction bn:00055233n associer bn:00082868v gnu bn:00324017n logiciel open source bn:01157392n linux bn:00051427n multiplication bn:00056300n premier bn:00103006a switch bn:01071927n fonctionnement bn:00059128n mot bn:00081546n delete bn:00941697n insert bn:03795444n langage de programmation bn:00064652n communication bn:00021221n 
+  attributes (2) : C12 C13 
+  parents concepts (2) : 411 417 
+  childs concepts (8) : 195 196 244 264 268 291 311 331 
+
+Concept (386) : 
+  level : 3
+  objects (23) : serveur web bn:02705179n javascript bn:00055423n perl bn:01723165n affichage bn:00010421n url bn:00079080n personne bn:00046516n définition bn:00025928n fermeture bn:16858148n anglais bn:00030862n rappel bn:03490040n comportement bn:00009657n nombre à virgule flottante bn:00035278n statiques bn:00111112a méthode bn:01641329n multiplication bn:00056300n égal bn:00102336a langage c bn:00014377n switch bn:01071927n valeur par défaut bn:03854990n possibilité bn:00045632n façon bn:00033729n temps bn:00077270n lire bn:00066357n 
+  attributes (3) : C12 C4 C9 
+  parents concepts (3) : 399 402 410 
+  childs concepts (7) : 152 188 201 214 310 323 325 
+
+Concept (387) : 
+  level : 2
+  objects (23) : base de donnée bn:00025333n lien hypertextes bn:00045513n champ de saisie bn:03113401n logiques bn:00051845n personne bn:00046516n prenom bn:15996005n fermeture bn:16858148n boucle while bn:03237310n méthode bn:01641329n femme bn:00001530n boucle for bn:03237322n switch bn:01071927n héritage bn:00043822n constructeur bn:03834827n host bn:01846442n langage sql bn:02266432n insert bn:03795444n séquence bn:00070574n web application bn:02246184n final bn:01755798n doctype bn:15839327n comparaison bn:00021304n set bn:04928161n 
+  attributes (2) : C8 C9 
+  parents concepts (2) : 406 416 
+  childs concepts (9) : 151 190 228 247 248 262 287 305 356 
+
+Concept (388) : 
+  level : 2
+  objects (25) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code bn:00020354n texte bn:00076732n affichage bn:00010421n champ de saisie bn:03113401n langage bn:00049910n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n structure de contrôle bn:00047734n session bn:03751534n concaténation bn:03489514n switch bn:01071927n mot bn:00081546n temps bn:00077270n nombre pi bn:00062194n min bn:00055094n navigation bn:00057073n xhtml bn:01163644n faute de frappe bn:00031482n trim bn:00074703n radio bn:00065899n décompter bn:00086432v 
+  attributes (2) : C14 C2 
+  parents concepts (2) : 409 414 
+  childs concepts (9) : 145 270 283 290 300 319 333 343 358 
+
+Concept (389) : 
+  level : 3
+  objects (25) : serveur web bn:02705179n affichage bn:00010421n fois bn:00032768n url bn:00079080n définition bn:00025928n fermeture bn:16858148n boucle while bn:03237310n détruire bn:00084204v côté serveur bn:03816678n nombre entiers bn:00047009n list bn:04720346n globales bn:00103624a affiche bn:15173511n statiques bn:00111112a méthode bn:01641329n concaténation bn:03489514n boucle for bn:03237322n switch bn:01071927n valeur de retour bn:03828774n possibilité bn:00045632n façon bn:00033729n postgresql bn:01709156n sybase bn:01257629n lire bn:00066357n internet bn:00024712n 
+  attributes (3) : C12 C18 C9 
+  parents concepts (3) : 401 403 410 
+  childs concepts (7) : 194 226 259 295 324 325 327 
+
+Concept (390) : 
+  level : 2
+  objects (25) : client serveur bn:03496583n base de donnée bn:00025333n php bn:01753580n javascript bn:00055423n perl bn:01723165n affichage bn:00010421n fois bn:00032768n chemin bn:03131414n lien hypertextes bn:00045513n url bn:00079080n champ de saisie bn:03113401n addition bn:00001296n soustraction bn:00055233n modulo bn:00553864n logiques bn:00051845n syntaxe bn:00062118n prenom bn:15996005n structure de contrôle bn:00047734n définition bn:00025928n fermeture bn:16858148n boucle while bn:03237310n etc bn:00114282r détruire bn:00084204v second bn:00105773a ordinateur bn:00021464n 
+  attributes (2) : C1 C9 
+  parents concepts (2) : 407 416 
+  childs concepts (9) : 185 246 247 253 297 313 328 339 347 
+
+Concept (391) : 
+  level : 2
+  objects (26) : page web bn:00080778n serveur web bn:02705179n client serveur bn:03496583n texte bn:00076732n mise en forme bn:01681906n affichage bn:00010421n url bn:00079080n langage bn:00049910n structure de contrôle bn:00047734n définition bn:00025928n site bn:00047172n côté serveur bn:03816678n globales bn:00103624a concaténation bn:03489514n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n delete bn:00941697n internet bn:00024712n droit bn:00048655n cache bn:00014484n ajax bn:00850961n w3c bn:02673666n dtd bn:15232677n radio bn:00065899n order bn:02240223n 
+  attributes (2) : C14 C18 
+  parents concepts (2) : 412 414 
+  childs concepts (7) : 212 263 270 318 349 359 372 
+
+Concept (392) : 
+  level : 2
+  objects (26) : serveur web bn:02705179n php bn:01753580n texte bn:00076732n mise en forme bn:01681906n affichage bn:00010421n lien hypertextes bn:00045513n url bn:00079080n langage bn:00049910n définition bn:00025928n fermeture bn:16858148n site bn:00047172n statiques bn:00111112a méthode bn:01641329n switch bn:01071927n possibilité bn:00045632n façon bn:00033729n lire bn:00066357n pdf bn:01745594n insertion bn:02234787n droit bn:00048655n w3c bn:02673666n dtd bn:15232677n radio bn:00065899n charset bn:00017756n microsoft bn:01165400n ecriture bn:00081714n 
+  attributes (2) : C18 C4 
+  parents concepts (2) : 412 413 
+  childs concepts (7) : 249 269 271 326 338 359 378 
+
+Concept (393) : 
+  level : 2
+  objects (31) : serveur web bn:02705179n client serveur bn:03496583n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n url bn:00079080n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n syntaxe bn:00062118n structure de contrôle bn:00047734n définition bn:00025928n concaténation bn:03489514n switch bn:01071927n fin de ligne bn:00051314n xml bn:02771436n mathématiques bn:00053823n description bn:04723965n access bn:02744817n css bn:00056944n concept bn:00021547n coder bn:00084976v w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n acronyme bn:00001058n spécification bn:00073217n unset bn:00176172n file bn:00065682n order bn:02240223n 
+  attributes (2) : C14 C16 
+  parents concepts (2) : 414 415 
+  childs concepts (9) : 192 232 284 318 319 334 340 361 371 
+
+Concept (394) : 
+  level : 2
+  objects (31) : serveur web bn:02705179n client serveur bn:03496583n affichage bn:00010421n fois bn:00032768n url bn:00079080n structure de contrôle bn:00047734n définition bn:00025928n fermeture bn:16858148n type bn:00016413n concaténation bn:03489514n switch bn:01071927n valeur de retour bn:03828774n postgresql bn:01709156n sybase bn:01257629n message bn:00521573n argument bn:00005603n tableau associatif bn:03848413n pdf bn:01745594n w3c bn:02673666n dtd bn:15232677n order bn:02240223n unix bn:00079165n réel bn:00066395n comparaison bn:00021304n initialisation bn:00046781n charset bn:00017756n microsoft bn:01165400n microsoft sql server bn:00605043n exec bn:15669055n root bn:00168023n injection bn:03211312n 
+  attributes (2) : C16 C18 
+  parents concepts (2) : 412 415 
+  childs concepts (7) : 115 153 294 318 326 360 376 
+
+Concept (395) : 
+  level : 2
+  objects (31) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n langage bn:00049910n booléen bn:00294693n logiques bn:00051845n type bn:00016413n nombre entiers bn:00047009n list bn:04720346n méthode bn:01641329n concaténation bn:03489514n vouloir bn:00095629v switch bn:01071927n valeur de retour bn:03828774n correct bn:00100490a passage par référence bn:14985956n mot bn:00081546n généralement bn:00114778r temps bn:00077270n printf bn:03243783n strcmp bn:13958358n langage de programmation bn:00064652n fread bn:13825823n nombre pi bn:00062194n min bn:00055094n traiter bn:00092034v navigation bn:00057073n transfert de fichier bn:03563534n 
+  attributes (2) : C12 C2 
+  parents concepts (2) : 409 417 
+  childs concepts (7) : 264 314 337 344 345 350 358 
+
+Concept (396) : 
+  level : 3
+  objects (32) : serveur web bn:02705179n javascript bn:00055423n affichage bn:00010421n fois bn:00032768n url bn:00079080n modulo bn:00553864n logiques bn:00051845n associer bn:00082868v définition bn:00025928n fermeture bn:16858148n configuration bn:03088982n chaîne bn:00074685n logiciel open source bn:01157392n comportement bn:00009657n récursives bn:00109560a multiplication bn:00056300n division bn:00027919n concaténation bn:03489514n opérateur logiques bn:00051853n switch bn:01071927n valeur de retour bn:03828774n valeur par défaut bn:03854990n encapsulation bn:01505556n entité bn:00031027n héritage bn:00043822n polymorphisme bn:01974384n constructeur bn:03834827n langage sql bn:02266432n informix bn:03306725n postgresql bn:01709156n sybase bn:01257629n répéter bn:00089731v 
+  attributes (3) : C12 C16 C9 
+  parents concepts (3) : 405 408 410 
+  childs concepts (7) : 207 229 266 267 279 310 324 
+
+Concept (397) : 
+  level : 2
+  objects (33) : serveur web bn:02705179n javascript bn:00055423n texte bn:00076732n mise en forme bn:01681906n affichage bn:00010421n url bn:00079080n champ de saisie bn:03113401n langage bn:00049910n booléen bn:00294693n syntaxe bn:00062118n définition bn:00025928n site bn:00047172n anglais bn:00030862n session bn:03751534n égal bn:00102336a switch bn:01071927n possibilité bn:00045632n mot bn:00081546n façon bn:00033729n temps bn:00077270n boutons bn:03843242n feuille de styles bn:00802225n navigation bn:00057073n cascading style sheet bn:01642119n arial bn:01485779n droit bn:00048655n w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n paragraphe bn:00060556n unset bn:00176172n h2 bn:02803535n radio bn:00065899n 
+  attributes (2) : C14 C4 
+  parents concepts (2) : 413 414 
+  childs concepts (8) : 146 278 321 334 343 359 366 379 
+
+Concept (398) : 
+  level : 2
+  objects (36) : serveur web bn:02705179n client serveur bn:03496583n javascript bn:00055423n texte bn:00076732n affichage bn:00010421n url bn:00079080n champ de saisie bn:03113401n logiques bn:00051845n syntaxe bn:00062118n structure de contrôle bn:00047734n définition bn:00025928n site bn:00047172n anglais bn:00030862n côté serveur bn:03816678n globales bn:00103624a concaténation bn:03489514n égal bn:00102336a switch bn:01071927n possibilité bn:00045632n façon bn:00033729n insert bn:03795444n temps bn:00077270n internet bn:00024712n wikipédia bn:03288118n concept bn:00021547n coder bn:00084976v w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n spécification bn:00073217n balise html bn:02104867n trim bn:00074703n unset bn:00176172n mère bn:00034027n radio bn:00065899n phpmyadmin bn:03382496n 
+  attributes (2) : C14 C9 
+  parents concepts (2) : 414 416 
+  childs concepts (8) : 190 204 297 333 367 371 372 379 
+
+Concept (399) : 
+  level : 2
+  objects (39) : serveur web bn:02705179n php bn:01753580n javascript bn:00055423n perl bn:01723165n texte bn:00076732n affichage bn:00010421n lien hypertextes bn:00045513n url bn:00079080n champ de saisie bn:03113401n syntaxe bn:00062118n personne bn:00046516n définition bn:00025928n fermeture bn:16858148n site bn:00047172n anglais bn:00030862n rappel bn:03490040n comportement bn:00009657n nombre à virgule flottante bn:00035278n statiques bn:00111112a méthode bn:01641329n multiplication bn:00056300n égal bn:00102336a langage c bn:00014377n switch bn:01071927n valeur par défaut bn:03854990n possibilité bn:00045632n façon bn:00033729n temps bn:00077270n lire bn:00066357n w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n unset bn:00176172n radio bn:00065899n microsoft bn:01165400n ecriture bn:00081714n rouge bn:00066631n sport bn:00006759n durée de vie bn:01120526n 
+  attributes (2) : C4 C9 
+  parents concepts (2) : 413 416 
+  childs concepts (8) : 203 262 308 313 362 378 379 386 
+
+Concept (400) : 
+  level : 2
+  objects (41) : page web bn:00080778n serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code bn:00020354n code source bn:00072947n affichage bn:00010421n url bn:00079080n langage bn:00049910n booléen bn:00294693n logiques bn:00051845n définition bn:00025928n anglais bn:00030862n côté serveur bn:03816678n complexe bn:00100148a backslash bn:00988551n globales bn:00103624a query_string bn:03583474n concaténation bn:03489514n égal bn:00102336a switch bn:01071927n possibilité bn:00045632n mot bn:00081546n façon bn:00033729n pouvoir bn:00063940n delete bn:00941697n insert bn:03795444n temps bn:00077270n info bn:03662501n fin de ligne bn:00051314n xml bn:02771436n boutons bn:03843242n mathématiques bn:00053823n nombre pi bn:00062194n min bn:00055094n feuille de styles bn:00802225n navigation bn:00057073n internet bn:00024712n communication bn:00021221n description bn:04723965n access bn:02744817n 
+  attributes (2) : C12 C14 
+  parents concepts (2) : 414 417 
+  childs concepts (8) : 230 298 331 349 358 361 366 367 
+
+Concept (401) : 
+  level : 2
+  objects (41) : serveur web bn:02705179n client serveur bn:03496583n php bn:01753580n texte bn:00076732n affichage bn:00010421n fois bn:00032768n lien hypertextes bn:00045513n url bn:00079080n prenom bn:15996005n structure de contrôle bn:00047734n définition bn:00025928n fermeture bn:16858148n boucle while bn:03237310n site bn:00047172n détruire bn:00084204v côté serveur bn:03816678n nombre entiers bn:00047009n list bn:04720346n globales bn:00103624a affiche bn:15173511n statiques bn:00111112a méthode bn:01641329n concaténation bn:03489514n boucle for bn:03237322n switch bn:01071927n valeur de retour bn:03828774n possibilité bn:00045632n façon bn:00033729n postgresql bn:01709156n sybase bn:01257629n lire bn:00066357n internet bn:00024712n déconnexion bn:00027504n w3c bn:02673666n dtd bn:15232677n radio bn:00065899n comparaison bn:00021304n microsoft bn:01165400n microsoft sql server bn:00605043n root bn:00168023n ecriture bn:00081714n 
+  attributes (2) : C18 C9 
+  parents concepts (2) : 412 416 
+  childs concepts (9) : 170 261 287 339 352 372 376 378 389 
+
+Concept (402) : 
+  level : 2
+  objects (41) : serveur web bn:02705179n javascript bn:00055423n perl bn:01723165n affichage bn:00010421n url bn:00079080n langage bn:00049910n booléen bn:00294693n personne bn:00046516n définition bn:00025928n fermeture bn:16858148n anglais bn:00030862n rappel bn:03490040n composer bn:14766022n httpd bn:16913184n comportement bn:00009657n nombre à virgule flottante bn:00035278n statiques bn:00111112a méthode bn:01641329n multiplication bn:00056300n égal bn:00102336a langage c bn:00014377n pouvoir bn:00084450v switch bn:01071927n passage par référence bn:14985956n valeur par défaut bn:03854990n possibilité bn:00045632n c++ bn:03586438n mot bn:00081546n façon bn:00033729n temps bn:00077270n authentification bn:03253409n langage de programmation bn:00064652n lire bn:00066357n fread bn:13825823n copy bn:14086525n rename bn:00342646n boutons bn:03843242n exécutable bn:00102521a feuille de styles bn:00802225n navigation bn:00057073n capables bn:00099215a 
+  attributes (2) : C12 C4 
+  parents concepts (2) : 413 417 
+  childs concepts (9) : 193 227 250 268 335 338 345 366 386 
+
+Concept (403) : 
+  level : 2
+  objects (42) : page web bn:00080778n serveur web bn:02705179n fichier bn:00021475n affichage bn:00010421n fois bn:00032768n url bn:00079080n langage bn:00049910n définition bn:00025928n fermeture bn:16858148n boucle while bn:03237310n détruire bn:00084204v délimiteur bn:03371342n côté serveur bn:03816678n servlets bn:03188848n compteur bn:00023158n type bn:00016413n nombre entiers bn:00047009n list bn:04720346n globales bn:00103624a affiche bn:15173511n statiques bn:00111112a méthode bn:01641329n concaténation bn:03489514n boucle for bn:03237322n vouloir bn:00095629v switch bn:01071927n valeur de retour bn:03828774n possibilité bn:00045632n supplémentaires bn:00111488a façon bn:00033729n time bn:03389905n commerce électronique bn:00029344n postgresql bn:01709156n sybase bn:01257629n delete bn:00941697n lire bn:00066357n message bn:00521573n argument bn:00005603n tableau associatif bn:03848413n encodage bn:00030696n richesse bn:00080746n internet bn:00024712n 
+  attributes (2) : C12 C18 
+  parents concepts (2) : 412 417 
+  childs concepts (9) : 195 274 285 288 337 338 349 360 389 
+
+Concept (404) : 
+  level : 1
+  objects (47) : disque dur bn:00073359n java bn:00048043n code bn:00020354n fichier texte bn:00028018n affichage bn:00010421n fois bn:00032768n post bn:01500184n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n prenom bn:15996005n initialiser bn:00089742v détruire bn:00084204v free software bn:00182120n rappel bn:03490040n script bn:01431715n nombre entiers bn:00047009n numérique bn:00107649a méthode bn:01641329n foreach bn:03463379n switch bn:01071927n variable globale bn:02011863n time bn:03389905n temps bn:00077270n tableau associatif bn:03848413n web design bn:02763125n formulaire bn:14352118n file bn:00065682n structuration bn:14636497n envoyé bn:00030563n inutile bn:00113457a age bn:02104510n marie bn:00090675v super bn:17336345n italie bn:00047705n couple bn:00012597n variables locales bn:00958409n locales bn:03080237n stocker bn:00094400v autre bn:00108013a généralité bn:00041249n oublier bn:00084302v provenance bn:00010687n env bn:01199166n attribution bn:00063814n visite bn:00080112n màj bn:15364261n 
+  attributes (1) : C7 
+  parents concepts (1) : 418 
+  childs concepts (9) : 191 302 316 329 330 342 346 348 370 
+
+Concept (405) : 
+  level : 2
+  objects (54) : serveur web bn:02705179n client serveur bn:03496583n javascript bn:00055423n affichage bn:00010421n fois bn:00032768n url bn:00079080n modulo bn:00553864n logiques bn:00051845n syntaxe bn:00062118n associer bn:00082868v structure de contrôle bn:00047734n définition bn:00025928n fermeture bn:16858148n mysql bn:01225760n configuration bn:03088982n chaîne bn:00074685n logiciel open source bn:01157392n comportement bn:00009657n récursives bn:00109560a multiplication bn:00056300n division bn:00027919n concaténation bn:03489514n opérateur logiques bn:00051853n switch bn:01071927n valeur de retour bn:03828774n valeur par défaut bn:03854990n encapsulation bn:01505556n entité bn:00031027n héritage bn:00043822n polymorphisme bn:01974384n constructeur bn:03834827n langage sql bn:02266432n informix bn:03306725n postgresql bn:01709156n sybase bn:01257629n répéter bn:00089731v concept bn:00021547n coder bn:00084976v w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n spécification bn:00073217n unset bn:00176172n comparaison bn:00021304n sizeof bn:03205994n abstraire bn:00082180v self bn:03432485n set bn:04928161n microsoft bn:01165400n microsoft sql server bn:00605043n ibm db2 bn:00637255n rollback bn:00133978n root bn:00168023n supporter bn:00083226v 
+  attributes (2) : C16 C9 
+  parents concepts (2) : 415 416 
+  childs concepts (8) : 238 305 309 328 362 371 376 396 
+
+Concept (406) : 
+  level : 1
+  objects (56) : page web bn:00080778n fichier bn:00021475n base de donnée bn:00025333n lien hypertextes bn:00045513n champ de saisie bn:03113401n size bn:03645138n booléen bn:00294693n logiques bn:00051845n personne bn:00046516n prenom bn:15996005n fermeture bn:16858148n boucle while bn:03237310n bibliothèques bn:00050969n méthode bn:01641329n integer bn:00691555n femme bn:00001530n boucle for bn:03237322n switch bn:01071927n classes bn:03608262n héritage bn:00043822n constructeur bn:03834827n host bn:01846442n langage sql bn:02266432n delete bn:00941697n insert bn:03795444n séquence bn:00070574n fin de ligne bn:00051314n message bn:00521573n web application bn:02246184n final bn:01755798n doctype bn:15839327n comparaison bn:00021304n champ bn:00034274n travers bn:00042404n disponible bn:00097846a set bn:04928161n type de valeur bn:00253515n mot de passe bn:00023218n sens bn:00046139n invisible bn:00105385a associa bn:00085315v opéra bn:00059107n manager bn:14456945n limiter bn:00086468v man bn:15327088n diagramme bn:00026817n être bn:00004222n prix unitaire bn:00587816n bienvenue bn:00080852n ar bn:03237564n agit bn:00082285v indépendante bn:00104929a uml bn:02571962n page bn:00091387v ici bn:00116504r juste bn:00114626r 
+  attributes (1) : C8 
+  parents concepts (1) : 418 
+  childs concepts (10) : 191 286 303 306 312 317 332 364 382 387 
+
+Concept (407) : 
+  level : 1
+  objects (59) : page web statiques bn:03576307n fichier bn:00021475n disque dur bn:00073359n client serveur bn:03496583n base de donnée bn:00025333n donnée bn:00025314n ensemble bn:00114766r php bn:01753580n javascript bn:00055423n perl bn:01723165n python bn:01713224n java bn:00048043n code bn:00020354n code source bn:00072947n fichier texte bn:00028018n mise en forme bn:01681906n affichage bn:00010421n fois bn:00032768n chemin bn:03131414n lien hypertextes bn:00045513n url bn:00079080n textuels bn:00111786a page web dynamique bn:00937946n post bn:01500184n champ de saisie bn:03113401n size bn:03645138n vide bn:00087578v liste déroulante bn:00028831n sélectionner bn:00084931v déclencher bn:00082306v réinitialisation bn:00067306n langage impératif bn:01246770n impératif bn:00104644a affectation bn:02806034n booléen bn:00294693n réalité bn:00066414n concatène bn:00085508v addition bn:00001296n soustraction bn:00055233n multiplié bn:00090977v modulo bn:00553864n égalité bn:00031284n logiques bn:00051845n syntaxe bn:00062118n prenom bn:15996005n structure de contrôle bn:00047734n définition bn:00025928n initialiser bn:00089742v dépendre bn:00086606v méthode post bn:00045088n fermeture bn:16858148n phase bn:00061898n être utile bn:00085368v boucle while bn:03237310n euro bn:00031888n etc bn:00114282r détruire bn:00084204v second bn:00105773a ordinateur bn:00021464n 
+  attributes (1) : C1 
+  parents concepts (1) : 418 
+  childs concepts (10) : 312 346 353 354 355 363 368 369 381 390 
+
+Concept (408) : 
+  level : 2
+  objects (62) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n url bn:00079080n booléen bn:00294693n modulo bn:00553864n logiques bn:00051845n associer bn:00082868v définition bn:00025928n dépendre bn:00086606v fermeture bn:16858148n configuration bn:03088982n chaîne bn:00074685n logiciel open source bn:01157392n rasmus lerdorf bn:03232211n comportement bn:00009657n type bn:00016413n bloc bn:03098513n récursives bn:00109560a ambiguïté bn:00003266n multiplication bn:00056300n division bn:00027919n concaténation bn:03489514n bit bn:00010731n opérateur logiques bn:00051853n switch bn:01071927n substitution bn:03342494n valeur de retour bn:03828774n valeur par défaut bn:03854990n c++ bn:03586438n encapsulation bn:01505556n entité bn:00031027n fonctionnement bn:00059128n héritage bn:00043822n polymorphisme bn:01974384n constructeur bn:03834827n destructeur bn:01558988n généralement bn:00114778r sauvegarde bn:00007838n langage sql bn:02266432n informix bn:03306725n odbc bn:14228731n postgresql bn:01709156n sybase bn:01257629n varchar bn:01838409n analyser bn:15790106n fin de ligne bn:00051314n successives bn:00100306a xml bn:02771436n message bn:00521573n argument bn:00005603n tableau associatif bn:03848413n mathématiques bn:00053823n traiter bn:00092034v traitement bn:00064545n répéter bn:00089731v développement bn:01834425n description bn:04723965n access bn:02744817n 
+  attributes (2) : C12 C16 
+  parents concepts (2) : 415 417 
+  childs concepts (9) : 282 291 304 335 341 350 360 361 396 
+
+Concept (409) : 
+  level : 1
+  objects (70) : serveur web bn:02705179n javascript bn:00055423n java bn:00048043n code bn:00020354n fichier texte bn:00028018n texte bn:00076732n affichage bn:00010421n fois bn:00032768n lien hypertextes bn:00045513n champ de saisie bn:03113401n réinitialisation bn:00067306n langage bn:00049910n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n structure de contrôle bn:00047734n initialiser bn:00089742v session bn:03751534n type bn:00016413n nombre entiers bn:00047009n list bn:04720346n méthode bn:01641329n concaténation bn:03489514n vouloir bn:00095629v switch bn:01071927n valeur de retour bn:03828774n correct bn:00100490a passage par référence bn:14985956n mot bn:00081546n généralement bn:00114778r temps bn:00077270n printf bn:03243783n strcmp bn:13958358n langage de programmation bn:00064652n fread bn:13825823n nombre pi bn:00062194n min bn:00055094n traiter bn:00092034v navigation bn:00057073n transfert de fichier bn:03563534n xhtml bn:01163644n faute de frappe bn:00031482n trim bn:00074703n radio bn:00065899n décompter bn:00086432v comparaison bn:00021304n attention bn:00007020n existence bn:00009676n accès bn:00000759n université de rouen bn:00601230n évolué bn:00084199v crée bn:00086008v manuel bn:00099315a français bn:00103321a expr bn:03120209n spécifique bn:00111003a inverse bn:00056301n trie bn:02479296n occurence bn:00047732n rouen bn:03268781n code postal bn:00063770n mot de passe bn:00023218n rows bn:03611246n bouton radio bn:03157702n multiple bn:00056285n touche ctrl bn:00020947n fin de fichier bn:02781064n carte d’identité bn:00015915n mémoire vive bn:00066091n 2.0 bn:00074217n 
+  attributes (1) : C2 
+  parents concepts (1) : 418 
+  childs concepts (10) : 286 320 348 355 365 377 380 383 388 395 
+
+Concept (410) : 
+  level : 2
+  objects (77) : serveur web bn:02705179n javascript bn:00055423n perl bn:01723165n affichage bn:00010421n fois bn:00032768n url bn:00079080n addition bn:00001296n soustraction bn:00055233n modulo bn:00553864n logiques bn:00051845n associer bn:00082868v personne bn:00046516n définition bn:00025928n fermeture bn:16858148n boucle while bn:03237310n détruire bn:00084204v anglais bn:00030862n configuration bn:03088982n chaîne bn:00074685n rappel bn:03490040n coordonnées bn:00022459n côté serveur bn:03816678n hériter bn:00043823n logiciel open source bn:01157392n publique bn:00109211a comportement bn:00009657n nombre entiers bn:00047009n nombre à virgule flottante bn:00035278n variable de type bn:02158332n base 10 bn:00025700n valeur numérique bn:00000451n numérique bn:00107649a list bn:04720346n globales bn:00103624a affiche bn:15173511n statiques bn:00111112a récursives bn:00109560a méthode bn:01641329n contraire bn:00100398a système d’exploitation bn:00059123n linux bn:00051427n multiplication bn:00056300n division bn:00027919n concaténation bn:03489514n opérateur logiques bn:00051853n égal bn:00102336a langage c bn:00014377n femme bn:00001530n boucle for bn:03237322n switch bn:01071927n valeur de retour bn:03828774n avoir lieu bn:00085337v constante bn:00100331a valeur par défaut bn:03854990n possibilité bn:00045632n encapsulation bn:01505556n entité bn:00031027n abstraite bn:00096212a caractéristique bn:00099532a héritage bn:00043822n polymorphisme bn:01974384n constructeur bn:03834827n façon bn:00033729n host bn:01846442n libérer bn:00090300v langage sql bn:02266432n informix bn:03306725n postgresql bn:01709156n sybase bn:01257629n berkeley db bn:03239968n insert bn:03795444n temps bn:00077270n séquence bn:00070574n printf bn:03243783n lire bn:00066357n répéter bn:00089731v internet bn:00024712n 
+  attributes (2) : C12 C9 
+  parents concepts (2) : 416 417 
+  childs concepts (9) : 311 315 344 347 356 367 386 389 396 
+
+Concept (411) : 
+  level : 1
+  objects (87) : page web bn:00080778n serveur web bn:02705179n fichier bn:00021475n base de donnée bn:00025333n donnée bn:00025314n javascript bn:00055423n java bn:00048043n code source bn:00072947n mise en forme bn:01681906n lien hypertextes bn:00045513n page web dynamique bn:00937946n champ de saisie bn:03113401n langage bn:00049910n booléen bn:00294693n addition bn:00001296n soustraction bn:00055233n associer bn:00082868v structure de contrôle bn:00047734n gnu bn:00324017n logiciel open source bn:01157392n linux bn:00051427n multiplication bn:00056300n premier bn:00103006a switch bn:01071927n fonctionnement bn:00059128n mot bn:00081546n delete bn:00941697n insert bn:03795444n langage de programmation bn:00064652n communication bn:00021221n ascii bn:00003473n pdf bn:01745594n type de programme bn:00144629n système d bn:04836299n tache bn:00028345n matériel bn:00021480n ssh bn:02244459n firefox bn:01387235n matlab bn:01312834n web application bn:02246184n mac bn:00052516n mac os bn:01415427n windows bn:00081305n commun bn:00021051n internet explorer bn:17346309n outlook express bn:01003371n thunderbird bn:01597870n msn bn:01095820n gaim bn:01141048n skype bn:03166959n css bn:00056944n cascading style sheet bn:01642119n système de gestion bn:01510781n cd bn:00016915n flash bn:01369336n science bn:00069670n univers bn:00022991n accueil bn:00044514n insertion bn:02234787n photo bn:00062084n animation bn:00004263n img bn:02450504n touch bn:03178622n arial bn:01485779n gimp bn:00433129n creation bn:03599511n droit bn:00048655n calque bn:00095056v flou bn:03173349n flou gaussien bn:01085310n rendu bn:00047114n nuages bn:00020002n plasma bn:15408550n diffraction bn:00027046n masque bn:03236329n colorer bn:00100030a résultat final bn:00034520n final bn:01755798n gestion de contenu bn:00883027n dédier bn:00085427v habillage bn:04699521n terminal bn:00100203a déconnexion bn:00027504n rue bn:00074595n marseille bn:00053540n site de news bn:03722635n bilan bn:00008060n 
+  attributes (1) : C13 
+  parents concepts (1) : 418 
+  childs concepts (9) : 317 320 351 354 357 373 374 375 385 
+
+Concept (412) : 
+  level : 1
+  objects (101) : page web bn:00080778n serveur web bn:02705179n fichier bn:00021475n client serveur bn:03496583n php bn:01753580n texte bn:00076732n mise en forme bn:01681906n affichage bn:00010421n fois bn:00032768n lien hypertextes bn:00045513n url bn:00079080n langage bn:00049910n prenom bn:15996005n structure de contrôle bn:00047734n définition bn:00025928n fermeture bn:16858148n boucle while bn:03237310n site bn:00047172n détruire bn:00084204v délimiteur bn:03371342n côté serveur bn:03816678n script bn:01431715n servlets bn:03188848n compteur bn:00023158n type bn:00016413n nombre entiers bn:00047009n list bn:04720346n globales bn:00103624a affiche bn:15173511n statiques bn:00111112a méthode bn:01641329n concaténation bn:03489514n boucle for bn:03237322n vouloir bn:00095629v switch bn:01071927n valeur de retour bn:03828774n possibilité bn:00045632n supplémentaires bn:00111488a façon bn:00033729n time bn:03389905n commerce électronique bn:00029344n postgresql bn:01709156n sybase bn:01257629n delete bn:00941697n lire bn:00066357n message bn:00521573n argument bn:00005603n tableau associatif bn:03848413n encodage bn:00030696n richesse bn:00080746n internet bn:00024712n pdf bn:01745594n firefox bn:01387235n accueil bn:00044514n insertion bn:02234787n droit bn:00048655n déconnexion bn:00027504n cache bn:00014484n ajax bn:00850961n w3c bn:02673666n dtd bn:15232677n radio bn:00065899n order bn:02240223n unix bn:00079165n réel bn:00066395n comparaison bn:00021304n initialisation bn:00046781n charset bn:00017756n microsoft bn:01165400n microsoft sql server bn:00605043n exec bn:15669055n root bn:00168023n injection bn:03211312n serveur fiables bn:15865575n json bn:00802141n histoire bn:00044268n indépendant bn:00036335n wampserver bn:03978910n ecriture bn:00081714n premier bn:00034738n attention bn:00007020n filtrage bn:00259585n supprime bn:00087533v critère bn:00023853n degre bn:00005380n existence bn:00009676n location bn:00067131n accès bn:00000759n faille bn:00012898n courante bn:00107963a validité bn:01410980n wbmp bn:00172178n tcpdf bn:00870659n chrome bn:00018877n catch bn:00037180n libération bn:00050944n enum bn:02324948n avg bn:00179783n vente bn:00053480n catalogue bn:00016652n dvd bn:00029245n 
+  attributes (1) : C18 
+  parents concepts (1) : 418 
+  childs concepts (10) : 316 332 353 357 380 391 392 394 401 403 
+
+Concept (413) : 
+  level : 1
+  objects (125) : navigateur bn:00013447n serveur web bn:02705179n php bn:01753580n javascript bn:00055423n perl bn:01723165n fichier texte bn:00028018n texte bn:00076732n mise en forme bn:01681906n affichage bn:00010421n lien hypertextes bn:00045513n url bn:00079080n post bn:01500184n champ de saisie bn:03113401n liste déroulante bn:00028831n langage bn:00049910n booléen bn:00294693n égalité bn:00031284n syntaxe bn:00062118n personne bn:00046516n définition bn:00025928n fermeture bn:16858148n site bn:00047172n anglais bn:00030862n session bn:03751534n rappel bn:03490040n composer bn:14766022n httpd bn:16913184n comportement bn:00009657n nombre à virgule flottante bn:00035278n statiques bn:00111112a méthode bn:01641329n multiplication bn:00056300n égal bn:00102336a langage c bn:00014377n pouvoir bn:00084450v switch bn:01071927n passage par référence bn:14985956n valeur par défaut bn:03854990n possibilité bn:00045632n c++ bn:03586438n mot bn:00081546n façon bn:00033729n temps bn:00077270n authentification bn:03253409n langage de programmation bn:00064652n lire bn:00066357n fread bn:13825823n copy bn:14086525n rename bn:00342646n boutons bn:03843242n exécutable bn:00102521a feuille de styles bn:00802225n navigation bn:00057073n capables bn:00099215a ascii bn:00003473n pdf bn:01745594n cascading style sheet bn:01642119n insertion bn:02234787n touch bn:03178622n arial bn:01485779n droit bn:00048655n w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n paragraphe bn:00060556n unset bn:00176172n h2 bn:02803535n radio bn:00065899n droite bn:00051291n charset bn:00017756n microsoft bn:01165400n ecriture bn:00081714n université antilles guyane bn:00537645n noël bn:00018836n client http bn:04783345n recommandation w3c bn:15800643n information bn:00046705n êtres bn:00009677n structuration bn:14636497n sens bn:00046139n désormais bn:00116384r liste à puces bn:03415182n inline bn:01456420n uvre bn:00016278n disponibilité bn:00000670n chose bn:00091115v texte gras bn:00030599n rouge bn:00066631n abuser bn:00090815v souris bn:00021487n auto bn:00007309n allonger bn:00087910v chevauchements bn:00045993n em bn:00030453n active server pages bn:02246064n connaissance bn:00020452n nécessaire bn:00107182a transtypage bn:17104905n sensibles bn:00104681a dictionnaires bn:00026967n table de hachage bn:00587820n hachage bn:00583146n bois bn:00081492n key bn:15770009n info bn:00046698n parcours bn:03468087n sport bn:00006759n selection multiple bn:05019947n saisir bn:00082727v nom bn:00056758n entrée standard bn:01496506n mode connecté bn:04749137n mozilla bn:01297088n placer bn:00090224v rattacher bn:00085624v durée de vie bn:01120526n path bn:01205256n banque bn:00008364n nobody bn:03500369n basename bn:01749628n dirname bn:00242975n umask bn:03851470n handle bn:00278322n friends bn:00257421n sgbdr bn:14249264n 
+  attributes (1) : C4 
+  parents concepts (1) : 418 
+  childs concepts (10) : 302 303 363 374 377 384 392 397 399 402 
+
+Concept (414) : 
+  level : 1
+  objects (142) : page web bn:00080778n serveur web bn:02705179n client serveur bn:03496583n ensemble bn:00114766r javascript bn:00055423n java bn:00048043n code bn:00020354n code source bn:00072947n texte bn:00076732n mise en forme bn:01681906n affichage bn:00010421n url bn:00079080n champ de saisie bn:03113401n langage bn:00049910n affectation bn:02806034n booléen bn:00294693n logiques bn:00051845n syntaxe bn:00062118n structure de contrôle bn:00047734n définition bn:00025928n euro bn:00031888n site bn:00047172n anglais bn:00030862n session bn:03751534n côté serveur bn:03816678n serveur bn:00044916n complexe bn:00100148a backslash bn:00988551n globales bn:00103624a query_string bn:03583474n concaténation bn:03489514n égal bn:00102336a switch bn:01071927n possibilité bn:00045632n classes bn:03608262n mot bn:00081546n façon bn:00033729n pouvoir bn:00063940n delete bn:00941697n insert bn:03795444n temps bn:00077270n info bn:03662501n web bn:00080772n fin de ligne bn:00051314n xml bn:02771436n boutons bn:03843242n mathématiques bn:00053823n nombre pi bn:00062194n min bn:00055094n feuille de styles bn:00802225n navigation bn:00057073n internet bn:00024712n communication bn:00021221n description bn:04723965n access bn:02744817n css bn:00056944n cascading style sheet bn:01642119n arial bn:01485779n droit bn:00048655n thomas bn:00005240n wikipédia bn:03288118n back-end bn:03173264n application bn:00005095n informatique bn:00021494n étage bn:00034203n concept bn:00021547n fonctionnement bn:00036838n coder bn:00084976v flux vidéo bn:02230830n js bn:15539067n relais bn:00030187n proxy bn:03664545n cache bn:00014484n tunnel bn:00448122n langage de balisage bn:00053492n web design bn:02763125n ajax bn:00850961n standardiser bn:00073927n date bn:17273686n paradigme bn:01164163n extension de fichier bn:00032416n w3c bn:02673666n sgml bn:00070813n wikicode bn:02697746n bbcode bn:03547972n xhtml bn:01163644n doctype bn:15839327n dtd bn:15232677n respect bn:00031654n validateur bn:02748538n html5 bn:03675085n web sémantique bn:02276858n sémantique bn:00070404n informatique bn:00100175a portabilité bn:03720519n mobile bn:00106819a pile bn:02100952n structure arborescente bn:03156222n minimal bn:00106755a paragraphe bn:00060556n abréviation bn:00000239n acronyme bn:00001058n courriel bn:00087450v cohérente bn:00099970a tr bn:03561884n spécification bn:00073217n svg bn:02136503n iso-8859-1 bn:00717125n spéciaux bn:00108295a robots bn:00007371n nouvelles bn:00107274a canvas bn:02415221n links bn:01052609n formulaire bn:14352118n balise html bn:02104867n classique bn:00019566n helvetica bn:00043646n letter-spacing bn:00951097n angles bn:00004117n généralité bn:00037670n actuelle bn:00108977a interface bn:00047088n seul bn:00110667a finir bn:00088223v faute de frappe bn:00031482n trim bn:00074703n unset bn:00176172n diff bn:16709776n h2 bn:02803535n papa bn:00024989n nb bn:00056690n mère bn:00034027n barre d’adresse bn:15081463n file bn:00065682n radio bn:00065899n ajouter bn:00082317v blogs bn:00011339n phpmyadmin bn:03382496n interrogative bn:00047208n sélective bn:00110293a décompter bn:00086432v order bn:02240223n 
+  attributes (1) : C14 
+  parents concepts (1) : 418 
+  childs concepts (10) : 306 330 368 375 388 391 393 397 398 400 
+
+Concept (415) : 
+  level : 1
+  objects (145) : serveur web bn:02705179n client serveur bn:03496583n javascript bn:00055423n java bn:00048043n code bn:00020354n affichage bn:00010421n fois bn:00032768n url bn:00079080n affectation bn:02806034n booléen bn:00294693n modulo bn:00553864n égalité bn:00031284n logiques bn:00051845n syntaxe bn:00062118n associer bn:00082868v structure de contrôle bn:00047734n définition bn:00025928n dépendre bn:00086606v fermeture bn:16858148n mysql bn:01225760n configuration bn:03088982n chaîne bn:00074685n logiciel open source bn:01157392n rasmus lerdorf bn:03232211n comportement bn:00009657n type bn:00016413n bloc bn:03098513n récursives bn:00109560a ambiguïté bn:00003266n multiplication bn:00056300n division bn:00027919n concaténation bn:03489514n bit bn:00010731n opérateur logiques bn:00051853n foreach bn:03463379n switch bn:01071927n substitution bn:03342494n valeur de retour bn:03828774n valeur par défaut bn:03854990n c++ bn:03586438n encapsulation bn:01505556n entité bn:00031027n fonctionnement bn:00059128n héritage bn:00043822n polymorphisme bn:01974384n constructeur bn:03834827n destructeur bn:01558988n généralement bn:00114778r sauvegarde bn:00007838n langage sql bn:02266432n informix bn:03306725n odbc bn:14228731n postgresql bn:01709156n sybase bn:01257629n varchar bn:01838409n analyser bn:15790106n fin de ligne bn:00051314n successives bn:00100306a xml bn:02771436n message bn:00521573n argument bn:00005603n tableau associatif bn:03848413n mathématiques bn:00053823n traiter bn:00092034v traitement bn:00064545n répéter bn:00089731v développement bn:01834425n description bn:04723965n access bn:02744817n pdf bn:01745594n windows bn:00081305n css bn:00056944n flash bn:01369336n concept bn:00021547n coder bn:00084976v w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n acronyme bn:00001058n spécification bn:00073217n unset bn:00176172n file bn:00065682n order bn:02240223n acronyme récursif bn:03061784n unix bn:00079165n utilité bn:00079399n système de fichier bn:00034429n imap bn:00696730n localisation bn:03977550n confusion bn:00021792n famille bn:00032893n réel bn:00066395n oeufs bn:00029914n impossible bn:00104687a comparaison bn:00021304n supérieur bn:00111465a droite bn:00051291n précédence bn:01410322n initialisation bn:00046781n sizeof bn:03205994n génération de code bn:01151877n charset bn:00017756n champ bn:00034274n banane bn:00008268n 5b bn:13842911n références bn:00063236n définition de fonction bn:04733431n arrêt bn:00025510n stream bn:02122367n line bn:16701562n idée bn:00045800n travers bn:00042404n recette de cuisine bn:03877095n vivantes bn:00096787a procédé bn:03245758n rassembler bn:00082246v modificateurs bn:00055488n setters bn:00021412n nouvelle classe bn:02230821n mammifère bn:00053079n choix public bn:14709103n abstraire bn:00082180v nouvelle bn:02989482n disponible bn:00097846a self bn:03432485n constante bn:14692918n set bn:04928161n clonage bn:04738539n spécifique bn:00111001a microsoft bn:01165400n microsoft sql server bn:00605043n ibm db2 bn:00637255n exec bn:15669055n rollback bn:00133978n erreur de syntaxe bn:00075740n letter bn:00950340n cry bn:00848703n type de valeur bn:00253515n root bn:00168023n émulation bn:00030643n supporter bn:00083226v attaque par injection bn:00184104n injection bn:03211312n injection sql bn:03319192n validation bn:03925844n 
+  attributes (1) : C16 
+  parents concepts (1) : 418 
+  childs concepts (10) : 329 351 364 365 369 384 393 394 405 408 
+
+Concept (416) : 
+  level : 1
+  objects (204) : serveur web bn:02705179n client serveur bn:03496583n base de donnée bn:00025333n php bn:01753580n javascript bn:00055423n perl bn:01723165n texte bn:00076732n affichage bn:00010421n fois bn:00032768n chemin bn:03131414n lien hypertextes bn:00045513n url bn:00079080n champ de saisie bn:03113401n addition bn:00001296n soustraction bn:00055233n modulo bn:00553864n logiques bn:00051845n syntaxe bn:00062118n associer bn:00082868v personne bn:00046516n prenom bn:15996005n structure de contrôle bn:00047734n définition bn:00025928n fermeture bn:16858148n mysql bn:01225760n boucle while bn:03237310n etc bn:00114282r site bn:00047172n détruire bn:00084204v second bn:00105773a ordinateur bn:00021464n anglais bn:00030862n configuration bn:03088982n chaîne bn:00074685n rappel bn:03490040n coordonnées bn:00022459n côté serveur bn:03816678n hériter bn:00043823n logiciel open source bn:01157392n publique bn:00109211a comportement bn:00009657n nombre entiers bn:00047009n nombre à virgule flottante bn:00035278n variable de type bn:02158332n base 10 bn:00025700n valeur numérique bn:00000451n numérique bn:00107649a list bn:04720346n globales bn:00103624a affiche bn:15173511n statiques bn:00111112a récursives bn:00109560a méthode bn:01641329n contraire bn:00100398a système d’exploitation bn:00059123n linux bn:00051427n multiplication bn:00056300n division bn:00027919n concaténation bn:03489514n opérateur logiques bn:00051853n égal bn:00102336a langage c bn:00014377n femme bn:00001530n boucle for bn:03237322n switch bn:01071927n valeur de retour bn:03828774n avoir lieu bn:00085337v constante bn:00100331a valeur par défaut bn:03854990n possibilité bn:00045632n encapsulation bn:01505556n entité bn:00031027n abstraite bn:00096212a caractéristique bn:00099532a héritage bn:00043822n polymorphisme bn:01974384n constructeur bn:03834827n façon bn:00033729n host bn:01846442n libérer bn:00090300v langage sql bn:02266432n informix bn:03306725n postgresql bn:01709156n sybase bn:01257629n berkeley db bn:03239968n insert bn:03795444n temps bn:00077270n séquence bn:00070574n printf bn:03243783n lire bn:00066357n répéter bn:00089731v internet bn:00024712n système d bn:04836299n web application bn:02246184n final bn:01755798n déconnexion bn:00027504n wikipédia bn:03288118n concept bn:00021547n coder bn:00084976v w3c bn:02673666n doctype bn:15839327n dtd bn:15232677n spécification bn:00073217n balise html bn:02104867n trim bn:00074703n unset bn:00176172n mère bn:00034027n radio bn:00065899n phpmyadmin bn:03382496n comparaison bn:00021304n sizeof bn:03205994n abstraire bn:00082180v self bn:03432485n set bn:04928161n microsoft bn:01165400n microsoft sql server bn:00605043n ibm db2 bn:00637255n rollback bn:00133978n root bn:00168023n supporter bn:00083226v ecriture bn:00081714n rows bn:03611246n multiple bn:00056285n rouge bn:00066631n sport bn:00006759n durée de vie bn:01120526n env bn:01199166n tim bn:14744972n tim berners-lee bn:02359969n héberger bn:00082216v messagerie bn:00030257n messagerie instantanée bn:03364059n grand nombre bn:14223782n facebook bn:03624775n wamp bn:01708928n mamp bn:03197470n xampp bn:02350502n editeur de texte bn:00076736n styler bn:00042550n inférieur bn:00035700n accepter bn:00082204v cappuccino bn:01189604n type de retour bn:03354146n redéfinition bn:00066711n erreur de programmation bn:00064654n entité html bn:01327413n nombre premier bn:00064389n français bn:00036426n pouvoir bn:00084451v confidentiel bn:00100230a adresse ip bn:00706454n ip bn:00046704n réutiliser bn:00092558v endroit bn:00062699n ainsi bn:00117173r démarrer bn:00083342v infinité bn:00012426n moindre bn:00105825a avant bn:00035855n seconde bn:00068672n visible bn:00110277a poo bn:00058448n classe type bn:03004615n réutilisation bn:02823226n final bn:00102969a intrinsèque bn:00105350a sommes bn:00082322v parent bn:00060643n classe abstraite bn:03110061n implémentation bn:00016287n dérivée bn:00026447n logiciel système bn:00075772n complexité bn:00021383n mariadb bn:01841320n relationnel bn:00109653a modèle relationnel bn:01978816n firebird bn:02246711n ingres bn:03724918n hsqldb bn:00229377n oracle database bn:02591895n maxdb bn:00244294n zodb bn:02283783n db4o bn:01389836n nosql bn:01727553n cassandra bn:01090316n bigtable bn:03415846n couchdb bn:00542118n hbase bn:14809379n leveldb bn:02609794n hébergeur bn:00801697n supprimer bn:00086081v example.com bn:00329278n aller bn:00040833n transaction bn:01403911n isolation bn:02609561n durabilité bn:01803600n électricité bn:00030192n verrou bn:01788633n panne bn:00059753n gérer bn:00084527v populaire bn:00108807a ouvrir bn:00084089v innodb bn:01067935n cours en ligne bn:03617678n 
+  attributes (1) : C9 
+  parents concepts (1) : 418 
+  childs concepts (10) : 342 373 383 387 390 398 399 401 405 410 
+
+Concept (417) : 
+  level : 1
+  objects (282) : page web bn:00080778n serveur web bn:02705179n fichier bn:00021475n javascript bn:00055423n perl bn:01723165n java bn:00048043n code bn:00020354n code source bn:00072947n affichage bn:00010421n fois bn:00032768n url bn:00079080n langage bn:00049910n booléen bn:00294693n addition bn:00001296n soustraction bn:00055233n modulo bn:00553864n logiques bn:00051845n associer bn:00082868v personne bn:00046516n définition bn:00025928n dépendre bn:00086606v fermeture bn:16858148n être utile bn:00085368v boucle while bn:03237310n détruire bn:00084204v licence bn:00050986n licence gnu bn:01157379n gnu bn:00324017n gnu free documentation licence bn:01157394n anglais bn:00030862n free software bn:00182120n free software foundation bn:01158352n quatrième de couverture bn:00032652n copie bn:00087583v fax bn:00032653n e-mail bn:00029345n installation bn:03478637n configuration bn:03088982n chaîne bn:00074685n rappel bn:03490040n document web bn:03606607n composer bn:14766022n délimiteur bn:03371342n coordonnées bn:00022459n côté serveur bn:03816678n applets bn:00005083n activex bn:03829972n plugins bn:00001275n httpd bn:16913184n mod_perl bn:01549964n servlets bn:03188848n bonjour bn:00043620n hériter bn:00043823n bibliothèques bn:00050969n logiciel open source bn:01157392n licence php bn:03293781n rasmus lerdorf bn:03232211n publique bn:00109211a livre d’or bn:03888259n compteur bn:00023158n zeev suraski bn:00571154n netcraft bn:03608511n zend bn:03133191n société privée bn:00036346n calcul mathématique bn:00014689n mathématique bn:00106488a licence open source bn:01530143n télécharger bn:14037830n tar.gz bn:16068787n help bn:13915186n serveur apache bn:01932513n httpd.conf bn:03668763n debian bn:03704159n comportement bn:00009657n complexe bn:00100148a gestion bn:00053116n relatifs bn:00109123a type bn:00016413n nombre entiers bn:00047009n nombre à virgule flottante bn:00035278n variable de type bn:02158332n base 10 bn:00025700n base 8 bn:01534404n double bn:00101728a backslash bn:00988551n valeur numérique bn:00000451n numérique bn:00107649a list bn:04720346n cmp bn:00119381n portée bn:03460088n globales bn:00103624a affiche bn:15173511n bloc bn:03098513n statiques bn:00111112a récursives bn:00109560a ambiguïté bn:00003266n méthode bn:01641329n disponibles bn:00097848a query_string bn:03583474n integer bn:00691555n string bn:00050078n contraire bn:00100398a numéro de ligne bn:03406633n système d’exploitation bn:00059123n linux bn:00051427n vrai bn:00078452n multiplication bn:00056300n division bn:00027919n concaténation bn:03489514n bit bn:00010731n opérateur logiques bn:00051853n égal bn:00102336a après bn:00114165r langage c bn:00014377n appel de fonction bn:00036827n instruction vide bn:03112071n structure bn:00094491v lisibilité bn:04849472n femme bn:00001530n ressembler à bn:00092876v premier bn:00103006a boucle for bn:03237322n pouvoir bn:00084450v vouloir bn:00095629v switch bn:01071927n reproduire bn:00092851v substitution bn:03342494n valeur de retour bn:03828774n correct bn:00100490a carre bn:00036107n identique bn:00104508a coeur bn:00017124n passage par référence bn:14985956n avoir lieu bn:00085337v séparer bn:00082871v constante bn:00100331a valeur par défaut bn:03854990n possibilité bn:00045632n c++ bn:03586438n encapsulation bn:01505556n entité bn:00031027n entité abstraite bn:00000492n abstraite bn:00096212a caractéristique bn:00099532a téléphone bn:00062020n fonctionnement bn:00059128n héritage bn:00043822n supplémentaires bn:00111488a polymorphisme bn:01974384n constructeur bn:03834827n parfois bn:00117070r destructeur bn:01558988n garbage collector bn:00037292n mot bn:00081546n politique bn:00063351n façon bn:00033729n pouvoir bn:00063940n intervenir bn:00082748v malheureusement bn:00114196r développer bn:00082278v éditer bn:00087485v ldap bn:01096348n soin bn:00029048n fichier de configuration bn:03229365n généralement bn:00114778r reprise bn:00067474n encadrer bn:00090616v host bn:01846442n compiler bn:00021344n détruire bn:00084202v sauvegarde bn:00007838n retrouver bn:00088204v variable globale bn:02011863n port tcp bn:02405887n standard bn:00111129a log bn:00051830n tcp/ip bn:00768762n alerte rouge bn:00066644n relecture bn:00064730n libérer bn:00090300v nom de domaine bn:00028143n time bn:03389905n interopérabilité bn:00047181n interfaçage bn:04713937n langage sql bn:02266432n voûte bn:00079643n commerce bn:00077860n commerce électronique bn:00029344n électronique bn:00030270n adabas d bn:03753860n informix bn:03306725n msql bn:00466439n odbc bn:14228731n postgresql bn:01709156n sybase bn:01257629n berkeley db bn:03239968n delete bn:00941697n insert bn:03795444n varchar bn:01838409n gates bn:00010401n consultation bn:00022092n temps bn:00077270n organisation bn:00059480n stockage de données bn:00021483n linus torvalds bn:01002238n séquence bn:00070574n authentification bn:03253409n sr bn:03261447n info bn:03662501n echo bn:03626250n printf bn:03243783n join bn:03425746n jointure bn:00048368n condensateur bn:00015415n analyser bn:15790106n strcmp bn:13958358n regex bn:01922794n posix bn:01643654n fin de ligne bn:00051314n successives bn:00100306a rx bn:04024425n dynamique bn:00101917a fonction mathématiques bn:00036821n xml bn:02771436n langage de programmation bn:00064652n issue bn:00085360v lire bn:00066357n fread bn:13825823n message bn:00521573n copy bn:14086525n rename bn:00342646n argument bn:00005603n utiliser bn:00082705v tableau associatif bn:03848413n base64 bn:01435984n statistiques bn:00074061n librairie gd bn:03462925n forme géométrique bn:00062770n rectangle bn:00066608n polygone bn:00063423n largeur bn:00012893n boutons bn:03843242n mathématiques bn:00053823n type de fonction bn:03403506n long bn:00116154r nombre pi bn:00062194n min bn:00055094n sqrt bn:16869243n exponentielles bn:00032356n acos bn:15498538n trigonométrie bn:00078277n changement de bases bn:00314885n expat bn:03734680n traiter bn:00092034v encodage bn:00030696n traitement bn:00064545n remplacer bn:00092816v calculer bn:00084373v répéter bn:00089731v richesse bn:00080746n fichier par bn:03318531n exécutable bn:00102521a aspect bn:03635987n charte graphique bn:15437249n feuille de styles bn:00802225n navigation bn:00057073n internet bn:00024712n rapidité bn:00073258n développement bn:01834425n common gateway interface bn:03588331n communication bn:00021221n capables bn:00099215a gif bn:00444440n langage de description bn:05019440n description bn:04723965n protocole de transfert de fichier bn:00034430n transfert de fichier bn:03563534n daemon bn:03222189n access bn:02744817n portable network graphics bn:01772322n network bn:02131525n format libre bn:01985717n 
+  attributes (1) : C12 
+  parents concepts (1) : 418 
+  childs concepts (10) : 370 381 382 385 395 400 402 403 408 410 
+
+Concept (418) : 
+  level : 0
+  objects (747) : page web bn:00080778n page web statiques bn:03576307n navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n disque dur bn:00073359n client serveur bn:03496583n base de donnée bn:00025333n donnée bn:00025314n ensemble bn:00114766r php bn:01753580n javascript bn:00055423n perl bn:01723165n python bn:01713224n java bn:00048043n code bn:00020354n code source bn:00072947n fichier texte bn:00028018n texte bn:00076732n mise en forme bn:01681906n affichage bn:00010421n fois bn:00032768n chemin bn:03131414n lien hypertextes bn:00045513n url bn:00079080n textuels bn:00111786a page web dynamique bn:00937946n post bn:01500184n champ de saisie bn:03113401n size bn:03645138n vide bn:00087578v liste déroulante bn:00028831n sélectionner bn:00084931v déclencher bn:00082306v réinitialisation bn:00067306n langage bn:00049910n langage impératif bn:01246770n impératif bn:00104644a affectation bn:02806034n booléen bn:00294693n réalité bn:00066414n concatène bn:00085508v addition bn:00001296n soustraction bn:00055233n multiplié bn:00090977v modulo bn:00553864n égalité bn:00031284n logiques bn:00051845n syntaxe bn:00062118n associer bn:00082868v personne bn:00046516n prenom bn:15996005n structure de contrôle bn:00047734n définition bn:00025928n initialiser bn:00089742v dépendre bn:00086606v méthode post bn:00045088n fermeture bn:16858148n mysql bn:01225760n phase bn:00061898n être utile bn:00085368v boucle while bn:03237310n euro bn:00031888n etc bn:00114282r site bn:00047172n détruire bn:00084204v second bn:00105773a ordinateur bn:00021464n licence bn:00050986n licence gnu bn:01157379n gnu bn:00324017n gnu free documentation licence bn:01157394n anglais bn:00030862n free software bn:00182120n free software foundation bn:01158352n quatrième de couverture bn:00032652n copie bn:00087583v fax bn:00032653n e-mail bn:00029345n installation bn:03478637n configuration bn:03088982n session bn:03751534n chaîne bn:00074685n rappel bn:03490040n document web bn:03606607n composer bn:14766022n délimiteur bn:03371342n coordonnées bn:00022459n côté serveur bn:03816678n applets bn:00005083n activex bn:03829972n plugins bn:00001275n httpd bn:16913184n script bn:01431715n mod_perl bn:01549964n servlets bn:03188848n bonjour bn:00043620n hériter bn:00043823n bibliothèques bn:00050969n logiciel open source bn:01157392n licence php bn:03293781n rasmus lerdorf bn:03232211n publique bn:00109211a livre d’or bn:03888259n compteur bn:00023158n zeev suraski bn:00571154n netcraft bn:03608511n zend bn:03133191n société privée bn:00036346n calcul mathématique bn:00014689n mathématique bn:00106488a licence open source bn:01530143n télécharger bn:14037830n serveur bn:00044916n tar.gz bn:16068787n help bn:13915186n serveur apache bn:01932513n httpd.conf bn:03668763n debian bn:03704159n comportement bn:00009657n complexe bn:00100148a gestion bn:00053116n relatifs bn:00109123a type bn:00016413n nombre entiers bn:00047009n nombre à virgule flottante bn:00035278n variable de type bn:02158332n base 10 bn:00025700n base 8 bn:01534404n double bn:00101728a backslash bn:00988551n valeur numérique bn:00000451n numérique bn:00107649a list bn:04720346n cmp bn:00119381n portée bn:03460088n globales bn:00103624a affiche bn:15173511n bloc bn:03098513n statiques bn:00111112a récursives bn:00109560a ambiguïté bn:00003266n méthode bn:01641329n disponibles bn:00097848a query_string bn:03583474n integer bn:00691555n string bn:00050078n contraire bn:00100398a numéro de ligne bn:03406633n système d’exploitation bn:00059123n linux bn:00051427n vrai bn:00078452n multiplication bn:00056300n division bn:00027919n concaténation bn:03489514n bit bn:00010731n opérateur logiques bn:00051853n égal bn:00102336a après bn:00114165r langage c bn:00014377n appel de fonction bn:00036827n instruction vide bn:03112071n structure bn:00094491v lisibilité bn:04849472n femme bn:00001530n ressembler à bn:00092876v premier bn:00103006a boucle for bn:03237322n pouvoir bn:00084450v foreach bn:03463379n vouloir bn:00095629v switch bn:01071927n reproduire bn:00092851v substitution bn:03342494n valeur de retour bn:03828774n correct bn:00100490a carre bn:00036107n identique bn:00104508a coeur bn:00017124n passage par référence bn:14985956n avoir lieu bn:00085337v séparer bn:00082871v constante bn:00100331a valeur par défaut bn:03854990n possibilité bn:00045632n c++ bn:03586438n classes bn:03608262n encapsulation bn:01505556n entité bn:00031027n entité abstraite bn:00000492n abstraite bn:00096212a caractéristique bn:00099532a téléphone bn:00062020n fonctionnement bn:00059128n héritage bn:00043822n supplémentaires bn:00111488a polymorphisme bn:01974384n constructeur bn:03834827n parfois bn:00117070r destructeur bn:01558988n garbage collector bn:00037292n mot bn:00081546n politique bn:00063351n façon bn:00033729n pouvoir bn:00063940n intervenir bn:00082748v malheureusement bn:00114196r développer bn:00082278v éditer bn:00087485v ldap bn:01096348n soin bn:00029048n fichier de configuration bn:03229365n généralement bn:00114778r reprise bn:00067474n encadrer bn:00090616v host bn:01846442n compiler bn:00021344n détruire bn:00084202v sauvegarde bn:00007838n retrouver bn:00088204v variable globale bn:02011863n port tcp bn:02405887n standard bn:00111129a log bn:00051830n tcp/ip bn:00768762n alerte rouge bn:00066644n relecture bn:00064730n libérer bn:00090300v nom de domaine bn:00028143n time bn:03389905n interopérabilité bn:00047181n interfaçage bn:04713937n langage sql bn:02266432n voûte bn:00079643n commerce bn:00077860n commerce électronique bn:00029344n électronique bn:00030270n adabas d bn:03753860n informix bn:03306725n msql bn:00466439n odbc bn:14228731n postgresql bn:01709156n sybase bn:01257629n berkeley db bn:03239968n delete bn:00941697n insert bn:03795444n varchar bn:01838409n gates bn:00010401n consultation bn:00022092n temps bn:00077270n organisation bn:00059480n stockage de données bn:00021483n linus torvalds bn:01002238n séquence bn:00070574n authentification bn:03253409n sr bn:03261447n info bn:03662501n echo bn:03626250n printf bn:03243783n join bn:03425746n jointure bn:00048368n condensateur bn:00015415n web bn:00080772n analyser bn:15790106n strcmp bn:13958358n regex bn:01922794n posix bn:01643654n fin de ligne bn:00051314n successives bn:00100306a rx bn:04024425n dynamique bn:00101917a fonction mathématiques bn:00036821n xml bn:02771436n langage de programmation bn:00064652n issue bn:00085360v lire bn:00066357n fread bn:13825823n message bn:00521573n copy bn:14086525n rename bn:00342646n argument bn:00005603n utiliser bn:00082705v tableau associatif bn:03848413n base64 bn:01435984n statistiques bn:00074061n librairie gd bn:03462925n forme géométrique bn:00062770n rectangle bn:00066608n polygone bn:00063423n largeur bn:00012893n boutons bn:03843242n mathématiques bn:00053823n type de fonction bn:03403506n long bn:00116154r nombre pi bn:00062194n min bn:00055094n sqrt bn:16869243n exponentielles bn:00032356n acos bn:15498538n trigonométrie bn:00078277n changement de bases bn:00314885n expat bn:03734680n traiter bn:00092034v encodage bn:00030696n traitement bn:00064545n remplacer bn:00092816v calculer bn:00084373v répéter bn:00089731v richesse bn:00080746n fichier par bn:03318531n exécutable bn:00102521a aspect bn:03635987n charte graphique bn:15437249n feuille de styles bn:00802225n navigation bn:00057073n internet bn:00024712n rapidité bn:00073258n développement bn:01834425n common gateway interface bn:03588331n communication bn:00021221n capables bn:00099215a gif bn:00444440n langage de description bn:05019440n description bn:04723965n protocole de transfert de fichier bn:00034430n transfert de fichier bn:03563534n daemon bn:03222189n access bn:02744817n portable network graphics bn:01772322n network bn:02131525n format libre bn:01985717n ascii bn:00003473n pdf bn:01745594n type de programme bn:00144629n système d bn:04836299n tache bn:00028345n matériel bn:00021480n ssh bn:02244459n firefox bn:01387235n matlab bn:01312834n web application bn:02246184n mac bn:00052516n mac os bn:01415427n windows bn:00081305n commun bn:00021051n internet explorer bn:17346309n outlook express bn:01003371n thunderbird bn:01597870n msn bn:01095820n gaim bn:01141048n skype bn:03166959n css bn:00056944n cascading style sheet bn:01642119n système de gestion bn:01510781n cd bn:00016915n flash bn:01369336n science bn:00069670n univers bn:00022991n accueil bn:00044514n insertion bn:02234787n photo bn:00062084n animation bn:00004263n img bn:02450504n touch bn:03178622n arial bn:01485779n gimp bn:00433129n creation bn:03599511n droit bn:00048655n calque bn:00095056v flou bn:03173349n flou gaussien bn:01085310n rendu bn:00047114n nuages bn:00020002n plasma bn:15408550n diffraction bn:00027046n masque bn:03236329n colorer bn:00100030a résultat final bn:00034520n final bn:01755798n gestion de contenu bn:00883027n dédier bn:00085427v habillage bn:04699521n terminal bn:00100203a déconnexion bn:00027504n rue bn:00074595n marseille bn:00053540n site de news bn:03722635n bilan bn:00008060n thomas bn:00005240n wikipédia bn:03288118n back-end bn:03173264n application bn:00005095n informatique bn:00021494n étage bn:00034203n concept bn:00021547n fonctionnement bn:00036838n coder bn:00084976v flux vidéo bn:02230830n js bn:15539067n relais bn:00030187n proxy bn:03664545n cache bn:00014484n tunnel bn:00448122n langage de balisage bn:00053492n web design bn:02763125n ajax bn:00850961n standardiser bn:00073927n date bn:17273686n paradigme bn:01164163n extension de fichier bn:00032416n w3c bn:02673666n sgml bn:00070813n wikicode bn:02697746n bbcode bn:03547972n xhtml bn:01163644n doctype bn:15839327n dtd bn:15232677n respect bn:00031654n validateur bn:02748538n html5 bn:03675085n web sémantique bn:02276858n sémantique bn:00070404n informatique bn:00100175a portabilité bn:03720519n mobile bn:00106819a pile bn:02100952n structure arborescente bn:03156222n minimal bn:00106755a paragraphe bn:00060556n abréviation bn:00000239n acronyme bn:00001058n courriel bn:00087450v cohérente bn:00099970a tr bn:03561884n spécification bn:00073217n svg bn:02136503n iso-8859-1 bn:00717125n spéciaux bn:00108295a robots bn:00007371n nouvelles bn:00107274a canvas bn:02415221n links bn:01052609n formulaire bn:14352118n balise html bn:02104867n classique bn:00019566n helvetica bn:00043646n letter-spacing bn:00951097n angles bn:00004117n généralité bn:00037670n actuelle bn:00108977a interface bn:00047088n seul bn:00110667a finir bn:00088223v faute de frappe bn:00031482n trim bn:00074703n unset bn:00176172n diff bn:16709776n h2 bn:02803535n papa bn:00024989n nb bn:00056690n mère bn:00034027n barre d’adresse bn:15081463n file bn:00065682n radio bn:00065899n ajouter bn:00082317v blogs bn:00011339n phpmyadmin bn:03382496n interrogative bn:00047208n sélective bn:00110293a décompter bn:00086432v order bn:02240223n acronyme récursif bn:03061784n unix bn:00079165n utilité bn:00079399n système de fichier bn:00034429n imap bn:00696730n localisation bn:03977550n confusion bn:00021792n famille bn:00032893n réel bn:00066395n oeufs bn:00029914n impossible bn:00104687a comparaison bn:00021304n supérieur bn:00111465a droite bn:00051291n précédence bn:01410322n initialisation bn:00046781n sizeof bn:03205994n génération de code bn:01151877n charset bn:00017756n champ bn:00034274n banane bn:00008268n 5b bn:13842911n références bn:00063236n définition de fonction bn:04733431n arrêt bn:00025510n stream bn:02122367n line bn:16701562n idée bn:00045800n travers bn:00042404n recette de cuisine bn:03877095n vivantes bn:00096787a procédé bn:03245758n rassembler bn:00082246v modificateurs bn:00055488n setters bn:00021412n nouvelle classe bn:02230821n mammifère bn:00053079n choix public bn:14709103n abstraire bn:00082180v nouvelle bn:02989482n disponible bn:00097846a self bn:03432485n constante bn:14692918n set bn:04928161n clonage bn:04738539n spécifique bn:00111001a microsoft bn:01165400n microsoft sql server bn:00605043n ibm db2 bn:00637255n exec bn:15669055n rollback bn:00133978n erreur de syntaxe bn:00075740n letter bn:00950340n cry bn:00848703n type de valeur bn:00253515n root bn:00168023n émulation bn:00030643n supporter bn:00083226v attaque par injection bn:00184104n injection bn:03211312n injection sql bn:03319192n validation bn:03925844n serveur fiables bn:15865575n json bn:00802141n histoire bn:00044268n indépendant bn:00036335n wampserver bn:03978910n ecriture bn:00081714n premier bn:00034738n attention bn:00007020n filtrage bn:00259585n supprime bn:00087533v critère bn:00023853n degre bn:00005380n existence bn:00009676n location bn:00067131n accès bn:00000759n faille bn:00012898n courante bn:00107963a validité bn:01410980n wbmp bn:00172178n tcpdf bn:00870659n chrome bn:00018877n catch bn:00037180n libération bn:00050944n enum bn:02324948n avg bn:00179783n vente bn:00053480n catalogue bn:00016652n dvd bn:00029245n université de rouen bn:00601230n évolué bn:00084199v crée bn:00086008v manuel bn:00099315a français bn:00103321a expr bn:03120209n spécifique bn:00111003a inverse bn:00056301n trie bn:02479296n occurence bn:00047732n rouen bn:03268781n code postal bn:00063770n mot de passe bn:00023218n rows bn:03611246n bouton radio bn:03157702n multiple bn:00056285n touche ctrl bn:00020947n fin de fichier bn:02781064n carte d’identité bn:00015915n mémoire vive bn:00066091n 2.0 bn:00074217n université antilles guyane bn:00537645n noël bn:00018836n client http bn:04783345n recommandation w3c bn:15800643n information bn:00046705n êtres bn:00009677n structuration bn:14636497n sens bn:00046139n désormais bn:00116384r liste à puces bn:03415182n inline bn:01456420n uvre bn:00016278n disponibilité bn:00000670n chose bn:00091115v texte gras bn:00030599n rouge bn:00066631n abuser bn:00090815v souris bn:00021487n auto bn:00007309n allonger bn:00087910v chevauchements bn:00045993n em bn:00030453n active server pages bn:02246064n connaissance bn:00020452n nécessaire bn:00107182a transtypage bn:17104905n sensibles bn:00104681a dictionnaires bn:00026967n table de hachage bn:00587820n hachage bn:00583146n bois bn:00081492n key bn:15770009n info bn:00046698n parcours bn:03468087n sport bn:00006759n selection multiple bn:05019947n saisir bn:00082727v nom bn:00056758n entrée standard bn:01496506n mode connecté bn:04749137n mozilla bn:01297088n placer bn:00090224v rattacher bn:00085624v durée de vie bn:01120526n path bn:01205256n banque bn:00008364n nobody bn:03500369n basename bn:01749628n dirname bn:00242975n umask bn:03851470n handle bn:00278322n friends bn:00257421n sgbdr bn:14249264n envoyé bn:00030563n inutile bn:00113457a age bn:02104510n marie bn:00090675v super bn:17336345n italie bn:00047705n couple bn:00012597n variables locales bn:00958409n locales bn:03080237n stocker bn:00094400v autre bn:00108013a généralité bn:00041249n oublier bn:00084302v provenance bn:00010687n env bn:01199166n attribution bn:00063814n visite bn:00080112n màj bn:15364261n invisible bn:00105385a associa bn:00085315v opéra bn:00059107n manager bn:14456945n limiter bn:00086468v man bn:15327088n diagramme bn:00026817n être bn:00004222n prix unitaire bn:00587816n bienvenue bn:00080852n ar bn:03237564n agit bn:00082285v indépendante bn:00104929a uml bn:02571962n page bn:00091387v ici bn:00116504r juste bn:00114626r tim bn:14744972n tim berners-lee bn:02359969n héberger bn:00082216v messagerie bn:00030257n messagerie instantanée bn:03364059n grand nombre bn:14223782n facebook bn:03624775n wamp bn:01708928n mamp bn:03197470n xampp bn:02350502n editeur de texte bn:00076736n styler bn:00042550n inférieur bn:00035700n accepter bn:00082204v cappuccino bn:01189604n type de retour bn:03354146n redéfinition bn:00066711n erreur de programmation bn:00064654n entité html bn:01327413n nombre premier bn:00064389n français bn:00036426n pouvoir bn:00084451v confidentiel bn:00100230a adresse ip bn:00706454n ip bn:00046704n réutiliser bn:00092558v endroit bn:00062699n ainsi bn:00117173r démarrer bn:00083342v infinité bn:00012426n moindre bn:00105825a avant bn:00035855n seconde bn:00068672n visible bn:00110277a poo bn:00058448n classe type bn:03004615n réutilisation bn:02823226n final bn:00102969a intrinsèque bn:00105350a sommes bn:00082322v parent bn:00060643n classe abstraite bn:03110061n implémentation bn:00016287n dérivée bn:00026447n logiciel système bn:00075772n complexité bn:00021383n mariadb bn:01841320n relationnel bn:00109653a modèle relationnel bn:01978816n firebird bn:02246711n ingres bn:03724918n hsqldb bn:00229377n oracle database bn:02591895n maxdb bn:00244294n zodb bn:02283783n db4o bn:01389836n nosql bn:01727553n cassandra bn:01090316n bigtable bn:03415846n couchdb bn:00542118n hbase bn:14809379n leveldb bn:02609794n hébergeur bn:00801697n supprimer bn:00086081v example.com bn:00329278n aller bn:00040833n transaction bn:01403911n isolation bn:02609561n durabilité bn:01803600n électricité bn:00030192n verrou bn:01788633n panne bn:00059753n gérer bn:00084527v populaire bn:00108807a ouvrir bn:00084089v innodb bn:01067935n cours en ligne bn:03617678n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (11) : 404 406 407 409 411 412 413 414 415 416 417 
+

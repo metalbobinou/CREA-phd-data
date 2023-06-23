@@ -1,0 +1,548 @@
+// <Lattice object of 6 atoms 115 concepts 7 coatoms at 0x10de04668>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="mysql bn:01225760n" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="utilisateur bn:00079373n" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="programmation bn:00021493n" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="définition bn:00025928n" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="configuration bn:03088982n" labelangle=270]
+	c5 -> c0
+	c6
+	c6 -> c1
+	c6 -> c3
+	c7
+	c7 -> c7 [color=transparent headlabel="site bn:00047172n" labelangle=270]
+	c7 -> c2
+	c8
+	c8 -> c8 [color=transparent headlabel="méthode get bn:00045088n" labelangle=270]
+	c8 -> c4
+	c9
+	c9 -> c2
+	c9 -> c3
+	c10
+	c10 -> c2
+	c10 -> c4
+	c11
+	c11 -> c3
+	c11 -> c4
+	c12
+	c12 -> c3
+	c12 -> c5
+	c13
+	c13 -> c13 [color=transparent headlabel="entités bn:00031027n" labelangle=270]
+	c13 -> c1
+	c13 -> c2
+	c14
+	c14 -> c14 [color=transparent headlabel="file bn:00065682n" labelangle=270]
+	c14 -> c6
+	c15
+	c15 -> c15 [color=transparent headlabel="information bn:00046705n" labelangle=270]
+	c15 -> c1
+	c15 -> c4
+	c16
+	c16 -> c16 [color=transparent headlabel="client bn:00019764n" labelangle=270]
+	c16 -> c1
+	c16 -> c5
+	c17
+	c17 -> c7
+	c17 -> c9
+	c18
+	c18 -> c7
+	c18 -> c10
+	c19
+	c19 -> c5
+	c19 -> c7
+	c20
+	c20 -> c8
+	c20 -> c11
+	c21
+	c21 -> c5
+	c21 -> c8
+	c22
+	c22 -> c22 [color=transparent headlabel="composer bn:14766022n" labelangle=270]
+	c22 -> c9
+	c23
+	c23 -> c9
+	c23 -> c10
+	c23 -> c11
+	c24
+	c24 -> c7
+	c24 -> c13
+	c25
+	c25 -> c6
+	c25 -> c9
+	c25 -> c13
+	c26
+	c26 -> c26 [color=transparent headlabel="en-tête bn:00043309n" labelangle=270]
+	c26 -> c13
+	c27
+	c27 -> c8
+	c27 -> c15
+	c28
+	c28 -> c6
+	c28 -> c11
+	c28 -> c15
+	c29
+	c29 -> c29 [color=transparent headlabel="types bn:00016413n fois bn:00032768n syntaxe bn:00062118n mode bn:00033729n" labelangle=270]
+	c29 -> c0
+	c30
+	c30 -> c17
+	c30 -> c18
+	c30 -> c23
+	c31
+	c31 -> c12
+	c31 -> c20
+	c31 -> c21
+	c32
+	c32 -> c32 [color=transparent headlabel="données bn:00025314n base de donnees bn:00025333n" labelangle=270]
+	c32 -> c15
+	c33
+	c33 -> c1
+	c33 -> c29
+	c34
+	c34 -> c17
+	c34 -> c24
+	c34 -> c25
+	c35
+	c35 -> c10
+	c35 -> c13
+	c35 -> c15
+	c36
+	c36 -> c12
+	c36 -> c14
+	c36 -> c16
+	c37
+	c37 -> c3
+	c37 -> c29
+	c38
+	c38 -> c38 [color=transparent headlabel="commentaires bn:00020978n" labelangle=270]
+	c38 -> c29
+	c39
+	c39 -> c12
+	c39 -> c17
+	c39 -> c19
+	c39 -> c22
+	c40
+	c40 -> c40 [color=transparent headlabel="afficher bn:00087013v xml bn:02771436n" labelangle=270]
+	c40 -> c8
+	c40 -> c10
+	c41
+	c41 -> c28
+	c41 -> c32
+	c42
+	c42 -> c6
+	c42 -> c33
+	c42 -> c37
+	c43
+	c43 -> c43 [color=transparent headlabel="web bn:00080772n" labelangle=270]
+	c43 -> c33
+	c44
+	c44 -> c14
+	c44 -> c20
+	c44 -> c27
+	c44 -> c28
+	c45
+	c45 -> c45 [color=transparent headlabel="session bn:03751534n" labelangle=270]
+	c45 -> c4
+	c45 -> c29
+	c46
+	c46 -> c46 [color=transparent headlabel="texte bn:00076732n" labelangle=270]
+	c46 -> c23
+	c46 -> c25
+	c46 -> c28
+	c46 -> c35
+	c47
+	c47 -> c47 [color=transparent headlabel="langage bn:00049910n" labelangle=270]
+	c47 -> c33
+	c47 -> c38
+	c48
+	c48 -> c16
+	c48 -> c19
+	c48 -> c24
+	c48 -> c26
+	c49
+	c49 -> c14
+	c49 -> c22
+	c49 -> c25
+	c49 -> c26
+	c50
+	c50 -> c8
+	c50 -> c45
+	c51
+	c51 -> c51 [color=transparent headlabel="post bn:01500184n foreach bn:03463379n" labelangle=270]
+	c51 -> c2
+	c51 -> c29
+	c52
+	c52 -> c52 [color=transparent headlabel="class bn:03598962n" labelangle=270]
+	c52 -> c37
+	c52 -> c38
+	c53
+	c53 -> c18
+	c53 -> c19
+	c53 -> c21
+	c53 -> c40
+	c54
+	c54 -> c54 [color=transparent headlabel="php bn:01753580n" labelangle=270]
+	c54 -> c20
+	c54 -> c22
+	c54 -> c23
+	c54 -> c40
+	c55
+	c55 -> c18
+	c55 -> c24
+	c55 -> c32
+	c55 -> c35
+	c56
+	c56 -> c16
+	c56 -> c21
+	c56 -> c27
+	c56 -> c32
+	c57
+	c57 -> c15
+	c57 -> c33
+	c57 -> c45
+	c58
+	c58 -> c58 [color=transparent headlabel="méthode bn:01641329n" labelangle=270]
+	c58 -> c11
+	c58 -> c37
+	c58 -> c45
+	c59
+	c59 -> c59 [color=transparent headlabel="varchar bn:01838409n" labelangle=270]
+	c59 -> c38
+	c59 -> c45
+	c60
+	c60 -> c60 [color=transparent headlabel="easyphp bn:14837849n insert bn:03795444n" labelangle=270]
+	c60 -> c5
+	c60 -> c38
+	c61
+	c61 -> c42
+	c61 -> c47
+	c61 -> c52
+	c62
+	c62 -> c62 [color=transparent headlabel="echo bn:03626250n" labelangle=270]
+	c62 -> c14
+	c62 -> c42
+	c62 -> c43
+	c63
+	c63 -> c26
+	c63 -> c27
+	c63 -> c35
+	c63 -> c40
+	c64
+	c64 -> c20
+	c64 -> c50
+	c64 -> c58
+	c65
+	c65 -> c30
+	c65 -> c31
+	c65 -> c39
+	c65 -> c53
+	c65 -> c54
+	c66
+	c66 -> c30
+	c66 -> c34
+	c66 -> c41
+	c66 -> c46
+	c66 -> c55
+	c67
+	c67 -> c31
+	c67 -> c36
+	c67 -> c41
+	c67 -> c44
+	c67 -> c56
+	c68
+	c68 -> c27
+	c68 -> c43
+	c68 -> c50
+	c68 -> c57
+	c69
+	c69 -> c69 [color=transparent headlabel="impossible bn:00104687a" labelangle=270]
+	c69 -> c13
+	c69 -> c33
+	c69 -> c51
+	c70
+	c70 -> c70 [color=transparent headlabel="fichier bn:00021475n" labelangle=270]
+	c70 -> c10
+	c70 -> c45
+	c70 -> c51
+	c71
+	c71 -> c71 [color=transparent headlabel="bits bn:00010731n" labelangle=270]
+	c71 -> c7
+	c71 -> c38
+	c71 -> c51
+	c72
+	c72 -> c72 [color=transparent headlabel="code bn:00020354n timestamp bn:03603649n" labelangle=270]
+	c72 -> c9
+	c72 -> c37
+	c72 -> c51
+	c73
+	c73 -> c12
+	c73 -> c52
+	c73 -> c60
+	c74
+	c74 -> c74 [color=transparent headlabel="langage de script bn:01431715n" labelangle=270]
+	c74 -> c28
+	c74 -> c42
+	c74 -> c57
+	c74 -> c58
+	c75
+	c75 -> c75 [color=transparent headlabel="exception bn:00032118n" labelangle=270]
+	c75 -> c34
+	c75 -> c36
+	c75 -> c39
+	c75 -> c48
+	c75 -> c49
+	c76
+	c76 -> c52
+	c76 -> c58
+	c76 -> c59
+	c77
+	c77 -> c22
+	c77 -> c72
+	c78
+	c78 -> c16
+	c78 -> c43
+	c78 -> c47
+	c78 -> c60
+	c79
+	c79 -> c21
+	c79 -> c50
+	c79 -> c59
+	c79 -> c60
+	c80
+	c80 -> c32
+	c80 -> c47
+	c80 -> c57
+	c80 -> c59
+	c81
+	c81 -> c25
+	c81 -> c42
+	c81 -> c69
+	c81 -> c72
+	c82
+	c82 -> c82 [color=transparent headlabel="nécessaire bn:00107182a" labelangle=270]
+	c82 -> c26
+	c82 -> c43
+	c82 -> c69
+	c83
+	c83 -> c40
+	c83 -> c50
+	c83 -> c70
+	c84
+	c84 -> c19
+	c84 -> c60
+	c84 -> c71
+	c85
+	c85 -> c48
+	c85 -> c53
+	c85 -> c55
+	c85 -> c56
+	c85 -> c63
+	c86
+	c86 -> c24
+	c86 -> c47
+	c86 -> c69
+	c86 -> c71
+	c87
+	c87 -> c23
+	c87 -> c58
+	c87 -> c70
+	c87 -> c72
+	c88
+	c88 -> c17
+	c88 -> c52
+	c88 -> c71
+	c88 -> c72
+	c89
+	c89 -> c89 [color=transparent headlabel="rue bn:00074595n" labelangle=270]
+	c89 -> c44
+	c89 -> c46
+	c89 -> c49
+	c89 -> c54
+	c89 -> c63
+	c90
+	c90 -> c90 [color=transparent headlabel="client web bn:00013447n" labelangle=270]
+	c90 -> c35
+	c90 -> c57
+	c90 -> c69
+	c90 -> c70
+	c91
+	c91 -> c44
+	c91 -> c62
+	c91 -> c64
+	c91 -> c68
+	c91 -> c74
+	c92
+	c92 -> c92 [color=transparent headlabel="personne bn:00046516n" labelangle=270]
+	c92 -> c18
+	c92 -> c59
+	c92 -> c70
+	c92 -> c71
+	c93
+	c93 -> c31
+	c93 -> c64
+	c93 -> c73
+	c93 -> c76
+	c93 -> c79
+	c94
+	c94 -> c36
+	c94 -> c61
+	c94 -> c62
+	c94 -> c73
+	c94 -> c78
+	c95
+	c95 -> c34
+	c95 -> c61
+	c95 -> c81
+	c95 -> c86
+	c95 -> c88
+	c96
+	c96 -> c54
+	c96 -> c64
+	c96 -> c77
+	c96 -> c83
+	c96 -> c87
+	c97
+	c97 -> c56
+	c97 -> c68
+	c97 -> c78
+	c97 -> c79
+	c97 -> c80
+	c98
+	c98 -> c98 [color=transparent headlabel="pouvoir bn:00084450v" labelangle=270]
+	c98 -> c39
+	c98 -> c73
+	c98 -> c77
+	c98 -> c84
+	c98 -> c88
+	c99
+	c99 -> c99 [color=transparent headlabel="nombre bn:00058285n chaîne bn:00074685n null bn:15898583n" labelangle=270]
+	c99 -> c41
+	c99 -> c61
+	c99 -> c74
+	c99 -> c76
+	c99 -> c80
+	c100
+	c100 -> c100 [color=transparent headlabel="sélectionner bn:00084931v" labelangle=270]
+	c100 -> c49
+	c100 -> c62
+	c100 -> c77
+	c100 -> c81
+	c100 -> c82
+	c101
+	c101 -> c30
+	c101 -> c76
+	c101 -> c87
+	c101 -> c88
+	c101 -> c92
+	c102
+	c102 -> c102 [color=transparent labelangle=90 taillabel=C17]
+	c102 -> c65
+	c102 -> c66
+	c102 -> c67
+	c102 -> c75
+	c102 -> c85
+	c102 -> c89
+	c103
+	c103 -> c46
+	c103 -> c74
+	c103 -> c81
+	c103 -> c87
+	c103 -> c90
+	c104
+	c104 -> c63
+	c104 -> c68
+	c104 -> c82
+	c104 -> c83
+	c104 -> c90
+	c105
+	c105 -> c48
+	c105 -> c78
+	c105 -> c82
+	c105 -> c84
+	c105 -> c86
+	c106
+	c106 -> c53
+	c106 -> c79
+	c106 -> c83
+	c106 -> c84
+	c106 -> c92
+	c107
+	c107 -> c107 [color=transparent headlabel="wamp bn:01708928n" labelangle=270]
+	c107 -> c55
+	c107 -> c80
+	c107 -> c86
+	c107 -> c90
+	c107 -> c92
+	c108
+	c108 -> c108 [color=transparent labelangle=90 taillabel=C11]
+	c108 -> c65
+	c108 -> c93
+	c108 -> c96
+	c108 -> c98
+	c108 -> c101
+	c108 -> c106
+	c109
+	c109 -> c109 [color=transparent headlabel="symfony bn:02798620n doctype bn:15839327n" labelangle=270]
+	c109 -> c109 [color=transparent labelangle=90 taillabel=C19]
+	c109 -> c67
+	c109 -> c91
+	c109 -> c93
+	c109 -> c94
+	c109 -> c97
+	c109 -> c99
+	c110
+	c110 -> c110 [color=transparent headlabel="pouvoir bn:00084451v" labelangle=270]
+	c110 -> c110 [color=transparent labelangle=90 taillabel=C15]
+	c110 -> c75
+	c110 -> c94
+	c110 -> c95
+	c110 -> c98
+	c110 -> c100
+	c110 -> c105
+	c111
+	c111 -> c111 [color=transparent headlabel="serveur bn:00044916n" labelangle=270]
+	c111 -> c111 [color=transparent labelangle=90 taillabel=C6]
+	c111 -> c89
+	c111 -> c91
+	c111 -> c96
+	c111 -> c100
+	c111 -> c103
+	c111 -> c104
+	c112
+	c112 -> c112 [color=transparent labelangle=90 taillabel=C3]
+	c112 -> c85
+	c112 -> c97
+	c112 -> c104
+	c112 -> c105
+	c112 -> c106
+	c112 -> c107
+	c113
+	c113 -> c113 [color=transparent headlabel="realisateur bn:00027369n" labelangle=270]
+	c113 -> c113 [color=transparent labelangle=90 taillabel=C5]
+	c113 -> c66
+	c113 -> c95
+	c113 -> c99
+	c113 -> c101
+	c113 -> c103
+	c113 -> c107
+	c114
+	c114 -> c102
+	c114 -> c108
+	c114 -> c109
+	c114 -> c110
+	c114 -> c111
+	c114 -> c112
+	c114 -> c113
+}

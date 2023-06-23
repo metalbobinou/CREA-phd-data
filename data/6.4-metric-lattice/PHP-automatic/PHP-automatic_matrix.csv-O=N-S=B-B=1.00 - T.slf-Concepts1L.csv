@@ -1,0 +1,11 @@
+Concept ID;Level;Nb Obj;Nb Att;Objects;Attributes;
+0;4;0;9;;C1,C2,C3,C4,C5,C6,C7,C8,C9,;
+1;1;1;1;fichier bn:00021475n,;C9,;
+2;2;1;3;client bn:00019764n,;C1,C3,C4,;
+3;3;1;4;nombre bn:00058285n,;C4,C5,C7,C8,;
+4;2;1;3;langage de script bn:01431715n,;C2,C5,C6,;
+5;1;2;1;client bn:00019764n,nombre bn:00058285n,;C4,;
+6;2;2;2;nombre bn:00058285n,chaîne bn:00074685n,;C5,C8,;
+7;1;3;1;php bn:01753580n,langage de script bn:01431715n,serveur bn:00044916n,;C6,;
+8;1;3;1;nombre bn:00058285n,langage de script bn:01431715n,chaîne bn:00074685n,;C5,;
+9;0;7;0;fichier bn:00021475n,client bn:00019764n,php bn:01753580n,nombre bn:00058285n,langage de script bn:01431715n,serveur bn:00044916n,chaîne bn:00074685n,;;

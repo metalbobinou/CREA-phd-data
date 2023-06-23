@@ -1,0 +1,125 @@
+[Lattice]
+56
+7
+[Objects]
+php bn:01753580n
+mysql bn:01225760n
+texte bn:00076732n
+fichier bn:00021475n
+données bn:00025314n
+types bn:00016413n
+session bn:03751534n
+base de donnees bn:00025333n
+entités bn:00031027n
+site bn:00047172n
+client web bn:00013447n
+langage de script bn:01431715n
+nombre bn:00058285n
+sélectionner bn:00084931v
+post bn:01500184n
+méthode get bn:00045088n
+code bn:00020354n
+utilisateur bn:00079373n
+afficher bn:00087013v
+nécessaire bn:00107182a
+serveur bn:00044916n
+fois bn:00032768n
+programmation bn:00021493n
+class bn:03598962n
+commentaires bn:00020978n
+composer bn:14766022n
+chaîne bn:00074685n
+syntaxe bn:00062118n
+personne bn:00046516n
+définition bn:00025928n
+langage bn:00049910n
+mode bn:00033729n
+configuration bn:03088982n
+xml bn:02771436n
+postgresql bn:01709156n
+web bn:00080772n
+méthode bn:01641329n
+bits bn:00010731n
+foreach bn:03463379n
+pouvoir bn:00084450v
+information bn:00046705n
+timestamp bn:03603649n
+easyphp bn:14837849n
+pouvoir bn:00084451v
+impossible bn:00104687a
+en-tête bn:00043309n
+client bn:00019764n
+file bn:00065682n
+echo bn:03626250n
+rue bn:00074595n
+exception bn:00032118n
+wamp bn:01708928n
+symfony bn:02798620n
+doctype bn:15839327n
+realisateur bn:00027369n
+informatique bn:00100175a
+[Attributes]
+C11
+C15
+C17
+C19
+C3
+C5
+C6
+[relation]
+0 0 0 1 0 1 0 
+1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 
+0 1 1 1 0 0 0 
+1 1 0 0 0 0 1 
+0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 
+1 1 0 0 0 0 1 
+1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+1 1 1 1 0 0 1 
+1 0 1 0 0 0 0 
+0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+0 1 0 0 0 1 0 
+0 0 1 1 1 0 0 
+0 0 0 1 0 0 0 
+0 1 0 1 0 0 1 
+1 0 1 0 0 0 0 
+0 0 1 0 0 0 1 
+0 0 1 0 0 0 1 
+0 0 0 0 1 0 0 
+0 0 0 0 1 0 0 
+0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 
+0 0 1 0 1 0 0 
+0 0 1 0 0 0 1 
+0 0 0 0 0 0 1 
+0 1 0 0 0 0 0 
+1 0 1 0 0 0 1 
+0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 
+0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 
+0 1 0 0 1 0 0 
+0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 1 0 0 0 0 
+1 0 0 0 0 0 0 
+0 0 0 0 1 0 0 
+0 0 1 0 0 0 0 
+1 0 0 1 0 0 1 
+1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 1 1 
+0 0 0 0 1 0 0 
+0 0 1 0 1 0 0 
+0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 0 1 

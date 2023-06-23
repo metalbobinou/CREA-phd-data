@@ -1,0 +1,294 @@
+Concept (0) : 
+  level : 5
+  objects (0) : 
+  attributes (7) : C11 C15 C17 C19 C3 C5 C6 
+  parents concepts (11) : 1 2 3 4 5 6 7 8 9 10 11 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 3
+  objects (1) : texte bn:00076732n 
+  attributes (3) : C17 C5 C6 
+  parents concepts (3) : 12 29 31 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 4
+  objects (1) : base de donnees bn:00025333n 
+  attributes (4) : C17 C19 C3 C5 
+  parents concepts (3) : 12 14 22 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 3
+  objects (1) : client web bn:00013447n 
+  attributes (3) : C3 C5 C6 
+  parents concepts (3) : 27 31 34 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 5
+  objects (1) : méthode get bn:00045088n 
+  attributes (5) : C11 C17 C19 C3 C6 
+  parents concepts (3) : 14 16 17 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 3
+  objects (1) : nécessaire bn:00107182a 
+  attributes (3) : C15 C3 C6 
+  parents concepts (3) : 18 24 27 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 3
+  objects (1) : personne bn:00046516n 
+  attributes (3) : C11 C3 C5 
+  parents concepts (3) : 21 25 34 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 4
+  objects (1) : langage bn:00049910n 
+  attributes (4) : C15 C19 C3 C5 
+  parents concepts (3) : 18 19 22 
+  childs concepts (1) : 0 
+
+Concept (8) : 
+  level : 4
+  objects (1) : méthode bn:01641329n 
+  attributes (4) : C11 C19 C5 C6 
+  parents concepts (3) : 13 15 17 
+  childs concepts (1) : 0 
+
+Concept (9) : 
+  level : 2
+  objects (1) : pouvoir bn:00084450v 
+  attributes (2) : C11 C15 
+  parents concepts (2) : 33 35 
+  childs concepts (1) : 0 
+
+Concept (10) : 
+  level : 3
+  objects (1) : echo bn:03626250n 
+  attributes (3) : C15 C19 C6 
+  parents concepts (3) : 19 24 28 
+  childs concepts (1) : 0 
+
+Concept (11) : 
+  level : 2
+  objects (1) : exception bn:00032118n 
+  attributes (2) : C15 C17 
+  parents concepts (2) : 32 35 
+  childs concepts (1) : 0 
+
+Concept (12) : 
+  level : 2
+  objects (2) : texte bn:00076732n base de donnees bn:00025333n 
+  attributes (2) : C17 C5 
+  parents concepts (2) : 32 40 
+  childs concepts (2) : 1 2 
+
+Concept (13) : 
+  level : 3
+  objects (2) : fichier bn:00021475n méthode bn:01641329n 
+  attributes (3) : C11 C5 C6 
+  parents concepts (3) : 21 30 31 
+  childs concepts (1) : 8 
+
+Concept (14) : 
+  level : 3
+  objects (2) : base de donnees bn:00025333n méthode get bn:00045088n 
+  attributes (3) : C17 C19 C3 
+  parents concepts (2) : 23 26 
+  childs concepts (2) : 2 4 
+
+Concept (15) : 
+  level : 3
+  objects (2) : langage de script bn:01431715n méthode bn:01641329n 
+  attributes (3) : C19 C5 C6 
+  parents concepts (3) : 28 31 36 
+  childs concepts (1) : 8 
+
+Concept (16) : 
+  level : 4
+  objects (2) : méthode get bn:00045088n afficher bn:00087013v 
+  attributes (4) : C11 C17 C3 C6 
+  parents concepts (4) : 20 23 25 27 
+  childs concepts (1) : 4 
+
+Concept (17) : 
+  level : 3
+  objects (2) : méthode get bn:00045088n méthode bn:01641329n 
+  attributes (3) : C11 C19 C6 
+  parents concepts (2) : 28 30 
+  childs concepts (2) : 4 8 
+
+Concept (18) : 
+  level : 2
+  objects (2) : nécessaire bn:00107182a langage bn:00049910n 
+  attributes (2) : C15 C3 
+  parents concepts (2) : 35 37 
+  childs concepts (2) : 5 7 
+
+Concept (19) : 
+  level : 2
+  objects (2) : langage bn:00049910n echo bn:03626250n 
+  attributes (2) : C15 C19 
+  parents concepts (2) : 35 38 
+  childs concepts (2) : 7 10 
+
+Concept (20) : 
+  level : 3
+  objects (3) : php bn:01753580n méthode get bn:00045088n afficher bn:00087013v 
+  attributes (3) : C11 C17 C6 
+  parents concepts (2) : 29 30 
+  childs concepts (1) : 16 
+
+Concept (21) : 
+  level : 2
+  objects (3) : fichier bn:00021475n personne bn:00046516n méthode bn:01641329n 
+  attributes (2) : C11 C5 
+  parents concepts (2) : 33 40 
+  childs concepts (2) : 6 13 
+
+Concept (22) : 
+  level : 3
+  objects (3) : données bn:00025314n base de donnees bn:00025333n langage bn:00049910n 
+  attributes (3) : C19 C3 C5 
+  parents concepts (3) : 26 34 36 
+  childs concepts (2) : 2 7 
+
+Concept (23) : 
+  level : 2
+  objects (3) : base de donnees bn:00025333n méthode get bn:00045088n afficher bn:00087013v 
+  attributes (2) : C17 C3 
+  parents concepts (2) : 32 37 
+  childs concepts (2) : 14 16 
+
+Concept (24) : 
+  level : 2
+  objects (3) : sélectionner bn:00084931v nécessaire bn:00107182a echo bn:03626250n 
+  attributes (2) : C15 C6 
+  parents concepts (2) : 35 39 
+  childs concepts (2) : 5 10 
+
+Concept (25) : 
+  level : 2
+  objects (3) : méthode get bn:00045088n afficher bn:00087013v personne bn:00046516n 
+  attributes (2) : C11 C3 
+  parents concepts (2) : 33 37 
+  childs concepts (2) : 6 16 
+
+Concept (26) : 
+  level : 2
+  objects (4) : données bn:00025314n base de donnees bn:00025333n méthode get bn:00045088n langage bn:00049910n 
+  attributes (2) : C19 C3 
+  parents concepts (2) : 37 38 
+  childs concepts (2) : 14 22 
+
+Concept (27) : 
+  level : 2
+  objects (4) : client web bn:00013447n méthode get bn:00045088n afficher bn:00087013v nécessaire bn:00107182a 
+  attributes (2) : C3 C6 
+  parents concepts (2) : 37 39 
+  childs concepts (3) : 3 5 16 
+
+Concept (28) : 
+  level : 2
+  objects (4) : langage de script bn:01431715n méthode get bn:00045088n méthode bn:01641329n echo bn:03626250n 
+  attributes (2) : C19 C6 
+  parents concepts (2) : 38 39 
+  childs concepts (3) : 10 15 17 
+
+Concept (29) : 
+  level : 2
+  objects (5) : php bn:01753580n texte bn:00076732n méthode get bn:00045088n afficher bn:00087013v rue bn:00074595n 
+  attributes (2) : C17 C6 
+  parents concepts (2) : 32 39 
+  childs concepts (2) : 1 20 
+
+Concept (30) : 
+  level : 2
+  objects (5) : php bn:01753580n fichier bn:00021475n méthode get bn:00045088n afficher bn:00087013v méthode bn:01641329n 
+  attributes (2) : C11 C6 
+  parents concepts (2) : 33 39 
+  childs concepts (3) : 13 17 20 
+
+Concept (31) : 
+  level : 2
+  objects (5) : texte bn:00076732n fichier bn:00021475n client web bn:00013447n langage de script bn:01431715n méthode bn:01641329n 
+  attributes (2) : C5 C6 
+  parents concepts (2) : 39 40 
+  childs concepts (4) : 1 3 13 15 
+
+Concept (32) : 
+  level : 1
+  objects (7) : php bn:01753580n texte bn:00076732n base de donnees bn:00025333n méthode get bn:00045088n afficher bn:00087013v rue bn:00074595n exception bn:00032118n 
+  attributes (1) : C17 
+  parents concepts (1) : 41 
+  childs concepts (4) : 11 12 23 29 
+
+Concept (33) : 
+  level : 1
+  objects (7) : php bn:01753580n fichier bn:00021475n méthode get bn:00045088n afficher bn:00087013v personne bn:00046516n méthode bn:01641329n pouvoir bn:00084450v 
+  attributes (1) : C11 
+  parents concepts (1) : 41 
+  childs concepts (4) : 9 21 25 30 
+
+Concept (34) : 
+  level : 2
+  objects (7) : données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n personne bn:00046516n langage bn:00049910n wamp bn:01708928n 
+  attributes (2) : C3 C5 
+  parents concepts (2) : 37 40 
+  childs concepts (3) : 3 6 22 
+
+Concept (35) : 
+  level : 1
+  objects (7) : sélectionner bn:00084931v nécessaire bn:00107182a langage bn:00049910n pouvoir bn:00084450v pouvoir bn:00084451v echo bn:03626250n exception bn:00032118n 
+  attributes (1) : C15 
+  parents concepts (1) : 41 
+  childs concepts (5) : 9 11 18 19 24 
+
+Concept (36) : 
+  level : 2
+  objects (8) : données bn:00025314n base de donnees bn:00025333n langage de script bn:01431715n nombre bn:00058285n chaîne bn:00074685n langage bn:00049910n méthode bn:01641329n null bn:15898583n 
+  attributes (2) : C19 C5 
+  parents concepts (2) : 38 40 
+  childs concepts (2) : 15 22 
+
+Concept (37) : 
+  level : 1
+  objects (10) : données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n méthode get bn:00045088n afficher bn:00087013v nécessaire bn:00107182a personne bn:00046516n langage bn:00049910n wamp bn:01708928n 
+  attributes (1) : C3 
+  parents concepts (1) : 41 
+  childs concepts (6) : 18 23 25 26 27 34 
+
+Concept (38) : 
+  level : 1
+  objects (12) : données bn:00025314n base de donnees bn:00025333n langage de script bn:01431715n nombre bn:00058285n méthode get bn:00045088n chaîne bn:00074685n langage bn:00049910n méthode bn:01641329n echo bn:03626250n symfony bn:02798620n doctype bn:15839327n null bn:15898583n 
+  attributes (1) : C19 
+  parents concepts (1) : 41 
+  childs concepts (4) : 19 26 28 36 
+
+Concept (39) : 
+  level : 1
+  objects (14) : php bn:01753580n texte bn:00076732n fichier bn:00021475n client web bn:00013447n langage de script bn:01431715n sélectionner bn:00084931v méthode get bn:00045088n code bn:00020354n afficher bn:00087013v nécessaire bn:00107182a serveur bn:00044916n méthode bn:01641329n echo bn:03626250n rue bn:00074595n 
+  attributes (1) : C6 
+  parents concepts (1) : 41 
+  childs concepts (6) : 24 27 28 29 30 31 
+
+Concept (40) : 
+  level : 1
+  objects (15) : texte bn:00076732n fichier bn:00021475n données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n langage de script bn:01431715n nombre bn:00058285n chaîne bn:00074685n personne bn:00046516n langage bn:00049910n méthode bn:01641329n wamp bn:01708928n realisateur bn:00027369n null bn:15898583n 
+  attributes (1) : C5 
+  parents concepts (1) : 41 
+  childs concepts (5) : 12 21 31 34 36 
+
+Concept (41) : 
+  level : 0
+  objects (29) : php bn:01753580n texte bn:00076732n fichier bn:00021475n données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n langage de script bn:01431715n nombre bn:00058285n sélectionner bn:00084931v méthode get bn:00045088n code bn:00020354n afficher bn:00087013v nécessaire bn:00107182a serveur bn:00044916n chaîne bn:00074685n personne bn:00046516n langage bn:00049910n méthode bn:01641329n pouvoir bn:00084450v pouvoir bn:00084451v echo bn:03626250n rue bn:00074595n exception bn:00032118n wamp bn:01708928n symfony bn:02798620n doctype bn:15839327n realisateur bn:00027369n null bn:15898583n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (7) : 32 33 35 37 38 39 40 
+

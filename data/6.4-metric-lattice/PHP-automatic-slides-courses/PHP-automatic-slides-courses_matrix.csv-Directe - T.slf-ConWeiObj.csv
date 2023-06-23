@@ -1,0 +1,451 @@
+Objects;Weight
+page web bn:00080778n;0.0625
+page web statiques bn:03576307n;0.03125
+navigateur bn:00013447n;1
+serveur web bn:02705179n;0.25
+fichier bn:00021475n;1
+disque dur bn:00073359n;0.0625
+client bn:00019764n;0.5
+client serveur bn:03496583n;0.0625
+base de donnée bn:00025333n;0.5
+donnée bn:00025314n;1
+ensemble bn:00114766r;0.03125
+php bn:01753580n;1
+javascript bn:00055423n;0.25
+perl bn:01723165n;0.125
+python bn:01713224n;0.03125
+java bn:00048043n;0.125
+code bn:00020354n;1
+code source bn:00072947n;0.03125
+fichier texte bn:00028018n;0.25
+texte bn:00076732n;0.5
+mise en forme bn:01681906n;0.0625
+concerner bn:00083240v;0.125
+commentaire bn:00020978n;0.5
+délimiter bn:00086464v;0.25
+affichage bn:00010421n;0.5
+gras bn:00011848n;0.0625
+fois bn:00032768n;0.5
+chemin bn:03131414n;0.0625
+lien hypertextes bn:00045513n;0.5
+url bn:00079080n;0.25
+textuels bn:00111786a;0.03125
+case à cocher bn:03157691n;0.25
+page web dynamique bn:00937946n;0.03125
+post bn:01500184n;1
+champ de saisie bn:03113401n;0.5
+size bn:03645138n;0.0625
+nombre bn:00058285n;1
+text bn:14981519n;0.5
+vide bn:00087578v;0.03125
+liste déroulante bn:00028831n;0.0625
+sélectionner bn:00084931v;0.03125
+déclencher bn:00082306v;0.03125
+réinitialisation bn:00067306n;0.0625
+langage bn:00049910n;1
+langage impératif bn:01246770n;0.03125
+impératif bn:00104644a;0.03125
+zones bn:00005513n;0.0625
+utilisateur bn:00079373n;0.125
+affectation bn:02806034n;0.125
+booléen bn:00294693n;0.5
+réalité bn:00066414n;0.03125
+concatène bn:00085508v;0.03125
+addition bn:00001296n;0.0625
+soustraction bn:00055233n;0.0625
+multiplié bn:00090977v;0.03125
+modulo bn:00553864n;0.0625
+égalité bn:00031284n;0.0625
+logiques bn:00051845n;0.5
+syntaxe bn:00062118n;0.125
+case bn:04777941n;0.25
+associer bn:00082868v;0.0625
+personne bn:00046516n;0.25
+prenom bn:15996005n;0.25
+structure de contrôle bn:00047734n;0.125
+définition bn:00025928n;0.125
+initialiser bn:00089742v;0.125
+dépendre bn:00086606v;0.03125
+méthode post bn:00045088n;1
+fermeture bn:16858148n;0.5
+passwd bn:14874750n;0.03125
+machine bn:00054050n;0.03125
+mysql bn:01225760n;0.125
+salaire bn:15928884n;0.0625
+phase bn:00061898n;0.03125
+être utile bn:00085368v;0.03125
+boucle while bn:03237310n;0.125
+jour bn:00000086n;0.0625
+euro bn:00031888n;0.03125
+etc bn:00114282r;0.0625
+programmation bn:00021493n;0.25
+site bn:00047172n;1
+détruire bn:00084204v;0.125
+second bn:00105773a;0.0625
+ordinateur bn:00021464n;0.0625
+université de rouen bn:00601230n;0.03125
+france bn:00036202n;0.0625
+langage de programmation bn:00064652n;0.0625
+évolué bn:00084199v;0.03125
+crée bn:00086008v;0.03125
+langage de script bn:01431715n;0.25
+interpréter bn:00089840v;0.0625
+côté serveur bn:03816678n;0.0625
+serveur bn:00044916n;0.25
+côté client bn:03163702n;0.03125
+manuel bn:00099315a;0.03125
+français bn:00103321a;0.03125
+typage bn:00016413n;0.125
+attention bn:00007020n;0.03125
+faute de frappe bn:00031482n;0.03125
+entiers bn:00047009n;0.125
+3.14 bn:00062194n;0.03125
+printf bn:03243783n;0.0625
+comparaison bn:00021304n;0.125
+switch bn:01071927n;0.5
+expr bn:03120209n;0.03125
+spécifique bn:00111003a;0.03125
+foreach bn:03463379n;0.5
+pointeur bn:03222272n;0.03125
+list bn:04720346n;0.125
+inverse bn:00056301n;0.03125
+trie bn:02479296n;0.03125
+concaténation bn:03489514n;0.0625
+accès bn:00000759n;0.03125
+strcmp bn:13958358n;0.03125
+trim bn:00074703n;0.0625
+casse bn:03225002n;0.03125
+occurence bn:00047732n;0.03125
+décompte bn:00086432v;0.03125
+valeur de retour bn:03828774n;0.0625
+passage par référence bn:14985956n;0.0625
+traiter bn:00092034v;0.03125
+méthode bn:01641329n;0.5
+navigation bn:00057073n;0.0625
+rouen bn:03268781n;0.03125
+code postal bn:00063770n;0.03125
+cle bn:04756252n;0.25
+mot bn:00081546n;0.125
+mot de passe bn:00023218n;0.0625
+rows bn:03611246n;0.0625
+bouton radio bn:03157702n;0.03125
+radio bn:00065899n;0.125
+multiple bn:00056285n;0.0625
+touche ctrl bn:00020947n;0.03125
+transfert de fichier bn:03563534n;0.03125
+fread bn:13825823n;0.0625
+fin de fichier bn:02781064n;0.03125
+existence bn:00009676n;0.03125
+carte d’identité bn:00015915n;0.03125
+mémoire vive bn:00066091n;0.03125
+timestamp bn:03603649n;0.0625
+vouloir bn:00095629v;0.03125
+session bn:03751534n;0.125
+temps bn:00077270n;0.25
+généralement bn:00114778r;0.03125
+min bn:00055094n;0.03125
+correct bn:00100490a;0.03125
+exe bn:14503132n;0.03125
+xhtml bn:01163644n;0.03125
+2.0 bn:00074217n;0.03125
+programmation web bn:03446093n;0.03125
+université antilles guyane bn:00537645n;0.03125
+feuilles de style bn:00802225n;0.03125
+pdf bn:01745594n;0.03125
+capable bn:00099215a;0.03125
+noël bn:00018836n;0.03125
+client http bn:04783345n;0.03125
+composer bn:14766022n;0.03125
+recommandation w3c bn:15800643n;0.03125
+w3c bn:02673666n;0.0625
+head bn:02338897n;0.03125
+information bn:00046705n;0.03125
+êtres bn:00009677n;0.03125
+doctype bn:15839327n;0.125
+structuration bn:14636497n;0.0625
+sens bn:00046139n;0.0625
+désormais bn:00116384r;0.03125
+paragraphe bn:00060556n;0.03125
+liste à puces bn:03415182n;0.03125
+insertion bn:02234787n;0.03125
+inline bn:01456420n;0.03125
+uvre bn:00016278n;0.03125
+h2 bn:02803535n;0.03125
+disponibilité bn:00000670n;0.03125
+arial bn:01485779n;0.03125
+times bn:00056300n;0.0625
+chose bn:00091115v;0.03125
+texte gras bn:00030599n;0.03125
+rouge bn:00066631n;0.0625
+abuser bn:00090815v;0.03125
+css 3 bn:01642119n;0.03125
+souris bn:00021487n;0.03125
+positionnement bn:00030615n;0.03125
+anglais bn:00030862n;0.0625
+dtd bn:15232677n;0.0625
+charset bn:00017756n;0.03125
+auto bn:00007309n;0.03125
+droite bn:00051291n;0.03125
+comportement bn:00009657n;0.0625
+allonger bn:00087910v;0.03125
+chevauchements bn:00045993n;0.03125
+em bn:00030453n;0.03125
+active server pages bn:02246064n;0.03125
+microsoft bn:01165400n;0.0625
+exécutable bn:00102521a;0.03125
+connaissance bn:00020452n;0.03125
+langage c bn:00014377n;0.0625
+nécessaire bn:00107182a;0.03125
+transtypage bn:17104905n;0.03125
+sensibles bn:00104681a;0.03125
+nombre à virgule flottante bn:00035278n;0.0625
+c++ bn:03586438n;0.03125
+dictionnaires bn:00026967n;0.03125
+table de hachage bn:00587820n;0.03125
+hachage bn:00583146n;0.03125
+bois bn:00081492n;0.03125
+unset bn:00176172n;0.0625
+couleur bn:00020726n;0.0625
+ecrire bn:00081714n;0.0625
+key bn:15770009n;0.03125
+info bn:00046698n;0.03125
+parcours bn:03468087n;0.03125
+égales bn:00102336a;0.0625
+pouvoir bn:00084450v;0.03125
+valeur par défaut bn:03854990n;0.0625
+httpd bn:16913184n;0.03125
+statiques bn:00111112a;0.0625
+sport bn:00006759n;0.0625
+selection multiple bn:05019947n;0.03125
+possibilité bn:00045632n;0.0625
+bouton bn:03843242n;0.03125
+saisir bn:00082727v;0.03125
+nom bn:00056758n;0.03125
+entrée standard bn:01496506n;0.03125
+mode connecté bn:04749137n;0.03125
+mozilla bn:01297088n;0.03125
+placer bn:00090224v;0.03125
+rattacher bn:00085624v;0.03125
+durée de vie bn:01120526n;0.0625
+façon bn:00033729n;0.0625
+path bn:01205256n;0.03125
+lire bn:00066357n;0.0625
+authentification bn:03253409n;0.03125
+banque bn:00008364n;0.03125
+droit bn:00048655n;0.03125
+nobody bn:03500369n;0.03125
+basename bn:01749628n;0.03125
+dirname bn:00242975n;0.03125
+touch bn:03178622n;0.03125
+copy bn:14086525n;0.03125
+rename bn:00342646n;0.03125
+umask bn:03851470n;0.03125
+ascii bn:00003473n;0.03125
+afficher bn:00087013v;0.0625
+handle bn:00278322n;0.03125
+friends bn:00257421n;0.03125
+rappel bn:03490040n;0.125
+sgbdr bn:14249264n;0.03125
+logiciel libre bn:00182120n;0.03125
+conception de site web bn:02763125n;0.03125
+formulaire web bn:14352118n;0.03125
+envoyé bn:00030563n;0.03125
+inutile bn:00113457a;0.03125
+numérique bn:00107649a;0.0625
+age bn:02104510n;0.03125
+chaîne bn:00074685n;0.125
+marie bn:00090675v;0.03125
+super bn:17336345n;0.03125
+italie bn:00047705n;0.03125
+couple bn:00012597n;0.03125
+variables locales bn:00958409n;0.03125
+locales bn:03080237n;0.03125
+stocker bn:00094400v;0.03125
+variable globale bn:02011863n;0.03125
+header bn:00043309n;0.0625
+autre bn:00108013a;0.03125
+généralité bn:00041249n;0.03125
+oublier bn:00084302v;0.03125
+time bn:03389905n;0.03125
+provenance bn:00010687n;0.03125
+tableau associatifs bn:03848413n;0.03125
+env bn:01199166n;0.0625
+files bn:00065682n;0.03125
+attribution bn:00063814n;0.03125
+accéder bn:00082209v;0.0625
+valeur bn:00079508n;0.03125
+visite bn:00080112n;0.03125
+màj bn:15364261n;0.03125
+site web dynamique bn:02246184n;0.0625
+paris bn:00015540n;0.0625
+séquence bn:00070574n;0.0625
+invisible bn:00105385a;0.03125
+final bn:01755798n;0.0625
+integer bn:00691555n;0.03125
+type de valeur bn:00253515n;0.03125
+opérateur bn:16281811n;0.03125
+message bn:00521573n;0.03125
+associa bn:00085315v;0.03125
+classe bn:03608262n;0.0625
+héritage bn:00043822n;0.0625
+class bn:03598962n;0.0625
+opéra bn:00059107n;0.03125
+constructeur bn:03834827n;0.0625
+manager bn:14456945n;0.03125
+champ bn:00034274n;0.03125
+limiter bn:00086468v;0.03125
+man bn:15327088n;0.03125
+femme bn:00001530n;0.0625
+set bn:04928161n;0.0625
+diagramme bn:00026817n;0.03125
+être bn:00004222n;0.03125
+prix unitaire bn:00587816n;0.03125
+boucle for bn:03237322n;0.0625
+bienvenue bn:00080852n;0.03125
+ar bn:03237564n;0.03125
+bibliothèque bn:00050969n;0.03125
+disponibles bn:00097846a;0.03125
+mysqli bn:01438356n;0.0625
+insert bn:03795444n;0.0625
+travers bn:00042404n;0.03125
+host bn:01846442n;0.0625
+sql bn:02266432n;0.0625
+agit bn:00082285v;0.03125
+delete bn:00941697n;0.03125
+indépendante bn:00104929a;0.03125
+visiteur bn:03106425n;0.0625
+ouverture de session bn:03885719n;0.03125
+uml bn:02571962n;0.03125
+page bn:00091387v;0.03125
+ici bn:00116504r;0.03125
+juste bn:00114626r;0.03125
+nouvelle ligne bn:00051314n;0.03125
+constante bn:00100331a;0.03125
+tim bn:14744972n;0.03125
+tim berners-lee bn:02359969n;0.03125
+héberger bn:00082216v;0.03125
+internet bn:00024712n;0.03125
+messagerie bn:00030257n;0.03125
+messagerie instantanée bn:03364059n;0.03125
+open source bn:01157392n;0.03125
+grand nombre bn:14223782n;0.03125
+facebook bn:03624775n;0.03125
+wikipédia bn:03288118n;0.03125
+configuration bn:03088982n;0.03125
+wamp bn:01708928n;0.03125
+mamp bn:03197470n;0.03125
+xampp bn:02350502n;0.03125
+editeur de texte bn:00076736n;0.03125
+styler bn:00042550n;0.03125
+variable de type bn:02158332n;0.03125
+base 10 bn:00025700n;0.03125
+affiche bn:15173511n;0.03125
+opérateur logiques bn:00051853n;0.03125
+division bn:00027919n;0.03125
+valeur numérique bn:00000451n;0.03125
+inférieur bn:00035700n;0.03125
+système bn:15125301n;0.03125
+système d’exploitation bn:00059123n;0.03125
+linux bn:00051427n;0.03125
+sizeof bn:03205994n;0.03125
+globales bn:00103624a;0.03125
+conditionnel bn:00100214a;0.03125
+accepter bn:00082204v;0.03125
+cappuccino bn:01189604n;0.03125
+type de retour bn:03354146n;0.03125
+redéfinition bn:00066711n;0.03125
+récursives bn:00109560a;0.03125
+erreur de programmation bn:00064654n;0.03125
+entité bn:00031027n;0.03125
+entité html bn:01327413n;0.03125
+balise html bn:02104867n;0.03125
+contraire bn:00100398a;0.03125
+nombre premier bn:00064389n;0.03125
+coordonnées bn:00022459n;0.03125
+français bn:00036426n;0.03125
+pouvoir bn:00084451v;0.03125
+confidentiel bn:00100230a;0.03125
+adresse ip bn:00706454n;0.03125
+ip bn:00046704n;0.03125
+réutiliser bn:00092558v;0.03125
+endroit bn:00062699n;0.03125
+code bn:00084976v;0.03125
+survient bn:00085337v;0.03125
+ainsi bn:00117173r;0.03125
+démarrer bn:00083342v;0.03125
+infinité bn:00012426n;0.03125
+moindre bn:00105825a;0.03125
+avant bn:00035855n;0.03125
+seconde bn:00068672n;0.03125
+déconnexion bn:00027504n;0.03125
+visible bn:00110277a;0.03125
+poo bn:00058448n;0.03125
+classe type bn:03004615n;0.03125
+concept bn:00021547n;0.03125
+réutilisation bn:02823226n;0.03125
+caractéristique bn:00099532a;0.03125
+hériter bn:00043823n;0.03125
+final bn:00102969a;0.03125
+intrinsèque bn:00105350a;0.03125
+polymorphisme bn:01974384n;0.03125
+encapsulation bn:01505556n;0.03125
+public bn:00109211a;0.03125
+sommes bn:00082322v;0.03125
+self bn:03432485n;0.03125
+parent bn:00060643n;0.03125
+mère bn:00034027n;0.03125
+classe abstraite bn:03110061n;0.03125
+abstraite bn:00096212a;0.03125
+implémentation bn:00016287n;0.03125
+abstraire bn:00082180v;0.03125
+attribut bn:00007068n;0.03125
+dérivée bn:00026447n;0.03125
+logiciel système bn:00075772n;0.03125
+complexité bn:00021383n;0.03125
+postgresql bn:01709156n;0.03125
+mariadb bn:01841320n;0.03125
+relationnel bn:00109653a;0.03125
+modèle relationnel bn:01978816n;0.03125
+firebird bn:02246711n;0.03125
+ingres bn:03724918n;0.03125
+hsqldb bn:00229377n;0.03125
+oracle database bn:02591895n;0.03125
+microsoft sql server bn:00605043n;0.03125
+db2 bn:00637255n;0.03125
+maxdb bn:00244294n;0.03125
+informix bn:03306725n;0.03125
+sybase bn:01257629n;0.03125
+zodb bn:02283783n;0.03125
+db4o bn:01389836n;0.03125
+berkeley db bn:03239968n;0.03125
+nosql bn:01727553n;0.03125
+cassandra bn:01090316n;0.03125
+redis bn:00089731v;0.03125
+bigtable bn:03415846n;0.03125
+couchdb bn:00542118n;0.03125
+hbase bn:14809379n;0.03125
+leveldb bn:02609794n;0.03125
+phpmyadmin bn:03382496n;0.03125
+hébergeur bn:00801697n;0.03125
+root bn:00168023n;0.03125
+libérer bn:00090300v;0.03125
+supprimer bn:00086081v;0.03125
+example.com bn:00329278n;0.03125
+aller bn:00040833n;0.03125
+transaction bn:01403911n;0.03125
+isolation bn:02609561n;0.03125
+durabilité bn:01803600n;0.03125
+électricité bn:00030192n;0.03125
+rollback bn:00133978n;0.03125
+système d bn:04836299n;0.03125
+verrou bn:01788633n;0.03125
+panne bn:00059753n;0.03125
+gérer bn:00084527v;0.03125
+moteur bn:00030850n;0.03125
+populaire bn:00108807a;0.03125
+ouvrir bn:00084089v;0.03125
+supporter bn:00083226v;0.03125
+null bn:15898583n;0.03125
+innodb bn:01067935n;0.03125
+specification bn:00073217n;0.03125
+cours en ligne bn:03617678n;0.03125

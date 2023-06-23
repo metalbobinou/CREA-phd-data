@@ -1,0 +1,62 @@
+[Lattice]
+23
+10
+[Objects]
+fichier bn:00021475n
+client bn:00019764n
+php bn:01753580n
+code bn:00020354n
+nombre bn:00058285n
+zones bn:00005513n
+salaire bn:15928884n
+site bn:00047172n
+france bn:00036202n
+langage de script bn:01431715n
+serveur bn:00044916n
+casse bn:03225002n
+timestamp bn:03603649n
+chaîne bn:00074685n
+opérateur bn:16281811n
+exceptions bn:00032118n
+echo bn:03626250n
+class bn:03598962n
+positionnement bn:00030615n
+généralité bn:00041249n
+autre bn:00108013a
+bienvenue bn:00080852n
+paris bn:00015540n
+[Attributes]
+C1
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+C9
+CJA
+[relation]
+0 0 0 0 0 0 0 0 1 1 
+1 0 1 1 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 1 0 
+0 0 0 1 0 1 0 0 1 0 
+0 0 0 1 1 0 1 1 0 1 
+0 0 1 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 
+1 1 1 0 1 0 0 0 0 1 
+0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 1 1 0 0 0 0 
+0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 1 1 0 0 0 0 
+0 0 0 0 1 0 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 

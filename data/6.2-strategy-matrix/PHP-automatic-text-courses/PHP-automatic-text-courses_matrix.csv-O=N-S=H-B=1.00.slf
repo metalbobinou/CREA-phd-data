@@ -1,0 +1,43 @@
+[Lattice]
+17
+3
+[Objects]
+php bn:01753580n
+script bn:01431715n
+langage bn:00049910n
+chaîne bn:00074685n
+programmation bn:00021493n
+timestamp bn:03603649n
+base de données bn:00025333n
+données bn:00025314n
+fichiers bn:00021475n
+code bn:00020354n
+texte bn:00076732n
+http bn:00045088n
+méthode bn:01641329n
+site bn:00047172n
+personne bn:00046516n
+xml bn:02771436n
+varchar bn:01838409n
+[Attributes]
+C3.csv
+C5.csv
+C6.csv
+[relation]
+0 1 0 
+1 0 0 
+0 0 1 
+1 0 0 
+1 0 0 
+1 0 0 
+0 0 1 
+0 0 1 
+1 0 0 
+1 0 0 
+1 0 0 
+0 1 0 
+1 0 0 
+0 0 1 
+0 0 1 
+0 1 0 
+0 0 1 

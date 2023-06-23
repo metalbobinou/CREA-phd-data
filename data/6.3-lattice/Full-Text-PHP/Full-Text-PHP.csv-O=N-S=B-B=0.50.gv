@@ -1,0 +1,176 @@
+// <Lattice object of 11 atoms 42 concepts 7 coatoms at 0x120587278>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="texte bn:00076732n" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="base de donnees bn:00025333n" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="client web bn:00013447n" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="méthode get bn:00045088n" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="nécessaire bn:00107182a" labelangle=270]
+	c5 -> c0
+	c6
+	c6 -> c6 [color=transparent headlabel="personne bn:00046516n" labelangle=270]
+	c6 -> c0
+	c7
+	c7 -> c7 [color=transparent headlabel="langage bn:00049910n" labelangle=270]
+	c7 -> c0
+	c8
+	c8 -> c8 [color=transparent headlabel="méthode bn:01641329n" labelangle=270]
+	c8 -> c0
+	c9
+	c9 -> c9 [color=transparent headlabel="pouvoir bn:00084450v" labelangle=270]
+	c9 -> c0
+	c10
+	c10 -> c10 [color=transparent headlabel="echo bn:03626250n" labelangle=270]
+	c10 -> c0
+	c11
+	c11 -> c11 [color=transparent headlabel="exception bn:00032118n" labelangle=270]
+	c11 -> c0
+	c12
+	c12 -> c1
+	c12 -> c2
+	c13
+	c13 -> c13 [color=transparent headlabel="fichier bn:00021475n" labelangle=270]
+	c13 -> c8
+	c14
+	c14 -> c2
+	c14 -> c4
+	c15
+	c15 -> c15 [color=transparent headlabel="langage de script bn:01431715n" labelangle=270]
+	c15 -> c8
+	c16
+	c16 -> c16 [color=transparent headlabel="afficher bn:00087013v" labelangle=270]
+	c16 -> c4
+	c17
+	c17 -> c4
+	c17 -> c8
+	c18
+	c18 -> c5
+	c18 -> c7
+	c19
+	c19 -> c7
+	c19 -> c10
+	c20
+	c20 -> c20 [color=transparent headlabel="php bn:01753580n" labelangle=270]
+	c20 -> c16
+	c21
+	c21 -> c6
+	c21 -> c13
+	c22
+	c22 -> c22 [color=transparent headlabel="données bn:00025314n" labelangle=270]
+	c22 -> c2
+	c22 -> c7
+	c23
+	c23 -> c14
+	c23 -> c16
+	c24
+	c24 -> c24 [color=transparent headlabel="sélectionner bn:00084931v" labelangle=270]
+	c24 -> c5
+	c24 -> c10
+	c25
+	c25 -> c6
+	c25 -> c16
+	c26
+	c26 -> c14
+	c26 -> c22
+	c27
+	c27 -> c3
+	c27 -> c5
+	c27 -> c16
+	c28
+	c28 -> c10
+	c28 -> c15
+	c28 -> c17
+	c29
+	c29 -> c29 [color=transparent headlabel="rue bn:00074595n" labelangle=270]
+	c29 -> c1
+	c29 -> c20
+	c30
+	c30 -> c13
+	c30 -> c17
+	c30 -> c20
+	c31
+	c31 -> c1
+	c31 -> c3
+	c31 -> c13
+	c31 -> c15
+	c32
+	c32 -> c32 [color=transparent labelangle=90 taillabel=C17]
+	c32 -> c11
+	c32 -> c12
+	c32 -> c23
+	c32 -> c29
+	c33
+	c33 -> c33 [color=transparent labelangle=90 taillabel=C11]
+	c33 -> c9
+	c33 -> c21
+	c33 -> c25
+	c33 -> c30
+	c34
+	c34 -> c34 [color=transparent headlabel="site bn:00047172n wamp bn:01708928n" labelangle=270]
+	c34 -> c3
+	c34 -> c6
+	c34 -> c22
+	c35
+	c35 -> c35 [color=transparent headlabel="pouvoir bn:00084451v" labelangle=270]
+	c35 -> c35 [color=transparent labelangle=90 taillabel=C15]
+	c35 -> c9
+	c35 -> c11
+	c35 -> c18
+	c35 -> c19
+	c35 -> c24
+	c36
+	c36 -> c36 [color=transparent headlabel="nombre bn:00058285n chaîne bn:00074685n null bn:15898583n" labelangle=270]
+	c36 -> c15
+	c36 -> c22
+	c37
+	c37 -> c37 [color=transparent labelangle=90 taillabel=C3]
+	c37 -> c18
+	c37 -> c23
+	c37 -> c25
+	c37 -> c26
+	c37 -> c27
+	c37 -> c34
+	c38
+	c38 -> c38 [color=transparent headlabel="symfony bn:02798620n doctype bn:15839327n" labelangle=270]
+	c38 -> c38 [color=transparent labelangle=90 taillabel=C19]
+	c38 -> c19
+	c38 -> c26
+	c38 -> c28
+	c38 -> c36
+	c39
+	c39 -> c39 [color=transparent headlabel="code bn:00020354n serveur bn:00044916n" labelangle=270]
+	c39 -> c39 [color=transparent labelangle=90 taillabel=C6]
+	c39 -> c24
+	c39 -> c27
+	c39 -> c28
+	c39 -> c29
+	c39 -> c30
+	c39 -> c31
+	c40
+	c40 -> c40 [color=transparent headlabel="realisateur bn:00027369n" labelangle=270]
+	c40 -> c40 [color=transparent labelangle=90 taillabel=C5]
+	c40 -> c12
+	c40 -> c21
+	c40 -> c31
+	c40 -> c34
+	c40 -> c36
+	c41
+	c41 -> c32
+	c41 -> c33
+	c41 -> c35
+	c41 -> c37
+	c41 -> c38
+	c41 -> c39
+	c41 -> c40
+}

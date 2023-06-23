@@ -1,0 +1,35 @@
+Concept (0) : 
+  level : 2
+  objects (0) : 
+  attributes (3) : C5.csv C6.csv CJA-automatic.csv 
+  parents concepts (3) : 1 2 3 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 1
+  objects (1) : fichiers bn:00021475n 
+  attributes (1) : CJA-automatic.csv 
+  parents concepts (1) : 4 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 1
+  objects (2) : php bn:01753580n code bn:00020354n 
+  attributes (1) : C6.csv 
+  parents concepts (1) : 4 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 1
+  objects (2) : chaîne bn:00074685n class bn:03598962n 
+  attributes (1) : C5.csv 
+  parents concepts (1) : 4 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 0
+  objects (5) : php bn:01753580n chaîne bn:00074685n fichiers bn:00021475n code bn:00020354n class bn:03598962n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (3) : 1 2 3 
+

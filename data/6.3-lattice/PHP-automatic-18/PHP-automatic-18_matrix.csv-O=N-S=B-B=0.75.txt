@@ -1,0 +1,69 @@
+B
+
+23
+18
+
+fichier bn:00021475n
+client bn:00019764n
+base de donnée bn:00025333n
+donnée bn:00025314n
+php bn:01753580n
+code bn:00020354n
+nombre bn:00058285n
+salaire bn:15928884n
+site bn:00047172n
+types bn:00016413n
+langage de script bn:01431715n
+serveur bn:00044916n
+chaîne bn:00074685n
+helvetica bn:00043646n
+pouvoir bn:00084451v
+positionnement bn:00030615n
+thomas bn:00005240n
+symfony bn:02798620n
+inverse bn:00056301n
+info bn:00046698n
+realisateur bn:00027369n
+généralité bn:00041249n
+autre bn:00108013a
+C1
+C11
+C12
+C13
+C14
+C15
+C16
+C17
+C18
+C19
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+C9
+....X.X..........X
+X.X.XX.X.X.XX.....
+..X...XX.X.XXX.X..
+..X...X..XXXXX.X..
+.X.XX.X.......X...
+...X....X...X.X..X
+..X.X....X..XX.XX.
+.....X...X........
+X.X...X...XX.X....
+.X..XX...X.X.XXX..
+...XX.X..XX..XX...
+......X.......X...
+....X....X...X..X.
+....X.............
+.....X............
+..X...............
+..............X...
+.........X........
+.........X........
+.........X........
+.............X....
+..............X...
+..............X...

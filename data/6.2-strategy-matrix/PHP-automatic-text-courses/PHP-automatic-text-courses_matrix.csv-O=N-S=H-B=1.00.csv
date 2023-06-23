@@ -1,0 +1,18 @@
+;C3.csv;C5.csv;C6.csv
+php bn:01753580n;0; 1; 0; 
+script bn:01431715n;1; 0; 0; 
+langage bn:00049910n;0; 0; 1; 
+chaîne bn:00074685n;1; 0; 0; 
+programmation bn:00021493n;1; 0; 0; 
+timestamp bn:03603649n;1; 0; 0; 
+base de données bn:00025333n;0; 0; 1; 
+données bn:00025314n;0; 0; 1; 
+fichiers bn:00021475n;1; 0; 0; 
+code bn:00020354n;1; 0; 0; 
+texte bn:00076732n;1; 0; 0; 
+http bn:00045088n;0; 1; 0; 
+méthode bn:01641329n;1; 0; 0; 
+site bn:00047172n;0; 0; 1; 
+personne bn:00046516n;0; 0; 1; 
+xml bn:02771436n;0; 1; 0; 
+varchar bn:01838409n;0; 0; 1; 

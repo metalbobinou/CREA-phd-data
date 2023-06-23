@@ -1,0 +1,36 @@
+B
+
+14
+3
+
+php bn:01753580n
+serveur bn:00044916n
+chaîne bn:00074685n
+nombre bn:00058285n
+fichiers bn:00021475n
+code bn:00020354n
+echo bn:03626250n
+files bn:00065682n
+class bn:03598962n
+configuration bn:03088982n
+insert bn:03795444n
+client bn:00019764n
+composer bn:14766022n
+null bn:15898583n
+C3.csv
+C5.csv
+C6.csv
+..X
+..X
+.X.
+.X.
+..X
+..X
+..X
+..X
+.X.
+X..
+X..
+X..
+..X
+.X.

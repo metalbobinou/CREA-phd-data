@@ -1,0 +1,15 @@
+;C3.csv;C5.csv;C6.csv;CJA-automatic.csv
+php bn:01753580n;0; 0; 1; 0; 
+serveur bn:00044916n;0; 0; 1; 1; 
+chaîne bn:00074685n;0; 1; 0; 0; 
+programmation bn:00021493n;0; 1; 1; 0; 
+nombre bn:00058285n;0; 1; 0; 1; 
+fichiers bn:00021475n;0; 0; 0; 1; 
+code bn:00020354n;0; 0; 1; 0; 
+méthode bn:01641329n;0; 1; 1; 0; 
+exceptions bn:00032118n;0; 0; 0; 1; 
+echo bn:03626250n;0; 0; 1; 0; 
+class bn:03598962n;0; 1; 0; 0; 
+configuration bn:03088982n;1; 0; 0; 0; 
+insert bn:03795444n;1; 0; 0; 0; 
+client bn:00019764n;1; 0; 0; 0; 

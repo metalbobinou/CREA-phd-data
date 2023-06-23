@@ -1,0 +1,184 @@
+// <Lattice object of 10 atoms 43 concepts 10 coatoms at 0x6ffff6edd6d8>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="fichier bn:00021475n" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="commentaire bn:00020978n" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="post bn:01500184n" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="nombre bn:00058285n" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="méthode post bn:00045088n" labelangle=270]
+	c5 -> c0
+	c6
+	c6 -> c6 [color=transparent headlabel="site bn:00047172n" labelangle=270]
+	c6 -> c0
+	c7
+	c7 -> c7 [color=transparent headlabel="langage de script bn:01431715n" labelangle=270]
+	c7 -> c0
+	c8
+	c8 -> c8 [color=transparent headlabel="class bn:03598962n" labelangle=270]
+	c8 -> c0
+	c9
+	c9 -> c1
+	c9 -> c4
+	c10
+	c10 -> c1
+	c10 -> c7
+	c11
+	c11 -> c11 [color=transparent headlabel="client bn:00019764n php bn:01753580n" labelangle=270]
+	c11 -> c0
+	c12
+	c12 -> c12 [color=transparent headlabel="base de donnée bn:00025333n donnée bn:00025314n" labelangle=270]
+	c12 -> c0
+	c13
+	c13 -> c13 [color=transparent headlabel="code bn:00020354n" labelangle=270]
+	c13 -> c8
+	c14
+	c14 -> c14 [color=transparent headlabel="délimiter bn:00086464v" labelangle=270]
+	c14 -> c4
+	c15
+	c15 -> c4
+	c15 -> c7
+	c16
+	c16 -> c16 [color=transparent headlabel="typage bn:00016413n" labelangle=270]
+	c16 -> c4
+	c17
+	c17 -> c6
+	c17 -> c7
+	c18
+	c18 -> c18 [color=transparent headlabel="classe bn:03608262n" labelangle=270]
+	c18 -> c8
+	c19
+	c19 -> c19 [color=transparent headlabel="navigateur bn:00013447n" labelangle=270]
+	c19 -> c3
+	c19 -> c5
+	c20
+	c20 -> c1
+	c20 -> c11
+	c21
+	c21 -> c3
+	c21 -> c12
+	c22
+	c22 -> c4
+	c22 -> c12
+	c23
+	c23 -> c6
+	c23 -> c12
+	c24
+	c24 -> c24 [color=transparent headlabel="programmation bn:00021493n méthode bn:01641329n" labelangle=270]
+	c24 -> c8
+	c25
+	c25 -> c25 [color=transparent headlabel="langage bn:00049910n" labelangle=270]
+	c25 -> c3
+	c25 -> c10
+	c26
+	c26 -> c26 [color=transparent headlabel="timestamp bn:03603649n chaîne bn:00074685n" labelangle=270]
+	c26 -> c10
+	c27
+	c27 -> c27 [color=transparent headlabel="personne bn:00046516n" labelangle=270]
+	c27 -> c22
+	c28
+	c28 -> c22
+	c28 -> c23
+	c29
+	c29 -> c29 [color=transparent headlabel="text bn:14981519n" labelangle=270]
+	c29 -> c23
+	c30
+	c30 -> c30 [color=transparent headlabel="foreach bn:03463379n" labelangle=270]
+	c30 -> c3
+	c30 -> c6
+	c30 -> c11
+	c31
+	c31 -> c31 [color=transparent headlabel="zones bn:00005513n mysql bn:01225760n" labelangle=270]
+	c31 -> c22
+	c32
+	c32 -> c32 [color=transparent headlabel="xml bn:02771436n configuration bn:03088982n composer bn:14766022n doctype bn:15839327n" labelangle=270]
+	c32 -> c32 [color=transparent labelangle=90 taillabel=C5]
+	c32 -> c5
+	c32 -> c11
+	c33
+	c33 -> c33 [color=transparent headlabel="list bn:04720346n positionnement bn:00030615n" labelangle=270]
+	c33 -> c33 [color=transparent labelangle=90 taillabel=C4]
+	c33 -> c19
+	c33 -> c25
+	c34
+	c34 -> c34 [color=transparent headlabel="insert bn:03795444n varchar bn:01838409n null bn:15898583n" labelangle=270]
+	c34 -> c34 [color=transparent labelangle=90 taillabel=C6]
+	c34 -> c27
+	c34 -> c28
+	c35
+	c35 -> c35 [color=transparent headlabel="java bn:00048043n mise bn:00016287n publique bn:00109211a" labelangle=270]
+	c35 -> c35 [color=transparent labelangle=90 taillabel=CJA]
+	c35 -> c2
+	c35 -> c18
+	c35 -> c24
+	c36
+	c36 -> c36 [color=transparent headlabel="exceptions bn:00032118n echo bn:03626250n files bn:00065682n" labelangle=270]
+	c36 -> c36 [color=transparent labelangle=90 taillabel=C3]
+	c36 -> c9
+	c36 -> c13
+	c36 -> c15
+	c36 -> c24
+	c36 -> c26
+	c37
+	c37 -> c37 [color=transparent headlabel="case à cocher bn:03157691n interpréter bn:00089840v côté serveur bn:03816678n serveur bn:00044916n côté client bn:03163702n pointeur bn:03222272n casse bn:03225002n" labelangle=270]
+	c37 -> c37 [color=transparent labelangle=90 taillabel=C2]
+	c37 -> c2
+	c37 -> c9
+	c37 -> c14
+	c37 -> c16
+	c37 -> c20
+	c38
+	c38 -> c38 [color=transparent headlabel="mot bn:00081546n moteur bn:00030850n affiche bn:00087013v transaction bn:01403911n visiteur bn:03106425n" labelangle=270]
+	c38 -> c38 [color=transparent labelangle=90 taillabel=C9]
+	c38 -> c15
+	c38 -> c16
+	c38 -> c17
+	c38 -> c28
+	c38 -> c29
+	c38 -> c31
+	c39
+	c39 -> c39 [color=transparent headlabel="page web bn:00080778n serveur web bn:02705179n texte bn:00076732n concerner bn:00083240v utilisateur bn:00079373n associer bn:00082868v machine bn:00054050n salaire bn:15928884n" labelangle=270]
+	c39 -> c39 [color=transparent labelangle=90 taillabel=C1]
+	c39 -> c14
+	c39 -> c19
+	c39 -> c21
+	c39 -> c27
+	c39 -> c31
+	c40
+	c40 -> c40 [color=transparent headlabel="fois bn:00032768n jour bn:00000086n cle bn:04756252n opérateur bn:16281811n mysqli bn:01438356n bienvenue bn:00080852n paris bn:00015540n" labelangle=270]
+	c40 -> c40 [color=transparent labelangle=90 taillabel=C8]
+	c40 -> c13
+	c40 -> c18
+	c40 -> c21
+	c40 -> c29
+	c40 -> c30
+	c41
+	c41 -> c41 [color=transparent headlabel="url bn:00079080n case bn:04777941n fermeture bn:16858148n france bn:00036202n session bn:03751534n entête bn:00043309n valeur bn:00079508n généralité bn:00041249n autre bn:00108013a avoir accès bn:00082209v" labelangle=270]
+	c41 -> c41 [color=transparent labelangle=90 taillabel=C7]
+	c41 -> c17
+	c41 -> c20
+	c41 -> c25
+	c41 -> c26
+	c41 -> c30
+	c42
+	c42 -> c32
+	c42 -> c33
+	c42 -> c34
+	c42 -> c35
+	c42 -> c36
+	c42 -> c37
+	c42 -> c38
+	c42 -> c39
+	c42 -> c40
+	c42 -> c41
+}

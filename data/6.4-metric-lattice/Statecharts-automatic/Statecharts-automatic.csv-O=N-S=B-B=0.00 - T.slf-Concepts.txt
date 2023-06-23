@@ -1,0 +1,3304 @@
+Concept (0) : 
+  level : 9
+  objects (0) : 
+  attributes (13) : A1 A2 A3 A4 A5 C1 C2 C3 C4 C5 C6 C7 C8 
+  parents concepts (25) : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 25 72 128 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 6
+  objects (1) : computer bn:00021464n 
+  attributes (6) : A1 A3 A4 A5 C4 C6 
+  parents concepts (4) : 24 79 80 135 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 7
+  objects (1) : systems bn:15125301n 
+  attributes (8) : A2 A3 A4 C1 C2 C5 C7 C8 
+  parents concepts (10) : 26 27 28 29 30 31 32 33 34 90 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 8
+  objects (1) : mathematics bn:00053823n 
+  attributes (9) : A1 A2 A3 A5 C1 C4 C6 C7 C8 
+  parents concepts (9) : 35 36 37 38 39 40 41 42 111 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 7
+  objects (1) : state machine bn:00212740n 
+  attributes (10) : A1 A2 A3 A5 C2 C3 C4 C5 C6 C8 
+  parents concepts (10) : 23 26 35 43 44 45 46 47 48 49 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 9
+  objects (1) : units bn:00021497n 
+  attributes (9) : A1 A2 A4 A5 C1 C2 C3 C7 C8 
+  parents concepts (11) : 27 36 50 51 52 53 54 55 56 57 113 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 4
+  objects (1) : behavior bn:00009657n 
+  attributes (4) : A1 A2 A4 C5 
+  parents concepts (4) : 28 129 260 445 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 6
+  objects (1) : reactive systems bn:02824399n 
+  attributes (6) : A1 A2 A5 C3 C5 C7 
+  parents concepts (5) : 58 59 87 175 238 
+  childs concepts (1) : 0 
+
+Concept (8) : 
+  level : 7
+  objects (1) : time bn:00077270n 
+  attributes (8) : A2 A3 A4 A5 C1 C6 C7 C8 
+  parents concepts (6) : 30 37 51 60 61 62 
+  childs concepts (1) : 0 
+
+Concept (9) : 
+  level : 4
+  objects (1) : simulation bn:00021496n 
+  attributes (4) : A1 A3 C5 C7 
+  parents concepts (4) : 88 114 185 408 
+  childs concepts (1) : 0 
+
+Concept (10) : 
+  level : 6
+  objects (1) : set bn:00070697n 
+  attributes (6) : A1 A3 A5 C1 C2 C7 
+  parents concepts (4) : 31 63 256 262 
+  childs concepts (1) : 0 
+
+Concept (11) : 
+  level : 7
+  objects (1) : tool bn:00077585n 
+  attributes (7) : A1 A2 A3 A4 C1 C3 C7 
+  parents concepts (5) : 65 66 81 123 133 
+  childs concepts (1) : 0 
+
+Concept (12) : 
+  level : 6
+  objects (1) : triggering bn:00082306v 
+  attributes (6) : A1 A2 A3 A4 C7 C8 
+  parents concepts (5) : 38 52 67 89 282 
+  childs concepts (1) : 0 
+
+Concept (13) : 
+  level : 7
+  objects (1) : semantics bn:00070404n 
+  attributes (8) : A2 A3 C1 C3 C4 C6 C7 C8 
+  parents concepts (5) : 39 47 53 65 68 
+  childs concepts (1) : 0 
+
+Concept (14) : 
+  level : 7
+  objects (1) : concept bn:00021547n 
+  attributes (7) : A1 A2 A3 A4 A5 C2 C7 
+  parents concepts (5) : 48 63 64 144 300 
+  childs concepts (1) : 0 
+
+Concept (15) : 
+  level : 7
+  objects (1) : america bn:00003341n 
+  attributes (7) : A1 A2 A4 A5 C3 C6 C7 
+  parents concepts (4) : 68 70 78 200 
+  childs concepts (1) : 0 
+
+Concept (16) : 
+  level : 6
+  objects (1) : history bn:00044268n 
+  attributes (7) : A1 A2 A5 C1 C2 C5 C6 
+  parents concepts (5) : 32 40 49 71 263 
+  childs concepts (1) : 0 
+
+Concept (17) : 
+  level : 6
+  objects (1) : require bn:00091028v 
+  attributes (7) : A1 A3 A4 A5 C6 C7 C8 
+  parents concepts (7) : 41 56 60 67 79 134 311 
+  childs concepts (1) : 0 
+
+Concept (18) : 
+  level : 5
+  objects (1) : light bn:00051108n 
+  attributes (5) : A1 A4 C1 C5 C7 
+  parents concepts (4) : 33 71 73 386 
+  childs concepts (1) : 0 
+
+Concept (19) : 
+  level : 7
+  objects (1) : second bn:00095974a 
+  attributes (7) : A1 A2 A4 A5 C2 C6 C7 
+  parents concepts (3) : 70 121 300 
+  childs concepts (1) : 0 
+
+Concept (20) : 
+  level : 8
+  objects (1) : definition bn:00025928n 
+  attributes (8) : A1 A2 A3 A4 A5 C1 C4 C7 
+  parents concepts (7) : 42 61 66 69 144 184 190 
+  childs concepts (1) : 0 
+
+Concept (21) : 
+  level : 6
+  objects (1) : new york bn:00041611n 
+  attributes (6) : A1 A4 C2 C3 C5 C7 
+  parents concepts (5) : 34 58 73 118 124 
+  childs concepts (1) : 0 
+
+Concept (22) : 
+  level : 4
+  objects (1) : summary bn:00075142n 
+  attributes (4) : A4 C4 C6 C8 
+  parents concepts (3) : 24 164 188 
+  childs concepts (1) : 0 
+
+Concept (23) : 
+  level : 6
+  objects (2) : science bn:00069670n state machine bn:00212740n 
+  attributes (7) : A1 A2 A3 A5 C3 C4 C6 
+  parents concepts (6) : 74 75 76 77 78 233 
+  childs concepts (1) : 4 
+
+Concept (24) : 
+  level : 3
+  objects (2) : computer bn:00021464n summary bn:00075142n 
+  attributes (3) : A4 C4 C6 
+  parents concepts (3) : 273 276 330 
+  childs concepts (2) : 1 22 
+
+Concept (25) : 
+  level : 7
+  objects (2) : statecharts bn:01128895n possibility bn:00045632n 
+  attributes (7) : A1 A2 A3 A4 A5 C3 C7 
+  parents concepts (5) : 81 144 145 200 233 
+  childs concepts (1) : 0 
+
+Concept (26) : 
+  level : 5
+  objects (2) : systems bn:15125301n state machine bn:00212740n 
+  attributes (5) : A2 A3 C2 C5 C8 
+  parents concepts (3) : 82 83 150 
+  childs concepts (2) : 2 4 
+
+Concept (27) : 
+  level : 6
+  objects (2) : systems bn:15125301n units bn:00021497n 
+  attributes (6) : A2 A4 C1 C2 C7 C8 
+  parents concepts (4) : 84 85 86 287 
+  childs concepts (2) : 2 5 
+
+Concept (28) : 
+  level : 3
+  objects (2) : systems bn:15125301n behavior bn:00009657n 
+  attributes (3) : A2 A4 C5 
+  parents concepts (3) : 153 313 457 
+  childs concepts (2) : 2 6 
+
+Concept (29) : 
+  level : 5
+  objects (2) : systems bn:15125301n problem bn:00048242n 
+  attributes (5) : A2 A3 C5 C7 C8 
+  parents concepts (4) : 82 87 88 244 
+  childs concepts (1) : 2 
+
+Concept (30) : 
+  level : 6
+  objects (2) : systems bn:15125301n time bn:00077270n 
+  attributes (6) : A2 A3 A4 C1 C7 C8 
+  parents concepts (4) : 84 89 146 154 
+  childs concepts (2) : 2 8 
+
+Concept (31) : 
+  level : 4
+  objects (2) : systems bn:15125301n set bn:00070697n 
+  attributes (4) : A3 C1 C2 C7 
+  parents concepts (3) : 156 352 353 
+  childs concepts (2) : 2 10 
+
+Concept (32) : 
+  level : 4
+  objects (2) : systems bn:15125301n history bn:00044268n 
+  attributes (4) : A2 C1 C2 C5 
+  parents concepts (3) : 91 149 314 
+  childs concepts (2) : 2 16 
+
+Concept (33) : 
+  level : 4
+  objects (2) : systems bn:15125301n light bn:00051108n 
+  attributes (4) : A4 C1 C5 C7 
+  parents concepts (3) : 91 92 423 
+  childs concepts (2) : 2 18 
+
+Concept (34) : 
+  level : 4
+  objects (2) : systems bn:15125301n new york bn:00041611n 
+  attributes (4) : A4 C2 C5 C7 
+  parents concepts (3) : 92 93 382 
+  childs concepts (2) : 2 21 
+
+Concept (35) : 
+  level : 7
+  objects (2) : mathematics bn:00053823n state machine bn:00212740n 
+  attributes (7) : A1 A2 A3 A5 C4 C6 C8 
+  parents concepts (6) : 75 94 95 96 97 98 
+  childs concepts (2) : 3 4 
+
+Concept (36) : 
+  level : 6
+  objects (2) : mathematics bn:00053823n units bn:00021497n 
+  attributes (6) : A1 A2 A5 C1 C7 C8 
+  parents concepts (6) : 99 100 101 102 103 290 
+  childs concepts (2) : 3 5 
+
+Concept (37) : 
+  level : 6
+  objects (2) : mathematics bn:00053823n time bn:00077270n 
+  attributes (7) : A2 A3 A5 C1 C6 C7 C8 
+  parents concepts (6) : 94 99 104 105 106 107 
+  childs concepts (2) : 3 8 
+
+Concept (38) : 
+  level : 5
+  objects (2) : mathematics bn:00053823n triggering bn:00082306v 
+  attributes (5) : A1 A2 A3 C7 C8 
+  parents concepts (5) : 100 109 163 244 308 
+  childs concepts (2) : 3 12 
+
+Concept (39) : 
+  level : 6
+  objects (2) : mathematics bn:00053823n semantics bn:00070404n 
+  attributes (7) : A2 A3 C1 C4 C6 C7 C8 
+  parents concepts (3) : 97 104 110 
+  childs concepts (2) : 3 13 
+
+Concept (40) : 
+  level : 5
+  objects (2) : mathematics bn:00053823n history bn:00044268n 
+  attributes (5) : A1 A2 A5 C1 C6 
+  parents concepts (3) : 169 235 355 
+  childs concepts (2) : 3 16 
+
+Concept (41) : 
+  level : 5
+  objects (2) : mathematics bn:00053823n require bn:00091028v 
+  attributes (6) : A1 A3 A5 C6 C7 C8 
+  parents concepts (6) : 98 102 105 109 171 349 
+  childs concepts (2) : 3 17 
+
+Concept (42) : 
+  level : 7
+  objects (2) : mathematics bn:00053823n definition bn:00025928n 
+  attributes (7) : A1 A2 A3 A5 C1 C4 C7 
+  parents concepts (7) : 106 108 110 196 198 212 256 
+  childs concepts (2) : 3 20 
+
+Concept (43) : 
+  level : 5
+  objects (2) : state machine bn:00212740n complex system bn:03086504n 
+  attributes (5) : A2 A5 C2 C6 C8 
+  parents concepts (3) : 157 174 217 
+  childs concepts (1) : 4 
+
+Concept (44) : 
+  level : 7
+  objects (2) : state machine bn:00212740n output bn:00036821n 
+  attributes (8) : A1 A2 A5 C2 C3 C4 C5 C8 
+  parents concepts (9) : 76 83 95 113 116 117 118 175 259 
+  childs concepts (1) : 4 
+
+Concept (45) : 
+  level : 6
+  objects (2) : state machine bn:00212740n orthogonality bn:00059586n 
+  attributes (6) : A1 A2 A3 A5 C3 C8 
+  parents concepts (5) : 96 112 120 218 233 
+  childs concepts (1) : 4 
+
+Concept (46) : 
+  level : 6
+  objects (2) : state machine bn:00212740n broadcast bn:00013234n 
+  attributes (6) : A1 A2 A3 A5 C3 C5 
+  parents concepts (4) : 114 148 175 233 
+  childs concepts (1) : 4 
+
+Concept (47) : 
+  level : 5
+  objects (2) : state machine bn:00212740n semantics bn:00070404n 
+  attributes (6) : A2 A3 C3 C4 C6 C8 
+  parents concepts (4) : 77 97 116 120 
+  childs concepts (2) : 4 13 
+
+Concept (48) : 
+  level : 5
+  objects (2) : state machine bn:00212740n concept bn:00021547n 
+  attributes (5) : A1 A2 A3 A5 C2 
+  parents concepts (4) : 115 119 359 374 
+  childs concepts (2) : 4 14 
+
+Concept (49) : 
+  level : 6
+  objects (2) : state machine bn:00212740n history bn:00044268n 
+  attributes (6) : A1 A2 A5 C2 C5 C6 
+  parents concepts (2) : 117 121 
+  childs concepts (2) : 4 16 
+
+Concept (50) : 
+  level : 8
+  objects (2) : diagrams bn:00026817n units bn:00021497n 
+  attributes (8) : A1 A2 A4 A5 C1 C2 C3 C7 
+  parents concepts (7) : 122 123 124 172 181 200 221 
+  childs concepts (1) : 5 
+
+Concept (51) : 
+  level : 6
+  objects (2) : units bn:00021497n time bn:00077270n 
+  attributes (6) : A2 A4 A5 C1 C7 C8 
+  parents concepts (5) : 84 99 125 182 357 
+  childs concepts (2) : 5 8 
+
+Concept (52) : 
+  level : 5
+  objects (2) : units bn:00021497n triggering bn:00082306v 
+  attributes (5) : A1 A2 A4 C7 C8 
+  parents concepts (5) : 100 126 151 183 418 
+  childs concepts (2) : 5 12 
+
+Concept (53) : 
+  level : 5
+  objects (2) : units bn:00021497n semantics bn:00070404n 
+  attributes (5) : A2 C1 C3 C7 C8 
+  parents concepts (3) : 127 180 204 
+  childs concepts (2) : 5 13 
+
+Concept (54) : 
+  level : 5
+  objects (2) : units bn:00021497n c d bn:00016915n 
+  attributes (5) : A1 A4 C1 C7 C8 
+  parents concepts (4) : 101 152 183 386 
+  childs concepts (1) : 5 
+
+Concept (55) : 
+  level : 5
+  objects (2) : units bn:00021497n effect bn:00021961n 
+  attributes (5) : A2 A4 A5 C2 C8 
+  parents concepts (4) : 85 125 217 343 
+  childs concepts (1) : 5 
+
+Concept (56) : 
+  level : 5
+  objects (2) : units bn:00021497n require bn:00091028v 
+  attributes (5) : A1 A4 A5 C7 C8 
+  parents concepts (4) : 102 182 183 411 
+  childs concepts (2) : 5 17 
+
+Concept (57) : 
+  level : 6
+  objects (2) : units bn:00021497n syntax bn:00062118n 
+  attributes (6) : A1 A2 A5 C1 C3 C8 
+  parents concepts (4) : 103 127 179 218 
+  childs concepts (1) : 5 
+
+Concept (58) : 
+  level : 4
+  objects (2) : reactive systems bn:02824399n new york bn:00041611n 
+  attributes (4) : A1 C3 C5 C7 
+  parents concepts (3) : 185 220 364 
+  childs concepts (2) : 7 21 
+
+Concept (59) : 
+  level : 3
+  objects (2) : reactive systems bn:02824399n stateflow bn:03369007n 
+  attributes (3) : A5 C5 C7 
+  parents concepts (3) : 261 315 453 
+  childs concepts (1) : 7 
+
+Concept (60) : 
+  level : 5
+  objects (2) : time bn:00077270n require bn:00091028v 
+  attributes (6) : A3 A4 A5 C6 C7 C8 
+  parents concepts (5) : 105 131 143 155 335 
+  childs concepts (2) : 8 17 
+
+Concept (61) : 
+  level : 6
+  objects (2) : time bn:00077270n definition bn:00025928n 
+  attributes (6) : A2 A3 A4 A5 C1 C7 
+  parents concepts (5) : 106 154 202 229 357 
+  childs concepts (2) : 8 20 
+
+Concept (62) : 
+  level : 6
+  objects (2) : time bn:00077270n multiple bn:00107028a 
+  attributes (6) : A2 A4 A5 C1 C6 C7 
+  parents concepts (3) : 107 187 357 
+  childs concepts (1) : 8 
+
+Concept (63) : 
+  level : 5
+  objects (2) : set bn:00070697n concept bn:00021547n 
+  attributes (5) : A1 A3 A5 C2 C7 
+  parents concepts (4) : 115 132 324 349 
+  childs concepts (2) : 10 14 
+
+Concept (64) : 
+  level : 6
+  objects (2) : information bn:00046705n concept bn:00021547n 
+  attributes (6) : A1 A2 A3 A4 C2 C7 
+  parents concepts (5) : 90 119 132 282 341 
+  childs concepts (1) : 14 
+
+Concept (65) : 
+  level : 5
+  objects (2) : tool bn:00077585n semantics bn:00070404n 
+  attributes (5) : A2 A3 C1 C3 C7 
+  parents concepts (4) : 180 189 199 245 
+  childs concepts (2) : 11 13 
+
+Concept (66) : 
+  level : 6
+  objects (2) : tool bn:00077585n definition bn:00025928n 
+  attributes (6) : A1 A2 A3 A4 C1 C7 
+  parents concepts (5) : 108 154 230 282 299 
+  childs concepts (2) : 11 20 
+
+Concept (67) : 
+  level : 5
+  objects (2) : triggering bn:00082306v require bn:00091028v 
+  attributes (5) : A1 A3 A4 C7 C8 
+  parents concepts (4) : 109 155 183 366 
+  childs concepts (2) : 12 17 
+
+Concept (68) : 
+  level : 4
+  objects (2) : semantics bn:00070404n america bn:00003341n 
+  attributes (4) : A2 C3 C6 C7 
+  parents concepts (3) : 142 255 332 
+  childs concepts (2) : 13 15 
+
+Concept (69) : 
+  level : 6
+  objects (2) : occurring bn:00085337v definition bn:00025928n 
+  attributes (6) : A1 A2 A3 A4 A5 C4 
+  parents concepts (4) : 80 196 227 241 
+  childs concepts (1) : 20 
+
+Concept (70) : 
+  level : 6
+  objects (2) : america bn:00003341n second bn:00095974a 
+  attributes (6) : A1 A2 A4 A5 C6 C7 
+  parents concepts (4) : 111 134 187 363 
+  childs concepts (2) : 15 19 
+
+Concept (71) : 
+  level : 3
+  objects (2) : history bn:00044268n light bn:00051108n 
+  attributes (3) : A1 C1 C5 
+  parents concepts (3) : 91 339 435 
+  childs concepts (2) : 16 18 
+
+Concept (72) : 
+  level : 7
+  objects (2) : application bn:00005095n defined bn:00086465v 
+  attributes (7) : A1 A3 A4 A5 C1 C3 C7 
+  parents concepts (5) : 130 133 145 181 190 
+  childs concepts (1) : 0 
+
+Concept (73) : 
+  level : 4
+  objects (2) : light bn:00051108n new york bn:00041611n 
+  attributes (4) : A1 A4 C5 C7 
+  parents concepts (4) : 92 129 185 449 
+  childs concepts (2) : 18 21 
+
+Concept (74) : 
+  level : 5
+  objects (3) : science bn:00069670n david harel bn:03178978n state machine bn:00212740n 
+  attributes (5) : A1 A5 C3 C4 C6 
+  parents concepts (4) : 136 137 138 191 
+  childs concepts (1) : 23 
+
+Concept (75) : 
+  level : 6
+  objects (3) : science bn:00069670n mathematics bn:00053823n state machine bn:00212740n 
+  attributes (6) : A1 A2 A3 A5 C4 C6 
+  parents concepts (5) : 135 139 140 196 235 
+  childs concepts (2) : 23 35 
+
+Concept (76) : 
+  level : 5
+  objects (3) : science bn:00069670n state machine bn:00212740n output bn:00036821n 
+  attributes (5) : A1 A2 A5 C3 C4 
+  parents concepts (4) : 136 141 360 406 
+  childs concepts (2) : 23 44 
+
+Concept (77) : 
+  level : 4
+  objects (3) : science bn:00069670n state machine bn:00212740n semantics bn:00070404n 
+  attributes (5) : A2 A3 C3 C4 C6 
+  parents concepts (5) : 137 140 141 142 327 
+  childs concepts (2) : 23 47 
+
+Concept (78) : 
+  level : 5
+  objects (3) : science bn:00069670n state machine bn:00212740n america bn:00003341n 
+  attributes (5) : A1 A2 A5 C3 C6 
+  parents concepts (4) : 138 142 235 406 
+  childs concepts (2) : 15 23 
+
+Concept (79) : 
+  level : 5
+  objects (3) : computer bn:00021464n number bn:00058285n require bn:00091028v 
+  attributes (5) : A1 A3 A4 A5 C6 
+  parents concepts (4) : 143 197 231 378 
+  childs concepts (2) : 1 17 
+
+Concept (80) : 
+  level : 5
+  objects (3) : computer bn:00021464n occurring bn:00085337v definition bn:00025928n 
+  attributes (5) : A1 A3 A4 A5 C4 
+  parents concepts (3) : 232 236 378 
+  childs concepts (2) : 1 69 
+
+Concept (81) : 
+  level : 6
+  objects (3) : statecharts bn:01128895n tool bn:00077585n possibility bn:00045632n 
+  attributes (6) : A1 A2 A3 A4 C3 C7 
+  parents concepts (5) : 199 203 239 275 282 
+  childs concepts (2) : 11 25 
+
+Concept (82) : 
+  level : 4
+  objects (3) : systems bn:15125301n state machine bn:00212740n problem bn:00048242n 
+  attributes (4) : A2 A3 C5 C8 
+  parents concepts (3) : 147 148 312 
+  childs concepts (2) : 26 29 
+
+Concept (83) : 
+  level : 4
+  objects (3) : systems bn:15125301n state machine bn:00212740n output bn:00036821n 
+  attributes (4) : A2 C2 C5 C8 
+  parents concepts (3) : 147 149 246 
+  childs concepts (2) : 26 44 
+
+Concept (84) : 
+  level : 5
+  objects (3) : systems bn:15125301n units bn:00021497n time bn:00077270n 
+  attributes (5) : A2 A4 C1 C7 C8 
+  parents concepts (4) : 151 152 204 380 
+  childs concepts (3) : 27 30 51 
+
+Concept (85) : 
+  level : 4
+  objects (3) : systems bn:15125301n units bn:00021497n effect bn:00021961n 
+  attributes (4) : A2 A4 C2 C8 
+  parents concepts (3) : 246 248 381 
+  childs concepts (2) : 27 55 
+
+Concept (86) : 
+  level : 3
+  objects (3) : systems bn:15125301n units bn:00021497n interaction diagram bn:02571962n 
+  attributes (3) : C2 C7 C8 
+  parents concepts (3) : 286 367 424 
+  childs concepts (1) : 27 
+
+Concept (87) : 
+  level : 3
+  objects (3) : systems bn:15125301n problem bn:00048242n reactive systems bn:02824399n 
+  attributes (3) : A2 C5 C7 
+  parents concepts (3) : 313 315 456 
+  childs concepts (2) : 7 29 
+
+Concept (88) : 
+  level : 3
+  objects (3) : systems bn:15125301n problem bn:00048242n simulation bn:00021496n 
+  attributes (3) : A3 C5 C7 
+  parents concepts (3) : 205 315 442 
+  childs concepts (2) : 9 29 
+
+Concept (89) : 
+  level : 5
+  objects (3) : systems bn:15125301n time bn:00077270n triggering bn:00082306v 
+  attributes (5) : A2 A3 A4 C7 C8 
+  parents concepts (4) : 151 155 244 331 
+  childs concepts (2) : 12 30 
+
+Concept (90) : 
+  level : 5
+  objects (3) : systems bn:15125301n information bn:00046705n concept bn:00021547n 
+  attributes (5) : A2 A3 A4 C2 C7 
+  parents concepts (4) : 150 156 331 370 
+  childs concepts (2) : 2 64 
+
+Concept (91) : 
+  level : 2
+  objects (3) : systems bn:15125301n history bn:00044268n light bn:00051108n 
+  attributes (2) : C1 C5 
+  parents concepts (2) : 401 458 
+  childs concepts (3) : 32 33 71 
+
+Concept (92) : 
+  level : 3
+  objects (3) : systems bn:15125301n light bn:00051108n new york bn:00041611n 
+  attributes (3) : A4 C5 C7 
+  parents concepts (3) : 153 315 459 
+  childs concepts (3) : 33 34 73 
+
+Concept (93) : 
+  level : 3
+  objects (3) : systems bn:15125301n new york bn:00041611n simple bn:00098053a 
+  attributes (3) : C2 C5 C7 
+  parents concepts (3) : 247 315 424 
+  childs concepts (1) : 34 
+
+Concept (94) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n state machine bn:00212740n time bn:00077270n 
+  attributes (5) : A2 A3 A5 C6 C8 
+  parents concepts (5) : 139 157 158 159 160 
+  childs concepts (2) : 35 37 
+
+Concept (95) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n state machine bn:00212740n output bn:00036821n 
+  attributes (5) : A1 A2 A5 C4 C8 
+  parents concepts (4) : 161 162 251 360 
+  childs concepts (2) : 35 44 
+
+Concept (96) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n state machine bn:00212740n orthogonality bn:00059586n 
+  attributes (5) : A1 A2 A3 A5 C8 
+  parents concepts (5) : 158 163 207 251 359 
+  childs concepts (2) : 35 45 
+
+Concept (97) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n state machine bn:00212740n semantics bn:00070404n 
+  attributes (5) : A2 A3 C4 C6 C8 
+  parents concepts (4) : 140 159 161 164 
+  childs concepts (3) : 35 39 47 
+
+Concept (98) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n state machine bn:00212740n require bn:00091028v 
+  attributes (5) : A1 A3 A5 C6 C8 
+  parents concepts (3) : 160 207 231 
+  childs concepts (2) : 35 41 
+
+Concept (99) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n units bn:00021497n time bn:00077270n 
+  attributes (5) : A2 A5 C1 C7 C8 
+  parents concepts (4) : 165 204 210 372 
+  childs concepts (3) : 36 37 51 
+
+Concept (100) : 
+  level : 4
+  objects (3) : mathematics bn:00053823n units bn:00021497n triggering bn:00082306v 
+  attributes (4) : A1 A2 C7 C8 
+  parents concepts (4) : 211 283 317 432 
+  childs concepts (3) : 36 38 52 
+
+Concept (101) : 
+  level : 4
+  objects (3) : mathematics bn:00053823n units bn:00021497n c d bn:00016915n 
+  attributes (4) : A1 C1 C7 C8 
+  parents concepts (4) : 166 211 242 415 
+  childs concepts (2) : 36 54 
+
+Concept (102) : 
+  level : 4
+  objects (3) : mathematics bn:00053823n units bn:00021497n require bn:00091028v 
+  attributes (4) : A1 A5 C7 C8 
+  parents concepts (4) : 210 211 337 438 
+  childs concepts (3) : 36 41 56 
+
+Concept (103) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n units bn:00021497n syntax bn:00062118n 
+  attributes (5) : A1 A2 A5 C1 C8 
+  parents concepts (4) : 165 166 251 355 
+  childs concepts (2) : 36 57 
+
+Concept (104) : 
+  level : 6
+  objects (3) : mathematics bn:00053823n time bn:00077270n semantics bn:00070404n 
+  attributes (6) : A2 A3 C1 C6 C7 C8 
+  parents concepts (4) : 146 159 167 168 
+  childs concepts (2) : 37 39 
+
+Concept (105) : 
+  level : 4
+  objects (3) : mathematics bn:00053823n time bn:00077270n require bn:00091028v 
+  attributes (5) : A3 A5 C6 C7 C8 
+  parents concepts (4) : 160 167 170 362 
+  childs concepts (3) : 37 41 60 
+
+Concept (106) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n time bn:00077270n definition bn:00025928n 
+  attributes (5) : A2 A3 A5 C1 C7 
+  parents concepts (4) : 237 245 291 372 
+  childs concepts (3) : 37 42 61 
+
+Concept (107) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n time bn:00077270n multiple bn:00107028a 
+  attributes (5) : A2 A5 C1 C6 C7 
+  parents concepts (4) : 168 169 215 372 
+  childs concepts (2) : 37 62 
+
+Concept (108) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n tool bn:00077585n definition bn:00025928n 
+  attributes (5) : A1 A2 A3 C1 C7 
+  parents concepts (4) : 245 293 308 319 
+  childs concepts (2) : 42 66 
+
+Concept (109) : 
+  level : 4
+  objects (3) : mathematics bn:00053823n triggering bn:00082306v require bn:00091028v 
+  attributes (4) : A1 A3 C7 C8 
+  parents concepts (4) : 211 250 285 408 
+  childs concepts (3) : 38 41 67 
+
+Concept (110) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n semantics bn:00070404n definition bn:00025928n 
+  attributes (5) : A2 A3 C1 C4 C7 
+  parents concepts (3) : 234 245 254 
+  childs concepts (2) : 39 42 
+
+Concept (111) : 
+  level : 5
+  objects (3) : mathematics bn:00053823n america bn:00003341n second bn:00095974a 
+  attributes (5) : A1 A2 A5 C6 C7 
+  parents concepts (4) : 171 215 235 399 
+  childs concepts (2) : 3 70 
+
+Concept (112) : 
+  level : 5
+  objects (3) : state machine bn:00212740n communication bn:00021221n orthogonality bn:00059586n 
+  attributes (5) : A1 A3 A5 C3 C8 
+  parents concepts (4) : 173 207 257 328 
+  childs concepts (1) : 45 
+
+Concept (113) : 
+  level : 6
+  objects (3) : state machine bn:00212740n units bn:00021497n output bn:00036821n 
+  attributes (6) : A1 A2 A5 C2 C3 C8 
+  parents concepts (3) : 172 217 218 
+  childs concepts (2) : 5 44 
+
+Concept (114) : 
+  level : 3
+  objects (3) : state machine bn:00212740n simulation bn:00021496n broadcast bn:00013234n 
+  attributes (3) : A1 A3 C5 
+  parents concepts (3) : 205 339 447 
+  childs concepts (2) : 9 46 
+
+Concept (115) : 
+  level : 4
+  objects (3) : state machine bn:00212740n set bn:00070697n concept bn:00021547n 
+  attributes (4) : A1 A3 A5 C2 
+  parents concepts (3) : 176 384 430 
+  childs concepts (2) : 48 63 
+
+Concept (116) : 
+  level : 4
+  objects (3) : state machine bn:00212740n output bn:00036821n semantics bn:00070404n 
+  attributes (4) : A2 C3 C4 C8 
+  parents concepts (3) : 141 161 258 
+  childs concepts (2) : 44 47 
+
+Concept (117) : 
+  level : 5
+  objects (3) : state machine bn:00212740n output bn:00036821n history bn:00044268n 
+  attributes (5) : A1 A2 A5 C2 C5 
+  parents concepts (4) : 149 177 219 374 
+  childs concepts (2) : 44 49 
+
+Concept (118) : 
+  level : 4
+  objects (3) : state machine bn:00212740n output bn:00036821n new york bn:00041611n 
+  attributes (4) : A1 C2 C3 C5 
+  parents concepts (3) : 177 216 220 
+  childs concepts (2) : 21 44 
+
+Concept (119) : 
+  level : 4
+  objects (3) : state machine bn:00212740n information bn:00046705n concept bn:00021547n 
+  attributes (4) : A1 A2 A3 C2 
+  parents concepts (4) : 150 176 391 396 
+  childs concepts (2) : 48 64 
+
+Concept (120) : 
+  level : 4
+  objects (3) : state machine bn:00212740n orthogonality bn:00059586n semantics bn:00070404n 
+  attributes (4) : A2 A3 C3 C8 
+  parents concepts (4) : 173 258 312 327 
+  childs concepts (2) : 45 47 
+
+Concept (121) : 
+  level : 5
+  objects (3) : state machine bn:00212740n history bn:00044268n second bn:00095974a 
+  attributes (5) : A1 A2 A5 C2 C6 
+  parents concepts (3) : 174 235 374 
+  childs concepts (2) : 19 49 
+
+Concept (122) : 
+  level : 6
+  objects (3) : diagrams bn:00026817n units bn:00021497n example bn:00032100n 
+  attributes (6) : A1 A2 A4 A5 C1 C3 
+  parents concepts (5) : 178 179 223 279 295 
+  childs concepts (1) : 50 
+
+Concept (123) : 
+  level : 6
+  objects (3) : diagrams bn:00026817n units bn:00021497n tool bn:00077585n 
+  attributes (6) : A1 A2 A4 C1 C3 C7 
+  parents concepts (5) : 178 180 224 239 299 
+  childs concepts (2) : 11 50 
+
+Concept (124) : 
+  level : 5
+  objects (3) : diagrams bn:00026817n units bn:00021497n new york bn:00041611n 
+  attributes (5) : A1 A4 C2 C3 C7 
+  parents concepts (3) : 216 334 358 
+  childs concepts (2) : 21 50 
+
+Concept (125) : 
+  level : 4
+  objects (3) : units bn:00021497n time bn:00077270n effect bn:00021961n 
+  attributes (4) : A2 A4 A5 C8 
+  parents concepts (4) : 225 248 338 439 
+  childs concepts (2) : 51 55 
+
+Concept (126) : 
+  level : 4
+  objects (3) : units bn:00021497n triggering bn:00082306v achieved bn:00082226v 
+  attributes (4) : A1 A2 A4 C8 
+  parents concepts (4) : 226 248 317 445 
+  childs concepts (1) : 52 
+
+Concept (127) : 
+  level : 4
+  objects (3) : units bn:00021497n semantics bn:00070404n syntax bn:00062118n 
+  attributes (4) : A2 C1 C3 C8 
+  parents concepts (3) : 243 258 267 
+  childs concepts (2) : 53 57 
+
+Concept (128) : 
+  level : 8
+  objects (3) : language bn:00049910n complex bn:00100148a possible bn:00108829a 
+  attributes (8) : A1 A2 A4 A5 C1 C2 C4 C7 
+  parents concepts (3) : 184 221 259 
+  childs concepts (1) : 0 
+
+Concept (129) : 
+  level : 3
+  objects (3) : behavior bn:00009657n light bn:00051108n new york bn:00041611n 
+  attributes (3) : A1 A4 C5 
+  parents concepts (3) : 153 339 460 
+  childs concepts (2) : 6 73 
+
+Concept (130) : 
+  level : 5
+  objects (3) : way bn:00033729n application bn:00005095n defined bn:00086465v 
+  attributes (5) : A3 A4 A5 C1 C3 
+  parents concepts (4) : 186 201 266 271 
+  childs concepts (1) : 72 
+
+Concept (131) : 
+  level : 5
+  objects (3) : time bn:00077270n require bn:00091028v current bn:00096401a 
+  attributes (5) : A4 A5 C6 C7 C8 
+  parents concepts (4) : 170 182 188 272 
+  childs concepts (1) : 60 
+
+Concept (132) : 
+  level : 4
+  objects (3) : set bn:00070697n information bn:00046705n concept bn:00021547n 
+  attributes (4) : A1 A3 C2 C7 
+  parents concepts (4) : 156 176 385 408 
+  childs concepts (2) : 63 64 
+
+Concept (133) : 
+  level : 6
+  objects (3) : tool bn:00077585n application bn:00005095n defined bn:00086465v 
+  attributes (6) : A1 A3 A4 C1 C3 C7 
+  parents concepts (5) : 186 189 203 224 230 
+  childs concepts (2) : 11 72 
+
+Concept (134) : 
+  level : 5
+  objects (3) : america bn:00003341n require bn:00091028v second bn:00095974a 
+  attributes (5) : A1 A4 A5 C6 C7 
+  parents concepts (4) : 171 197 272 411 
+  childs concepts (2) : 17 70 
+
+Concept (135) : 
+  level : 5
+  objects (4) : science bn:00069670n computer bn:00021464n mathematics bn:00053823n state machine bn:00212740n 
+  attributes (5) : A1 A3 A5 C4 C6 
+  parents concepts (4) : 191 192 231 232 
+  childs concepts (2) : 1 75 
+
+Concept (136) : 
+  level : 4
+  objects (4) : science bn:00069670n david harel bn:03178978n state machine bn:00212740n output bn:00036821n 
+  attributes (4) : A1 A5 C3 C4 
+  parents concepts (3) : 193 394 431 
+  childs concepts (2) : 74 76 
+
+Concept (137) : 
+  level : 3
+  objects (4) : science bn:00069670n david harel bn:03178978n state machine bn:00212740n semantics bn:00070404n 
+  attributes (3) : C3 C4 C6 
+  parents concepts (3) : 193 194 273 
+  childs concepts (2) : 74 77 
+
+Concept (138) : 
+  level : 4
+  objects (4) : science bn:00069670n david harel bn:03178978n state machine bn:00212740n america bn:00003341n 
+  attributes (4) : A1 A5 C3 C6 
+  parents concepts (3) : 194 345 431 
+  childs concepts (2) : 74 78 
+
+Concept (139) : 
+  level : 4
+  objects (4) : science bn:00069670n mathematics bn:00053823n state machine bn:00212740n time bn:00077270n 
+  attributes (4) : A2 A3 A5 C6 
+  parents concepts (4) : 195 274 329 376 
+  childs concepts (2) : 75 94 
+
+Concept (140) : 
+  level : 4
+  objects (4) : science bn:00069670n mathematics bn:00053823n state machine bn:00212740n semantics bn:00070404n 
+  attributes (4) : A2 A3 C4 C6 
+  parents concepts (3) : 192 195 234 
+  childs concepts (3) : 75 77 97 
+
+Concept (141) : 
+  level : 3
+  objects (4) : science bn:00069670n state machine bn:00212740n output bn:00036821n semantics bn:00070404n 
+  attributes (3) : A2 C3 C4 
+  parents concepts (3) : 193 377 426 
+  childs concepts (3) : 76 77 116 
+
+Concept (142) : 
+  level : 3
+  objects (4) : science bn:00069670n state machine bn:00212740n semantics bn:00070404n america bn:00003341n 
+  attributes (3) : A2 C3 C6 
+  parents concepts (3) : 194 348 426 
+  childs concepts (3) : 68 77 78 
+
+Concept (143) : 
+  level : 4
+  objects (4) : computer bn:00021464n time bn:00077270n number bn:00058285n require bn:00091028v 
+  attributes (4) : A3 A4 A5 C6 
+  parents concepts (3) : 274 307 397 
+  childs concepts (2) : 60 79 
+
+Concept (144) : 
+  level : 6
+  objects (4) : statecharts bn:01128895n concept bn:00021547n possibility bn:00045632n definition bn:00025928n 
+  attributes (6) : A1 A2 A3 A4 A5 C7 
+  parents concepts (6) : 198 202 241 282 311 363 
+  childs concepts (3) : 14 20 25 
+
+Concept (145) : 
+  level : 6
+  objects (4) : statecharts bn:01128895n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (6) : A1 A3 A4 A5 C3 C7 
+  parents concepts (5) : 201 203 280 311 328 
+  childs concepts (2) : 25 72 
+
+Concept (146) : 
+  level : 5
+  objects (4) : systems bn:15125301n mathematics bn:00053823n time bn:00077270n semantics bn:00070404n 
+  attributes (5) : A2 A3 C1 C7 C8 
+  parents concepts (3) : 204 244 245 
+  childs concepts (2) : 30 104 
+
+Concept (147) : 
+  level : 3
+  objects (4) : systems bn:15125301n state machine bn:00212740n problem bn:00048242n output bn:00036821n 
+  attributes (3) : A2 C5 C8 
+  parents concepts (2) : 313 412 
+  childs concepts (2) : 82 83 
+
+Concept (148) : 
+  level : 3
+  objects (4) : systems bn:15125301n state machine bn:00212740n problem bn:00048242n broadcast bn:00013234n 
+  attributes (3) : A2 A3 C5 
+  parents concepts (3) : 205 313 436 
+  childs concepts (2) : 46 82 
+
+Concept (149) : 
+  level : 3
+  objects (4) : systems bn:15125301n state machine bn:00212740n output bn:00036821n history bn:00044268n 
+  attributes (3) : A2 C2 C5 
+  parents concepts (3) : 247 313 422 
+  childs concepts (3) : 32 83 117 
+
+Concept (150) : 
+  level : 3
+  objects (4) : systems bn:15125301n state machine bn:00212740n information bn:00046705n concept bn:00021547n 
+  attributes (3) : A2 A3 C2 
+  parents concepts (3) : 206 422 436 
+  childs concepts (3) : 26 90 119 
+
+Concept (151) : 
+  level : 4
+  objects (4) : systems bn:15125301n units bn:00021497n time bn:00077270n triggering bn:00082306v 
+  attributes (4) : A2 A4 C7 C8 
+  parents concepts (4) : 248 283 288 443 
+  childs concepts (3) : 52 84 89 
+
+Concept (152) : 
+  level : 4
+  objects (4) : systems bn:15125301n units bn:00021497n time bn:00077270n c d bn:00016915n 
+  attributes (4) : A4 C1 C7 C8 
+  parents concepts (3) : 242 288 423 
+  childs concepts (2) : 54 84 
+
+Concept (153) : 
+  level : 2
+  objects (4) : systems bn:15125301n behavior bn:00009657n light bn:00051108n new york bn:00041611n 
+  attributes (2) : A4 C5 
+  parents concepts (2) : 401 466 
+  childs concepts (3) : 28 92 129 
+
+Concept (154) : 
+  level : 5
+  objects (4) : systems bn:15125301n time bn:00077270n tool bn:00077585n definition bn:00025928n 
+  attributes (5) : A2 A3 A4 C1 C7 
+  parents concepts (4) : 245 289 331 380 
+  childs concepts (3) : 30 61 66 
+
+Concept (155) : 
+  level : 4
+  objects (4) : systems bn:15125301n time bn:00077270n triggering bn:00082306v require bn:00091028v 
+  attributes (4) : A3 A4 C7 C8 
+  parents concepts (3) : 285 288 388 
+  childs concepts (3) : 60 67 89 
+
+Concept (156) : 
+  level : 3
+  objects (4) : systems bn:15125301n set bn:00070697n information bn:00046705n concept bn:00021547n 
+  attributes (3) : A3 C2 C7 
+  parents concepts (3) : 206 424 442 
+  childs concepts (3) : 31 90 132 
+
+Concept (157) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n state machine bn:00212740n complex system bn:03086504n time bn:00077270n 
+  attributes (4) : A2 A5 C6 C8 
+  parents concepts (4) : 208 252 329 338 
+  childs concepts (2) : 43 94 
+
+Concept (158) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n state machine bn:00212740n time bn:00077270n orthogonality bn:00059586n 
+  attributes (4) : A2 A3 A5 C8 
+  parents concepts (4) : 249 312 338 376 
+  childs concepts (2) : 94 96 
+
+Concept (159) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n state machine bn:00212740n time bn:00077270n semantics bn:00070404n 
+  attributes (4) : A2 A3 C6 C8 
+  parents concepts (4) : 195 208 209 312 
+  childs concepts (3) : 94 97 104 
+
+Concept (160) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n state machine bn:00212740n time bn:00077270n require bn:00091028v 
+  attributes (4) : A3 A5 C6 C8 
+  parents concepts (4) : 209 249 252 274 
+  childs concepts (3) : 94 98 105 
+
+Concept (161) : 
+  level : 3
+  objects (4) : mathematics bn:00053823n state machine bn:00212740n output bn:00036821n semantics bn:00070404n 
+  attributes (3) : A2 C4 C8 
+  parents concepts (3) : 253 377 412 
+  childs concepts (3) : 95 97 116 
+
+Concept (162) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n state machine bn:00212740n output bn:00036821n simultaneous bn:00099916a 
+  attributes (4) : A1 A5 C4 C8 
+  parents concepts (3) : 253 337 394 
+  childs concepts (1) : 95 
+
+Concept (163) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n state machine bn:00212740n triggering bn:00082306v orthogonality bn:00059586n 
+  attributes (4) : A1 A2 A3 C8 
+  parents concepts (4) : 250 312 317 396 
+  childs concepts (2) : 38 96 
+
+Concept (164) : 
+  level : 3
+  objects (4) : mathematics bn:00053823n state machine bn:00212740n semantics bn:00070404n summary bn:00075142n 
+  attributes (3) : C4 C6 C8 
+  parents concepts (3) : 253 273 318 
+  childs concepts (2) : 22 97 
+
+Concept (165) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n units bn:00021497n time bn:00077270n syntax bn:00062118n 
+  attributes (4) : A2 A5 C1 C8 
+  parents concepts (3) : 243 338 403 
+  childs concepts (2) : 99 103 
+
+Concept (166) : 
+  level : 3
+  objects (4) : mathematics bn:00053823n units bn:00021497n c d bn:00016915n syntax bn:00062118n 
+  attributes (3) : A1 C1 C8 
+  parents concepts (3) : 284 383 435 
+  childs concepts (2) : 101 103 
+
+Concept (167) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n time bn:00077270n semantics bn:00070404n require bn:00091028v 
+  attributes (4) : A3 C6 C7 C8 
+  parents concepts (3) : 209 214 285 
+  childs concepts (2) : 104 105 
+
+Concept (168) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n time bn:00077270n semantics bn:00070404n multiple bn:00107028a 
+  attributes (4) : A2 C1 C6 C7 
+  parents concepts (3) : 213 255 413 
+  childs concepts (2) : 104 107 
+
+Concept (169) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n time bn:00077270n history bn:00044268n multiple bn:00107028a 
+  attributes (4) : A2 A5 C1 C6 
+  parents concepts (3) : 213 329 403 
+  childs concepts (2) : 40 107 
+
+Concept (170) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n time bn:00077270n require bn:00091028v current bn:00096401a 
+  attributes (4) : A5 C6 C7 C8 
+  parents concepts (4) : 210 214 252 292 
+  childs concepts (2) : 105 131 
+
+Concept (171) : 
+  level : 4
+  objects (4) : mathematics bn:00053823n america bn:00003341n require bn:00091028v second bn:00095974a 
+  attributes (4) : A1 A5 C6 C7 
+  parents concepts (3) : 292 345 438 
+  childs concepts (3) : 41 111 134 
+
+Concept (172) : 
+  level : 5
+  objects (4) : state machine bn:00212740n diagrams bn:00026817n units bn:00021497n output bn:00036821n 
+  attributes (5) : A1 A2 A5 C2 C3 
+  parents concepts (3) : 216 374 406 
+  childs concepts (2) : 50 113 
+
+Concept (173) : 
+  level : 3
+  objects (4) : state machine bn:00212740n communication bn:00021221n orthogonality bn:00059586n semantics bn:00070404n 
+  attributes (3) : A3 C3 C8 
+  parents concepts (3) : 294 351 387 
+  childs concepts (2) : 112 120 
+
+Concept (174) : 
+  level : 4
+  objects (4) : state machine bn:00212740n complex system bn:03086504n history bn:00044268n second bn:00095974a 
+  attributes (4) : A2 A5 C2 C6 
+  parents concepts (2) : 329 405 
+  childs concepts (2) : 43 121 
+
+Concept (175) : 
+  level : 5
+  objects (4) : state machine bn:00212740n reactive systems bn:02824399n output bn:00036821n broadcast bn:00013234n 
+  attributes (5) : A1 A2 A5 C3 C5 
+  parents concepts (3) : 219 220 406 
+  childs concepts (3) : 7 44 46 
+
+Concept (176) : 
+  level : 3
+  objects (4) : state machine bn:00212740n set bn:00070697n information bn:00046705n concept bn:00021547n 
+  attributes (3) : A1 A3 C2 
+  parents concepts (3) : 206 420 447 
+  childs concepts (3) : 115 119 132 
+
+Concept (177) : 
+  level : 3
+  objects (4) : state machine bn:00212740n output bn:00036821n history bn:00044268n new york bn:00041611n 
+  attributes (3) : A1 C2 C5 
+  parents concepts (3) : 247 339 420 
+  childs concepts (2) : 117 118 
+
+Concept (178) : 
+  level : 5
+  objects (4) : diagrams bn:00026817n units bn:00021497n example bn:00032100n tool bn:00077585n 
+  attributes (5) : A1 A2 A4 C1 C3 
+  parents concepts (4) : 222 268 310 322 
+  childs concepts (2) : 122 123 
+
+Concept (179) : 
+  level : 5
+  objects (4) : diagrams bn:00026817n units bn:00021497n example bn:00032100n syntax bn:00062118n 
+  attributes (5) : A1 A2 A5 C1 C3 
+  parents concepts (4) : 222 269 355 406 
+  childs concepts (2) : 57 122 
+
+Concept (180) : 
+  level : 4
+  objects (4) : diagrams bn:00026817n units bn:00021497n tool bn:00077585n semantics bn:00070404n 
+  attributes (4) : A2 C1 C3 C7 
+  parents concepts (4) : 267 270 332 413 
+  childs concepts (3) : 53 65 123 
+
+Concept (181) : 
+  level : 6
+  objects (4) : diagrams bn:00026817n units bn:00021497n application bn:00005095n defined bn:00086465v 
+  attributes (6) : A1 A4 A5 C1 C3 C7 
+  parents concepts (4) : 223 224 280 342 
+  childs concepts (2) : 50 72 
+
+Concept (182) : 
+  level : 4
+  objects (4) : units bn:00021497n time bn:00077270n require bn:00091028v current bn:00096401a 
+  attributes (4) : A4 A5 C7 C8 
+  parents concepts (4) : 210 225 288 440 
+  childs concepts (3) : 51 56 131 
+
+Concept (183) : 
+  level : 4
+  objects (4) : units bn:00021497n triggering bn:00082306v c d bn:00016915n require bn:00091028v 
+  attributes (4) : A1 A4 C7 C8 
+  parents concepts (4) : 211 226 288 449 
+  childs concepts (4) : 52 54 56 67 
+
+Concept (184) : 
+  level : 7
+  objects (4) : language bn:00049910n complex bn:00100148a possible bn:00108829a definition bn:00025928n 
+  attributes (7) : A1 A2 A4 A5 C1 C4 C7 
+  parents concepts (3) : 212 227 264 
+  childs concepts (2) : 20 128 
+
+Concept (185) : 
+  level : 3
+  objects (4) : reactive systems bn:02824399n simulation bn:00021496n light bn:00051108n new york bn:00041611n 
+  attributes (3) : A1 C5 C7 
+  parents concepts (3) : 315 339 461 
+  childs concepts (3) : 9 58 73 
+
+Concept (186) : 
+  level : 4
+  objects (4) : way bn:00033729n tool bn:00077585n application bn:00005095n defined bn:00086465v 
+  attributes (4) : A3 A4 C1 C3 
+  parents concepts (4) : 228 240 302 316 
+  childs concepts (2) : 130 133 
+
+Concept (187) : 
+  level : 5
+  objects (4) : time bn:00077270n america bn:00003341n second bn:00095974a multiple bn:00107028a 
+  attributes (5) : A2 A4 A5 C6 C7 
+  parents concepts (3) : 215 272 410 
+  childs concepts (2) : 62 70 
+
+Concept (188) : 
+  level : 3
+  objects (4) : time bn:00077270n require bn:00091028v current bn:00096401a summary bn:00075142n 
+  attributes (3) : A4 C6 C8 
+  parents concepts (3) : 318 330 354 
+  childs concepts (2) : 22 131 
+
+Concept (189) : 
+  level : 4
+  objects (4) : tool bn:00077585n semantics bn:00070404n application bn:00005095n defined bn:00086465v 
+  attributes (4) : A3 C1 C3 C7 
+  parents concepts (4) : 228 270 277 352 
+  childs concepts (2) : 65 133 
+
+Concept (190) : 
+  level : 6
+  objects (4) : state transition bn:03348716n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (6) : A1 A3 A4 A5 C1 C7 
+  parents concepts (5) : 229 230 256 311 342 
+  childs concepts (2) : 20 72 
+
+Concept (191) : 
+  level : 4
+  objects (5) : science bn:00069670n computer bn:00021464n david harel bn:03178978n mathematics bn:00053823n state machine bn:00212740n 
+  attributes (4) : A1 A5 C4 C6 
+  parents concepts (3) : 273 345 394 
+  childs concepts (2) : 74 135 
+
+Concept (192) : 
+  level : 3
+  objects (5) : science bn:00069670n computer bn:00021464n mathematics bn:00053823n state machine bn:00212740n semantics bn:00070404n 
+  attributes (3) : A3 C4 C6 
+  parents concepts (3) : 273 305 306 
+  childs concepts (2) : 135 140 
+
+Concept (193) : 
+  level : 2
+  objects (5) : science bn:00069670n david harel bn:03178978n state machine bn:00212740n output bn:00036821n semantics bn:00070404n 
+  attributes (2) : C3 C4 
+  parents concepts (2) : 421 452 
+  childs concepts (3) : 136 137 141 
+
+Concept (194) : 
+  level : 2
+  objects (5) : science bn:00069670n david harel bn:03178978n state machine bn:00212740n semantics bn:00070404n america bn:00003341n 
+  attributes (2) : C3 C6 
+  parents concepts (2) : 425 452 
+  childs concepts (3) : 137 138 142 
+
+Concept (195) : 
+  level : 3
+  objects (5) : science bn:00069670n mathematics bn:00053823n state machine bn:00212740n time bn:00077270n semantics bn:00070404n 
+  attributes (3) : A2 A3 C6 
+  parents concepts (3) : 306 348 436 
+  childs concepts (3) : 139 140 159 
+
+Concept (196) : 
+  level : 5
+  objects (5) : science bn:00069670n mathematics bn:00053823n state machine bn:00212740n occurring bn:00085337v definition bn:00025928n 
+  attributes (5) : A1 A2 A3 A5 C4 
+  parents concepts (4) : 232 234 359 360 
+  childs concepts (3) : 42 69 75 
+
+Concept (197) : 
+  level : 4
+  objects (5) : computer bn:00021464n number bn:00058285n america bn:00003341n require bn:00091028v second bn:00095974a 
+  attributes (4) : A1 A4 A5 C6 
+  parents concepts (3) : 307 345 441 
+  childs concepts (2) : 79 134 
+
+Concept (198) : 
+  level : 5
+  objects (5) : statecharts bn:01128895n mathematics bn:00053823n concept bn:00021547n possibility bn:00045632n definition bn:00025928n 
+  attributes (5) : A1 A2 A3 A5 C7 
+  parents concepts (5) : 237 308 349 359 399 
+  childs concepts (2) : 42 144 
+
+Concept (199) : 
+  level : 4
+  objects (5) : statecharts bn:01128895n state bn:00023236n tool bn:00077585n semantics bn:00070404n possibility bn:00045632n 
+  attributes (4) : A2 A3 C3 C7 
+  parents concepts (4) : 277 327 332 398 
+  childs concepts (2) : 65 81 
+
+Concept (200) : 
+  level : 6
+  objects (5) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n america bn:00003341n possibility bn:00045632n 
+  attributes (6) : A1 A2 A4 A5 C3 C7 
+  parents concepts (5) : 238 239 279 280 363 
+  childs concepts (3) : 15 25 50 
+
+Concept (201) : 
+  level : 4
+  objects (5) : statecharts bn:01128895n way bn:00033729n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (4) : A3 A4 A5 C3 
+  parents concepts (4) : 240 346 350 397 
+  childs concepts (2) : 130 145 
+
+Concept (202) : 
+  level : 5
+  objects (5) : statecharts bn:01128895n time bn:00077270n concept bn:00021547n possibility bn:00045632n definition bn:00025928n 
+  attributes (5) : A2 A3 A4 A5 C7 
+  parents concepts (5) : 237 281 331 335 410 
+  childs concepts (2) : 61 144 
+
+Concept (203) : 
+  level : 5
+  objects (5) : statecharts bn:01128895n tool bn:00077585n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (5) : A1 A3 A4 C3 C7 
+  parents concepts (5) : 240 277 334 347 366 
+  childs concepts (3) : 81 133 145 
+
+Concept (204) : 
+  level : 4
+  objects (5) : systems bn:15125301n mathematics bn:00053823n units bn:00021497n time bn:00077270n semantics bn:00070404n 
+  attributes (4) : A2 C1 C7 C8 
+  parents concepts (4) : 242 243 283 413 
+  childs concepts (4) : 53 84 99 146 
+
+Concept (205) : 
+  level : 2
+  objects (5) : systems bn:15125301n state machine bn:00212740n problem bn:00048242n simulation bn:00021496n broadcast bn:00013234n 
+  attributes (2) : A3 C5 
+  parents concepts (2) : 401 463 
+  childs concepts (3) : 88 114 148 
+
+Concept (206) : 
+  level : 2
+  objects (5) : systems bn:15125301n state machine bn:00212740n set bn:00070697n information bn:00046705n concept bn:00021547n 
+  attributes (2) : A3 C2 
+  parents concepts (2) : 451 463 
+  childs concepts (3) : 150 156 176 
+
+Concept (207) : 
+  level : 4
+  objects (5) : mathematics bn:00053823n state machine bn:00212740n communication bn:00021221n orthogonality bn:00059586n require bn:00091028v 
+  attributes (4) : A1 A3 A5 C8 
+  parents concepts (4) : 249 250 337 430 
+  childs concepts (3) : 96 98 112 
+
+Concept (208) : 
+  level : 3
+  objects (5) : mathematics bn:00053823n state machine bn:00212740n complex system bn:03086504n time bn:00077270n semantics bn:00070404n 
+  attributes (3) : A2 C6 C8 
+  parents concepts (3) : 318 348 412 
+  childs concepts (2) : 157 159 
+
+Concept (209) : 
+  level : 3
+  objects (5) : mathematics bn:00053823n state machine bn:00212740n time bn:00077270n semantics bn:00070404n require bn:00091028v 
+  attributes (3) : A3 C6 C8 
+  parents concepts (3) : 306 318 351 
+  childs concepts (3) : 159 160 167 
+
+Concept (210) : 
+  level : 3
+  objects (5) : mathematics bn:00053823n units bn:00021497n time bn:00077270n require bn:00091028v current bn:00096401a 
+  attributes (3) : A5 C7 C8 
+  parents concepts (3) : 367 402 453 
+  childs concepts (4) : 99 102 170 182 
+
+Concept (211) : 
+  level : 3
+  objects (5) : mathematics bn:00053823n units bn:00021497n triggering bn:00082306v c d bn:00016915n require bn:00091028v 
+  attributes (3) : A1 C7 C8 
+  parents concepts (3) : 367 383 461 
+  childs concepts (5) : 100 101 102 109 183 
+
+Concept (212) : 
+  level : 6
+  objects (5) : mathematics bn:00053823n language bn:00049910n complex bn:00100148a possible bn:00108829a definition bn:00025928n 
+  attributes (6) : A1 A2 A5 C1 C4 C7 
+  parents concepts (3) : 254 290 360 
+  childs concepts (2) : 42 184 
+
+Concept (213) : 
+  level : 3
+  objects (5) : mathematics bn:00053823n time bn:00077270n semantics bn:00070404n history bn:00044268n multiple bn:00107028a 
+  attributes (3) : A2 C1 C6 
+  parents concepts (2) : 348 429 
+  childs concepts (2) : 168 169 
+
+Concept (214) : 
+  level : 3
+  objects (5) : mathematics bn:00053823n time bn:00077270n semantics bn:00070404n require bn:00091028v current bn:00096401a 
+  attributes (3) : C6 C7 C8 
+  parents concepts (3) : 318 321 367 
+  childs concepts (2) : 167 170 
+
+Concept (215) : 
+  level : 4
+  objects (5) : mathematics bn:00053823n time bn:00077270n america bn:00003341n second bn:00095974a multiple bn:00107028a 
+  attributes (4) : A2 A5 C6 C7 
+  parents concepts (4) : 255 292 329 428 
+  childs concepts (3) : 107 111 187 
+
+Concept (216) : 
+  level : 3
+  objects (5) : state machine bn:00212740n diagrams bn:00026817n units bn:00021497n output bn:00036821n new york bn:00041611n 
+  attributes (3) : A1 C2 C3 
+  parents concepts (2) : 420 444 
+  childs concepts (3) : 118 124 172 
+
+Concept (217) : 
+  level : 4
+  objects (5) : state machine bn:00212740n units bn:00021497n complex system bn:03086504n output bn:00036821n effect bn:00021961n 
+  attributes (4) : A2 A5 C2 C8 
+  parents concepts (3) : 246 338 405 
+  childs concepts (3) : 43 55 113 
+
+Concept (218) : 
+  level : 5
+  objects (5) : state machine bn:00212740n units bn:00021497n output bn:00036821n orthogonality bn:00059586n syntax bn:00062118n 
+  attributes (5) : A1 A2 A5 C3 C8 
+  parents concepts (4) : 251 257 258 406 
+  childs concepts (3) : 45 57 113 
+
+Concept (219) : 
+  level : 4
+  objects (5) : state machine bn:00212740n reactive systems bn:02824399n output bn:00036821n broadcast bn:00013234n history bn:00044268n 
+  attributes (4) : A1 A2 A5 C5 
+  parents concepts (3) : 260 261 454 
+  childs concepts (2) : 117 175 
+
+Concept (220) : 
+  level : 3
+  objects (5) : state machine bn:00212740n reactive systems bn:02824399n output bn:00036821n broadcast bn:00013234n new york bn:00041611n 
+  attributes (3) : A1 C3 C5 
+  parents concepts (2) : 339 444 
+  childs concepts (3) : 58 118 175 
+
+Concept (221) : 
+  level : 7
+  objects (5) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a 
+  attributes (7) : A1 A2 A4 A5 C1 C2 C7 
+  parents concepts (5) : 262 263 264 265 300 
+  childs concepts (2) : 50 128 
+
+Concept (222) : 
+  level : 4
+  objects (5) : diagrams bn:00026817n units bn:00021497n example bn:00032100n tool bn:00077585n syntax bn:00062118n 
+  attributes (4) : A1 A2 C1 C3 
+  parents concepts (4) : 267 304 371 417 
+  childs concepts (2) : 178 179 
+
+Concept (223) : 
+  level : 5
+  objects (5) : diagrams bn:00026817n units bn:00021497n example bn:00032100n application bn:00005095n defined bn:00086465v 
+  attributes (5) : A1 A4 A5 C1 C3 
+  parents concepts (5) : 266 268 269 333 356 
+  childs concepts (2) : 122 181 
+
+Concept (224) : 
+  level : 5
+  objects (5) : diagrams bn:00026817n units bn:00021497n tool bn:00077585n application bn:00005095n defined bn:00086465v 
+  attributes (5) : A1 A4 C1 C3 C7 
+  parents concepts (4) : 268 270 334 386 
+  childs concepts (3) : 123 133 181 
+
+Concept (225) : 
+  level : 3
+  objects (5) : units bn:00021497n time bn:00077270n effect bn:00021961n require bn:00091028v current bn:00096401a 
+  attributes (3) : A4 A5 C8 
+  parents concepts (3) : 354 402 455 
+  childs concepts (2) : 125 182 
+
+Concept (226) : 
+  level : 3
+  objects (5) : units bn:00021497n triggering bn:00082306v achieved bn:00082226v c d bn:00016915n require bn:00091028v 
+  attributes (3) : A1 A4 C8 
+  parents concepts (3) : 354 383 460 
+  childs concepts (2) : 126 183 
+
+Concept (227) : 
+  level : 5
+  objects (5) : language bn:00049910n complex bn:00100148a possible bn:00108829a occurring bn:00085337v definition bn:00025928n 
+  attributes (5) : A1 A2 A4 A5 C4 
+  parents concepts (3) : 236 360 409 
+  childs concepts (2) : 69 184 
+
+Concept (228) : 
+  level : 3
+  objects (5) : way bn:00033729n tool bn:00077585n semantics bn:00070404n application bn:00005095n defined bn:00086465v 
+  attributes (3) : A3 C1 C3 
+  parents concepts (3) : 344 368 387 
+  childs concepts (2) : 186 189 
+
+Concept (229) : 
+  level : 5
+  objects (5) : time bn:00077270n state transition bn:03348716n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (5) : A3 A4 A5 C1 C7 
+  parents concepts (5) : 271 289 291 335 393 
+  childs concepts (2) : 61 190 
+
+Concept (230) : 
+  level : 5
+  objects (5) : tool bn:00077585n state transition bn:03348716n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (5) : A1 A3 A4 C1 C7 
+  parents concepts (4) : 289 293 366 386 
+  childs concepts (3) : 66 133 190 
+
+Concept (231) : 
+  level : 4
+  objects (6) : science bn:00069670n computer bn:00021464n mathematics bn:00053823n state machine bn:00212740n number bn:00058285n require bn:00091028v 
+  attributes (4) : A1 A3 A5 C6 
+  parents concepts (3) : 274 345 430 
+  childs concepts (3) : 79 98 135 
+
+Concept (232) : 
+  level : 4
+  objects (6) : science bn:00069670n computer bn:00021464n mathematics bn:00053823n state machine bn:00212740n occurring bn:00085337v definition bn:00025928n 
+  attributes (4) : A1 A3 A5 C4 
+  parents concepts (3) : 305 394 430 
+  childs concepts (3) : 80 135 196 
+
+Concept (233) : 
+  level : 5
+  objects (6) : science bn:00069670n statecharts bn:01128895n state machine bn:00212740n orthogonality bn:00059586n broadcast bn:00013234n possibility bn:00045632n 
+  attributes (5) : A1 A2 A3 A5 C3 
+  parents concepts (4) : 275 328 359 406 
+  childs concepts (4) : 23 25 45 46 
+
+Concept (234) : 
+  level : 3
+  objects (6) : science bn:00069670n mathematics bn:00053823n state machine bn:00212740n semantics bn:00070404n occurring bn:00085337v definition bn:00025928n 
+  attributes (3) : A2 A3 C4 
+  parents concepts (3) : 305 377 436 
+  childs concepts (3) : 110 140 196 
+
+Concept (235) : 
+  level : 4
+  objects (6) : science bn:00069670n mathematics bn:00053823n state machine bn:00212740n america bn:00003341n history bn:00044268n second bn:00095974a 
+  attributes (4) : A1 A2 A5 C6 
+  parents concepts (3) : 329 345 454 
+  childs concepts (5) : 40 75 78 111 121 
+
+Concept (236) : 
+  level : 4
+  objects (6) : computer bn:00021464n language bn:00049910n complex bn:00100148a possible bn:00108829a occurring bn:00085337v definition bn:00025928n 
+  attributes (4) : A1 A4 A5 C4 
+  parents concepts (3) : 276 394 441 
+  childs concepts (2) : 80 227 
+
+Concept (237) : 
+  level : 4
+  objects (6) : statecharts bn:01128895n mathematics bn:00053823n time bn:00077270n concept bn:00021547n possibility bn:00045632n definition bn:00025928n 
+  attributes (4) : A2 A3 A5 C7 
+  parents concepts (4) : 362 376 398 428 
+  childs concepts (3) : 106 198 202 
+
+Concept (238) : 
+  level : 5
+  objects (6) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n reactive systems bn:02824399n america bn:00003341n possibility bn:00045632n 
+  attributes (5) : A1 A2 A5 C3 C7 
+  parents concepts (4) : 278 309 399 406 
+  childs concepts (2) : 7 200 
+
+Concept (239) : 
+  level : 5
+  objects (6) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n tool bn:00077585n america bn:00003341n possibility bn:00045632n 
+  attributes (5) : A1 A2 A4 C3 C7 
+  parents concepts (4) : 278 310 334 418 
+  childs concepts (3) : 81 123 200 
+
+Concept (240) : 
+  level : 3
+  objects (6) : statecharts bn:01128895n way bn:00033729n tool bn:00077585n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (3) : A3 A4 C3 
+  parents concepts (3) : 379 387 427 
+  childs concepts (3) : 186 201 203 
+
+Concept (241) : 
+  level : 5
+  objects (6) : statecharts bn:01128895n nature bn:00057017n concept bn:00021547n occurring bn:00085337v possibility bn:00045632n definition bn:00025928n 
+  attributes (5) : A1 A2 A3 A4 A5 
+  parents concepts (5) : 281 336 359 378 409 
+  childs concepts (2) : 69 144 
+
+Concept (242) : 
+  level : 3
+  objects (6) : systems bn:15125301n mathematics bn:00053823n units bn:00021497n time bn:00077270n semantics bn:00070404n c d bn:00016915n 
+  attributes (3) : C1 C7 C8 
+  parents concepts (3) : 284 367 446 
+  childs concepts (3) : 101 152 204 
+
+Concept (243) : 
+  level : 3
+  objects (6) : systems bn:15125301n mathematics bn:00053823n units bn:00021497n time bn:00077270n semantics bn:00070404n syntax bn:00062118n 
+  attributes (3) : A2 C1 C8 
+  parents concepts (3) : 284 412 429 
+  childs concepts (3) : 127 165 204 
+
+Concept (244) : 
+  level : 4
+  objects (6) : systems bn:15125301n mathematics bn:00053823n problem bn:00048242n time bn:00077270n triggering bn:00082306v semantics bn:00070404n 
+  attributes (4) : A2 A3 C7 C8 
+  parents concepts (4) : 283 285 312 398 
+  childs concepts (4) : 29 38 89 146 
+
+Concept (245) : 
+  level : 4
+  objects (6) : systems bn:15125301n mathematics bn:00053823n time bn:00077270n tool bn:00077585n semantics bn:00070404n definition bn:00025928n 
+  attributes (4) : A2 A3 C1 C7 
+  parents concepts (3) : 352 398 413 
+  childs concepts (6) : 65 106 108 110 146 154 
+
+Concept (246) : 
+  level : 3
+  objects (6) : systems bn:15125301n state machine bn:00212740n units bn:00021497n complex system bn:03086504n output bn:00036821n effect bn:00021961n 
+  attributes (3) : A2 C2 C8 
+  parents concepts (3) : 286 412 422 
+  childs concepts (3) : 83 85 217 
+
+Concept (247) : 
+  level : 2
+  objects (6) : systems bn:15125301n state machine bn:00212740n output bn:00036821n history bn:00044268n new york bn:00041611n simple bn:00098053a 
+  attributes (2) : C2 C5 
+  parents concepts (2) : 401 451 
+  childs concepts (3) : 93 149 177 
+
+Concept (248) : 
+  level : 3
+  objects (6) : systems bn:15125301n units bn:00021497n time bn:00077270n triggering bn:00082306v achieved bn:00082226v effect bn:00021961n 
+  attributes (3) : A2 A4 C8 
+  parents concepts (3) : 354 412 457 
+  childs concepts (4) : 85 125 126 151 
+
+Concept (249) : 
+  level : 3
+  objects (6) : mathematics bn:00053823n state machine bn:00212740n communication bn:00021221n time bn:00077270n orthogonality bn:00059586n require bn:00091028v 
+  attributes (3) : A3 A5 C8 
+  parents concepts (3) : 351 402 448 
+  childs concepts (3) : 158 160 207 
+
+Concept (250) : 
+  level : 3
+  objects (6) : mathematics bn:00053823n state machine bn:00212740n communication bn:00021221n triggering bn:00082306v orthogonality bn:00059586n require bn:00091028v 
+  attributes (3) : A1 A3 C8 
+  parents concepts (3) : 351 383 447 
+  childs concepts (3) : 109 163 207 
+
+Concept (251) : 
+  level : 4
+  objects (6) : mathematics bn:00053823n state machine bn:00212740n units bn:00021497n output bn:00036821n orthogonality bn:00059586n syntax bn:00062118n 
+  attributes (4) : A1 A2 A5 C8 
+  parents concepts (4) : 317 337 338 454 
+  childs concepts (4) : 95 96 103 218 
+
+Concept (252) : 
+  level : 3
+  objects (6) : mathematics bn:00053823n state machine bn:00212740n complex system bn:03086504n time bn:00077270n require bn:00091028v current bn:00096401a 
+  attributes (3) : A5 C6 C8 
+  parents concepts (3) : 318 395 402 
+  childs concepts (3) : 157 160 170 
+
+Concept (253) : 
+  level : 2
+  objects (6) : mathematics bn:00053823n state machine bn:00212740n output bn:00036821n semantics bn:00070404n simultaneous bn:00099916a summary bn:00075142n 
+  attributes (2) : C4 C8 
+  parents concepts (2) : 421 450 
+  childs concepts (3) : 161 162 164 
+
+Concept (254) : 
+  level : 4
+  objects (6) : mathematics bn:00053823n language bn:00049910n complex bn:00100148a possible bn:00108829a semantics bn:00070404n definition bn:00025928n 
+  attributes (4) : A2 C1 C4 C7 
+  parents concepts (2) : 377 413 
+  childs concepts (2) : 110 212 
+
+Concept (255) : 
+  level : 3
+  objects (6) : mathematics bn:00053823n time bn:00077270n semantics bn:00070404n america bn:00003341n second bn:00095974a multiple bn:00107028a 
+  attributes (3) : A2 C6 C7 
+  parents concepts (3) : 321 348 456 
+  childs concepts (3) : 68 168 215 
+
+Concept (256) : 
+  level : 5
+  objects (6) : mathematics bn:00053823n set bn:00070697n state transition bn:03348716n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (5) : A1 A3 A5 C1 C7 
+  parents concepts (4) : 291 293 349 373 
+  childs concepts (3) : 10 42 190 
+
+Concept (257) : 
+  level : 4
+  objects (6) : state machine bn:00212740n communication bn:00021221n units bn:00021497n output bn:00036821n orthogonality bn:00059586n syntax bn:00062118n 
+  attributes (4) : A1 A5 C3 C8 
+  parents concepts (3) : 294 337 431 
+  childs concepts (2) : 112 218 
+
+Concept (258) : 
+  level : 3
+  objects (6) : state machine bn:00212740n units bn:00021497n output bn:00036821n orthogonality bn:00059586n semantics bn:00070404n syntax bn:00062118n 
+  attributes (3) : A2 C3 C8 
+  parents concepts (3) : 294 412 426 
+  childs concepts (4) : 116 120 127 218 
+
+Concept (259) : 
+  level : 5
+  objects (6) : state machine bn:00212740n language bn:00049910n complex bn:00100148a output bn:00036821n possible bn:00108829a substates bn:00964536n 
+  attributes (5) : A1 A2 A5 C2 C4 
+  parents concepts (2) : 360 374 
+  childs concepts (2) : 44 128 
+
+Concept (260) : 
+  level : 3
+  objects (6) : state machine bn:00212740n behavior bn:00009657n reactive systems bn:02824399n output bn:00036821n broadcast bn:00013234n history bn:00044268n 
+  attributes (3) : A1 A2 C5 
+  parents concepts (3) : 313 339 464 
+  childs concepts (2) : 6 219 
+
+Concept (261) : 
+  level : 2
+  objects (6) : state machine bn:00212740n reactive systems bn:02824399n output bn:00036821n broadcast bn:00013234n history bn:00044268n stateflow bn:03369007n 
+  attributes (2) : A5 C5 
+  parents concepts (2) : 401 468 
+  childs concepts (2) : 59 219 
+
+Concept (262) : 
+  level : 5
+  objects (6) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n possible bn:00108829a 
+  attributes (5) : A1 A5 C1 C2 C7 
+  parents concepts (5) : 296 297 298 324 373 
+  childs concepts (2) : 10 221 
+
+Concept (263) : 
+  level : 5
+  objects (6) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a history bn:00044268n 
+  attributes (5) : A1 A2 A5 C1 C2 
+  parents concepts (4) : 297 301 355 374 
+  childs concepts (2) : 16 221 
+
+Concept (264) : 
+  level : 6
+  objects (6) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a definition bn:00025928n 
+  attributes (6) : A1 A2 A4 A5 C1 C7 
+  parents concepts (6) : 290 295 299 342 357 363 
+  childs concepts (2) : 184 221 
+
+Concept (265) : 
+  level : 6
+  objects (6) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a types bn:00016413n 
+  attributes (6) : A2 A4 A5 C1 C2 C7 
+  parents concepts (5) : 287 298 301 326 357 
+  childs concepts (1) : 221 
+
+Concept (266) : 
+  level : 4
+  objects (6) : diagrams bn:00026817n units bn:00021497n example bn:00032100n way bn:00033729n application bn:00005095n defined bn:00086465v 
+  attributes (4) : A4 A5 C1 C3 
+  parents concepts (4) : 302 303 350 416 
+  childs concepts (2) : 130 223 
+
+Concept (267) : 
+  level : 3
+  objects (6) : diagrams bn:00026817n units bn:00021497n example bn:00032100n tool bn:00077585n semantics bn:00070404n syntax bn:00062118n 
+  attributes (3) : A2 C1 C3 
+  parents concepts (3) : 344 426 429 
+  childs concepts (3) : 127 180 222 
+
+Concept (268) : 
+  level : 4
+  objects (6) : diagrams bn:00026817n units bn:00021497n example bn:00032100n tool bn:00077585n application bn:00005095n defined bn:00086465v 
+  attributes (4) : A1 A4 C1 C3 
+  parents concepts (4) : 302 304 365 392 
+  childs concepts (3) : 178 223 224 
+
+Concept (269) : 
+  level : 4
+  objects (6) : diagrams bn:00026817n units bn:00021497n example bn:00032100n application bn:00005095n syntax bn:00062118n defined bn:00086465v 
+  attributes (4) : A1 A5 C1 C3 
+  parents concepts (4) : 303 304 404 431 
+  childs concepts (2) : 179 223 
+
+Concept (270) : 
+  level : 3
+  objects (6) : diagrams bn:00026817n units bn:00021497n tool bn:00077585n semantics bn:00070404n application bn:00005095n defined bn:00086465v 
+  attributes (3) : C1 C3 C7 
+  parents concepts (3) : 344 400 446 
+  childs concepts (3) : 180 189 224 
+
+Concept (271) : 
+  level : 4
+  objects (6) : way bn:00033729n time bn:00077270n state transition bn:03348716n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A3 A4 A5 C1 
+  parents concepts (4) : 316 320 397 416 
+  childs concepts (2) : 130 229 
+
+Concept (272) : 
+  level : 4
+  objects (6) : time bn:00077270n america bn:00003341n require bn:00091028v second bn:00095974a multiple bn:00107028a current bn:00096401a 
+  attributes (4) : A4 A5 C6 C7 
+  parents concepts (3) : 292 307 440 
+  childs concepts (3) : 131 134 187 
+
+Concept (273) : 
+  level : 2
+  objects (7) : science bn:00069670n computer bn:00021464n david harel bn:03178978n mathematics bn:00053823n state machine bn:00212740n semantics bn:00070404n summary bn:00075142n 
+  attributes (2) : C4 C6 
+  parents concepts (2) : 421 425 
+  childs concepts (5) : 24 137 164 191 192 
+
+Concept (274) : 
+  level : 3
+  objects (7) : science bn:00069670n computer bn:00021464n mathematics bn:00053823n state machine bn:00212740n time bn:00077270n number bn:00058285n require bn:00091028v 
+  attributes (3) : A3 A5 C6 
+  parents concepts (3) : 306 395 448 
+  childs concepts (4) : 139 143 160 231 
+
+Concept (275) : 
+  level : 4
+  objects (7) : science bn:00069670n statecharts bn:01128895n state machine bn:00212740n tool bn:00077585n orthogonality bn:00059586n broadcast bn:00013234n possibility bn:00045632n 
+  attributes (4) : A1 A2 A3 C3 
+  parents concepts (4) : 327 347 396 417 
+  childs concepts (2) : 81 233 
+
+Concept (276) : 
+  level : 2
+  objects (7) : computer bn:00021464n language bn:00049910n complex bn:00100148a possible bn:00108829a occurring bn:00085337v definition bn:00025928n summary bn:00075142n 
+  attributes (2) : A4 C4 
+  parents concepts (2) : 421 466 
+  childs concepts (2) : 24 236 
+
+Concept (277) : 
+  level : 3
+  objects (7) : statecharts bn:01128895n state bn:00023236n tool bn:00077585n semantics bn:00070404n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (3) : A3 C3 C7 
+  parents concepts (3) : 387 400 442 
+  childs concepts (3) : 189 199 203 
+
+Concept (278) : 
+  level : 4
+  objects (7) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n reactive systems bn:02824399n tool bn:00077585n america bn:00003341n possibility bn:00045632n 
+  attributes (4) : A1 A2 C3 C7 
+  parents concepts (4) : 332 364 417 432 
+  childs concepts (2) : 238 239 
+
+Concept (279) : 
+  level : 5
+  objects (7) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n example bn:00032100n america bn:00003341n automata bn:00007371n possibility bn:00045632n 
+  attributes (5) : A1 A2 A4 A5 C3 
+  parents concepts (4) : 310 333 406 409 
+  childs concepts (2) : 122 200 
+
+Concept (280) : 
+  level : 5
+  objects (7) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n america bn:00003341n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (5) : A1 A4 A5 C3 C7 
+  parents concepts (4) : 309 333 334 411 
+  childs concepts (3) : 145 181 200 
+
+Concept (281) : 
+  level : 4
+  objects (7) : statecharts bn:01128895n time bn:00077270n nature bn:00057017n concept bn:00021547n occurring bn:00085337v possibility bn:00045632n definition bn:00025928n 
+  attributes (4) : A2 A3 A4 A5 
+  parents concepts (4) : 361 376 397 439 
+  childs concepts (2) : 202 241 
+
+Concept (282) : 
+  level : 5
+  objects (7) : statecharts bn:01128895n information bn:00046705n tool bn:00077585n triggering bn:00082306v concept bn:00021547n possibility bn:00045632n definition bn:00025928n 
+  attributes (5) : A1 A2 A3 A4 C7 
+  parents concepts (5) : 308 331 336 366 418 
+  childs concepts (5) : 12 64 66 81 144 
+
+Concept (283) : 
+  level : 3
+  objects (7) : systems bn:15125301n mathematics bn:00053823n units bn:00021497n problem bn:00048242n time bn:00077270n triggering bn:00082306v semantics bn:00070404n 
+  attributes (3) : A2 C7 C8 
+  parents concepts (3) : 367 412 456 
+  childs concepts (4) : 100 151 204 244 
+
+Concept (284) : 
+  level : 2
+  objects (7) : systems bn:15125301n mathematics bn:00053823n units bn:00021497n time bn:00077270n semantics bn:00070404n c d bn:00016915n syntax bn:00062118n 
+  attributes (2) : C1 C8 
+  parents concepts (2) : 450 458 
+  childs concepts (3) : 166 242 243 
+
+Concept (285) : 
+  level : 3
+  objects (7) : systems bn:15125301n mathematics bn:00053823n problem bn:00048242n time bn:00077270n triggering bn:00082306v semantics bn:00070404n require bn:00091028v 
+  attributes (3) : A3 C7 C8 
+  parents concepts (3) : 351 367 442 
+  childs concepts (4) : 109 155 167 244 
+
+Concept (286) : 
+  level : 2
+  objects (7) : systems bn:15125301n state machine bn:00212740n units bn:00021497n complex system bn:03086504n output bn:00036821n effect bn:00021961n interaction diagram bn:02571962n 
+  attributes (2) : C2 C8 
+  parents concepts (2) : 450 451 
+  childs concepts (2) : 86 246 
+
+Concept (287) : 
+  level : 5
+  objects (7) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a types bn:00016413n 
+  attributes (5) : A2 A4 C1 C2 C7 
+  parents concepts (4) : 314 353 370 380 
+  childs concepts (2) : 27 265 
+
+Concept (288) : 
+  level : 3
+  objects (7) : systems bn:15125301n units bn:00021497n time bn:00077270n triggering bn:00082306v c d bn:00016915n require bn:00091028v current bn:00096401a 
+  attributes (3) : A4 C7 C8 
+  parents concepts (3) : 354 367 459 
+  childs concepts (5) : 151 152 155 182 183 
+
+Concept (289) : 
+  level : 4
+  objects (7) : systems bn:15125301n time bn:00077270n tool bn:00077585n state transition bn:03348716n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A3 A4 C1 C7 
+  parents concepts (4) : 316 352 388 423 
+  childs concepts (3) : 154 229 230 
+
+Concept (290) : 
+  level : 5
+  objects (7) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a definition bn:00025928n 
+  attributes (5) : A1 A2 A5 C1 C7 
+  parents concepts (5) : 319 355 372 373 399 
+  childs concepts (3) : 36 212 264 
+
+Concept (291) : 
+  level : 4
+  objects (7) : mathematics bn:00053823n time bn:00077270n set bn:00070697n state transition bn:03348716n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A3 A5 C1 C7 
+  parents concepts (4) : 320 352 362 414 
+  childs concepts (3) : 106 229 256 
+
+Concept (292) : 
+  level : 3
+  objects (7) : mathematics bn:00053823n time bn:00077270n america bn:00003341n require bn:00091028v second bn:00095974a multiple bn:00107028a current bn:00096401a 
+  attributes (3) : A5 C6 C7 
+  parents concepts (3) : 321 395 453 
+  childs concepts (4) : 170 171 215 272 
+
+Concept (293) : 
+  level : 4
+  objects (7) : mathematics bn:00053823n set bn:00070697n tool bn:00077585n state transition bn:03348716n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A1 A3 C1 C7 
+  parents concepts (3) : 352 408 415 
+  childs concepts (3) : 108 230 256 
+
+Concept (294) : 
+  level : 2
+  objects (7) : state machine bn:00212740n communication bn:00021221n units bn:00021497n output bn:00036821n orthogonality bn:00059586n semantics bn:00070404n syntax bn:00062118n 
+  attributes (2) : C3 C8 
+  parents concepts (2) : 450 452 
+  childs concepts (3) : 173 257 258 
+
+Concept (295) : 
+  level : 5
+  objects (7) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n possible bn:00108829a definition bn:00025928n 
+  attributes (5) : A1 A2 A4 A5 C1 
+  parents concepts (5) : 322 355 356 375 409 
+  childs concepts (2) : 122 264 
+
+Concept (296) : 
+  level : 4
+  objects (7) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n hierarchical bn:00104156a possible bn:00108829a 
+  attributes (4) : A1 C1 C2 C7 
+  parents concepts (4) : 323 353 385 415 
+  childs concepts (1) : 262 
+
+Concept (297) : 
+  level : 4
+  objects (7) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n possible bn:00108829a history bn:00044268n 
+  attributes (4) : A1 A5 C1 C2 
+  parents concepts (4) : 323 325 384 404 
+  childs concepts (2) : 262 263 
+
+Concept (298) : 
+  level : 4
+  objects (7) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n possible bn:00108829a types bn:00016413n 
+  attributes (4) : A5 C1 C2 C7 
+  parents concepts (4) : 325 340 353 414 
+  childs concepts (2) : 262 265 
+
+Concept (299) : 
+  level : 5
+  objects (7) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a tool bn:00077585n possible bn:00108829a definition bn:00025928n 
+  attributes (5) : A1 A2 A4 C1 C7 
+  parents concepts (5) : 319 322 380 386 418 
+  childs concepts (3) : 66 123 264 
+
+Concept (300) : 
+  level : 6
+  objects (7) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a concept bn:00021547n second bn:00095974a 
+  attributes (6) : A1 A2 A4 A5 C2 C7 
+  parents concepts (5) : 324 326 341 363 374 
+  childs concepts (3) : 14 19 221 
+
+Concept (301) : 
+  level : 4
+  objects (7) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a history bn:00044268n types bn:00016413n 
+  attributes (4) : A2 A5 C1 C2 
+  parents concepts (4) : 314 325 403 405 
+  childs concepts (2) : 263 265 
+
+Concept (302) : 
+  level : 3
+  objects (7) : diagrams bn:00026817n units bn:00021497n example bn:00032100n way bn:00033729n tool bn:00077585n application bn:00005095n defined bn:00086465v 
+  attributes (3) : A4 C1 C3 
+  parents concepts (3) : 344 379 433 
+  childs concepts (3) : 186 266 268 
+
+Concept (303) : 
+  level : 3
+  objects (7) : diagrams bn:00026817n units bn:00021497n example bn:00032100n way bn:00033729n application bn:00005095n syntax bn:00062118n defined bn:00086465v 
+  attributes (3) : A5 C1 C3 
+  parents concepts (3) : 344 434 437 
+  childs concepts (2) : 266 269 
+
+Concept (304) : 
+  level : 3
+  objects (7) : diagrams bn:00026817n units bn:00021497n example bn:00032100n tool bn:00077585n application bn:00005095n syntax bn:00062118n defined bn:00086465v 
+  attributes (3) : A1 C1 C3 
+  parents concepts (3) : 344 435 444 
+  childs concepts (3) : 222 268 269 
+
+Concept (305) : 
+  level : 2
+  objects (8) : science bn:00069670n computer bn:00021464n mathematics bn:00053823n state machine bn:00212740n kind bn:00035907n semantics bn:00070404n occurring bn:00085337v definition bn:00025928n 
+  attributes (2) : A3 C4 
+  parents concepts (2) : 421 463 
+  childs concepts (3) : 192 232 234 
+
+Concept (306) : 
+  level : 2
+  objects (8) : science bn:00069670n computer bn:00021464n mathematics bn:00053823n state machine bn:00212740n time bn:00077270n number bn:00058285n semantics bn:00070404n require bn:00091028v 
+  attributes (2) : A3 C6 
+  parents concepts (2) : 425 463 
+  childs concepts (4) : 192 195 209 274 
+
+Concept (307) : 
+  level : 3
+  objects (8) : computer bn:00021464n time bn:00077270n number bn:00058285n america bn:00003341n require bn:00091028v second bn:00095974a multiple bn:00107028a current bn:00096401a 
+  attributes (3) : A4 A5 C6 
+  parents concepts (3) : 330 395 455 
+  childs concepts (3) : 143 197 272 
+
+Concept (308) : 
+  level : 4
+  objects (8) : statecharts bn:01128895n mathematics bn:00053823n information bn:00046705n tool bn:00077585n triggering bn:00082306v concept bn:00021547n possibility bn:00045632n definition bn:00025928n 
+  attributes (4) : A1 A2 A3 C7 
+  parents concepts (4) : 396 398 408 432 
+  childs concepts (4) : 38 108 198 282 
+
+Concept (309) : 
+  level : 4
+  objects (8) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n reactive systems bn:02824399n america bn:00003341n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (4) : A1 A5 C3 C7 
+  parents concepts (3) : 364 431 438 
+  childs concepts (2) : 238 280 
+
+Concept (310) : 
+  level : 4
+  objects (8) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n example bn:00032100n tool bn:00077585n america bn:00003341n automata bn:00007371n possibility bn:00045632n 
+  attributes (4) : A1 A2 A4 C3 
+  parents concepts (3) : 365 417 445 
+  childs concepts (3) : 178 239 279 
+
+Concept (311) : 
+  level : 5
+  objects (8) : statecharts bn:01128895n state transition bn:03348716n concept bn:00021547n require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (5) : A1 A3 A4 A5 C7 
+  parents concepts (5) : 335 349 366 378 411 
+  childs concepts (4) : 17 144 145 190 
+
+Concept (312) : 
+  level : 3
+  objects (8) : systems bn:15125301n mathematics bn:00053823n state machine bn:00212740n problem bn:00048242n time bn:00077270n triggering bn:00082306v orthogonality bn:00059586n semantics bn:00070404n 
+  attributes (3) : A2 A3 C8 
+  parents concepts (3) : 351 412 436 
+  childs concepts (6) : 82 120 158 159 163 244 
+
+Concept (313) : 
+  level : 2
+  objects (8) : systems bn:15125301n state machine bn:00212740n behavior bn:00009657n problem bn:00048242n reactive systems bn:02824399n output bn:00036821n broadcast bn:00013234n history bn:00044268n 
+  attributes (2) : A2 C5 
+  parents concepts (2) : 401 467 
+  childs concepts (6) : 28 87 147 148 149 260 
+
+Concept (314) : 
+  level : 3
+  objects (8) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a history bn:00044268n types bn:00016413n 
+  attributes (3) : A2 C1 C2 
+  parents concepts (3) : 369 422 429 
+  childs concepts (3) : 32 287 301 
+
+Concept (315) : 
+  level : 2
+  objects (8) : systems bn:15125301n problem bn:00048242n reactive systems bn:02824399n simulation bn:00021496n light bn:00051108n new york bn:00041611n stateflow bn:03369007n simple bn:00098053a 
+  attributes (2) : C5 C7 
+  parents concepts (2) : 401 469 
+  childs concepts (6) : 59 87 88 92 93 185 
+
+Concept (316) : 
+  level : 3
+  objects (8) : systems bn:15125301n way bn:00033729n time bn:00077270n tool bn:00077585n state transition bn:03348716n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A3 A4 C1 
+  parents concepts (3) : 368 427 433 
+  childs concepts (3) : 186 271 289 
+
+Concept (317) : 
+  level : 3
+  objects (8) : mathematics bn:00053823n state machine bn:00212740n units bn:00021497n output bn:00036821n triggering bn:00082306v orthogonality bn:00059586n achieved bn:00082226v syntax bn:00062118n 
+  attributes (3) : A1 A2 C8 
+  parents concepts (3) : 383 412 464 
+  childs concepts (4) : 100 126 163 251 
+
+Concept (318) : 
+  level : 2
+  objects (8) : mathematics bn:00053823n state machine bn:00212740n complex system bn:03086504n time bn:00077270n semantics bn:00070404n require bn:00091028v current bn:00096401a summary bn:00075142n 
+  attributes (2) : C6 C8 
+  parents concepts (2) : 425 450 
+  childs concepts (6) : 164 188 208 209 214 252 
+
+Concept (319) : 
+  level : 4
+  objects (8) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a tool bn:00077585n possible bn:00108829a definition bn:00025928n 
+  attributes (4) : A1 A2 C1 C7 
+  parents concepts (4) : 371 413 415 432 
+  childs concepts (3) : 108 290 299 
+
+Concept (320) : 
+  level : 3
+  objects (8) : mathematics bn:00053823n way bn:00033729n time bn:00077270n set bn:00070697n state transition bn:03348716n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A3 A5 C1 
+  parents concepts (3) : 368 434 448 
+  childs concepts (2) : 271 291 
+
+Concept (321) : 
+  level : 2
+  objects (8) : mathematics bn:00053823n time bn:00077270n semantics bn:00070404n america bn:00003341n require bn:00091028v second bn:00095974a multiple bn:00107028a current bn:00096401a 
+  attributes (2) : C6 C7 
+  parents concepts (2) : 425 469 
+  childs concepts (3) : 214 255 292 
+
+Concept (322) : 
+  level : 4
+  objects (8) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n tool bn:00077585n possible bn:00108829a definition bn:00025928n 
+  attributes (4) : A1 A2 A4 C1 
+  parents concepts (4) : 371 389 392 445 
+  childs concepts (3) : 178 295 299 
+
+Concept (323) : 
+  level : 3
+  objects (8) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n hierarchical bn:00104156a possible bn:00108829a history bn:00044268n 
+  attributes (3) : A1 C1 C2 
+  parents concepts (3) : 369 420 435 
+  childs concepts (2) : 296 297 
+
+Concept (324) : 
+  level : 4
+  objects (8) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n possible bn:00108829a concept bn:00021547n second bn:00095974a 
+  attributes (4) : A1 A5 C2 C7 
+  parents concepts (4) : 340 384 385 438 
+  childs concepts (3) : 63 262 300 
+
+Concept (325) : 
+  level : 3
+  objects (8) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n possible bn:00108829a history bn:00044268n types bn:00016413n 
+  attributes (3) : A5 C1 C2 
+  parents concepts (3) : 369 419 434 
+  childs concepts (3) : 297 298 301 
+
+Concept (326) : 
+  level : 5
+  objects (8) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a concept bn:00021547n second bn:00095974a types bn:00016413n 
+  attributes (5) : A2 A4 A5 C2 C7 
+  parents concepts (4) : 340 343 370 410 
+  childs concepts (2) : 265 300 
+
+Concept (327) : 
+  level : 3
+  objects (9) : science bn:00069670n statecharts bn:01128895n state bn:00023236n state machine bn:00212740n tool bn:00077585n orthogonality bn:00059586n broadcast bn:00013234n semantics bn:00070404n possibility bn:00045632n 
+  attributes (3) : A2 A3 C3 
+  parents concepts (3) : 387 426 436 
+  childs concepts (4) : 77 120 199 275 
+
+Concept (328) : 
+  level : 4
+  objects (9) : science bn:00069670n statecharts bn:01128895n state machine bn:00212740n communication bn:00021221n orthogonality bn:00059586n broadcast bn:00013234n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (4) : A1 A3 A5 C3 
+  parents concepts (4) : 346 347 430 431 
+  childs concepts (3) : 112 145 233 
+
+Concept (329) : 
+  level : 3
+  objects (9) : science bn:00069670n mathematics bn:00053823n state machine bn:00212740n complex system bn:03086504n time bn:00077270n america bn:00003341n history bn:00044268n second bn:00095974a multiple bn:00107028a 
+  attributes (3) : A2 A5 C6 
+  parents concepts (3) : 348 395 462 
+  childs concepts (6) : 139 157 169 174 215 235 
+
+Concept (330) : 
+  level : 2
+  objects (9) : computer bn:00021464n time bn:00077270n number bn:00058285n america bn:00003341n require bn:00091028v second bn:00095974a multiple bn:00107028a current bn:00096401a summary bn:00075142n 
+  attributes (2) : A4 C6 
+  parents concepts (2) : 425 466 
+  childs concepts (3) : 24 188 307 
+
+Concept (331) : 
+  level : 4
+  objects (9) : statecharts bn:01128895n systems bn:15125301n time bn:00077270n information bn:00046705n tool bn:00077585n triggering bn:00082306v concept bn:00021547n possibility bn:00045632n definition bn:00025928n 
+  attributes (4) : A2 A3 A4 C7 
+  parents concepts (4) : 361 388 398 443 
+  childs concepts (5) : 89 90 154 202 282 
+
+Concept (332) : 
+  level : 3
+  objects (9) : statecharts bn:01128895n state bn:00023236n diagrams bn:00026817n units bn:00021497n reactive systems bn:02824399n tool bn:00077585n semantics bn:00070404n america bn:00003341n possibility bn:00045632n 
+  attributes (3) : A2 C3 C7 
+  parents concepts (3) : 400 426 456 
+  childs concepts (4) : 68 180 199 278 
+
+Concept (333) : 
+  level : 4
+  objects (9) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n example bn:00032100n america bn:00003341n automata bn:00007371n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (4) : A1 A4 A5 C3 
+  parents concepts (4) : 350 365 431 441 
+  childs concepts (3) : 223 279 280 
+
+Concept (334) : 
+  level : 4
+  objects (9) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n tool bn:00077585n america bn:00003341n application bn:00005095n possibility bn:00045632n defined bn:00086465v new york bn:00041611n 
+  attributes (4) : A1 A4 C3 C7 
+  parents concepts (3) : 364 365 449 
+  childs concepts (5) : 124 203 224 239 280 
+
+Concept (335) : 
+  level : 4
+  objects (9) : statecharts bn:01128895n time bn:00077270n state transition bn:03348716n concept bn:00021547n require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A3 A4 A5 C7 
+  parents concepts (4) : 362 388 397 440 
+  childs concepts (4) : 60 202 229 311 
+
+Concept (336) : 
+  level : 4
+  objects (9) : statecharts bn:01128895n information bn:00046705n tool bn:00077585n nature bn:00057017n triggering bn:00082306v concept bn:00021547n occurring bn:00085337v possibility bn:00045632n definition bn:00025928n 
+  attributes (4) : A1 A2 A3 A4 
+  parents concepts (4) : 361 396 407 445 
+  childs concepts (2) : 241 282 
+
+Concept (337) : 
+  level : 3
+  objects (9) : mathematics bn:00053823n state machine bn:00212740n communication bn:00021221n units bn:00021497n output bn:00036821n orthogonality bn:00059586n require bn:00091028v simultaneous bn:00099916a syntax bn:00062118n 
+  attributes (3) : A1 A5 C8 
+  parents concepts (3) : 383 402 465 
+  childs concepts (5) : 102 162 207 251 257 
+
+Concept (338) : 
+  level : 3
+  objects (9) : mathematics bn:00053823n state machine bn:00212740n units bn:00021497n complex system bn:03086504n time bn:00077270n output bn:00036821n orthogonality bn:00059586n effect bn:00021961n syntax bn:00062118n 
+  attributes (3) : A2 A5 C8 
+  parents concepts (3) : 402 412 462 
+  childs concepts (6) : 125 157 158 165 217 251 
+
+Concept (339) : 
+  level : 2
+  objects (9) : state machine bn:00212740n behavior bn:00009657n reactive systems bn:02824399n simulation bn:00021496n output bn:00036821n broadcast bn:00013234n history bn:00044268n light bn:00051108n new york bn:00041611n 
+  attributes (2) : A1 C5 
+  parents concepts (2) : 401 470 
+  childs concepts (7) : 71 114 129 177 185 220 260 
+
+Concept (340) : 
+  level : 3
+  objects (9) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n possible bn:00108829a concept bn:00021547n second bn:00095974a types bn:00016413n 
+  attributes (3) : A5 C2 C7 
+  parents concepts (3) : 419 424 453 
+  childs concepts (3) : 298 324 326 
+
+Concept (341) : 
+  level : 5
+  objects (9) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a information bn:00046705n possible bn:00108829a concept bn:00021547n second bn:00095974a merely bn:00114626r 
+  attributes (5) : A1 A2 A4 C2 C7 
+  parents concepts (4) : 358 370 391 418 
+  childs concepts (2) : 64 300 
+
+Concept (342) : 
+  level : 5
+  objects (9) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a state transition bn:03348716n possible bn:00108829a application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (5) : A1 A4 A5 C1 C7 
+  parents concepts (5) : 356 373 386 393 411 
+  childs concepts (3) : 181 190 264 
+
+Concept (343) : 
+  level : 4
+  objects (9) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a concept bn:00021547n effect bn:00021961n second bn:00095974a types bn:00016413n 
+  attributes (4) : A2 A4 A5 C2 
+  parents concepts (3) : 381 405 439 
+  childs concepts (2) : 55 326 
+
+Concept (344) : 
+  level : 2
+  objects (9) : diagrams bn:00026817n units bn:00021497n example bn:00032100n way bn:00033729n tool bn:00077585n semantics bn:00070404n application bn:00005095n syntax bn:00062118n defined bn:00086465v 
+  attributes (2) : C1 C3 
+  parents concepts (2) : 452 458 
+  childs concepts (6) : 228 267 270 302 303 304 
+
+Concept (345) : 
+  level : 3
+  objects (10) : science bn:00069670n computer bn:00021464n david harel bn:03178978n mathematics bn:00053823n state machine bn:00212740n number bn:00058285n america bn:00003341n history bn:00044268n require bn:00091028v second bn:00095974a 
+  attributes (3) : A1 A5 C6 
+  parents concepts (2) : 395 465 
+  childs concepts (6) : 138 171 191 197 231 235 
+
+Concept (346) : 
+  level : 3
+  objects (10) : science bn:00069670n statecharts bn:01128895n state machine bn:00212740n communication bn:00021221n way bn:00033729n orthogonality bn:00059586n broadcast bn:00013234n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (3) : A3 A5 C3 
+  parents concepts (3) : 387 437 448 
+  childs concepts (2) : 201 328 
+
+Concept (347) : 
+  level : 3
+  objects (10) : science bn:00069670n statecharts bn:01128895n state machine bn:00212740n communication bn:00021221n tool bn:00077585n orthogonality bn:00059586n broadcast bn:00013234n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (3) : A1 A3 C3 
+  parents concepts (3) : 387 444 447 
+  childs concepts (3) : 203 275 328 
+
+Concept (348) : 
+  level : 2
+  objects (10) : science bn:00069670n mathematics bn:00053823n state machine bn:00212740n complex system bn:03086504n time bn:00077270n semantics bn:00070404n america bn:00003341n history bn:00044268n second bn:00095974a multiple bn:00107028a 
+  attributes (2) : A2 C6 
+  parents concepts (2) : 425 467 
+  childs concepts (6) : 142 195 208 213 255 329 
+
+Concept (349) : 
+  level : 4
+  objects (10) : statecharts bn:01128895n mathematics bn:00053823n set bn:00070697n state transition bn:03348716n concept bn:00021547n require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A1 A3 A5 C7 
+  parents concepts (4) : 362 408 430 438 
+  childs concepts (5) : 41 63 198 256 311 
+
+Concept (350) : 
+  level : 3
+  objects (10) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n example bn:00032100n way bn:00033729n america bn:00003341n automata bn:00007371n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (3) : A4 A5 C3 
+  parents concepts (3) : 379 437 455 
+  childs concepts (3) : 201 266 333 
+
+Concept (351) : 
+  level : 2
+  objects (10) : systems bn:15125301n mathematics bn:00053823n state machine bn:00212740n communication bn:00021221n problem bn:00048242n time bn:00077270n triggering bn:00082306v orthogonality bn:00059586n semantics bn:00070404n require bn:00091028v 
+  attributes (2) : A3 C8 
+  parents concepts (2) : 450 463 
+  childs concepts (6) : 173 209 249 250 285 312 
+
+Concept (352) : 
+  level : 3
+  objects (10) : systems bn:15125301n mathematics bn:00053823n time bn:00077270n set bn:00070697n tool bn:00077585n state transition bn:03348716n semantics bn:00070404n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A3 C1 C7 
+  parents concepts (3) : 368 442 446 
+  childs concepts (6) : 31 189 245 289 291 293 
+
+Concept (353) : 
+  level : 3
+  objects (10) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n hierarchical bn:00104156a possible bn:00108829a types bn:00016413n bit bn:00010731n 
+  attributes (3) : C1 C2 C7 
+  parents concepts (3) : 369 424 446 
+  childs concepts (4) : 31 287 296 298 
+
+Concept (354) : 
+  level : 2
+  objects (10) : systems bn:15125301n units bn:00021497n time bn:00077270n triggering bn:00082306v achieved bn:00082226v c d bn:00016915n effect bn:00021961n require bn:00091028v current bn:00096401a summary bn:00075142n 
+  attributes (2) : A4 C8 
+  parents concepts (2) : 450 466 
+  childs concepts (5) : 188 225 226 248 288 
+
+Concept (355) : 
+  level : 4
+  objects (10) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n possible bn:00108829a history bn:00044268n syntax bn:00062118n definition bn:00025928n 
+  attributes (4) : A1 A2 A5 C1 
+  parents concepts (4) : 371 403 404 454 
+  childs concepts (6) : 40 103 179 263 290 295 
+
+Concept (356) : 
+  level : 4
+  objects (10) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n state transition bn:03348716n possible bn:00108829a application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A1 A4 A5 C1 
+  parents concepts (4) : 392 404 416 441 
+  childs concepts (3) : 223 295 342 
+
+Concept (357) : 
+  level : 5
+  objects (10) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n main bn:00099598a possible bn:00108829a definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (5) : A2 A4 A5 C1 C7 
+  parents concepts (5) : 372 375 380 393 410 
+  childs concepts (5) : 51 61 62 264 265 
+
+Concept (358) : 
+  level : 4
+  objects (10) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a information bn:00046705n possible bn:00108829a concept bn:00021547n second bn:00095974a merely bn:00114626r new york bn:00041611n 
+  attributes (4) : A1 A4 C2 C7 
+  parents concepts (3) : 382 385 449 
+  childs concepts (2) : 124 341 
+
+Concept (359) : 
+  level : 4
+  objects (11) : science bn:00069670n statecharts bn:01128895n mathematics bn:00053823n state machine bn:00212740n nature bn:00057017n orthogonality bn:00059586n broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v possibility bn:00045632n definition bn:00025928n 
+  attributes (4) : A1 A2 A3 A5 
+  parents concepts (4) : 376 396 430 454 
+  childs concepts (6) : 48 96 196 198 233 241 
+
+Concept (360) : 
+  level : 4
+  objects (11) : science bn:00069670n mathematics bn:00053823n state machine bn:00212740n language bn:00049910n complex bn:00100148a output bn:00036821n possible bn:00108829a occurring bn:00085337v sec bn:00068672n substates bn:00964536n definition bn:00025928n 
+  attributes (4) : A1 A2 A5 C4 
+  parents concepts (3) : 377 394 454 
+  childs concepts (6) : 76 95 196 212 227 259 
+
+Concept (361) : 
+  level : 3
+  objects (11) : statecharts bn:01128895n systems bn:15125301n time bn:00077270n information bn:00046705n tool bn:00077585n nature bn:00057017n triggering bn:00082306v concept bn:00021547n occurring bn:00085337v possibility bn:00045632n definition bn:00025928n 
+  attributes (3) : A2 A3 A4 
+  parents concepts (3) : 427 436 457 
+  childs concepts (3) : 281 331 336 
+
+Concept (362) : 
+  level : 3
+  objects (11) : statecharts bn:01128895n mathematics bn:00053823n time bn:00077270n set bn:00070697n state transition bn:03348716n concept bn:00021547n require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A3 A5 C7 
+  parents concepts (3) : 442 448 453 
+  childs concepts (5) : 105 237 291 335 349 
+
+Concept (363) : 
+  level : 5
+  objects (11) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a possible bn:00108829a concept bn:00021547n america bn:00003341n possibility bn:00045632n second bn:00095974a definition bn:00025928n 
+  attributes (5) : A1 A2 A4 A5 C7 
+  parents concepts (5) : 399 409 410 411 418 
+  childs concepts (5) : 70 144 200 264 300 
+
+Concept (364) : 
+  level : 3
+  objects (11) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n reactive systems bn:02824399n tool bn:00077585n america bn:00003341n determinism bn:00026654n application bn:00005095n possibility bn:00045632n defined bn:00086465v new york bn:00041611n 
+  attributes (3) : A1 C3 C7 
+  parents concepts (3) : 400 444 461 
+  childs concepts (4) : 58 278 309 334 
+
+Concept (365) : 
+  level : 3
+  objects (11) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n example bn:00032100n tool bn:00077585n america bn:00003341n automata bn:00007371n application bn:00005095n possibility bn:00045632n defined bn:00086465v new york bn:00041611n 
+  attributes (3) : A1 A4 C3 
+  parents concepts (3) : 379 444 460 
+  childs concepts (4) : 268 310 333 334 
+
+Concept (366) : 
+  level : 4
+  objects (11) : statecharts bn:01128895n information bn:00046705n tool bn:00077585n state transition bn:03348716n triggering bn:00082306v concept bn:00021547n require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A1 A3 A4 C7 
+  parents concepts (4) : 388 407 408 449 
+  childs concepts (5) : 67 203 230 282 311 
+
+Concept (367) : 
+  level : 2
+  objects (11) : systems bn:15125301n mathematics bn:00053823n units bn:00021497n problem bn:00048242n time bn:00077270n triggering bn:00082306v semantics bn:00070404n c d bn:00016915n require bn:00091028v current bn:00096401a interaction diagram bn:02571962n 
+  attributes (2) : C7 C8 
+  parents concepts (2) : 450 469 
+  childs concepts (8) : 86 210 211 214 242 283 285 288 
+
+Concept (368) : 
+  level : 2
+  objects (11) : systems bn:15125301n mathematics bn:00053823n way bn:00033729n time bn:00077270n set bn:00070697n tool bn:00077585n state transition bn:03348716n semantics bn:00070404n application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (2) : A3 C1 
+  parents concepts (2) : 458 463 
+  childs concepts (4) : 228 316 320 352 
+
+Concept (369) : 
+  level : 2
+  objects (11) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n hierarchical bn:00104156a possible bn:00108829a history bn:00044268n types bn:00016413n bit bn:00010731n 
+  attributes (2) : C1 C2 
+  parents concepts (2) : 451 458 
+  childs concepts (4) : 314 323 325 353 
+
+Concept (370) : 
+  level : 4
+  objects (11) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a information bn:00046705n possible bn:00108829a concept bn:00021547n second bn:00095974a merely bn:00114626r types bn:00016413n 
+  attributes (4) : A2 A4 C2 C7 
+  parents concepts (3) : 381 382 443 
+  childs concepts (4) : 90 287 326 341 
+
+Concept (371) : 
+  level : 3
+  objects (11) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n tool bn:00077585n possible bn:00108829a history bn:00044268n syntax bn:00062118n definition bn:00025928n 
+  attributes (3) : A1 A2 C1 
+  parents concepts (3) : 429 435 464 
+  childs concepts (4) : 222 319 322 355 
+
+Concept (372) : 
+  level : 4
+  objects (11) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n main bn:00099598a possible bn:00108829a definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (4) : A2 A5 C1 C7 
+  parents concepts (4) : 403 413 414 428 
+  childs concepts (5) : 99 106 107 290 357 
+
+Concept (373) : 
+  level : 4
+  objects (11) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n state transition bn:03348716n possible bn:00108829a application bn:00005095n defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A1 A5 C1 C7 
+  parents concepts (4) : 404 414 415 438 
+  childs concepts (4) : 256 262 290 342 
+
+Concept (374) : 
+  level : 4
+  objects (11) : state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a output bn:00036821n possible bn:00108829a concept bn:00021547n history bn:00044268n second bn:00095974a substates bn:00964536n 
+  attributes (4) : A1 A2 A5 C2 
+  parents concepts (4) : 384 391 405 454 
+  childs concepts (7) : 48 117 121 172 259 263 300 
+
+Concept (375) : 
+  level : 4
+  objects (11) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n time bn:00077270n main bn:00099598a possible bn:00108829a definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (4) : A2 A4 A5 C1 
+  parents concepts (4) : 389 403 416 439 
+  childs concepts (2) : 295 357 
+
+Concept (376) : 
+  level : 3
+  objects (12) : science bn:00069670n statecharts bn:01128895n mathematics bn:00053823n state machine bn:00212740n time bn:00077270n nature bn:00057017n orthogonality bn:00059586n broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v possibility bn:00045632n definition bn:00025928n 
+  attributes (3) : A2 A3 A5 
+  parents concepts (3) : 436 448 462 
+  childs concepts (5) : 139 158 237 281 359 
+
+Concept (377) : 
+  level : 2
+  objects (12) : science bn:00069670n mathematics bn:00053823n state machine bn:00212740n language bn:00049910n complex bn:00100148a output bn:00036821n possible bn:00108829a semantics bn:00070404n occurring bn:00085337v sec bn:00068672n substates bn:00964536n definition bn:00025928n 
+  attributes (2) : A2 C4 
+  parents concepts (2) : 421 467 
+  childs concepts (5) : 141 161 234 254 360 
+
+Concept (378) : 
+  level : 4
+  objects (12) : computer bn:00021464n statecharts bn:01128895n number bn:00058285n state transition bn:03348716n nature bn:00057017n concept bn:00021547n occurring bn:00085337v require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A1 A3 A4 A5 
+  parents concepts (4) : 397 407 430 441 
+  childs concepts (4) : 79 80 241 311 
+
+Concept (379) : 
+  level : 2
+  objects (12) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n example bn:00032100n way bn:00033729n tool bn:00077585n america bn:00003341n automata bn:00007371n application bn:00005095n possibility bn:00045632n defined bn:00086465v new york bn:00041611n 
+  attributes (2) : A4 C3 
+  parents concepts (2) : 452 466 
+  childs concepts (4) : 240 302 350 365 
+
+Concept (380) : 
+  level : 4
+  objects (12) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n tool bn:00077585n main bn:00099598a possible bn:00108829a definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (4) : A2 A4 C1 C7 
+  parents concepts (4) : 389 413 423 443 
+  childs concepts (5) : 84 154 287 299 357 
+
+Concept (381) : 
+  level : 3
+  objects (12) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a information bn:00046705n possible bn:00108829a concept bn:00021547n effect bn:00021961n second bn:00095974a merely bn:00114626r types bn:00016413n 
+  attributes (3) : A2 A4 C2 
+  parents concepts (3) : 390 422 457 
+  childs concepts (3) : 85 343 370 
+
+Concept (382) : 
+  level : 3
+  objects (12) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a information bn:00046705n possible bn:00108829a concept bn:00021547n second bn:00095974a merely bn:00114626r new york bn:00041611n types bn:00016413n 
+  attributes (3) : A4 C2 C7 
+  parents concepts (3) : 390 424 459 
+  childs concepts (3) : 34 358 370 
+
+Concept (383) : 
+  level : 2
+  objects (12) : mathematics bn:00053823n state machine bn:00212740n communication bn:00021221n units bn:00021497n output bn:00036821n triggering bn:00082306v orthogonality bn:00059586n achieved bn:00082226v c d bn:00016915n require bn:00091028v simultaneous bn:00099916a syntax bn:00062118n 
+  attributes (2) : A1 C8 
+  parents concepts (2) : 450 470 
+  childs concepts (6) : 166 211 226 250 317 337 
+
+Concept (384) : 
+  level : 3
+  objects (12) : state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n output bn:00036821n possible bn:00108829a concept bn:00021547n history bn:00044268n second bn:00095974a substates bn:00964536n 
+  attributes (3) : A1 A5 C2 
+  parents concepts (3) : 419 420 465 
+  childs concepts (4) : 115 297 324 374 
+
+Concept (385) : 
+  level : 3
+  objects (12) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n information bn:00046705n hierarchical bn:00104156a possible bn:00108829a concept bn:00021547n second bn:00095974a merely bn:00114626r new york bn:00041611n 
+  attributes (3) : A1 C2 C7 
+  parents concepts (3) : 420 424 461 
+  childs concepts (4) : 132 296 324 358 
+
+Concept (386) : 
+  level : 4
+  objects (12) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a tool bn:00077585n state transition bn:03348716n possible bn:00108829a c d bn:00016915n application bn:00005095n light bn:00051108n defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A1 A4 C1 C7 
+  parents concepts (4) : 392 415 423 449 
+  childs concepts (6) : 18 54 224 230 299 342 
+
+Concept (387) : 
+  level : 2
+  objects (13) : science bn:00069670n statecharts bn:01128895n state bn:00023236n state machine bn:00212740n communication bn:00021221n way bn:00033729n tool bn:00077585n orthogonality bn:00059586n broadcast bn:00013234n semantics bn:00070404n application bn:00005095n possibility bn:00045632n defined bn:00086465v 
+  attributes (2) : A3 C3 
+  parents concepts (2) : 452 463 
+  childs concepts (7) : 173 228 240 277 327 346 347 
+
+Concept (388) : 
+  level : 3
+  objects (13) : statecharts bn:01128895n systems bn:15125301n time bn:00077270n information bn:00046705n tool bn:00077585n state transition bn:03348716n triggering bn:00082306v concept bn:00021547n require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A3 A4 C7 
+  parents concepts (3) : 427 442 459 
+  childs concepts (5) : 155 289 331 335 366 
+
+Concept (389) : 
+  level : 3
+  objects (13) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n time bn:00077270n tool bn:00077585n main bn:00099598a possible bn:00108829a definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (3) : A2 A4 C1 
+  parents concepts (3) : 429 433 457 
+  childs concepts (3) : 322 375 380 
+
+Concept (390) : 
+  level : 2
+  objects (13) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a information bn:00046705n possible bn:00108829a concept bn:00021547n effect bn:00021961n second bn:00095974a merely bn:00114626r new york bn:00041611n types bn:00016413n 
+  attributes (2) : A4 C2 
+  parents concepts (2) : 451 466 
+  childs concepts (2) : 381 382 
+
+Concept (391) : 
+  level : 3
+  objects (13) : state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a output bn:00036821n information bn:00046705n possible bn:00108829a concept bn:00021547n history bn:00044268n second bn:00095974a merely bn:00114626r substates bn:00964536n 
+  attributes (3) : A1 A2 C2 
+  parents concepts (3) : 420 422 464 
+  childs concepts (3) : 119 341 374 
+
+Concept (392) : 
+  level : 3
+  objects (13) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n tool bn:00077585n state transition bn:03348716n possible bn:00108829a c d bn:00016915n application bn:00005095n light bn:00051108n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A1 A4 C1 
+  parents concepts (3) : 433 435 460 
+  childs concepts (4) : 268 322 356 386 
+
+Concept (393) : 
+  level : 4
+  objects (13) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n state transition bn:03348716n main bn:00099598a possible bn:00108829a application bn:00005095n defined bn:00086465v definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (4) : A4 A5 C1 C7 
+  parents concepts (4) : 414 416 423 440 
+  childs concepts (3) : 229 342 357 
+
+Concept (394) : 
+  level : 3
+  objects (14) : science bn:00069670n computer bn:00021464n david harel bn:03178978n mathematics bn:00053823n state machine bn:00212740n language bn:00049910n complex bn:00100148a output bn:00036821n possible bn:00108829a occurring bn:00085337v sec bn:00068672n simultaneous bn:00099916a substates bn:00964536n definition bn:00025928n 
+  attributes (3) : A1 A5 C4 
+  parents concepts (2) : 421 465 
+  childs concepts (6) : 136 162 191 232 236 360 
+
+Concept (395) : 
+  level : 2
+  objects (14) : science bn:00069670n computer bn:00021464n david harel bn:03178978n mathematics bn:00053823n state machine bn:00212740n complex system bn:03086504n time bn:00077270n number bn:00058285n america bn:00003341n history bn:00044268n require bn:00091028v second bn:00095974a multiple bn:00107028a current bn:00096401a 
+  attributes (2) : A5 C6 
+  parents concepts (2) : 425 468 
+  childs concepts (6) : 252 274 292 307 329 345 
+
+Concept (396) : 
+  level : 3
+  objects (14) : science bn:00069670n statecharts bn:01128895n mathematics bn:00053823n state machine bn:00212740n information bn:00046705n tool bn:00077585n nature bn:00057017n triggering bn:00082306v orthogonality bn:00059586n broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v possibility bn:00045632n definition bn:00025928n 
+  attributes (3) : A1 A2 A3 
+  parents concepts (3) : 436 447 464 
+  childs concepts (6) : 119 163 275 308 336 359 
+
+Concept (397) : 
+  level : 3
+  objects (14) : computer bn:00021464n statecharts bn:01128895n way bn:00033729n time bn:00077270n number bn:00058285n state transition bn:03348716n nature bn:00057017n concept bn:00021547n occurring bn:00085337v require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A3 A4 A5 
+  parents concepts (3) : 427 448 455 
+  childs concepts (6) : 143 201 271 281 335 378 
+
+Concept (398) : 
+  level : 3
+  objects (14) : statecharts bn:01128895n systems bn:15125301n mathematics bn:00053823n state bn:00023236n problem bn:00048242n time bn:00077270n information bn:00046705n tool bn:00077585n triggering bn:00082306v semantics bn:00070404n concept bn:00021547n possibility bn:00045632n definition bn:00025928n sequence bn:00070574n 
+  attributes (3) : A2 A3 C7 
+  parents concepts (3) : 436 442 456 
+  childs concepts (6) : 199 237 244 245 308 331 
+
+Concept (399) : 
+  level : 4
+  objects (14) : statecharts bn:01128895n mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a reactive systems bn:02824399n automobiles bn:00007309n possible bn:00108829a concept bn:00021547n america bn:00003341n possibility bn:00045632n second bn:00095974a definition bn:00025928n 
+  attributes (4) : A1 A2 A5 C7 
+  parents concepts (4) : 428 432 438 454 
+  childs concepts (5) : 111 198 238 290 363 
+
+Concept (400) : 
+  level : 2
+  objects (14) : statecharts bn:01128895n state bn:00023236n diagrams bn:00026817n units bn:00021497n reactive systems bn:02824399n tool bn:00077585n semantics bn:00070404n america bn:00003341n determinism bn:00026654n application bn:00005095n possibility bn:00045632n defined bn:00086465v new york bn:00041611n deterministic finite state automata bn:03499526n 
+  attributes (2) : C3 C7 
+  parents concepts (2) : 452 469 
+  childs concepts (4) : 270 277 332 364 
+
+Concept (401) : 
+  level : 1
+  objects (14) : systems bn:15125301n state machine bn:00212740n behavior bn:00009657n problem bn:00048242n reactive systems bn:02824399n simulation bn:00021496n output bn:00036821n broadcast bn:00013234n history bn:00044268n light bn:00051108n new york bn:00041611n autonomous bn:00097830a stateflow bn:03369007n simple bn:00098053a 
+  attributes (1) : C5 
+  parents concepts (1) : 471 
+  childs concepts (8) : 91 153 205 247 261 313 315 339 
+
+Concept (402) : 
+  level : 2
+  objects (14) : mathematics bn:00053823n state machine bn:00212740n communication bn:00021221n units bn:00021497n complex system bn:03086504n time bn:00077270n output bn:00036821n orthogonality bn:00059586n effect bn:00021961n require bn:00091028v simultaneous bn:00099916a syntax bn:00062118n current bn:00096401a composite states bn:00892979n 
+  attributes (2) : A5 C8 
+  parents concepts (2) : 450 468 
+  childs concepts (6) : 210 225 249 252 337 338 
+
+Concept (403) : 
+  level : 3
+  objects (14) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n time bn:00077270n main bn:00099598a possible bn:00108829a history bn:00044268n syntax bn:00062118n definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (3) : A2 A5 C1 
+  parents concepts (3) : 429 434 462 
+  childs concepts (6) : 165 169 301 355 372 375 
+
+Concept (404) : 
+  level : 3
+  objects (14) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n set bn:00070697n state transition bn:03348716n possible bn:00108829a history bn:00044268n application bn:00005095n syntax bn:00062118n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A1 A5 C1 
+  parents concepts (3) : 434 435 465 
+  childs concepts (5) : 269 297 355 356 373 
+
+Concept (405) : 
+  level : 3
+  objects (14) : state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a complex system bn:03086504n output bn:00036821n possible bn:00108829a concept bn:00021547n history bn:00044268n effect bn:00021961n second bn:00095974a substates bn:00964536n types bn:00016413n 
+  attributes (3) : A2 A5 C2 
+  parents concepts (3) : 419 422 462 
+  childs concepts (5) : 174 217 301 343 374 
+
+Concept (406) : 
+  level : 4
+  objects (15) : science bn:00069670n statecharts bn:01128895n state machine bn:00212740n diagrams bn:00026817n units bn:00021497n reactive systems bn:02824399n example bn:00032100n output bn:00036821n orthogonality bn:00059586n broadcast bn:00013234n america bn:00003341n automata bn:00007371n possibility bn:00045632n syntax bn:00062118n higraphs bn:01691263n 
+  attributes (4) : A1 A2 A5 C3 
+  parents concepts (3) : 417 431 454 
+  childs concepts (9) : 76 78 172 175 179 218 233 238 279 
+
+Concept (407) : 
+  level : 3
+  objects (15) : computer bn:00021464n statecharts bn:01128895n information bn:00046705n tool bn:00077585n number bn:00058285n state transition bn:03348716n nature bn:00057017n triggering bn:00082306v concept bn:00021547n occurring bn:00085337v require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A1 A3 A4 
+  parents concepts (3) : 427 447 460 
+  childs concepts (3) : 336 366 378 
+
+Concept (408) : 
+  level : 3
+  objects (15) : statecharts bn:01128895n mathematics bn:00053823n networks bn:00024712n simulation bn:00021496n set bn:00070697n information bn:00046705n tool bn:00077585n state transition bn:03348716n triggering bn:00082306v concept bn:00021547n require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A1 A3 C7 
+  parents concepts (3) : 442 447 461 
+  childs concepts (7) : 9 109 132 293 308 349 366 
+
+Concept (409) : 
+  level : 4
+  objects (15) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n nature bn:00057017n possible bn:00108829a concept bn:00021547n occurring bn:00085337v america bn:00003341n automata bn:00007371n possibility bn:00045632n second bn:00095974a definition bn:00025928n 
+  attributes (4) : A1 A2 A4 A5 
+  parents concepts (4) : 439 441 445 454 
+  childs concepts (5) : 227 241 279 295 363 
+
+Concept (410) : 
+  level : 4
+  objects (15) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n main bn:00099598a possible bn:00108829a concept bn:00021547n america bn:00003341n possibility bn:00045632n second bn:00095974a definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (4) : A2 A4 A5 C7 
+  parents concepts (4) : 428 439 440 443 
+  childs concepts (5) : 187 202 326 357 363 
+
+Concept (411) : 
+  level : 4
+  objects (15) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a state transition bn:03348716n possible bn:00108829a concept bn:00021547n america bn:00003341n require bn:00091028v application bn:00005095n possibility bn:00045632n second bn:00095974a defined bn:00086465v definition bn:00025928n 
+  attributes (4) : A1 A4 A5 C7 
+  parents concepts (4) : 438 440 441 449 
+  childs concepts (6) : 56 134 280 311 342 363 
+
+Concept (412) : 
+  level : 2
+  objects (15) : systems bn:15125301n mathematics bn:00053823n state machine bn:00212740n units bn:00021497n complex system bn:03086504n problem bn:00048242n time bn:00077270n output bn:00036821n triggering bn:00082306v orthogonality bn:00059586n semantics bn:00070404n achieved bn:00082226v effect bn:00021961n syntax bn:00062118n composite bn:00100155a 
+  attributes (2) : A2 C8 
+  parents concepts (2) : 450 467 
+  childs concepts (11) : 147 161 208 243 246 248 258 283 312 317 338 
+
+Concept (413) : 
+  level : 3
+  objects (15) : systems bn:15125301n mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n tool bn:00077585n main bn:00099598a possible bn:00108829a semantics bn:00070404n definition bn:00025928n types bn:00016413n multiple bn:00107028a large number bn:14223782n 
+  attributes (3) : A2 C1 C7 
+  parents concepts (3) : 429 446 456 
+  childs concepts (8) : 168 180 204 245 254 319 372 380 
+
+Concept (414) : 
+  level : 3
+  objects (15) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n set bn:00070697n state transition bn:03348716n main bn:00099598a possible bn:00108829a application bn:00005095n defined bn:00086465v definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (3) : A5 C1 C7 
+  parents concepts (3) : 434 446 453 
+  childs concepts (5) : 291 298 372 373 393 
+
+Concept (415) : 
+  level : 3
+  objects (15) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n tool bn:00077585n state transition bn:03348716n hierarchical bn:00104156a possible bn:00108829a c d bn:00016915n application bn:00005095n light bn:00051108n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A1 C1 C7 
+  parents concepts (3) : 435 446 461 
+  childs concepts (6) : 101 293 296 319 373 386 
+
+Concept (416) : 
+  level : 3
+  objects (15) : diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n way bn:00033729n time bn:00077270n state transition bn:03348716n main bn:00099598a possible bn:00108829a application bn:00005095n defined bn:00086465v definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (3) : A4 A5 C1 
+  parents concepts (3) : 433 434 455 
+  childs concepts (5) : 266 271 356 375 393 
+
+Concept (417) : 
+  level : 3
+  objects (16) : science bn:00069670n statecharts bn:01128895n state machine bn:00212740n diagrams bn:00026817n units bn:00021497n reactive systems bn:02824399n example bn:00032100n output bn:00036821n tool bn:00077585n orthogonality bn:00059586n broadcast bn:00013234n america bn:00003341n automata bn:00007371n possibility bn:00045632n syntax bn:00062118n higraphs bn:01691263n 
+  attributes (3) : A1 A2 C3 
+  parents concepts (3) : 426 444 464 
+  childs concepts (5) : 222 275 278 310 406 
+
+Concept (418) : 
+  level : 4
+  objects (16) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a information bn:00046705n tool bn:00077585n triggering bn:00082306v possible bn:00108829a concept bn:00021547n america bn:00003341n possibility bn:00045632n second bn:00095974a merely bn:00114626r formal syntax bn:01042120n definition bn:00025928n 
+  attributes (4) : A1 A2 A4 C7 
+  parents concepts (4) : 432 443 445 449 
+  childs concepts (6) : 52 239 282 299 341 363 
+
+Concept (419) : 
+  level : 2
+  objects (16) : state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a complex system bn:03086504n set bn:00070697n output bn:00036821n possible bn:00108829a concept bn:00021547n history bn:00044268n effect bn:00021961n second bn:00095974a substates bn:00964536n types bn:00016413n strategy bn:00069579n 
+  attributes (2) : A5 C2 
+  parents concepts (2) : 451 468 
+  childs concepts (4) : 325 340 384 405 
+
+Concept (420) : 
+  level : 2
+  objects (16) : state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n output bn:00036821n information bn:00046705n hierarchical bn:00104156a possible bn:00108829a concept bn:00021547n history bn:00044268n second bn:00095974a merely bn:00114626r substates bn:00964536n new york bn:00041611n 
+  attributes (2) : A1 C2 
+  parents concepts (2) : 451 470 
+  childs concepts (7) : 176 177 216 323 384 385 391 
+
+Concept (421) : 
+  level : 1
+  objects (17) : science bn:00069670n computer bn:00021464n david harel bn:03178978n mathematics bn:00053823n state machine bn:00212740n language bn:00049910n complex bn:00100148a kind bn:00035907n output bn:00036821n possible bn:00108829a semantics bn:00070404n occurring bn:00085337v sec bn:00068672n simultaneous bn:00099916a substates bn:00964536n definition bn:00025928n summary bn:00075142n 
+  attributes (1) : C4 
+  parents concepts (1) : 471 
+  childs concepts (7) : 193 253 273 276 305 377 394 
+
+Concept (422) : 
+  level : 2
+  objects (17) : systems bn:15125301n state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a complex system bn:03086504n output bn:00036821n information bn:00046705n possible bn:00108829a concept bn:00021547n history bn:00044268n effect bn:00021961n second bn:00095974a merely bn:00114626r substates bn:00964536n types bn:00016413n 
+  attributes (2) : A2 C2 
+  parents concepts (2) : 451 467 
+  childs concepts (7) : 149 150 246 314 381 391 405 
+
+Concept (423) : 
+  level : 3
+  objects (17) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n tool bn:00077585n state transition bn:03348716n main bn:00099598a possible bn:00108829a c d bn:00016915n application bn:00005095n light bn:00051108n defined bn:00086465v definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (3) : A4 C1 C7 
+  parents concepts (3) : 433 446 459 
+  childs concepts (6) : 33 152 289 380 386 393 
+
+Concept (424) : 
+  level : 2
+  objects (17) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a set bn:00070697n information bn:00046705n hierarchical bn:00104156a possible bn:00108829a concept bn:00021547n second bn:00095974a merely bn:00114626r new york bn:00041611n types bn:00016413n bit bn:00010731n simple bn:00098053a interaction diagram bn:02571962n 
+  attributes (2) : C2 C7 
+  parents concepts (2) : 451 469 
+  childs concepts (7) : 86 93 156 340 353 382 385 
+
+Concept (425) : 
+  level : 1
+  objects (18) : science bn:00069670n computer bn:00021464n david harel bn:03178978n mathematics bn:00053823n state machine bn:00212740n complex system bn:03086504n time bn:00077270n number bn:00058285n semantics bn:00070404n america bn:00003341n history bn:00044268n require bn:00091028v second bn:00095974a multiple bn:00107028a scenario bn:01190125n current bn:00096401a summary bn:00075142n atomic bn:00097696a 
+  attributes (1) : C6 
+  parents concepts (1) : 471 
+  childs concepts (8) : 194 273 306 318 321 330 348 395 
+
+Concept (426) : 
+  level : 2
+  objects (18) : science bn:00069670n statecharts bn:01128895n state bn:00023236n state machine bn:00212740n diagrams bn:00026817n units bn:00021497n reactive systems bn:02824399n example bn:00032100n output bn:00036821n tool bn:00077585n orthogonality bn:00059586n broadcast bn:00013234n semantics bn:00070404n america bn:00003341n automata bn:00007371n possibility bn:00045632n syntax bn:00062118n higraphs bn:01691263n 
+  attributes (2) : A2 C3 
+  parents concepts (2) : 452 467 
+  childs concepts (7) : 141 142 258 267 327 332 417 
+
+Concept (427) : 
+  level : 2
+  objects (18) : computer bn:00021464n statecharts bn:01128895n systems bn:15125301n way bn:00033729n time bn:00077270n information bn:00046705n tool bn:00077585n number bn:00058285n state transition bn:03348716n nature bn:00057017n triggering bn:00082306v concept bn:00021547n occurring bn:00085337v require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (2) : A3 A4 
+  parents concepts (2) : 463 466 
+  childs concepts (6) : 240 316 361 388 397 407 
+
+Concept (428) : 
+  level : 3
+  objects (18) : statecharts bn:01128895n mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a reactive systems bn:02824399n automobiles bn:00007309n time bn:00077270n main bn:00099598a possible bn:00108829a concept bn:00021547n america bn:00003341n possibility bn:00045632n second bn:00095974a definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (3) : A2 A5 C7 
+  parents concepts (3) : 453 456 462 
+  childs concepts (5) : 215 237 372 399 410 
+
+Concept (429) : 
+  level : 2
+  objects (18) : systems bn:15125301n mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n time bn:00077270n tool bn:00077585n main bn:00099598a possible bn:00108829a semantics bn:00070404n history bn:00044268n syntax bn:00062118n definition bn:00025928n types bn:00016413n multiple bn:00107028a large number bn:14223782n 
+  attributes (2) : A2 C1 
+  parents concepts (2) : 458 467 
+  childs concepts (8) : 213 243 267 314 371 389 403 413 
+
+Concept (430) : 
+  level : 3
+  objects (19) : science bn:00069670n computer bn:00021464n statecharts bn:01128895n mathematics bn:00053823n state machine bn:00212740n communication bn:00021221n set bn:00070697n number bn:00058285n state transition bn:03348716n nature bn:00057017n orthogonality bn:00059586n broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A1 A3 A5 
+  parents concepts (3) : 447 448 465 
+  childs concepts (8) : 115 207 231 232 328 349 359 378 
+
+Concept (431) : 
+  level : 3
+  objects (19) : science bn:00069670n statecharts bn:01128895n david harel bn:03178978n state machine bn:00212740n diagrams bn:00026817n communication bn:00021221n units bn:00021497n reactive systems bn:02824399n example bn:00032100n output bn:00036821n orthogonality bn:00059586n broadcast bn:00013234n america bn:00003341n automata bn:00007371n application bn:00005095n possibility bn:00045632n syntax bn:00062118n defined bn:00086465v higraphs bn:01691263n 
+  attributes (3) : A1 A5 C3 
+  parents concepts (3) : 437 444 465 
+  childs concepts (8) : 136 138 257 269 309 328 333 406 
+
+Concept (432) : 
+  level : 3
+  objects (19) : statecharts bn:01128895n mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a reactive systems bn:02824399n automobiles bn:00007309n information bn:00046705n tool bn:00077585n triggering bn:00082306v possible bn:00108829a concept bn:00021547n america bn:00003341n possibility bn:00045632n second bn:00095974a merely bn:00114626r formal syntax bn:01042120n definition bn:00025928n 
+  attributes (3) : A1 A2 C7 
+  parents concepts (3) : 456 461 464 
+  childs concepts (6) : 100 278 308 319 399 418 
+
+Concept (433) : 
+  level : 2
+  objects (19) : systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n way bn:00033729n time bn:00077270n tool bn:00077585n state transition bn:03348716n main bn:00099598a possible bn:00108829a c d bn:00016915n application bn:00005095n light bn:00051108n defined bn:00086465v definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (2) : A4 C1 
+  parents concepts (2) : 458 466 
+  childs concepts (6) : 302 316 389 392 416 423 
+
+Concept (434) : 
+  level : 2
+  objects (19) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n way bn:00033729n time bn:00077270n set bn:00070697n state transition bn:03348716n main bn:00099598a possible bn:00108829a history bn:00044268n application bn:00005095n syntax bn:00062118n defined bn:00086465v definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (2) : A5 C1 
+  parents concepts (2) : 458 468 
+  childs concepts (7) : 303 320 325 403 404 414 416 
+
+Concept (435) : 
+  level : 2
+  objects (19) : mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n set bn:00070697n tool bn:00077585n state transition bn:03348716n hierarchical bn:00104156a possible bn:00108829a c d bn:00016915n history bn:00044268n application bn:00005095n light bn:00051108n timers bn:00077309n syntax bn:00062118n defined bn:00086465v definition bn:00025928n 
+  attributes (2) : A1 C1 
+  parents concepts (2) : 458 470 
+  childs concepts (8) : 71 166 304 323 371 392 404 415 
+
+Concept (436) : 
+  level : 2
+  objects (20) : science bn:00069670n statecharts bn:01128895n systems bn:15125301n mathematics bn:00053823n state bn:00023236n state machine bn:00212740n problem bn:00048242n time bn:00077270n information bn:00046705n tool bn:00077585n nature bn:00057017n triggering bn:00082306v orthogonality bn:00059586n broadcast bn:00013234n semantics bn:00070404n concept bn:00021547n occurring bn:00085337v possibility bn:00045632n definition bn:00025928n sequence bn:00070574n 
+  attributes (2) : A2 A3 
+  parents concepts (2) : 463 467 
+  childs concepts (10) : 148 150 195 234 312 327 361 376 396 398 
+
+Concept (437) : 
+  level : 2
+  objects (20) : science bn:00069670n statecharts bn:01128895n david harel bn:03178978n state machine bn:00212740n diagrams bn:00026817n communication bn:00021221n units bn:00021497n reactive systems bn:02824399n example bn:00032100n way bn:00033729n output bn:00036821n orthogonality bn:00059586n broadcast bn:00013234n america bn:00003341n automata bn:00007371n application bn:00005095n possibility bn:00045632n syntax bn:00062118n defined bn:00086465v higraphs bn:01691263n 
+  attributes (2) : A5 C3 
+  parents concepts (2) : 452 468 
+  childs concepts (4) : 303 346 350 431 
+
+Concept (438) : 
+  level : 3
+  objects (20) : statecharts bn:01128895n mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a reactive systems bn:02824399n automobiles bn:00007309n set bn:00070697n state transition bn:03348716n possible bn:00108829a concept bn:00021547n america bn:00003341n require bn:00091028v application bn:00005095n possibility bn:00045632n second bn:00095974a defined bn:00086465v definition bn:00025928n management bn:00053116n 
+  attributes (3) : A1 A5 C7 
+  parents concepts (3) : 453 461 465 
+  childs concepts (8) : 102 171 309 324 349 373 399 411 
+
+Concept (439) : 
+  level : 3
+  objects (20) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n time bn:00077270n nature bn:00057017n main bn:00099598a possible bn:00108829a concept bn:00021547n occurring bn:00085337v america bn:00003341n automata bn:00007371n effect bn:00021961n possibility bn:00045632n second bn:00095974a definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (3) : A2 A4 A5 
+  parents concepts (3) : 455 457 462 
+  childs concepts (6) : 125 281 343 375 409 410 
+
+Concept (440) : 
+  level : 3
+  objects (20) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n state transition bn:03348716n main bn:00099598a possible bn:00108829a concept bn:00021547n america bn:00003341n require bn:00091028v application bn:00005095n possibility bn:00045632n second bn:00095974a defined bn:00086465v definition bn:00025928n types bn:00016413n multiple bn:00107028a current bn:00096401a 
+  attributes (3) : A4 A5 C7 
+  parents concepts (3) : 453 455 459 
+  childs concepts (6) : 182 272 335 393 410 411 
+
+Concept (441) : 
+  level : 3
+  objects (21) : computer bn:00021464n statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n number bn:00058285n state transition bn:03348716n nature bn:00057017n possible bn:00108829a concept bn:00021547n occurring bn:00085337v america bn:00003341n automata bn:00007371n require bn:00091028v application bn:00005095n possibility bn:00045632n second bn:00095974a defined bn:00086465v definition bn:00025928n 
+  attributes (3) : A1 A4 A5 
+  parents concepts (3) : 455 460 465 
+  childs concepts (7) : 197 236 333 356 378 409 411 
+
+Concept (442) : 
+  level : 2
+  objects (21) : statecharts bn:01128895n systems bn:15125301n mathematics bn:00053823n state bn:00023236n problem bn:00048242n networks bn:00024712n time bn:00077270n simulation bn:00021496n set bn:00070697n information bn:00046705n tool bn:00077585n state transition bn:03348716n triggering bn:00082306v semantics bn:00070404n concept bn:00021547n require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n sequence bn:00070574n 
+  attributes (2) : A3 C7 
+  parents concepts (2) : 463 469 
+  childs concepts (9) : 88 156 277 285 352 362 388 398 408 
+
+Concept (443) : 
+  level : 3
+  objects (21) : statecharts bn:01128895n systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n information bn:00046705n tool bn:00077585n triggering bn:00082306v main bn:00099598a possible bn:00108829a concept bn:00021547n america bn:00003341n possibility bn:00045632n second bn:00095974a merely bn:00114626r formal syntax bn:01042120n definition bn:00025928n types bn:00016413n multiple bn:00107028a 
+  attributes (3) : A2 A4 C7 
+  parents concepts (3) : 456 457 459 
+  childs concepts (6) : 151 331 370 380 410 418 
+
+Concept (444) : 
+  level : 2
+  objects (22) : science bn:00069670n statecharts bn:01128895n david harel bn:03178978n state machine bn:00212740n diagrams bn:00026817n communication bn:00021221n units bn:00021497n reactive systems bn:02824399n example bn:00032100n output bn:00036821n tool bn:00077585n orthogonality bn:00059586n broadcast bn:00013234n america bn:00003341n automata bn:00007371n determinism bn:00026654n application bn:00005095n possibility bn:00045632n syntax bn:00062118n defined bn:00086465v higraphs bn:01691263n new york bn:00041611n 
+  attributes (2) : A1 C3 
+  parents concepts (2) : 452 470 
+  childs concepts (8) : 216 220 304 347 364 365 417 431 
+
+Concept (445) : 
+  level : 3
+  objects (23) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n behavior bn:00009657n complex bn:00100148a example bn:00032100n information bn:00046705n tool bn:00077585n nature bn:00057017n triggering bn:00082306v possible bn:00108829a concept bn:00021547n occurring bn:00085337v america bn:00003341n achieved bn:00082226v automata bn:00007371n possibility bn:00045632n second bn:00095974a merely bn:00114626r formal syntax bn:01042120n definition bn:00025928n finite bn:00102992a 
+  attributes (3) : A1 A2 A4 
+  parents concepts (3) : 457 460 464 
+  childs concepts (7) : 6 126 310 322 336 409 418 
+
+Concept (446) : 
+  level : 2
+  objects (23) : systems bn:15125301n mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n set bn:00070697n tool bn:00077585n state transition bn:03348716n hierarchical bn:00104156a main bn:00099598a possible bn:00108829a semantics bn:00070404n c d bn:00016915n application bn:00005095n light bn:00051108n defined bn:00086465v definition bn:00025928n types bn:00016413n multiple bn:00107028a large number bn:14223782n bit bn:00010731n 
+  attributes (2) : C1 C7 
+  parents concepts (2) : 458 469 
+  childs concepts (8) : 242 270 352 353 413 414 415 423 
+
+Concept (447) : 
+  level : 2
+  objects (24) : science bn:00069670n computer bn:00021464n statecharts bn:01128895n mathematics bn:00053823n state machine bn:00212740n communication bn:00021221n networks bn:00024712n simulation bn:00021496n set bn:00070697n information bn:00046705n tool bn:00077585n number bn:00058285n state transition bn:03348716n nature bn:00057017n triggering bn:00082306v orthogonality bn:00059586n broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n 
+  attributes (2) : A1 A3 
+  parents concepts (2) : 463 470 
+  childs concepts (8) : 114 176 250 347 396 407 408 430 
+
+Concept (448) : 
+  level : 2
+  objects (24) : science bn:00069670n computer bn:00021464n statecharts bn:01128895n mathematics bn:00053823n state machine bn:00212740n communication bn:00021221n way bn:00033729n time bn:00077270n set bn:00070697n number bn:00058285n state transition bn:03348716n nature bn:00057017n orthogonality bn:00059586n broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n workflows bn:00081578n transition state bn:03731398n police bn:00022026n 
+  attributes (2) : A3 A5 
+  parents concepts (2) : 463 468 
+  childs concepts (8) : 249 274 320 346 362 376 397 430 
+
+Concept (449) : 
+  level : 3
+  objects (24) : statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a information bn:00046705n tool bn:00077585n state transition bn:03348716n triggering bn:00082306v possible bn:00108829a concept bn:00021547n america bn:00003341n c d bn:00016915n require bn:00091028v application bn:00005095n possibility bn:00045632n light bn:00051108n second bn:00095974a merely bn:00114626r defined bn:00086465v formal syntax bn:01042120n definition bn:00025928n subset bn:00074971n new york bn:00041611n 
+  attributes (3) : A1 A4 C7 
+  parents concepts (3) : 459 460 461 
+  childs concepts (8) : 73 183 334 358 366 386 411 418 
+
+Concept (450) : 
+  level : 1
+  objects (24) : systems bn:15125301n mathematics bn:00053823n state machine bn:00212740n communication bn:00021221n units bn:00021497n complex system bn:03086504n problem bn:00048242n time bn:00077270n output bn:00036821n triggering bn:00082306v orthogonality bn:00059586n semantics bn:00070404n achieved bn:00082226v c d bn:00016915n effect bn:00021961n require bn:00091028v simultaneous bn:00099916a syntax bn:00062118n composite bn:00100155a current bn:00096401a summary bn:00075142n composite states bn:00892979n interaction diagram bn:02571962n superstate bn:03656095n 
+  attributes (1) : C8 
+  parents concepts (1) : 471 
+  childs concepts (11) : 253 284 286 294 318 351 354 367 383 402 412 
+
+Concept (451) : 
+  level : 1
+  objects (25) : systems bn:15125301n state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a complex system bn:03086504n set bn:00070697n output bn:00036821n information bn:00046705n hierarchical bn:00104156a possible bn:00108829a concept bn:00021547n history bn:00044268n effect bn:00021961n second bn:00095974a merely bn:00114626r substates bn:00964536n new york bn:00041611n types bn:00016413n strategy bn:00069579n bit bn:00010731n simple bn:00098053a interaction diagram bn:02571962n activity diagrams bn:02627321n 
+  attributes (1) : C2 
+  parents concepts (1) : 471 
+  childs concepts (9) : 206 247 286 369 390 419 420 422 424 
+
+Concept (452) : 
+  level : 1
+  objects (26) : science bn:00069670n statecharts bn:01128895n david harel bn:03178978n state bn:00023236n state machine bn:00212740n diagrams bn:00026817n communication bn:00021221n units bn:00021497n reactive systems bn:02824399n example bn:00032100n way bn:00033729n output bn:00036821n tool bn:00077585n orthogonality bn:00059586n broadcast bn:00013234n semantics bn:00070404n america bn:00003341n automata bn:00007371n determinism bn:00026654n application bn:00005095n possibility bn:00045632n syntax bn:00062118n defined bn:00086465v higraphs bn:01691263n new york bn:00041611n deterministic finite state automata bn:03499526n 
+  attributes (1) : C3 
+  parents concepts (1) : 471 
+  childs concepts (10) : 193 194 294 344 379 387 400 426 437 444 
+
+Concept (453) : 
+  level : 2
+  objects (26) : statecharts bn:01128895n mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a reactive systems bn:02824399n automobiles bn:00007309n time bn:00077270n set bn:00070697n state transition bn:03348716n main bn:00099598a possible bn:00108829a concept bn:00021547n america bn:00003341n require bn:00091028v application bn:00005095n possibility bn:00045632n second bn:00095974a defined bn:00086465v definition bn:00025928n management bn:00053116n types bn:00016413n multiple bn:00107028a current bn:00096401a stateflow bn:03369007n 
+  attributes (2) : A5 C7 
+  parents concepts (2) : 468 469 
+  childs concepts (9) : 59 210 292 340 362 414 428 438 440 
+
+Concept (454) : 
+  level : 3
+  objects (28) : science bn:00069670n statecharts bn:01128895n mathematics bn:00053823n state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a reactive systems bn:02824399n example bn:00032100n automobiles bn:00007309n output bn:00036821n nature bn:00057017n orthogonality bn:00059586n possible bn:00108829a broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v america bn:00003341n automata bn:00007371n sec bn:00068672n history bn:00044268n possibility bn:00045632n second bn:00095974a syntax bn:00062118n substates bn:00964536n definition bn:00025928n higraphs bn:01691263n 
+  attributes (3) : A1 A2 A5 
+  parents concepts (3) : 462 464 465 
+  childs concepts (10) : 219 235 251 355 359 360 374 399 406 409 
+
+Concept (455) : 
+  level : 2
+  objects (28) : computer bn:00021464n statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n way bn:00033729n time bn:00077270n number bn:00058285n state transition bn:03348716n nature bn:00057017n main bn:00099598a possible bn:00108829a concept bn:00021547n occurring bn:00085337v america bn:00003341n automata bn:00007371n effect bn:00021961n require bn:00091028v application bn:00005095n possibility bn:00045632n second bn:00095974a defined bn:00086465v definition bn:00025928n types bn:00016413n multiple bn:00107028a current bn:00096401a 
+  attributes (2) : A4 A5 
+  parents concepts (2) : 466 468 
+  childs concepts (8) : 225 307 350 397 416 439 440 441 
+
+Concept (456) : 
+  level : 2
+  objects (29) : statecharts bn:01128895n systems bn:15125301n mathematics bn:00053823n state bn:00023236n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a problem bn:00048242n reactive systems bn:02824399n automobiles bn:00007309n time bn:00077270n information bn:00046705n tool bn:00077585n triggering bn:00082306v main bn:00099598a possible bn:00108829a semantics bn:00070404n concept bn:00021547n america bn:00003341n possibility bn:00045632n second bn:00095974a merely bn:00114626r formal syntax bn:01042120n definition bn:00025928n types bn:00016413n multiple bn:00107028a sequence bn:00070574n large number bn:14223782n 
+  attributes (2) : A2 C7 
+  parents concepts (2) : 467 469 
+  childs concepts (9) : 87 255 283 332 398 413 428 432 443 
+
+Concept (457) : 
+  level : 2
+  objects (29) : statecharts bn:01128895n systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n behavior bn:00009657n complex bn:00100148a example bn:00032100n time bn:00077270n information bn:00046705n tool bn:00077585n nature bn:00057017n triggering bn:00082306v main bn:00099598a possible bn:00108829a concept bn:00021547n occurring bn:00085337v america bn:00003341n achieved bn:00082226v automata bn:00007371n effect bn:00021961n possibility bn:00045632n second bn:00095974a merely bn:00114626r formal syntax bn:01042120n definition bn:00025928n finite bn:00102992a types bn:00016413n multiple bn:00107028a 
+  attributes (2) : A2 A4 
+  parents concepts (2) : 466 467 
+  childs concepts (8) : 28 248 361 381 389 439 443 445 
+
+Concept (458) : 
+  level : 1
+  objects (29) : systems bn:15125301n mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a example bn:00032100n way bn:00033729n time bn:00077270n set bn:00070697n tool bn:00077585n state transition bn:03348716n hierarchical bn:00104156a main bn:00099598a possible bn:00108829a semantics bn:00070404n c d bn:00016915n history bn:00044268n application bn:00005095n light bn:00051108n timers bn:00077309n syntax bn:00062118n defined bn:00086465v definition bn:00025928n types bn:00016413n multiple bn:00107028a large number bn:14223782n goal bn:00030721n bit bn:00010731n 
+  attributes (1) : C1 
+  parents concepts (1) : 471 
+  childs concepts (10) : 91 284 344 368 369 429 433 434 435 446 
+
+Concept (459) : 
+  level : 2
+  objects (31) : statecharts bn:01128895n systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a time bn:00077270n information bn:00046705n tool bn:00077585n state transition bn:03348716n triggering bn:00082306v main bn:00099598a possible bn:00108829a concept bn:00021547n america bn:00003341n c d bn:00016915n require bn:00091028v application bn:00005095n possibility bn:00045632n light bn:00051108n second bn:00095974a merely bn:00114626r defined bn:00086465v formal syntax bn:01042120n definition bn:00025928n subset bn:00074971n new york bn:00041611n types bn:00016413n multiple bn:00107028a current bn:00096401a traffic light bn:00074441n 
+  attributes (2) : A4 C7 
+  parents concepts (2) : 466 469 
+  childs concepts (8) : 92 288 382 388 423 440 443 449 
+
+Concept (460) : 
+  level : 2
+  objects (33) : computer bn:00021464n statecharts bn:01128895n diagrams bn:00026817n units bn:00021497n language bn:00049910n behavior bn:00009657n complex bn:00100148a example bn:00032100n information bn:00046705n tool bn:00077585n number bn:00058285n state transition bn:03348716n nature bn:00057017n triggering bn:00082306v possible bn:00108829a concept bn:00021547n occurring bn:00085337v america bn:00003341n achieved bn:00082226v automata bn:00007371n c d bn:00016915n require bn:00091028v application bn:00005095n possibility bn:00045632n light bn:00051108n second bn:00095974a merely bn:00114626r defined bn:00086465v formal syntax bn:01042120n definition bn:00025928n subset bn:00074971n finite bn:00102992a new york bn:00041611n 
+  attributes (2) : A1 A4 
+  parents concepts (2) : 466 470 
+  childs concepts (8) : 129 226 365 392 407 441 445 449 
+
+Concept (461) : 
+  level : 2
+  objects (33) : statecharts bn:01128895n mathematics bn:00053823n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a reactive systems bn:02824399n automobiles bn:00007309n networks bn:00024712n simulation bn:00021496n set bn:00070697n information bn:00046705n tool bn:00077585n state transition bn:03348716n triggering bn:00082306v hierarchical bn:00104156a possible bn:00108829a concept bn:00021547n america bn:00003341n c d bn:00016915n require bn:00091028v determinism bn:00026654n application bn:00005095n possibility bn:00045632n light bn:00051108n second bn:00095974a merely bn:00114626r defined bn:00086465v formal syntax bn:01042120n definition bn:00025928n subset bn:00074971n management bn:00053116n new york bn:00041611n 
+  attributes (2) : A1 C7 
+  parents concepts (2) : 469 470 
+  childs concepts (9) : 185 211 364 385 408 415 432 438 449 
+
+Concept (462) : 
+  level : 2
+  objects (35) : science bn:00069670n statecharts bn:01128895n mathematics bn:00053823n state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a complex system bn:03086504n reactive systems bn:02824399n example bn:00032100n automobiles bn:00007309n time bn:00077270n output bn:00036821n nature bn:00057017n orthogonality bn:00059586n main bn:00099598a possible bn:00108829a broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v america bn:00003341n automata bn:00007371n sec bn:00068672n history bn:00044268n effect bn:00021961n possibility bn:00045632n second bn:00095974a syntax bn:00062118n substates bn:00964536n definition bn:00025928n higraphs bn:01691263n entity bn:00031027n types bn:00016413n multiple bn:00107028a 
+  attributes (2) : A2 A5 
+  parents concepts (2) : 467 468 
+  childs concepts (8) : 329 338 376 403 405 428 439 454 
+
+Concept (463) : 
+  level : 1
+  objects (36) : science bn:00069670n computer bn:00021464n statecharts bn:01128895n systems bn:15125301n mathematics bn:00053823n state bn:00023236n state machine bn:00212740n communication bn:00021221n problem bn:00048242n networks bn:00024712n kind bn:00035907n way bn:00033729n time bn:00077270n simulation bn:00021496n set bn:00070697n information bn:00046705n tool bn:00077585n number bn:00058285n state transition bn:03348716n nature bn:00057017n triggering bn:00082306v orthogonality bn:00059586n broadcast bn:00013234n semantics bn:00070404n concept bn:00021547n occurring bn:00085337v require bn:00091028v application bn:00005095n possibility bn:00045632n defined bn:00086465v definition bn:00025928n sequence bn:00070574n workflows bn:00081578n plant bn:00035324n transition state bn:03731398n police bn:00022026n 
+  attributes (1) : A3 
+  parents concepts (1) : 471 
+  childs concepts (12) : 205 206 305 306 351 368 387 427 436 442 447 448 
+
+Concept (464) : 
+  level : 2
+  objects (36) : science bn:00069670n statecharts bn:01128895n mathematics bn:00053823n state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n behavior bn:00009657n complex bn:00100148a reactive systems bn:02824399n example bn:00032100n automobiles bn:00007309n output bn:00036821n information bn:00046705n tool bn:00077585n nature bn:00057017n triggering bn:00082306v orthogonality bn:00059586n possible bn:00108829a broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v america bn:00003341n achieved bn:00082226v automata bn:00007371n sec bn:00068672n history bn:00044268n possibility bn:00045632n second bn:00095974a merely bn:00114626r syntax bn:00062118n substates bn:00964536n formal syntax bn:01042120n definition bn:00025928n higraphs bn:01691263n finite bn:00102992a 
+  attributes (2) : A1 A2 
+  parents concepts (2) : 467 470 
+  childs concepts (9) : 260 317 371 391 396 417 432 445 454 
+
+Concept (465) : 
+  level : 2
+  objects (40) : science bn:00069670n computer bn:00021464n statecharts bn:01128895n david harel bn:03178978n mathematics bn:00053823n state machine bn:00212740n diagrams bn:00026817n communication bn:00021221n units bn:00021497n language bn:00049910n complex bn:00100148a reactive systems bn:02824399n example bn:00032100n automobiles bn:00007309n set bn:00070697n output bn:00036821n number bn:00058285n state transition bn:03348716n nature bn:00057017n orthogonality bn:00059586n possible bn:00108829a broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v america bn:00003341n automata bn:00007371n sec bn:00068672n history bn:00044268n require bn:00091028v simultaneous bn:00099916a application bn:00005095n possibility bn:00045632n second bn:00095974a syntax bn:00062118n substates bn:00964536n defined bn:00086465v definition bn:00025928n management bn:00053116n higraphs bn:01691263n automata theory bn:00152075n 
+  attributes (2) : A1 A5 
+  parents concepts (2) : 468 470 
+  childs concepts (10) : 337 345 384 394 404 430 431 438 441 454 
+
+Concept (466) : 
+  level : 1
+  objects (46) : computer bn:00021464n statecharts bn:01128895n systems bn:15125301n diagrams bn:00026817n units bn:00021497n language bn:00049910n behavior bn:00009657n complex bn:00100148a example bn:00032100n way bn:00033729n time bn:00077270n information bn:00046705n tool bn:00077585n number bn:00058285n state transition bn:03348716n nature bn:00057017n triggering bn:00082306v main bn:00099598a possible bn:00108829a concept bn:00021547n occurring bn:00085337v america bn:00003341n achieved bn:00082226v automata bn:00007371n c d bn:00016915n effect bn:00021961n require bn:00091028v application bn:00005095n possibility bn:00045632n light bn:00051108n second bn:00095974a merely bn:00114626r defined bn:00086465v formal syntax bn:01042120n definition bn:00025928n subset bn:00074971n finite bn:00102992a new york bn:00041611n types bn:00016413n multiple bn:00107028a code bn:00020354n current bn:00096401a traffic light bn:00074441n include bn:00089662v logical value bn:00855623n summary bn:00075142n 
+  attributes (1) : A4 
+  parents concepts (1) : 471 
+  childs concepts (12) : 153 276 330 354 379 390 427 433 455 457 459 460 
+
+Concept (467) : 
+  level : 1
+  objects (50) : science bn:00069670n statecharts bn:01128895n systems bn:15125301n mathematics bn:00053823n state bn:00023236n state machine bn:00212740n diagrams bn:00026817n units bn:00021497n language bn:00049910n behavior bn:00009657n complex bn:00100148a complex system bn:03086504n problem bn:00048242n reactive systems bn:02824399n example bn:00032100n automobiles bn:00007309n time bn:00077270n output bn:00036821n information bn:00046705n tool bn:00077585n nature bn:00057017n triggering bn:00082306v orthogonality bn:00059586n main bn:00099598a possible bn:00108829a broadcast bn:00013234n semantics bn:00070404n concept bn:00021547n occurring bn:00085337v america bn:00003341n achieved bn:00082226v automata bn:00007371n sec bn:00068672n history bn:00044268n effect bn:00021961n possibility bn:00045632n second bn:00095974a merely bn:00114626r syntax bn:00062118n substates bn:00964536n formal syntax bn:01042120n definition bn:00025928n higraphs bn:01691263n finite bn:00102992a entity bn:00031027n types bn:00016413n multiple bn:00107028a composite bn:00100155a sequence bn:00070574n large number bn:14223782n 
+  attributes (1) : A2 
+  parents concepts (1) : 471 
+  childs concepts (12) : 313 348 377 412 422 426 429 436 456 457 462 464 
+
+Concept (468) : 
+  level : 1
+  objects (58) : science bn:00069670n computer bn:00021464n statecharts bn:01128895n david harel bn:03178978n mathematics bn:00053823n state machine bn:00212740n diagrams bn:00026817n communication bn:00021221n units bn:00021497n language bn:00049910n complex bn:00100148a complex system bn:03086504n reactive systems bn:02824399n example bn:00032100n automobiles bn:00007309n way bn:00033729n time bn:00077270n set bn:00070697n output bn:00036821n number bn:00058285n state transition bn:03348716n nature bn:00057017n orthogonality bn:00059586n main bn:00099598a possible bn:00108829a broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v america bn:00003341n automata bn:00007371n sec bn:00068672n history bn:00044268n effect bn:00021961n require bn:00091028v simultaneous bn:00099916a application bn:00005095n possibility bn:00045632n second bn:00095974a syntax bn:00062118n substates bn:00964536n defined bn:00086465v definition bn:00025928n management bn:00053116n higraphs bn:01691263n automata theory bn:00152075n entity bn:00031027n types bn:00016413n multiple bn:00107028a workflows bn:00081578n transition state bn:03731398n strategy bn:00069579n police bn:00022026n current bn:00096401a stateflow bn:03369007n red light bn:00066676n composite states bn:00892979n inner bn:00105133a deep bn:00101054a 
+  attributes (1) : A5 
+  parents concepts (1) : 471 
+  childs concepts (11) : 261 395 402 419 434 437 448 453 455 462 465 
+
+Concept (469) : 
+  level : 1
+  objects (58) : statecharts bn:01128895n systems bn:15125301n mathematics bn:00053823n state bn:00023236n diagrams bn:00026817n units bn:00021497n language bn:00049910n complex bn:00100148a problem bn:00048242n reactive systems bn:02824399n automobiles bn:00007309n networks bn:00024712n time bn:00077270n simulation bn:00021496n set bn:00070697n information bn:00046705n tool bn:00077585n state transition bn:03348716n triggering bn:00082306v hierarchical bn:00104156a main bn:00099598a possible bn:00108829a semantics bn:00070404n concept bn:00021547n america bn:00003341n c d bn:00016915n require bn:00091028v determinism bn:00026654n application bn:00005095n possibility bn:00045632n light bn:00051108n second bn:00095974a merely bn:00114626r defined bn:00086465v formal syntax bn:01042120n definition bn:00025928n subset bn:00074971n management bn:00053116n new york bn:00041611n types bn:00016413n multiple bn:00107028a sequence bn:00070574n large number bn:14223782n city bn:03335997n transducer bn:00077966n current bn:00096401a traffic light bn:00074441n bit bn:00010731n gate bn:00037487n flip-flop bn:00035248n stateflow bn:03369007n simple bn:00098053a interaction diagram bn:02571962n deterministic finite state automata bn:03499526n fsa bn:03013778n basic bn:00098103a fsms bn:03431506n state actions bn:00955439n 
+  attributes (1) : C7 
+  parents concepts (1) : 471 
+  childs concepts (11) : 315 321 367 400 424 442 446 453 456 459 461 
+
+Concept (470) : 
+  level : 1
+  objects (61) : science bn:00069670n computer bn:00021464n statecharts bn:01128895n david harel bn:03178978n mathematics bn:00053823n state machine bn:00212740n diagrams bn:00026817n communication bn:00021221n units bn:00021497n language bn:00049910n behavior bn:00009657n complex bn:00100148a reactive systems bn:02824399n example bn:00032100n automobiles bn:00007309n networks bn:00024712n simulation bn:00021496n set bn:00070697n output bn:00036821n information bn:00046705n tool bn:00077585n number bn:00058285n state transition bn:03348716n nature bn:00057017n triggering bn:00082306v hierarchical bn:00104156a orthogonality bn:00059586n possible bn:00108829a broadcast bn:00013234n concept bn:00021547n occurring bn:00085337v america bn:00003341n achieved bn:00082226v automata bn:00007371n c d bn:00016915n sec bn:00068672n history bn:00044268n require bn:00091028v determinism bn:00026654n simultaneous bn:00099916a application bn:00005095n possibility bn:00045632n light bn:00051108n second bn:00095974a merely bn:00114626r reg bn:01922794n timers bn:00077309n syntax bn:00062118n substates bn:00964536n conditional bn:00100214a defined bn:00086465v formal syntax bn:01042120n operational semantics bn:02057536n definition bn:00025928n condition c bn:00675915n subset bn:00074971n management bn:00053116n higraphs bn:01691263n finite bn:00102992a new york bn:00041611n automata theory bn:00152075n 
+  attributes (1) : A1 
+  parents concepts (1) : 471 
+  childs concepts (10) : 339 383 420 435 444 447 460 461 464 465 
+
+Concept (471) : 
+  level : 0
+  objects (111) : science bn:00069670n computer bn:00021464n statecharts bn:01128895n systems bn:15125301n david harel bn:03178978n mathematics bn:00053823n state bn:00023236n state machine bn:00212740n diagrams bn:00026817n communication bn:00021221n units bn:00021497n language bn:00049910n behavior bn:00009657n complex bn:00100148a complex system bn:03086504n problem bn:00048242n reactive systems bn:02824399n example bn:00032100n automobiles bn:00007309n networks bn:00024712n kind bn:00035907n way bn:00033729n time bn:00077270n simulation bn:00021496n set bn:00070697n output bn:00036821n information bn:00046705n tool bn:00077585n number bn:00058285n state transition bn:03348716n nature bn:00057017n triggering bn:00082306v hierarchical bn:00104156a orthogonality bn:00059586n main bn:00099598a possible bn:00108829a broadcast bn:00013234n semantics bn:00070404n concept bn:00021547n occurring bn:00085337v america bn:00003341n achieved bn:00082226v automata bn:00007371n c d bn:00016915n sec bn:00068672n history bn:00044268n effect bn:00021961n require bn:00091028v determinism bn:00026654n simultaneous bn:00099916a application bn:00005095n possibility bn:00045632n light bn:00051108n second bn:00095974a merely bn:00114626r reg bn:01922794n timers bn:00077309n syntax bn:00062118n substates bn:00964536n conditional bn:00100214a defined bn:00086465v formal syntax bn:01042120n operational semantics bn:02057536n definition bn:00025928n condition c bn:00675915n subset bn:00074971n management bn:00053116n higraphs bn:01691263n finite bn:00102992a new york bn:00041611n automata theory bn:00152075n entity bn:00031027n types bn:00016413n multiple bn:00107028a composite bn:00100155a sequence bn:00070574n large number bn:14223782n goal bn:00030721n scenario bn:01190125n city bn:03335997n workflows bn:00081578n plant bn:00035324n transition state bn:03731398n strategy bn:00069579n police bn:00022026n transducer bn:00077966n code bn:00020354n current bn:00096401a traffic light bn:00074441n bit bn:00010731n include bn:00089662v logical value bn:00855623n gate bn:00037487n flip-flop bn:00035248n summary bn:00075142n autonomous bn:00097830a stateflow bn:03369007n red light bn:00066676n composite states bn:00892979n inner bn:00105133a deep bn:00101054a simple bn:00098053a atomic bn:00097696a interaction diagram bn:02571962n activity diagrams bn:02627321n deterministic finite state automata bn:03499526n superstate bn:03656095n fsa bn:03013778n basic bn:00098103a fsms bn:03431506n state actions bn:00955439n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (13) : 401 421 425 450 451 452 458 463 466 467 468 469 470 
+

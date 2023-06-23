@@ -1,0 +1,78 @@
+B
+
+31
+11
+
+fichier bn:00021475n
+client bn:00019764n
+base de donnée bn:00025333n
+donnée bn:00025314n
+php bn:01753580n
+délimiter bn:00086464v
+nombre bn:00058285n
+text bn:14981519n
+zones bn:00005513n
+passwd bn:14874750n
+mysql bn:01225760n
+salaire bn:15928884n
+site bn:00047172n
+programmation web bn:03446093n
+session bn:03751534n
+chaîne bn:00074685n
+script bn:01431715n
+serveur bn:00044916n
+type bn:00016413n
+classes bn:03608262n
+fonctionnalité bn:00036836n
+header bn:00043309n
+sauvegarder bn:00093281v
+web bn:00080772n
+positionnement bn:00030615n
+exe bn:14503132n
+head bn:02338897n
+attribut bn:00007068n
+valeur bn:00079508n
+moteur bn:00030850n
+accéder bn:00082209v
+C1
+C12
+C13
+C14
+C16
+C18
+C2
+C4
+C7
+C8
+C9
+...XX.....X
+XX.X...X...
+.X..X..XX..
+.X..X.XXX..
+..XXX......
+.X.....X.X.
+.X.X...XXX.
+XX..XXXX...
+..XX.......
+X..........
+.XXX...X...
+.........X.
+XX..X.X....
+.X.....X...
+.X.........
+...X.....X.
+..XXX.X....
+....X......
+...X....X..
+.X........X
+.....X.....
+.X........X
+.X.........
+.X...X.....
+.X.........
+..X........
+.......X...
+..........X
+....X......
+....X......
+..........X

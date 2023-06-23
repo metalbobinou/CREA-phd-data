@@ -1,0 +1,156 @@
+// <Lattice object of 8 atoms 39 concepts 10 coatoms at 0x11f4eff98>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="fichier bn:00021475n" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="client bn:00019764n" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="donnée bn:00025314n" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="nombre bn:00058285n" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="text bn:14981519n" labelangle=270]
+	c5 -> c0
+	c6
+	c6 -> c6 [color=transparent headlabel="mysql bn:01225760n" labelangle=270]
+	c6 -> c0
+	c7
+	c7 -> c7 [color=transparent headlabel="script bn:01431715n" labelangle=270]
+	c7 -> c0
+	c8
+	c8 -> c2
+	c8 -> c5
+	c9
+	c9 -> c9 [color=transparent headlabel="base de donnée bn:00025333n" labelangle=270]
+	c9 -> c3
+	c10
+	c10 -> c3
+	c10 -> c5
+	c11
+	c11 -> c11 [color=transparent headlabel="php bn:01753580n" labelangle=270]
+	c11 -> c7
+	c12
+	c12 -> c12 [color=transparent headlabel="délimiter bn:00086464v" labelangle=270]
+	c12 -> c4
+	c13
+	c13 -> c13 [color=transparent headlabel="chaîne bn:00074685n" labelangle=270]
+	c13 -> c4
+	c14
+	c14 -> c14 [color=transparent headlabel="type bn:00016413n" labelangle=270]
+	c14 -> c4
+	c15
+	c15 -> c15 [color=transparent headlabel="site bn:00047172n" labelangle=270]
+	c15 -> c5
+	c16
+	c16 -> c16 [color=transparent headlabel="web bn:00080772n" labelangle=270]
+	c16 -> c5
+	c17
+	c17 -> c17 [color=transparent headlabel="classes bn:03608262n header bn:00043309n" labelangle=270]
+	c17 -> c0
+	c18
+	c18 -> c1
+	c18 -> c11
+	c19
+	c19 -> c2
+	c19 -> c4
+	c19 -> c6
+	c20
+	c20 -> c8
+	c20 -> c15
+	c21
+	c21 -> c4
+	c21 -> c9
+	c22
+	c22 -> c9
+	c22 -> c10
+	c23
+	c23 -> c10
+	c23 -> c15
+	c24
+	c24 -> c24 [color=transparent headlabel="fonctionnalité bn:00036836n" labelangle=270]
+	c24 -> c24 [color=transparent labelangle=90 taillabel=C18]
+	c24 -> c16
+	c25
+	c25 -> c25 [color=transparent headlabel="passwd bn:14874750n" labelangle=270]
+	c25 -> c25 [color=transparent labelangle=90 taillabel=C1]
+	c25 -> c20
+	c26
+	c26 -> c26 [color=transparent labelangle=90 taillabel=C7]
+	c26 -> c14
+	c26 -> c21
+	c27
+	c27 -> c22
+	c27 -> c23
+	c28
+	c28 -> c28 [color=transparent labelangle=90 taillabel=C2]
+	c28 -> c7
+	c28 -> c23
+	c29
+	c29 -> c29 [color=transparent headlabel="zones bn:00005513n" labelangle=270]
+	c29 -> c6
+	c29 -> c11
+	c30
+	c30 -> c30 [color=transparent headlabel="salaire bn:15928884n" labelangle=270]
+	c30 -> c30 [color=transparent labelangle=90 taillabel=C8]
+	c30 -> c12
+	c30 -> c13
+	c31
+	c31 -> c31 [color=transparent headlabel="attribut bn:00007068n accéder bn:00082209v" labelangle=270]
+	c31 -> c31 [color=transparent labelangle=90 taillabel=C9]
+	c31 -> c1
+	c31 -> c17
+	c32
+	c32 -> c32 [color=transparent headlabel="exe bn:14503132n" labelangle=270]
+	c32 -> c32 [color=transparent labelangle=90 taillabel=C13]
+	c32 -> c29
+	c33
+	c33 -> c33 [color=transparent headlabel="programmation web bn:03446093n" labelangle=270]
+	c33 -> c8
+	c33 -> c12
+	c33 -> c19
+	c33 -> c21
+	c33 -> c22
+	c34
+	c34 -> c34 [color=transparent labelangle=90 taillabel=C14]
+	c34 -> c13
+	c34 -> c14
+	c34 -> c18
+	c34 -> c19
+	c34 -> c29
+	c35
+	c35 -> c35 [color=transparent headlabel="head bn:02338897n" labelangle=270]
+	c35 -> c35 [color=transparent labelangle=90 taillabel=C4]
+	c35 -> c33
+	c36
+	c36 -> c36 [color=transparent headlabel="serveur bn:00044916n valeur bn:00079508n moteur bn:00030850n" labelangle=270]
+	c36 -> c36 [color=transparent labelangle=90 taillabel=C16]
+	c36 -> c18
+	c36 -> c27
+	c36 -> c28
+	c37
+	c37 -> c37 [color=transparent headlabel="session bn:03751534n sauvegarder bn:00093281v positionnement bn:00030615n" labelangle=270]
+	c37 -> c37 [color=transparent labelangle=90 taillabel=C12]
+	c37 -> c16
+	c37 -> c17
+	c37 -> c20
+	c37 -> c27
+	c37 -> c33
+	c38
+	c38 -> c24
+	c38 -> c25
+	c38 -> c26
+	c38 -> c30
+	c38 -> c31
+	c38 -> c32
+	c38 -> c34
+	c38 -> c35
+	c38 -> c36
+	c38 -> c37
+}

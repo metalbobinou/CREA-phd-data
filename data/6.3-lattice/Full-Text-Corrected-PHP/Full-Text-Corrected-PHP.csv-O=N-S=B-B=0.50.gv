@@ -1,0 +1,212 @@
+// <Lattice object of 7 atoms 50 concepts 7 coatoms at 0x11bd201d0>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="base de donnees bn:00025333n" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="méthode get bn:00045088n" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="code bn:00020354n" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="nécessaire bn:00107182a" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="méthode bn:01641329n" labelangle=270]
+	c5 -> c0
+	c6
+	c6 -> c6 [color=transparent headlabel="client bn:00019764n" labelangle=270]
+	c6 -> c0
+	c7
+	c7 -> c7 [color=transparent headlabel="texte bn:00076732n" labelangle=270]
+	c7 -> c1
+	c8
+	c8 -> c8 [color=transparent headlabel="langage de script bn:01431715n" labelangle=270]
+	c8 -> c5
+	c9
+	c9 -> c9 [color=transparent headlabel="afficher bn:00087013v" labelangle=270]
+	c9 -> c2
+	c10
+	c10 -> c2
+	c10 -> c4
+	c11
+	c11 -> c2
+	c11 -> c5
+	c12
+	c12 -> c12 [color=transparent headlabel="file bn:00065682n" labelangle=270]
+	c12 -> c6
+	c13
+	c13 -> c13 [color=transparent headlabel="php bn:01753580n" labelangle=270]
+	c13 -> c9
+	c14
+	c14 -> c14 [color=transparent headlabel="fichier bn:00021475n" labelangle=270]
+	c14 -> c3
+	c14 -> c5
+	c15
+	c15 -> c1
+	c15 -> c2
+	c15 -> c6
+	c16
+	c16 -> c8
+	c16 -> c11
+	c17
+	c17 -> c17 [color=transparent headlabel="sélectionner bn:00084931v" labelangle=270]
+	c17 -> c3
+	c17 -> c4
+	c18
+	c18 -> c18 [color=transparent headlabel="serveur bn:00044916n fois bn:00032768n syntaxe bn:00062118n" labelangle=270]
+	c18 -> c0
+	c19
+	c19 -> c19 [color=transparent headlabel="exception bn:00032118n" labelangle=270]
+	c19 -> c12
+	c20
+	c20 -> c8
+	c20 -> c14
+	c21
+	c21 -> c11
+	c21 -> c14
+	c22
+	c22 -> c9
+	c22 -> c15
+	c23
+	c23 -> c12
+	c23 -> c15
+	c24
+	c24 -> c2
+	c24 -> c18
+	c25
+	c25 -> c25 [color=transparent headlabel="personne bn:00046516n" labelangle=270]
+	c25 -> c18
+	c26
+	c26 -> c26 [color=transparent headlabel="langage bn:00049910n" labelangle=270]
+	c26 -> c18
+	c27
+	c27 -> c5
+	c27 -> c18
+	c28
+	c28 -> c11
+	c28 -> c24
+	c28 -> c27
+	c29
+	c29 -> c29 [color=transparent headlabel="timestamp bn:03603649n" labelangle=270]
+	c29 -> c3
+	c29 -> c18
+	c30
+	c30 -> c30 [color=transparent headlabel="impossible bn:00104687a" labelangle=270]
+	c30 -> c26
+	c31
+	c31 -> c6
+	c31 -> c26
+	c32
+	c32 -> c32 [color=transparent headlabel="données bn:00025314n" labelangle=270]
+	c32 -> c1
+	c32 -> c26
+	c33
+	c33 -> c9
+	c33 -> c24
+	c33 -> c25
+	c34
+	c34 -> c34 [color=transparent headlabel="pouvoir bn:00084450v" labelangle=270]
+	c34 -> c29
+	c35
+	c35 -> c35 [color=transparent labelangle=90 taillabel=C6]
+	c35 -> c10
+	c35 -> c16
+	c35 -> c17
+	c35 -> c20
+	c35 -> c21
+	c36
+	c36 -> c29
+	c36 -> c30
+	c37
+	c37 -> c4
+	c37 -> c30
+	c37 -> c31
+	c38
+	c38 -> c38 [color=transparent headlabel="echo bn:03626250n" labelangle=270]
+	c38 -> c12
+	c38 -> c31
+	c39
+	c39 -> c14
+	c39 -> c25
+	c39 -> c27
+	c39 -> c29
+	c40
+	c40 -> c15
+	c40 -> c24
+	c40 -> c31
+	c40 -> c32
+	c41
+	c41 -> c41 [color=transparent headlabel="rue bn:00074595n" labelangle=270]
+	c41 -> c41 [color=transparent labelangle=90 taillabel=C17]
+	c41 -> c7
+	c41 -> c13
+	c41 -> c19
+	c41 -> c22
+	c41 -> c23
+	c42
+	c42 -> c42 [color=transparent headlabel="nombre bn:00058285n chaîne bn:00074685n" labelangle=270]
+	c42 -> c8
+	c42 -> c27
+	c42 -> c32
+	c43
+	c43 -> c43 [color=transparent headlabel="site bn:00047172n client web bn:00013447n wamp bn:01708928n" labelangle=270]
+	c43 -> c25
+	c43 -> c30
+	c43 -> c32
+	c44
+	c44 -> c44 [color=transparent labelangle=90 taillabel=C11]
+	c44 -> c13
+	c44 -> c21
+	c44 -> c28
+	c44 -> c33
+	c44 -> c34
+	c44 -> c39
+	c45
+	c45 -> c45 [color=transparent labelangle=90 taillabel=C3]
+	c45 -> c10
+	c45 -> c22
+	c45 -> c33
+	c45 -> c37
+	c45 -> c40
+	c45 -> c43
+	c46
+	c46 -> c46 [color=transparent headlabel="pouvoir bn:00084451v" labelangle=270]
+	c46 -> c46 [color=transparent labelangle=90 taillabel=C15]
+	c46 -> c17
+	c46 -> c19
+	c46 -> c34
+	c46 -> c36
+	c46 -> c37
+	c46 -> c38
+	c47
+	c47 -> c47 [color=transparent headlabel="symfony bn:02798620n doctype bn:15839327n" labelangle=270]
+	c47 -> c47 [color=transparent labelangle=90 taillabel=C19]
+	c47 -> c16
+	c47 -> c23
+	c47 -> c28
+	c47 -> c38
+	c47 -> c40
+	c47 -> c42
+	c48
+	c48 -> c48 [color=transparent headlabel="realisateur bn:00027369n informatique bn:00100175a" labelangle=270]
+	c48 -> c48 [color=transparent labelangle=90 taillabel=C5]
+	c48 -> c7
+	c48 -> c20
+	c48 -> c36
+	c48 -> c39
+	c48 -> c42
+	c48 -> c43
+	c49
+	c49 -> c35
+	c49 -> c41
+	c49 -> c44
+	c49 -> c45
+	c49 -> c46
+	c49 -> c47
+	c49 -> c48
+}

@@ -1,0 +1,1260 @@
+Concept (0) : 
+  level : 8
+  objects (0) : 
+  attributes (8) : C11 C15 C17 C19 C3 C5 C6 CJA 
+  parents concepts (7) : 1 2 3 4 5 13 14 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 7
+  objects (1) : utilisateur bn:00079373n 
+  attributes (7) : C11 C15 C17 C3 C5 C6 CJA 
+  parents concepts (6) : 6 8 9 10 11 41 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 6
+  objects (1) : programmation bn:00021493n 
+  attributes (6) : C11 C15 C17 C19 C5 C6 
+  parents concepts (5) : 8 12 23 24 29 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 7
+  objects (1) : définition bn:00025928n 
+  attributes (7) : C11 C17 C19 C3 C5 C6 CJA 
+  parents concepts (6) : 7 10 12 25 27 30 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 5
+  objects (1) : configuration bn:03088982n 
+  attributes (5) : C11 C15 C17 C19 C3 
+  parents concepts (5) : 11 19 23 37 86 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 5
+  objects (1) : file bn:00065682n 
+  attributes (5) : C15 C17 C19 C6 CJA 
+  parents concepts (4) : 20 46 48 56 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 6
+  objects (2) : entités bn:00031027n utilisateur bn:00079373n 
+  attributes (6) : C15 C17 C3 C5 C6 CJA 
+  parents concepts (4) : 15 16 35 60 
+  childs concepts (1) : 1 
+
+Concept (7) : 
+  level : 6
+  objects (2) : méthode get bn:00045088n définition bn:00025928n 
+  attributes (6) : C11 C17 C19 C3 C6 CJA 
+  parents concepts (7) : 17 18 19 20 38 40 55 
+  childs concepts (1) : 3 
+
+Concept (8) : 
+  level : 5
+  objects (2) : utilisateur bn:00079373n programmation bn:00021493n 
+  attributes (5) : C11 C15 C17 C5 C6 
+  parents concepts (4) : 21 22 53 83 
+  childs concepts (2) : 1 2 
+
+Concept (9) : 
+  level : 5
+  objects (2) : utilisateur bn:00079373n composer bn:14766022n 
+  attributes (5) : C11 C15 C17 C6 CJA 
+  parents concepts (4) : 21 33 48 84 
+  childs concepts (1) : 1 
+
+Concept (10) : 
+  level : 6
+  objects (2) : utilisateur bn:00079373n définition bn:00025928n 
+  attributes (6) : C11 C17 C3 C5 C6 CJA 
+  parents concepts (4) : 15 17 22 64 
+  childs concepts (2) : 1 3 
+
+Concept (11) : 
+  level : 4
+  objects (2) : utilisateur bn:00079373n configuration bn:03088982n 
+  attributes (4) : C11 C15 C17 C3 
+  parents concepts (4) : 51 69 91 141 
+  childs concepts (2) : 1 4 
+
+Concept (12) : 
+  level : 5
+  objects (2) : programmation bn:00021493n définition bn:00025928n 
+  attributes (5) : C11 C17 C19 C5 C6 
+  parents concepts (4) : 18 22 36 78 
+  childs concepts (2) : 2 3 
+
+Concept (13) : 
+  level : 6
+  objects (3) : mysql bn:01225760n java bn:00048043n classe bn:03608262n 
+  attributes (6) : C15 C17 C19 C3 C5 C6 
+  parents concepts (5) : 24 25 26 35 52 
+  childs concepts (1) : 0 
+
+Concept (14) : 
+  level : 7
+  objects (3) : types bn:00016413n syntaxe bn:00062118n mode bn:00033729n 
+  attributes (7) : C11 C15 C19 C3 C5 C6 CJA 
+  parents concepts (6) : 28 29 30 31 41 52 
+  childs concepts (1) : 0 
+
+Concept (15) : 
+  level : 5
+  objects (3) : entités bn:00031027n utilisateur bn:00079373n définition bn:00025928n 
+  attributes (5) : C17 C3 C5 C6 CJA 
+  parents concepts (4) : 47 54 57 95 
+  childs concepts (2) : 6 10 
+
+Concept (16) : 
+  level : 5
+  objects (3) : entités bn:00031027n utilisateur bn:00079373n en-tête bn:00043309n 
+  attributes (5) : C15 C17 C3 C6 CJA 
+  parents concepts (4) : 47 48 74 105 
+  childs concepts (1) : 6 
+
+Concept (17) : 
+  level : 5
+  objects (3) : méthode get bn:00045088n utilisateur bn:00079373n définition bn:00025928n 
+  attributes (5) : C11 C17 C3 C6 CJA 
+  parents concepts (5) : 32 33 34 47 80 
+  childs concepts (2) : 7 10 
+
+Concept (18) : 
+  level : 4
+  objects (3) : méthode get bn:00045088n programmation bn:00021493n définition bn:00025928n 
+  attributes (4) : C11 C17 C19 C6 
+  parents concepts (4) : 50 70 92 94 
+  childs concepts (2) : 7 12 
+
+Concept (19) : 
+  level : 4
+  objects (3) : méthode get bn:00045088n définition bn:00025928n configuration bn:03088982n 
+  attributes (4) : C11 C17 C19 C3 
+  parents concepts (4) : 50 69 109 115 
+  childs concepts (2) : 4 7 
+
+Concept (20) : 
+  level : 4
+  objects (3) : méthode get bn:00045088n définition bn:00025928n file bn:00065682n 
+  attributes (4) : C17 C19 C6 CJA 
+  parents concepts (4) : 58 82 87 92 
+  childs concepts (2) : 5 7 
+
+Concept (21) : 
+  level : 4
+  objects (3) : utilisateur bn:00079373n programmation bn:00021493n composer bn:14766022n 
+  attributes (4) : C11 C15 C17 C6 
+  parents concepts (4) : 51 70 107 112 
+  childs concepts (2) : 8 9 
+
+Concept (22) : 
+  level : 4
+  objects (3) : utilisateur bn:00079373n programmation bn:00021493n définition bn:00025928n 
+  attributes (4) : C11 C17 C5 C6 
+  parents concepts (3) : 70 73 116 
+  childs concepts (3) : 8 10 12 
+
+Concept (23) : 
+  level : 4
+  objects (3) : programmation bn:00021493n configuration bn:03088982n postgresql bn:01709156n 
+  attributes (4) : C11 C15 C17 C19 
+  parents concepts (4) : 50 51 93 128 
+  childs concepts (2) : 2 4 
+
+Concept (24) : 
+  level : 5
+  objects (4) : mysql bn:01225760n programmation bn:00021493n java bn:00048043n classe bn:03608262n 
+  attributes (5) : C15 C17 C19 C5 C6 
+  parents concepts (4) : 36 53 56 72 
+  childs concepts (2) : 2 13 
+
+Concept (25) : 
+  level : 5
+  objects (4) : mysql bn:01225760n définition bn:00025928n java bn:00048043n classe bn:03608262n 
+  attributes (5) : C17 C19 C3 C5 C6 
+  parents concepts (5) : 36 54 55 71 89 
+  childs concepts (2) : 3 13 
+
+Concept (26) : 
+  level : 5
+  objects (4) : mysql bn:01225760n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (5) : C15 C17 C19 C3 C6 
+  parents concepts (5) : 37 55 56 74 90 
+  childs concepts (1) : 13 
+
+Concept (27) : 
+  level : 5
+  objects (4) : données bn:00025314n base de donnees bn:00025333n définition bn:00025928n information bn:00046705n 
+  attributes (5) : C17 C19 C3 C5 CJA 
+  parents concepts (4) : 38 57 71 102 
+  childs concepts (1) : 3 
+
+Concept (28) : 
+  level : 6
+  objects (4) : types bn:00016413n fois bn:00032768n syntaxe bn:00062118n mode bn:00033729n 
+  attributes (6) : C11 C15 C19 C3 C5 CJA 
+  parents concepts (5) : 42 43 44 45 96 
+  childs concepts (1) : 14 
+
+Concept (29) : 
+  level : 5
+  objects (4) : types bn:00016413n programmation bn:00021493n syntaxe bn:00062118n mode bn:00033729n 
+  attributes (5) : C11 C15 C19 C5 C6 
+  parents concepts (4) : 72 78 83 97 
+  childs concepts (2) : 2 14 
+
+Concept (30) : 
+  level : 6
+  objects (4) : types bn:00016413n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n 
+  attributes (6) : C11 C19 C3 C5 C6 CJA 
+  parents concepts (4) : 39 40 44 64 
+  childs concepts (2) : 3 14 
+
+Concept (31) : 
+  level : 5
+  objects (4) : types bn:00016413n syntaxe bn:00062118n mode bn:00033729n web bn:00080772n 
+  attributes (5) : C15 C19 C3 C6 CJA 
+  parents concepts (5) : 46 62 68 90 105 
+  childs concepts (1) : 14 
+
+Concept (32) : 
+  level : 4
+  objects (4) : méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v définition bn:00025928n 
+  attributes (4) : C11 C17 C3 CJA 
+  parents concepts (4) : 49 69 103 132 
+  childs concepts (1) : 17 
+
+Concept (33) : 
+  level : 4
+  objects (4) : méthode get bn:00045088n utilisateur bn:00079373n composer bn:14766022n définition bn:00025928n 
+  attributes (4) : C11 C17 C6 CJA 
+  parents concepts (4) : 49 70 87 106 
+  childs concepts (2) : 9 17 
+
+Concept (34) : 
+  level : 4
+  objects (4) : méthode get bn:00045088n utilisateur bn:00079373n définition bn:00025928n xml bn:02771436n 
+  attributes (4) : C11 C17 C3 C6 
+  parents concepts (4) : 69 70 111 114 
+  childs concepts (1) : 17 
+
+Concept (35) : 
+  level : 5
+  objects (5) : mysql bn:01225760n entités bn:00031027n utilisateur bn:00079373n java bn:00048043n classe bn:03608262n 
+  attributes (5) : C15 C17 C3 C5 C6 
+  parents concepts (4) : 53 54 74 100 
+  childs concepts (2) : 6 13 
+
+Concept (36) : 
+  level : 4
+  objects (5) : mysql bn:01225760n programmation bn:00021493n définition bn:00025928n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C17 C19 C5 C6 
+  parents concepts (4) : 73 88 92 120 
+  childs concepts (3) : 12 24 25 
+
+Concept (37) : 
+  level : 4
+  objects (5) : mysql bn:01225760n configuration bn:03088982n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C15 C17 C19 C3 
+  parents concepts (4) : 91 93 109 136 
+  childs concepts (2) : 4 26 
+
+Concept (38) : 
+  level : 4
+  objects (5) : données bn:00025314n base de donnees bn:00025333n méthode get bn:00045088n définition bn:00025928n information bn:00046705n 
+  attributes (4) : C17 C19 C3 CJA 
+  parents concepts (4) : 58 103 109 124 
+  childs concepts (2) : 7 27 
+
+Concept (39) : 
+  level : 5
+  objects (5) : types bn:00016413n session bn:03751534n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n 
+  attributes (5) : C11 C19 C3 C5 C6 
+  parents concepts (5) : 59 76 77 78 89 
+  childs concepts (1) : 30 
+
+Concept (40) : 
+  level : 5
+  objects (5) : types bn:00016413n méthode get bn:00045088n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n 
+  attributes (5) : C11 C19 C3 C6 CJA 
+  parents concepts (4) : 59 61 62 80 
+  childs concepts (2) : 7 30 
+
+Concept (41) : 
+  level : 6
+  objects (5) : types bn:00016413n utilisateur bn:00079373n syntaxe bn:00062118n mode bn:00033729n foreach bn:03463379n 
+  attributes (6) : C11 C15 C3 C5 C6 CJA 
+  parents concepts (5) : 60 63 64 65 96 
+  childs concepts (2) : 1 14 
+
+Concept (42) : 
+  level : 5
+  objects (5) : types bn:00016413n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n mode bn:00033729n 
+  attributes (5) : C11 C15 C19 C3 C5 
+  parents concepts (5) : 77 86 97 101 118 
+  childs concepts (1) : 28 
+
+Concept (43) : 
+  level : 5
+  objects (5) : types bn:00016413n fois bn:00032768n chaîne bn:00074685n syntaxe bn:00062118n mode bn:00033729n 
+  attributes (5) : C11 C15 C19 C5 CJA 
+  parents concepts (4) : 66 67 97 117 
+  childs concepts (1) : 28 
+
+Concept (44) : 
+  level : 5
+  objects (5) : types bn:00016413n fois bn:00032768n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n 
+  attributes (5) : C11 C19 C3 C5 CJA 
+  parents concepts (5) : 61 66 77 102 113 
+  childs concepts (2) : 28 30 
+
+Concept (45) : 
+  level : 5
+  objects (5) : types bn:00016413n fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n 
+  attributes (5) : C15 C19 C3 C5 CJA 
+  parents concepts (5) : 67 68 101 102 126 
+  childs concepts (1) : 28 
+
+Concept (46) : 
+  level : 4
+  objects (5) : types bn:00016413n syntaxe bn:00062118n mode bn:00033729n web bn:00080772n file bn:00065682n 
+  attributes (4) : C15 C19 C6 CJA 
+  parents concepts (4) : 82 98 110 139 
+  childs concepts (2) : 5 31 
+
+Concept (47) : 
+  level : 4
+  objects (5) : entités bn:00031027n méthode get bn:00045088n utilisateur bn:00079373n définition bn:00025928n en-tête bn:00043309n 
+  attributes (4) : C17 C3 C6 CJA 
+  parents concepts (4) : 87 103 111 134 
+  childs concepts (3) : 15 16 17 
+
+Concept (48) : 
+  level : 4
+  objects (5) : entités bn:00031027n utilisateur bn:00079373n composer bn:14766022n en-tête bn:00043309n file bn:00065682n 
+  attributes (4) : C15 C17 C6 CJA 
+  parents concepts (3) : 87 112 139 
+  childs concepts (3) : 5 9 16 
+
+Concept (49) : 
+  level : 3
+  objects (5) : méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v composer bn:14766022n définition bn:00025928n 
+  attributes (3) : C11 C17 CJA 
+  parents concepts (3) : 108 131 150 
+  childs concepts (2) : 32 33 
+
+Concept (50) : 
+  level : 3
+  objects (5) : méthode get bn:00045088n programmation bn:00021493n définition bn:00025928n configuration bn:03088982n postgresql bn:01709156n 
+  attributes (3) : C11 C17 C19 
+  parents concepts (3) : 108 135 151 
+  childs concepts (3) : 18 19 23 
+
+Concept (51) : 
+  level : 3
+  objects (5) : utilisateur bn:00079373n programmation bn:00021493n composer bn:14766022n configuration bn:03088982n postgresql bn:01709156n 
+  attributes (3) : C11 C15 C17 
+  parents concepts (3) : 108 137 166 
+  childs concepts (3) : 11 21 23 
+
+Concept (52) : 
+  level : 5
+  objects (6) : mysql bn:01225760n types bn:00016413n syntaxe bn:00062118n mode bn:00033729n java bn:00048043n classe bn:03608262n 
+  attributes (5) : C15 C19 C3 C5 C6 
+  parents concepts (5) : 72 89 90 100 101 
+  childs concepts (2) : 13 14 
+
+Concept (53) : 
+  level : 4
+  objects (6) : mysql bn:01225760n entités bn:00031027n utilisateur bn:00079373n programmation bn:00021493n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C15 C17 C5 C6 
+  parents concepts (3) : 73 112 122 
+  childs concepts (3) : 8 24 35 
+
+Concept (54) : 
+  level : 4
+  objects (6) : mysql bn:01225760n entités bn:00031027n utilisateur bn:00079373n définition bn:00025928n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C17 C3 C5 C6 
+  parents concepts (4) : 73 99 111 129 
+  childs concepts (3) : 15 25 35 
+
+Concept (55) : 
+  level : 4
+  objects (6) : mysql bn:01225760n méthode get bn:00045088n définition bn:00025928n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C17 C19 C3 C6 
+  parents concepts (4) : 92 109 111 121 
+  childs concepts (3) : 7 25 26 
+
+Concept (56) : 
+  level : 4
+  objects (6) : mysql bn:01225760n programmation bn:00021493n client bn:00019764n java bn:00048043n file bn:00065682n classe bn:03608262n 
+  attributes (4) : C15 C17 C19 C6 
+  parents concepts (4) : 92 93 110 112 
+  childs concepts (3) : 5 24 26 
+
+Concept (57) : 
+  level : 4
+  objects (6) : données bn:00025314n base de donnees bn:00025333n entités bn:00031027n utilisateur bn:00079373n définition bn:00025928n information bn:00046705n 
+  attributes (4) : C17 C3 C5 CJA 
+  parents concepts (4) : 75 99 103 156 
+  childs concepts (2) : 15 27 
+
+Concept (58) : 
+  level : 3
+  objects (6) : données bn:00025314n base de donnees bn:00025333n méthode get bn:00045088n définition bn:00025928n information bn:00046705n file bn:00065682n 
+  attributes (3) : C17 C19 CJA 
+  parents concepts (3) : 131 135 145 
+  childs concepts (2) : 20 38 
+
+Concept (59) : 
+  level : 4
+  objects (6) : types bn:00016413n session bn:03751534n méthode get bn:00045088n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n 
+  attributes (4) : C11 C19 C3 C6 
+  parents concepts (4) : 94 114 115 121 
+  childs concepts (2) : 39 40 
+
+Concept (60) : 
+  level : 5
+  objects (6) : types bn:00016413n entités bn:00031027n utilisateur bn:00079373n syntaxe bn:00062118n mode bn:00033729n foreach bn:03463379n 
+  attributes (5) : C15 C3 C5 C6 CJA 
+  parents concepts (5) : 79 95 100 105 126 
+  childs concepts (2) : 6 41 
+
+Concept (61) : 
+  level : 4
+  objects (6) : types bn:00016413n méthode get bn:00045088n fois bn:00032768n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n 
+  attributes (4) : C11 C19 C3 CJA 
+  parents concepts (4) : 81 115 124 132 
+  childs concepts (2) : 40 44 
+
+Concept (62) : 
+  level : 4
+  objects (6) : types bn:00016413n méthode get bn:00045088n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n web bn:00080772n 
+  attributes (4) : C19 C3 C6 CJA 
+  parents concepts (4) : 82 121 124 134 
+  childs concepts (2) : 31 40 
+
+Concept (63) : 
+  level : 5
+  objects (6) : types bn:00016413n code bn:00020354n utilisateur bn:00079373n syntaxe bn:00062118n mode bn:00033729n foreach bn:03463379n 
+  attributes (5) : C11 C15 C5 C6 CJA 
+  parents concepts (5) : 79 83 84 85 117 
+  childs concepts (1) : 41 
+
+Concept (64) : 
+  level : 5
+  objects (6) : types bn:00016413n utilisateur bn:00079373n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n foreach bn:03463379n 
+  attributes (5) : C11 C3 C5 C6 CJA 
+  parents concepts (5) : 76 80 85 95 113 
+  childs concepts (3) : 10 30 41 
+
+Concept (65) : 
+  level : 4
+  objects (6) : types bn:00016413n utilisateur bn:00079373n syntaxe bn:00062118n mise bn:00016287n mode bn:00033729n foreach bn:03463379n 
+  attributes (4) : C11 C15 C3 C6 
+  parents concepts (4) : 107 114 141 144 
+  childs concepts (1) : 41 
+
+Concept (66) : 
+  level : 4
+  objects (6) : types bn:00016413n fois bn:00032768n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n 
+  attributes (4) : C11 C19 C5 CJA 
+  parents concepts (4) : 81 123 125 133 
+  childs concepts (2) : 43 44 
+
+Concept (67) : 
+  level : 4
+  objects (6) : types bn:00016413n fois bn:00032768n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n 
+  attributes (4) : C15 C19 C5 CJA 
+  parents concepts (4) : 98 123 130 140 
+  childs concepts (2) : 43 45 
+
+Concept (68) : 
+  level : 4
+  objects (6) : types bn:00016413n fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n web bn:00080772n 
+  attributes (4) : C15 C19 C3 CJA 
+  parents concepts (4) : 98 124 136 146 
+  childs concepts (2) : 31 45 
+
+Concept (69) : 
+  level : 3
+  objects (6) : méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v définition bn:00025928n configuration bn:03088982n xml bn:02771436n 
+  attributes (3) : C11 C17 C3 
+  parents concepts (3) : 108 148 160 
+  childs concepts (4) : 11 19 32 34 
+
+Concept (70) : 
+  level : 3
+  objects (7) : php bn:01753580n méthode get bn:00045088n utilisateur bn:00079373n programmation bn:00021493n composer bn:14766022n définition bn:00025928n xml bn:02771436n 
+  attributes (3) : C11 C17 C6 
+  parents concepts (3) : 108 142 147 
+  childs concepts (5) : 18 21 22 33 34 
+
+Concept (71) : 
+  level : 4
+  objects (7) : mysql bn:01225760n données bn:00025314n base de donnees bn:00025333n définition bn:00025928n information bn:00046705n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C17 C19 C3 C5 
+  parents concepts (4) : 88 99 109 143 
+  childs concepts (2) : 25 27 
+
+Concept (72) : 
+  level : 4
+  objects (7) : mysql bn:01225760n types bn:00016413n programmation bn:00021493n syntaxe bn:00062118n mode bn:00033729n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C15 C19 C5 C6 
+  parents concepts (4) : 110 120 122 130 
+  childs concepts (3) : 24 29 52 
+
+Concept (73) : 
+  level : 3
+  objects (7) : mysql bn:01225760n entités bn:00031027n utilisateur bn:00079373n programmation bn:00021493n définition bn:00025928n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C17 C5 C6 
+  parents concepts (3) : 119 142 153 
+  childs concepts (4) : 22 36 53 54 
+
+Concept (74) : 
+  level : 4
+  objects (7) : mysql bn:01225760n entités bn:00031027n utilisateur bn:00079373n en-tête bn:00043309n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C15 C17 C3 C6 
+  parents concepts (4) : 91 111 112 144 
+  childs concepts (3) : 16 26 35 
+
+Concept (75) : 
+  level : 3
+  objects (7) : texte bn:00076732n données bn:00025314n base de donnees bn:00025333n entités bn:00031027n utilisateur bn:00079373n définition bn:00025928n information bn:00046705n 
+  attributes (3) : C17 C5 CJA 
+  parents concepts (3) : 119 131 167 
+  childs concepts (1) : 57 
+
+Concept (76) : 
+  level : 4
+  objects (7) : types bn:00016413n session bn:03751534n utilisateur bn:00079373n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n foreach bn:03463379n 
+  attributes (4) : C11 C3 C5 C6 
+  parents concepts (4) : 114 116 129 138 
+  childs concepts (2) : 39 64 
+
+Concept (77) : 
+  level : 4
+  objects (7) : types bn:00016413n session bn:03751534n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n 
+  attributes (4) : C11 C19 C3 C5 
+  parents concepts (4) : 115 125 138 143 
+  childs concepts (3) : 39 42 44 
+
+Concept (78) : 
+  level : 4
+  objects (7) : types bn:00016413n session bn:03751534n programmation bn:00021493n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n méthode bn:01641329n 
+  attributes (4) : C11 C19 C5 C6 
+  parents concepts (4) : 94 116 120 125 
+  childs concepts (3) : 12 29 39 
+
+Concept (79) : 
+  level : 4
+  objects (7) : types bn:00016413n entités bn:00031027n code bn:00020354n utilisateur bn:00079373n syntaxe bn:00062118n mode bn:00033729n foreach bn:03463379n 
+  attributes (4) : C15 C5 C6 CJA 
+  parents concepts (4) : 104 122 139 140 
+  childs concepts (2) : 60 63 
+
+Concept (80) : 
+  level : 4
+  objects (7) : types bn:00016413n méthode get bn:00045088n utilisateur bn:00079373n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n foreach bn:03463379n 
+  attributes (4) : C11 C3 C6 CJA 
+  parents concepts (4) : 106 114 132 134 
+  childs concepts (3) : 17 40 64 
+
+Concept (81) : 
+  level : 3
+  objects (7) : types bn:00016413n méthode get bn:00045088n fois bn:00032768n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n 
+  attributes (3) : C11 C19 CJA 
+  parents concepts (3) : 145 150 151 
+  childs concepts (2) : 61 66 
+
+Concept (82) : 
+  level : 3
+  objects (7) : types bn:00016413n méthode get bn:00045088n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n web bn:00080772n file bn:00065682n 
+  attributes (3) : C19 C6 CJA 
+  parents concepts (3) : 145 149 155 
+  childs concepts (3) : 20 46 62 
+
+Concept (83) : 
+  level : 4
+  objects (7) : types bn:00016413n code bn:00020354n utilisateur bn:00079373n programmation bn:00021493n syntaxe bn:00062118n mode bn:00033729n foreach bn:03463379n 
+  attributes (4) : C11 C15 C5 C6 
+  parents concepts (4) : 107 116 122 152 
+  childs concepts (3) : 8 29 63 
+
+Concept (84) : 
+  level : 4
+  objects (7) : types bn:00016413n code bn:00020354n utilisateur bn:00079373n composer bn:14766022n syntaxe bn:00062118n mode bn:00033729n foreach bn:03463379n 
+  attributes (4) : C11 C15 C6 CJA 
+  parents concepts (4) : 106 107 127 139 
+  childs concepts (2) : 9 63 
+
+Concept (85) : 
+  level : 4
+  objects (7) : types bn:00016413n code bn:00020354n utilisateur bn:00079373n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n foreach bn:03463379n 
+  attributes (4) : C11 C5 C6 CJA 
+  parents concepts (4) : 104 106 116 133 
+  childs concepts (2) : 63 64 
+
+Concept (86) : 
+  level : 4
+  objects (7) : types bn:00016413n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n mode bn:00033729n configuration bn:03088982n easyphp bn:14837849n 
+  attributes (4) : C11 C15 C19 C3 
+  parents concepts (4) : 115 128 136 141 
+  childs concepts (2) : 4 42 
+
+Concept (87) : 
+  level : 3
+  objects (7) : entités bn:00031027n méthode get bn:00045088n utilisateur bn:00079373n composer bn:14766022n définition bn:00025928n en-tête bn:00043309n file bn:00065682n 
+  attributes (3) : C17 C6 CJA 
+  parents concepts (3) : 131 142 155 
+  childs concepts (4) : 20 33 47 48 
+
+Concept (88) : 
+  level : 3
+  objects (8) : mysql bn:01225760n données bn:00025314n base de donnees bn:00025333n programmation bn:00021493n définition bn:00025928n information bn:00046705n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C17 C19 C5 
+  parents concepts (3) : 119 135 163 
+  childs concepts (2) : 36 71 
+
+Concept (89) : 
+  level : 4
+  objects (8) : mysql bn:01225760n types bn:00016413n session bn:03751534n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C19 C3 C5 C6 
+  parents concepts (4) : 120 121 129 143 
+  childs concepts (3) : 25 39 52 
+
+Concept (90) : 
+  level : 4
+  objects (8) : mysql bn:01225760n types bn:00016413n syntaxe bn:00062118n mode bn:00033729n web bn:00080772n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C15 C19 C3 C6 
+  parents concepts (4) : 110 121 136 144 
+  childs concepts (3) : 26 31 52 
+
+Concept (91) : 
+  level : 3
+  objects (8) : mysql bn:01225760n entités bn:00031027n utilisateur bn:00079373n configuration bn:03088982n en-tête bn:00043309n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C15 C17 C3 
+  parents concepts (3) : 137 148 169 
+  childs concepts (3) : 11 37 74 
+
+Concept (92) : 
+  level : 3
+  objects (8) : mysql bn:01225760n méthode get bn:00045088n programmation bn:00021493n définition bn:00025928n client bn:00019764n java bn:00048043n file bn:00065682n classe bn:03608262n 
+  attributes (3) : C17 C19 C6 
+  parents concepts (3) : 135 142 149 
+  childs concepts (5) : 18 20 36 55 56 
+
+Concept (93) : 
+  level : 3
+  objects (8) : mysql bn:01225760n programmation bn:00021493n configuration bn:03088982n postgresql bn:01709156n client bn:00019764n java bn:00048043n file bn:00065682n classe bn:03608262n 
+  attributes (3) : C15 C17 C19 
+  parents concepts (3) : 135 137 159 
+  childs concepts (3) : 23 37 56 
+
+Concept (94) : 
+  level : 3
+  objects (8) : types bn:00016413n session bn:03751534n méthode get bn:00045088n programmation bn:00021493n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n méthode bn:01641329n 
+  attributes (3) : C11 C19 C6 
+  parents concepts (3) : 147 149 151 
+  childs concepts (3) : 18 59 78 
+
+Concept (95) : 
+  level : 4
+  objects (8) : types bn:00016413n entités bn:00031027n client web bn:00013447n utilisateur bn:00079373n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n foreach bn:03463379n 
+  attributes (4) : C3 C5 C6 CJA 
+  parents concepts (4) : 104 129 134 156 
+  childs concepts (3) : 15 60 64 
+
+Concept (96) : 
+  level : 5
+  objects (8) : types bn:00016413n post bn:01500184n utilisateur bn:00079373n fois bn:00032768n syntaxe bn:00062118n mode bn:00033729n bits bn:00010731n foreach bn:03463379n 
+  attributes (5) : C11 C15 C3 C5 CJA 
+  parents concepts (4) : 113 117 118 126 
+  childs concepts (2) : 28 41 
+
+Concept (97) : 
+  level : 4
+  objects (8) : types bn:00016413n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n mode bn:00033729n 
+  attributes (4) : C11 C15 C19 C5 
+  parents concepts (4) : 125 128 130 152 
+  childs concepts (3) : 29 42 43 
+
+Concept (98) : 
+  level : 3
+  objects (8) : types bn:00016413n fois bn:00032768n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n web bn:00080772n file bn:00065682n 
+  attributes (3) : C15 C19 CJA 
+  parents concepts (3) : 145 159 162 
+  childs concepts (3) : 46 67 68 
+
+Concept (99) : 
+  level : 3
+  objects (9) : mysql bn:01225760n données bn:00025314n base de donnees bn:00025333n entités bn:00031027n utilisateur bn:00079373n définition bn:00025928n information bn:00046705n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C17 C3 C5 
+  parents concepts (3) : 119 148 171 
+  childs concepts (3) : 54 57 71 
+
+Concept (100) : 
+  level : 4
+  objects (9) : mysql bn:01225760n types bn:00016413n entités bn:00031027n utilisateur bn:00079373n syntaxe bn:00062118n mode bn:00033729n foreach bn:03463379n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C15 C3 C5 C6 
+  parents concepts (4) : 122 129 144 154 
+  childs concepts (3) : 35 52 60 
+
+Concept (101) : 
+  level : 4
+  objects (9) : mysql bn:01225760n types bn:00016413n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n java bn:00048043n classe bn:03608262n 
+  attributes (4) : C15 C19 C3 C5 
+  parents concepts (4) : 130 136 143 154 
+  childs concepts (3) : 42 45 52 
+
+Concept (102) : 
+  level : 4
+  objects (9) : données bn:00025314n types bn:00016413n base de donnees bn:00025333n fois bn:00032768n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n information bn:00046705n 
+  attributes (4) : C19 C3 C5 CJA 
+  parents concepts (4) : 123 124 143 156 
+  childs concepts (3) : 27 44 45 
+
+Concept (103) : 
+  level : 3
+  objects (9) : données bn:00025314n base de donnees bn:00025333n entités bn:00031027n méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v définition bn:00025928n information bn:00046705n en-tête bn:00043309n 
+  attributes (3) : C17 C3 CJA 
+  parents concepts (3) : 131 148 170 
+  childs concepts (4) : 32 38 47 57 
+
+Concept (104) : 
+  level : 3
+  objects (9) : types bn:00016413n entités bn:00031027n client web bn:00013447n code bn:00020354n utilisateur bn:00079373n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n foreach bn:03463379n 
+  attributes (3) : C5 C6 CJA 
+  parents concepts (3) : 153 155 167 
+  childs concepts (3) : 79 85 95 
+
+Concept (105) : 
+  level : 4
+  objects (9) : types bn:00016413n entités bn:00031027n utilisateur bn:00079373n nécessaire bn:00107182a syntaxe bn:00062118n mode bn:00033729n web bn:00080772n foreach bn:03463379n en-tête bn:00043309n 
+  attributes (4) : C15 C3 C6 CJA 
+  parents concepts (4) : 134 139 144 146 
+  childs concepts (3) : 16 31 60 
+
+Concept (106) : 
+  level : 3
+  objects (9) : types bn:00016413n méthode get bn:00045088n code bn:00020354n utilisateur bn:00079373n composer bn:14766022n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n foreach bn:03463379n 
+  attributes (3) : C11 C6 CJA 
+  parents concepts (3) : 147 150 155 
+  childs concepts (4) : 33 80 84 85 
+
+Concept (107) : 
+  level : 3
+  objects (9) : types bn:00016413n code bn:00020354n utilisateur bn:00079373n programmation bn:00021493n composer bn:14766022n syntaxe bn:00062118n mise bn:00016287n mode bn:00033729n foreach bn:03463379n 
+  attributes (3) : C11 C15 C6 
+  parents concepts (3) : 147 164 166 
+  childs concepts (4) : 21 65 83 84 
+
+Concept (108) : 
+  level : 2
+  objects (10) : php bn:01753580n méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v programmation bn:00021493n composer bn:14766022n définition bn:00025928n configuration bn:03088982n xml bn:02771436n postgresql bn:01709156n 
+  attributes (2) : C11 C17 
+  parents concepts (2) : 168 173 
+  childs concepts (5) : 49 50 51 69 70 
+
+Concept (109) : 
+  level : 3
+  objects (10) : mysql bn:01225760n données bn:00025314n base de donnees bn:00025333n méthode get bn:00045088n définition bn:00025928n configuration bn:03088982n information bn:00046705n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C17 C19 C3 
+  parents concepts (3) : 135 148 157 
+  childs concepts (5) : 19 37 38 55 71 
+
+Concept (110) : 
+  level : 3
+  objects (10) : mysql bn:01225760n types bn:00016413n programmation bn:00021493n syntaxe bn:00062118n mode bn:00033729n web bn:00080772n client bn:00019764n java bn:00048043n file bn:00065682n classe bn:03608262n 
+  attributes (3) : C15 C19 C6 
+  parents concepts (3) : 149 159 164 
+  childs concepts (4) : 46 56 72 90 
+
+Concept (111) : 
+  level : 3
+  objects (10) : mysql bn:01225760n entités bn:00031027n méthode get bn:00045088n utilisateur bn:00079373n définition bn:00025928n xml bn:02771436n en-tête bn:00043309n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C17 C3 C6 
+  parents concepts (3) : 142 148 158 
+  childs concepts (5) : 34 47 54 55 74 
+
+Concept (112) : 
+  level : 3
+  objects (10) : mysql bn:01225760n entités bn:00031027n utilisateur bn:00079373n programmation bn:00021493n composer bn:14766022n en-tête bn:00043309n client bn:00019764n java bn:00048043n file bn:00065682n classe bn:03608262n 
+  attributes (3) : C15 C17 C6 
+  parents concepts (3) : 137 142 164 
+  childs concepts (5) : 21 48 53 56 74 
+
+Concept (113) : 
+  level : 4
+  objects (10) : fichier bn:00021475n types bn:00016413n post bn:01500184n utilisateur bn:00079373n fois bn:00032768n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n bits bn:00010731n foreach bn:03463379n 
+  attributes (4) : C11 C3 C5 CJA 
+  parents concepts (4) : 132 133 138 156 
+  childs concepts (3) : 44 64 96 
+
+Concept (114) : 
+  level : 3
+  objects (10) : types bn:00016413n session bn:03751534n méthode get bn:00045088n utilisateur bn:00079373n syntaxe bn:00062118n définition bn:00025928n mise bn:00016287n mode bn:00033729n xml bn:02771436n foreach bn:03463379n 
+  attributes (3) : C11 C3 C6 
+  parents concepts (3) : 147 158 160 
+  childs concepts (5) : 34 59 65 76 80 
+
+Concept (115) : 
+  level : 3
+  objects (10) : types bn:00016413n session bn:03751534n méthode get bn:00045088n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n configuration bn:03088982n easyphp bn:14837849n 
+  attributes (3) : C11 C19 C3 
+  parents concepts (3) : 151 157 160 
+  childs concepts (5) : 19 59 61 77 86 
+
+Concept (116) : 
+  level : 3
+  objects (10) : types bn:00016413n session bn:03751534n code bn:00020354n utilisateur bn:00079373n programmation bn:00021493n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n méthode bn:01641329n foreach bn:03463379n 
+  attributes (3) : C11 C5 C6 
+  parents concepts (3) : 147 153 161 
+  childs concepts (5) : 22 76 78 83 85 
+
+Concept (117) : 
+  level : 4
+  objects (10) : types bn:00016413n post bn:01500184n code bn:00020354n utilisateur bn:00079373n fois bn:00032768n chaîne bn:00074685n syntaxe bn:00062118n mode bn:00033729n bits bn:00010731n foreach bn:03463379n 
+  attributes (4) : C11 C15 C5 CJA 
+  parents concepts (4) : 127 133 140 152 
+  childs concepts (3) : 43 63 96 
+
+Concept (118) : 
+  level : 4
+  objects (10) : types bn:00016413n post bn:01500184n utilisateur bn:00079373n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n mode bn:00033729n bits bn:00010731n foreach bn:03463379n public bn:00109211a 
+  attributes (4) : C11 C15 C3 C5 
+  parents concepts (4) : 138 141 152 154 
+  childs concepts (2) : 42 96 
+
+Concept (119) : 
+  level : 2
+  objects (11) : mysql bn:01225760n texte bn:00076732n données bn:00025314n base de donnees bn:00025333n entités bn:00031027n utilisateur bn:00079373n programmation bn:00021493n définition bn:00025928n information bn:00046705n java bn:00048043n classe bn:03608262n 
+  attributes (2) : C17 C5 
+  parents concepts (2) : 168 176 
+  childs concepts (4) : 73 75 88 99 
+
+Concept (120) : 
+  level : 3
+  objects (11) : mysql bn:01225760n types bn:00016413n session bn:03751534n langage de script bn:01431715n programmation bn:00021493n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n méthode bn:01641329n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C19 C5 C6 
+  parents concepts (3) : 149 153 163 
+  childs concepts (4) : 36 72 78 89 
+
+Concept (121) : 
+  level : 3
+  objects (11) : mysql bn:01225760n types bn:00016413n session bn:03751534n méthode get bn:00045088n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n web bn:00080772n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C19 C3 C6 
+  parents concepts (3) : 149 157 158 
+  childs concepts (5) : 55 59 62 89 90 
+
+Concept (122) : 
+  level : 3
+  objects (11) : mysql bn:01225760n types bn:00016413n entités bn:00031027n code bn:00020354n utilisateur bn:00079373n programmation bn:00021493n syntaxe bn:00062118n mode bn:00033729n foreach bn:03463379n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C15 C5 C6 
+  parents concepts (3) : 153 164 165 
+  childs concepts (5) : 53 72 79 83 100 
+
+Concept (123) : 
+  level : 3
+  objects (11) : données bn:00025314n types bn:00016413n base de donnees bn:00025333n nombre bn:00058285n fois bn:00032768n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n information bn:00046705n 
+  attributes (3) : C19 C5 CJA 
+  parents concepts (3) : 145 163 167 
+  childs concepts (3) : 66 67 102 
+
+Concept (124) : 
+  level : 3
+  objects (11) : données bn:00025314n types bn:00016413n base de donnees bn:00025333n méthode get bn:00045088n fois bn:00032768n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n web bn:00080772n information bn:00046705n 
+  attributes (3) : C19 C3 CJA 
+  parents concepts (3) : 145 157 170 
+  childs concepts (5) : 38 61 62 68 102 
+
+Concept (125) : 
+  level : 3
+  objects (11) : types bn:00016413n session bn:03751534n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n méthode bn:01641329n 
+  attributes (3) : C11 C19 C5 
+  parents concepts (3) : 151 161 163 
+  childs concepts (4) : 66 77 78 97 
+
+Concept (126) : 
+  level : 4
+  objects (11) : types bn:00016413n entités bn:00031027n post bn:01500184n utilisateur bn:00079373n fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n bits bn:00010731n foreach bn:03463379n impossible bn:00104687a 
+  attributes (4) : C15 C3 C5 CJA 
+  parents concepts (4) : 140 146 154 156 
+  childs concepts (3) : 45 60 96 
+
+Concept (127) : 
+  level : 3
+  objects (11) : types bn:00016413n post bn:01500184n code bn:00020354n utilisateur bn:00079373n fois bn:00032768n composer bn:14766022n chaîne bn:00074685n syntaxe bn:00062118n mode bn:00033729n bits bn:00010731n foreach bn:03463379n 
+  attributes (3) : C11 C15 CJA 
+  parents concepts (3) : 150 162 166 
+  childs concepts (2) : 84 117 
+
+Concept (128) : 
+  level : 3
+  objects (11) : types bn:00016413n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n mode bn:00033729n configuration bn:03088982n postgresql bn:01709156n easyphp bn:14837849n 
+  attributes (3) : C11 C15 C19 
+  parents concepts (3) : 151 159 166 
+  childs concepts (3) : 23 86 97 
+
+Concept (129) : 
+  level : 3
+  objects (12) : mysql bn:01225760n types bn:00016413n session bn:03751534n entités bn:00031027n client web bn:00013447n utilisateur bn:00079373n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n foreach bn:03463379n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C3 C5 C6 
+  parents concepts (3) : 153 158 171 
+  childs concepts (5) : 54 76 89 95 100 
+
+Concept (130) : 
+  level : 3
+  objects (12) : mysql bn:01225760n types bn:00016413n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C15 C19 C5 
+  parents concepts (3) : 159 163 165 
+  childs concepts (4) : 67 72 97 101 
+
+Concept (131) : 
+  level : 2
+  objects (12) : texte bn:00076732n données bn:00025314n base de donnees bn:00025333n entités bn:00031027n méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v composer bn:14766022n définition bn:00025928n information bn:00046705n en-tête bn:00043309n file bn:00065682n 
+  attributes (2) : C17 CJA 
+  parents concepts (2) : 168 175 
+  childs concepts (5) : 49 58 75 87 103 
+
+Concept (132) : 
+  level : 3
+  objects (12) : fichier bn:00021475n types bn:00016413n post bn:01500184n méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v fois bn:00032768n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n bits bn:00010731n foreach bn:03463379n 
+  attributes (3) : C11 C3 CJA 
+  parents concepts (3) : 150 160 170 
+  childs concepts (4) : 32 61 80 113 
+
+Concept (133) : 
+  level : 3
+  objects (12) : fichier bn:00021475n types bn:00016413n post bn:01500184n code bn:00020354n utilisateur bn:00079373n fois bn:00032768n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n bits bn:00010731n foreach bn:03463379n 
+  attributes (3) : C11 C5 CJA 
+  parents concepts (3) : 150 161 167 
+  childs concepts (4) : 66 85 113 117 
+
+Concept (134) : 
+  level : 3
+  objects (12) : types bn:00016413n entités bn:00031027n client web bn:00013447n méthode get bn:00045088n utilisateur bn:00079373n nécessaire bn:00107182a syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n web bn:00080772n foreach bn:03463379n en-tête bn:00043309n 
+  attributes (3) : C3 C6 CJA 
+  parents concepts (3) : 155 158 170 
+  childs concepts (5) : 47 62 80 95 105 
+
+Concept (135) : 
+  level : 2
+  objects (13) : mysql bn:01225760n données bn:00025314n base de donnees bn:00025333n méthode get bn:00045088n programmation bn:00021493n définition bn:00025928n configuration bn:03088982n postgresql bn:01709156n information bn:00046705n client bn:00019764n java bn:00048043n file bn:00065682n classe bn:03608262n 
+  attributes (2) : C17 C19 
+  parents concepts (2) : 168 174 
+  childs concepts (6) : 50 58 88 92 93 109 
+
+Concept (136) : 
+  level : 3
+  objects (13) : mysql bn:01225760n types bn:00016413n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n configuration bn:03088982n web bn:00080772n easyphp bn:14837849n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C15 C19 C3 
+  parents concepts (3) : 157 159 169 
+  childs concepts (5) : 37 68 86 90 101 
+
+Concept (137) : 
+  level : 2
+  objects (13) : mysql bn:01225760n entités bn:00031027n utilisateur bn:00079373n programmation bn:00021493n composer bn:14766022n configuration bn:03088982n postgresql bn:01709156n en-tête bn:00043309n client bn:00019764n java bn:00048043n file bn:00065682n classe bn:03608262n exception bn:00032118n 
+  attributes (2) : C15 C17 
+  parents concepts (2) : 168 178 
+  childs concepts (4) : 51 91 93 112 
+
+Concept (138) : 
+  level : 3
+  objects (13) : fichier bn:00021475n types bn:00016413n session bn:03751534n post bn:01500184n utilisateur bn:00079373n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n bits bn:00010731n foreach bn:03463379n public bn:00109211a 
+  attributes (3) : C11 C3 C5 
+  parents concepts (3) : 160 161 171 
+  childs concepts (4) : 76 77 113 118 
+
+Concept (139) : 
+  level : 3
+  objects (13) : types bn:00016413n entités bn:00031027n sélectionner bn:00084931v code bn:00020354n utilisateur bn:00079373n nécessaire bn:00107182a composer bn:14766022n syntaxe bn:00062118n mode bn:00033729n web bn:00080772n foreach bn:03463379n en-tête bn:00043309n file bn:00065682n 
+  attributes (3) : C15 C6 CJA 
+  parents concepts (3) : 155 162 164 
+  childs concepts (5) : 46 48 79 84 105 
+
+Concept (140) : 
+  level : 3
+  objects (13) : types bn:00016413n entités bn:00031027n post bn:01500184n code bn:00020354n utilisateur bn:00079373n fois bn:00032768n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n bits bn:00010731n foreach bn:03463379n impossible bn:00104687a 
+  attributes (3) : C15 C5 CJA 
+  parents concepts (3) : 162 165 167 
+  childs concepts (4) : 67 79 117 126 
+
+Concept (141) : 
+  level : 3
+  objects (13) : types bn:00016413n post bn:01500184n utilisateur bn:00079373n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n mise bn:00016287n mode bn:00033729n configuration bn:03088982n bits bn:00010731n foreach bn:03463379n easyphp bn:14837849n public bn:00109211a 
+  attributes (3) : C11 C15 C3 
+  parents concepts (3) : 160 166 169 
+  childs concepts (4) : 11 65 86 118 
+
+Concept (142) : 
+  level : 2
+  objects (14) : php bn:01753580n mysql bn:01225760n entités bn:00031027n méthode get bn:00045088n utilisateur bn:00079373n programmation bn:00021493n composer bn:14766022n définition bn:00025928n xml bn:02771436n en-tête bn:00043309n client bn:00019764n java bn:00048043n file bn:00065682n classe bn:03608262n 
+  attributes (2) : C17 C6 
+  parents concepts (2) : 168 172 
+  childs concepts (6) : 70 73 87 92 111 112 
+
+Concept (143) : 
+  level : 3
+  objects (14) : mysql bn:01225760n données bn:00025314n types bn:00016413n session bn:03751534n base de donnees bn:00025333n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n information bn:00046705n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C19 C3 C5 
+  parents concepts (3) : 157 163 171 
+  childs concepts (5) : 71 77 89 101 102 
+
+Concept (144) : 
+  level : 3
+  objects (14) : mysql bn:01225760n types bn:00016413n entités bn:00031027n utilisateur bn:00079373n nécessaire bn:00107182a syntaxe bn:00062118n mise bn:00016287n mode bn:00033729n web bn:00080772n foreach bn:03463379n en-tête bn:00043309n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (3) : C15 C3 C6 
+  parents concepts (3) : 158 164 169 
+  childs concepts (5) : 65 74 90 100 105 
+
+Concept (145) : 
+  level : 2
+  objects (14) : données bn:00025314n types bn:00016413n base de donnees bn:00025333n nombre bn:00058285n méthode get bn:00045088n fois bn:00032768n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n web bn:00080772n information bn:00046705n file bn:00065682n 
+  attributes (2) : C19 CJA 
+  parents concepts (2) : 174 175 
+  childs concepts (6) : 58 81 82 98 123 124 
+
+Concept (146) : 
+  level : 3
+  objects (14) : types bn:00016413n entités bn:00031027n post bn:01500184n utilisateur bn:00079373n nécessaire bn:00107182a fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n web bn:00080772n bits bn:00010731n foreach bn:03463379n impossible bn:00104687a en-tête bn:00043309n 
+  attributes (3) : C15 C3 CJA 
+  parents concepts (3) : 162 169 170 
+  childs concepts (3) : 68 105 126 
+
+Concept (147) : 
+  level : 2
+  objects (15) : php bn:01753580n types bn:00016413n session bn:03751534n méthode get bn:00045088n code bn:00020354n utilisateur bn:00079373n programmation bn:00021493n composer bn:14766022n syntaxe bn:00062118n définition bn:00025928n mise bn:00016287n mode bn:00033729n xml bn:02771436n méthode bn:01641329n foreach bn:03463379n 
+  attributes (2) : C11 C6 
+  parents concepts (2) : 172 173 
+  childs concepts (6) : 70 94 106 107 114 116 
+
+Concept (148) : 
+  level : 2
+  objects (15) : mysql bn:01225760n données bn:00025314n base de donnees bn:00025333n entités bn:00031027n méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v définition bn:00025928n configuration bn:03088982n xml bn:02771436n information bn:00046705n en-tête bn:00043309n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (2) : C17 C3 
+  parents concepts (2) : 168 177 
+  childs concepts (6) : 69 91 99 103 109 111 
+
+Concept (149) : 
+  level : 2
+  objects (15) : mysql bn:01225760n types bn:00016413n session bn:03751534n langage de script bn:01431715n méthode get bn:00045088n programmation bn:00021493n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n web bn:00080772n méthode bn:01641329n client bn:00019764n java bn:00048043n file bn:00065682n classe bn:03608262n 
+  attributes (2) : C19 C6 
+  parents concepts (2) : 172 174 
+  childs concepts (6) : 82 92 94 110 120 121 
+
+Concept (150) : 
+  level : 2
+  objects (15) : fichier bn:00021475n types bn:00016413n post bn:01500184n méthode get bn:00045088n code bn:00020354n utilisateur bn:00079373n afficher bn:00087013v fois bn:00032768n composer bn:14766022n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n bits bn:00010731n foreach bn:03463379n 
+  attributes (2) : C11 CJA 
+  parents concepts (2) : 173 175 
+  childs concepts (6) : 49 81 106 127 132 133 
+
+Concept (151) : 
+  level : 2
+  objects (15) : types bn:00016413n session bn:03751534n méthode get bn:00045088n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n configuration bn:03088982n postgresql bn:01709156n méthode bn:01641329n easyphp bn:14837849n 
+  attributes (2) : C11 C19 
+  parents concepts (2) : 173 174 
+  childs concepts (6) : 50 81 94 115 125 128 
+
+Concept (152) : 
+  level : 3
+  objects (15) : types bn:00016413n post bn:01500184n code bn:00020354n utilisateur bn:00079373n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n mode bn:00033729n bits bn:00010731n foreach bn:03463379n timestamp bn:03603649n public bn:00109211a 
+  attributes (3) : C11 C15 C5 
+  parents concepts (3) : 161 165 166 
+  childs concepts (4) : 83 97 117 118 
+
+Concept (153) : 
+  level : 2
+  objects (16) : mysql bn:01225760n types bn:00016413n session bn:03751534n entités bn:00031027n client web bn:00013447n langage de script bn:01431715n code bn:00020354n utilisateur bn:00079373n programmation bn:00021493n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n méthode bn:01641329n foreach bn:03463379n java bn:00048043n classe bn:03608262n 
+  attributes (2) : C5 C6 
+  parents concepts (2) : 172 176 
+  childs concepts (6) : 73 104 116 120 122 129 
+
+Concept (154) : 
+  level : 3
+  objects (16) : mysql bn:01225760n types bn:00016413n entités bn:00031027n post bn:01500184n utilisateur bn:00079373n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n bits bn:00010731n foreach bn:03463379n impossible bn:00104687a public bn:00109211a java bn:00048043n classe bn:03608262n 
+  attributes (3) : C15 C3 C5 
+  parents concepts (3) : 165 169 171 
+  childs concepts (4) : 100 101 118 126 
+
+Concept (155) : 
+  level : 2
+  objects (17) : types bn:00016413n entités bn:00031027n client web bn:00013447n sélectionner bn:00084931v méthode get bn:00045088n code bn:00020354n utilisateur bn:00079373n nécessaire bn:00107182a serveur bn:00044916n composer bn:14766022n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n web bn:00080772n foreach bn:03463379n en-tête bn:00043309n file bn:00065682n 
+  attributes (2) : C6 CJA 
+  parents concepts (2) : 172 175 
+  childs concepts (6) : 82 87 104 106 134 139 
+
+Concept (156) : 
+  level : 3
+  objects (18) : fichier bn:00021475n données bn:00025314n types bn:00016413n base de donnees bn:00025333n entités bn:00031027n site bn:00047172n client web bn:00013447n post bn:01500184n utilisateur bn:00079373n fois bn:00032768n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n bits bn:00010731n foreach bn:03463379n information bn:00046705n impossible bn:00104687a 
+  attributes (3) : C3 C5 CJA 
+  parents concepts (3) : 167 170 171 
+  childs concepts (5) : 57 95 102 113 126 
+
+Concept (157) : 
+  level : 2
+  objects (19) : mysql bn:01225760n données bn:00025314n types bn:00016413n session bn:03751534n base de donnees bn:00025333n méthode get bn:00045088n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n configuration bn:03088982n web bn:00080772n information bn:00046705n easyphp bn:14837849n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (2) : C19 C3 
+  parents concepts (2) : 174 177 
+  childs concepts (6) : 109 115 121 124 136 143 
+
+Concept (158) : 
+  level : 2
+  objects (19) : mysql bn:01225760n types bn:00016413n session bn:03751534n entités bn:00031027n client web bn:00013447n méthode get bn:00045088n utilisateur bn:00079373n nécessaire bn:00107182a syntaxe bn:00062118n définition bn:00025928n mise bn:00016287n mode bn:00033729n xml bn:02771436n web bn:00080772n foreach bn:03463379n en-tête bn:00043309n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (2) : C3 C6 
+  parents concepts (2) : 172 177 
+  childs concepts (6) : 111 114 121 129 134 144 
+
+Concept (159) : 
+  level : 2
+  objects (19) : mysql bn:01225760n types bn:00016413n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n configuration bn:03088982n postgresql bn:01709156n web bn:00080772n easyphp bn:14837849n client bn:00019764n java bn:00048043n file bn:00065682n echo bn:03626250n classe bn:03608262n 
+  attributes (2) : C15 C19 
+  parents concepts (2) : 174 178 
+  childs concepts (6) : 93 98 110 128 130 136 
+
+Concept (160) : 
+  level : 2
+  objects (19) : fichier bn:00021475n types bn:00016413n session bn:03751534n post bn:01500184n méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n définition bn:00025928n mise bn:00016287n mode bn:00033729n configuration bn:03088982n xml bn:02771436n bits bn:00010731n foreach bn:03463379n easyphp bn:14837849n public bn:00109211a 
+  attributes (2) : C11 C3 
+  parents concepts (2) : 173 177 
+  childs concepts (6) : 69 114 115 132 138 141 
+
+Concept (161) : 
+  level : 2
+  objects (19) : fichier bn:00021475n types bn:00016413n session bn:03751534n post bn:01500184n code bn:00020354n utilisateur bn:00079373n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n mode bn:00033729n méthode bn:01641329n bits bn:00010731n foreach bn:03463379n timestamp bn:03603649n public bn:00109211a 
+  attributes (2) : C11 C5 
+  parents concepts (2) : 173 176 
+  childs concepts (5) : 116 125 133 138 152 
+
+Concept (162) : 
+  level : 2
+  objects (19) : types bn:00016413n entités bn:00031027n sélectionner bn:00084931v post bn:01500184n code bn:00020354n utilisateur bn:00079373n nécessaire bn:00107182a fois bn:00032768n composer bn:14766022n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n web bn:00080772n bits bn:00010731n foreach bn:03463379n impossible bn:00104687a en-tête bn:00043309n file bn:00065682n 
+  attributes (2) : C15 CJA 
+  parents concepts (2) : 175 178 
+  childs concepts (5) : 98 127 139 140 146 
+
+Concept (163) : 
+  level : 2
+  objects (20) : mysql bn:01225760n données bn:00025314n types bn:00016413n session bn:03751534n base de donnees bn:00025333n langage de script bn:01431715n nombre bn:00058285n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n méthode bn:01641329n information bn:00046705n java bn:00048043n classe bn:03608262n 
+  attributes (2) : C19 C5 
+  parents concepts (2) : 174 176 
+  childs concepts (6) : 88 120 123 125 130 143 
+
+Concept (164) : 
+  level : 2
+  objects (20) : mysql bn:01225760n types bn:00016413n entités bn:00031027n sélectionner bn:00084931v code bn:00020354n utilisateur bn:00079373n nécessaire bn:00107182a programmation bn:00021493n composer bn:14766022n syntaxe bn:00062118n mise bn:00016287n mode bn:00033729n web bn:00080772n foreach bn:03463379n pouvoir bn:00084451v en-tête bn:00043309n client bn:00019764n java bn:00048043n file bn:00065682n classe bn:03608262n 
+  attributes (2) : C15 C6 
+  parents concepts (2) : 172 178 
+  childs concepts (6) : 107 110 112 122 139 144 
+
+Concept (165) : 
+  level : 2
+  objects (21) : mysql bn:01225760n types bn:00016413n entités bn:00031027n post bn:01500184n code bn:00020354n utilisateur bn:00079373n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n bits bn:00010731n foreach bn:03463379n timestamp bn:03603649n impossible bn:00104687a public bn:00109211a java bn:00048043n classe bn:03608262n 
+  attributes (2) : C15 C5 
+  parents concepts (2) : 176 178 
+  childs concepts (5) : 122 130 140 152 154 
+
+Concept (166) : 
+  level : 2
+  objects (21) : types bn:00016413n post bn:01500184n code bn:00020354n utilisateur bn:00079373n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n composer bn:14766022n chaîne bn:00074685n syntaxe bn:00062118n mise bn:00016287n mode bn:00033729n configuration bn:03088982n postgresql bn:01709156n bits bn:00010731n foreach bn:03463379n pouvoir bn:00084450v timestamp bn:03603649n easyphp bn:14837849n public bn:00109211a 
+  attributes (2) : C11 C15 
+  parents concepts (2) : 173 178 
+  childs concepts (6) : 51 107 127 128 141 152 
+
+Concept (167) : 
+  level : 2
+  objects (22) : texte bn:00076732n fichier bn:00021475n données bn:00025314n types bn:00016413n base de donnees bn:00025333n entités bn:00031027n site bn:00047172n client web bn:00013447n nombre bn:00058285n post bn:01500184n code bn:00020354n utilisateur bn:00079373n fois bn:00032768n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n bits bn:00010731n foreach bn:03463379n information bn:00046705n impossible bn:00104687a 
+  attributes (2) : C5 CJA 
+  parents concepts (2) : 175 176 
+  childs concepts (6) : 75 104 123 133 140 156 
+
+Concept (168) : 
+  level : 1
+  objects (23) : php bn:01753580n mysql bn:01225760n texte bn:00076732n données bn:00025314n base de donnees bn:00025333n entités bn:00031027n méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v programmation bn:00021493n composer bn:14766022n définition bn:00025928n configuration bn:03088982n xml bn:02771436n postgresql bn:01709156n information bn:00046705n en-tête bn:00043309n client bn:00019764n java bn:00048043n file bn:00065682n rue bn:00074595n classe bn:03608262n exception bn:00032118n 
+  attributes (1) : C17 
+  parents concepts (1) : 179 
+  childs concepts (7) : 108 119 131 135 137 142 148 
+
+Concept (169) : 
+  level : 2
+  objects (23) : mysql bn:01225760n types bn:00016413n entités bn:00031027n post bn:01500184n utilisateur bn:00079373n nécessaire bn:00107182a fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n mise bn:00016287n mode bn:00033729n configuration bn:03088982n web bn:00080772n bits bn:00010731n foreach bn:03463379n easyphp bn:14837849n impossible bn:00104687a public bn:00109211a en-tête bn:00043309n client bn:00019764n java bn:00048043n classe bn:03608262n 
+  attributes (2) : C15 C3 
+  parents concepts (2) : 177 178 
+  childs concepts (6) : 91 136 141 144 146 154 
+
+Concept (170) : 
+  level : 2
+  objects (23) : fichier bn:00021475n données bn:00025314n types bn:00016413n base de donnees bn:00025333n entités bn:00031027n site bn:00047172n client web bn:00013447n post bn:01500184n méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v nécessaire bn:00107182a fois bn:00032768n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n web bn:00080772n bits bn:00010731n foreach bn:03463379n information bn:00046705n impossible bn:00104687a en-tête bn:00043309n 
+  attributes (2) : C3 CJA 
+  parents concepts (2) : 175 177 
+  childs concepts (6) : 103 124 132 134 146 156 
+
+Concept (171) : 
+  level : 2
+  objects (25) : mysql bn:01225760n fichier bn:00021475n données bn:00025314n types bn:00016413n session bn:03751534n base de donnees bn:00025333n entités bn:00031027n site bn:00047172n client web bn:00013447n post bn:01500184n utilisateur bn:00079373n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n bits bn:00010731n foreach bn:03463379n information bn:00046705n impossible bn:00104687a public bn:00109211a java bn:00048043n classe bn:03608262n wamp bn:01708928n 
+  attributes (2) : C3 C5 
+  parents concepts (2) : 176 177 
+  childs concepts (6) : 99 129 138 143 154 156 
+
+Concept (172) : 
+  level : 1
+  objects (29) : php bn:01753580n mysql bn:01225760n types bn:00016413n session bn:03751534n entités bn:00031027n client web bn:00013447n langage de script bn:01431715n sélectionner bn:00084931v méthode get bn:00045088n code bn:00020354n utilisateur bn:00079373n nécessaire bn:00107182a serveur bn:00044916n programmation bn:00021493n composer bn:14766022n syntaxe bn:00062118n définition bn:00025928n mise bn:00016287n mode bn:00033729n xml bn:02771436n web bn:00080772n méthode bn:01641329n foreach bn:03463379n pouvoir bn:00084451v en-tête bn:00043309n client bn:00019764n java bn:00048043n file bn:00065682n classe bn:03608262n 
+  attributes (1) : C6 
+  parents concepts (1) : 179 
+  childs concepts (7) : 142 147 149 153 155 158 164 
+
+Concept (173) : 
+  level : 1
+  objects (30) : php bn:01753580n fichier bn:00021475n types bn:00016413n session bn:03751534n post bn:01500184n méthode get bn:00045088n code bn:00020354n utilisateur bn:00079373n afficher bn:00087013v fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n composer bn:14766022n chaîne bn:00074685n syntaxe bn:00062118n hiérarchie bn:00044017n définition bn:00025928n mise bn:00016287n mode bn:00033729n configuration bn:03088982n xml bn:02771436n postgresql bn:01709156n méthode bn:01641329n bits bn:00010731n foreach bn:03463379n pouvoir bn:00084450v timestamp bn:03603649n easyphp bn:14837849n public bn:00109211a 
+  attributes (1) : C11 
+  parents concepts (1) : 179 
+  childs concepts (7) : 108 147 150 151 160 161 166 
+
+Concept (174) : 
+  level : 1
+  objects (30) : mysql bn:01225760n données bn:00025314n types bn:00016413n session bn:03751534n base de donnees bn:00025333n langage de script bn:01431715n nombre bn:00058285n méthode get bn:00045088n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n configuration bn:03088982n postgresql bn:01709156n web bn:00080772n méthode bn:01641329n information bn:00046705n easyphp bn:14837849n client bn:00019764n java bn:00048043n file bn:00065682n echo bn:03626250n classe bn:03608262n symfony bn:02798620n doctype bn:15839327n 
+  attributes (1) : C19 
+  parents concepts (1) : 179 
+  childs concepts (7) : 135 145 149 151 157 159 163 
+
+Concept (175) : 
+  level : 1
+  objects (32) : texte bn:00076732n fichier bn:00021475n données bn:00025314n types bn:00016413n base de donnees bn:00025333n entités bn:00031027n site bn:00047172n client web bn:00013447n nombre bn:00058285n sélectionner bn:00084931v post bn:01500184n méthode get bn:00045088n code bn:00020354n utilisateur bn:00079373n afficher bn:00087013v nécessaire bn:00107182a serveur bn:00044916n fois bn:00032768n composer bn:14766022n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n web bn:00080772n bits bn:00010731n foreach bn:03463379n information bn:00046705n impossible bn:00104687a en-tête bn:00043309n file bn:00065682n environnement de développement bn:00748100n 
+  attributes (1) : CJA 
+  parents concepts (1) : 179 
+  childs concepts (7) : 131 145 150 155 162 167 170 
+
+Concept (176) : 
+  level : 1
+  objects (35) : mysql bn:01225760n texte bn:00076732n fichier bn:00021475n données bn:00025314n types bn:00016413n session bn:03751534n base de donnees bn:00025333n entités bn:00031027n site bn:00047172n client web bn:00013447n langage de script bn:01431715n nombre bn:00058285n post bn:01500184n code bn:00020354n utilisateur bn:00079373n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mode bn:00033729n méthode bn:01641329n bits bn:00010731n foreach bn:03463379n information bn:00046705n timestamp bn:03603649n impossible bn:00104687a public bn:00109211a java bn:00048043n classe bn:03608262n wamp bn:01708928n realisateur bn:00027369n 
+  attributes (1) : C5 
+  parents concepts (1) : 179 
+  childs concepts (7) : 119 153 161 163 165 167 171 
+
+Concept (177) : 
+  level : 1
+  objects (35) : mysql bn:01225760n fichier bn:00021475n données bn:00025314n types bn:00016413n session bn:03751534n base de donnees bn:00025333n entités bn:00031027n site bn:00047172n client web bn:00013447n post bn:01500184n méthode get bn:00045088n utilisateur bn:00079373n afficher bn:00087013v nécessaire bn:00107182a fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n définition bn:00025928n langage bn:00049910n mise bn:00016287n mode bn:00033729n configuration bn:03088982n xml bn:02771436n web bn:00080772n bits bn:00010731n foreach bn:03463379n information bn:00046705n easyphp bn:14837849n impossible bn:00104687a public bn:00109211a en-tête bn:00043309n client bn:00019764n java bn:00048043n classe bn:03608262n wamp bn:01708928n 
+  attributes (1) : C3 
+  parents concepts (1) : 179 
+  childs concepts (7) : 148 157 158 160 169 170 171 
+
+Concept (178) : 
+  level : 1
+  objects (37) : mysql bn:01225760n types bn:00016413n entités bn:00031027n sélectionner bn:00084931v post bn:01500184n code bn:00020354n utilisateur bn:00079373n nécessaire bn:00107182a fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n composer bn:14766022n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n mise bn:00016287n mode bn:00033729n configuration bn:03088982n postgresql bn:01709156n web bn:00080772n bits bn:00010731n foreach bn:03463379n pouvoir bn:00084450v timestamp bn:03603649n easyphp bn:14837849n pouvoir bn:00084451v impossible bn:00104687a public bn:00109211a en-tête bn:00043309n client bn:00019764n java bn:00048043n file bn:00065682n echo bn:03626250n void bn:01326821n classe bn:03608262n exception bn:00032118n 
+  attributes (1) : C15 
+  parents concepts (1) : 179 
+  childs concepts (7) : 137 159 162 164 165 166 169 
+
+Concept (179) : 
+  level : 0
+  objects (61) : php bn:01753580n mysql bn:01225760n texte bn:00076732n fichier bn:00021475n données bn:00025314n types bn:00016413n session bn:03751534n base de donnees bn:00025333n entités bn:00031027n site bn:00047172n client web bn:00013447n langage de script bn:01431715n nombre bn:00058285n sélectionner bn:00084931v post bn:01500184n méthode get bn:00045088n code bn:00020354n utilisateur bn:00079373n afficher bn:00087013v nécessaire bn:00107182a serveur bn:00044916n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n composer bn:14766022n chaîne bn:00074685n syntaxe bn:00062118n hiérarchie bn:00044017n définition bn:00025928n langage bn:00049910n mise bn:00016287n mode bn:00033729n configuration bn:03088982n xml bn:02771436n postgresql bn:01709156n web bn:00080772n méthode bn:01641329n bits bn:00010731n foreach bn:03463379n pouvoir bn:00084450v information bn:00046705n timestamp bn:03603649n easyphp bn:14837849n pouvoir bn:00084451v impossible bn:00104687a public bn:00109211a en-tête bn:00043309n client bn:00019764n java bn:00048043n file bn:00065682n echo bn:03626250n rue bn:00074595n void bn:01326821n classe bn:03608262n exception bn:00032118n wamp bn:01708928n symfony bn:02798620n doctype bn:15839327n environnement de développement bn:00748100n realisateur bn:00027369n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (8) : 168 172 173 174 175 176 177 178 
+

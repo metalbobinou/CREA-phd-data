@@ -1,0 +1,6 @@
+Concept ID;Level;Nb Obj;Nb Att;Objects;Attributes;
+0;2;0;3;;C5.csv,C6.csv,CJA-automatic.csv,;
+1;1;1;1;fichiers bn:00021475n,;CJA-automatic.csv,;
+2;1;2;1;php bn:01753580n,code bn:00020354n,;C6.csv,;
+3;1;2;1;chaîne bn:00074685n,class bn:03598962n,;C5.csv,;
+4;0;5;0;php bn:01753580n,chaîne bn:00074685n,fichiers bn:00021475n,code bn:00020354n,class bn:03598962n,;;

@@ -1,0 +1,63 @@
+Concept (0) : 
+  level : 3
+  objects (0) : 
+  attributes (6) : C1.csv C2.csv C4.csv C7.csv C8.csv C9.csv 
+  parents concepts (5) : 1 2 3 5 6 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 2
+  objects (2) : donnée bn:00025314n text bn:14981519n 
+  attributes (2) : C8.csv C9.csv 
+  parents concepts (2) : 4 7 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 1
+  objects (2) : méthode post bn:00045088n list bn:04720346n 
+  attributes (1) : C4.csv 
+  parents concepts (1) : 8 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 1
+  objects (4) : fichier bn:00021475n commentaire bn:00020978n case à cocher bn:03157691n serveur bn:00044916n 
+  attributes (1) : C2.csv 
+  parents concepts (1) : 8 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 1
+  objects (4) : donnée bn:00025314n text bn:14981519n typage bn:00016413n mot bn:00081546n 
+  attributes (1) : C9.csv 
+  parents concepts (1) : 8 
+  childs concepts (1) : 1 
+
+Concept (5) : 
+  level : 1
+  objects (6) : url bn:00079080n langage bn:00049910n case bn:04777941n fermeture bn:16858148n session bn:03751534n chaîne bn:00074685n 
+  attributes (1) : C7.csv 
+  parents concepts (1) : 8 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 1
+  objects (7) : navigateur bn:00013447n serveur web bn:02705179n texte bn:00076732n concerner bn:00083240v utilisateur bn:00079373n personne bn:00046516n mysql bn:01225760n 
+  attributes (1) : C1.csv 
+  parents concepts (1) : 8 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 1
+  objects (9) : donnée bn:00025314n php bn:01753580n code bn:00020354n fois bn:00032768n post bn:01500184n text bn:14981519n site bn:00047172n foreach bn:03463379n cle bn:04756252n 
+  attributes (1) : C8.csv 
+  parents concepts (1) : 8 
+  childs concepts (1) : 1 
+
+Concept (8) : 
+  level : 0
+  objects (30) : navigateur bn:00013447n serveur web bn:02705179n fichier bn:00021475n donnée bn:00025314n php bn:01753580n code bn:00020354n texte bn:00076732n concerner bn:00083240v commentaire bn:00020978n fois bn:00032768n url bn:00079080n case à cocher bn:03157691n post bn:01500184n text bn:14981519n langage bn:00049910n utilisateur bn:00079373n case bn:04777941n personne bn:00046516n méthode post bn:00045088n fermeture bn:16858148n mysql bn:01225760n site bn:00047172n serveur bn:00044916n typage bn:00016413n foreach bn:03463379n list bn:04720346n cle bn:04756252n mot bn:00081546n session bn:03751534n chaîne bn:00074685n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (6) : 2 3 4 5 6 7 
+

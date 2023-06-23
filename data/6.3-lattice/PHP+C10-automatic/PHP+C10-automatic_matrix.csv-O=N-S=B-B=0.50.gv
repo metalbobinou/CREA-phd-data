@@ -1,0 +1,433 @@
+// <Lattice object of 10 atoms 102 concepts 10 coatoms at 0x6ffff74522e8>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="navigateur bn:00013447n" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="fichier bn:00021475n" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="donnée bn:00025314n" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="code bn:00020354n" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="texte bn:00076732n" labelangle=270]
+	c5 -> c0
+	c6
+	c6 -> c6 [color=transparent headlabel="délimiter bn:00086464v" labelangle=270]
+	c6 -> c0
+	c7
+	c7 -> c7 [color=transparent headlabel="nombre bn:00058285n" labelangle=270]
+	c7 -> c0
+	c8
+	c8 -> c8 [color=transparent headlabel="text bn:14981519n" labelangle=270]
+	c8 -> c0
+	c9
+	c9 -> c9 [color=transparent headlabel="personne bn:00046516n" labelangle=270]
+	c9 -> c0
+	c10
+	c10 -> c10 [color=transparent headlabel="page web bn:00080778n" labelangle=270]
+	c10 -> c1
+	c11
+	c11 -> c1
+	c11 -> c3
+	c12
+	c12 -> c1
+	c12 -> c7
+	c13
+	c13 -> c1
+	c13 -> c9
+	c14
+	c14 -> c14 [color=transparent headlabel="méthode post bn:00045088n" labelangle=270]
+	c14 -> c1
+	c15
+	c15 -> c15 [color=transparent headlabel="type bn:00016413n" labelangle=270]
+	c15 -> c1
+	c16
+	c16 -> c16 [color=transparent headlabel="serveur web bn:02705179n foreach bn:03463379n" labelangle=270]
+	c16 -> c0
+	c17
+	c17 -> c2
+	c17 -> c4
+	c18
+	c18 -> c2
+	c18 -> c8
+	c19
+	c19 -> c19 [color=transparent headlabel="client bn:00019764n" labelangle=270]
+	c19 -> c8
+	c20
+	c20 -> c20 [color=transparent headlabel="base de donnée bn:00025333n" labelangle=270]
+	c20 -> c3
+	c21
+	c21 -> c4
+	c21 -> c9
+	c22
+	c22 -> c5
+	c22 -> c7
+	c23
+	c23 -> c6
+	c23 -> c8
+	c24
+	c24 -> c6
+	c24 -> c9
+	c25
+	c25 -> c7
+	c25 -> c9
+	c26
+	c26 -> c8
+	c26 -> c9
+	c27
+	c27 -> c27 [color=transparent headlabel="site bn:00047172n" labelangle=270]
+	c27 -> c8
+	c28
+	c28 -> c28 [color=transparent headlabel="langage de script bn:01431715n" labelangle=270]
+	c28 -> c8
+	c29
+	c29 -> c29 [color=transparent headlabel="configuration bn:03088982n" labelangle=270]
+	c29 -> c9
+	c30
+	c30 -> c10
+	c30 -> c13
+	c31
+	c31 -> c11
+	c31 -> c14
+	c32
+	c32 -> c5
+	c32 -> c15
+	c33
+	c33 -> c12
+	c33 -> c14
+	c34
+	c34 -> c13
+	c34 -> c14
+	c35
+	c35 -> c14
+	c35 -> c15
+	c36
+	c36 -> c36 [color=transparent headlabel="php bn:01753580n" labelangle=270]
+	c36 -> c16
+	c37
+	c37 -> c8
+	c37 -> c16
+	c38
+	c38 -> c9
+	c38 -> c16
+	c39
+	c39 -> c19
+	c39 -> c27
+	c40
+	c40 -> c7
+	c40 -> c20
+	c41
+	c41 -> c4
+	c41 -> c23
+	c42
+	c42 -> c5
+	c42 -> c28
+	c43
+	c43 -> c24
+	c43 -> c25
+	c44
+	c44 -> c23
+	c44 -> c24
+	c44 -> c26
+	c45
+	c45 -> c25
+	c45 -> c26
+	c46
+	c46 -> c46 [color=transparent headlabel="transaction bn:01403911n" labelangle=270]
+	c46 -> c26
+	c47
+	c47 -> c47 [color=transparent headlabel="class bn:03598962n mysqli bn:01438356n" labelangle=270]
+	c47 -> c9
+	c48
+	c48 -> c6
+	c48 -> c10
+	c48 -> c14
+	c49
+	c49 -> c49 [color=transparent headlabel="post bn:01500184n" labelangle=270]
+	c49 -> c1
+	c49 -> c16
+	c50
+	c50 -> c11
+	c50 -> c15
+	c50 -> c20
+	c51
+	c51 -> c3
+	c51 -> c37
+	c52
+	c52 -> c4
+	c52 -> c36
+	c53
+	c53 -> c36
+	c53 -> c38
+	c54
+	c54 -> c54 [color=transparent headlabel="mysql bn:01225760n" labelangle=270]
+	c54 -> c37
+	c55
+	c55 -> c55 [color=transparent labelangle=90 taillabel=C1]
+	c55 -> c18
+	c55 -> c39
+	c56
+	c56 -> c56 [color=transparent headlabel="chaîne bn:00074685n interpréter bn:00089840v" labelangle=270]
+	c56 -> c25
+	c57
+	c57 -> c24
+	c57 -> c30
+	c57 -> c34
+	c57 -> c48
+	c58
+	c58 -> c37
+	c58 -> c49
+	c59
+	c59 -> c13
+	c59 -> c38
+	c59 -> c49
+	c60
+	c60 -> c14
+	c60 -> c49
+	c61
+	c61 -> c31
+	c61 -> c35
+	c61 -> c50
+	c62
+	c62 -> c62 [color=transparent headlabel="files bn:00065682n" labelangle=270]
+	c62 -> c32
+	c62 -> c35
+	c63
+	c63 -> c21
+	c63 -> c52
+	c63 -> c53
+	c64
+	c64 -> c21
+	c64 -> c41
+	c64 -> c43
+	c64 -> c44
+	c64 -> c45
+	c65
+	c65 -> c43
+	c65 -> c56
+	c66
+	c66 -> c12
+	c66 -> c30
+	c66 -> c56
+	c67
+	c67 -> c36
+	c67 -> c60
+	c68
+	c68 -> c58
+	c68 -> c60
+	c69
+	c69 -> c69 [color=transparent headlabel="list bn:04720346n" labelangle=270]
+	c69 -> c60
+	c70
+	c70 -> c12
+	c70 -> c22
+	c70 -> c32
+	c70 -> c40
+	c70 -> c50
+	c71
+	c71 -> c23
+	c71 -> c36
+	c71 -> c54
+	c72
+	c72 -> c72 [color=transparent headlabel="opérateur bn:16281811n" labelangle=270]
+	c72 -> c29
+	c72 -> c44
+	c72 -> c46
+	c73
+	c73 -> c11
+	c73 -> c27
+	c73 -> c51
+	c73 -> c58
+	c74
+	c74 -> c74 [color=transparent headlabel="timestamp bn:03603649n" labelangle=270]
+	c74 -> c28
+	c74 -> c58
+	c75
+	c75 -> c20
+	c75 -> c26
+	c75 -> c38
+	c75 -> c51
+	c75 -> c54
+	c76
+	c76 -> c76 [color=transparent headlabel="bienvenue bn:00080852n" labelangle=270]
+	c76 -> c17
+	c76 -> c18
+	c76 -> c41
+	c76 -> c42
+	c77
+	c77 -> c77 [color=transparent headlabel="paris bn:00015540n" labelangle=270]
+	c77 -> c17
+	c77 -> c21
+	c77 -> c29
+	c77 -> c47
+	c78
+	c78 -> c78 [color=transparent labelangle=90 taillabel=C8]
+	c78 -> c33
+	c78 -> c57
+	c78 -> c65
+	c78 -> c66
+	c79
+	c79 -> c68
+	c79 -> c74
+	c80
+	c80 -> c80 [color=transparent headlabel="null bn:15898583n" labelangle=270]
+	c80 -> c47
+	c80 -> c59
+	c81
+	c81 -> c81 [color=transparent labelangle=90 taillabel=C7]
+	c81 -> c33
+	c81 -> c61
+	c81 -> c62
+	c81 -> c70
+	c82
+	c82 -> c40
+	c82 -> c45
+	c82 -> c75
+	c83
+	c83 -> c83 [color=transparent headlabel="composer bn:14766022n" labelangle=270]
+	c83 -> c41
+	c83 -> c52
+	c83 -> c71
+	c84
+	c84 -> c84 [color=transparent headlabel="session bn:03751534n" labelangle=270]
+	c84 -> c10
+	c84 -> c15
+	c84 -> c54
+	c84 -> c58
+	c85
+	c85 -> c85 [color=transparent headlabel="avoir accès bn:00082209v" labelangle=270]
+	c85 -> c17
+	c85 -> c52
+	c85 -> c67
+	c86
+	c86 -> c31
+	c86 -> c68
+	c86 -> c69
+	c86 -> c73
+	c87
+	c87 -> c73
+	c87 -> c74
+	c88
+	c88 -> c29
+	c88 -> c34
+	c88 -> c53
+	c88 -> c59
+	c88 -> c67
+	c88 -> c69
+	c89
+	c89 -> c19
+	c89 -> c44
+	c89 -> c53
+	c89 -> c71
+	c89 -> c75
+	c90
+	c90 -> c22
+	c90 -> c42
+	c90 -> c45
+	c90 -> c46
+	c90 -> c47
+	c90 -> c56
+	c91
+	c91 -> c91 [color=transparent headlabel="france bn:00036202n" labelangle=270]
+	c91 -> c91 [color=transparent labelangle=90 taillabel=C2]
+	c91 -> c79
+	c91 -> c86
+	c91 -> c87
+	c92
+	c92 -> c92 [color=transparent headlabel="communication bn:00021221n" labelangle=270]
+	c92 -> c32
+	c92 -> c42
+	c92 -> c74
+	c92 -> c84
+	c93
+	c93 -> c93 [color=transparent labelangle=90 taillabel=C4]
+	c93 -> c63
+	c93 -> c64
+	c93 -> c82
+	c93 -> c83
+	c93 -> c89
+	c94
+	c94 -> c94 [color=transparent headlabel="zones bn:00005513n xml bn:02771436n" labelangle=270]
+	c94 -> c35
+	c94 -> c48
+	c94 -> c67
+	c94 -> c68
+	c94 -> c71
+	c94 -> c84
+	c95
+	c95 -> c95 [color=transparent headlabel="varchar bn:01838409n" labelangle=270]
+	c95 -> c30
+	c95 -> c46
+	c95 -> c50
+	c95 -> c59
+	c95 -> c73
+	c95 -> c75
+	c95 -> c84
+	c96
+	c96 -> c96 [color=transparent labelangle=90 taillabel=C9]
+	c96 -> c63
+	c96 -> c77
+	c96 -> c80
+	c96 -> c85
+	c96 -> c88
+	c97
+	c97 -> c97 [color=transparent headlabel="salaire bn:15928884n super bn:17336345n pouvoir bn:00084451v" labelangle=270]
+	c97 -> c97 [color=transparent labelangle=90 taillabel=C10]
+	c97 -> c64
+	c97 -> c65
+	c97 -> c72
+	c97 -> c76
+	c97 -> c77
+	c97 -> c90
+	c98
+	c98 -> c98 [color=transparent headlabel="pointeur bn:03222272n valeur bn:00079508n" labelangle=270]
+	c98 -> c98 [color=transparent labelangle=90 taillabel=C3]
+	c98 -> c39
+	c98 -> c57
+	c98 -> c61
+	c98 -> c72
+	c98 -> c86
+	c98 -> c88
+	c98 -> c89
+	c98 -> c94
+	c98 -> c95
+	c99
+	c99 -> c99 [color=transparent headlabel="casse bn:03225002n" labelangle=270]
+	c99 -> c99 [color=transparent labelangle=90 taillabel=C5]
+	c99 -> c66
+	c99 -> c70
+	c99 -> c80
+	c99 -> c82
+	c99 -> c87
+	c99 -> c90
+	c99 -> c92
+	c99 -> c95
+	c100
+	c100 -> c100 [color=transparent headlabel="serveur bn:00044916n echo bn:03626250n généralité bn:00041249n autre bn:00108013a" labelangle=270]
+	c100 -> c100 [color=transparent labelangle=90 taillabel=C6]
+	c100 -> c62
+	c100 -> c76
+	c100 -> c79
+	c100 -> c83
+	c100 -> c85
+	c100 -> c92
+	c100 -> c94
+	c101
+	c101 -> c55
+	c101 -> c78
+	c101 -> c81
+	c101 -> c91
+	c101 -> c93
+	c101 -> c96
+	c101 -> c97
+	c101 -> c98
+	c101 -> c99
+	c101 -> c100
+}

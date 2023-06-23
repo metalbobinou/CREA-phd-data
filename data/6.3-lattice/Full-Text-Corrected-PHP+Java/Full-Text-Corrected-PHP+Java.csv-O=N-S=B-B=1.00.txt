@@ -1,0 +1,28 @@
+B
+
+8
+7
+
+php bn:01753580n
+texte bn:00076732n
+fichier bn:00021475n
+client web bn:00013447n
+nombre bn:00058285n
+serveur bn:00044916n
+chaîne bn:00074685n
+pouvoir bn:00084451v
+C11
+C15
+C17
+C19
+C3
+C5
+CJA
+X......
+..X..XX
+......X
+....XXX
+...X.XX
+......X
+...X.X.
+.X.....

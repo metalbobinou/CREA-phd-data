@@ -1,0 +1,125 @@
+// <Lattice object of 10 atoms 31 concepts 8 coatoms at 0x6ffff6e3c358>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="fichier bn:00021475n" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="client bn:00019764n" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="donnée bn:00025314n" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="php bn:01753580n" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="nombre bn:00058285n" labelangle=270]
+	c5 -> c0
+	c6
+	c6 -> c6 [color=transparent headlabel="zones bn:00005513n" labelangle=270]
+	c6 -> c0
+	c7
+	c7 -> c7 [color=transparent headlabel="site bn:00047172n" labelangle=270]
+	c7 -> c0
+	c8
+	c8 -> c8 [color=transparent headlabel="langage de script bn:01431715n" labelangle=270]
+	c8 -> c0
+	c9
+	c9 -> c9 [color=transparent headlabel="serveur bn:00044916n" labelangle=270]
+	c9 -> c0
+	c10
+	c10 -> c10 [color=transparent headlabel="class bn:03598962n" labelangle=270]
+	c10 -> c0
+	c11
+	c11 -> c11 [color=transparent labelangle=90 taillabel=C1]
+	c11 -> c2
+	c11 -> c7
+	c12
+	c12 -> c12 [color=transparent headlabel="base de donnée bn:00025333n" labelangle=270]
+	c12 -> c3
+	c13
+	c13 -> c3
+	c13 -> c7
+	c14
+	c14 -> c14 [color=transparent headlabel="chaîne bn:00074685n" labelangle=270]
+	c14 -> c14 [color=transparent labelangle=90 taillabel=C8]
+	c14 -> c5
+	c15
+	c15 -> c15 [color=transparent headlabel="timestamp bn:03603649n" labelangle=270]
+	c15 -> c8
+	c16
+	c16 -> c16 [color=transparent labelangle=90 taillabel=C9]
+	c16 -> c1
+	c16 -> c4
+	c16 -> c10
+	c17
+	c17 -> c2
+	c17 -> c12
+	c18
+	c18 -> c18 [color=transparent labelangle=90 taillabel=C7]
+	c18 -> c5
+	c18 -> c12
+	c19
+	c19 -> c12
+	c19 -> c13
+	c20
+	c20 -> c18
+	c20 -> c19
+	c21
+	c21 -> c13
+	c21 -> c15
+	c22
+	c22 -> c8
+	c22 -> c10
+	c22 -> c14
+	c23
+	c23 -> c23 [color=transparent labelangle=90 taillabel=C4]
+	c23 -> c4
+	c23 -> c17
+	c23 -> c18
+	c24
+	c24 -> c24 [color=transparent labelangle=90 taillabel=C3]
+	c24 -> c6
+	c24 -> c11
+	c24 -> c17
+	c24 -> c19
+	c25
+	c25 -> c25 [color=transparent headlabel="france bn:00036202n" labelangle=270]
+	c25 -> c25 [color=transparent labelangle=90 taillabel=C2]
+	c25 -> c21
+	c26
+	c26 -> c26 [color=transparent headlabel="salaire bn:15928884n super bn:17336345n pouvoir bn:00084451v" labelangle=270]
+	c26 -> c26 [color=transparent labelangle=90 taillabel=C10]
+	c26 -> c22
+	c27
+	c27 -> c27 [color=transparent headlabel="exceptions bn:00032118n positionnement bn:00030615n" labelangle=270]
+	c27 -> c27 [color=transparent labelangle=90 taillabel=CJA]
+	c27 -> c1
+	c27 -> c9
+	c27 -> c20
+	c28
+	c28 -> c28 [color=transparent headlabel="echo bn:03626250n généralité bn:00041249n autre bn:00108013a" labelangle=270]
+	c28 -> c28 [color=transparent labelangle=90 taillabel=C6]
+	c28 -> c4
+	c28 -> c6
+	c28 -> c9
+	c28 -> c15
+	c29
+	c29 -> c29 [color=transparent headlabel="casse bn:03225002n" labelangle=270]
+	c29 -> c29 [color=transparent labelangle=90 taillabel=C5]
+	c29 -> c20
+	c29 -> c21
+	c29 -> c22
+	c30
+	c30 -> c16
+	c30 -> c23
+	c30 -> c24
+	c30 -> c25
+	c30 -> c26
+	c30 -> c27
+	c30 -> c28
+	c30 -> c29
+}

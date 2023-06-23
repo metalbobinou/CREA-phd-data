@@ -1,0 +1,364 @@
+Concept (0) : 
+  level : 7
+  objects (0) : 
+  attributes (8) : C11 C15 C17 C19 C3 C5 C6 CJA 
+  parents concepts (7) : 1 2 3 4 5 6 13 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 4
+  objects (1) : fichier bn:00021475n 
+  attributes (4) : C11 C5 C6 CJA 
+  parents concepts (3) : 9 16 17 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 5
+  objects (1) : base de donnees bn:00025333n 
+  attributes (5) : C17 C19 C3 C5 CJA 
+  parents concepts (3) : 8 10 26 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 4
+  objects (1) : afficher bn:00087013v 
+  attributes (4) : C11 C17 C3 CJA 
+  parents concepts (3) : 7 10 18 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 4
+  objects (1) : nécessaire bn:00107182a 
+  attributes (4) : C15 C3 C6 CJA 
+  parents concepts (2) : 12 23 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 4
+  objects (1) : méthode bn:01641329n 
+  attributes (4) : C11 C19 C5 C6 
+  parents concepts (3) : 9 11 30 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 2
+  objects (1) : exception bn:00032118n 
+  attributes (2) : C15 C17 
+  parents concepts (2) : 32 47 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 2
+  objects (2) : php bn:01753580n afficher bn:00087013v 
+  attributes (2) : C11 C17 
+  parents concepts (2) : 32 43 
+  childs concepts (1) : 3 
+
+Concept (8) : 
+  level : 3
+  objects (2) : texte bn:00076732n base de donnees bn:00025333n 
+  attributes (3) : C17 C5 CJA 
+  parents concepts (2) : 14 44 
+  childs concepts (1) : 2 
+
+Concept (9) : 
+  level : 3
+  objects (2) : fichier bn:00021475n méthode bn:01641329n 
+  attributes (3) : C11 C5 C6 
+  parents concepts (2) : 15 39 
+  childs concepts (2) : 1 5 
+
+Concept (10) : 
+  level : 3
+  objects (2) : base de donnees bn:00025333n afficher bn:00087013v 
+  attributes (3) : C17 C3 CJA 
+  parents concepts (2) : 14 41 
+  childs concepts (2) : 2 3 
+
+Concept (11) : 
+  level : 3
+  objects (2) : langage de script bn:01431715n méthode bn:01641329n 
+  attributes (3) : C19 C5 C6 
+  parents concepts (2) : 15 46 
+  childs concepts (1) : 5 
+
+Concept (12) : 
+  level : 3
+  objects (2) : sélectionner bn:00084931v nécessaire bn:00107182a 
+  attributes (3) : C15 C6 CJA 
+  parents concepts (2) : 16 27 
+  childs concepts (1) : 4 
+
+Concept (13) : 
+  level : 6
+  objects (2) : fois bn:00032768n syntaxe bn:00062118n 
+  attributes (6) : C11 C15 C19 C3 C5 CJA 
+  parents concepts (4) : 17 18 19 20 
+  childs concepts (1) : 0 
+
+Concept (14) : 
+  level : 2
+  objects (3) : texte bn:00076732n base de donnees bn:00025333n afficher bn:00087013v 
+  attributes (2) : C17 CJA 
+  parents concepts (2) : 32 49 
+  childs concepts (2) : 8 10 
+
+Concept (15) : 
+  level : 2
+  objects (3) : fichier bn:00021475n langage de script bn:01431715n méthode bn:01641329n 
+  attributes (2) : C5 C6 
+  parents concepts (2) : 33 50 
+  childs concepts (2) : 9 11 
+
+Concept (16) : 
+  level : 2
+  objects (3) : fichier bn:00021475n sélectionner bn:00084931v nécessaire bn:00107182a 
+  attributes (2) : C6 CJA 
+  parents concepts (2) : 33 49 
+  childs concepts (2) : 1 12 
+
+Concept (17) : 
+  level : 3
+  objects (3) : fichier bn:00021475n fois bn:00032768n syntaxe bn:00062118n 
+  attributes (3) : C11 C5 CJA 
+  parents concepts (3) : 21 39 44 
+  childs concepts (2) : 1 13 
+
+Concept (18) : 
+  level : 3
+  objects (3) : afficher bn:00087013v fois bn:00032768n syntaxe bn:00062118n 
+  attributes (3) : C11 C3 CJA 
+  parents concepts (3) : 21 22 41 
+  childs concepts (2) : 3 13 
+
+Concept (19) : 
+  level : 5
+  objects (3) : fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n 
+  attributes (5) : C11 C15 C19 C3 C5 
+  parents concepts (3) : 22 24 25 
+  childs concepts (1) : 13 
+
+Concept (20) : 
+  level : 5
+  objects (3) : fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n 
+  attributes (5) : C15 C19 C3 C5 CJA 
+  parents concepts (3) : 23 25 26 
+  childs concepts (1) : 13 
+
+Concept (21) : 
+  level : 2
+  objects (4) : fichier bn:00021475n afficher bn:00087013v fois bn:00032768n syntaxe bn:00062118n 
+  attributes (2) : C11 CJA 
+  parents concepts (2) : 43 49 
+  childs concepts (2) : 17 18 
+
+Concept (22) : 
+  level : 2
+  objects (4) : afficher bn:00087013v fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n 
+  attributes (2) : C11 C3 
+  parents concepts (2) : 43 45 
+  childs concepts (2) : 18 19 
+
+Concept (23) : 
+  level : 3
+  objects (4) : nécessaire bn:00107182a fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n 
+  attributes (3) : C15 C3 CJA 
+  parents concepts (3) : 27 28 41 
+  childs concepts (2) : 4 20 
+
+Concept (24) : 
+  level : 4
+  objects (4) : fois bn:00032768n class bn:03598962n commentaires bn:00020978n syntaxe bn:00062118n 
+  attributes (4) : C11 C15 C19 C5 
+  parents concepts (3) : 29 30 31 
+  childs concepts (1) : 19 
+
+Concept (25) : 
+  level : 4
+  objects (4) : fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n 
+  attributes (4) : C15 C19 C3 C5 
+  parents concepts (3) : 28 29 35 
+  childs concepts (2) : 19 20 
+
+Concept (26) : 
+  level : 4
+  objects (5) : données bn:00025314n base de donnees bn:00025333n fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n 
+  attributes (4) : C19 C3 C5 CJA 
+  parents concepts (3) : 34 35 40 
+  childs concepts (2) : 2 20 
+
+Concept (27) : 
+  level : 2
+  objects (5) : sélectionner bn:00084931v nécessaire bn:00107182a fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n 
+  attributes (2) : C15 CJA 
+  parents concepts (2) : 47 49 
+  childs concepts (2) : 12 23 
+
+Concept (28) : 
+  level : 2
+  objects (5) : nécessaire bn:00107182a fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n 
+  attributes (2) : C15 C3 
+  parents concepts (2) : 45 47 
+  childs concepts (2) : 23 25 
+
+Concept (29) : 
+  level : 3
+  objects (5) : fois bn:00032768n class bn:03598962n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n 
+  attributes (3) : C15 C19 C5 
+  parents concepts (3) : 36 37 46 
+  childs concepts (2) : 24 25 
+
+Concept (30) : 
+  level : 3
+  objects (5) : fois bn:00032768n class bn:03598962n commentaires bn:00020978n syntaxe bn:00062118n méthode bn:01641329n 
+  attributes (3) : C11 C19 C5 
+  parents concepts (2) : 39 46 
+  childs concepts (2) : 5 24 
+
+Concept (31) : 
+  level : 3
+  objects (5) : fois bn:00032768n class bn:03598962n commentaires bn:00020978n syntaxe bn:00062118n timestamp bn:03603649n 
+  attributes (3) : C11 C15 C5 
+  parents concepts (3) : 36 38 39 
+  childs concepts (1) : 24 
+
+Concept (32) : 
+  level : 1
+  objects (6) : php bn:01753580n texte bn:00076732n base de donnees bn:00025333n afficher bn:00087013v rue bn:00074595n exception bn:00032118n 
+  attributes (1) : C17 
+  parents concepts (1) : 51 
+  childs concepts (3) : 6 7 14 
+
+Concept (33) : 
+  level : 1
+  objects (6) : fichier bn:00021475n langage de script bn:01431715n sélectionner bn:00084931v code bn:00020354n nécessaire bn:00107182a méthode bn:01641329n 
+  attributes (1) : C6 
+  parents concepts (1) : 51 
+  childs concepts (2) : 15 16 
+
+Concept (34) : 
+  level : 3
+  objects (6) : données bn:00025314n base de donnees bn:00025333n nombre bn:00058285n fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n 
+  attributes (3) : C19 C5 CJA 
+  parents concepts (2) : 44 46 
+  childs concepts (1) : 26 
+
+Concept (35) : 
+  level : 3
+  objects (6) : données bn:00025314n base de donnees bn:00025333n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n 
+  attributes (3) : C19 C3 C5 
+  parents concepts (2) : 42 46 
+  childs concepts (2) : 25 26 
+
+Concept (36) : 
+  level : 2
+  objects (6) : fois bn:00032768n class bn:03598962n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n timestamp bn:03603649n 
+  attributes (2) : C15 C5 
+  parents concepts (2) : 47 50 
+  childs concepts (2) : 29 31 
+
+Concept (37) : 
+  level : 2
+  objects (6) : fois bn:00032768n class bn:03598962n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n echo bn:03626250n 
+  attributes (2) : C15 C19 
+  parents concepts (2) : 47 48 
+  childs concepts (1) : 29 
+
+Concept (38) : 
+  level : 2
+  objects (6) : fois bn:00032768n class bn:03598962n commentaires bn:00020978n syntaxe bn:00062118n pouvoir bn:00084450v timestamp bn:03603649n 
+  attributes (2) : C11 C15 
+  parents concepts (2) : 43 47 
+  childs concepts (1) : 31 
+
+Concept (39) : 
+  level : 2
+  objects (7) : fichier bn:00021475n fois bn:00032768n class bn:03598962n commentaires bn:00020978n syntaxe bn:00062118n méthode bn:01641329n timestamp bn:03603649n 
+  attributes (2) : C11 C5 
+  parents concepts (2) : 43 50 
+  childs concepts (4) : 9 17 30 31 
+
+Concept (40) : 
+  level : 3
+  objects (7) : données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n 
+  attributes (3) : C3 C5 CJA 
+  parents concepts (3) : 41 42 44 
+  childs concepts (1) : 26 
+
+Concept (41) : 
+  level : 2
+  objects (9) : données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n afficher bn:00087013v nécessaire bn:00107182a fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n 
+  attributes (2) : C3 CJA 
+  parents concepts (2) : 45 49 
+  childs concepts (4) : 10 18 23 40 
+
+Concept (42) : 
+  level : 2
+  objects (9) : données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n wamp bn:01708928n 
+  attributes (2) : C3 C5 
+  parents concepts (2) : 45 50 
+  childs concepts (2) : 35 40 
+
+Concept (43) : 
+  level : 1
+  objects (11) : php bn:01753580n fichier bn:00021475n afficher bn:00087013v fois bn:00032768n class bn:03598962n commentaires bn:00020978n syntaxe bn:00062118n hiérarchie bn:00044017n méthode bn:01641329n pouvoir bn:00084450v timestamp bn:03603649n 
+  attributes (1) : C11 
+  parents concepts (1) : 51 
+  childs concepts (5) : 7 21 22 38 39 
+
+Concept (44) : 
+  level : 2
+  objects (11) : texte bn:00076732n fichier bn:00021475n données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n nombre bn:00058285n fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n informatique bn:00100175a 
+  attributes (2) : C5 CJA 
+  parents concepts (2) : 49 50 
+  childs concepts (4) : 8 17 34 40 
+
+Concept (45) : 
+  level : 1
+  objects (11) : données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n afficher bn:00087013v nécessaire bn:00107182a fois bn:00032768n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n wamp bn:01708928n 
+  attributes (1) : C3 
+  parents concepts (1) : 51 
+  childs concepts (4) : 22 28 41 42 
+
+Concept (46) : 
+  level : 2
+  objects (11) : données bn:00025314n base de donnees bn:00025333n langage de script bn:01431715n nombre bn:00058285n fois bn:00032768n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n méthode bn:01641329n 
+  attributes (2) : C19 C5 
+  parents concepts (2) : 48 50 
+  childs concepts (5) : 11 29 30 34 35 
+
+Concept (47) : 
+  level : 1
+  objects (13) : sélectionner bn:00084931v nécessaire bn:00107182a fois bn:00032768n class bn:03598962n commentaires bn:00020978n syntaxe bn:00062118n langage bn:00049910n pouvoir bn:00084450v timestamp bn:03603649n pouvoir bn:00084451v echo bn:03626250n void bn:01326821n exception bn:00032118n 
+  attributes (1) : C15 
+  parents concepts (1) : 51 
+  childs concepts (6) : 6 27 28 36 37 38 
+
+Concept (48) : 
+  level : 1
+  objects (14) : données bn:00025314n base de donnees bn:00025333n langage de script bn:01431715n nombre bn:00058285n fois bn:00032768n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n méthode bn:01641329n echo bn:03626250n symfony bn:02798620n doctype bn:15839327n 
+  attributes (1) : C19 
+  parents concepts (1) : 51 
+  childs concepts (2) : 37 46 
+
+Concept (49) : 
+  level : 1
+  objects (16) : texte bn:00076732n fichier bn:00021475n données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n nombre bn:00058285n sélectionner bn:00084931v afficher bn:00087013v nécessaire bn:00107182a serveur bn:00044916n fois bn:00032768n syntaxe bn:00062118n langage bn:00049910n environnement de développement bn:00748100n informatique bn:00100175a 
+  attributes (1) : CJA 
+  parents concepts (1) : 51 
+  childs concepts (6) : 14 16 21 27 41 44 
+
+Concept (50) : 
+  level : 1
+  objects (19) : texte bn:00076732n fichier bn:00021475n données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n langage de script bn:01431715n nombre bn:00058285n fois bn:00032768n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n méthode bn:01641329n timestamp bn:03603649n wamp bn:01708928n realisateur bn:00027369n informatique bn:00100175a 
+  attributes (1) : C5 
+  parents concepts (1) : 51 
+  childs concepts (6) : 15 36 39 42 44 46 
+
+Concept (51) : 
+  level : 0
+  objects (35) : php bn:01753580n texte bn:00076732n fichier bn:00021475n données bn:00025314n base de donnees bn:00025333n site bn:00047172n client web bn:00013447n langage de script bn:01431715n nombre bn:00058285n sélectionner bn:00084931v code bn:00020354n afficher bn:00087013v nécessaire bn:00107182a serveur bn:00044916n fois bn:00032768n class bn:03598962n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n hiérarchie bn:00044017n langage bn:00049910n méthode bn:01641329n pouvoir bn:00084450v timestamp bn:03603649n pouvoir bn:00084451v echo bn:03626250n rue bn:00074595n void bn:01326821n exception bn:00032118n wamp bn:01708928n symfony bn:02798620n doctype bn:15839327n environnement de développement bn:00748100n realisateur bn:00027369n informatique bn:00100175a 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (8) : 32 33 43 45 47 48 49 50 
+

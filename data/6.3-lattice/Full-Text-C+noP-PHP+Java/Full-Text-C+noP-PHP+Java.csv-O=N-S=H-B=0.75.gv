@@ -1,0 +1,94 @@
+// <Lattice object of 7 atoms 22 concepts 8 coatoms at 0x10352ec50>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="données bn:00025314n" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="client web bn:00013447n" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="post bn:01500184n" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="class bn:03598962n" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="commentaires bn:00020978n" labelangle=270]
+	c5 -> c0
+	c6
+	c6 -> c6 [color=transparent headlabel="chaîne bn:00074685n" labelangle=270]
+	c6 -> c0
+	c7
+	c7 -> c7 [color=transparent headlabel="base de donnees bn:00025333n" labelangle=270]
+	c7 -> c1
+	c8
+	c8 -> c1
+	c8 -> c2
+	c9
+	c9 -> c9 [color=transparent headlabel="pouvoir bn:00084451v" labelangle=270]
+	c9 -> c2
+	c10
+	c10 -> c10 [color=transparent headlabel="echo bn:03626250n" labelangle=270]
+	c10 -> c6
+	c11
+	c11 -> c11 [color=transparent headlabel="langage de script bn:01431715n nécessaire bn:00107182a" labelangle=270]
+	c11 -> c2
+	c12
+	c12 -> c12 [color=transparent headlabel="fois bn:00032768n langage bn:00049910n" labelangle=270]
+	c12 -> c6
+	c13
+	c13 -> c13 [color=transparent headlabel="session bn:03751534n définition bn:00025928n rue bn:00074595n" labelangle=270]
+	c13 -> c13 [color=transparent labelangle=90 taillabel=C15]
+	c13 -> c8
+	c14
+	c14 -> c14 [color=transparent headlabel="programmation bn:00021493n timestamp bn:03603649n file bn:00065682n exception bn:00032118n" labelangle=270]
+	c14 -> c14 [color=transparent labelangle=90 taillabel=C3]
+	c14 -> c4
+	c14 -> c10
+	c15
+	c15 -> c15 [color=transparent headlabel="php bn:01753580n méthode get bn:00045088n composer bn:14766022n configuration bn:03088982n xml bn:02771436n client bn:00019764n symfony bn:02798620n doctype bn:15839327n" labelangle=270]
+	c15 -> c15 [color=transparent labelangle=90 taillabel=C5]
+	c15 -> c0
+	c16
+	c16 -> c16 [color=transparent headlabel="nombre bn:00058285n postgresql bn:01709156n" labelangle=270]
+	c16 -> c16 [color=transparent labelangle=90 taillabel=C6]
+	c16 -> c3
+	c16 -> c7
+	c16 -> c12
+	c17
+	c17 -> c17 [color=transparent headlabel="hiérarchie bn:00044017n mise bn:00016287n méthode bn:01641329n public bn:00109211a java bn:00048043n void bn:01326821n classe bn:03608262n" labelangle=270]
+	c17 -> c17 [color=transparent labelangle=90 taillabel=CJA]
+	c17 -> c4
+	c17 -> c5
+	c18
+	c18 -> c18 [color=transparent headlabel="mysql bn:01225760n texte bn:00076732n entités bn:00031027n sélectionner bn:00084931v web bn:00080772n information bn:00046705n impossible bn:00104687a" labelangle=270]
+	c18 -> c18 [color=transparent labelangle=90 taillabel=C11]
+	c18 -> c7
+	c18 -> c8
+	c18 -> c9
+	c18 -> c11
+	c19
+	c19 -> c19 [color=transparent headlabel="fichier bn:00021475n site bn:00047172n code bn:00020354n utilisateur bn:00079373n afficher bn:00087013v foreach bn:03463379n en-tête bn:00043309n wamp bn:01708928n environnement de développement bn:00748100n realisateur bn:00027369n" labelangle=270]
+	c19 -> c19 [color=transparent labelangle=90 taillabel=C19]
+	c19 -> c3
+	c19 -> c9
+	c20
+	c20 -> c20 [color=transparent headlabel="types bn:00016413n serveur bn:00044916n syntaxe bn:00062118n mode bn:00033729n bits bn:00010731n pouvoir bn:00084450v easyphp bn:14837849n" labelangle=270]
+	c20 -> c20 [color=transparent labelangle=90 taillabel=C17]
+	c20 -> c5
+	c20 -> c10
+	c20 -> c11
+	c20 -> c12
+	c21
+	c21 -> c13
+	c21 -> c14
+	c21 -> c15
+	c21 -> c16
+	c21 -> c17
+	c21 -> c18
+	c21 -> c19
+	c21 -> c20
+}

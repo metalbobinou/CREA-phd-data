@@ -1,0 +1,77 @@
+Concept (0) : 
+  level : 4
+  objects (0) : 
+  attributes (6) : C11 C17 C19 C5 C6 CJA 
+  parents concepts (4) : 1 2 3 4 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 1
+  objects (1) : php bn:01753580n 
+  attributes (1) : C11 
+  parents concepts (1) : 10 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 3
+  objects (1) : texte bn:00076732n 
+  attributes (3) : C17 C5 CJA 
+  parents concepts (1) : 5 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 3
+  objects (1) : nombre bn:00058285n 
+  attributes (3) : C19 C5 CJA 
+  parents concepts (2) : 5 6 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 2
+  objects (1) : serveur bn:00044916n 
+  attributes (2) : C6 CJA 
+  parents concepts (2) : 7 9 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 2
+  objects (2) : texte bn:00076732n nombre bn:00058285n 
+  attributes (2) : C5 CJA 
+  parents concepts (2) : 8 9 
+  childs concepts (2) : 2 3 
+
+Concept (6) : 
+  level : 2
+  objects (2) : nombre bn:00058285n chaîne bn:00074685n 
+  attributes (2) : C19 C5 
+  parents concepts (1) : 8 
+  childs concepts (1) : 3 
+
+Concept (7) : 
+  level : 1
+  objects (2) : code bn:00020354n serveur bn:00044916n 
+  attributes (1) : C6 
+  parents concepts (1) : 10 
+  childs concepts (1) : 4 
+
+Concept (8) : 
+  level : 1
+  objects (3) : texte bn:00076732n nombre bn:00058285n chaîne bn:00074685n 
+  attributes (1) : C5 
+  parents concepts (1) : 10 
+  childs concepts (2) : 5 6 
+
+Concept (9) : 
+  level : 1
+  objects (4) : texte bn:00076732n fichier bn:00021475n nombre bn:00058285n serveur bn:00044916n 
+  attributes (1) : CJA 
+  parents concepts (1) : 10 
+  childs concepts (2) : 4 5 
+
+Concept (10) : 
+  level : 0
+  objects (7) : php bn:01753580n texte bn:00076732n fichier bn:00021475n nombre bn:00058285n code bn:00020354n serveur bn:00044916n chaîne bn:00074685n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (4) : 1 7 8 9 
+

@@ -1,0 +1,28 @@
+[Lattice]
+7
+8
+[Objects]
+fichier bn:00021475n
+client bn:00019764n
+php bn:01753580n
+salaire bn:15928884n
+site bn:00047172n
+serveur bn:00044916n
+pouvoir bn:00084451v
+[Attributes]
+C1
+C2
+C3
+C4
+C5
+C6
+C9
+C10
+[relation]
+0 0 0 0 0 0 1 0 
+1 0 1 1 0 0 0 0 
+0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 1 
+1 1 1 0 1 0 0 0 
+0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 1 

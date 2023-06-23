@@ -1,0 +1,84 @@
+Concept (0) : 
+  level : 3
+  objects (0) : 
+  attributes (9) : C1 C2 C3 C4 C5 C6 C8 C9 CJA 
+  parents concepts (6) : 1 2 3 4 5 6 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 2
+  objects (1) : fichier bn:00021475n 
+  attributes (2) : C9 CJA 
+  parents concepts (2) : 7 8 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 1
+  objects (1) : client bn:00019764n 
+  attributes (3) : C1 C3 C4 
+  parents concepts (1) : 11 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 2
+  objects (1) : langage de script bn:01431715n 
+  attributes (3) : C2 C5 C6 
+  parents concepts (2) : 9 10 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 2
+  objects (1) : serveur bn:00044916n 
+  attributes (2) : C6 CJA 
+  parents concepts (2) : 7 9 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 2
+  objects (1) : chaîne bn:00074685n 
+  attributes (2) : C5 C8 
+  parents concepts (1) : 10 
+  childs concepts (1) : 0 
+
+Concept (6) : 
+  level : 2
+  objects (1) : class bn:03598962n 
+  attributes (2) : C5 C9 
+  parents concepts (2) : 8 10 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 1
+  objects (2) : fichier bn:00021475n serveur bn:00044916n 
+  attributes (1) : CJA 
+  parents concepts (1) : 11 
+  childs concepts (2) : 1 4 
+
+Concept (8) : 
+  level : 1
+  objects (2) : fichier bn:00021475n class bn:03598962n 
+  attributes (1) : C9 
+  parents concepts (1) : 11 
+  childs concepts (2) : 1 6 
+
+Concept (9) : 
+  level : 1
+  objects (3) : php bn:01753580n langage de script bn:01431715n serveur bn:00044916n 
+  attributes (1) : C6 
+  parents concepts (1) : 11 
+  childs concepts (2) : 3 4 
+
+Concept (10) : 
+  level : 1
+  objects (3) : langage de script bn:01431715n chaîne bn:00074685n class bn:03598962n 
+  attributes (1) : C5 
+  parents concepts (1) : 11 
+  childs concepts (3) : 3 5 6 
+
+Concept (11) : 
+  level : 0
+  objects (7) : fichier bn:00021475n client bn:00019764n php bn:01753580n langage de script bn:01431715n serveur bn:00044916n chaîne bn:00074685n class bn:03598962n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (5) : 2 7 8 9 10 
+

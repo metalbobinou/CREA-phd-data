@@ -1,0 +1,28 @@
+Concept (0) : 
+  level : 2
+  objects (0) : 
+  attributes (2) : C5.csv C6.csv 
+  parents concepts (2) : 1 2 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 1
+  objects (2) : chaîne bn:00074685n nombre bn:00058285n 
+  attributes (1) : C5.csv 
+  parents concepts (1) : 3 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 1
+  objects (4) : php bn:01753580n serveur bn:00044916n fichiers bn:00021475n code bn:00020354n 
+  attributes (1) : C6.csv 
+  parents concepts (1) : 3 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 0
+  objects (6) : php bn:01753580n serveur bn:00044916n chaîne bn:00074685n nombre bn:00058285n fichiers bn:00021475n code bn:00020354n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (2) : 1 2 
+

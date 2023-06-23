@@ -1,0 +1,112 @@
+Concept (0) : 
+  level : 3
+  objects (0) : 
+  attributes (8) : C11 C15 C17 C19 C3 C5 C6 CJA 
+  parents concepts (7) : 1 2 3 4 6 8 12 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 3
+  objects (1) : données bn:00025314n 
+  attributes (3) : C11 C15 C6 
+  parents concepts (2) : 5 7 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 2
+  objects (1) : nécessaire bn:00107182a 
+  attributes (2) : C11 C17 
+  parents concepts (2) : 13 14 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 2
+  objects (1) : class bn:03598962n 
+  attributes (2) : C3 CJA 
+  parents concepts (2) : 10 11 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 2
+  objects (1) : commentaires bn:00020978n 
+  attributes (2) : C17 CJA 
+  parents concepts (2) : 11 14 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 2
+  objects (2) : données bn:00025314n base de donnees bn:00025333n 
+  attributes (2) : C11 C6 
+  parents concepts (2) : 9 13 
+  childs concepts (1) : 1 
+
+Concept (6) : 
+  level : 2
+  objects (2) : chaîne bn:00074685n echo bn:03626250n 
+  attributes (2) : C17 C3 
+  parents concepts (2) : 10 14 
+  childs concepts (1) : 0 
+
+Concept (7) : 
+  level : 1
+  objects (4) : données bn:00025314n session bn:03751534n définition bn:00025928n rue bn:00074595n 
+  attributes (1) : C15 
+  parents concepts (1) : 15 
+  childs concepts (1) : 1 
+
+Concept (8) : 
+  level : 1
+  objects (6) : php bn:01753580n méthode get bn:00045088n composer bn:14766022n configuration bn:03088982n xml bn:02771436n client bn:00019764n 
+  attributes (1) : C5 
+  parents concepts (1) : 15 
+  childs concepts (1) : 0 
+
+Concept (9) : 
+  level : 1
+  objects (6) : données bn:00025314n base de donnees bn:00025333n personne bn:00046516n varchar bn:01838409n insert bn:03795444n null bn:15898583n 
+  attributes (1) : C6 
+  parents concepts (1) : 15 
+  childs concepts (1) : 5 
+
+Concept (10) : 
+  level : 1
+  objects (7) : programmation bn:00021493n class bn:03598962n chaîne bn:00074685n timestamp bn:03603649n file bn:00065682n echo bn:03626250n exception bn:00032118n 
+  attributes (1) : C3 
+  parents concepts (1) : 15 
+  childs concepts (2) : 3 6 
+
+Concept (11) : 
+  level : 1
+  objects (7) : class bn:03598962n commentaires bn:00020978n mise bn:00016287n méthode bn:01641329n public bn:00109211a java bn:00048043n classe bn:03608262n 
+  attributes (1) : CJA 
+  parents concepts (1) : 15 
+  childs concepts (2) : 3 4 
+
+Concept (12) : 
+  level : 1
+  objects (9) : fichier bn:00021475n site bn:00047172n post bn:01500184n code bn:00020354n utilisateur bn:00079373n afficher bn:00087013v foreach bn:03463379n en-tête bn:00043309n wamp bn:01708928n 
+  attributes (1) : C19 
+  parents concepts (1) : 15 
+  childs concepts (1) : 0 
+
+Concept (13) : 
+  level : 1
+  objects (10) : mysql bn:01225760n texte bn:00076732n données bn:00025314n base de donnees bn:00025333n entités bn:00031027n sélectionner bn:00084931v nécessaire bn:00107182a web bn:00080772n information bn:00046705n impossible bn:00104687a 
+  attributes (1) : C11 
+  parents concepts (1) : 15 
+  childs concepts (2) : 2 5 
+
+Concept (14) : 
+  level : 1
+  objects (14) : types bn:00016413n langage de script bn:01431715n nécessaire bn:00107182a serveur bn:00044916n fois bn:00032768n commentaires bn:00020978n chaîne bn:00074685n syntaxe bn:00062118n langage bn:00049910n mode bn:00033729n bits bn:00010731n pouvoir bn:00084450v easyphp bn:14837849n echo bn:03626250n 
+  attributes (1) : C17 
+  parents concepts (1) : 15 
+  childs concepts (3) : 2 4 6 
+
+Concept (15) : 
+  level : 0
+  objects (55) : php bn:01753580n mysql bn:01225760n texte bn:00076732n fichier bn:00021475n données bn:00025314n types bn:00016413n session bn:03751534n base de donnees bn:00025333n entités bn:00031027n site bn:00047172n langage de script bn:01431715n sélectionner bn:00084931v post bn:01500184n méthode get bn:00045088n code bn:00020354n utilisateur bn:00079373n afficher bn:00087013v nécessaire bn:00107182a serveur bn:00044916n fois bn:00032768n programmation bn:00021493n class bn:03598962n commentaires bn:00020978n composer bn:14766022n chaîne bn:00074685n syntaxe bn:00062118n personne bn:00046516n définition bn:00025928n langage bn:00049910n mise bn:00016287n mode bn:00033729n configuration bn:03088982n xml bn:02771436n web bn:00080772n méthode bn:01641329n bits bn:00010731n foreach bn:03463379n pouvoir bn:00084450v information bn:00046705n varchar bn:01838409n timestamp bn:03603649n easyphp bn:14837849n insert bn:03795444n impossible bn:00104687a public bn:00109211a en-tête bn:00043309n client bn:00019764n java bn:00048043n file bn:00065682n echo bn:03626250n rue bn:00074595n classe bn:03608262n exception bn:00032118n wamp bn:01708928n null bn:15898583n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (8) : 7 8 9 10 11 12 13 14 
+

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LAT type="ConceptLattice" Desc="Full-Text-PHP.csv-O=N-S=H-B=1.00 - T.slf - #OfNodes = 13">
+<OBJS>
+<OBJ id="0">php bn:01753580n</OBJ>
+<OBJ id="1">mysql bn:01225760n</OBJ>
+<OBJ id="2">texte bn:00076732n</OBJ>
+<OBJ id="3">fichier bn:00021475n</OBJ>
+<OBJ id="4">données bn:00025314n</OBJ>
+<OBJ id="5">types bn:00016413n</OBJ>
+<OBJ id="6">session bn:03751534n</OBJ>
+<OBJ id="7">base de donnees bn:00025333n</OBJ>
+<OBJ id="8">entités bn:00031027n</OBJ>
+<OBJ id="9">site bn:00047172n</OBJ>
+<OBJ id="10">langage de script bn:01431715n</OBJ>
+<OBJ id="11">sélectionner bn:00084931v</OBJ>
+<OBJ id="12">post bn:01500184n</OBJ>
+<OBJ id="13">méthode get bn:00045088n</OBJ>
+<OBJ id="14">code bn:00020354n</OBJ>
+<OBJ id="15">utilisateur bn:00079373n</OBJ>
+<OBJ id="16">afficher bn:00087013v</OBJ>
+<OBJ id="17">nécessaire bn:00107182a</OBJ>
+<OBJ id="18">serveur bn:00044916n</OBJ>
+<OBJ id="19">fois bn:00032768n</OBJ>
+<OBJ id="20">programmation bn:00021493n</OBJ>
+<OBJ id="21">class bn:03598962n</OBJ>
+<OBJ id="22">commentaires bn:00020978n</OBJ>
+<OBJ id="23">composer bn:14766022n</OBJ>
+<OBJ id="24">chaîne bn:00074685n</OBJ>
+<OBJ id="25">syntaxe bn:00062118n</OBJ>
+<OBJ id="26">personne bn:00046516n</OBJ>
+<OBJ id="27">définition bn:00025928n</OBJ>
+<OBJ id="28">langage bn:00049910n</OBJ>
+<OBJ id="29">mode bn:00033729n</OBJ>
+<OBJ id="30">configuration bn:03088982n</OBJ>
+<OBJ id="31">xml bn:02771436n</OBJ>
+<OBJ id="32">web bn:00080772n</OBJ>
+<OBJ id="33">méthode bn:01641329n</OBJ>
+<OBJ id="34">bits bn:00010731n</OBJ>
+<OBJ id="35">foreach bn:03463379n</OBJ>
+<OBJ id="36">pouvoir bn:00084450v</OBJ>
+<OBJ id="37">information bn:00046705n</OBJ>
+<OBJ id="38">varchar bn:01838409n</OBJ>
+<OBJ id="39">timestamp bn:03603649n</OBJ>
+<OBJ id="40">easyphp bn:14837849n</OBJ>
+<OBJ id="41">insert bn:03795444n</OBJ>
+<OBJ id="42">impossible bn:00104687a</OBJ>
+<OBJ id="43">en-tête bn:00043309n</OBJ>
+<OBJ id="44">client bn:00019764n</OBJ>
+<OBJ id="45">file bn:00065682n</OBJ>
+<OBJ id="46">echo bn:03626250n</OBJ>
+<OBJ id="47">rue bn:00074595n</OBJ>
+<OBJ id="48">exception bn:00032118n</OBJ>
+<OBJ id="49">wamp bn:01708928n</OBJ>
+<OBJ id="50">null bn:15898583n</OBJ>
+</OBJS>
+<ATTS>
+<ATT id="0">C11</ATT>
+<ATT id="1">C15</ATT>
+<ATT id="2">C17</ATT>
+<ATT id="3">C19</ATT>
+<ATT id="4">C3</ATT>
+<ATT id="5">C5</ATT>
+<ATT id="6">C6</ATT>
+</ATTS>
+<NODS>
+<NOD id="0">
+<EXT>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="1"/>
+<ATT id="2"/>
+<ATT id="3"/>
+<ATT id="4"/>
+<ATT id="5"/>
+<ATT id="6"/>
+</INT>
+<SUP_NOD>
+<PARENT id="1"/>
+<PARENT id="2"/>
+<PARENT id="4"/>
+<PARENT id="6"/>
+<PARENT id="9"/>
+</SUP_NOD>
+</NOD>
+<NOD id="1">
+<EXT>
+<OBJ id="4"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="1"/>
+<ATT id="6"/>
+</INT>
+<SUP_NOD>
+<PARENT id="3"/>
+<PARENT id="5"/>
+</SUP_NOD>
+</NOD>
+<NOD id="2">
+<EXT>
+<OBJ id="17"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="2"/>
+</INT>
+<SUP_NOD>
+<PARENT id="10"/>
+<PARENT id="11"/>
+</SUP_NOD>
+</NOD>
+<NOD id="3">
+<EXT>
+<OBJ id="4"/>
+<OBJ id="7"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="6"/>
+</INT>
+<SUP_NOD>
+<PARENT id="7"/>
+<PARENT id="10"/>
+</SUP_NOD>
+</NOD>
+<NOD id="4">
+<EXT>
+<OBJ id="24"/>
+<OBJ id="46"/>
+</EXT>
+<INT>
+<ATT id="2"/>
+<ATT id="4"/>
+</INT>
+<SUP_NOD>
+<PARENT id="8"/>
+<PARENT id="11"/>
+</SUP_NOD>
+</NOD>
+<NOD id="5">
+<EXT>
+<OBJ id="4"/>
+<OBJ id="6"/>
+<OBJ id="27"/>
+<OBJ id="47"/>
+</EXT>
+<INT>
+<ATT id="1"/>
+</INT>
+<SUP_NOD>
+<PARENT id="12"/>
+</SUP_NOD>
+</NOD>
+<NOD id="6">
+<EXT>
+<OBJ id="0"/>
+<OBJ id="13"/>
+<OBJ id="23"/>
+<OBJ id="30"/>
+<OBJ id="31"/>
+<OBJ id="44"/>
+</EXT>
+<INT>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="12"/>
+</SUP_NOD>
+</NOD>
+<NOD id="7">
+<EXT>
+<OBJ id="4"/>
+<OBJ id="7"/>
+<OBJ id="26"/>
+<OBJ id="38"/>
+<OBJ id="41"/>
+<OBJ id="50"/>
+</EXT>
+<INT>
+<ATT id="6"/>
+</INT>
+<SUP_NOD>
+<PARENT id="12"/>
+</SUP_NOD>
+</NOD>
+<NOD id="8">
+<EXT>
+<OBJ id="20"/>
+<OBJ id="21"/>
+<OBJ id="24"/>
+<OBJ id="33"/>
+<OBJ id="39"/>
+<OBJ id="45"/>
+<OBJ id="46"/>
+<OBJ id="48"/>
+</EXT>
+<INT>
+<ATT id="4"/>
+</INT>
+<SUP_NOD>
+<PARENT id="12"/>
+</SUP_NOD>
+</NOD>
+<NOD id="9">
+<EXT>
+<OBJ id="3"/>
+<OBJ id="9"/>
+<OBJ id="12"/>
+<OBJ id="14"/>
+<OBJ id="15"/>
+<OBJ id="16"/>
+<OBJ id="35"/>
+<OBJ id="43"/>
+<OBJ id="49"/>
+</EXT>
+<INT>
+<ATT id="3"/>
+</INT>
+<SUP_NOD>
+<PARENT id="12"/>
+</SUP_NOD>
+</NOD>
+<NOD id="10">
+<EXT>
+<OBJ id="1"/>
+<OBJ id="2"/>
+<OBJ id="4"/>
+<OBJ id="7"/>
+<OBJ id="8"/>
+<OBJ id="11"/>
+<OBJ id="17"/>
+<OBJ id="32"/>
+<OBJ id="37"/>
+<OBJ id="42"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+</INT>
+<SUP_NOD>
+<PARENT id="12"/>
+</SUP_NOD>
+</NOD>
+<NOD id="11">
+<EXT>
+<OBJ id="5"/>
+<OBJ id="10"/>
+<OBJ id="17"/>
+<OBJ id="18"/>
+<OBJ id="19"/>
+<OBJ id="22"/>
+<OBJ id="24"/>
+<OBJ id="25"/>
+<OBJ id="28"/>
+<OBJ id="29"/>
+<OBJ id="34"/>
+<OBJ id="36"/>
+<OBJ id="40"/>
+<OBJ id="46"/>
+</EXT>
+<INT>
+<ATT id="2"/>
+</INT>
+<SUP_NOD>
+<PARENT id="12"/>
+</SUP_NOD>
+</NOD>
+<NOD id="12">
+<EXT>
+<OBJ id="0"/>
+<OBJ id="1"/>
+<OBJ id="2"/>
+<OBJ id="3"/>
+<OBJ id="4"/>
+<OBJ id="5"/>
+<OBJ id="6"/>
+<OBJ id="7"/>
+<OBJ id="8"/>
+<OBJ id="9"/>
+<OBJ id="10"/>
+<OBJ id="11"/>
+<OBJ id="12"/>
+<OBJ id="13"/>
+<OBJ id="14"/>
+<OBJ id="15"/>
+<OBJ id="16"/>
+<OBJ id="17"/>
+<OBJ id="18"/>
+<OBJ id="19"/>
+<OBJ id="20"/>
+<OBJ id="21"/>
+<OBJ id="22"/>
+<OBJ id="23"/>
+<OBJ id="24"/>
+<OBJ id="25"/>
+<OBJ id="26"/>
+<OBJ id="27"/>
+<OBJ id="28"/>
+<OBJ id="29"/>
+<OBJ id="30"/>
+<OBJ id="31"/>
+<OBJ id="32"/>
+<OBJ id="33"/>
+<OBJ id="34"/>
+<OBJ id="35"/>
+<OBJ id="36"/>
+<OBJ id="37"/>
+<OBJ id="38"/>
+<OBJ id="39"/>
+<OBJ id="40"/>
+<OBJ id="41"/>
+<OBJ id="42"/>
+<OBJ id="43"/>
+<OBJ id="44"/>
+<OBJ id="45"/>
+<OBJ id="46"/>
+<OBJ id="47"/>
+<OBJ id="48"/>
+<OBJ id="49"/>
+<OBJ id="50"/>
+</EXT>
+<INT>
+</INT>
+<SUP_NOD/>
+</NOD>
+</NODS>
+</LAT>

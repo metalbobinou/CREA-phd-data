@@ -1,0 +1,28 @@
+[Lattice]
+8
+6
+[Objects]
+fichier bn:00021475n
+client bn:00019764n
+base de donnée bn:00025333n
+mysql bn:01225760n
+site bn:00047172n
+langage de script bn:01431715n
+typage bn:00016413n
+chaîne bn:00074685n
+[Attributes]
+C1.csv
+C2.csv
+C4.csv
+C7.csv
+C8.csv
+C9.csv
+[relation]
+0 0 0 0 0 1 
+1 0 1 0 0 0 
+0 0 1 1 0 0 
+0 0 1 0 0 0 
+1 1 0 0 0 0 
+0 1 0 0 0 0 
+0 0 0 1 0 0 
+0 0 0 0 1 0 

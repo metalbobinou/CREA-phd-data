@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LAT type="ConceptLattice" Desc="PHP-automatic-text-courses_matrix.csv-O=N-S=B-B=0.75 - T.slf - #OfNodes = 5">
+<OBJS>
+<OBJ id="0">php bn:01753580n</OBJ>
+<OBJ id="1">serveur bn:00044916n</OBJ>
+<OBJ id="2">chaîne bn:00074685n</OBJ>
+<OBJ id="3">nombre bn:00058285n</OBJ>
+<OBJ id="4">fichiers bn:00021475n</OBJ>
+<OBJ id="5">code bn:00020354n</OBJ>
+<OBJ id="6">echo bn:03626250n</OBJ>
+<OBJ id="7">files bn:00065682n</OBJ>
+<OBJ id="8">class bn:03598962n</OBJ>
+<OBJ id="9">configuration bn:03088982n</OBJ>
+<OBJ id="10">insert bn:03795444n</OBJ>
+<OBJ id="11">client bn:00019764n</OBJ>
+<OBJ id="12">composer bn:14766022n</OBJ>
+<OBJ id="13">null bn:15898583n</OBJ>
+</OBJS>
+<ATTS>
+<ATT id="0">C3.csv</ATT>
+<ATT id="1">C5.csv</ATT>
+<ATT id="2">C6.csv</ATT>
+</ATTS>
+<NODS>
+<NOD id="0">
+<EXT>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="1"/>
+<ATT id="2"/>
+</INT>
+<SUP_NOD>
+<PARENT id="1"/>
+<PARENT id="2"/>
+<PARENT id="3"/>
+</SUP_NOD>
+</NOD>
+<NOD id="1">
+<EXT>
+<OBJ id="9"/>
+<OBJ id="10"/>
+<OBJ id="11"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+</INT>
+<SUP_NOD>
+<PARENT id="4"/>
+</SUP_NOD>
+</NOD>
+<NOD id="2">
+<EXT>
+<OBJ id="2"/>
+<OBJ id="3"/>
+<OBJ id="8"/>
+<OBJ id="13"/>
+</EXT>
+<INT>
+<ATT id="1"/>
+</INT>
+<SUP_NOD>
+<PARENT id="4"/>
+</SUP_NOD>
+</NOD>
+<NOD id="3">
+<EXT>
+<OBJ id="0"/>
+<OBJ id="1"/>
+<OBJ id="4"/>
+<OBJ id="5"/>
+<OBJ id="6"/>
+<OBJ id="7"/>
+<OBJ id="12"/>
+</EXT>
+<INT>
+<ATT id="2"/>
+</INT>
+<SUP_NOD>
+<PARENT id="4"/>
+</SUP_NOD>
+</NOD>
+<NOD id="4">
+<EXT>
+<OBJ id="0"/>
+<OBJ id="1"/>
+<OBJ id="2"/>
+<OBJ id="3"/>
+<OBJ id="4"/>
+<OBJ id="5"/>
+<OBJ id="6"/>
+<OBJ id="7"/>
+<OBJ id="8"/>
+<OBJ id="9"/>
+<OBJ id="10"/>
+<OBJ id="11"/>
+<OBJ id="12"/>
+<OBJ id="13"/>
+</EXT>
+<INT>
+</INT>
+<SUP_NOD/>
+</NOD>
+</NODS>
+</LAT>

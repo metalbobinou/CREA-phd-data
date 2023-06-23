@@ -1,0 +1,112 @@
+Concept (0) : 
+  level : 4
+  objects (0) : 
+  attributes (4) : C3.csv C5.csv C6.csv CJA-automatic.csv 
+  parents concepts (4) : 1 2 3 4 
+  childs concepts (0) : 
+
+Concept (1) : 
+  level : 3
+  objects (1) : texte bn:00076732n 
+  attributes (3) : C5.csv C6.csv CJA-automatic.csv 
+  parents concepts (3) : 6 8 9 
+  childs concepts (1) : 0 
+
+Concept (2) : 
+  level : 3
+  objects (1) : http bn:00045088n 
+  attributes (3) : C3.csv C6.csv CJA-automatic.csv 
+  parents concepts (3) : 5 6 7 
+  childs concepts (1) : 0 
+
+Concept (3) : 
+  level : 3
+  objects (3) : classe bn:03608262n java bn:00048043n publique bn:00109211a 
+  attributes (3) : C3.csv C5.csv C6.csv 
+  parents concepts (3) : 7 9 10 
+  childs concepts (1) : 0 
+
+Concept (4) : 
+  level : 3
+  objects (4) : langage bn:00049910n base de données bn:00025333n données bn:00025314n site bn:00047172n 
+  attributes (3) : C3.csv C5.csv CJA-automatic.csv 
+  parents concepts (3) : 5 8 10 
+  childs concepts (1) : 0 
+
+Concept (5) : 
+  level : 2
+  objects (5) : langage bn:00049910n base de données bn:00025333n données bn:00025314n http bn:00045088n site bn:00047172n 
+  attributes (2) : C3.csv CJA-automatic.csv 
+  parents concepts (2) : 11 12 
+  childs concepts (2) : 2 4 
+
+Concept (6) : 
+  level : 2
+  objects (6) : serveur bn:00044916n fichiers bn:00021475n texte bn:00076732n http bn:00045088n files bn:00065682n composer bn:14766022n 
+  attributes (2) : C6.csv CJA-automatic.csv 
+  parents concepts (2) : 11 13 
+  childs concepts (2) : 1 2 
+
+Concept (7) : 
+  level : 2
+  objects (6) : http bn:00045088n classe bn:03608262n java bn:00048043n xml bn:02771436n mise bn:00016287n publique bn:00109211a 
+  attributes (2) : C3.csv C6.csv 
+  parents concepts (2) : 12 13 
+  childs concepts (2) : 2 3 
+
+Concept (8) : 
+  level : 2
+  objects (7) : langage bn:00049910n base de données bn:00025333n données bn:00025314n nombre bn:00058285n texte bn:00076732n site bn:00047172n null bn:15898583n 
+  attributes (2) : C5.csv CJA-automatic.csv 
+  parents concepts (2) : 11 14 
+  childs concepts (2) : 1 4 
+
+Concept (9) : 
+  level : 2
+  objects (8) : script bn:01431715n programmation bn:00021493n timestamp bn:03603649n texte bn:00076732n méthode bn:01641329n classe bn:03608262n java bn:00048043n publique bn:00109211a 
+  attributes (2) : C5.csv C6.csv 
+  parents concepts (2) : 13 14 
+  childs concepts (2) : 1 3 
+
+Concept (10) : 
+  level : 2
+  objects (10) : langage bn:00049910n commentaires bn:00020978n base de données bn:00025333n données bn:00025314n classe bn:03608262n java bn:00048043n site bn:00047172n personne bn:00046516n varchar bn:01838409n publique bn:00109211a 
+  attributes (2) : C3.csv C5.csv 
+  parents concepts (2) : 12 14 
+  childs concepts (2) : 3 4 
+
+Concept (11) : 
+  level : 1
+  objects (13) : langage bn:00049910n serveur bn:00044916n base de données bn:00025333n données bn:00025314n nombre bn:00058285n fichiers bn:00021475n texte bn:00076732n http bn:00045088n exceptions bn:00032118n site bn:00047172n files bn:00065682n composer bn:14766022n null bn:15898583n 
+  attributes (1) : CJA-automatic.csv 
+  parents concepts (1) : 15 
+  childs concepts (3) : 5 6 8 
+
+Concept (12) : 
+  level : 1
+  objects (16) : langage bn:00049910n commentaires bn:00020978n base de données bn:00025333n données bn:00025314n http bn:00045088n classe bn:03608262n java bn:00048043n site bn:00047172n personne bn:00046516n xml bn:02771436n configuration bn:03088982n insert bn:03795444n varchar bn:01838409n mise bn:00016287n client bn:00019764n publique bn:00109211a 
+  attributes (1) : C3.csv 
+  parents concepts (1) : 15 
+  childs concepts (3) : 5 7 10 
+
+Concept (13) : 
+  level : 1
+  objects (18) : php bn:01753580n script bn:01431715n serveur bn:00044916n programmation bn:00021493n timestamp bn:03603649n fichiers bn:00021475n code bn:00020354n texte bn:00076732n http bn:00045088n méthode bn:01641329n classe bn:03608262n java bn:00048043n xml bn:02771436n echo bn:03626250n files bn:00065682n mise bn:00016287n publique bn:00109211a composer bn:14766022n 
+  attributes (1) : C6.csv 
+  parents concepts (1) : 15 
+  childs concepts (3) : 6 7 9 
+
+Concept (14) : 
+  level : 1
+  objects (19) : script bn:01431715n langage bn:00049910n commentaires bn:00020978n chaîne bn:00074685n programmation bn:00021493n timestamp bn:03603649n base de données bn:00025333n données bn:00025314n nombre bn:00058285n texte bn:00076732n méthode bn:01641329n classe bn:03608262n java bn:00048043n site bn:00047172n personne bn:00046516n class bn:03598962n varchar bn:01838409n publique bn:00109211a null bn:15898583n 
+  attributes (1) : C5.csv 
+  parents concepts (1) : 15 
+  childs concepts (3) : 8 9 10 
+
+Concept (15) : 
+  level : 0
+  objects (33) : php bn:01753580n script bn:01431715n langage bn:00049910n serveur bn:00044916n commentaires bn:00020978n chaîne bn:00074685n programmation bn:00021493n timestamp bn:03603649n base de données bn:00025333n données bn:00025314n nombre bn:00058285n fichiers bn:00021475n code bn:00020354n texte bn:00076732n http bn:00045088n méthode bn:01641329n classe bn:03608262n exceptions bn:00032118n java bn:00048043n site bn:00047172n personne bn:00046516n xml bn:02771436n echo bn:03626250n files bn:00065682n class bn:03598962n configuration bn:03088982n insert bn:03795444n varchar bn:01838409n mise bn:00016287n client bn:00019764n publique bn:00109211a composer bn:14766022n null bn:15898583n 
+  attributes (0) : 
+  parents concepts (0) : 
+  childs concepts (4) : 11 12 13 14 
+

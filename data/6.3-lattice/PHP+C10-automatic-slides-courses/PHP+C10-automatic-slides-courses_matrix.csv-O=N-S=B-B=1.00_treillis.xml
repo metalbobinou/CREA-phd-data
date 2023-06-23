@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LAT type="ConceptLattice" Desc="PHP+C10-automatic-slides-courses_matrix.csv-O=N-S=B-B=1.00 - T.slf - #OfNodes = 14">
+<OBJS>
+<OBJ id="0">fichier bn:00021475n</OBJ>
+<OBJ id="1">client bn:00019764n</OBJ>
+<OBJ id="2">base de donnée bn:00025333n</OBJ>
+<OBJ id="3">donnée bn:00025314n</OBJ>
+<OBJ id="4">post bn:01500184n</OBJ>
+<OBJ id="5">mysql bn:01225760n</OBJ>
+<OBJ id="6">salaire bn:15928884n</OBJ>
+<OBJ id="7">site bn:00047172n</OBJ>
+<OBJ id="8">langage de script bn:01431715n</OBJ>
+<OBJ id="9">type bn:00016413n</OBJ>
+</OBJS>
+<ATTS>
+<ATT id="0">C1.csv</ATT>
+<ATT id="1">C10.csv</ATT>
+<ATT id="2">C2.csv</ATT>
+<ATT id="3">C4.csv</ATT>
+<ATT id="4">C7.csv</ATT>
+<ATT id="5">C9.csv</ATT>
+</ATTS>
+<NODS>
+<NOD id="0">
+<EXT>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="1"/>
+<ATT id="2"/>
+<ATT id="3"/>
+<ATT id="4"/>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="1"/>
+<PARENT id="2"/>
+<PARENT id="3"/>
+<PARENT id="4"/>
+<PARENT id="5"/>
+</SUP_NOD>
+</NOD>
+<NOD id="1">
+<EXT>
+<OBJ id="1"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="3"/>
+</INT>
+<SUP_NOD>
+<PARENT id="7"/>
+<PARENT id="11"/>
+</SUP_NOD>
+</NOD>
+<NOD id="2">
+<EXT>
+<OBJ id="3"/>
+</EXT>
+<INT>
+<ATT id="2"/>
+<ATT id="3"/>
+<ATT id="4"/>
+</INT>
+<SUP_NOD>
+<PARENT id="8"/>
+<PARENT id="12"/>
+</SUP_NOD>
+</NOD>
+<NOD id="3">
+<EXT>
+<OBJ id="4"/>
+</EXT>
+<INT>
+<ATT id="2"/>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="6"/>
+<PARENT id="12"/>
+</SUP_NOD>
+</NOD>
+<NOD id="4">
+<EXT>
+<OBJ id="7"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+<ATT id="2"/>
+</INT>
+<SUP_NOD>
+<PARENT id="7"/>
+<PARENT id="12"/>
+</SUP_NOD>
+</NOD>
+<NOD id="5">
+<EXT>
+<OBJ id="8"/>
+</EXT>
+<INT>
+<ATT id="1"/>
+<ATT id="2"/>
+</INT>
+<SUP_NOD>
+<PARENT id="9"/>
+<PARENT id="12"/>
+</SUP_NOD>
+</NOD>
+<NOD id="6">
+<EXT>
+<OBJ id="0"/>
+<OBJ id="4"/>
+</EXT>
+<INT>
+<ATT id="5"/>
+</INT>
+<SUP_NOD>
+<PARENT id="13"/>
+</SUP_NOD>
+</NOD>
+<NOD id="7">
+<EXT>
+<OBJ id="1"/>
+<OBJ id="7"/>
+</EXT>
+<INT>
+<ATT id="0"/>
+</INT>
+<SUP_NOD>
+<PARENT id="13"/>
+</SUP_NOD>
+</NOD>
+<NOD id="8">
+<EXT>
+<OBJ id="2"/>
+<OBJ id="3"/>
+</EXT>
+<INT>
+<ATT id="3"/>
+<ATT id="4"/>
+</INT>
+<SUP_NOD>
+<PARENT id="10"/>
+<PARENT id="11"/>
+</SUP_NOD>
+</NOD>
+<NOD id="9">
+<EXT>
+<OBJ id="6"/>
+<OBJ id="8"/>
+</EXT>
+<INT>
+<ATT id="1"/>
+</INT>
+<SUP_NOD>
+<PARENT id="13"/>
+</SUP_NOD>
+</NOD>
+<NOD id="10">
+<EXT>
+<OBJ id="2"/>
+<OBJ id="3"/>
+<OBJ id="9"/>
+</EXT>
+<INT>
+<ATT id="4"/>
+</INT>
+<SUP_NOD>
+<PARENT id="13"/>
+</SUP_NOD>
+</NOD>
+<NOD id="11">
+<EXT>
+<OBJ id="1"/>
+<OBJ id="2"/>
+<OBJ id="3"/>
+<OBJ id="5"/>
+</EXT>
+<INT>
+<ATT id="3"/>
+</INT>
+<SUP_NOD>
+<PARENT id="13"/>
+</SUP_NOD>
+</NOD>
+<NOD id="12">
+<EXT>
+<OBJ id="3"/>
+<OBJ id="4"/>
+<OBJ id="7"/>
+<OBJ id="8"/>
+</EXT>
+<INT>
+<ATT id="2"/>
+</INT>
+<SUP_NOD>
+<PARENT id="13"/>
+</SUP_NOD>
+</NOD>
+<NOD id="13">
+<EXT>
+<OBJ id="0"/>
+<OBJ id="1"/>
+<OBJ id="2"/>
+<OBJ id="3"/>
+<OBJ id="4"/>
+<OBJ id="5"/>
+<OBJ id="6"/>
+<OBJ id="7"/>
+<OBJ id="8"/>
+<OBJ id="9"/>
+</EXT>
+<INT>
+</INT>
+<SUP_NOD/>
+</NOD>
+</NODS>
+</LAT>

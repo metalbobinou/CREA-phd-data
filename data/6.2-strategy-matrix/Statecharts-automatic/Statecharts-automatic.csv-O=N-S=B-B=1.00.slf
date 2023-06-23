@@ -1,0 +1,30 @@
+[Lattice]
+8
+8
+[Objects]
+statecharts bn:01128895n
+state bn:00023236n
+kind bn:00035907n
+history bn:00044268n
+police bn:00022026n
+code bn:00020354n
+traffic light bn:00074441n
+autonomous bn:00097830a
+[Attributes]
+A1
+A2
+A3
+A4
+C3
+C4
+C5
+C7
+[relation]
+0 1 0 1 0 0 0 1 
+0 1 0 0 1 0 0 1 
+0 0 1 0 0 1 0 0 
+1 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 1 0 

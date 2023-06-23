@@ -1,0 +1,3459 @@
+[Lattice]
+1720
+13
+[Objects]
+science bn:00069670n
+north-holland bn:03160161n
+statecharts bn:01128895n
+systems bn:15125301n
+david harel bn:03178978n
+applied mathematics bn:00005103n
+mathematics bn:00053823n
+weizmann bn:00017485n
+weizmann institute bn:03173130n
+institute bn:00046952n
+rehovot bn:02588387n
+israel bn:00047679n
+pnueli bn:02432625n
+december 1984 bn:02815569n
+july bn:00048548n
+july 1986 bn:02831635n
+state bn:00023236n
+state machine bn:00212740n
+diagrams bn:00026817n
+relevant bn:00109659a
+real-time bn:00109500a
+real-time systems bn:01927979n
+communication bn:00021221n
+communication protocol bn:00021227n
+digital control bn:03371928n
+units bn:00021497n
+notion bn:00058174n
+hierarchy bn:00044017n
+language bn:00049910n
+structured bn:00094491v
+enable bn:00087587v
+manageable bn:00096274a
+attractive bn:00097733a
+behavioral bn:00098202a
+design methodology bn:02802208n
+methodology bn:00054633n
+functional decomposition bn:00302749n
+data-flow bn:03750145n
+experience bn:00032306n
+particularly bn:00115235r
+complex bn:00100148a
+complex system bn:03086504n
+literature bn:00051538n
+system engineering bn:02138008n
+engineering bn:00086870v
+problem bn:00048242n
+reactive systems bn:02824399n
+characterized bn:00084801v
+example bn:00032100n
+automobiles bn:00007309n
+communication networks bn:03231902n
+networks bn:00024712n
+computer operating systems bn:00059123n
+missile bn:00055322n
+avionics bn:00007477n
+man-machine interface bn:00047088n
+rooted bn:00093113v
+difficulty bn:00027043n
+way bn:00033729n
+time bn:00077270n
+research bn:00067280n
+author bn:00007287n
+consulting bn:00085686v
+research development bn:02012371n
+aircraft bn:00002275n
+aircraft industries bn:03857294n
+industries bn:00046576n
+ad bn:00001227n
+cad bn:00014510n
+rigorous bn:00109874a
+detailed bn:00101268a
+simulation bn:00021496n
+really bn:00115504r
+set bn:00070697n
+output bn:00036821n
+information bn:00046705n
+usually bn:00114778r
+lend bn:00090289v
+gradual bn:00103716a
+mind bn:00012681n
+input/output bn:01541423n
+tool bn:00077585n
+very well bn:00114213r
+difficult bn:00101358a
+medium bn:00054149n
+state transition bn:03348716n
+alpha state bn:02017266n
+concerning bn:00083240v
+dynamics bn:00029296n
+nature bn:00057017n
+directed graphs bn:01240512n
+denoting bn:00086587v
+triggering bn:00082306v
+unstructured bn:00113284a
+hierarchical bn:00104156a
+gearbox bn:14477485n
+ability bn:00000318n
+orthogonality bn:00059586n
+flowchart bn:00035375n
+techniques bn:00076341n
+computer science bn:00021494n
+research community bn:02747390n
+main bn:00099598a
+possible bn:00108829a
+easily bn:00115155r
+forth bn:00114455r
+broadcast bn:00013234n
+idea bn:00045800n
+strongly bn:00116666r
+diagrammatic bn:00101317a
+textual bn:00111786a
+mundane name bn:03003964n
+lack bn:00090161v
+chart bn:00017904n
+version bn:00047114n
+stratification bn:00072553n
+entirety bn:00031025n
+investigation bn:00047354n
+addition bn:00001296n
+temporal logic bn:02569818n
+logic bn:00051845n
+probabilism bn:00064506n
+semantics bn:00070404n
+treatment bn:00027523n
+mentioned bn:00082412v
+implementation bn:00016287n
+graphical representation bn:00509244n
+area bn:00005513n
+location bn:00062699n
+rounded bn:00084164v
+rectangle bn:00066608n
+graphics bn:00005929n
+concept bn:00021547n
+euler bn:00031826n
+circles bn:00019169n
+abbreviation bn:00000239n
+occurring bn:00085337v
+instant bn:00046942n
+lb bn:00050327n
+citizen watch bn:01538519n
+america bn:00003341n
+angle bn:00004117n
+say bn:00093287v
+added bn:00082317v
+give rise bn:00084069v
+illustrated bn:00087826v
+achieved bn:00082226v
+time being bn:00057921n
+significance bn:00046139n
+world concerned bn:00334798n
+obvious bn:00097350a
+automata bn:00007371n
+beeper bn:00009588n
+c d bn:00016915n
+am/pm bn:01752019n
+hour bn:00000127n
+month bn:00014710n
+week bn:00043484n
+stopwatch bn:00074440n
+terminology bn:00049915n
+distinction bn:00027036n
+likely bn:00105981a
+detected bn:00086708v
+normal bn:00107587a
+observation bn:00058495n
+avoided bn:00082954v
+beeping bn:00083319v
+t2 bn:00052738n
+sec bn:00068672n
+sleep bn:00072101n
+available bn:00097846a
+things bn:00006125n
+good enough bn:00103688a
+min bn:00055094n
+frequent bn:00103324a
+history bn:00044268n
+corresponding bn:00085837v
+asterisk bn:00006605n
+modifying bn:00082553v
+require bn:00091028v
+pressing bn:00091991v
+contradiction bn:00022245n
+determinism bn:00026654n
+dashed bn:00086292v
+simultaneous bn:00099916a
+happenings bn:00042904n
+dependence bn:00026351n
+generalization bn:00037671n
+lack bn:00025913n
+application bn:00005095n
+radar bn:00054808n
+calibration bn:00014732n
+matter bn:00053867n
+omitted bn:00087798v
+explicit bn:00102589a
+epsilon bn:00031270n
+possibility bn:00045632n
+merging bn:00083597v
+stubbed bn:00094497v
+rely bn:00083095v
+delta h bn:00031016n
+separate bn:00110423a
+person bn:00046516n
+status bn:00021644n
+light bn:00051108n
+linked bn:00082868v
+writing programs bn:00076736n
+death bn:00025582n
+forgotten bn:00084302v
+criterion bn:00023853n
+employed bn:00082705v
+right bn:00031712n
+process bn:00020452n
+second bn:00095974a
+beep bn:00009587n
+designer bn:00005435n
+case bn:00016403n
+applicability bn:00005090n
+documentation bn:00046704n
+list bn:00023140n
+merely bn:00114626r
+instructive bn:00105088a
+prescribed bn:00086778v
+mon bn:00055609n
+reason bn:00047021n
+end time bn:00023469n
+accompanying bn:00082221v
+text bn:00076732n
+content bn:00100364a
+ok bn:00096817a
+topology bn:00003800n
+incomplete bn:00104851a
+able bn:00096153a
+generic bn:00103518a
+specifier bn:00073221n
+select bn:00084931v
+disjunction bn:00027504n
+timeout bn:00896492n
+time unit bn:00077301n
+syntax bn:00062118n
+upper bn:00113424a
+purpose bn:00002178n
+advantage bn:00001561n
+philosophy bn:00061984n
+desirable bn:00101237a
+letter bn:00003057n
+word bn:00081546n
+obviously bn:00114319r
+responsible bn:00109742a
+so far bn:00114369r
+sensed bn:00093491v
+respond bn:00092421v
+value bn:00079511n
+instantaneous bn:00105206a
+balance bn:00008051n
+trigger bn:00046547n
+necessarily bn:00116331r
+instantaneously bn:00115782r
+accordingly bn:00114106r
+associate bn:00097617a
+meanings bn:00056443n
+entrance bn:00030989n
+port bn:00047090n
+method bn:01641329n
+conviction bn:00021628n
+instruction bn:00026980n
+a. bn:00000146n
+boolean bn:00098690a
+simultaneously bn:00114428r
+induced bn:00084700v
+delicate bn:00101127a
+thereof bn:00117253r
+processor bn:00014395n
+problem finding bn:01011735n
+sequential bn:00100306a
+programming language bn:00064652n
+fit bn:00103024a
+preliminary bn:00108949a
+feature bn:00017761n
+project bn:00049573n
+later bn:00114165r
+crossing bn:00083024v
+borderline bn:00012212n
+underlying bn:00095360v
+actually bn:00114357r
+entirely bn:00114203r
+human bn:00104385a
+conceptual bn:00100194a
+economy bn:00029678n
+substates bn:00964536n
+marriage bn:00053107n
+elementary bn:00102112a
+waive bn:00088469v
+synchronization bn:00075696n
+fully bn:00115474r
+potential bn:00030159n
+attempt bn:00006997n
+proof method bn:00053828n
+sequence diagram bn:01050212n
+supplied bn:00088643v
+shutting bn:00087812v
+terminal bn:00100203a
+coin bn:00020497n
+markov chain bn:00053487n
+semanticist bn:00070403n
+cooperation bn:00022452n
+communication channels bn:00017685n
+handshake bn:00042803n
+acting bn:00082285v
+undefined bn:00112563a
+sight bn:00045979n
+defined bn:00086465v
+instant bn:00099740a
+intuition bn:00047307n
+wish bn:00080435n
+formal syntax bn:01042120n
+least common ancestor bn:03585687n
+definition bn:00025928n
+ordered pair bn:00012597n
+error bn:00031485n
+analyzing bn:00082596v
+appropriate bn:00097398a
+final result bn:00034520n
+computing bn:00084373v
+exception bn:03416394n
+hardware bn:00021480n
+papers bn:00028015n
+claim bn:00019404n
+read bn:00066357n
+stepwise refinement bn:03218093n
+executable bn:00102521a
+executable code bn:00058456n
+diagramming bn:00086769v
+communicating finite-state machines bn:13947856n
+message queued bn:03175133n
+solving bn:00088162v
+put forward bn:00091870v
+group bn:00041942n
+relatively bn:00114784r
+augmented transition network bn:01129697n
+recursive bn:00109560a
+subroutines bn:00036826n
+concentrate bn:00021536n
+data bn:00025314n
+subset bn:00074971n
+accumulated bn:00082846v
+unavailability bn:03156444n
+encompassing bn:00085497v
+applicable bn:00097372a
+petri net bn:01557438n
+characteristic bn:00099532a
+availability bn:00000670n
+yardstick bn:00081841n
+assess bn:00082720v
+explicitly bn:00115285r
+sender bn:00070465n
+listening bn:00089280v
+listener bn:00007019n
+implement bn:00084595v
+find out bn:00082811v
+more central bn:00099258a
+jackson bn:00047836n
+respect bn:00031654n
+present bn:00108977a
+inherent bn:00098994a
+implicitly bn:00115770r
+expressive bn:00102608a
+expressive power bn:03234063n
+practical bn:00108880a
+threads bn:03212986n
+conceive bn:00083370v
+upper bn:00113425a
+assertion bn:00001768n
+concern bn:00021286n
+assignment statements bn:02806034n
+compiled bn:00085470v
+compiler bn:00021344n
+impossible bn:00104687a
+ones bn:00000005n
+concurrent process bn:00658978n
+optimizing bn:00091186v
+airplane bn:00001697n
+demand bn:00026107n
+people bn:00061450n
+electrical engineers bn:00029856n
+engineers bn:03098987n
+experts bn:00032322n
+weapon bn:00005704n
+maintainability bn:03148064n
+turnover bn:00030623n
+period bn:00036471n
+peer review bn:01750387n
+feedback bn:00033948n
+electronics bn:00030270n
+semiconductor bn:00070422n
+evaluation bn:00031973n
+weakness bn:00080285n
+modification bn:00003125n
+user-friendliness bn:02245863n
+stage bn:00061898n
+massachusetts bn:00009233n
+interrelated bn:00105268a
+more sophisticated bn:00110922a
+deadlock bn:00025510n
+management bn:00053116n
+main function bn:00795524n
+graphical bn:00103741a
+user documentation bn:02110172n
+visual language bn:02258047n
+man-machine interaction bn:01669278n
+interaction bn:00036845n
+scientific paper bn:00060466n
+effort bn:00029899n
+appropriateness bn:00031709n
+exponential bn:00102598a
+scientist bn:00069680n
+workstation bn:00081620n
+algebraic bn:00096764a
+comprehending bn:00082727v
+complexity bn:00021383n
+game bn:00037180n
+precise bn:00096293a
+simple bn:00110649a
+equipment bn:00031322n
+higraphs bn:01691263n
+communication systems bn:00076374n
+hardware description language bn:03616229n
+quartz watch bn:01410946n
+manuscript bn:00044453n
+hare bn:02520067n
+describing bn:00082233v
+department bn:00026310n
+g. bn:00036962n
+esterel bn:00464853n
+synchronous bn:00111581a
+synchronous programming language bn:01507916n
+mathematical semantics bn:03354331n
+seminar bn:00070437n
+springer bn:00625366n
+berlin bn:00010025n
+ccitt bn:00685445n
+international telecommunication union bn:00696527n
+finite bn:00102992a
+concurrent system bn:03822531n
+trans bn:03170765n
+prog bn:00005947n
+lung bn:00052341n
+digital bn:00101372a
+digital system bn:15182937n
+amsterdam bn:00003686n
+a.b. bn:00000193n
+ieee bn:03378678n
+inform bn:00089724v
+tech bn:00076330n
+hamilton bn:00042724n
+higher bn:00104196a
+apt bn:00097382a
+logic model bn:03744232n
+new york bn:00041611n
+proc bn:00016756n
+c.a.r. bn:03204308n
+c.a.r. hoare bn:03117463n
+communicating sequential processes bn:01819165n
+comm bn:01502944n
+comm. acm bn:02276368n
+hopcroft bn:02352207n
+ullman bn:16384500n
+automata theory bn:00152075n
+addison-wesley bn:00315874n
+prentice-hall bn:03340052n
+nj bn:00037322n
+formal specification bn:01918343n
+bar-ilan university bn:03311448n
+hebrew bn:00104078a
+programmer bn:00020358n
+r. milner bn:03830527n
+calculus bn:00014694n
+acm conference bn:02290302n
+logic programs bn:00051854n
+structured analysis bn:03644019n
+distributed systems bn:03732241n
+p.t. bn:03112221n
+natural language bn:00056990n
+article bn:00057551n
+topological bn:00112003a
+array bn:00005869n
+databases bn:00025333n
+knowledge representation bn:00931937n
+complex bn:02879112n
+formation bn:00059480n
+essentially bn:00114508r
+sequel bn:02266432n
+euler circles bn:01769610n
+venn bn:00048353n
+venn diagrams bn:00079741n
+translation bn:00041943n
+points bn:15591207n
+eye bn:00032512n
+distance bn:00027749n
+awareness bn:00007498n
+set element bn:00054282n
+binary relation bn:14410550n
+mathematical bn:00106488a
+class graph bn:01875393n
+interest bn:00007020n
+elaborate bn:00086833v
+range bn:00045972n
+dia bn:03799214n
+gram bn:00049021n
+complexity class bn:03285168n
+support bn:03097081n
+ships bn:00071103n
+hypergraphs bn:01638243n
+database theory bn:00213344n
+arity bn:00005681n
+volume bn:00080229n
+number 5 bn:00000119n
+captured bn:00084508v
+color bn:00020726n
+two-dimensional bn:00108654a
+curve bn:15961859n
+simple closed curve bn:00048415n
+partition bn:02762159n
+plane bn:00062766n
+disjoint bn:03116369n
+inside bn:00046892n
+line bn:00051291n
+symbol bn:00075652n
+predicate bn:00064109n
+ber bn:00226832n
+description bn:01244302n
+related bn:00109650a
+cartesian product bn:00016309n
+pose bn:00090224v
+formal bn:00100420a
+entity bn:00031027n
+semantic bn:00110347a
+dataflow diagrams bn:00543823n
+rectilinear bn:00109556a
+dui bn:00023268n
+departure bn:00026344n
+complete bn:00100144a
+upper set bn:02269868n
+solution bn:00068248n
+atomic sets bn:03897092n
+nonempty bn:03854174n
+depicts bn:00086611v
+sound bn:00000986n
+blob bn:02490531n
+empty bn:00102179a
+l. bn:00016100n
+symbolically bn:00117197r
+operand bn:00059114n
+sense bn:00070494n
+unordered pair bn:00234465n
+ml bn:01331065n
+unlabeled bn:00112925a
+b. bn:00007598n
+ordinary bn:00107963a
+target set bn:03285514n
+entity-relationship bn:03624842n
+node bn:03482974n
+described bn:00086525v
+employees bn:00030616n
+salary bn:15928884n
+precisely bn:00115268r
+attribute bn:00007067n
+parent bn:00060643n
+division bn:00027919n
+man bn:00044576n
+pi bn:00062194n
+male bn:00001533n
+overly bn:00115274r
+experimental research bn:00032309n
+vehicle bn:00079675n
+intelligence bn:00047025n
+natural language processing bn:00045156n
+ap bn:03116255n
+semantic network bn:02275757n
+distinct type bn:00839256n
+naive bn:00107099a
+overcome bn:00091282v
+typically bn:00117361r
+tween bn:02167073n
+edge bn:02612327n
+inherited bn:00089736v
+explanation bn:00000741n
+types bn:00016413n
+variant bn:00017628n
+automatic teller bn:00006804n
+access right bn:15456161n
+distinct bn:00101496a
+breakup bn:00012943n
+concurrent programs bn:01933105n
+hypertext bn:00545957n
+context bn:00022168n
+multiple bn:00107028a
+composite bn:00100155a
+model theory bn:01256362n
+motivate bn:00082313v
+ment bn:00001580n
+phones bn:00062020n
+sequence bn:00070574n
+net bn:00102969a
+deed bn:00001077n
+sons bn:00051877n
+stepwise bn:00098458a
+large number bn:14223782n
+interrupt bn:00047212n
+unnatural bn:00096158a
+bracketed bn:00083862v
+xor bn:00178793n
+singled bn:00093765v
+essence bn:00017124n
+simultaneity bn:00071704n
+generated bn:00083336v
+digital watch bn:00027091n
+disabled bn:00101440a
+display mode bn:03597684n
+technicality bn:01006362n
+depend bn:00086606v
+ob bn:00058425n
+high-level bn:00104167a
+high-level description bn:03385495n
+tor bn:00156778n
+t v bn:00076373n
+ear bn:00029372n
+depressing bn:00086632v
+imagine bn:00085516v
+speci bn:03233873n
+surrounding bn:00083797v
+no-frills bn:00107315a
+artificial intelligence bn:00002150n
+decide bn:00086370v
+correct bn:00100490a
+crossover bn:03356782n
+equivalents bn:01731751n
+three-dimensional bn:00095976a
+third dimension bn:15649186n
+basic topology bn:01026070n
+motivation bn:00056037n
+future bn:00036941n
+connectivity bn:00853419n
+transitive closure bn:02285747n
+computational complexity bn:03626490n
+algorithmic bn:00096772a
+algorithmic problems bn:00002705n
+small number bn:01830947n
+gained bn:00082790v
+facility bn:00032645n
+garbage collection bn:00037292n
+tend bn:00083202v
+visual system bn:00080136n
+quadruple bn:00065519n
+finite set bn:00308555n
+restricted bn:00109319a
+equivalence relation bn:00045819n
+equivalence class bn:03819865n
+bl bn:00939396n
+lr bn:01042977n
+lent bn:00090290v
+ail bn:00027546n
+restriction bn:00021755n
+nv bn:00009083n
+academic bn:00096228a
+academic press bn:01921972n
+cardelli bn:03226123n
+multiple inheritance bn:01226081n
+inheritance semantics bn:02361814n
+a1 bn:00030858n
+lecture bn:00050488n
+mass bn:00053662n
+siam bn:00049182n
+dos bn:00027617n
+systems analysis bn:00075777n
+boston bn:00009334n
+tor bn:01325728n
+ll bn:03396846n
+semantic relation bn:15173814n
+universal relation assumption bn:02257171n
+war bn:00080439n
+cg bn:03111524n
+publishers bn:00065108n
+university bn:00079152n
+university chicago bn:00079155n
+chicago bn:00018253n
+nato bn:00056978n
+il bn:00045911n
+working environment bn:00081570n
+hendrix bn:00043692n
+ussr bn:00068619n
+sept. bn:00070537n
+commun bn:01602910n
+e. bn:00029342n
+ld bn:00051410n
+i-logix bn:03161278n
+rep. bn:00045015n
+m.s. bn:00053731n
+tn bn:00076518n
+princeton university bn:00064420n
+princeton university press bn:00417404n
+ind bn:03507460n
+los angeles bn:00019336n
+concur bn:01326090n
+munich bn:00056219n
+searching bn:00087881v
+liveness bn:17223821n
+july 1982 bn:02831249n
+semantic memory bn:00070401n
+minsky bn:15912941n
+mit bn:00053691n
+mit press bn:03585643n
+wiley bn:03334567n
+storage bn:00021483n
+graphics press bn:01996223n
+lm bn:02397426n
+aug bn:00007140n
+aug 19 bn:00712050n
+mag bn:00052671n
+symbolic logic bn:00035928n
+london bn:00013179n
+woods bn:00081492n
+distributed bn:00084119v
+cr category bn:02548268n
+tems bn:14743817n
+dj bn:00027461n
+data structures bn:00025330n
+phrases bn:00045841n
+fee bn:00033939n
+copyright bn:00022536n
+copyright notice bn:03553180n
+crisis management bn:02836923n
+management process bn:03127800n
+workshop bn:00081618n
+case management bn:03537096n
+austria bn:00007266n
+open access bn:03097420n
+access bn:00000665n
+archive bn:00005448n
+dissemination bn:00027056n
+research institution bn:00049551n
+france bn:00036202n
+abroad bn:00114087r
+au bn:00006911n
+university paris bn:00060679n
+paris bn:00015540n
+paris 1 bn:02214373n
+process manager bn:01305513n
+strategic bn:00111286a
+strategic level bn:00074557n
+fulfilled bn:00082225v
+technique bn:00064626n
+goal modeling bn:01283920n
+process modeling bn:00912901n
+challenging bn:00084758v
+simulating bn:00085805v
+flood management bn:00035297n
+oka river bn:03091997n
+river bn:00067948n
+moscow bn:00015634n
+moscow region bn:03082654n
+flexibility bn:03298514n
+intentional bn:00105259a
+tacit knowledge bn:01647738n
+human bn:00104386a
+actor bn:00001176n
+federal bn:00102871a
+emergency bn:00030525n
+emergency management bn:00664225n
+specification bn:00073217n
+existing bn:00083184v
+water bn:00042379n
+workflows bn:00081578n
+proposed bn:00082486v
+problematic bn:00097982a
+adaptability bn:00001265n
+process specification bn:03558977n
+modeling language bn:02825036n
+complete bn:00096275a
+provoked bn:00092118v
+snow bn:00072455n
+snow melting bn:03199254n
+risk bn:00030747n
+damages bn:00003333n
+infrastructure bn:00008794n
+railway bn:00066021n
+road bn:00067975n
+electric bn:00102085a
+electric power plant bn:00063961n
+public service bn:00065098n
+agency bn:00001961n
+information system bn:00025331n
+roughly bn:00114073r
+visualization bn:00080130n
+decision making bn:00025693n
+monitoring bn:00090897v
+handling bn:00084527v
+he/she bn:00006884n
+request bn:00061826n
+process improvement bn:01058411n
+bpmn bn:02370529n
+process designed bn:02410789n
+hierarchical state machine bn:01726237n
+hsm bn:14864558n
+parts bn:00060828n
+enactment bn:00017766n
+desired bn:00086682v
+choice modeling bn:00816623n
+concept map bn:03558829n
+according bn:00082227v
+organizational bn:00107970a
+strategy bn:00069579n
+methodological bn:00106672a
+strategic goals bn:01181026n
+framework bn:00036197n
+process map bn:03245693n
+intended bn:00105249a
+target bn:00002179n
+triplet bn:00078196n
+meta-model bn:00912905n
+domain engineering bn:03151157n
+method engineering bn:01681684n
+secure bn:00092039v
+emergency evacuation bn:00754972n
+evacuation bn:00031970n
+share bn:00082718v
+operationalization bn:00059136n
+navigation bn:00057073n
+achievement bn:00000724n
+essential dimension bn:00934783n
+contained bn:00084850v
+discuss bn:00086931v
+flood bn:00002954n
+emergency state bn:02347170n
+cm bn:00017163n
+reinforce bn:00092711v
+ments bn:03398054n
+close bn:00114747r
+police bn:00022026n
+process simulation bn:01567557n
+detector bn:00026638n
+high bn:00104162a
+high water bn:00077199n
+run time bn:00068562n
+adapted bn:00082215v
+recommendation system bn:03423313n
+life bn:00021477n
+damage bn:00025083n
+safety bn:00068799n
+scenario planning bn:03429478n
+int bn:01463424n
+model driven architecture bn:03127962n
+architecture bn:00005442n
+lettonie bn:00050191n
+requirement analysis bn:03312848n
+contemporary bn:00100361a
+business bn:00014137n
+business process bn:02788029n
+programming bn:00092051v
+selection bn:00018661n
+switzerland bn:00069666n
+c. rolland bn:01420988n
+intentionality bn:01088660n
+systems design bn:03155334n
+ltd. bn:00050331n
+russian federation bn:00068622n
+civil defense bn:00019358n
+natural disasters bn:03411833n
+disasters bn:00014640n
+alternative bn:00003132n
+university toronto bn:03673925n
+business process reengineering bn:00875146n
+finance bn:00034524n
+computational bn:00100175a
+computational model bn:02178547n
+grammars bn:00041302n
+finally bn:00115368r
+typical bn:00112216a
+turing machine bn:00078634n
+movable bn:00106987a
+read/write head bn:00043271n
+unbounded bn:00098764a
+restrict bn:00083834v
+prime bn:00109014a
+prime number bn:00064389n
+number symbols bn:03413162n
+parenthesis bn:00060647n
+strings bn:00074685n
+pattern matching bn:15025637n
+sequential logic bn:03784514n
+based bn:00083141v
+context-free grammar bn:03528710n
+combinational logic bn:03784491n
+switching circuit bn:02573583n
+labelled graph bn:00850196n
+regular language bn:01923400n
+machine model bn:01013765n
+mathematically bn:00116207r
+metaphor bn:00054578n
+far bn:00115323r
+motion bn:00056030n
+writing direction bn:00059588n
+produced bn:00086013v
+mealy machine bn:02673953n
+x x bn:00030580n
+black bn:00098493a
+black box bn:01158443n
+processing bn:00092034v
+classifier bn:03630866n
+moore machine bn:02879096n
+concentrating bn:00084726v
+functional program bn:00212944n
+imperative program bn:01246770n
+outputting bn:00091243v
+long bn:00116154r
+input symbol bn:00003054n
+infinite bn:00105064a
+infinite number bn:01162309n
+mutual recursion bn:01278231n
+cons bn:01353463n
+code bn:00020354n
+function called bn:00036827n
+arithmetic bn:00005676n
+input stream bn:02122367n
+void bn:00030635n
+tail recursive bn:00232869n
+gotos bn:01643893n
+eliminating bn:00087533v
+variable bn:00113503a
+current bn:00096401a
+char bn:00017738n
+functionality bn:00036836n
+equation bn:00031293n
+unspecified bn:00113266a
+lieu bn:00051035n
+controller bn:00954215n
+proceed bn:00085714v
+interested bn:00105275a
+categorizing bn:00084690v
+derive bn:00086654v
+type machine bn:00078809n
+class 0 bn:03739887n
+final class bn:01755798n
+special case bn:02482901n
+alphabet bn:00000242n
+musical instrument bn:00046965n
+musical instrument digital interface bn:00054877n
+electronic bn:00102099a
+electronic musical instruments bn:00030254n
+midi sequencer bn:00451176n
+amplitude bn:00003667n
+depending bn:00083451v
+q 2 bn:16632030n
+q2 bn:00065611n
+c 1 bn:03770389n
+number state bn:02131715n
+a/0 bn:01104287n
+categorize bn:00006555n
+traffic light bn:00074441n
+green bn:00103788a
+yellow bn:00100582a
+red figure bn:00665975n
+integer bn:00047009n
+unknown bn:00107687a
+floating-point bn:00035278n
+scanner bn:00027087n
+finite-state transducer bn:00189961n
+message bn:00054523n
+digit bn:00025702n
+communicating bn:00085436v
+capable bn:00099215a
+counterclockwise bn:00097228a
+spaced bn:00094068v
+sampling rate bn:00069088n
+speed bn:00073258n
+inference bn:00045936n
+figure bn:00045772n
+rotational bn:00109943a
+rotational direction bn:02012642n
+wrist-watch bn:00077172n
+display bn:00027675n
+vending bn:00089254v
+vending machine bn:15034978n
+output signal bn:00059789n
+traffic flow bn:15511757n
+cross traffic bn:01194272n
+traffic intersection bn:00016237n
+bar code bn:00008480n
+bit bn:00010731n
+equal bn:00102336a
+tick bn:00017986n
+dark bn:00025236n
+idle bn:00104520a
+acceptor bn:00000659n
+gasoline bn:00037384n
+credit card bn:00017800n
+personal identification bn:00015915n
+identification number bn:00045820n
+keypad bn:00021482n
+nozzle bn:00058124n
+lever bn:00050864n
+q0 bn:17364007n
+g0 bn:03457776n
+equivalent representation bn:01209506n
+binary bn:00098398a
+least-significant bit bn:03286764n
+x0 bn:00146324n
+reproduce bn:00092850v
+first step bn:00034797n
+r0 bn:01974847n
+bit position bn:00256868n
+replicated bn:00087174v
+c0 bn:01697326n
+number 0 bn:00000004n
+number 1 bn:00034738n
+binary adder bn:00001280n
+binary numerals bn:00010481n
+decimal value bn:00025700n
+serial binary adder bn:03839336n
+greater bn:00103782a
+simulate bn:00090880v
+division algorithm bn:02696766n
+combination lock bn:00020880n
+result bn:00090243v
+string matching algorithm bn:02228010n
+terminal symbol bn:03643078n
+0b bn:00877013n
+derivation tree bn:00320060n
+corresponding bn:00082477v
+deterministic automaton bn:03116203n
+breadth-first search bn:03868956n
+iteration bn:00047734n
+simply bn:00116053r
+precedence bn:01410322n
+ambiguous grammar bn:03492547n
+concatenation bn:03489514n
+bullet bn:03415182n
+explain bn:00087870v
+concatenating bn:00085508v
+fewer bn:00102921a
+infinite set bn:00046665n
+sr bn:00006868n
+justify bn:00090026v
+language constructed bn:01651637n
+kleene bn:02242973n
+iff bn:00706632n
+previously bn:00114297r
+entire bn:00102277a
+floyd warshall bn:01616259n
+real number bn:00066395n
+simplification bn:03665941n
+derivation bn:00026447n
+inductive bn:00104990a
+egrep bn:03233188n
+awk bn:00664644n
+notation bn:00058141n
+differ bn:00086797v
+file bn:00021475n
+scan bn:00092427v
+anew bn:00114164r
+question mark bn:00047210n
+ascii bn:00003473n
+ascii character bn:00006269n
+character code bn:00017756n
+newline bn:00051314n
+qu bn:00146760n
+az bn:00005684n
+s i bn:00047162n
+complementation bn:03341864n
+relative bn:00100122a
+digital computer bn:00027084n
+machine element bn:02053834n
+propositional function bn:01604270n
+memory recall bn:00066478n
+recall bn:00084413v
+share bn:00070912n
+logic element bn:00051852n
+physical devices bn:00021491n
+physical states bn:00074011n
+delay time bn:15106953n
+time switching bn:00688588n
+switching time bn:01138977n
+able bn:00096151a
+computer designer bn:03287605n
+specific bn:00111002a
+obtained bn:00088208v
+series 1 bn:00882814n
+ticks bn:00083260v
+function bn:00088629v
+clock ticked bn:00011276n
+phenomenon bn:00061931n
+rising edge bn:03651778n
+square wave bn:02499422n
+known bn:00105645a
+computer design bn:00005444n
+synchronous system bn:00865301n
+constant bn:00100331a
+current bn:00100790a
+timing diagram bn:03578711n
+input bn:00247344n
+appear bn:00082696v
+tabular bn:00111611a
+d e a bn:00025494n
+logic functions bn:00012145n
+uvw bn:00749634n
+uv bn:00078906n
+vw bn:02595683n
+propositional logic bn:00064782n
+bank bn:00008364n
+latch bn:00090205v
+first approximation bn:02824941n
+opposing bn:00085875v
+order bn:00088990v
+discipline bn:00007985n
+complementary bn:00100142a
+change 1 bn:03388665n
+summary bn:00075142n
+identified bn:00089576v
+transient bn:00112062a
+transient state bn:00252033n
+states bn:00087895v
+behave bn:00082286v
+transparent bn:00112072a
+leading edge bn:15124411n
+clocking bn:00085147v
+clock bn:00019887n
+left-hand side bn:00902572n
+stabilize bn:00094238v
+nand gate bn:00056789n
+explore bn:00087882v
+control unit bn:03502830n
+type design bn:03485283n
+register-transfer level bn:03861646n
+stored-program bn:00111251a
+stored-program computer bn:00074456n
+fit bn:02754577n
+higher level bn:03277764n
+sequence number bn:02405887n
+adding machine bn:00001290n
+transition function bn:01057483n
+basic principle bn:00008838n
+implement bn:00082712v
+gated bn:00088691v
+minimum bn:00055167n
+control line bn:01757034n
+strobe bn:00074723n
+datum bn:00025327n
+selective bn:00110293a
+gate delay bn:00451616n
+expense bn:00027451n
+kind bn:00103526a
+abstract computer bn:03436081n
+modular bn:00106842a
+modular decomposition bn:02195639n
+hope bn:00089472v
+universe bn:00022991n
+interesting bn:00085522v
+statement bn:00020945n
+b 5 bn:03355390n
+capability bn:03336818n
+register bn:00066893n
+shift register bn:00071064n
+converter bn:00022367n
+multiplexor bn:13810555n
+address bn:00001302n
+commercial bn:00100081a
+attendant bn:00096273a
+device bn:00026716n
+buffer bn:00013673n
+interconnection bn:00047067n
+high impedance bn:03247426n
+electronically bn:00115187r
+convenient bn:00100415a
+log bn:00051830n
+trade bn:00077860n
+barrel shifter bn:02496710n
+radix bn:00008791n
+pp bn:03507496n
+shannon bn:00019596n
+connection machines bn:03545840n
+bell system technical journal bn:02315295n
+edward f. moore bn:00837996n
+jain bn:00047894n
+antwerp, belgium bn:00004791n
+belgium bn:00009714n
+autonomous bn:00097830a
+stateflow bn:03369007n
+variant bn:00113504a
+system modeled bn:01944346n
+basic bn:00098101a
+more traditional bn:00112044a
+input parameters bn:00005603n
+computations bn:00014688n
+software component bn:02180118n
+driver bn:00026721n
+complex event processing bn:00559082n
+formal verification bn:02057451n
+model checking bn:02567097n
+partly bn:00116535r
+cognitive bn:00099969a
+understandability bn:00005134n
+tutorial bn:00078719n
+building block bn:00013726n
+code generation bn:01151877n
+comparable bn:00100118a
+policeman bn:00058698n
+modeler bn:00055452n
+syntactic bn:00111596a
+syntactic sugar bn:02271210n
+sugar bn:00015853n
+fuel bn:00036734n
+fueling station bn:00034468n
+event segment bn:01392341n
+segment bn:00070193n
+continuous functions bn:03446876n
+interacting bn:00089808v
+key strokes bn:00049001n
+enter key bn:00067496n
+reaction bn:00018121n
+move up bn:00082761v
+trajectory bn:00035211n
+move_up bn:15562937n
+middle bn:00106702a
+system timed bn:00075767n
+rounded rectangles bn:03359733n
+traveling bn:00088912v
+total state bn:00000459n
+autonomous behaviour bn:00007389n
+java bn:00048043n
+artefact bn:00005956n
+process system bn:01418952n
+deploy bn:00086617v
+boolean value bn:00294693n
+proceeds bn:00047691n
+yr bn:00078738n
+red bn:00066631n
+satisfied bn:00110116a
+test case bn:00076654n
+light listed bn:03887612n
+start-up bn:00074002n
+green light bn:00040834n
+yellow light bn:00081874n
+interrupt bn:00087074v
+light time bn:00051143n
+theoretical bn:00111806a
+visualize bn:00095548v
+aptly bn:00114063r
+mentally bn:00116237r
+state variable bn:02640791n
+. . . bn:00075457n
+value system bn:00211776n
+system variables bn:00031075n
+state changed bn:00061902n
+composite states bn:00892979n
+group behaviour bn:00041946n
+red bn:00100653a
+red state bn:00256419n
+explained bn:00087819v
+mierlo bn:00323843n
+vangheluwe bn:02065480n
+black yellow bn:01110885n
+displayed bn:00087013v
+negative bn:00101474a
+exited bn:00084343v
+exist bn:00087844v
+state modeled bn:14738485n
+green state bn:00345934n
+present bn:00108978a
+efficient bn:00102039a
+fail bn:00083914v
+ancestor bn:00064398n
+tactic bn:00053172n
+correct bn:00100492a
+advantage bn:00001559n
+instrumenting bn:00089793v
+reactive bn:00109483a
+delay bn:01499536n
+disadvantage bn:00817278n
+access bn:00082208v
+simulator bn:00071702n
+raise bn:01927846n
+gui bn:00041418n
+visualization library bn:01027840n
+library bn:00050969n
+specified bn:00086681v
+toggle bn:00058959n
+interrupt button bn:00566335n
+control system bn:00022303n
+control logic bn:03464813n
+child bn:00018346n
+manufacturing bn:00085678v
+manufacturing industry bn:00032594n
+heidelberg bn:03234884n
+software engineering methodology bn:01652179n
+j. e. bn:00300463n
+investigating bn:00089885v
+model transformation bn:03241426n
+proceedings bn:00050563n
+dependability bn:00026350n
+forum bn:14251420n
+biography bn:00010534n
+phd thesis bn:00027718n
+debugging bn:00086348v
+e-mail bn:00029345n
+professor bn:00064601n
+adjunct professor bn:00006525n
+canada bn:00015115n
+technology bn:00005105n
+multiple platforms bn:03692039n
+platforms bn:00062900n
+welcome bn:00095706v
+simple bn:00098053a
+reap bn:00088884v
+outlined bn:00082392v
+site bn:00047172n
+dive bn:00027850n
+explosion bn:00011468n
+qa bn:01385391n
+hidden bn:00089332v
+team bn:00068051n
+pushback bn:02754286n
+web bn:00080772n
+web application bn:02246184n
+load time bn:00027986n
+w3c bn:02673666n
+spent bn:00087372v
+scxml bn:03305313n
+xml bn:02771436n
+edge cases bn:03497654n
+derivative bn:00101214a
+libaries bn:00050968n
+varying bn:00082554v
+care of bn:15470952n
+run-time bn:00068561n
+type safety bn:03432486n
+hard bn:00115590r
+automate bn:00082941v
+json bn:00802141n
+minded bn:00090794v
+honourably bn:00115684r
+use case bn:02356174n
+look bn:00006386n
+chat room bn:02866771n
+room bn:00068233n
+glossary bn:00040717n
+local bn:00106108a
+parallel state bn:00900122n
+response bn:00067369n
+external inputs bn:03225375n
+limitation bn:00051253n
+flick bn:00034471n
+side effect bn:02314488n
+turned on bn:00094692v
+turned off bn:00086201v
+instantiation bn:00046945n
+qualifier bn:00065537n
+abstract state machine bn:01927080n
+automatically bn:00114451r
+inthe bn:02266902n
+new state bn:03391624n
+compound bn:00018101n
+solve bn:00085091v
+modeled bn:00090876v
+invalid bn:00105369a
+traditional state bn:03727122n
+similar bn:00102503a
+disable bn:00027407n
+witnessing bn:00095806v
+parallel bn:00050179n
+trait bn:00077930n
+state explosion problem bn:03660202n
+guard bn:00090041v
+go back bn:00088941v
+invalid state bn:02220665n
+pun bn:00459509n
+subordinate bn:00106223a
+specified bn:00085560v
+ignored bn:00089583v
+evaluate bn:00087763v
+accomplished bn:00096276a
+extend bn:00087912v
+misuse bn:00000522n
+light switch bn:03747512n
+quickly bn:00114307r
+early bn:00115153r
+consumed bn:00085692v
+precise bn:00096292a
+first instance bn:00078206n
+short time bn:02260267n
+powered bn:00091908v
+tasked bn:00094830v
+problem solved bn:00632473n
+weird bn:00102076a
+imperative bn:00104643a
+cancel bn:00084425v
+pop-up bn:00063559n
+connector bn:00716359n
+bibliography bn:00010224n
+microwave bn:00054805n
+level bn:00025966n
+necessary bn:00107183a
+interaction diagram bn:02571962n
+obligatory bn:00107677a
+orthogonal bn:00102645a
+graphically bn:00115543r
+static bn:00104766a
+datum bn:01768982n
+negation bn:00057188n
+approached bn:00082734v
+logical operations bn:00051853n
+parenthesis bn:00006351n
+boolean expressions bn:02478827n
+boolean operation bn:00010475n
+functions bn:00088631v
+constants bn:00022032n
+make up bn:00083187v
+manipulation bn:00053225n
+truth bn:00072816n
+perform bn:00087107v
+semicolon bn:00070420n
+while loop bn:03237310n
+prevent bn:00090033v
+s1 bn:00073801n
+parallel bn:00108247a
+solution bn:00072760n
+second state bn:00049019n
+associated state bn:00006537n
+object modeling language bn:01582611n
+professional bn:00109068a
+written bn:00093281v
+mutexes bn:03045458n
+e. a. bn:00029771n
+geometric bn:00103544a
+deterministic finite state automata bn:03499526n
+depth bn:14104188n
+society bn:00072566n
+october bn:00058593n
+october 1996 bn:02821539n
+montreal bn:00055800n
+quebec bn:00065630n
+green bn:00100914a
+traffic bn:00077888n
+r1 bn:02589194n
+february bn:00033882n
+callback bn:03490040n
+line code bn:03147584n
+autonomous systems bn:00068035n
+workshop bn:00071216n
+interactive systems bn:01437578n
+embedded systems bn:03233035n
+franke bn:00457828n
+edinburgh bn:00029765n
+useful bn:00113456a
+graphic notation bn:03548538n
+d c bn:03135792n
+common property bn:02298190n
+b b c bn:01206082n
+alarm clock bn:00002413n
+increment bn:00041979n
+validation bn:00064728n
+radio bn:00065899n
+chess bn:00018197n
+re-use bn:03136623n
+comp bn:00021273n
+vol bn:15822890n
+systems modeling bn:01640862n
+december bn:00025645n
+december 2002 bn:00937262n
+rational bn:00109452a
+rose bn:00085126v
+argouml bn:02265148n
+abstract syntax bn:03628413n
+g e bn:00448434n
+k n bn:03742034n
+p h bn:00061855n
+h k bn:00044647n
+green police bn:00127471n
+collaboration diagram bn:02627373n
+meet bn:00082348v
+completion bn:00019966n
+decision points bn:02071832n
+system analysis bn:03804621n
+end states bn:03527908n
+realize bn:00092441v
+automatic bn:00097823a
+debit bn:00025628n
+payment bn:00061119n
+compartment bn:01317330n
+entry bn:00000759n
+effective bn:00102043a
+tcas bn:03633507n
+think about bn:00094914v
+intermediate bn:00105288a
+intermediate state bn:00226237n
+expand bn:00083781v
+participating bn:00091451v
+right view bn:01471141n
+consistent bn:00100320a
+differ bn:00086798v
+plural bn:00063102n
+mathematical model bn:01329353n
+satisfied bn:00089027v
+non-deterministic finite state machines bn:03499531n
+modern society bn:01097033n
+dispense bn:00082364v
+deposited bn:00086626v
+requested bn:00092857v
+computational power bn:03117275n
+coin-operated bn:00099978a
+theoretical computer science bn:02588549n
+machine learning bn:01647033n
+amusement bn:00003693n
+amusement park bn:00003695n
+waist bn:03879880n
+entryway bn:00031044n
+labeled bn:00090153v
+circular bn:00099703a
+audio system bn:00007108n
+identical bn:00105977a
+oven bn:00059829n
+virtual bn:00108881a
+virtual finite-state machine bn:00484811n
+standard bn:00109519a
+abstract data types bn:01662418n
+action language bn:02553065n
+significant bn:00110621a
+linguistics bn:00051395n
+biology bn:00010543n
+widely bn:00117626r
+formal language bn:00213650n
+even number bn:00060686n
+shortest path bn:03158984n
+weighted bn:00082616v
+empty bn:00102176a
+single output bn:00532458n
+computational linguistics bn:00021463n
+motor bn:00030850n
+arrives bn:00082788v
+subclass bn:01341184n
+gnfa bn:03499549n
+powerset bn:01706186n
+powerset construction bn:00296055n
+design tools bn:15806435n
+embedded controllers bn:13806859n
+flow graphs bn:00576774n
+truth table bn:01900780n
+partial function bn:01676048n
+power a bn:14402936n
+semiautomaton bn:00194978n
+transition system bn:03120638n
+optimization bn:03309733n
+implication table bn:03723518n
+moore reduction bn:03724215n
+linear time bn:00068589n
+digital circuit bn:03112228n
+programmable logic bn:03599459n
+programmable logic controller bn:01844637n
+relays bn:00030187n
+specifically bn:00117094r
+richards controller bn:03645096n
+time delay bn:00262346n
+circuit diagram bn:03409226n
+4-bit bn:03309757n
+encoding bn:00087595v
+power consumption bn:03454400n
+event-driven finite-state machine bn:00484406n
+lexical bn:00105901a
+analyzer bn:00003792n
+parser bn:15790106n
+reserved words bn:03277968n
+identifiers bn:00045822n
+abstract state machine language bn:03332759n
+machine control bn:02315231n
+control table bn:01414206n
+devs bn:00615594n
+extended finite-state machine bn:03556831n
+datapath bn:03703069n
+hidden markov model bn:03885552n
+markov model bn:01498321n
+petri bn:01304831n
+pushdown automaton bn:01794549n
+quantum finite automata bn:03670781n
+recognizable language bn:03347556n
+state pattern bn:00889834n
+tree automaton bn:03885312n
+yakindu statechart tools bn:15451416n
+formal method bn:00857464n
+crc bn:03714741n
+isbn bn:00706122n
+brilliant bn:00098807a
+wiki bn:02640462n
+albert george bn:00040201n
+ht bn:02587123n
+tps bn:03237825n
+discrete mathematics bn:03731199n
+r. bn:00146887n
+pdf bn:01745594n
+n. carolina bn:00057100n
+archived bn:00082753v
+http bn:00045088n
+harvey mudd bn:02224390n
+harvey mudd college bn:00585164n
+jeffrey d. ullman bn:00942856n
+valuation algebra bn:03317723n
+algebra bn:00002676n
+june bn:00048592n
+june 2008 bn:00425557n
+ic analysis bn:00046012n
+iet bn:16686927n
+galway bn:00037152n
+ireland bn:00030004n
+simulink bn:03368982n
+embedded software bn:03482519n
+jersey city bn:00418087n
+citeseerx bn:00823790n
+ramesh bn:03186428n
+atlanta, ga bn:00006771n
+html bn:00045087n
+dictionary bn:00026967n
+october 2018 bn:03300798n
+november bn:00058192n
+j. bn:03361861n
+cambridge university bn:00014988n
+cambridge university press bn:03599251n
+ftp bn:00034430n
+technical report bn:01070291n
+stanford bn:00073943n
+january bn:00047960n
+january 2009 bn:00649636n
+linear bn:00097032a
+integrated circuit bn:00047012n
+integrated circuit design bn:02313356n
+circuit design bn:02215910n
+vlsi bn:02637311n
+january 2017 bn:03300780n
+wayback bn:01009911n
+sethi bn:00275569n
+t. bn:00075784n
+state management bn:00220101n
+kluwer bn:00738098n
+logic optimization bn:03616505n
+prentice bn:00005137n
+englewood cliffs bn:00571645n
+mcgraw-hill bn:14127560n
+ginsburg bn:00002835n
+arbib bn:02601216n
+inc. bn:01879020n
+philadelphia bn:00019334n
+w. b. saunders bn:16678235n
+computability bn:03194992n
+computability logic bn:03454694n
+cambridge, england bn:00014990n
+england bn:00030861n
+redwood city bn:00200027n
+california bn:00014403n
+sigal bn:00533473n
+harcourt, brace bn:00843583n
+kozen bn:02109611n
+upper saddle river bn:00571850n
+saddle bn:00042150n
+saddle river bn:01216368n
+saddle river, new jersey bn:00414480n
+sudbury, ma bn:00302242n
+jflap bn:15153978n
+sipser bn:03001534n
+sequential algorithms bn:01713912n
+computational logic bn:03747023n
+probability bn:00017624n
+exhibited bn:00087841v
+transition matrix bn:01460829n
+subshifts bn:00768153n
+snell bn:03227054n
+mathematical structure bn:01049167n
+utc bn:00022460n
+available bn:00097848a
+creative commons bn:03313195n
+license bn:00050986n
+privacy policy bn:00536841n
+wikipedia bn:03288118n
+registered trademark bn:00077877n
+wikimedia bn:01111042n
+non-profit organization bn:00057958n
+format bn:16963588n
+destination bn:00001307n
+involved bn:00089893v
+flat bn:00103060a
+pulled bn:00085426v
+independent bn:00104928a
+braking bn:00083876v
+display bn:00027671n
+bf bn:03139740n
+cf bn:00017435n
+ev2 bn:15840153n
+processed bn:00082305v
+bind bn:00083496v
+comma bn:00020937n
+interpreted bn:00089838v
+invariant bn:00105373a
+shortcut bn:03774468n
+c4 bn:03228342n
+marked bn:00086800v
+resolve bn:00025735n
+amended bn:00082573v
+ramp bn:00002903n
+ts bn:00054662n
+ramp up bn:01090064n
+debug bn:01845297n
+rtc bn:03659892n
+early return bn:00032244n
+sysml bn:03264794n
+requirement diagram bn:16344557n
+use case diagram bn:02828111n
+block diagram bn:00011322n
+parametric bn:00108252a
+package diagram bn:02627190n
+cycle bn:00010248n
+sub bn:00062349n
+region bn:00066884n
+indicating bn:00082756v
+merge bn:00090746v
+[Attributes]
+A1
+A2
+A3
+A4
+A5
+C1
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+[relation]
+1 1 1 0 1 0 0 1 1 0 1 0 0 
+1 1 0 0 0 0 0 0 0 0 0 1 0 
+1 0 1 0 1 0 1 0 0 1 0 0 1 
+0 1 1 0 0 0 1 0 0 1 0 0 1 
+1 0 0 0 1 0 0 1 1 0 1 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 0 0 1 0 1 1 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 1 1 1 1 1 0 1 
+1 1 0 1 1 1 1 1 1 0 0 1 1 
+1 1 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 1 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 1 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 1 1 0 0 0 1 1 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 0 0 0 
+1 1 0 1 1 1 1 0 1 0 0 1 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 
+1 1 0 0 1 1 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 0 1 0 1 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 1 
+1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 1 0 0 0 0 0 0 0 
+1 1 0 1 1 1 1 0 1 0 0 1 0 
+0 1 0 0 1 0 1 0 0 0 1 0 1 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 1 0 1 0 
+0 1 1 0 0 0 0 0 0 1 0 1 1 
+1 1 0 0 1 0 0 1 0 1 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 0 1 0 0 0 0 0 
+1 1 0 0 1 0 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 1 0 0 0 0 1 
+1 1 1 1 1 1 1 1 0 0 1 1 1 
+1 1 1 0 1 0 0 0 0 0 0 0 0 
+1 1 0 0 1 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 1 0 0 0 0 1 0 1 0 
+1 0 0 0 0 1 0 0 0 0 0 0 1 
+1 0 1 0 1 1 1 0 0 0 0 1 0 
+1 1 0 0 1 0 1 1 1 1 0 1 1 
+1 1 1 1 0 0 1 0 0 0 0 1 0 
+1 1 0 1 0 1 1 0 0 0 0 1 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 0 1 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 1 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 1 0 0 0 0 1 0 
+1 1 0 1 1 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 1 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 1 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 1 0 0 0 0 1 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 1 0 
+1 1 1 0 1 0 0 0 0 1 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 1 0 0 0 0 0 1 0 
+1 1 0 1 1 1 1 0 1 0 0 1 0 
+1 1 0 1 0 1 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 1 0 1 0 0 0 
+1 1 0 1 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 1 0 0 0 0 1 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 1 1 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 0 0 0 0 0 1 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 1 0 1 1 0 1 1 1 
+1 1 0 0 0 0 0 0 0 0 1 0 0 
+1 1 0 0 0 1 0 0 0 0 0 0 0 
+1 1 0 1 1 1 0 0 0 0 1 1 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 1 0 0 0 0 0 0 
+1 1 0 0 1 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 1 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 1 0 0 1 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 1 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 1 0 0 1 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 0 1 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 1 0 0 0 0 0 1 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 1 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 1 0 0 0 0 0 0 
+1 0 0 0 1 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 1 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 0 0 1 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 1 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 1 1 0 0 
+1 0 0 1 1 0 0 0 0 0 1 0 0 
+1 0 0 1 0 0 1 0 0 0 0 0 0 
+1 1 0 1 0 1 0 1 0 0 0 0 0 
+1 0 1 1 1 0 0 0 0 0 1 1 1 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 1 0 0 0 1 0 
+1 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 0 1 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 1 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 1 1 1 0 0 0 1 0 1 0 
+1 0 1 1 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 1 0 
+1 1 0 1 1 0 1 0 0 0 1 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 1 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 1 0 1 0 0 0 
+1 0 0 1 0 0 0 0 1 0 0 0 0 
+1 1 0 1 0 0 1 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 1 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 1 0 1 0 0 0 0 1 
+1 0 0 1 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 1 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 1 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 1 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 1 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 1 1 
+1 1 0 0 1 0 1 1 1 0 1 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 1 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 1 1 0 1 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 1 1 0 1 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 1 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 1 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 1 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 0 1 0 0 0 1 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 1 0 0 1 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 1 0 
+1 0 0 1 0 1 0 0 0 0 0 0 0 
+1 0 0 1 1 0 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 1 0 0 0 0 0 1 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 0 0 0 
+1 0 0 1 1 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 1 0 
+1 0 0 1 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 1 0 
+1 0 1 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+1 0 1 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+1 0 1 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 1 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 1 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 0 1 0 0 0 1 0 
+1 0 0 0 1 0 0 0 1 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 0 1 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 1 0 
+1 1 0 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 1 1 0 1 0 1 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 0 0 1 0 
+1 1 0 1 0 0 0 0 0 0 0 1 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 1 1 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 1 0 
+0 1 0 0 1 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 1 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 1 1 0 1 0 1 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 1 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 1 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 1 
+0 1 0 0 0 1 0 0 0 0 0 0 0 
+0 1 0 1 1 1 1 0 0 0 0 1 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 1 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 1 1 1 0 0 0 0 0 
+0 1 0 1 1 1 0 0 0 0 1 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 0 0 1 0 
+0 1 0 1 0 1 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 0 1 0 
+0 1 0 0 1 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 1 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 1 0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 1 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 1 0 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 1 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 1 0 0 0 0 1 0 
+0 0 1 0 0 1 0 0 0 1 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 0 0 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 1 0 1 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 0 1 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 0 1 0 0 0 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 0 0 1 
+0 0 0 1 1 0 0 0 0 0 1 1 1 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 0 1 1 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 1 0 
+0 0 0 1 0 0 0 0 1 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 1 0 1 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 1 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 1 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 1 0 0 1 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 1 0 1 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 1 0 
+0 0 0 0 1 1 0 0 1 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 1 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 1 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 0 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 1 0 1 
+0 0 0 0 0 0 1 0 0 0 0 1 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,42 @@
+Objects;Weight
+computer bn:00021464n;0.46875
+statecharts bn:01128895n;0.25
+systems bn:15125301n;0.1875
+state bn:00023236n;0.125
+behavior bn:00009657n;0.28125
+kind bn:00035907n;0.125
+number bn:00058285n;0.34375
+history bn:00044268n;0.125
+effect bn:00021961n;0.3125
+simultaneous bn:00099916a;0.1875
+reg bn:01922794n;0.0625
+timers bn:00077309n;0.125
+conditional bn:00100214a;0.0625
+operational semantics bn:02057536n;0.0625
+condition c bn:00675915n;0.0625
+composite bn:00100155a;0.125
+goal bn:00030721n;0.0625
+scenario bn:01190125n;0.0625
+city bn:03335997n;0.0625
+plant bn:00035324n;0.0625
+transition state bn:03731398n;0.125
+police bn:00022026n;0.0625
+transducer bn:00077966n;0.0625
+code bn:00020354n;0.0625
+traffic light bn:00074441n;0.125
+include bn:00089662v;0.0625
+logical value bn:00855623n;0.0625
+gate bn:00037487n;0.0625
+flip-flop bn:00035248n;0.0625
+autonomous bn:00097830a;0.0625
+red light bn:00066676n;0.0625
+composite states bn:00892979n;0.0625
+inner bn:00105133a;0.0625
+deep bn:00101054a;0.0625
+atomic bn:00097696a;0.0625
+activity diagrams bn:02627321n;0.0625
+superstate bn:03656095n;0.0625
+fsa bn:03013778n;0.0625
+basic bn:00098103a;0.0625
+fsms bn:03431506n;0.0625
+state actions bn:00955439n;0.0625

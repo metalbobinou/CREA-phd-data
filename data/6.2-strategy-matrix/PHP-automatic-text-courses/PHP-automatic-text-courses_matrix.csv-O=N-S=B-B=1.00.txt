@@ -1,0 +1,19 @@
+B
+
+6
+2
+
+php bn:01753580n
+serveur bn:00044916n
+chaîne bn:00074685n
+nombre bn:00058285n
+fichiers bn:00021475n
+code bn:00020354n
+C5.csv
+C6.csv
+.X
+.X
+X.
+X.
+.X
+.X

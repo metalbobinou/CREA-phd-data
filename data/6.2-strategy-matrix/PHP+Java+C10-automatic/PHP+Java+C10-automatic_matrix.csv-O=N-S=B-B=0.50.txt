@@ -1,0 +1,120 @@
+B
+
+52
+11
+
+navigateur bn:00013447n
+fichier bn:00021475n
+client bn:00019764n
+base de donnée bn:00025333n
+donnée bn:00025314n
+php bn:01753580n
+code bn:00020354n
+commentaire bn:00020978n
+délimiter bn:00086464v
+post bn:01500184n
+nombre bn:00058285n
+zones bn:00005513n
+personne bn:00046516n
+méthode post bn:00045088n
+mysql bn:01225760n
+salaire bn:15928884n
+site bn:00047172n
+chaîne bn:00074685n
+configuration bn:03088982n
+paris bn:00015540n
+langage de script bn:01431715n
+opérateur bn:16281811n
+super bn:17336345n
+type bn:00016413n
+foreach bn:03463379n
+serveur bn:00044916n
+communication bn:00021221n
+interpréter bn:00089840v
+classes bn:03608262n
+bienvenue bn:00080852n
+class bn:03598962n
+méthode bn:01641329n
+session bn:03751534n
+pouvoir bn:00084451v
+mysqli bn:01438356n
+france bn:00036202n
+pointeur bn:03222272n
+casse bn:03225002n
+timestamp bn:03603649n
+exceptions bn:00032118n
+xml bn:02771436n
+echo bn:03626250n
+files bn:00065682n
+varchar bn:01838409n
+mise bn:00016287n
+valeur bn:00079508n
+composer bn:14766022n
+positionnement bn:00030615n
+null bn:15898583n
+généralité bn:00041249n
+autre bn:00108013a
+avoir accès bn:00082209v
+C1
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+C9
+C10
+CJA
+.XX.XXXXX.X
+X....X..XXX
+X.XX.......
+..XXX.X...X
+.XXXX.X...X
+..XX.X..X..
+...X.X..XX.
+X.XXX..XXX.
+..XX.X.X.XX
+.XX.XX..X.X
+...XX.XX.XX
+..X..X.....
+..XXX..XXX.
+.XX..XXXX.X
+..XXXX.....
+.........X.
+XXX.X.....X
+....X..X.X.
+..X.....XX.
+........XX.
+.X..XX...X.
+..X......X.
+.........X.
+..X.XXX...X
+.XXXXX..X.X
+.....X....X
+....XX....X
+....X..X.X.
+..X.XX..XX.
+.....X...X.
+....X...XX.
+.X.XXXXXX..
+..X.XX.....
+.........X.
+....X...XX.
+.X.........
+..X.......X
+....X......
+.X..XX.....
+..........X
+..X..X.....
+.....X.....
+.....XX...X
+..X.X......
+..X..X..X..
+..X.......X
+...X.X....X
+..........X
+....X...X.X
+.....X.....
+.....X.....
+.....X..X..

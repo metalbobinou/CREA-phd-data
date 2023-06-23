@@ -1,0 +1,24 @@
+B
+
+6
+7
+
+fichier bn:00021475n
+client bn:00019764n
+php bn:01753580n
+salaire bn:15928884n
+serveur bn:00044916n
+pouvoir bn:00084451v
+C1
+C3
+C4
+C6
+C9
+C10
+CJA
+....X.X
+XXX....
+...X...
+.....X.
+...X..X
+.....X.

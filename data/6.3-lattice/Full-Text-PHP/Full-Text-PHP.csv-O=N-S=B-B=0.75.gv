@@ -1,0 +1,108 @@
+// <Lattice object of 8 atoms 26 concepts 5 coatoms at 0x1204a7208>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="texte bn:00076732n" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="fichier bn:00021475n" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="base de donnees bn:00025333n" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="client web bn:00013447n" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c5 [color=transparent headlabel="langage de script bn:01431715n" labelangle=270]
+	c5 -> c0
+	c6
+	c6 -> c6 [color=transparent headlabel="nécessaire bn:00107182a" labelangle=270]
+	c6 -> c0
+	c7
+	c7 -> c7 [color=transparent headlabel="langage bn:00049910n" labelangle=270]
+	c7 -> c0
+	c8
+	c8 -> c8 [color=transparent headlabel="echo bn:03626250n" labelangle=270]
+	c8 -> c0
+	c9
+	c9 -> c9 [color=transparent headlabel="php bn:01753580n" labelangle=270]
+	c9 -> c9 [color=transparent labelangle=90 taillabel=C11]
+	c9 -> c2
+	c10
+	c10 -> c10 [color=transparent labelangle=90 taillabel=C17]
+	c10 -> c1
+	c10 -> c3
+	c11
+	c11 -> c4
+	c11 -> c6
+	c12
+	c12 -> c5
+	c12 -> c8
+	c13
+	c13 -> c6
+	c13 -> c7
+	c14
+	c14 -> c6
+	c14 -> c8
+	c15
+	c15 -> c7
+	c15 -> c8
+	c16
+	c16 -> c16 [color=transparent headlabel="données bn:00025314n" labelangle=270]
+	c16 -> c3
+	c16 -> c7
+	c17
+	c17 -> c1
+	c17 -> c2
+	c17 -> c4
+	c17 -> c5
+	c18
+	c18 -> c18 [color=transparent headlabel="pouvoir bn:00084451v" labelangle=270]
+	c18 -> c18 [color=transparent labelangle=90 taillabel=C15]
+	c18 -> c13
+	c18 -> c14
+	c18 -> c15
+	c19
+	c19 -> c19 [color=transparent headlabel="site bn:00047172n" labelangle=270]
+	c19 -> c4
+	c19 -> c16
+	c20
+	c20 -> c20 [color=transparent labelangle=90 taillabel=C3]
+	c20 -> c11
+	c20 -> c13
+	c20 -> c19
+	c21
+	c21 -> c21 [color=transparent headlabel="nombre bn:00058285n chaîne bn:00074685n" labelangle=270]
+	c21 -> c5
+	c21 -> c16
+	c22
+	c22 -> c22 [color=transparent headlabel="code bn:00020354n serveur bn:00044916n" labelangle=270]
+	c22 -> c22 [color=transparent labelangle=90 taillabel=C6]
+	c22 -> c9
+	c22 -> c11
+	c22 -> c12
+	c22 -> c14
+	c22 -> c17
+	c23
+	c23 -> c23 [color=transparent headlabel="symfony bn:02798620n doctype bn:15839327n" labelangle=270]
+	c23 -> c23 [color=transparent labelangle=90 taillabel=C19]
+	c23 -> c12
+	c23 -> c15
+	c23 -> c21
+	c24
+	c24 -> c24 [color=transparent headlabel="realisateur bn:00027369n" labelangle=270]
+	c24 -> c24 [color=transparent labelangle=90 taillabel=C5]
+	c24 -> c10
+	c24 -> c17
+	c24 -> c19
+	c24 -> c21
+	c25
+	c25 -> c18
+	c25 -> c20
+	c25 -> c22
+	c25 -> c23
+	c25 -> c24
+}

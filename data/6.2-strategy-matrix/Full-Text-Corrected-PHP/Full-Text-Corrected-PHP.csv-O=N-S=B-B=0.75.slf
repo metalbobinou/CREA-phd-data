@@ -1,0 +1,55 @@
+[Lattice]
+21
+7
+[Objects]
+php bn:01753580n
+texte bn:00076732n
+fichier bn:00021475n
+données bn:00025314n
+base de donnees bn:00025333n
+site bn:00047172n
+client web bn:00013447n
+langage de script bn:01431715n
+nombre bn:00058285n
+code bn:00020354n
+afficher bn:00087013v
+nécessaire bn:00107182a
+chaîne bn:00074685n
+langage bn:00049910n
+pouvoir bn:00084451v
+echo bn:03626250n
+rue bn:00074595n
+symfony bn:02798620n
+doctype bn:15839327n
+realisateur bn:00027369n
+informatique bn:00100175a
+[Attributes]
+C11
+C15
+C17
+C19
+C3
+C5
+C6
+[relation]
+1 0 1 0 0 0 0 
+0 0 1 0 0 1 0 
+1 0 0 0 0 1 1 
+0 0 0 1 1 1 0 
+0 0 1 1 1 1 0 
+0 0 0 0 1 1 0 
+0 0 0 0 1 1 0 
+0 0 0 1 0 1 1 
+0 0 0 1 0 1 0 
+1 1 0 0 0 1 1 
+1 0 1 0 1 0 0 
+0 1 0 0 1 0 1 
+0 0 0 1 0 1 0 
+0 1 0 1 1 1 0 
+0 1 0 0 0 0 0 
+0 1 0 1 0 0 0 
+0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 

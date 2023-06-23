@@ -1,0 +1,1394 @@
+X ; C3.csv ; C5.csv ; C6.csv ; CJA-automatic.csv
+php bn:01753580n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+définition bn:00025928n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+page bn:00060158n ; 0.111111 ; 0 ; 0 ; 0
+script bn:01431715n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+langage bn:00049910n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+serveur bn:00044916n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+base bn:00008786n ; 0.111111 ; 0 ; 0 ; 0
+séparateur bn:03371342n ; 0.2 ; 0 ; 0.2 ; 0
+bloc bn:03098513n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+commentaires bn:00020978n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+portée bn:03460088n ; 0.111111 ; 0 ; 0 ; 0
+type bn:00016413n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+booléens bn:00294693n ; 0.2 ; 0 ; 0 ; 0.2
+chaîne bn:00074685n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+supprimer bn:00087533v ; 0.111111 ; 0 ; 0 ; 0
+précédence bn:01410322n ; 0.2 ; 0 ; 0 ; 0.2
+bits bn:00010731n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+comparaison bn:00021304n ; 0.2 ; 0 ; 0 ; 0.2
+incrémentation bn:01936826n ; 0.2 ; 0 ; 0 ; 0.2
+opérateur logiques bn:00051853n ; 0.2 ; 0 ; 0.2 ; 0
+logiques bn:00051845n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+structure de contrôle bn:00047734n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+programmation bn:00021493n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+foreach bn:03463379n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+switch bn:01071927n ; 0.2 ; 0 ; 0 ; 0.2
+syntaxe bn:00062118n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+valeur de retour bn:03828774n ; 0.2 ; 0 ; 0.2 ; 0
+post bn:01500184n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+strftime bn:03338250n ; 0.2 ; 0.2 ; 0 ; 0
+mysql bn:01225760n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+phpmyadmin bn:03382496n ; 0.2 ; 0.2 ; 0 ; 0
+utilisateur bn:00079373n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+modifier bn:00003127n ; 0.111111 ; 0 ; 0 ; 0
+numériques bn:00107651a ; 0.111111 ; 0 ; 0 ; 0
+entiers bn:00047009n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+réels bn:00066395n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+text bn:14981519n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+enum bn:02324948n ; 0.111111 ; 0 ; 0 ; 0
+timestamp bn:03603649n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+time bn:03389905n ; 0.2 ; 0.2 ; 0 ; 0
+sql bn:02266432n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+innodb bn:01067935n ; 0.111111 ; 0 ; 0 ; 0
+fulltext bn:00508617n ; 0.111111 ; 0 ; 0 ; 0
+base de données bn:00025333n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+données bn:00025314n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+séquence bn:00070574n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+nombre bn:00058285n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+fichiers bn:00021475n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+fread bn:13825823n ; 0.111111 ; 0 ; 0 ; 0
+fichier par bn:03318531n ; 0.111111 ; 0 ; 0 ; 0
+sortie bn:01541423n ; 0.2 ; 0 ; 0 ; 0.2
+sortie standard bn:01496506n ; 0.2 ; 0.2 ; 0 ; 0
+ecriture bn:00081714n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+fin de fichier bn:02781064n ; 0.111111 ; 0 ; 0 ; 0
+fermer bn:00085170v ; 0.2 ; 0 ; 0.2 ; 0
+système de fichiers bn:00034429n ; 0.111111 ; 0 ; 0 ; 0
+code bn:00020354n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+texte bn:00076732n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+comparer bn:00085450v ; 0.111111 ; 0 ; 0 ; 0
+session bn:03751534n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+http bn:00045088n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+couleurs bn:00020726n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+rectangle bn:00066608n ; 0.111111 ; 0 ; 0 ; 0
+polygones bn:00063423n ; 0.111111 ; 0 ; 0 ; 0
+programmation objet bn:00058448n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+opérateur bn:16281811n ; 0.111111 ; 0 ; 0 ; 0
+méthode bn:01641329n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+classe bn:03608262n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+héritage bn:00043822n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+polymorphisme bn:01974384n ; 0.2 ; 0 ; 0 ; 0.2
+self bn:03432485n ; 0.2 ; 0.2 ; 0 ; 0
+constructeurs bn:03834827n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+destructeur bn:01558988n ; 0.111111 ; 0 ; 0 ; 0
+affectation bn:02806034n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+nouveauté bn:00049321n ; 0.111111 ; 0 ; 0 ; 0
+exceptions bn:00032118n ; 0.2 ; 0 ; 0 ; 0.2
+sauvegarder bn:00093281v ; 0.5 ; 0.5 ; 0.5 ; 0.5
+côté serveur bn:03816678n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+inspirer bn:00084021v ; 0.111111 ; 0 ; 0 ; 0
+langage c bn:00014377n ; 0.2 ; 0 ; 0 ; 0.2
+java bn:00048043n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+perl bn:01723165n ; 0.2 ; 0.2 ; 0 ; 0
+rasmus lerdorf bn:03232211n ; 0.2 ; 0.2 ; 0 ; 0
+site bn:00047172n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+site personnel bn:01605102n ; 0.111111 ; 0 ; 0 ; 0
+interpreter bn:00047204n ; 0.2 ; 0 ; 0.2 ; 0
+personne bn:00046516n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+contributeurs bn:04850445n ; 0.111111 ; 0 ; 0 ; 0
+juin bn:00048592n ; 0.2 ; 0.2 ; 0 ; 0
+zeev suraski bn:00571154n ; 0.2 ; 0.2 ; 0 ; 0
+modulaire bn:00106842a ; 0.2 ; 0.2 ; 0 ; 0
+extensible bn:00102618a ; 0.111111 ; 0 ; 0 ; 0
+supplémentaires bn:00111488a ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+manquer bn:00090161v ; 0.2 ; 0 ; 0.2 ; 0
+cohérente bn:00099970a ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+serveur web bn:02705179n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+moteur bn:00030850n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+zend bn:03133191n ; 0.2 ; 0.2 ; 0 ; 0
+zend engine bn:01337536n ; 0.2 ; 0.2 ; 0 ; 0
+mai bn:00053941n ; 0.111111 ; 0 ; 0 ; 0
+c++ bn:03586438n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+xml bn:02771436n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+forum bn:14251420n ; 0.111111 ; 0 ; 0 ; 0
+messagerie bn:00030257n ; 0.111111 ; 0 ; 0 ; 0
+commerce électronique bn:00029344n ; 0.2 ; 0.2 ; 0 ; 0
+banque bn:00008364n ; 0.2 ; 0 ; 0.2 ; 0
+publication en ligne bn:01180578n ; 0.111111 ; 0 ; 0 ; 0
+voulez bn:00095629v ; 0.5 ; 0.5 ; 0.5 ; 0.5
+lamp bn:01708928n ; 0.2 ; 0.2 ; 0 ; 0
+linux bn:00051427n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+incorporer bn:00089664v ; 0.111111 ; 0 ; 0 ; 0
+javascript bn:00055423n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+semblant bn:00045960n ; 0.111111 ; 0 ; 0 ; 0
+navigateur bn:00013447n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+dédier bn:00085427v ; 0.111111 ; 0 ; 0 ; 0
+lire bn:00066357n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+page web bn:00080778n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+vitesse bn:00073258n ; 0.2 ; 0 ; 0.2 ; 0
+côté bn:00110607a ; 0.111111 ; 0 ; 0 ; 0
+côté client bn:03163702n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+windows bn:00081305n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+vbscript bn:02626435n ; 0.111111 ; 0 ; 0 ; 0
+jscript bn:01995344n ; 0.111111 ; 0 ; 0 ; 0
+activex bn:03829972n ; 0.111111 ; 0 ; 0 ; 0
+portage bn:01430733n ; 0.111111 ; 0 ; 0 ; 0
+plate-forme bn:00062900n ; 0.2 ; 0 ; 0 ; 0.2
+langage de programmation bn:00064652n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+langage de programmation procédural bn:01706415n ; 0.2 ; 0.2 ; 0 ; 0
+procédural bn:00109049a ; 0.111111 ; 0 ; 0 ; 0
+nécessaire bn:00107182a ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+python bn:01713224n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+unix bn:00079165n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+mac bn:00052516n ; 0.2 ; 0.2 ; 0 ; 0
+second bn:00105773a ; 0.111111 ; 0 ; 0 ; 0
+distribution linux bn:01061442n ; 0.2 ; 0.2 ; 0 ; 0
+mode bn:00033729n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+répertoire personnel bn:02102310n ; 0.111111 ; 0 ; 0 ; 0
+complexe bn:00100148a ; 0.5 ; 0.5 ; 0.5 ; 0.5
+uvre bn:00016278n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+employer bn:00030616n ; 0.2 ; 0.2 ; 0 ; 0
+easyphp bn:14837849n ; 0.111111 ; 0 ; 0 ; 0
+coloration syntaxique bn:02006707n ; 0.111111 ; 0 ; 0 ; 0
+w3c bn:02673666n ; 0.2 ; 0 ; 0.2 ; 0
+xhtml bn:01163644n ; 0.111111 ; 0 ; 0 ; 0
+css bn:00056944n ; 0.111111 ; 0 ; 0 ; 0
+affichage bn:00010421n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+entête bn:00043309n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+mozilla bn:01297088n ; 0.111111 ; 0 ; 0 ; 0
+galeon bn:00496122n ; 0.111111 ; 0 ; 0 ; 0
+konqueror bn:16498221n ; 0.111111 ; 0 ; 0 ; 0
+compatibles bn:00100128a ; 0.2 ; 0 ; 0 ; 0.2
+bordélique bn:00110762a ; 0.111111 ; 0 ; 0 ; 0
+endroit bn:00062699n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+web bn:00080772n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+souple bn:00102069a ; 0.111111 ; 0 ; 0 ; 0
+point-virgule bn:00070420n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+sensible bn:00104681a ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+lettre bn:00003057n ; 0.2 ; 0.2 ; 0 ; 0
+dépendre bn:00086606v ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+contexte bn:00022168n ; 0.2 ; 0 ; 0 ; 0.2
+transtypage bn:17104905n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+signe égal bn:00031280n ; 0.111111 ; 0 ; 0 ; 0
+sans bn:00025713n ; 0.111111 ; 0 ; 0 ; 0
+echo bn:03626250n ; 0.2 ; 0 ; 0.2 ; 0
+affiche bn:15173511n ; 0.111111 ; 0 ; 0 ; 0
+globale bn:00103624a ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+variable locale bn:00958409n ; 0.2 ; 0 ; 0 ; 0.2
+locale bn:03080237n ; 0.111111 ; 0 ; 0 ; 0
+grand nombre bn:14223782n ; 0.2 ; 0 ; 0.2 ; 0
+files bn:00065682n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+upload bn:14037830n ; 0.111111 ; 0 ; 0 ; 0
+env bn:01199166n ; 0.2 ; 0.2 ; 0 ; 0
+url bn:00079080n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+cache bn:00014484n ; 0.2 ; 0.2 ; 0 ; 0
+dynamique bn:00101917a ; 0.111111 ; 0 ; 0 ; 0
+ambiguïté bn:00003266n ; 0.111111 ; 0 ; 0 ; 0
+chaîne vide bn:03716205n ; 0.2 ; 0 ; 0.2 ; 0
+booléenne bn:00098690a ; 0.111111 ; 0 ; 0 ; 0
+architecture bn:00005442n ; 0.2 ; 0.2 ; 0 ; 0
+nombre à virgule flottante bn:00035278n ; 0.111111 ; 0 ; 0 ; 0
+spécifier bn:00086464v ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+puissance de 10 bn:05006238n ; 0.111111 ; 0 ; 0 ; 0
+ascii bn:00003473n ; 0.2 ; 0 ; 0 ; 0.2
+unicode bn:02529895n ; 0.111111 ; 0 ; 0 ; 0
+échapper bn:00083961v ; 0.111111 ; 0 ; 0 ; 0
+lf bn:00050913n ; 0.111111 ; 0 ; 0 ; 0
+carriage return bn:00016246n ; 0.111111 ; 0 ; 0 ; 0
+cr bn:00006854n ; 0.111111 ; 0 ; 0 ; 0
+antislash bn:00988551n ; 0.2 ; 0 ; 0.2 ; 0
+notation octale bn:00058598n ; 0.111111 ; 0 ; 0 ; 0
+notation hexadécimale bn:00043958n ; 0.111111 ; 0 ; 0 ; 0
+hexadécimale bn:00104145a ; 0.111111 ; 0 ; 0 ; 0
+égal bn:00102336a ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+valeur numérique bn:00000451n ; 0.111111 ; 0 ; 0 ; 0
+numérique bn:00107649a ; 0.111111 ; 0 ; 0 ; 0
+addition bn:00001296n ; 0.2 ; 0 ; 0.2 ; 0
+val bn:00079476n ; 0.111111 ; 0 ; 0 ; 0
+table de hachage bn:00587820n ; 0.2 ; 0 ; 0 ; 0.2
+hachage bn:00583146n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+pile bn:02100952n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+séparer bn:00082871v ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+volée bn:00035208n ; 0.111111 ; 0 ; 0 ; 0
+cle bn:04756252n ; 0.111111 ; 0 ; 0 ; 0
+class bn:03598962n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+constantes bn:00100331a ; 0.111111 ; 0 ; 0 ; 0
+casse bn:00083919v ; 0.111111 ; 0 ; 0 ; 0
+redéfinir bn:00092568v ; 0.111111 ; 0 ; 0 ; 0
+integer bn:00691555n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+gauche bn:00902572n ; 0.2 ; 0 ; 0 ; 0.2
+droite bn:00051291n ; 0.2 ; 0 ; 0 ; 0.2
+croître bn:00089082v ; 0.111111 ; 0 ; 0 ; 0
+associativité bn:00533203n ; 0.111111 ; 0 ; 0 ; 0
+modulo bn:00553864n ; 0.2 ; 0 ; 0 ; 0.2
+division bn:00027919n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+multiplication bn:00056300n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+division par deux bn:03686939n ; 0.111111 ; 0 ; 0 ; 0
+deux bn:00000075n ; 0.2 ; 0 ; 0.2 ; 0
+message bn:00521573n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+temps bn:00077270n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+oeil bn:00032512n ; 0.111111 ; 0 ; 0 ; 0
+fois bn:00032768n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+affiche bn:00087013v ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+mot bn:00081546n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+exécutée bn:00091723v ; 0.111111 ; 0 ; 0 ; 0
+conditionnelle bn:00100214a ; 0.2 ; 0 ; 0 ; 0.2
+sorte bn:00035907n ; 0.111111 ; 0 ; 0 ; 0
+list bn:04720346n ; 0.2 ; 0 ; 0 ; 0.2
+case bn:04777941n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+ressembler à bn:00092876v ; 0.2 ; 0 ; 0.2 ; 0
+homologue bn:00023208n ; 0.111111 ; 0 ; 0 ; 0
+impossible bn:00104687a ; 0.5 ; 0.5 ; 0.5 ; 0.5
+existe bn:00083184v ; 0.2 ; 0 ; 0.2 ; 0
+appel de fonction bn:00036827n ; 0.2 ; 0 ; 0 ; 0.2
+valeur par défaut bn:03854990n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+type de valeurs bn:00253515n ; 0.111111 ; 0 ; 0 ; 0
+devoir bn:00091362v ; 0.2 ; 0 ; 0.2 ; 0
+couvrir bn:00085916v ; 0.111111 ; 0 ; 0 ; 0
+rappel bn:03490040n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+limitation bn:00051252n ; 0.111111 ; 0 ; 0 ; 0
+conteneur bn:03305154n ; 0.2 ; 0 ; 0 ; 0.2
+droit bn:00048655n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+chose bn:00091115v ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+premier bn:00034738n ; 0.2 ; 0 ; 0.2 ; 0
+choix multiples bn:03455699n ; 0.111111 ; 0 ; 0 ; 0
+vin bn:00080022n ; 0.111111 ; 0 ; 0 ; 0
+format de date bn:03576260n ; 0.111111 ; 0 ; 0 ; 0
+langue anglaise bn:00030862n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+français bn:00036426n ; 0.2 ; 0 ; 0.2 ; 0
+système bn:15125301n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+semaine bn:00043484n ; 0.2 ; 0 ; 0.2 ; 0
+heure internet bn:02981905n ; 0.111111 ; 0 ; 0 ; 0
+internet bn:00024712n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+vendredi bn:00036512n ; 0.2 ; 0.2 ; 0 ; 0
+janvier bn:00047960n ; 0.111111 ; 0 ; 0 ; 0
+24h bn:00000086n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+hiver bn:00081370n ; 0.111111 ; 0 ; 0 ; 0
+heure de greenwich bn:00040810n ; 0.111111 ; 0 ; 0 ; 0
+dec bn:00017011n ; 0.111111 ; 0 ; 0 ; 0
+fuseau horaire bn:00077302n ; 0.111111 ; 0 ; 0 ; 0
+machine bn:00054050n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+dimanche bn:00028190n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+samedi bn:00068696n ; 0.2 ; 0.2 ; 0 ; 0
+lundi bn:00055609n ; 0.2 ; 0.2 ; 0 ; 0
+second bn:00005460n ; 0.111111 ; 0 ; 0 ; 0
+fonction bn:00036821n ; 0.111111 ; 0 ; 0 ; 0
+siècle bn:00017234n ; 0.111111 ; 0 ; 0 ; 0
+numérique bn:15182937n ; 0.111111 ; 0 ; 0 ; 0
+intervalle bn:00047229n ; 0.111111 ; 0 ; 0 ; 0
+semaine 1 bn:04756861n ; 0.111111 ; 0 ; 0 ; 0
+abréviation bn:00000239n ; 0.111111 ; 0 ; 0 ; 0
+littéral bn:00106042a ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+september bn:15649592n ; 0.111111 ; 0 ; 0 ; 0
+septembre bn:00070537n ; 0.2 ; 0.2 ; 0 ; 0
+semaine 3 bn:04756880n ; 0.111111 ; 0 ; 0 ; 0
+système de gestion bn:01510781n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+système de gestion de base de donnée bn:14249264n ; 0.2 ; 0 ; 0.2 ; 0
+relationnel bn:00109653a ; 0.2 ; 0 ; 0 ; 0.2
+open source bn:01157392n ; 0.2 ; 0 ; 0 ; 0.2
+mysql ab bn:03198967n ; 0.111111 ; 0 ; 0 ; 0
+licence bn:00050986n ; 0.2 ; 0 ; 0.2 ; 0
+licence gpl bn:01157379n ; 0.2 ; 0 ; 0.2 ; 0
+support technique bn:03482340n ; 0.111111 ; 0 ; 0 ; 0
+hébergeur bn:00801697n ; 0.2 ; 0 ; 0.2 ; 0
+étrangères bn:00096774a ; 0.111111 ; 0 ; 0 ; 0
+notamment bn:00115235r ; 0.2 ; 0.2 ; 0 ; 0
+delete bn:00941697n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+moteur de recherche bn:13956658n ; 0.111111 ; 0 ; 0 ; 0
+sqlplus bn:02088255n ; 0.111111 ; 0 ; 0 ; 0
+intuitif bn:00047307n ; 0.111111 ; 0 ; 0 ; 0
+toolkit bn:01526357n ; 0.2 ; 0 ; 0 ; 0.2
+qt bn:17288164n ; 0.111111 ; 0 ; 0 ; 0
+macos bn:01415427n ; 0.2 ; 0.2 ; 0 ; 0
+configuration bn:03088982n ; 0.2 ; 0.2 ; 0 ; 0
+ip bn:00046704n ; 0.111111 ; 0 ; 0 ; 0
+doute bn:00028425n ; 0.2 ; 0 ; 0.2 ; 0
+administrateur bn:00075765n ; 0.2 ; 0 ; 0.2 ; 0
+mise à jour bn:15364261n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+insert bn:03795444n ; 0.2 ; 0 ; 0.2 ; 0
+possible bn:00108829a ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+varchar bn:01838409n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+tenir compte bn:00082541v ; 0.2 ; 0 ; 0.2 ; 0
+quantité variables bn:00079581n ; 0.111111 ; 0 ; 0 ; 0
+medium bn:00054149n ; 0.111111 ; 0 ; 0 ; 0
+tris bn:00072857n ; 0.111111 ; 0 ; 0 ; 0
+champ de bn:15987694n ; 0.2 ; 0 ; 0 ; 0.2
+insérer bn:00087594v ; 0.2 ; 0 ; 0 ; 0.2
+plupart bn:00050555n ; 0.2 ; 0 ; 0.2 ; 0
+préférence bn:00061333n ; 0.111111 ; 0 ; 0 ; 0
+février bn:00033882n ; 0.111111 ; 0 ; 0 ; 0
+mise bn:00016287n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+expliquer bn:00082235v ; 0.111111 ; 0 ; 0 ; 0
+plage bn:04717355n ; 0.2 ; 0 ; 0 ; 0.2
+mm bn:00055052n ; 0.111111 ; 0 ; 0 ; 0
+fraction bn:00036154n ; 0.111111 ; 0 ; 0 ; 0
+soumettre bn:00094538v ; 0.111111 ; 0 ; 0 ; 0
+transaction bn:01403911n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+rollback bn:00133978n ; 0.2 ; 0.2 ; 0 ; 0
+crash bn:00023573n ; 0.111111 ; 0 ; 0 ; 0
+contraintes bn:00022062n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+intégrité bn:03141748n ; 0.111111 ; 0 ; 0 ; 0
+parente bn:00033359n ; 0.111111 ; 0 ; 0 ; 0
+clé étrangère bn:01944370n ; 0.2 ; 0 ; 0.2 ; 0
+fils bn:00051877n ; 0.111111 ; 0 ; 0 ; 0
+critère bn:00023853n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+flotter bn:00088327v ; 0.111111 ; 0 ; 0 ; 0
+order bn:02240223n ; 0.111111 ; 0 ; 0 ; 0
+simplicité bn:00071689n ; 0.111111 ; 0 ; 0 ; 0
+ouverte bn:00107886a ; 0.111111 ; 0 ; 0 ; 0
+échec bn:00018197n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+numéroter bn:00091103v ; 0.111111 ; 0 ; 0 ; 0
+identiques bn:00104508a ; 0.111111 ; 0 ; 0 ; 0
+renommer bn:00092787v ; 0.2 ; 0.2 ; 0 ; 0
+insertion bn:02234787n ; 0.111111 ; 0 ; 0 ; 0
+avoir besoin de bn:00091028v ; 0.5 ; 0.5 ; 0.5 ; 0.5
+valeur bn:00079508n ; 0.2 ; 0 ; 0 ; 0.2
+liste chaînée bn:01056813n ; 0.111111 ; 0 ; 0 ; 0
+jointure bn:00048368n ; 0.111111 ; 0 ; 0 ; 0
+activer bn:00082307v ; 0.111111 ; 0 ; 0 ; 0
+mode texte bn:03459971n ; 0.2 ; 0 ; 0 ; 0.2
+attention bn:00007020n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+fin bn:00113911a ; 0.2 ; 0 ; 0 ; 0.2
+placer bn:00090224v ; 0.111111 ; 0 ; 0 ; 0
+img bn:02450504n ; 0.2 ; 0 ; 0.2 ; 0
+fichier csv bn:03284335n ; 0.111111 ; 0 ; 0 ; 0
+ret bn:05006619n ; 0.111111 ; 0 ; 0 ; 0
+fichier binaire bn:00010479n ; 0.111111 ; 0 ; 0 ; 0
+calculer bn:00084373v ; 0.2 ; 0 ; 0.2 ; 0
+réussite bn:00000870n ; 0.111111 ; 0 ; 0 ; 0
+pointeur bn:03222272n ; 0.2 ; 0 ; 0 ; 0.2
+txt bn:00028018n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+fermeture bn:16858148n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+chdir bn:00821546n ; 0.111111 ; 0 ; 0 ; 0
+argument bn:00005603n ; 0.2 ; 0 ; 0 ; 0.2
+relatif bn:00109123a ; 0.2 ; 0 ; 0 ; 0.2
+handle bn:00278322n ; 0.111111 ; 0 ; 0 ; 0
+prochaine bn:00096455a ; 0.2 ; 0 ; 0.2 ; 0
+sous bn:00072872n ; 0.111111 ; 0 ; 0 ; 0
+base 8 bn:01534404n ; 0.111111 ; 0 ; 0 ; 0
+type de fichier bn:01156328n ; 0.111111 ; 0 ; 0 ; 0
+fifo bn:00034349n ; 0.111111 ; 0 ; 0 ; 0
+pointé bn:00086679v ; 0.2 ; 0 ; 0.2 ; 0
+inode bn:03396161n ; 0.111111 ; 0 ; 0 ; 0
+size bn:03645138n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+taille de bloc bn:04788419n ; 0.111111 ; 0 ; 0 ; 0
+shell unix bn:02558830n ; 0.111111 ; 0 ; 0 ; 0
+dirname bn:00242975n ; 0.2 ; 0.2 ; 0 ; 0
+isoler bn:00089916v ; 0.111111 ; 0 ; 0 ; 0
+chown bn:02823726n ; 0.111111 ; 0 ; 0 ; 0
+chgrp bn:00742376n ; 0.111111 ; 0 ; 0 ; 0
+copy bn:14086525n ; 0.111111 ; 0 ; 0 ; 0
+hard link bn:03277499n ; 0.111111 ; 0 ; 0 ; 0
+lien symbolique bn:01044905n ; 0.111111 ; 0 ; 0 ; 0
+masque bn:03236329n ; 0.2 ; 0 ; 0 ; 0.2
+rename bn:00342646n ; 0.111111 ; 0 ; 0 ; 0
+umask bn:03851470n ; 0.111111 ; 0 ; 0 ; 0
+client bn:00019764n ; 0.2 ; 0.2 ; 0 ; 0
+encodage bn:00030696n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+avatar bn:03801346n ; 0.111111 ; 0 ; 0 ; 0
+vérification bn:00017984n ; 0.2 ; 0 ; 0.2 ; 0
+pire bn:00113940a ; 0.111111 ; 0 ; 0 ; 0
+boite de dialogue bn:00026837n ; 0.2 ; 0 ; 0 ; 0.2
+gestionnaire de fichier bn:00264400n ; 0.111111 ; 0 ; 0 ; 0
+cliquer bn:00085112v ; 0.2 ; 0 ; 0.2 ; 0
+bouton bn:03843242n ; 0.111111 ; 0 ; 0 ; 0
+associer bn:00082868v ; 0.5 ; 0.5 ; 0.5 ; 0.5
+temp bn:00076450n ; 0.111111 ; 0 ; 0 ; 0
+initialiser bn:00089742v ; 0.5 ; 0.5 ; 0.5 ; 0.5
+fichier temporaire bn:03462927n ; 0.111111 ; 0 ; 0 ; 0
+verrouiller bn:00090430v ; 0.111111 ; 0 ; 0 ; 0
+caractère nul bn:02742063n ; 0.111111 ; 0 ; 0 ; 0
+inverse bn:00105377a ; 0.2 ; 0 ; 0.2 ; 0
+oreille bn:00029372n ; 0.111111 ; 0 ; 0 ; 0
+gras bn:00011848n ; 0.111111 ; 0 ; 0 ; 0
+entité bn:00031027n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+entité html bn:01327413n ; 0.111111 ; 0 ; 0 ; 0
+fonctionnement bn:00036838n ; 0.111111 ; 0 ; 0 ; 0
+quotes bn:00683774n ; 0.111111 ; 0 ; 0 ; 0
+formater bn:00082780v ; 0.2 ; 0 ; 0 ; 0.2
+troisième bn:00096000a ; 0.111111 ; 0 ; 0 ; 0
+colle bn:00001366n ; 0.111111 ; 0 ; 0 ; 0
+longueur bn:00050662n ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+trim bn:00074703n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+invisibles bn:00105385a ; 0.2 ; 0 ; 0 ; 0.2
+strcmp bn:13958358n ; 0.111111 ; 0 ; 0 ; 0
+égale bn:00021326n ; 0.111111 ; 0 ; 0 ; 0
+expiration bn:00026345n ; 0.111111 ; 0 ; 0 ; 0
+avoir lieu bn:00085337v ; 0.5 ; 0.5 ; 0.5 ; 0.5
+disponible bn:00097846a ; 0.2 ; 0 ; 0.2 ; 0
+variable globale bn:02011863n ; 0.111111 ; 0 ; 0 ; 0
+mot de passe bn:00023218n ; 0.2 ; 0 ; 0.2 ; 0
+visiteur bn:03106425n ; 0.2 ; 0 ; 0.2 ; 0
+authentification bn:03253409n ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+déconnexion bn:00027504n ; 0.111111 ; 0 ; 0 ; 0
+évidente bn:00097350a ; 0.111111 ; 0 ; 0 ; 0
+connecté bn:00085628v ; 0.111111 ; 0 ; 0 ; 0
+démarrer bn:00083342v ; 0.2 ; 0 ; 0.2 ; 0
+balise html bn:02104867n ; 0.2 ; 0 ; 0.2 ; 0
+sauvegarde bn:00007838n ; 0.2 ; 0 ; 0.2 ; 0
+unset bn:00176172n ; 0.111111 ; 0 ; 0 ; 0
+concerner bn:00083240v ; 0.5 ; 0.5 ; 0.5 ; 0.5
+cookie de session bn:00070691n ; 0.111111 ; 0 ; 0 ; 0
+ouverture de session bn:03885719n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+recommencer bn:00092914v ; 0.111111 ; 0 ; 0 ; 0
+décompte bn:00086432v ; 0.2 ; 0 ; 0.2 ; 0
+unix_timestamp bn:00124230n ; 0.111111 ; 0 ; 0 ; 0
+retirer bn:00092783v ; 0.111111 ; 0 ; 0 ; 0
+dll bn:02058089n ; 0.111111 ; 0 ; 0 ; 0
+jpeg bn:00838809n ; 0.111111 ; 0 ; 0 ; 0
+windows bitmap bn:01848933n ; 0.111111 ; 0 ; 0 ; 0
+truecolor bn:04000779n ; 0.111111 ; 0 ; 0 ; 0
+largeur bn:00012893n ; 0.111111 ; 0 ; 0 ; 0
+gd bn:03462925n ; 0.111111 ; 0 ; 0 ; 0
+gif bn:00444440n ; 0.111111 ; 0 ; 0 ; 0
+psd bn:15712791n ; 0.111111 ; 0 ; 0 ; 0
+tiff bn:00663058n ; 0.111111 ; 0 ; 0 ; 0
+intel bn:00670400n ; 0.2 ; 0.2 ; 0 ; 0
+rouge bn:00066631n ; 0.2 ; 0.2 ; 0 ; 0
+vert bn:00041648n ; 0.2 ; 0.2 ; 0 ; 0
+premier bn:00103006a ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+rvb bn:01953314n ; 0.111111 ; 0 ; 0 ; 0
+coordonnées bn:00022459n ; 0.111111 ; 0 ; 0 ; 0
+total bn:00102277a ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+zone bn:00005513n ; 0.2 ; 0 ; 0.2 ; 0
+blue bn:00765896n ; 0.111111 ; 0 ; 0 ; 0
+cercle bn:00019169n ; 0.2 ; 0 ; 0.2 ; 0
+ellipse bn:00030406n ; 0.111111 ; 0 ; 0 ; 0
+juste bn:00114626r ; 0.111111 ; 0 ; 0 ; 0
+mot-clé bn:03277968n ; 0.111111 ; 0 ; 0 ; 0
+constante bn:14692918n ; 0.2 ; 0 ; 0 ; 0.2
+classe d bn:14503356n ; 0.111111 ; 0 ; 0 ; 0
+autre bn:03870834n ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+héritage multiple bn:01226081n ; 0.2 ; 0 ; 0 ; 0.2
+classe a bn:17130264n ; 0.111111 ; 0 ; 0 ; 0
+faire référence bn:00085006v ; 0.111111 ; 0 ; 0 ; 0
+générique bn:00103518a ; 0.2 ; 0 ; 0 ; 0.2
+type b bn:00007599n ; 0.111111 ; 0 ; 0 ; 0
+ramasse-miettes bn:00037292n ; 0.2 ; 0 ; 0 ; 0.2
+code objet bn:00058451n ; 0.111111 ; 0 ; 0 ; 0
+clonage bn:04738539n ; 0.111111 ; 0 ; 0 ; 0
+directe bn:00101420a ; 0.2 ; 0 ; 0 ; 0.2
+explicite bn:00102589a ; 0.2 ; 0 ; 0 ; 0.2
+via bn:01515703n ; 0.111111 ; 0 ; 0 ; 0
+descripteur de fichiers bn:03441901n ; 0.111111 ; 0 ; 0 ; 0
+o3 bn:01507028n ; 0.111111 ; 0 ; 0 ; 0
+substituer bn:00087802v ; 0.111111 ; 0 ; 0 ; 0
+être utile bn:00085368v ; 0.333333 ; 0 ; 0.333333 ; 0.333333
+utile bn:00113456a ; 0.2 ; 0 ; 0 ; 0.2
+abstraire bn:00082180v ; 0.333333 ; 0.333333 ; 0 ; 0.333333
+abstraites bn:00096212a ; 0.2 ; 0 ; 0 ; 0.2
+classe abstraite bn:03110061n ; 0.2 ; 0 ; 0 ; 0.2
+dérivée bn:00026447n ; 0.111111 ; 0 ; 0 ; 0
+implémentant bn:00084595v ; 0.2 ; 0 ; 0 ; 0.2
+publique bn:00109211a ; 0.5 ; 0.5 ; 0.5 ; 0.5
+redéfinition bn:00066711n ; 0.2 ; 0 ; 0 ; 0.2
+final bn:01755798n ; 0.2 ; 0 ; 0 ; 0.2
+final bn:00102969a ; 0.2 ; 0 ; 0 ; 0.2
+prototypes bn:03593973n ; 0.111111 ; 0 ; 0 ; 0
+template bn:02473997n ; 0.111111 ; 0 ; 0 ; 0
+déclencher bn:00082306v ; 0.111111 ; 0 ; 0 ; 0
+contraire bn:00100398a ; 0.111111 ; 0 ; 0 ; 0
+variable bn:00113503a ; 0.2 ; 0 ; 0.2 ; 0
+iterator bn:00967687n ; 0.2 ; 0 ; 0 ; 0.2
+infos bn:00046705n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+numéro de ligne bn:03406633n ; 0.111111 ; 0 ; 0 ; 0
+erreur bn:00031485n ; 0.111111 ; 0 ; 0 ; 0
+parent bn:00060643n ; 0.2 ; 0 ; 0.2 ; 0
+ancien système bn:01069561n ; 0.111111 ; 0 ; 0 ; 0
+stream bn:02122367n ; 0.111111 ; 0 ; 0 ; 0
+xampp bn:02350502n ; 0.2 ; 0.2 ; 0 ; 0
+etc. bn:00114282r ; 0.333333 ; 0.333333 ; 0.333333 ; 0
+erreur de syntaxe bn:00075740n ; 0.111111 ; 0 ; 0 ; 0
+intéresser bn:00089814v ; 0.111111 ; 0 ; 0 ; 0
+comportement bn:00009657n ; 0.5 ; 0.5 ; 0.5 ; 0.5
+réception bn:00066489n ; 0.2 ; 0 ; 0 ; 0.2
+répéter bn:00089731v ; 0.2 ; 0.2 ; 0 ; 0
+cas objet bn:00000786n ; 0.111111 ; 0 ; 0 ; 0
+standard bn:00111129a ; 0.5 ; 0.5 ; 0.5 ; 0.5
+internes bn:00105292a ; 0.2 ; 0 ; 0 ; 0.2
+supporter bn:00093674v ; 0.111111 ; 0 ; 0 ; 0
+remplissage bn:03416628n ; 0.2 ; 0 ; 0.2 ; 0
+structure bn:00094491v ; 0.111111 ; 0 ; 0 ; 0
+epub bn:01314222n ; 0 ; 0.111111 ; 0 ; 0
+format pdf bn:01745594n ; 0 ; 0.2 ; 0.2 ; 0
+caractéristique bn:00099532a ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+installation bn:03478637n ; 0 ; 0.2 ; 0 ; 0.2
+3.14 bn:00062194n ; 0 ; 0.2 ; 0 ; 0.2
+filtrage bn:00259585n ; 0 ; 0.111111 ; 0 ; 0
+validation bn:03925844n ; 0 ; 0.111111 ; 0 ; 0
+composer bn:14766022n ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+symfony bn:02798620n ; 0 ; 0.111111 ; 0 ; 0
+application bn:00005095n ; 0 ; 0.111111 ; 0 ; 0
+web service bn:03829842n ; 0 ; 0.111111 ; 0 ; 0
+web mobile bn:03168096n ; 0 ; 0.111111 ; 0 ; 0
+mobile bn:00106819a ; 0 ; 0.111111 ; 0 ; 0
+informatique bn:00100175a ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+interpréter bn:00089840v ; 0 ; 0.111111 ; 0 ; 0
+compilateur bn:00021344n ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+compilateur jit bn:01502421n ; 0 ; 0.111111 ; 0 ; 0
+facebook bn:03624775n ; 0 ; 0.111111 ; 0 ; 0
+coder bn:00084976v ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+fichier source bn:00072947n ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+sortie bn:00032242n ; 0 ; 0.111111 ; 0 ; 0
+retrouver bn:00088204v ; 0 ; 0.2 ; 0.2 ; 0
+programmeur bn:00020358n ; 0 ; 0.2 ; 0 ; 0.2
+développement bn:01834425n ; 0 ; 0.2 ; 0 ; 0.2
+ca bn:00014403n ; 0 ; 0.111111 ; 0 ; 0
+livre bn:00012059n ; 0 ; 0.2 ; 0.2 ; 0
+hiphop bn:01959769n ; 0 ; 0.111111 ; 0 ; 0
+machine virtuelle bn:02589960n ; 0 ; 0.2 ; 0 ; 0.2
+typage fort bn:02560161n ; 0 ; 0.111111 ; 0 ; 0
+framework bn:14831528n ; 0 ; 0.2 ; 0 ; 0.2
+phalcon bn:15355608n ; 0 ; 0.111111 ; 0 ; 0
+compilation aot bn:15411174n ; 0 ; 0.111111 ; 0 ; 0
+possibilité bn:00045632n ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+travers bn:00042404n ; 0 ; 0.2 ; 0 ; 0.2
+yahoo bn:00081801n ; 0 ; 0.111111 ; 0 ; 0
+content management systems bn:03631223n ; 0 ; 0.111111 ; 0 ; 0
+gestion de contenu bn:00883027n ; 0 ; 0.111111 ; 0 ; 0
+joomla bn:01946532n ; 0 ; 0.111111 ; 0 ; 0
+développement web bn:03446093n ; 0 ; 0.2 ; 0.2 ; 0
+laravel bn:02935312n ; 0 ; 0.111111 ; 0 ; 0
+mamp bn:03197470n ; 0 ; 0.111111 ; 0 ; 0
+indispensable bn:00104964a ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+macports bn:01068822n ; 0 ; 0.111111 ; 0 ; 0
+client serveur bn:03496583n ; 0 ; 0.2 ; 0.2 ; 0
+communication bn:00021221n ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+fichier de configuration bn:03229365n ; 0 ; 0.111111 ; 0 ; 0
+numbers bn:00439302n ; 0 ; 0.111111 ; 0 ; 0
+compression bn:00021441n ; 0 ; 0.111111 ; 0 ; 0
+phase bn:00061898n ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+éxécution bn:16533697n ; 0 ; 0.111111 ; 0 ; 0
+logging bn:15274529n ; 0 ; 0.111111 ; 0 ; 0
+désactiver bn:00027407n ; 0 ; 0.2 ; 0.2 ; 0
+démarrage bn:03140436n ; 0 ; 0.111111 ; 0 ; 0
+plugins bn:00001275n ; 0 ; 0.111111 ; 0 ; 0
+logger bn:00825346n ; 0 ; 0.111111 ; 0 ; 0
+rapporter bn:00034163n ; 0 ; 0.111111 ; 0 ; 0
+fuite de mémoire bn:01230884n ; 0 ; 0.111111 ; 0 ; 0
+chaine bn:00017487n ; 0 ; 0.111111 ; 0 ; 0
+socket bn:15776593n ; 0 ; 0.111111 ; 0 ; 0
+chemin bn:03131414n ; 0 ; 0.2 ; 0.2 ; 0
+iconv bn:03672592n ; 0 ; 0.111111 ; 0 ; 0
+système d bn:04836299n ; 0 ; 0.2 ; 0 ; 0.2
+smtp bn:02128235n ; 0 ; 0.111111 ; 0 ; 0
+set bn:04928161n ; 0 ; 0.111111 ; 0 ; 0
+lien permanents bn:03767636n ; 0 ; 0.111111 ; 0 ; 0
+links bn:01052609n ; 0 ; 0.111111 ; 0 ; 0
+host bn:01846442n ; 0 ; 0.2 ; 0.2 ; 0
+passwd bn:14874750n ; 0 ; 0.111111 ; 0 ; 0
+mysqli bn:01438356n ; 0 ; 0.111111 ; 0 ; 0
+md5 bn:01141584n ; 0 ; 0.111111 ; 0 ; 0
+assertion bn:04728763n ; 0 ; 0.2 ; 0 ; 0.2
+fonction utilisateur bn:00952651n ; 0 ; 0.111111 ; 0 ; 0
+doctype bn:15839327n ; 0 ; 0.111111 ; 0 ; 0
+mac os x bn:01334510n ; 0 ; 0.111111 ; 0 ; 0
+khtml bn:00975876n ; 0 ; 0.111111 ; 0 ; 0
+gecko bn:15456781n ; 0 ; 0.111111 ; 0 ; 0
+doc bn:17202928n ; 0 ; 0.2 ; 0.2 ; 0
+msie bn:17346309n ; 0 ; 0.111111 ; 0 ; 0
+firefox bn:01387235n ; 0 ; 0.111111 ; 0 ; 0
+chrome bn:00018877n ; 0 ; 0.111111 ; 0 ; 0
+safari bn:00907501n ; 0 ; 0.111111 ; 0 ; 0
+remède bn:00054133n ; 0 ; 0.111111 ; 0 ; 0
+head bn:02338897n ; 0 ; 0.2 ; 0.2 ; 0
+existence bn:00009676n ; 0 ; 0.2 ; 0.2 ; 0
+répondre bn:00082225v ; 0 ; 0.111111 ; 0 ; 0
+null bn:15898583n ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+simplifier bn:00087951v ; 0 ; 0.111111 ; 0 ; 0
+concaténation bn:03489514n ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+majuscule bn:00015499n ; 0 ; 0.2 ; 0.2 ; 0
+égalité bn:00031284n ; 0 ; 0.111111 ; 0 ; 0
+eval bn:03464447n ; 0 ; 0.111111 ; 0 ; 0
+tableau associatifs bn:03848413n ; 0 ; 0.111111 ; 0 ; 0
+parcours bn:03468087n ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+mardi bn:00078546n ; 0 ; 0.2 ; 0.2 ; 0
+mercredi bn:00054897n ; 0 ; 0.111111 ; 0 ; 0
+jeudi bn:00076744n ; 0 ; 0.2 ; 0.2 ; 0
+casse bn:03225002n ; 0 ; 0.111111 ; 0 ; 0
+query_string bn:03583474n ; 0 ; 0.111111 ; 0 ; 0
+externes bn:00102624a ; 0 ; 0.111111 ; 0 ; 0
+racine bn:00008793n ; 0 ; 0.2 ; 0 ; 0.2
+signaler bn:00071525n ; 0 ; 0.111111 ; 0 ; 0
+type de retour bn:03354146n ; 0 ; 0.2 ; 0 ; 0.2
+etudiant bn:00029806n ; 0 ; 0.2 ; 0.2 ; 0
+setter bn:00021412n ; 0 ; 0.2 ; 0 ; 0.2
+attribut bn:00007068n ; 0 ; 0.2 ; 0 ; 0.2
+espace de nommage bn:01468325n ; 0 ; 0.111111 ; 0 ; 0
+bleu bn:00011477n ; 0 ; 0.111111 ; 0 ; 0
+set bn:00062714n ; 0 ; 0.111111 ; 0 ; 0
+diff bn:16709776n ; 0 ; 0.111111 ; 0 ; 0
+ball bn:03442687n ; 0 ; 0.111111 ; 0 ; 0
+être bn:00004222n ; 0 ; 0.2 ; 0.2 ; 0
+interrogation bn:00047208n ; 0 ; 0.2 ; 0 ; 0.2
+prenom bn:15996005n ; 0 ; 0.2 ; 0.2 ; 0
+jeanne bn:03888564n ; 0 ; 0.111111 ; 0 ; 0
+durand bn:04919129n ; 0 ; 0.111111 ; 0 ; 0
+andreas bn:02288585n ; 0 ; 0.111111 ; 0 ; 0
+dalton bn:00025070n ; 0 ; 0.111111 ; 0 ; 0
+fichier css bn:01642119n ; 0 ; 0.111111 ; 0 ; 0
+auto bn:00007309n ; 0 ; 0.2 ; 0 ; 0.2
+tr bn:03561884n ; 0 ; 0.111111 ; 0 ; 0
+puce bn:03415182n ; 0 ; 0.2 ; 0 ; 0.2
+clef primaire bn:03542434n ; 0 ; 0.2 ; 0.2 ; 0
+franz kafka bn:00036274n ; 0 ; 0.111111 ; 0 ; 0
+cotes bn:01852996n ; 0 ; 0.111111 ; 0 ; 0
+systématiquement bn:00114825r ; 0 ; 0.111111 ; 0 ; 0
+injections bn:03211312n ; 0 ; 0.111111 ; 0 ; 0
+injections sql bn:03319192n ; 0 ; 0.111111 ; 0 ; 0
+essayer bn:00082844v ; 0 ; 0.2 ; 0.2 ; 0
+code malveillant bn:01363738n ; 0 ; 0.111111 ; 0 ; 0
+faille de sécurité bn:00080285n ; 0 ; 0.111111 ; 0 ; 0
+html5 bn:03675085n ; 0 ; 0.111111 ; 0 ; 0
+être valables bn:00082706v ; 0 ; 0.111111 ; 0 ; 0
+injection de code bn:00184104n ; 0 ; 0.111111 ; 0 ; 0
+système d’information bn:00025331n ; 0 ; 0.111111 ; 0 ; 0
+credit bn:00022100n ; 0 ; 0.111111 ; 0 ; 0
+depot bn:03854733n ; 0 ; 0.2 ; 0.2 ; 0
+commit bn:00085426v ; 0 ; 0.111111 ; 0 ; 0
+réutilisé bn:00092558v ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+printf bn:03243783n ; 0 ; 0.2 ; 0 ; 0.2
+action bn:00001127n ; 0 ; 0.111111 ; 0 ; 0
+courant bn:00024510n ; 0 ; 0.2 ; 0 ; 0.2
+href bn:00045513n ; 0 ; 0.2 ; 0.2 ; 0
+csrf bn:14277211n ; 0 ; 0.111111 ; 0 ; 0
+temporaire bn:00105439a ; 0 ; 0.111111 ; 0 ; 0
+django bn:01551307n ; 0 ; 0.111111 ; 0 ; 0
+flask bn:14887813n ; 0 ; 0.111111 ; 0 ; 0
+token bn:00050895n ; 0 ; 0.2 ; 0 ; 0.2
+svg bn:02136503n ; 0 ; 0.111111 ; 0 ; 0
+mathml bn:03313895n ; 0 ; 0.111111 ; 0 ; 0
+document object model bn:03762301n ; 0 ; 0.111111 ; 0 ; 0
+document xml bn:04725671n ; 0 ; 0.111111 ; 0 ; 0
+bas niveau bn:01163629n ; 0 ; 0.2 ; 0 ; 0.2
+programme tv bn:00076429n ; 0 ; 0.111111 ; 0 ; 0
+tv bn:00076373n ; 0 ; 0.111111 ; 0 ; 0
+debut bn:01247692n ; 0 ; 0.111111 ; 0 ; 0
+smith bn:15137150n ; 0 ; 0.111111 ; 0 ; 0
+realisateur bn:00027369n ; 0 ; 0.111111 ; 0 ; 0
+dutchman bn:03862910n ; 0 ; 0.111111 ; 0 ; 0
+johnny guitar bn:00554585n ; 0 ; 0.111111 ; 0 ; 0
+guitar bn:00281486n ; 0 ; 0.111111 ; 0 ; 0
+woman under the influence bn:03640247n ; 0 ; 0.111111 ; 0 ; 0
+victor/victoria bn:01767778n ; 0 ; 0.111111 ; 0 ; 0
+simplexml bn:15053361n ; 0 ; 0.111111 ; 0 ; 0
+the flying dutchman bn:16075739n ; 0 ; 0.111111 ; 0 ; 0
+jour de fête bn:15946696n ; 0 ; 0.111111 ; 0 ; 0
+controleur bn:00022289n ; 0 ; 0.2 ; 0 ; 0.2
+composants bn:00021396n ; 0 ; 0.111111 ; 0 ; 0
+version bn:00047114n ; 0 ; 0.2 ; 0.2 ; 0
+framework web bn:01653710n ; 0 ; 0.111111 ; 0 ; 0
+cd bn:00016915n ; 0 ; 0.2 ; 0.2 ; 0
+path bn:01205256n ; 0 ; 0.2 ; 0 ; 0.2
+menu bn:00021485n ; 0 ; 0.2 ; 0.2 ; 0
+poisson bn:00062612n ; 0 ; 0.111111 ; 0 ; 0
+catch bn:00037180n ; 0 ; 0.111111 ; 0 ; 0
+h2 bn:02803535n ; 0 ; 0.111111 ; 0 ; 0
+routage bn:01926016n ; 0 ; 0.111111 ; 0 ; 0
+familiariser bn:00082274v ; 0 ; 0.111111 ; 0 ; 0
+micro-noyau bn:15964004n ; 0 ; 0.111111 ; 0 ; 0
+package bn:01408374n ; 0 ; 0.2 ; 0 ; 0.2
+courantes bn:00107963a ; 0 ; 0.111111 ; 0 ; 0
+bin bn:00000199n ; 0 ; 0.111111 ; 0 ; 0
+répertoire de travail bn:00826363n ; 0 ; 0.111111 ; 0 ; 0
+log bn:00051830n ; 0 ; 0.111111 ; 0 ; 0
+flex bn:00337264n ; 0 ; 0.111111 ; 0 ; 0
+test driven development bn:02924470n ; 0 ; 0.111111 ; 0 ; 0
+avant bn:00035855n ; 0 ; 0.111111 ; 0 ; 0
+méthodologie bn:00054633n ; 0 ; 0.111111 ; 0 ; 0
+spécification bn:00073217n ; 0 ; 0.2 ; 0 ; 0.2
+junit bn:00861107n ; 0 ; 0.2 ; 0 ; 0.2
+phpunit bn:00980999n ; 0 ; 0.111111 ; 0 ; 0
+sommes bn:00082322v ; 0 ; 0.111111 ; 0 ; 0
+librairie bn:00050969n ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+mettre en place bn:00088250v ; 0 ; 0.111111 ; 0 ; 0
+architecture rest bn:03799604n ; 0 ; 0.111111 ; 0 ; 0
+transfer bn:03128918n ; 0 ; 0.111111 ; 0 ; 0
+logique métier bn:00795795n ; 0 ; 0.111111 ; 0 ; 0
+json bn:00802141n ; 0 ; 0.111111 ; 0 ; 0
+js bn:15539067n ; 0 ; 0.111111 ; 0 ; 0
+rich internet application bn:00268208n ; 0 ; 0.111111 ; 0 ; 0
+patch bn:00060970n ; 0 ; 0.111111 ; 0 ; 0
+soap bn:02284891n ; 0 ; 0.111111 ; 0 ; 0
+microsoft bn:01165400n ; 0 ; 0.2 ; 0.2 ; 0
+principe bn:00064428n ; 0 ; 0.111111 ; 0 ; 0
+roy fielding bn:00949159n ; 0 ; 0.111111 ; 0 ; 0
+thèse bn:00027718n ; 0 ; 0.111111 ; 0 ; 0
+séparation bn:00070542n ; 0 ; 0.2 ; 0.2 ; 0
+code serveur bn:16078281n ; 0 ; 0.111111 ; 0 ; 0
+description bn:04723965n ; 0 ; 0.2 ; 0.2 ; 0
+mémorisation bn:00021038n ; 0 ; 0.111111 ; 0 ; 0
+contact bn:00085696v ; 0 ; 0.111111 ; 0 ; 0
+creation bn:03599511n ; 0 ; 0.2 ; 0 ; 0.2
+détails bn:00067417n ; 0 ; 0.2 ; 0.2 ; 0
+avérer bn:00095117v ; 0 ; 0.2 ; 0 ; 0.2
+root bn:00168023n ; 0 ; 0.111111 ; 0 ; 0
+voter bn:00008198n ; 0 ; 0.111111 ; 0 ; 0
+mobile bn:00017029n ; 0 ; 0.2 ; 0 ; 0.2
+informatique bn:00021494n ; 0 ; 0.333333 ; 0.333333 ; 0.333333
+initialisation bn:00046781n ; 0 ; 0.2 ; 0 ; 0.2
+gitlab bn:14257471n ; 0 ; 0.111111 ; 0 ; 0
+bitbucket bn:01444337n ; 0 ; 0.111111 ; 0 ; 0
+github bn:01101521n ; 0 ; 0.111111 ; 0 ; 0
+revue bn:00052671n ; 0 ; 0.111111 ; 0 ; 0
+gestion de version bn:03364124n ; 0 ; 0.111111 ; 0 ; 0
+professionnelle bn:00109068a ; 0 ; 0.111111 ; 0 ; 0
+historique bn:00104223a ; 0 ; 0.111111 ; 0 ; 0
+dominique bn:00021210n ; 0 ; 0 ; 0.111111 ; 0
+novembre bn:00058192n ; 0 ; 0 ; 0.111111 ; 0
+document bn:00087138v ; 0 ; 0 ; 0.111111 ; 0
+gnu bn:00324017n ; 0 ; 0 ; 0.111111 ; 0
+gnu fdl bn:01157394n ; 0 ; 0 ; 0.111111 ; 0
+généralité bn:00041249n ; 0 ; 0 ; 0.111111 ; 0
+langage intermédiaires bn:00350794n ; 0 ; 0 ; 0.111111 ; 0
+faq bn:00033653n ; 0 ; 0 ; 0.111111 ; 0
+préliminaire bn:00108949a ; 0 ; 0 ; 0.111111 ; 0
+postgresql bn:01709156n ; 0 ; 0 ; 0.111111 ; 0
+pear bn:03735126n ; 0 ; 0 ; 0.111111 ; 0
+dbx bn:03185121n ; 0 ; 0 ; 0.111111 ; 0
+news bn:03357706n ; 0 ; 0 ; 0.111111 ; 0
+manipulation bn:00053225n ; 0 ; 0 ; 0.111111 ; 0
+accueil bn:00044514n ; 0 ; 0 ; 0.111111 ; 0
+étude de cas bn:02395950n ; 0 ; 0 ; 0.111111 ; 0
+évaluation bn:00031973n ; 0 ; 0 ; 0.111111 ; 0
+généalogie bn:00033524n ; 0 ; 0 ; 0.111111 ; 0
+généralité bn:00037670n ; 0 ; 0 ; 0.111111 ; 0
+optimisation bn:01564896n ; 0 ; 0 ; 0.111111 ; 0
+fonctionnement bn:00059128n ; 0 ; 0 ; 0.111111 ; 0
+remarque bn:00020977n ; 0 ; 0 ; 0.111111 ; 0
+autre bn:00108013a ; 0 ; 0 ; 0.111111 ; 0
+traiter de bn:00083202v ; 0 ; 0 ; 0.111111 ; 0
+aborder bn:00084117v ; 0 ; 0 ; 0.111111 ; 0
+universitaires bn:00110169a ; 0 ; 0 ; 0.111111 ; 0
+autonome bn:00097830a ; 0 ; 0 ; 0.111111 ; 0
+logiciel bn:00021497n ; 0 ; 0 ; 0.2 ; 0.2
+docbook bn:03194644n ; 0 ; 0 ; 0.111111 ; 0
+texte source bn:03152229n ; 0 ; 0 ; 0.111111 ; 0
+emacs bn:01156253n ; 0 ; 0 ; 0.111111 ; 0
+dtd bn:15232677n ; 0 ; 0 ; 0.111111 ; 0
+disponible bn:00097848a ; 0 ; 0 ; 0.111111 ; 0
+seul bn:00110667a ; 0 ; 0 ; 0.111111 ; 0
+langage naturels bn:00056990n ; 0 ; 0 ; 0.111111 ; 0
+ordinateur bn:00021464n ; 0 ; 0 ; 0.111111 ; 0
+processeur bn:00014395n ; 0 ; 0 ; 0.2 ; 0.2
+réécrire bn:00092997v ; 0 ; 0 ; 0.111111 ; 0
+portabilité bn:03720519n ; 0 ; 0 ; 0.2 ; 0.2
+langage compilés bn:00981689n ; 0 ; 0 ; 0.111111 ; 0
+intelligible bn:00097389a ; 0 ; 0 ; 0.111111 ; 0
+point de vue bn:00063237n ; 0 ; 0 ; 0.2 ; 0.2
+auxiliaire bn:00007423n ; 0 ; 0 ; 0.111111 ; 0
+mesure bn:00090716v ; 0 ; 0 ; 0.111111 ; 0
+exécutable bn:00102521a ; 0 ; 0 ; 0.2 ; 0.2
+compilé bn:00085470v ; 0 ; 0 ; 0.111111 ; 0
+confidentialité bn:00021748n ; 0 ; 0 ; 0.111111 ; 0
+paiement bn:00061119n ; 0 ; 0 ; 0.111111 ; 0
+paiement en ligne bn:05011741n ; 0 ; 0 ; 0.111111 ; 0
+lisp bn:00051502n ; 0 ; 0 ; 0.111111 ; 0
+applets bn:00005083n ; 0 ; 0 ; 0.2 ; 0.2
+page web dynamiques bn:00937946n ; 0 ; 0 ; 0.111111 ; 0
+flash bn:01369336n ; 0 ; 0 ; 0.111111 ; 0
+problématique bn:00097982a ; 0 ; 0 ; 0.111111 ; 0
+contrôle de sécurité bn:03784539n ; 0 ; 0 ; 0.111111 ; 0
+validité bn:01410980n ; 0 ; 0 ; 0.111111 ; 0
+être extrait bn:00087897v ; 0 ; 0 ; 0.111111 ; 0
+réalité bn:00066414n ; 0 ; 0 ; 0.111111 ; 0
+outil de développement bn:03072994n ; 0 ; 0 ; 0.2 ; 0.2
+importer bn:00046139n ; 0 ; 0 ; 0.2 ; 0.2
+application web bn:02246184n ; 0 ; 0 ; 0.2 ; 0.2
+tant bn:00114490r ; 0 ; 0 ; 0.111111 ; 0
+cas particulier bn:02482901n ; 0 ; 0 ; 0.2 ; 0.2
+générale bn:00103507a ; 0 ; 0 ; 0.2 ; 0.2
+quelconques bn:00097433a ; 0 ; 0 ; 0.2 ; 0.2
+soustraction bn:00055233n ; 0 ; 0 ; 0.2 ; 0.2
+classiques bn:00019566n ; 0 ; 0 ; 0.2 ; 0.2
+inférieur bn:00035700n ; 0 ; 0 ; 0.2 ; 0.2
+table de multiplication bn:03381903n ; 0 ; 0 ; 0.111111 ; 0
+factorielles bn:00032673n ; 0 ; 0 ; 0.111111 ; 0
+enfant bn:00018346n ; 0 ; 0 ; 0.111111 ; 0
+common gateway interface bn:03588331n ; 0 ; 0 ; 0.111111 ; 0
+pouvoir bn:00084451v ; 0 ; 0 ; 0.111111 ; 0
+après bn:00114165r ; 0 ; 0 ; 0.2 ; 0.2
+bouton radio bn:03157702n ; 0 ; 0 ; 0.111111 ; 0
+radio bn:00065899n ; 0 ; 0 ; 0.111111 ; 0
+case à cocher bn:03157691n ; 0 ; 0 ; 0.111111 ; 0
+clic bn:00019758n ; 0 ; 0 ; 0.2 ; 0.2
+exclusifs bn:00102512a ; 0 ; 0 ; 0.111111 ; 0
+sélectionner bn:00084931v ; 0 ; 0 ; 0.2 ; 0.2
+avoir accès bn:00082209v ; 0 ; 0 ; 0.111111 ; 0
+phrase bn:00070528n ; 0 ; 0 ; 0.111111 ; 0
+bébé bn:00007630n ; 0 ; 0 ; 0.111111 ; 0
+distance bn:00027749n ; 0 ; 0 ; 0.111111 ; 0
+vrai bn:00078452n ; 0 ; 0 ; 0.111111 ; 0
+nom de personne bn:03150299n ; 0 ; 0 ; 0.111111 ; 0
+permis de chasse bn:00037195n ; 0 ; 0 ; 0.111111 ; 0
+capital bn:00015496n ; 0 ; 0 ; 0.111111 ; 0
+coûter bn:00083193v ; 0 ; 0 ; 0.111111 ; 0
+groupe bn:00041942n ; 0 ; 0 ; 0.111111 ; 0
+liste déroulante bn:00028831n ; 0 ; 0 ; 0.111111 ; 0
+incomplète bn:00104851a ; 0 ; 0 ; 0.111111 ; 0
+devinette bn:00012686n ; 0 ; 0 ; 0.111111 ; 0
+manipulation bn:00042822n ; 0 ; 0 ; 0.111111 ; 0
+abuser bn:00090815v ; 0 ; 0 ; 0.111111 ; 0
+string bn:00050078n ; 0 ; 0 ; 0.111111 ; 0
+matrice bn:00053849n ; 0 ; 0 ; 0.111111 ; 0
+boucle for bn:03237322n ; 0 ; 0 ; 0.2 ; 0.2
+couple bn:00012597n ; 0 ; 0 ; 0.111111 ; 0
+touch bn:03178622n ; 0 ; 0 ; 0.111111 ; 0
+hoaxbuster bn:04764839n ; 0 ; 0 ; 0.111111 ; 0
+virus bn:00021501n ; 0 ; 0 ; 0.111111 ; 0
+e-mail bn:00029345n ; 0 ; 0 ; 0.111111 ; 0
+identifier bn:00089575v ; 0 ; 0 ; 0.111111 ; 0
+xxvii bn:00000091n ; 0 ; 0 ; 0.111111 ; 0
+pilote bn:00026721n ; 0 ; 0 ; 0.111111 ; 0
+fonction de base bn:03294262n ; 0 ; 0 ; 0.111111 ; 0
+migration bn:00261245n ; 0 ; 0 ; 0.111111 ; 0
+comme bn:00117173r ; 0 ; 0 ; 0.111111 ; 0
+adodb bn:00868267n ; 0 ; 0 ; 0.111111 ; 0
+metadata bn:00054548n ; 0 ; 0 ; 0.111111 ; 0
+mssql bn:00605043n ; 0 ; 0 ; 0.111111 ; 0
+firebird bn:02246711n ; 0 ; 0 ; 0.111111 ; 0
+informix bn:03306725n ; 0 ; 0 ; 0.111111 ; 0
+odbc bn:14228731n ; 0 ; 0 ; 0.111111 ; 0
+clore bn:00087609v ; 0 ; 0 ; 0.2 ; 0.2
+explicitement bn:00115285r ; 0 ; 0 ; 0.111111 ; 0
+ansi bn:03507104n ; 0 ; 0 ; 0.111111 ; 0
+homogène bn:00104286a ; 0 ; 0 ; 0.111111 ; 0
+adresse mail bn:02312462n ; 0 ; 0 ; 0.111111 ; 0
+copier-coller bn:00797466n ; 0 ; 0 ; 0.111111 ; 0
+rendre bn:00067105n ; 0 ; 0 ; 0.111111 ; 0
+détecter bn:00086708v ; 0 ; 0 ; 0.2 ; 0.2
+envier bn:00083351v ; 0 ; 0 ; 0.111111 ; 0
+souhaitable bn:00101237a ; 0 ; 0 ; 0.111111 ; 0
+force brute bn:00149736n ; 0 ; 0 ; 0.111111 ; 0
+bc bn:15403265n ; 0 ; 0 ; 0.111111 ; 0
+temps de calcul bn:00068589n ; 0 ; 0 ; 0.111111 ; 0
+compliquer bn:00085483v ; 0 ; 0 ; 0.111111 ; 0
+chaîne littérale bn:01271375n ; 0 ; 0 ; 0.111111 ; 0
+tex bn:02362481n ; 0 ; 0 ; 0.111111 ; 0
+alex bn:03665083n ; 0 ; 0 ; 0.111111 ; 0
+thomas bn:00005240n ; 0 ; 0 ; 0.111111 ; 0
+avoir envie de bn:00088107v ; 0 ; 0 ; 0.111111 ; 0
+impératif bn:00104644a ; 0 ; 0 ; 0.111111 ; 0
+fonctionnalité bn:00036836n ; 0 ; 0 ; 0.2 ; 0.2
+archiver bn:00005448n ; 0 ; 0 ; 0.111111 ; 0
+stocker bn:00089368v ; 0 ; 0 ; 0.2 ; 0.2
+particulier bn:00073185n ; 0 ; 0 ; 0.111111 ; 0
+data source name bn:03804134n ; 0 ; 0 ; 0.111111 ; 0
+héberger bn:00082216v ; 0 ; 0 ; 0.111111 ; 0
+légèrement bn:00116111r ; 0 ; 0 ; 0.111111 ; 0
+configurer bn:00085667v ; 0 ; 0 ; 0.111111 ; 0
+affichage bn:00027675n ; 0 ; 0 ; 0.2 ; 0.2
+tel bn:00000005n ; 0 ; 0 ; 0.111111 ; 0
+fax bn:00032653n ; 0 ; 0 ; 0.111111 ; 0
+guise bn:00000146n ; 0 ; 0 ; 0.111111 ; 0
+rows bn:03611246n ; 0 ; 0 ; 0.111111 ; 0
+bcd bn:16690020n ; 0 ; 0 ; 0.111111 ; 0
+sous-répertoire bn:00074880n ; 0 ; 0 ; 0.111111 ; 0
+article de presse bn:14993780n ; 0 ; 0 ; 0.111111 ; 0
+copier bn:00022534n ; 0 ; 0 ; 0.2 ; 0.2
+horizontale bn:00104328a ; 0 ; 0 ; 0.111111 ; 0
+fin de paragraphe bn:03475717n ; 0 ; 0 ; 0.111111 ; 0
+système d’exploitation bn:00059123n ; 0 ; 0 ; 0.111111 ; 0
+disque dur bn:00073359n ; 0 ; 0 ; 0.111111 ; 0
+disquette bn:00027619n ; 0 ; 0 ; 0.111111 ; 0
+mini-site bn:00251724n ; 0 ; 0 ; 0.111111 ; 0
+accès libre bn:04691509n ; 0 ; 0 ; 0.111111 ; 0
+libre bn:00099806a ; 0 ; 0 ; 0.111111 ; 0
+numéro de téléphone bn:00058286n ; 0 ; 0 ; 0.111111 ; 0
+téléphone bn:00062020n ; 0 ; 0 ; 0.2 ; 0.2
+énoncé bn:00087699v ; 0 ; 0 ; 0.111111 ; 0
+punition bn:00061325n ; 0 ; 0 ; 0.111111 ; 0
+récursive bn:00109560a ; 0 ; 0 ; 0.111111 ; 0
+retour bn:00046318n ; 0 ; 0 ; 0.111111 ; 0
+or bn:00006911n ; 0 ; 0 ; 0.111111 ; 0
+compléter bn:00085479v ; 0 ; 0 ; 0.111111 ; 0
+féminin bn:00102884a ; 0 ; 0 ; 0.111111 ; 0
+chasse bn:00045245n ; 0 ; 0 ; 0.111111 ; 0
+chiens bn:00015267n ; 0 ; 0 ; 0.111111 ; 0
+amis bn:00036538n ; 0 ; 0 ; 0.111111 ; 0
+bienvenue bn:00080852n ; 0 ; 0 ; 0.111111 ; 0
+interdit bn:04029035n ; 0 ; 0 ; 0.111111 ; 0
+correct bn:00100490a ; 0 ; 0 ; 0.2 ; 0.2
+limiter bn:00086468v ; 0 ; 0 ; 0.111111 ; 0
+min bn:00055094n ; 0 ; 0 ; 0.111111 ; 0
+triche bn:00017978n ; 0 ; 0 ; 0.111111 ; 0
+pipotron bn:04723513n ; 0 ; 0 ; 0.111111 ; 0
+égard bn:00031654n ; 0 ; 0 ; 0.111111 ; 0
+dégradation bn:02639083n ; 0 ; 0 ; 0.111111 ; 0
+convient bn:00094581v ; 0 ; 0 ; 0.2 ; 0.2
+anticiper bn:00082665v ; 0 ; 0 ; 0.111111 ; 0
+préoccuper bn:00085522v ; 0 ; 0 ; 0.111111 ; 0
+remémorer bn:00084413v ; 0 ; 0 ; 0.111111 ; 0
+globalité bn:00031025n ; 0 ; 0 ; 0.111111 ; 0
+possession bn:00059958n ; 0 ; 0 ; 0.111111 ; 0
+bon sens bn:00021164n ; 0 ; 0 ; 0.111111 ; 0
+correspondante bn:00096282a ; 0 ; 0 ; 0.111111 ; 0
+onglets bn:00120018n ; 0 ; 0 ; 0.111111 ; 0
+sciences bn:00069670n ; 0 ; 0 ; 0.111111 ; 0
+créer bn:00086008v ; 0 ; 0 ; 0.111111 ; 0
+chansons bn:00072794n ; 0 ; 0 ; 0.111111 ; 0
+genre musicaux bn:00037743n ; 0 ; 0 ; 0.111111 ; 0
+parole bn:00049911n ; 0 ; 0 ; 0.111111 ; 0
+statistique bn:00074061n ; 0 ; 0 ; 0.111111 ; 0
+droit d’auteur bn:03579896n ; 0 ; 0 ; 0.111111 ; 0
+supprimer bn:00086081v ; 0 ; 0 ; 0.111111 ; 0
+paroles de chanson bn:03103700n ; 0 ; 0 ; 0.111111 ; 0
+orthographe bn:00059588n ; 0 ; 0 ; 0.111111 ; 0
+familiarisation bn:00032889n ; 0 ; 0 ; 0.111111 ; 0
+créneau horaires bn:00072215n ; 0 ; 0 ; 0.111111 ; 0
+pouvoir bn:00063940n ; 0 ; 0 ; 0.111111 ; 0
+notification bn:00005139n ; 0 ; 0 ; 0.111111 ; 0
+tableur bn:00073631n ; 0 ; 0 ; 0.111111 ; 0
+dérouler bn:00085568v ; 0 ; 0 ; 0.111111 ; 0
+rue bn:00074595n ; 0 ; 0 ; 0.111111 ; 0
+seance bn:03262459n ; 0 ; 0 ; 0.111111 ; 0
+club de tennis bn:00076523n ; 0 ; 0 ; 0.111111 ; 0
+tennis bn:00050287n ; 0 ; 0 ; 0.111111 ; 0
+défaire bn:00083247v ; 0 ; 0 ; 0.111111 ; 0
+payer bn:00091494v ; 0 ; 0 ; 0.111111 ; 0
+sport bn:00006759n ; 0 ; 0 ; 0.111111 ; 0
+matériel bn:00021480n ; 0 ; 0 ; 0.111111 ; 0
+civile bn:00099730a ; 0 ; 0 ; 0.111111 ; 0
+clavier bn:00021482n ; 0 ; 0 ; 0.2 ; 0.2
+vol bn:00050004n ; 0 ; 0 ; 0.111111 ; 0
+dégradation bn:03664474n ; 0 ; 0 ; 0.111111 ; 0
+mettre en prison bn:00088673v ; 0 ; 0 ; 0.111111 ; 0
+vainqueur bn:00079944n ; 0 ; 0 ; 0.111111 ; 0
+logistiques bn:00051869n ; 0 ; 0 ; 0.111111 ; 0
+match bn:00090698v ; 0 ; 0 ; 0.111111 ; 0
+caravane bn:02932902n ; 0 ; 0 ; 0.111111 ; 0
+branchement bn:00131727n ; 0 ; 0 ; 0.111111 ; 0
+lit bn:00009472n ; 0 ; 0 ; 0.111111 ; 0
+lit pliants bn:00015043n ; 0 ; 0 ; 0.111111 ; 0
+nuit bn:00025236n ; 0 ; 0 ; 0.111111 ; 0
+redevance bn:00068452n ; 0 ; 0 ; 0.111111 ; 0
+véhicules bn:00079675n ; 0 ; 0 ; 0.111111 ; 0
+courrier publicitaires bn:00027338n ; 0 ; 0 ; 0.111111 ; 0
+publicitaires bn:00109098a ; 0 ; 0 ; 0.111111 ; 0
+car bn:00007329n ; 0 ; 0 ; 0.111111 ; 0
+réfrigérateur bn:00045744n ; 0 ; 0 ; 0.111111 ; 0
+prestation bn:00064923n ; 0 ; 0 ; 0.111111 ; 0
+localisation géographique bn:01504309n ; 0 ; 0 ; 0.111111 ; 0
+téléphone bn:00084387v ; 0 ; 0 ; 0.111111 ; 0
+entendre bn:00007120n ; 0 ; 0 ; 0.111111 ; 0
+fin bn:00105751a ; 0 ; 0 ; 0.111111 ; 0
+presque bn:00114079r ; 0 ; 0 ; 0.111111 ; 0
+adhérents bn:00001362n ; 0 ; 0 ; 0.111111 ; 0
+adhesion bn:00001361n ; 0 ; 0 ; 0.111111 ; 0
+euro bn:00031888n ; 0 ; 0 ; 0.111111 ; 0
+moindre bn:00105825a ; 0 ; 0 ; 0.111111 ; 0
+intuitive bn:00105365a ; 0 ; 0 ; 0.111111 ; 0
+vital bn:00113642a ; 0 ; 0 ; 0.111111 ; 0
+bibliothèque thématiques bn:00482485n ; 0 ; 0 ; 0.111111 ; 0
+thématiques bn:00111800a ; 0 ; 0 ; 0.111111 ; 0
+avantageront bn:00083414v ; 0 ; 0 ; 0.111111 ; 0
+aphorisme bn:00004883n ; 0 ; 0 ; 0.111111 ; 0
+logiciel libres bn:00182120n ; 0 ; 0 ; 0.111111 ; 0
+décès bn:00025582n ; 0 ; 0 ; 0.111111 ; 0
+seul bn:00114235r ; 0 ; 0 ; 0.111111 ; 0
+lieu de naissance bn:00010686n ; 0 ; 0 ; 0.111111 ; 0
+multimédia bn:00056283n ; 0 ; 0 ; 0.111111 ; 0
+document officiel bn:00046963n ; 0 ; 0 ; 0.111111 ; 0
+acte bn:00001077n ; 0 ; 0 ; 0.111111 ; 0
+acte de naissance bn:00010670n ; 0 ; 0 ; 0.111111 ; 0
+mariage bn:00053107n ; 0 ; 0 ; 0.111111 ; 0
+minimales bn:00106755a ; 0 ; 0 ; 0.111111 ; 0
+album bn:00002488n ; 0 ; 0 ; 0.111111 ; 0
+photo bn:00062084n ; 0 ; 0 ; 0.111111 ; 0
+import-export bn:15970061n ; 0 ; 0 ; 0.111111 ; 0
+gedcom bn:02074085n ; 0 ; 0 ; 0.111111 ; 0
+mormons bn:00019012n ; 0 ; 0 ; 0.111111 ; 0
+nom complet bn:01700772n ; 0 ; 0 ; 0.111111 ; 0
+jésus-christ bn:00018805n ; 0 ; 0 ; 0.111111 ; 0
+logiciel de généalogie bn:01872393n ; 0 ; 0 ; 0.111111 ; 0
+stocker bn:00095635v ; 0 ; 0 ; 0.111111 ; 0
+maladies bn:00027546n ; 0 ; 0 ; 0.111111 ; 0
+bonheur bn:00042905n ; 0 ; 0 ; 0.111111 ; 0
+organisation bn:00059480n ; 0 ; 0 ; 0.2 ; 0.2
+part bn:00070912n ; 0 ; 0 ; 0.111111 ; 0
+exception bn:00059781n ; 0 ; 0 ; 0.111111 ; 0
+sexe bn:00037634n ; 0 ; 0 ; 0.111111 ; 0
+gravite bn:00089032v ; 0 ; 0 ; 0.111111 ; 0
+administratif bn:00096474a ; 0 ; 0 ; 0.111111 ; 0
+besoin de savoir bn:03234470n ; 0 ; 0 ; 0.111111 ; 0
+fier bn:00103467a ; 0 ; 0 ; 0.111111 ; 0
+temps partiel bn:01038658n ; 0 ; 0 ; 0.111111 ; 0
+partiel bn:00108290a ; 0 ; 0 ; 0.111111 ; 0
+décharges bn:00086914v ; 0 ; 0 ; 0.111111 ; 0
+contrat bn:00022227n ; 0 ; 0 ; 0.111111 ; 0
+libre accès bn:03097420n ; 0 ; 0 ; 0.111111 ; 0
+enseignant bn:00089791v ; 0 ; 0 ; 0.111111 ; 0
+vacataires bn:05008890n ; 0 ; 0 ; 0.111111 ; 0
+deug bn:02806247n ; 0 ; 0 ; 0.111111 ; 0
+service bn:00070651n ; 0 ; 0 ; 0.111111 ; 0
+semestre bn:00000561n ; 0 ; 0 ; 0.111111 ; 0
+universitaires bn:00096228a ; 0 ; 0 ; 0.111111 ; 0
+universitaire bn:00079152n ; 0 ; 0 ; 0.111111 ; 0
+économie bn:00029676n ; 0 ; 0 ; 0.111111 ; 0
+histoire bn:00044268n ; 0 ; 0 ; 0.111111 ; 0
+maître de conférence bn:14504106n ; 0 ; 0 ; 0.111111 ; 0
+moins bn:00116104r ; 0 ; 0 ; 0.111111 ; 0
+pédagogique bn:00108383a ; 0 ; 0 ; 0.111111 ; 0
+titulaires bn:14132983n ; 0 ; 0 ; 0.111111 ; 0
+cm bn:00017163n ; 0 ; 0 ; 0.111111 ; 0
+travaux dirigés bn:04778693n ; 0 ; 0 ; 0.111111 ; 0
+parler bn:00090283v ; 0 ; 0 ; 0.111111 ; 0
+obliger bn:00083496v ; 0 ; 0 ; 0.111111 ; 0
+philosophie bn:00061984n ; 0 ; 0 ; 0.111111 ; 0
+bac bn:00044028n ; 0 ; 0 ; 0.111111 ; 0
+chargé bn:14456945n ; 0 ; 0 ; 0.111111 ; 0
+chargé de cours bn:16339539n ; 0 ; 0 ; 0.111111 ; 0
+criminelles bn:00100650a ; 0 ; 0 ; 0.111111 ; 0
+institutions bn:00046954n ; 0 ; 0 ; 0.111111 ; 0
+politique bn:00108759a ; 0 ; 0 ; 0.111111 ; 0
+littérature bn:00051538n ; 0 ; 0 ; 0.111111 ; 0
+littérature germaniques bn:00434180n ; 0 ; 0 ; 0.111111 ; 0
+romanes bn:00105767a ; 0 ; 0 ; 0.111111 ; 0
+littérature arabes bn:03227656n ; 0 ; 0 ; 0.111111 ; 0
+psychologie bn:00065026n ; 0 ; 0 ; 0.111111 ; 0
+psychologie clinique bn:00019826n ; 0 ; 0 ; 0.111111 ; 0
+psychologie sociale bn:00072543n ; 0 ; 0 ; 0.111111 ; 0
+arts bn:00005927n ; 0 ; 0 ; 0.111111 ; 0
+musique bn:00056443n ; 0 ; 0 ; 0.111111 ; 0
+musicologie bn:00056479n ; 0 ; 0 ; 0.111111 ; 0
+anthropologie bn:00004584n ; 0 ; 0 ; 0.111111 ; 0
+éthnologie bn:00031731n ; 0 ; 0 ; 0.111111 ; 0
+préhistoire bn:00064143n ; 0 ; 0 ; 0.111111 ; 0
+civilisation bn:00019384n ; 0 ; 0 ; 0.111111 ; 0
+archéologie bn:00005391n ; 0 ; 0 ; 0.111111 ; 0
+contemporain bn:00100361a ; 0 ; 0 ; 0.111111 ; 0
+géographie bn:00040163n ; 0 ; 0 ; 0.111111 ; 0
+géographie physique bn:00062165n ; 0 ; 0 ; 0.111111 ; 0
+espace bn:00046665n ; 0 ; 0 ; 0.111111 ; 0
+mathématiques bn:00053823n ; 0 ; 0 ; 0.2 ; 0.2
+constituants bn:00100333a ; 0 ; 0 ; 0.111111 ; 0
+chimie théorique bn:02502041n ; 0 ; 0 ; 0.111111 ; 0
+chimie organique bn:00059474n ; 0 ; 0 ; 0.111111 ; 0
+astronomie bn:00006663n ; 0 ; 0 ; 0.111111 ; 0
+océanographie bn:00058585n ; 0 ; 0 ; 0.111111 ; 0
+océanographie physique bn:03107326n ; 0 ; 0 ; 0.111111 ; 0
+physique bn:00056996n ; 0 ; 0 ; 0.111111 ; 0
+pharmaceutiques bn:00108518a ; 0 ; 0 ; 0.111111 ; 0
+génie mécanique bn:00054054n ; 0 ; 0 ; 0.111111 ; 0
+génie civil bn:00019361n ; 0 ; 0 ; 0.111111 ; 0
+génie informatique bn:03287605n ; 0 ; 0 ; 0.111111 ; 0
+procédés bn:03245758n ; 0 ; 0 ; 0.111111 ; 0
+biochimie bn:00010518n ; 0 ; 0 ; 0.111111 ; 0
+biologie bn:00010543n ; 0 ; 0 ; 0.111111 ; 0
+biologie moléculaire bn:00055560n ; 0 ; 0 ; 0.111111 ; 0
+moléculaire bn:00106855a ; 0 ; 0 ; 0.111111 ; 0
+biologie cellulaire bn:00024908n ; 0 ; 0 ; 0.111111 ; 0
+physiologie bn:00062182n ; 0 ; 0 ; 0.111111 ; 0
+population bn:00063596n ; 0 ; 0 ; 0.111111 ; 0
+écologie bn:00010564n ; 0 ; 0 ; 0.111111 ; 0
+organismes bn:00009677n ; 0 ; 0 ; 0.111111 ; 0
+éducation bn:00026980n ; 0 ; 0 ; 0.111111 ; 0
+epistémologie bn:00031237n ; 0 ; 0 ; 0.111111 ; 0
+cultures bn:01187943n ; 0 ; 0 ; 0.111111 ; 0
+activité physiques bn:00032203n ; 0 ; 0 ; 0.111111 ; 0
+théologie bn:00076827n ; 0 ; 0 ; 0.111111 ; 0
+théologie catholique bn:00848908n ; 0 ; 0 ; 0.111111 ; 0
+approche bn:00005141n ; 0 ; 0 ; 0.111111 ; 0
+vinyl bn:00080027n ; 0 ; 0 ; 0.111111 ; 0
+l’album bn:15350182n ; 0 ; 0 ; 0.111111 ; 0
+ailleurs bn:00115192r ; 0 ; 0 ; 0.111111 ; 0
+problème bn:00048242n ; 0 ; 0 ; 0.111111 ; 0
+recherche bn:00067280n ; 0 ; 0 ; 0.111111 ; 0
+là bn:00117260r ; 0 ; 0 ; 0.111111 ; 0
+centrale bn:00063961n ; 0 ; 0 ; 0.111111 ; 0
+intitulé bn:00043268n ; 0 ; 0 ; 0.2 ; 0.2
+rock bn:00068049n ; 0 ; 0 ; 0.111111 ; 0
+pénétration bn:00053473n ; 0 ; 0 ; 0.111111 ; 0
+date de sortie bn:02421166n ; 0 ; 0 ; 0.111111 ; 0
+figurer bn:00014691n ; 0 ; 0 ; 0.111111 ; 0
+code postal bn:00063770n ; 0 ; 0 ; 0.111111 ; 0
+bureau bn:00001961n ; 0 ; 0 ; 0.111111 ; 0
+compte en banque bn:00008374n ; 0 ; 0 ; 0.111111 ; 0
+numéro isbn bn:00706122n ; 0 ; 0 ; 0.111111 ; 0
+axiome bn:00007529n ; 0 ; 0 ; 0.111111 ; 0
+residents bn:02413054n ; 0 ; 0 ; 0.111111 ; 0
+rolling stones bn:02456824n ; 0 ; 0 ; 0.111111 ; 0
+mick jagger bn:00047889n ; 0 ; 0 ; 0.111111 ; 0
+keith richard bn:00801879n ; 0 ; 0 ; 0.111111 ; 0
+john lennon bn:00048320n ; 0 ; 0 ; 0.111111 ; 0
+futur bn:00036941n ; 0 ; 0 ; 0.111111 ; 0
+code barre bn:00008480n ; 0 ; 0 ; 0.111111 ; 0
+compositeur bn:00021397n ; 0 ; 0 ; 0.111111 ; 0
+song bn:00072798n ; 0 ; 0 ; 0.111111 ; 0
+varier bn:00082554v ; 0 ; 0 ; 0.111111 ; 0
+velvet underground bn:01244350n ; 0 ; 0 ; 0.111111 ; 0
+terry riley bn:02491941n ; 0 ; 0 ; 0.111111 ; 0
+probabilité bn:00017624n ; 0 ; 0 ; 0.111111 ; 0
+mémoriser bn:00085506v ; 0 ; 0 ; 0.111111 ; 0
+conceptuel bn:00100194a ; 0 ; 0 ; 0.111111 ; 0
+numero bn:15898115n ; 0 ; 0 ; 0.111111 ; 0
+facilité bn:00032642n ; 0 ; 0 ; 0.111111 ; 0
+alternative bn:00096899a ; 0 ; 0 ; 0.111111 ; 0
+quanta bn:00065554n ; 0 ; 0 ; 0.111111 ; 0
+intermédiaire bn:00105288a ; 0 ; 0 ; 0.2 ; 0.2
+associatif bn:00097619a ; 0 ; 0 ; 0.111111 ; 0
+ébauche bn:00059783n ; 0 ; 0 ; 0.111111 ; 0
+mémento bn:00611675n ; 0 ; 0 ; 0 ; 0.111111
+reference bn:00001302n ; 0 ; 0 ; 0 ; 0.111111
+générateur bn:03384822n ; 0 ; 0 ; 0 ; 0.111111
+générateur de documentation bn:00750235n ; 0 ; 0 ; 0 ; 0.111111
+javadoc bn:00527312n ; 0 ; 0 ; 0 ; 0.111111
+style de programmation bn:01247117n ; 0 ; 0 ; 0 ; 0.111111
+identificateurs bn:00045822n ; 0 ; 0 ; 0 ; 0.111111
+type primitifs bn:02695430n ; 0 ; 0 ; 0 ; 0.111111
+type statique bn:04749218n ; 0 ; 0 ; 0 ; 0.111111
+hiérarchie bn:00044017n ; 0 ; 0 ; 0 ; 0.111111
+nouvelle classe bn:02230821n ; 0 ; 0 ; 0 ; 0.111111
+mise en page bn:01681906n ; 0 ; 0 ; 0 ; 0.111111
+swing bn:02050247n ; 0 ; 0 ; 0 ; 0.111111
+thread bn:03212986n ; 0 ; 0 ; 0 ; 0.111111
+section critiques bn:03482397n ; 0 ; 0 ; 0 ; 0.111111
+interactive bn:00105260a ; 0 ; 0 ; 0 ; 0.111111
+test unitaires bn:01529126n ; 0 ; 0 ; 0 ; 0.111111
+unitaires bn:00112905a ; 0 ; 0 ; 0 ; 0.111111
+design pattern bn:00890994n ; 0 ; 0 ; 0 ; 0.111111
+modèle singleton bn:03495688n ; 0 ; 0 ; 0 ; 0.111111
+machine virtuelle java bn:00875176n ; 0 ; 0 ; 0 ; 0.111111
+glossaire bn:00040717n ; 0 ; 0 ; 0 ; 0.111111
+monde réel bn:00066402n ; 0 ; 0 ; 0 ; 0.111111
+concrète bn:00100206a ; 0 ; 0 ; 0 ; 0.111111
+grise bn:00041510n ; 0 ; 0 ; 0 ; 0.111111
+typiquement bn:00117361r ; 0 ; 0 ; 0 ; 0.111111
+encapsuler bn:00087590v ; 0 ; 0 ; 0 ; 0.111111
+interagir bn:00089808v ; 0 ; 0 ; 0 ; 0.111111
+nom générique bn:02017388n ; 0 ; 0 ; 0 ; 0.111111
+consommation bn:00022109n ; 0 ; 0 ; 0 ; 0.111111
+hiérarchique bn:00104156a ; 0 ; 0 ; 0 ; 0.111111
+sun microsystems bn:02053714n ; 0 ; 0 ; 0 ; 0.111111
+james gosling bn:03306336n ; 0 ; 0 ; 0 ; 0.111111
+obligatoire bn:00107677a ; 0 ; 0 ; 0 ; 0.111111
+lisibilité bn:04849472n ; 0 ; 0 ; 0 ; 0.111111
+durée de vie bn:01120526n ; 0 ; 0 ; 0 ; 0.111111
+verbe bn:00079778n ; 0 ; 0 ; 0 ; 0.111111
+paraphraser bn:00060604n ; 0 ; 0 ; 0 ; 0.111111
+intitulé bn:00087654v ; 0 ; 0 ; 0 ; 0.111111
+complète bn:00100162a ; 0 ; 0 ; 0 ; 0.111111
+lettre minuscules bn:00052186n ; 0 ; 0 ; 0 ; 0.111111
+rassembler bn:00082246v ; 0 ; 0 ; 0 ; 0.111111
+jar bn:02011849n ; 0 ; 0 ; 0 ; 0.111111
+classpath bn:03476243n ; 0 ; 0 ; 0 ; 0.111111
+void bn:01326821n ; 0 ; 0 ; 0 ; 0.111111
+abstract bn:00000489n ; 0 ; 0 ; 0 ; 0.111111
+sémantique bn:00110347a ; 0 ; 0 ; 0 ; 0.111111
+matériels bn:00100487a ; 0 ; 0 ; 0 ; 0.111111
+spécifique bn:00111001a ; 0 ; 0 ; 0 ; 0.111111
+ajouter bn:00082317v ; 0 ; 0 ; 0 ; 0.111111
+conformer bn:00082137v ; 0 ; 0 ; 0 ; 0.111111
+contribuer bn:00085565v ; 0 ; 0 ; 0 ; 0.111111
+concept bn:00021547n ; 0 ; 0 ; 0 ; 0.111111
+intérieur bn:00046892n ; 0 ; 0 ; 0 ; 0.111111
+classe internes bn:01035086n ; 0 ; 0 ; 0 ; 0.111111
+regroupement bn:00021838n ; 0 ; 0 ; 0 ; 0.111111
+encapsulation bn:01505556n ; 0 ; 0 ; 0 ; 0.111111
+mots-clés bn:03224594n ; 0 ; 0 ; 0 ; 0.111111
+modificateurs bn:00055488n ; 0 ; 0 ; 0 ; 0.111111
+variable de classe bn:00938255n ; 0 ; 0 ; 0 ; 0.111111
+variable de type bn:02158332n ; 0 ; 0 ; 0 ; 0.111111
+tentative bn:00007011n ; 0 ; 0 ; 0 ; 0.111111
+espace mémoire bn:03228212n ; 0 ; 0 ; 0 ; 0.111111
+collector bn:05021864n ; 0 ; 0 ; 0 ; 0.111111
+indirectement bn:00115900r ; 0 ; 0 ; 0 ; 0.111111
+sémantique bn:00070404n ; 0 ; 0 ; 0 ; 0.111111
+cyrillique bn:00100853a ; 0 ; 0 ; 0 ; 0.111111
+windows nt bn:01409690n ; 0 ; 0 ; 0 ; 0.111111
+système de codage bn:00020370n ; 0 ; 0 ; 0 ; 0.111111
+byte bn:00014365n ; 0 ; 0 ; 0 ; 0.111111
+simple précision bn:01672387n ; 0 ; 0 ; 0 ; 0.111111
+double précision bn:03333822n ; 0 ; 0 ; 0 ; 0.111111
+point décimal bn:00025705n ; 0 ; 0 ; 0 ; 0.111111
+affection bn:00001744n ; 0 ; 0 ; 0 ; 0.111111
+bibliothèque standard bn:03087001n ; 0 ; 0 ; 0 ; 0.111111
+primitif bn:00097448a ; 0 ; 0 ; 0 ; 0.111111
+autoboxing bn:02831394n ; 0 ; 0 ; 0 ; 0.111111
+auparavant bn:00114297r ; 0 ; 0 ; 0 ; 0.111111
+noter bn:00089002v ; 0 ; 0 ; 0 ; 0.111111
+opérandes bn:00059114n ; 0 ; 0 ; 0 ; 0.111111
+mark bn:16597230n ; 0 ; 0 ; 0 ; 0.111111
+applicables bn:00097372a ; 0 ; 0 ; 0 ; 0.111111
+agrégat bn:00096658a ; 0 ; 0 ; 0 ; 0.111111
+fréquents bn:00103324a ; 0 ; 0 ; 0 ; 0.111111
+généricité bn:00177619n ; 0 ; 0 ; 0 ; 0.111111
+précédente bn:00016426n ; 0 ; 0 ; 0 ; 0.111111
+gestion bn:00053116n ; 0 ; 0 ; 0 ; 0.111111
+évolution bn:00032060n ; 0 ; 0 ; 0 ; 0.111111
+is bn:03703419n ; 0 ; 0 ; 0 ; 0.111111
+borne supérieure bn:13919837n ; 0 ; 0 ; 0 ; 0.111111
+principales bn:00109011a ; 0 ; 0 ; 0 ; 0.111111
+relever bn:00085329v ; 0 ; 0 ; 0 ; 0.111111
+opération bn:00053826n ; 0 ; 0 ; 0 ; 0.111111
+grand entier bn:00050016n ; 0 ; 0 ; 0 ; 0.111111
+enveloppe bn:00031069n ; 0 ; 0 ; 0 ; 0.111111
+explicite bn:00101176a ; 0 ; 0 ; 0 ; 0.111111
+ordre normal bn:00331579n ; 0 ; 0 ; 0 ; 0.111111
+division euclidienne bn:03534242n ; 0 ; 0 ; 0 ; 0.111111
+euclidienne bn:00102428a ; 0 ; 0 ; 0 ; 0.111111
+arrondir bn:00093135v ; 0 ; 0 ; 0 ; 0.111111
+unaires bn:00112334a ; 0 ; 0 ; 0 ; 0.111111
+exclusif bn:00102513a ; 0 ; 0 ; 0 ; 0.111111
+inférer bn:00086431v ; 0 ; 0 ; 0 ; 0.111111
+opérateur booléen bn:00012145n ; 0 ; 0 ; 0 ; 0.111111
+négation bn:00057188n ; 0 ; 0 ; 0 ; 0.111111
+paramètre formel bn:14985956n ; 0 ; 0 ; 0 ; 0.111111
+formel bn:00103223a ; 0 ; 0 ; 0 ; 0.111111
+effectifs bn:00043282n ; 0 ; 0 ; 0 ; 0.111111
+signature bn:03654577n ; 0 ; 0 ; 0 ; 0.111111
+duplication de code bn:03107543n ; 0 ; 0 ; 0 ; 0.111111
+pointe bn:00084813v ; 0 ; 0 ; 0 ; 0.111111
+capter bn:00082177v ; 0 ; 0 ; 0 ; 0.111111
+commande bn:00086778v ; 0 ; 0 ; 0 ; 0.111111
+fichier exécutable bn:00058456n ; 0 ; 0 ; 0 ; 0.111111
+syntaxique bn:00111596a ; 0 ; 0 ; 0 ; 0.111111
+instruction vide bn:03112071n ; 0 ; 0 ; 0 ; 0.111111
+vide bn:00087578v ; 0 ; 0 ; 0 ; 0.111111
+mettre fin à bn:00087608v ; 0 ; 0 ; 0 ; 0.111111
+boucle while bn:03237310n ; 0 ; 0 ; 0 ; 0.111111
+jour bn:00025422n ; 0 ; 0 ; 0 ; 0.111111
+améliorer bn:00082573v ; 0 ; 0 ; 0 ; 0.111111
+mode graphique bn:04899163n ; 0 ; 0 ; 0 ; 0.111111
+scanner bn:00027087n ; 0 ; 0 ; 0 ; 0.111111
+périphérique bn:00021491n ; 0 ; 0 ; 0 ; 0.111111
+approprié bn:00109117a ; 0 ; 0 ; 0 ; 0.111111
+accès séquentiel bn:02076469n ; 0 ; 0 ; 0 ; 0.111111
+terminal bn:00100203a ; 0 ; 0 ; 0 ; 0.111111
+erreur de saisie bn:00031482n ; 0 ; 0 ; 0 ; 0.111111
+classloader bn:03647181n ; 0 ; 0 ; 0 ; 0.111111
+accessibilité bn:00000670n ; 0 ; 0 ; 0 ; 0.111111
+pare-feu bn:00034713n ; 0 ; 0 ; 0 ; 0.111111
+technique bn:00109073a ; 0 ; 0 ; 0 ; 0.111111
+réutilisation bn:02823226n ; 0 ; 0 ; 0 ; 0.111111
+réutilisation de code bn:00205717n ; 0 ; 0 ; 0 ; 0.111111
+astre bn:00073964n ; 0 ; 0 ; 0 ; 0.111111
+hériter bn:00043823n ; 0 ; 0 ; 0 ; 0.111111
+sous-type bn:15888113n ; 0 ; 0 ; 0 ; 0.111111
+ascendant bn:00003890n ; 0 ; 0 ; 0 ; 0.111111
+planete bn:00052888n ; 0 ; 0 ; 0 ; 0.111111
+descendre bn:00085333v ; 0 ; 0 ; 0 ; 0.111111
+type dynamique bn:16109138n ; 0 ; 0 ; 0 ; 0.111111
+liaison dynamique bn:02949338n ; 0 ; 0 ; 0 ; 0.111111
+annotation bn:03140746n ; 0 ; 0 ; 0 ; 0.111111
+compatibilité bn:00021322n ; 0 ; 0 ; 0 ; 0.111111
+accessible bn:00096257a ; 0 ; 0 ; 0 ; 0.111111
+invoquer bn:00085009v ; 0 ; 0 ; 0 ; 0.111111
+draw bn:15449583n ; 0 ; 0 ; 0 ; 0.111111
+dehors bn:00032430n ; 0 ; 0 ; 0 ; 0.111111
+différencier bn:00086800v ; 0 ; 0 ; 0 ; 0.111111
+cat bn:14528732n ; 0 ; 0 ; 0 ; 0.111111
+division par zéro bn:01104287n ; 0 ; 0 ; 0 ; 0.111111
+paquetage bn:00904294n ; 0 ; 0 ; 0 ; 0.111111
+normal bn:00107587a ; 0 ; 0 ; 0 ; 0.111111
+normalement bn:00114778r ; 0 ; 0 ; 0 ; 0.111111
+prendre en compte bn:04878250n ; 0 ; 0 ; 0 ; 0.111111
+interfaces graphiques bn:00041418n ; 0 ; 0 ; 0 ; 0.111111
+abstract window toolkit bn:02002015n ; 0 ; 0 ; 0 ; 0.111111
+prompt bn:00111415a ; 0 ; 0 ; 0 ; 0.111111
+containers bn:00022129n ; 0 ; 0 ; 0 ; 0.111111
+intermédiaires bn:00047121n ; 0 ; 0 ; 0 ; 0.111111
+panel bn:01845200n ; 0 ; 0 ; 0 ; 0.111111
+positionnement bn:00030615n ; 0 ; 0 ; 0 ; 0.111111
+taille bn:00093792v ; 0 ; 0 ; 0 ; 0.111111
+souris bn:00021487n ; 0 ; 0 ; 0 ; 0.111111
+généré bn:00086013v ; 0 ; 0 ; 0 ; 0.111111
+nature bn:00057017n ; 0 ; 0 ; 0 ; 0.111111
+listener bn:04706492n ; 0 ; 0 ; 0 ; 0.111111
+touche bn:00049001n ; 0 ; 0 ; 0 ; 0.111111
+fenêtre bn:00081292n ; 0 ; 0 ; 0 ; 0.111111
+anonyme bn:00097155a ; 0 ; 0 ; 0 ; 0.111111
+modèle-vue-contrôleur bn:02245403n ; 0 ; 0 ; 0 ; 0.111111
+interface utilisateur bn:00047088n ; 0 ; 0 ; 0 ; 0.111111
+paradigme bn:01164163n ; 0 ; 0 ; 0 ; 0.111111
+dater bn:00086297v ; 0 ; 0 ; 0 ; 0.111111
+adaptabilité bn:00001267n ; 0 ; 0 ; 0 ; 0.111111
+type de programme bn:00144629n ; 0 ; 0 ; 0 ; 0.111111
+programmation concurrente bn:01933105n ; 0 ; 0 ; 0 ; 0.111111
+segment de code bn:00186041n ; 0 ; 0 ; 0 ; 0.111111
+garantir bn:00082879v ; 0 ; 0 ; 0 ; 0.111111
+consommateur bn:00022095n ; 0 ; 0 ; 0 ; 0.111111
+symétrique bn:00103981a ; 0 ; 0 ; 0 ; 0.111111
+javabeans bn:00307178n ; 0 ; 0 ; 0 ; 0.111111
+couplage bn:00632267n ; 0 ; 0 ; 0 ; 0.111111
+cohesion bn:03340155n ; 0 ; 0 ; 0 ; 0.111111
+adéquation bn:00001355n ; 0 ; 0 ; 0 ; 0.111111
+délicats bn:00101358a ; 0 ; 0 ; 0 ; 0.111111
+processus de conception bn:00026535n ; 0 ; 0 ; 0 ; 0.111111
+garder bn:00089407v ; 0 ; 0 ; 0 ; 0.111111
+impact bn:00046065n ; 0 ; 0 ; 0 ; 0.111111
+architecture logicielle bn:03258160n ; 0 ; 0 ; 0 ; 0.111111
+minimiser bn:00087204v ; 0 ; 0 ; 0 ; 0.111111
+objet métier bn:00756342n ; 0 ; 0 ; 0 ; 0.111111
+représentation interne bn:00047140n ; 0 ; 0 ; 0 ; 0.111111
+gestion de données bn:03631704n ; 0 ; 0 ; 0 ; 0.111111
+applicatives bn:00097373a ; 0 ; 0 ; 0 ; 0.111111
+schéma de bn:00035375n ; 0 ; 0 ; 0 ; 0.111111
+idéale bn:00104501a ; 0 ; 0 ; 0 ; 0.111111
+import bn:00046137n ; 0 ; 0 ; 0 ; 0.111111
+view bn:00059169n ; 0 ; 0 ; 0 ; 0.111111
+esprit bn:00012681n ; 0 ; 0 ; 0 ; 0.111111
+système distribués bn:03732241n ; 0 ; 0 ; 0 ; 0.111111
+java ee bn:03173395n ; 0 ; 0 ; 0 ; 0.111111
+ejb bn:03171558n ; 0 ; 0 ; 0 ; 0.111111
+servlets bn:03188848n ; 0 ; 0 ; 0 ; 0.111111
+interrelation bn:00047207n ; 0 ; 0 ; 0 ; 0.111111
+plan de test bn:00816633n ; 0 ; 0 ; 0 ; 0.111111
+test système bn:03749679n ; 0 ; 0 ; 0 ; 0.111111
+cas de test bn:00543577n ; 0 ; 0 ; 0 ; 0.111111
+malheureusement bn:00114196r ; 0 ; 0 ; 0 ; 0.111111
+régression bn:00066913n ; 0 ; 0 ; 0 ; 0.111111
+test de non-régression bn:03101995n ; 0 ; 0 ; 0 ; 0.111111
+batterie bn:00009065n ; 0 ; 0 ; 0 ; 0.111111
+communauté open source bn:00182430n ; 0 ; 0 ; 0 ; 0.111111
+outil bn:00077585n ; 0 ; 0 ; 0 ; 0.111111
+test fixture bn:14133437n ; 0 ; 0 ; 0 ; 0.111111
+test bn:00094888v ; 0 ; 0 ; 0 ; 0.111111
+bean bn:01412280n ; 0 ; 0 ; 0 ; 0.111111
+composant bn:00021394n ; 0 ; 0 ; 0 ; 0.111111
+assemblé bn:00082845v ; 0 ; 0 ; 0 ; 0.111111
+plate-forme java bn:03241725n ; 0 ; 0 ; 0 ; 0.111111
+java se bn:03173433n ; 0 ; 0 ; 0 ; 0.111111
+convention de nommage bn:01198011n ; 0 ; 0 ; 0 ; 0.111111
+environnement de développement bn:00748100n ; 0 ; 0 ; 0 ; 0.111111
+personnalisation bn:00895785n ; 0 ; 0 ; 0 ; 0.111111
+persistance bn:03432337n ; 0 ; 0 ; 0 ; 0.111111
+support de stockage bn:00025315n ; 0 ; 0 ; 0 ; 0.111111
+sérialisation bn:00070604n ; 0 ; 0 ; 0 ; 0.111111
+canvas bn:02415221n ; 0 ; 0 ; 0 ; 0.111111
+théoriques bn:00111806a ; 0 ; 0 ; 0 ; 0.111111
+algorithmes bn:00002705n ; 0 ; 0 ; 0 ; 0.111111
+fondamentaux bn:00008838n ; 0 ; 0 ; 0 ; 0.111111
+structuration bn:14636497n ; 0 ; 0 ; 0 ; 0.111111
+interaction bn:00036845n ; 0 ; 0 ; 0 ; 0.111111
+unique bn:00112899a ; 0 ; 0 ; 0 ; 0.111111
+wikipedia bn:03288118n ; 0 ; 0 ; 0 ; 0.111111
+barre de défilement bn:00257291n ; 0 ; 0 ; 0 ; 0.111111
+existants bn:00102613a ; 0 ; 0 ; 0 ; 0.111111
+an bn:00081857n ; 0 ; 0 ; 0 ; 0.111111
+bytecode bn:03791673n ; 0 ; 0 ; 0 ; 0.111111
+structure de classe bn:00019550n ; 0 ; 0 ; 0 ; 0.111111
+java native interface bn:01619475n ; 0 ; 0 ; 0 ; 0.111111
+tutoriel bn:00112194a ; 0 ; 0 ; 0 ; 0.111111
+interface de programmation bn:02130401n ; 0 ; 0 ; 0 ; 0.111111
+interfaçage bn:04713937n ; 0 ; 0 ; 0 ; 0.111111
+programme c bn:00014402n ; 0 ; 0 ; 0 ; 0.111111
+wall bn:03172609n ; 0 ; 0 ; 0 ; 0.111111
+illustrer bn:00087826v ; 0 ; 0 ; 0 ; 0.111111
+procedure bn:16903850n ; 0 ; 0 ; 0 ; 0.111111
+descripteur bn:14042302n ; 0 ; 0 ; 0 ; 0.111111
+structure de donnée bn:00025330n ; 0 ; 0 ; 0 ; 0.111111
+line bn:16701562n ; 0 ; 0 ; 0 ; 0.111111
+scanf bn:03106902n ; 0 ; 0 ; 0 ; 0.111111
+allocation bn:00002912n ; 0 ; 0 ; 0 ; 0.111111
+mémoire dynamique bn:03517836n ; 0 ; 0 ; 0 ; 0.111111
+edition bn:00065108n ; 0 ; 0 ; 0 ; 0.111111
+java platform, micro edition bn:03173415n ; 0 ; 0 ; 0 ; 0.111111
+décembre 2006 bn:03315076n ; 0 ; 0 ; 0 ; 0.111111
+produit logiciel bn:00072649n ; 0 ; 0 ; 0 ; 0.111111
+java runtime environment bn:15385568n ; 0 ; 0 ; 0 ; 0.111111
+runtime bn:00068562n ; 0 ; 0 ; 0 ; 0.111111
+java development kit bn:01837373n ; 0 ; 0 ; 0 ; 0.111111
+débogueur bn:00025641n ; 0 ; 0 ; 0 ; 0.111111
+imprécis bn:00107686a ; 0 ; 0 ; 0 ; 0.111111
+kit de développement bn:00899006n ; 0 ; 0 ; 0 ; 0.111111
+application mobiles bn:02709719n ; 0 ; 0 ; 0 ; 0.111111
+pda bn:00059484n ; 0 ; 0 ; 0 ; 0.111111
+java card bn:01342111n ; 0 ; 0 ; 0 ; 0.111111
+carte à puce bn:00072293n ; 0 ; 0 ; 0 ; 0.111111
+javafx bn:00234554n ; 0 ; 0 ; 0 ; 0.111111
+encyclopédie bn:00024746n ; 0 ; 0 ; 0 ; 0.111111
+éditeur de texte bn:00076736n ; 0 ; 0 ; 0 ; 0.111111
+java 2 bn:04756808n ; 0 ; 0 ; 0 ; 0.111111
+plateforme java bn:16564242n ; 0 ; 0 ; 0 ; 0.111111

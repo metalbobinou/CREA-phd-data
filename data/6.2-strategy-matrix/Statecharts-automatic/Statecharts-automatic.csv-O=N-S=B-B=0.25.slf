@@ -1,0 +1,241 @@
+[Lattice]
+111
+13
+[Objects]
+science bn:00069670n
+computer bn:00021464n
+statecharts bn:01128895n
+systems bn:15125301n
+david harel bn:03178978n
+mathematics bn:00053823n
+state bn:00023236n
+state machine bn:00212740n
+diagrams bn:00026817n
+communication bn:00021221n
+units bn:00021497n
+language bn:00049910n
+behavior bn:00009657n
+complex bn:00100148a
+complex system bn:03086504n
+problem bn:00048242n
+reactive systems bn:02824399n
+example bn:00032100n
+automobiles bn:00007309n
+networks bn:00024712n
+kind bn:00035907n
+way bn:00033729n
+time bn:00077270n
+simulation bn:00021496n
+set bn:00070697n
+output bn:00036821n
+information bn:00046705n
+tool bn:00077585n
+number bn:00058285n
+state transition bn:03348716n
+nature bn:00057017n
+triggering bn:00082306v
+hierarchical bn:00104156a
+orthogonality bn:00059586n
+main bn:00099598a
+possible bn:00108829a
+broadcast bn:00013234n
+semantics bn:00070404n
+concept bn:00021547n
+occurring bn:00085337v
+america bn:00003341n
+achieved bn:00082226v
+automata bn:00007371n
+c d bn:00016915n
+sec bn:00068672n
+history bn:00044268n
+effect bn:00021961n
+require bn:00091028v
+determinism bn:00026654n
+simultaneous bn:00099916a
+application bn:00005095n
+possibility bn:00045632n
+light bn:00051108n
+second bn:00095974a
+merely bn:00114626r
+reg bn:01922794n
+timers bn:00077309n
+syntax bn:00062118n
+substates bn:00964536n
+conditional bn:00100214a
+defined bn:00086465v
+formal syntax bn:01042120n
+operational semantics bn:02057536n
+definition bn:00025928n
+condition c bn:00675915n
+subset bn:00074971n
+management bn:00053116n
+higraphs bn:01691263n
+finite bn:00102992a
+new york bn:00041611n
+automata theory bn:00152075n
+entity bn:00031027n
+types bn:00016413n
+multiple bn:00107028a
+composite bn:00100155a
+sequence bn:00070574n
+large number bn:14223782n
+goal bn:00030721n
+scenario bn:01190125n
+city bn:03335997n
+workflows bn:00081578n
+plant bn:00035324n
+transition state bn:03731398n
+strategy bn:00069579n
+police bn:00022026n
+transducer bn:00077966n
+code bn:00020354n
+current bn:00096401a
+traffic light bn:00074441n
+bit bn:00010731n
+include bn:00089662v
+logical value bn:00855623n
+gate bn:00037487n
+flip-flop bn:00035248n
+summary bn:00075142n
+autonomous bn:00097830a
+stateflow bn:03369007n
+red light bn:00066676n
+composite states bn:00892979n
+inner bn:00105133a
+deep bn:00101054a
+simple bn:00098053a
+atomic bn:00097696a
+interaction diagram bn:02571962n
+activity diagrams bn:02627321n
+deterministic finite state automata bn:03499526n
+superstate bn:03656095n
+fsa bn:03013778n
+basic bn:00098103a
+fsms bn:03431506n
+state actions bn:00955439n
+[Attributes]
+A1
+A2
+A3
+A4
+A5
+C1
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+[relation]
+1 1 1 0 1 0 0 1 1 0 1 0 0 
+1 0 1 1 1 0 0 0 1 0 1 0 0 
+0 1 0 1 1 0 0 1 0 0 0 1 0 
+0 0 1 1 0 1 1 0 0 0 0 1 1 
+1 0 0 0 1 0 0 1 1 0 1 0 0 
+1 1 1 0 1 1 0 0 1 0 1 1 1 
+0 1 0 0 0 0 0 1 0 0 0 1 0 
+1 1 1 0 1 0 1 1 1 0 1 0 1 
+1 1 0 1 1 1 0 1 0 0 0 1 0 
+1 0 1 0 1 0 0 1 0 0 0 0 1 
+1 1 0 1 1 1 1 1 0 0 0 1 1 
+1 1 0 1 1 1 1 0 1 0 0 1 0 
+1 1 0 1 0 0 0 0 0 1 0 0 0 
+1 1 0 1 1 1 1 0 1 0 0 1 0 
+0 1 0 0 1 0 1 0 0 0 1 0 1 
+0 1 1 0 0 0 0 0 0 1 0 1 1 
+1 1 0 0 1 0 0 1 0 1 0 1 0 
+1 1 0 1 1 1 0 1 0 0 0 0 0 
+1 1 0 0 1 0 0 0 0 0 0 1 0 
+1 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 1 1 1 1 0 1 0 0 0 0 0 
+0 1 1 1 1 1 0 0 0 0 1 1 1 
+1 0 1 0 0 0 0 0 0 1 0 1 0 
+1 0 1 0 1 1 1 0 0 0 0 1 0 
+1 1 0 0 1 0 1 0 0 0 0 0 1 
+1 1 1 1 0 0 1 0 0 0 0 1 0 
+1 1 1 1 0 1 0 1 0 0 0 1 0 
+1 0 1 1 1 0 0 0 0 0 1 0 0 
+1 0 1 1 1 1 0 0 0 0 0 1 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 1 1 
+1 0 0 0 0 1 1 0 0 0 0 1 0 
+1 1 1 0 1 0 0 1 0 0 0 0 1 
+0 1 0 1 1 1 0 0 0 0 0 1 0 
+1 1 0 1 1 1 1 0 1 0 0 1 0 
+1 1 1 0 1 0 0 1 0 1 0 0 0 
+0 1 1 0 0 1 0 1 1 0 1 1 1 
+1 1 1 1 1 0 1 0 0 0 0 1 0 
+1 1 1 1 1 0 0 0 1 0 0 0 0 
+1 1 0 1 1 0 0 1 0 0 1 1 0 
+1 1 0 1 0 0 0 0 0 0 0 0 1 
+1 1 0 1 1 0 0 1 0 0 0 0 0 
+1 0 0 1 0 1 0 0 0 0 0 1 1 
+1 1 0 0 1 0 0 0 1 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 0 1 0 0 0 0 0 1 
+1 0 1 1 1 0 0 0 0 0 1 1 1 
+1 0 0 0 0 0 0 1 0 0 0 1 0 
+1 0 0 0 1 0 0 0 1 0 0 0 0 
+1 0 1 1 1 1 0 1 0 0 0 1 0 
+1 1 1 1 1 0 0 1 0 0 0 0 0 
+1 0 0 1 0 1 0 0 0 0 0 1 0 
+1 1 0 1 1 0 1 0 0 0 1 1 0 
+1 1 0 1 0 0 1 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 
+1 1 0 0 1 1 0 1 0 0 0 0 1 
+1 1 0 0 1 0 1 0 1 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 0 1 0 0 0 1 0 
+1 1 0 1 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 1 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 1 0 
+1 0 0 0 1 0 0 0 0 0 0 1 0 
+1 1 0 0 1 0 0 1 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 1 1 0 1 0 1 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 1 1 1 1 0 0 0 0 1 0 
+0 1 0 1 1 1 0 0 0 0 1 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 1 
+0 1 1 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 1 1 1 
+0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 1 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 1 0 1 0 1 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 0 0 1 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 1 0 0 0 0 1 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
