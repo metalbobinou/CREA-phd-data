@@ -22,11 +22,10 @@ The current state of the CREA method is available in another Git repository : [C
 - **C11 - C19** are courses on PHP, but these were added later in order to check of robust the CREA method is when we double the number of inputs
 - **CJA** is a Java course
 
-- C1, C2, C4, C7, C8, C9 are in *slides* format
-- C3, C5, C6, and CJA  are in *text* format
-
-- C12, C13, C14, C16, C19 are in *slides* format
-- C11, C15, C17, C19 are in *text* format
+| Slide format      | Text format   |
+|-------------------|---------------|
+| C1 C2 C4 C7 C8 C9 | C3 C5 C6  CJA |
+|C12 C13 C14 C16 C18|C11 C15 C17 C19|
 
 
 ## Matrices (6.1 Input Matrix)
