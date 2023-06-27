@@ -22,9 +22,9 @@ The current state of the CREA method is available in another Git repository : [C
 - **C10** is my own course materials. Therefore, I didn't included it within the regular scenarios. I still kept it in order to evaluate it later. (Two matrices included it : PHP+C10 and PHP+Java+C10)
 
 - **C1 - C9** are courses on PHP, these are the main courses used for building the CREA method
-- **C11 - C19** are courses on PHP, but these were added later in order to check of robust the CREA method is when we double the number of inputs
+- **C11 - C19** are courses on PHP, but these were added later in order to check how reliable the CREA method is when we double the number of inputs
 
-- **CJA** is a Java course
+- **CJA** is a Java course, it is used to test how the visualisation excludes an off topic document. Java has been chosen as it's still a development language slightly linked with the web, but absolutely not with PHP.
 
 | Slide format      | Text format   |
 |-------------------|---------------|
@@ -59,5 +59,9 @@ Various combinations can be found : Full-Text-noC-noP-PHP+Java, PHP+Java+C10, ..
 
 
 # Scenarios
+
+5 scenarios were designed in order to test the CREA method and some qualities :
+
+- Scenario 1:  the main scenario
 
 
