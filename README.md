@@ -24,7 +24,7 @@ The current state of the CREA method is available in another Git repository : [C
 
 - **CJA** is a Java course, it is used to test how the visualisation excludes an off topic document. Java has been chosen as it's still a development language slightly linked with the web, but absolutely not with PHP.
 
-- **C10** is my own course materials. Therefore, I didn't included it within the regular scenarios. I still kept it in order to evaluate it later. (Two matrices included it : PHP+C10 and PHP+Java+C10)
+- *__C10__ is my own course materials. Therefore, I didn't included it within the regular scenarios. I still kept it in order to evaluate it later. (Two matrices included it : PHP+C10 and PHP+Java+C10)*
 
 
 | Slide format      | Text format   |
@@ -54,7 +54,7 @@ The current state of the CREA method is available in another Git repository : [C
 - __Full-Text-C+noP-*__ are matrices with text only, but in __C6__ : *with* the "hors programme" (extra-curricular) part of the course (C), but *without* the students projects (noP)
 - __Full-Text-noC+noP-*__ are matrices with text only, but in __C6__ : *without* the "hors programme" (extra-curricular) part of the course (noC), and *without* the students projects (noP)
 
-- **PHP-automatic+C10** is a matrix with the 9 PHP course + my own course (C10) that I built (I didn't really tested this one)
+- *__PHP-automatic+C10__ is a matrix with the 9 PHP course + my own course (C10) that I built (I didn't really tested this one)*
 
 Various combinations can be found : Full-Text-noC-noP-PHP+Java, PHP+Java+C10, ...
 
