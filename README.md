@@ -19,12 +19,13 @@ The current state of the CREA method is available in another Git repository : [C
 
 ### Input Materials
 
-- **C10** is my own course materials. Therefore, I didn't included it within the regular scenarios. I still kept it in order to evaluate it later. (Two matrices included it : PHP+C10 and PHP+Java+C10)
-
 - **C1 - C9** are courses on PHP, these are the main courses used for building the CREA method
 - **C11 - C19** are courses on PHP, but these were added later in order to check how reliable the CREA method is when we double the number of inputs
 
 - **CJA** is a Java course, it is used to test how the visualisation excludes an off topic document. Java has been chosen as it's still a development language slightly linked with the web, but absolutely not with PHP.
+
+- **C10** is my own course materials. Therefore, I didn't included it within the regular scenarios. I still kept it in order to evaluate it later. (Two matrices included it : PHP+C10 and PHP+Java+C10)
+
 
 | Slide format      | Text format   |
 |-------------------|---------------|
@@ -62,6 +63,12 @@ Various combinations can be found : Full-Text-noC-noP-PHP+Java, PHP+Java+C10, ..
 
 5 scenarios were designed in order to test the CREA method and some qualities :
 
-- Scenario 1:  the main scenario
+- Scenario 1 *(reference case)*: the main scenario based on 9 PHP courses in french (6 in slides format, 3 in text format). The objective is to test if the method is able to work in one simple case. The visualisation and the clusters are produced.
 
+- Scenario 2 *(noise resistance)*: a Java course in french (text format) is added to the reference case. The objective is to evaluate the resistance to the noise by checking how the Java course will be excluded on the visualisation. Only the visualisation is produced.
 
+- Scenario 3 *(reliability)*: 9 additional courses in french are added to the reference case (5 in slides format, 4 in text format). The objective is to evaluate the reliability by checking if the results are still relevant when doubling the inputs. The visualisation and the clusters are produced.
+
+- Scenario 4 *(correction)*: only text format courses are used, including the Java one (7 + 1 courses). The course C6 is corrected by deleting useless parts multiple times (first by deleting the reports of students' projects from the document, then by deleting extra-curriculum chapters). The objective is to test if the method is able to show if a document is more relevant when corrected. Only the visualisation is produced, but 6 times (only the PHP courses, only the PHP courses while deleting students' projects in C6, only the PHP courses while deleting students' projects and extra-curriculum in C6, the same previous cases while introducing the Java course).
+
+- Scenario 5 *(another theme)*: 13 documents of various natures in english talking about Statecharts are used (5 research articles [A], and 8 presentations, web pages, and courses [C]). The objectives are first to check if the method, based on BabelFy and BabelNet, is able to manage english instead of french, and second to check if a less known topic than PHP (like Statecharts) is still managed by the CREA method. The visualisation and the clusters are produced.
